@@ -1,3 +1,5 @@
-"type : liquid
-name : [purple]Pugneum
-description : A sinister liquid that keeps sentinels running."
+{
+"type : CellLiquid"
+"name : [purple]Pugneum"
+"description : A sinister liquid that keeps sentinels running."
+}
