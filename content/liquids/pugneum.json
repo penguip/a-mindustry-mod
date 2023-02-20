@@ -1,5 +1,5 @@
-"type = CellLiquid",
-"name = [purple]Pugneum",
-"description = A sinister liquid that keeps sentinels running.",
-"viscosity = .65",
-"color = DCC6C6"
+"type : CellLiquid,
+name : [purple]Pugneum,
+description : A sinister liquid that keeps sentinels running.",
+viscosity : .65,
+color : DCC6C6"
