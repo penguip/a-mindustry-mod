@@ -1,4 +1,7 @@
 "name": "[purple]Pugneum"
 "description": "A sinister liquid that keeps sentinels running."
 viscosity: .65
+explosiveness: 1
 color: 6500a8
+fullIcon: "pugneum.png"
+uiIcon: "pugneum.png"
