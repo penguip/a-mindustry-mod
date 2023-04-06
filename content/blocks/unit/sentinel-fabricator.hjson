@@ -7,5 +7,6 @@ consumes: [
 "pugneum/3.2"
 ]
 description: "Creates sentinels. Output may be used directly or moved into Anoprojectors for configuration/upgrading."
-"plans": {
-    "sentinel-drone"
+"plans": [
+   { 
+   "unit": "sentinel-drone"
