@@ -11,10 +11,9 @@ hovering: true
 "targetAir": "false"
 }
 "bullet": [
-{
 "type": "BasicBulletType"
 "sprite": "bullet"
 "speed": "23"
 "damage": "15"
-}]
+]]
 
