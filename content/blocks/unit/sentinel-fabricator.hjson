@@ -1,0 +1,11 @@
+name: "Sentenel Fabricator"
+type: UnitFactory
+health: 560
+category: units
+consumes: [
+"power/1.5"
+"pugneum/3.2"
+]
+description: "Creates sentinels. Output may be used directly or moved into Anoprojectors for configuration/upgrading."
+"plans": {
+    "sentinel-drone"
