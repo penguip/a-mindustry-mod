@@ -1,4 +1,5 @@
 name: "Sentenel Fabricator"
+size: 2
 type: UnitFactory
 health: 560
 category: units
@@ -13,6 +14,10 @@ description: "Creates sentinels. Output may be used directly or moved into Anopr
         requirements: [
               {"item": "cadocopper", "amount": 45}
         ]
-   time: 500
+   time: 3400
    }
+]
+requirements: [
+"cadocopper/500"
+"silicon/250"
 ]
