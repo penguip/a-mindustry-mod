@@ -2,5 +2,5 @@ type: Floor
 name: "Sinistride"
 size: 1
 liquidDrop("pugneum")
-status: "distilled"
+status: ("distilled")
 CacheLayer: water
