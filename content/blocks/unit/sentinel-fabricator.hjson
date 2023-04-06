@@ -3,7 +3,7 @@ size: 2
 type: UnitFactory
 health: 560
 category: units
-"consumes": [
+consumes: [
 "power/1.5"
 "pugneum/3.2"
 ]
