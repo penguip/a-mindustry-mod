@@ -1,6 +1,7 @@
 type: "Floor"
 name: "Sinistride"
 size: 1
+variants: 0
 liquidDrop: "pugneum"
 cacheLayer: tar
 isLiquid: true
