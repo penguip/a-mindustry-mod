@@ -2,4 +2,4 @@ type: Floor
 name: "Sinistride"
 size: 1
 liquidDrop("pugneum")
-CacheLayer: water
+cacheLayer: water
