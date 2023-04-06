@@ -1,0 +1,7 @@
+name: "Entry"
+type: ItemTurret
+size: 1
+consumePower: .1
+description: "The essential turret of Pugneo. Fires incendiary bullets at nearby enemy targets. Requires power."
+ammo: [
+   {
