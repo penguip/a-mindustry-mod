@@ -2,6 +2,6 @@ type: "Floor"
 name: "Sinistride"
 size: 1
 liquidDrop: "pugneum"
-cacheLayer: water
+cacheLayer: tar
 isLiquid: true
 status: "distilled"
