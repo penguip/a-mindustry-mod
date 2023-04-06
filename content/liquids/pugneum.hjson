@@ -4,3 +4,4 @@ viscosity: .65
 explosiveness: 1
 color: 6500a8
 effect: "distilled"
+isCoolant: false
