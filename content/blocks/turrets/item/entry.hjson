@@ -1,4 +1,5 @@
 name: "Entry"
+hasPower: true
 type: ItemTurret
 requirements: [
 "cadocopper/35"
