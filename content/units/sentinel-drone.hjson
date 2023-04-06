@@ -13,6 +13,3 @@ type: BasicBulletType
 sprite: bullet
 speed: 23
 damage: 15
-]
-]
-//idk what to put here
