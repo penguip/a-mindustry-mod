@@ -1,4 +1,6 @@
 name: "Entry"
+range: 12
+reload: 25
 category: turret
 hasPower: true
 type: ItemTurret
@@ -14,7 +16,8 @@ description: "The essential turret of Pugneo. Fires incendiary bullets at nearby
    "cadocopper": {
    type: BasicBulletType
    sprite: "drill-laser-end"
-   speed: 13
+   speed: 2.3
+   lifetime: 2.5
    incendAmount: .5
    damage: 6
    }
