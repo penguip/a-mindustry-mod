@@ -10,8 +10,8 @@ reload: 78
 targetAir: false
 bullet: [
 type: BasicBulletType
-"sprite": "bullet"
-"speed": "23"
-"damage": "15"
+sprite: bullet
+speed: 23
+damage: 15
 ]]
 
