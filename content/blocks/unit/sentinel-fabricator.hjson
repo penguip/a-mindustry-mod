@@ -3,11 +3,12 @@ size: 2
 type: UnitFactory
 health: 560
 category: units
-consumes: [
+consumes: {
 power: 1.5
 liquids: [
 pugneum/3.2
 ]
+}
 description: "Creates sentinels. Output may be used directly or moved into Anoprojectors for configuration/upgrading."
 "plans": [
    { 
