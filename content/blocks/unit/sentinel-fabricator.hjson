@@ -10,3 +10,9 @@ description: "Creates sentinels. Output may be used directly or moved into Anopr
 "plans": [
    { 
    "unit": "sentinel-drone"
+        requirements: [
+              {"item": "cadocopper", "amount": 45}
+        ]
+   time: 500
+   }
+]
