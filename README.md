@@ -1,2 +1,2 @@
-# a-mindustry-mod
-Me trying out modding for mindustry
+# Sentenels addon
+VERY alpha if you have any issues or questions please let me know as soon as you can in the Issues tab
