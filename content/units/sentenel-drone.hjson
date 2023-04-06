@@ -1,5 +1,12 @@
 name: "Sentenel Drone"
 description: "The sentenel origin. Fires basic bullets at enemy ground targets."
 speed: .93
-weapons
+hovering: true
+weapons[
+("sentenel-gun")
+"x": 4
+"reload": 78
+     "bullet"(BasicBulletType(45,57))
+
+
 
