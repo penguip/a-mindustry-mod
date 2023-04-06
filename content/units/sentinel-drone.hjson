@@ -5,10 +5,10 @@ speed: .93
 hovering: true
 weapons{
 ("sentinel-gun")
-      "x": 4
-      "reload": 78
-      "targetAir": false
+      "x": "4"
+      "reload": "78"
+      "targetAir": "false"
               "bullet"(BasicBulletType(45,57))
-              "speed": 23
-              "damage": 15
+              "speed": "23"
+              "damage": "15"
 }
