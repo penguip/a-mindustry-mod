@@ -1,5 +1,7 @@
-type: Floor
+type: "Floor"
 name: "Sinistride"
 size: 1
-liquidDrop("pugneum")
+liquidDrop: "pugneum"
 cacheLayer: water
+isLiquid: true
+effect: "distilled"
