@@ -7,7 +7,7 @@ description: "The essential turret of Pugneo. Fires incendiary bullets at nearby
 "ammoTypes": {
    "cadocopper": {
    type: BasicBulletType
-   sprite: "laser-end"
+   sprite: "drill-laser-end"
    speed: 13
    incendChance: 5
    damage: 6
