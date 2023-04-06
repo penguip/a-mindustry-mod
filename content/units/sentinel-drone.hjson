@@ -1,8 +1,7 @@
-
 name: "Sentinel Drone"
 description: "The sentinel origin. Fires basic bullets at enemy ground targets."
-range: 45
-maxRange: 45
+range: 90
+maxRange: 90
 health: 280
 speed: .93
 hovering: true
@@ -11,7 +10,7 @@ hovering: true
      name: sentinel-gun
      x: 2
      mirror: true
-     reload: 34
+     reload: 29
      targetAir: false
      bullet: {
         type: BasicBulletType
