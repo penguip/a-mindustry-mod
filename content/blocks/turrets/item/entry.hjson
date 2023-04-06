@@ -18,7 +18,7 @@ description: "The essential turret of Pugneo. Fires incendiary bullets at nearby
    sprite: "drill-laser-end"
    speed: 2.3
    lifetime: 2.5
-   incendAmount: .5
+   incendAmount: 1
    damage: 6
    }
 }
