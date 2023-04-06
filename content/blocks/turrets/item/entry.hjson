@@ -1,5 +1,5 @@
 name: "Entry"
-range: 12
+range: 49
 reload: 25
 category: turret
 hasPower: true
