@@ -4,16 +4,17 @@ health: 280
 speed: .93
 hovering: true
 "weapons": [
-
+{
 "name": "sentinel-gun"
 "x": "4"
 "reload": "78"
 "targetAir": "false"
+}
 "bullet": [
 {
 "type": "BasicBulletType"
 "sprite": "bullet"
 "speed": "23"
 "damage": "15"
-}
-]
+}]
+
