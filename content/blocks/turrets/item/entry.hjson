@@ -1,8 +1,8 @@
 name: "Entry"
 type: ItemTurret
 size: 1
-"consume": {
-power/.1}
+"consume": [
+power/.1]
 description: "The essential turret of Pugneo. Fires incendiary bullets at nearby enemy targets. Requires power."
 "ammoTypes": {
    "cadocopper": {
