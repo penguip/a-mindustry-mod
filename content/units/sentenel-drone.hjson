@@ -1,0 +1,5 @@
+name: "Sentenel Drone"
+description: "The sentenel origin. Fires basic bullets at enemy ground targets."
+speed: .93
+weapons
+
