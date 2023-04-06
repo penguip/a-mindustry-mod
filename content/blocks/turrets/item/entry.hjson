@@ -5,7 +5,9 @@ requirements: [
 "cadocopper/35"
 ]
 size: 1
-consumePower: .1
+"consumes": {
+     power: .1
+}
 description: "The essential turret of Pugneo. Fires incendiary bullets at nearby enemy targets. Requires power."
 "ammoTypes": {
    "cadocopper": {
