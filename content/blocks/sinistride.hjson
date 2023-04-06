@@ -4,4 +4,4 @@ size: 1
 liquidDrop: "pugneum"
 cacheLayer: water
 isLiquid: true
-effect: "distilled"
+status: "distilled"
