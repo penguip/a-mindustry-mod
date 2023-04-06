@@ -3,7 +3,7 @@ description: "The sentinel origin. Fires basic bullets at enemy ground targets."
 health: 280
 speed: .93
 hovering: true
-weapons[
+weapons{
 ("sentinel-gun")
       "x": 4
       "reload": 78
@@ -11,6 +11,4 @@ weapons[
               "bullet"(BasicBulletType(45,57))
               "speed": 23
               "damage": 15
-]
-
-
+}
