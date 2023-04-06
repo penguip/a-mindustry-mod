@@ -7,7 +7,7 @@ hovering: true
 "weapons": [
    {
      name: sentinel-gun
-     x: 4
+     x: 2
      mirror: true
      reload: 78
      targetAir: false
