@@ -1,5 +1,5 @@
-name : testing mod
-displayName : testing mod
+name : Sentinel addon
+displayName : Sentinel addon
 author : penguip
-description : me trying out modding for mindustry, i need help with spriting so head to github and tell me how to insert a png file into the project
+description : It aims to add robotic entites (called sentinels)and some other content
 minGameVersion : 136
