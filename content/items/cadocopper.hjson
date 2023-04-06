@@ -1,0 +1,7 @@
+name: "Cadocopper"
+description: "Copper distilled by pugneum. A vital part of Pugneo industry"
+details: "The pugneum has charged it by a small amount."
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: .5
