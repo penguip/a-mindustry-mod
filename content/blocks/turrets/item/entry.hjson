@@ -15,7 +15,7 @@ description: "The essential turret of Pugneo. Fires incendiary bullets at nearby
    type: BasicBulletType
    sprite: "drill-laser-end"
    speed: 13
-   incendChance: 5
+   incendAmount: .5
    damage: 6
    }
 }
