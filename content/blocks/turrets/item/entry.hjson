@@ -1,4 +1,5 @@
 name: "Entry"
+category: turret
 hasPower: true
 type: ItemTurret
 requirements: [
