@@ -8,7 +8,7 @@ name: sentinel-gun
 x: 4
 reload: 78
 targetAir: false
-"bullet": [
+"bullet: [
 type: BasicBulletType
 sprite: bullet
 speed: 23
