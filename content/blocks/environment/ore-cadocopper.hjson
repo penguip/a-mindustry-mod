@@ -1,4 +1,4 @@
 name: "Cadocopper"
 size: 1
 variants: 2
-itemDrop: ("cadocopper")
+itemDrop: "cadocopper"
