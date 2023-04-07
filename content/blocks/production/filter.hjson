@@ -3,7 +3,7 @@ description: "Sifts through pugneum for nanites.[red]Uses ridiculously large amo
 size: 2
 type: GenericCrafter
 health: 160
-consumes: [
+"consumes": [
    liquid: 
    "pugneum/1.3"
 ]
