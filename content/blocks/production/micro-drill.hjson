@@ -5,7 +5,7 @@ anolead/15
 cadocopper/35
 ]
 drillTier: 3
-category: drills
+category: production
 drillTime: 2.14
 consumes: {
     liquid: "pugneum/.98"
