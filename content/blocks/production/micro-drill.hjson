@@ -10,10 +10,10 @@ consumes: [
 pugneum/.98
 ]
 description: "A precise but weak starter drill for Pugneo."
-research: [
+research: {
     parent: core-annex
     requirements: [
          "anolead/245"
          "cadocopper/600"
-    ]
-]
+         ]
+}
