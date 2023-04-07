@@ -3,9 +3,9 @@ description: "Sifts through pugneum for nanites.[red]Uses ridiculously large amo
 size: 2
 type: GenericCrafter
 health: 160
-consumes: {
+consumes: [
 "pugneum/1.3"
-}
+]
 craftTime: 1200
 outputItem: "nanite/2"
 category: crafting
