@@ -6,7 +6,7 @@ consumes: [
 power: 2.4
 ]
 requirements: [
-"tereletrinuim/15
+"tereletrinuim/15"
 "siligone/150"
 "cadocopper/350"
 ]
