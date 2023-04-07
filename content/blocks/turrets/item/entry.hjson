@@ -17,8 +17,16 @@ description: "The essential turret of Pugneo. Fires incendiary bullets at nearby
    type: BasicBulletType
    sprite: "drill-laser-end"
    speed: 2.3
-   lifetime: 2.5
+   lifetime: 9.84
    incendAmount: 1
    damage: 6
+   }
+   "siligone": {
+   type: BasicBulletType
+   sprite: "drill-laser-end"
+   speed: 2.3
+   lifetime: 10.987
+   homingPower: 1
+   damage: 17
    }
 }
