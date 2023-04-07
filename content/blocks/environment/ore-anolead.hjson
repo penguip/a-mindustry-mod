@@ -1,0 +1,5 @@
+name: "Anolead"
+variants: 3
+size: 1
+itemDrop: "anolead"
+type: OreBlock
