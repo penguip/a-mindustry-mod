@@ -6,7 +6,6 @@ speed: 2.9
 weapons: [
    {
     type: RepairBeamWeapon
-    name: "sentinel-repairer"
     reload: 20
     x: 0
     y: -2
@@ -17,8 +16,8 @@ weapons: [
     mirror: false
     targetUnits: true
     targetBuildings: false
-    autoTarget: false
-    controllable: false
+    autoTarget: true
+    controllable: true
     laserColor: efcdb8
     healColor: efcdb8
     bullet: {
