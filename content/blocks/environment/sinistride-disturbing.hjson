@@ -2,6 +2,7 @@ name: "Disturbing Sinistride"
 type: Floor
 size: 1
 variants: 0
+cacheLayer: tar
 effect: "distilled"
 drownTime: 350
 deepLiquidMultiplier: 2.5
