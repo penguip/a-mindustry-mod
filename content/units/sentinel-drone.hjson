@@ -1,5 +1,6 @@
 name: "Sentinel Drone"
 description: "The sentinel origin. Fires basic bullets at enemy ground targets."
+size: 1.25
 range: 90
 maxRange: 90
 health: 280
