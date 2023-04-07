@@ -4,8 +4,7 @@ size: 2
 type: GenericCrafter
 "requirements": {
 cadocopper/250
-anolead/25
-}
+anolead/25}
 health: 160
 "consumes": [
    liquid: 
