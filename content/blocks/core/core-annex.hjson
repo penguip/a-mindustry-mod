@@ -1,0 +1,11 @@
+name: "Core: Annex"
+description: Core of the base. Armored. Once destroyed, the sector is lost.
+itemCapacity: 9500
+type: Core
+requirements: [
+"cadocopper/4000"
+"anolead/3500"
+]
+unitType: "alpha"
+health: 6500
+armor: 3
