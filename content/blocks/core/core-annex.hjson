@@ -1,7 +1,7 @@
 name: "Core: Annex"
 description: Core of the base. Armored. Once destroyed, the sector is lost.
 itemCapacity: 9500
-type: Core
+type: CoreBlock
 requirements: [
 "cadocopper/4000"
 "anolead/3500"
