@@ -41,6 +41,6 @@ hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
-defaultCore: core-shard
+defaultCore: core-annex
 parent: sun
 solarSystem: sun
