@@ -1,0 +1,9 @@
+name: "Filter"
+description: "Sifts through pugneum for nanites.[red]Uses ridiculously large amounts of pugneum [].
+size: 2
+health: 160
+consumes: {
+   liquid: {
+   liquid: "pugneum"
+   }
+}
