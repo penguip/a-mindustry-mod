@@ -1,5 +1,4 @@
 localizedName: Pugneo
-sectors: 2
 description: A remote planet where tragedy struck long ago. Nothing is left here except the crimson lair, The Atlas.
 alwaysUnlocked: true
 mesh: {
@@ -18,6 +17,7 @@ mesh: {
   scale: 1
   mag: 1.5
 }
+sectorSize: 2.5
 #cloudMesh: {}
 generator: {
   min: 100
