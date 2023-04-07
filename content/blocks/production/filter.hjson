@@ -3,8 +3,8 @@ description: "Sifts through pugneum for nanites.[red]Uses ridiculously large amo
 size: 2
 type: GenericCrafter
 requirements: [
-cadocopper/250
-anolead/25
+"cadocopper/250"
+"anolead/25"
 ]
 health: 160
 "consumes": [
