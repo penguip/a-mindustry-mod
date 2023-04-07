@@ -6,7 +6,7 @@ speed: 2.9
 weapons: [
    {
     type: RepairBeamWeapon
-    name: "sentinel-repairer"
+    name: "drone-repairer"
     reload: 20
     x: 0
     y: -2
