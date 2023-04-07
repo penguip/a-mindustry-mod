@@ -1,9 +1,15 @@
 name: "Filter"
 description: "Sifts through pugneum for nanites.[red]Uses ridiculously large amounts of pugneum [].
 size: 2
+type: GenericCrafter
 health: 160
 consumes: {
    liquid: {
-   liquid: "pugneum"
+   "pugneum/1.3"
    }
+}
+craftTime: 1200
+category: crafting
+outputItem: {
+"nanite/2
 }
