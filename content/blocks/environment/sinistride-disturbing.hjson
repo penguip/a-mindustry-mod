@@ -4,7 +4,7 @@ size: 1
 isLiquid: true
 variants: 0
 cacheLayer: tar
-effect: "distilled"
+status: "distilled"
 drownTime: 350
 deepLiquidMultiplier: 2.5
 liquidDrop: "pugneum"
