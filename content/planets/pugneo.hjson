@@ -11,10 +11,10 @@ mesh: {
   radius: 1.2
   octaves: 3
   persistence: 0.8
-  scale: 1
+  scale: 3
   mag: 1.5
 }
-sectorSize: 1
+sectorSize: 3.2
 #cloudMesh: {}
 generator: {
   min: 100
