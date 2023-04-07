@@ -43,4 +43,3 @@ allowWaves: true
 defaultCore: core-shard
 parent: sun
 solarSystem: sun
-launchCandidates: []
