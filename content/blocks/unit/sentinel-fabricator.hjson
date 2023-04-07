@@ -1,10 +1,8 @@
-name: "Sentenel Fabricator"
-size: 2
+name: "Sentinel Fabricator"
+size: 3
 type: UnitFactory
 health: 560
 category: units
-inRegion: "factory-in-2"
-outRegion: "factory-out-2"
 consumes: {
 power: 1.5
 liquids: [
