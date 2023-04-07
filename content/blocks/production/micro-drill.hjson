@@ -1,8 +1,19 @@
 type: Drill
 name: "Micro Drill"
+requirements: [
+anolead/15
+cadocopper/35
+]
 drillTier: 1
 drillTime: 2.14
 consumes: [
 pugneum/.98
 ]
 description: "A precise but weak starter drill for Pugneo."
+research: [
+    parent: core-annex
+    requirements: [
+         "anolead/245"
+         "cadocopper/600"
+    ]
+]
