@@ -1,5 +1,5 @@
 localizedName: Pugneo
-description: A barren planet where tragedy struck long ago. Nothing is left here except the crimson lair, The Atlas.
+description: A remote planet where tragedy struck long ago. Nothing is left here except the crimson lair, The Atlas.
 alwaysUnlocked: true
 mesh: {
   type: NoiseMesh
