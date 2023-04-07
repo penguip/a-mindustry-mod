@@ -2,9 +2,6 @@ name: "Filter"
 description: "Sifts through pugneum for nanites.[red]Uses ridiculously large amounts of pugneum [].
 size: 2
 type: GenericCrafter
-requirements: [
-"cadocopper/350"
-]
 health: 160
 "consumes": [
    liquid: 
@@ -13,3 +10,6 @@ health: 160
 craftTime: 1200
 outputItem: "nanite/2"
 category: crafting
+requirements: [
+"cadocopper/350"
+]
