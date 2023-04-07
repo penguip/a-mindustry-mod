@@ -11,3 +11,8 @@ category: effect
 health: 6500
 size: 3
 armor: 3
+research: {
+        root: true,
+        name: "Pugneo",
+        planet: "pugneo"
+}
