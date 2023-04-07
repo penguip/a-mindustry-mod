@@ -6,7 +6,7 @@ size: 2
 reload: 12
 category: turret
 consumes: {
-"power: 2.4"
+power: 2.4
 }
 requirements: [
 "tereletrinuim/15"
