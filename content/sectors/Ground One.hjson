@@ -1,5 +1,5 @@
 planet: pugneo
-name: "Ground One"
+name: "ground-one"
 sector: 0
 captureWave: 16
 research: core-shard
