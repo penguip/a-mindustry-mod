@@ -1,0 +1,15 @@
+flying: true
+name: Sentinel Repair Drone
+description: A smol support drone, repairing any unit nearby.
+health: 230
+speed: 2.9
+weapons: [
+   {
+    type: RepairBeamWeapon("sentinel-repairer")
+    y: -3
+    bullet: {
+       type: BulletType()
+      maxRange: 75
+    }
+   }
+]
