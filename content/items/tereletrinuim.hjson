@@ -2,5 +2,6 @@ name: Tereletrinuim
 description: Should this be used as ammunition, this electric titanuim isotope can glitch it's enemies to death!
 explosiveness: 0
 flammability: .25
+hardness: 2
 radioactivity: 0
 charge: 1.5
