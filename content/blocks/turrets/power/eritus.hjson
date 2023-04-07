@@ -4,7 +4,7 @@ description: "A basic Anti-air turret. Fires energy flak at nearby air targets."
 health: 450
 size: 2
 reload: 12
-category: turrets
+category: turret
 consumes: [
 power: 2.4
 ]
