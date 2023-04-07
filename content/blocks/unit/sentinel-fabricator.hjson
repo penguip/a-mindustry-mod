@@ -15,11 +15,14 @@ description: "Creates sentinels. Output may be used directly or moved into Anopr
    "unit": "sentinel-drone"
         requirements: [
               {"item": "cadocopper", "amount": 45}
+              {"item": "anolead", "amount": 20}
+              {"item": "silicon", "amount": 35}
         ]
    time: 3400
    }
 ]
 requirements: [
 "cadocopper/500"
+"anolead/345"
 "silicon/250"
 ]
