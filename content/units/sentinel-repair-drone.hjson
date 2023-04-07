@@ -18,7 +18,7 @@ weapons: [
     targetUnits: true
     targetBuildings: false
     autoTarget: true
-    controllable: true
+    controllable: false
     laserColor: efcdb8
     healColor: efcdb8
     bullet: {
