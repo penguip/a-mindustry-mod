@@ -24,7 +24,7 @@ description: "Creates sentinels. Output may be used directly or moved into Anopr
    "unit": "sentinel-repair-drone"
        requirements: [
            {"item": "siligone", "amount": 75}
-           {"item": "telenetrinium", "amount": 25}
+           {"item": "tereletrinium", "amount": 25}
            {"item": "anolead", "amount": 165}
        ]
    time: 1750
