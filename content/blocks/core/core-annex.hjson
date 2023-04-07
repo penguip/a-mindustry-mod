@@ -7,7 +7,7 @@ requirements: [
 "anolead/3500"
 ]
 unitType: "alpha"
-category: core
+category: effect
 health: 6500
 size: 3
 armor: 3
