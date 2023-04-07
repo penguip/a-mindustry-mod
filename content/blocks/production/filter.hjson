@@ -2,7 +2,7 @@ name: "Filter"
 description: "Sifts through pugneum for nanites.[red]Uses ridiculously large amounts of pugneum [].
 size: 2
 type: GenericCrafter
-requirements: [
+"requirements": [
 "cadocopper/250"
 "anolead/25"
 ]
