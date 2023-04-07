@@ -1,5 +1,5 @@
 name: Hex Conveyor
-type: distribution
+type: Conveyor
 description: A conveyor built for Pugneo's harsh climate
 requirements: [
 "cadocopper/1"
