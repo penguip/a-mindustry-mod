@@ -1,0 +1,12 @@
+type: Conduit
+name: "Hex Conduit"
+description: The walls seem to support this conduit's contents from evaporating.
+requirements: [
+"anolead/2"
+]
+research: [
+    parent: hex-conveyor
+    requirements: [
+      "anolead/200"
+    ]
+]
