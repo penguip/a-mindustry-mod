@@ -4,7 +4,7 @@ requirements: [
 anolead/15
 cadocopper/35
 ]
-drillTier: 3
+tier: 1
 category: production
 drillTime: 2.14
 consumes: {
