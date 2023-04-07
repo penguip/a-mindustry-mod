@@ -7,13 +7,9 @@ weapons: [
    {
     type: RepairBeamWeapon
     name: "drone-repairer"
-    reload: 20
     x: 0
     y: -2
-    top: false
-    reload: 10
     repairSpeed: 0.25
-    fractionRepairSpeed: 0.02
     mirror: false
     targetUnits: true
     targetBuildings: false
