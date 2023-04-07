@@ -4,3 +4,4 @@ explosiveness: .10
 flammability: 0
 radioactivity: .75
 charge: 0
+hardness: 1
