@@ -9,6 +9,6 @@ health: 160
 ]
 craftTime: 1200
 category: crafting
-outputItem: {
+outputItem: [
 "nanite/2
-}
+]
