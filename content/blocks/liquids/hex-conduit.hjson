@@ -6,9 +6,9 @@ category: liquids
 requirements: [
 "anolead/2"
 ]
-research: [
+research: {
     parent: hex-conveyor
     requirements: [
       "anolead/200"
     ]
-]
+}
