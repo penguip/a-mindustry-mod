@@ -5,10 +5,23 @@ health: 230
 speed: 2.9
 weapons: [
    {
-    type: RepairBeamWeapon("sentinel-repairer")
-    y: -3
+    type: RepairBeamWeapon
+    name: "sentinel-repairer"
+    reload: 20
+    x: 0
+    y: -2
+    top: false
+    reload: 10
+    repairSpeed: 0.25
+    fractionRepairSpeed: 0.02
+    mirror: false
+    targetUnits: true
+    targetBuildings: false
+    autoTarget: false
+    controllable: false
+    laserColor: efcdb8
+    healColor: efcdb8
     bullet: {
-       type: BulletType()
       maxRange: 75
     }
    }
