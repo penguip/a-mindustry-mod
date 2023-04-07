@@ -1,4 +1,5 @@
 name: "Disturbing Sinistride"
+type: Floor
 size: 1
 variants: 0
 effect: "distilled"
