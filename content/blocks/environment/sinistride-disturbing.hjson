@@ -6,5 +6,4 @@ variants: 0
 cacheLayer: tar
 status: "distilled"
 drownTime: 350
-deepLiquidMultiplier: 2.5
 liquidDrop: "pugneum"
