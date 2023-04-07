@@ -1,6 +1,6 @@
 type: Conduit
 name: "Hex Conduit"
-description: The walls seem to support this conduit's contents from evaporating.
+description: "The walls seem to support this conduit's contents from evaporating."
 requirements: [
 "anolead/2"
 ]
