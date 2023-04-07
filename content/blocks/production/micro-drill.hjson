@@ -1,0 +1,8 @@
+type: Drill
+name: "Micro Drill"
+drillTier: 1
+drillTime: 2.14
+consumes: [
+pugneum/.98
+]
+description: "A precise but weak starter drill for Pugneo."
