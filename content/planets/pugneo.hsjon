@@ -1,1 +1,46 @@
-
+localizedName: Pugneo
+description: A barren planet where tragedy struck long ago. Nothing is left here except the crimson lair, The Atlas.
+alwaysUnlocked: true
+mesh: {
+  type: NoiseMesh
+  planet: pugneo
+  seed: 69
+  divisions: 4
+  color1: 232423
+  color2: 975d2a
+  radius: 1.2
+  octaves: 3
+  persistence: 0.8
+  scale: 1
+  mag: 1.5
+}
+#cloudMesh: {}
+generator: {
+  min: 100
+  max: 100
+  radMin: 480
+  radMax: 480
+  seed: 69420
+  berylChance: 0
+}
+orbitSpacing: 4
+radius: 1.5
+minZoom: 1.8
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: true
+sectorSeed: 0
+bloom: false
+visible: true
+atmosphereColor: 000000
+iconColor: 29302b
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+defaultCore: core-shard
+parent: sun
+solarSystem: sun
+launchCandidates: []
