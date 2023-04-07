@@ -1,0 +1,5 @@
+name: "Tereletrinuim"
+size: 1
+variants: 1
+itemDrop: "tereletrinuim"
+type: OreBlock
