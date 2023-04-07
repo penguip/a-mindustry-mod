@@ -44,4 +44,6 @@ allowWaves: true
 defaultCore: core-annex
 parent: sun
 solarSystem: sun
-hiddenItems
+hiddenItems: [
+    copper,scrap,lead,titanium,silicon,metaglass,thorium,phase-fabric,carbide,beryllium,sand,coal,pyratite,surge-alloy,spore-pod,tungsten,oxide,blast-compound,graphite
+]
