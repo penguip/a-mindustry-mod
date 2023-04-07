@@ -44,3 +44,4 @@ allowWaves: true
 defaultCore: core-annex
 parent: sun
 solarSystem: sun
+hiddenItems
