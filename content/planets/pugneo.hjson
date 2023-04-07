@@ -8,6 +8,9 @@ mesh: {
   divisions: 4
   color1: 232423
   color2: 975d2a
+  color3: 25342s
+  color4: 000000
+  color5: ff0000
   radius: 1.2
   octaves: 3
   persistence: 0.8
