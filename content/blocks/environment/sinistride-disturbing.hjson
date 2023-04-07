@@ -1,0 +1,7 @@
+name: "Disturbing Sinistride"
+size: 1
+variants: 0
+effect: "distilled"
+drownTime: 350
+deepLiquidMultiplier: 2.5
+liquidDrop: "pugneum"
