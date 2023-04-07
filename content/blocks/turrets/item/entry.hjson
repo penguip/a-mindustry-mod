@@ -16,16 +16,20 @@ description: "The essential turret of Pugneo. Fires incendiary bullets at nearby
    "cadocopper": {
    type: BasicBulletType
    sprite: "drill-laser-end"
+   width: 3
+   height: 3
    speed: 2.3
-   lifetime: 9.84
+   lifetime: 13.2745
    incendAmount: 1
    damage: 6
    }
    "siligone": {
    type: BasicBulletType
    sprite: "drill-laser-end"
+   width: 4
+   height: 5
    speed: 2.3
-   lifetime: 10.987
+   lifetime: 15.3526
    homingPower: 1
    damage: 17
    }
