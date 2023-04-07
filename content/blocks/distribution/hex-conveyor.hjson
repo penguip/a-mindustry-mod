@@ -1,0 +1,14 @@
+name: Hex Conveyor
+type: distribution
+description: A conveyor built for Pugneo's harsh climate
+requirements: [
+"cadocopper/1"
+]
+speed: 0.023
+displayedSpeed: 1
+research: {
+   parent: core-annex
+   requirements: [
+     "cadocopper/100"
+     ]
+}
