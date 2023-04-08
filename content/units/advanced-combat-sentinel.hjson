@@ -8,6 +8,7 @@ armor: 2
      y: -4
      mirror: false
      reload: 25
+     shootSound: 
      shoot: {
       type: ShootSpread
       shots: 7
