@@ -12,7 +12,7 @@ hitsize: 1.25 * 1.25
      y: -4
      x: 0
      mirror: false
-     reload: 25
+     reload: 45
      maxRange: 50
      shootSound: shootBig
      shoot: {
@@ -32,4 +32,10 @@ hitsize: 1.25 * 1.25
         splashDamageRadius: 15
      }
     }
+    {
+     name: sentinel-gun
+     x: 2
+     mirror: true
+     reload: 15
+     shootSound: bang
 ]
