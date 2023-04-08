@@ -36,7 +36,7 @@ research: {
          "cadocopper/1050"
          "anolead/450"
           objectives: [
-                 type: SectorComplete
+                 type: "SectorComplete"
                  preset: ground-one
                  ]
         }
