@@ -6,9 +6,8 @@ category: liquid
 requirements: [
 "anolead/2"
 ]
-research: {
-    parent: hex-conveyor
-    requirements: [
-      "anolead/200"
-    ]
-}
+research: hex-conveyor
+researchCost: [
+"anolead/200"
+]
+
