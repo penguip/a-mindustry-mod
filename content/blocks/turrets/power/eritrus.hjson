@@ -35,8 +35,9 @@ research: {
          "siligone/450"
          "cadocopper/1050"
          "anolead/450"
-             objectives: {
-                 type: 
+          objectives: {
+                 type: SectorComplete
+                 preset: ground-one
                  }
          ]
 }
