@@ -2,7 +2,7 @@ name: "Advanced Combat Sentinel"
 description: "An upgrade to the basic sentinel, more well-armed"
 health: 1275
 armor: 2
-weapons: [
+"weapons": [
     {
      name: "sentinel-bazooka"
      y: -4
