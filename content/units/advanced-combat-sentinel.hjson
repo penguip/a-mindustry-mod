@@ -38,4 +38,19 @@ hitsize: 1.25 * 1.25
      mirror: true
      reload: 15
      shootSound: bang
+     shoot: {
+      type: ShootSpread
+      shots: 3
+      spread: 2
+     }
+     {
+     bullet: {
+       type: BasicBulletType
+       sprite: ballast-bullet
+       speed: 4.5
+       lifetime: 43.3
+       damage: 15
+       knockback: 14
+     }
+    }
 ]
