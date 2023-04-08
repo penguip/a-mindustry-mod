@@ -1,5 +1,9 @@
 planet: pugneo
 name: "ground-one"
+alwaysUnlocked: true
 sector: 0
 captureWave: 16
 description: "It is time to get back at the sentinels for everything they've done. This sector is a good starting point for this."
+research: {
+parent: core-annex
+}
