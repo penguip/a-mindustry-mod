@@ -1,0 +1,10 @@
+name: "Wire Node"
+description: "Hyperconductive node for Pugneo."
+type: BeamNode
+category: power
+requirements: [
+"anolead/3"
+]
+range: 12
+powerCapacity: 2500
+research: sinister-panel
