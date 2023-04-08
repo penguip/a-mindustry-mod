@@ -12,3 +12,9 @@ category: crafting
 requirements: [
 "cadocopper/350"
 ]
+research: {
+parent: core-annex
+objectives: [pugneum]
+}
+researchCost: {
+"cadocopper/1200"
