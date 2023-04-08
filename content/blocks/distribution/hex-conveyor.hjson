@@ -6,9 +6,7 @@ requirements: [
 ]
 speed: 0.023
 displayedSpeed: 1
-research: {
-   parent: core-annex
-   requirements: [
-     "cadocopper/100"
-     ]
-}
+research: core-annex
+researchCost: [
+"cadocopper/100"
+]
