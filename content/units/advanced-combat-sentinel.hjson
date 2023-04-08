@@ -4,11 +4,24 @@ health: 1275
 armor: 2
 weapons: [
     {
-     name: sentinel-bazooka
+     name: "sentinel-bazooka"
      y: -4
      mirror: false
      reload: 25
      shoot: {
-        type: ShootSpread
+     type: ShootSpread
         number: 7
-        
+        spread: 5
+     }
+     bullet: {
+      type: MissileBulletType
+        sprite: "missile"
+        speed: 3.2
+        lifetime: 7.3
+        damage: 35
+        splashDamage: 35
+        status: burning
+        statusDuration: 345
+        splashDamageRadius: 15
+    }
+}
