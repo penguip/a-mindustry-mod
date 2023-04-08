@@ -22,7 +22,7 @@ hitsize: 1.25 * 1.25
       type: MissileBulletType
         sprite: missile
         speed: 3.2
-        lifetime: 23.4
+        lifetime: 43.3
         damage: 35
         splashDamage: 35
         status: burning
