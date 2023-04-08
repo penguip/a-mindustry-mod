@@ -34,3 +34,7 @@ description: "The essential turret of Pugneo. Fires incendiary bullets at nearby
    damage: 17
    }
 }
+research: core-annex
+researchCost: [
+"cadocopper/45"
+]
