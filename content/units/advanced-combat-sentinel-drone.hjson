@@ -2,13 +2,14 @@ name: "Advanced Combat Sentinel"
 description: "An upgrade to the basic sentinel, more well-armed"
 health: 1275
 armor: 2
-range: 50
+range: 130
 "weapons": [
     {
      name: sentinel-bazooka
      y: -4
      mirror: false
      reload: 25
+     maxRange: 50
      shootSound: shootBig
      shoot: {
       type: ShootSpread
