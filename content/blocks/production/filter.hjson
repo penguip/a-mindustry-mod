@@ -16,5 +16,6 @@ research: {
 parent: core-annex
 objectives: [pugneum]
 }
-researchCost: {
+researchCost: [
 "cadocopper/1200"
+]
