@@ -24,4 +24,4 @@ weapons: [
         statusDuration: 345
         splashDamageRadius: 15
     }
-}
+]
