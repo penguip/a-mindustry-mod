@@ -2,3 +2,19 @@ type: Pump
 name: "Anopump"
 description: "A pump made of anolead, enough said"
 category: liquid
+hasLiquids: true
+pumpRate: 0.23
+buildCost[
+"anolead/250"
+]
+research: {
+parent: core-annex
+objectives: [micro-drill {
+type: Research
+preset: micro-drill
+}
+]
+}
+researchCost: [
+"anolead/450"
+]
