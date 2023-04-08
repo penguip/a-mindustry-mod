@@ -1,0 +1,12 @@
+name: "Cadocopper Wall"
+type: Wall
+description: "The essential wall for Pugneo.Armored."
+requirements: [
+"cadocopper/6"
+]
+armor: 3
+health: 975
+research: core-annex
+researchCost: [
+"cadocopper/20"
+]
