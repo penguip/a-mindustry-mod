@@ -10,9 +10,9 @@ power: .45
 }
 drillTime: 12.3
 attribute: carbon
-outputItem: {
+outputItem: [
 "carbon/1"
-}
+]
 research: {
 parent: micro-drill
 }
