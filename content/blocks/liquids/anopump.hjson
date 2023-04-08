@@ -5,7 +5,7 @@ category: liquid
 hasLiquids: true
 pumpRate: 0.23
 requirements: [
-"anolead/250"
+"anolead/25"
 ]
 research: {
 parent: core-annex
@@ -13,5 +13,5 @@ objectives: [micro-drill
 ]
 }
 researchCost: [
-"anolead/450"
+"anolead/60"
 ]
