@@ -9,7 +9,7 @@ range: 50
      y: -4
      mirror: false
      reload: 25
-     shootSound: 
+     shootSound: shootBig
      shoot: {
       type: ShootSpread
       shots: 7
