@@ -49,7 +49,7 @@ hitsize: 1.25 * 1.25
        speed: 4.5
        lifetime: 43.3
        damage: 15
-       knockback: 14
+       knockback: 1
      }
     }
 ]
