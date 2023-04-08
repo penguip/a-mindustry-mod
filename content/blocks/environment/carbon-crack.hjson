@@ -1,0 +1,7 @@
+name: "Cracked Wall (Carbon)"
+variants: 2
+type: StaticWall
+attributes: {
+carbon: 1
+sand: -.2
+}
