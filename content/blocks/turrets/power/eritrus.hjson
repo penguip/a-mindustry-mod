@@ -31,11 +31,9 @@ shootType: {
 research: {
     parent: entry
     requirements: {
-         itemStack: {
-             item: tereletrinuim
-             amount: 75
-             item: siligone
-             amount: 150
+             cadocopper/345
+             tereletrinuim/75
+             anolead/250
              }
          objectives: {
                  type: "SectorComplete"
