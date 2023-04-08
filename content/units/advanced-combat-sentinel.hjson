@@ -8,6 +8,11 @@ armor: 2
      y: -4
      mirror: false
      reload: 25
+     shoot: {
+      type: ShootSpread
+      shots: 7
+      spread: 5
+     }
      bullet: {
       type: MissileBulletType
         sprite: missile
@@ -18,5 +23,6 @@ armor: 2
         status: burning
         statusDuration: 345
         splashDamageRadius: 15
+     }
     }
 ]
