@@ -7,6 +7,7 @@ requirements: [
 ]
 powerProduction: .75
 research: micro-drill
+category: power
 researchCost: [
 "cadocopper/150"
 "anolead/50"
