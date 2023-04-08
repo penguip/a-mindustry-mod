@@ -31,13 +31,13 @@ shootType: {
 research: {
     parent: entry
     requirements: {
-         item: tereletrinuim
-         amount: 75
-         item: siligone
-         amount: 150
-         item: anolead
-         amount: 450
-          objectives: {
+         itemStack: {
+             item: tereletrinuim
+             amount: 75
+             item: siligone
+             amount: 150
+             }
+         objectives: {
                  type: "SectorComplete"
                  preset: "ground-one"
                  }
