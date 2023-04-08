@@ -1,4 +1,5 @@
 name: "Hex Liquid Router"
+size: 1
 type: LiquidRouter
 description: "A hexed router conduit."
 speed: 1
