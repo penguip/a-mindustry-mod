@@ -3,6 +3,8 @@ description: Core of the base. Armored. Once destroyed, the sector is lost.
 itemCapacity: 9500
 type: CoreBlock
 alwaysUnlocked: true
+root: true
+isFirstTier: true
 requirements: [
 "cadocopper/4000"
 "anolead/3500"
