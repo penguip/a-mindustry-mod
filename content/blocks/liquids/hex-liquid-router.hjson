@@ -1,0 +1,11 @@
+name: "Hex Liquid Router"
+type: LiquidRouter
+description: "A hexed router conduit."
+speed: 1
+requirements: [
+"anolead/15"
+]
+research: hex-conduit
+researchCost: [
+"anolead/430"
+]
