@@ -32,7 +32,7 @@ research: {
 parent: entry
 objectives: [sinister-panel, Ground One, {
 type: SectorCapture
-preset: sector
+preset: Ground One
 }
 ]
 }
