@@ -28,7 +28,8 @@ requirements: [
         lightningDamage: 14
         lightningLength: 6
 }
-research: entry, sinister-panel
+research: sinister-panel
+parent: entry
 researchCost: [
 "tereletrinuim/75"
 "anolead/350"
