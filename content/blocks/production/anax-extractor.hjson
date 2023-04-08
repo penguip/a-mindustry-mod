@@ -19,5 +19,5 @@ parent: micro-drill
 }
 researchCost: [
 "cadocopper/185"
-"silogone/75"
+"siligone/75"
 ]
