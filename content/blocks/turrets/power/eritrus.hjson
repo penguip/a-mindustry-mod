@@ -14,7 +14,7 @@ requirements: [
 "siligone/150"
 "cadocopper/350"
 ]
-shootType: {
+"shootType": {
      type: FlakBulletType
      sprite: "bullet"
      width: 5
