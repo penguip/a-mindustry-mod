@@ -28,18 +28,17 @@ requirements: [
         lightningDamage: 14
         lightningLength: 6
 }
-research: {
+research: [
 parent: entry
 objectives: {ground-one [
 type: SectorCapture
 preset: sector
 ]
 }
-}
+]
 researchCost: [
 "tereletrinuim/75"
 "anolead/350"
 "cadocopper/450"
 "siligone/150"
 ]
-objective: Ground One
