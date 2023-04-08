@@ -30,9 +30,9 @@ requirements: [
 }
 research: [
 parent: entry
-objectives: [ground-one [
-type: SectorCapture
-preset: sector
+objectives: ["ground-one" [
+"type": "SectorCapture"
+"preset": "sector"
 ]
 ]
 ]
