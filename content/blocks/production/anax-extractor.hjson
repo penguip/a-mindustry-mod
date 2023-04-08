@@ -6,7 +6,7 @@ requirements: [
 ]
 description: "Searches for carbon inside of cracks in the walls"
 consumes: {
-power: .50
+power: .5
 }
 drillTime: 12.3
 attribute: carbon
