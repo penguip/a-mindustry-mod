@@ -39,5 +39,5 @@ research: {
                  type: SectorComplete
                  preset: ground-one
                  ]
-         ]
+        ]
 }
