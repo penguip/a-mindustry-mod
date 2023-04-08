@@ -31,11 +31,7 @@ requirements: [
 research: {
     parent: entry
     requirements: {
-         items: [
-             "cadocopper/345"
-             "tereletrinuim/75"
-             "anolead/250"
-         ]
+         items: "cadocopper/450", "anolead/350", "siligone/150", "tereletrinium/75"
          objectives: {
                  type: "SectorComplete"
                  preset: "ground-one"
