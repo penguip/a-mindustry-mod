@@ -1,0 +1,6 @@
+name: "Carbon"
+description: "The essential (and flammable) building block of all organic matter."
+explosiveness: .05
+flammability: 4
+radioactivity: 0
+charge: 0
