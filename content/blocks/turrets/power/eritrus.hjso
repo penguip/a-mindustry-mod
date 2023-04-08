@@ -28,12 +28,11 @@ requirements: [
         lightningDamage: 14
         lightningLength: 6
 }
-research: {
-    parent: entry
-    requirements: [
-        "tereletrinuim/75"
-        "anolead/350"
-        "cadocopper/450"
-        "siligone/150"
-    ]
-}
+research: entry
+researchCost: [
+"tereletrinuim/75"
+"anolead/350"
+"cadocopper/450"
+"siligone/150"
+]
+objective: ground-one
