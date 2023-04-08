@@ -45,7 +45,7 @@ hitsize: 1.25 * 1.25
      }
      bullet: {
        type: BasicBulletType
-       sprite: ballast-bullet
+       sprite: "ballast-bullet"
        speed: 4.5
        lifetime: 43.3
        damage: 15
