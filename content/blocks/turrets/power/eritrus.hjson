@@ -30,7 +30,7 @@ requirements: [
 }
 research: {
 parent: entry
-objectives: [sinister-panel, ground-one, {
+objectives: [sinister-panel, Ground One, {
 type: SectorCapture
 preset: sector
 }
