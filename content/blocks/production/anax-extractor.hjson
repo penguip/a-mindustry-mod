@@ -1,0 +1,22 @@
+type: WallCrafter
+name: "Anax Extractor"
+requirements: [
+"cadocopper/95"
+"siligone/30"
+]
+description: "Searches for carbon inside of cracks in the walls"
+consumes: {
+power: .45
+}
+drillTime: 12.3
+attribute: carbon
+outputItem: {
+"carbon/1"
+}
+research: {
+parent: micro-drill
+}
+researchCost: [
+"cadocopper/185"
+"silogone/75"
+]
