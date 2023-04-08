@@ -1,5 +1,6 @@
 type: WallCrafter
 name: "Anax Extractor"
+size: 2
 requirements: [
 "cadocopper/95"
 "siligone/30"
