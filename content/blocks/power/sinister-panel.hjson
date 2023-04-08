@@ -8,13 +8,13 @@ requirements: [
 powerProduction: .75
 research: {
      parent: core-annex
-     requirements: [
+     requirements: {
           objective : [
               type: Research
               preset: micro-drill
           ]
           "anolead/150"
-         ]
+         }
 }
 category: power
 
