@@ -30,7 +30,7 @@ requirements: [
 }
 research: {
     parent: entry
-    requirements: [
+    requirements: {
          items: [
              "cadocopper/345"
              "tereletrinuim/75"
@@ -40,5 +40,5 @@ research: {
                  type: "SectorComplete"
                  preset: "ground-one"
          }
-    ]
+    }
 }
