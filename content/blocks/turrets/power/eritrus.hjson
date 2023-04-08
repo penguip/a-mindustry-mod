@@ -31,7 +31,7 @@ requirements: [
 research: {
     parent: entry
     requirements: {
-         items: "cadocopper/450", "anolead/350", "siligone/150", "tereletrinium/75"
+         ItemStack("cadocopper/450", "anolead/350", "siligone/150", "tereletrinium/75")
          objectives: {
                  type: "SectorComplete"
                  preset: "ground-one"
