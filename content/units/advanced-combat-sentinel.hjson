@@ -2,6 +2,7 @@ name: "Advanced Combat Sentinel"
 description: "An upgrade to the basic sentinel, more well-armed"
 health: 1275
 armor: 2
+range: 50
 "weapons": [
     {
      name: sentinel-bazooka
@@ -18,7 +19,7 @@ armor: 2
       type: MissileBulletType
         sprite: missile
         speed: 3.2
-        lifetime: 7.3
+        lifetime: 23.4
         damage: 35
         splashDamage: 35
         status: burning
