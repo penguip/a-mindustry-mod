@@ -43,7 +43,6 @@ hitsize: 1.25 * 1.25
       shots: 3
       spread: 2
      }
-     {
      bullet: {
        type: BasicBulletType
        sprite: ballast-bullet
