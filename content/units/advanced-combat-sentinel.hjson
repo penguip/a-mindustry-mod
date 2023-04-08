@@ -3,11 +3,12 @@ description: "An upgrade to the basic sentinel, more well-armed"
 health: 1275
 armor: 2
 range: 130
-hitsize: 1.25
+hitsize: 1.25 * 1.25
 "weapons": [
     {
      name: sentinel-bazooka
      y: -4
+     x: 0
      mirror: false
      reload: 25
      maxRange: 50
