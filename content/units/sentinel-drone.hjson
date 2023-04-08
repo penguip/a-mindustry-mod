@@ -3,6 +3,8 @@ description: "The sentinel origin. Fires basic bullets at enemy ground targets."
 size: 1.25
 range: 90
 maxRange: 90
+engineOffset: 1.2
+useEngineElevation: false
 health: 280
 speed: .93
 hovering: true
