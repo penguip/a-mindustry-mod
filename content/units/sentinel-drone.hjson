@@ -5,7 +5,6 @@ range: 90
 maxRange: 90
 health: 280
 speed: .93
-hovering: true
 "weapons": [
    {
      name: sentinel-gun
