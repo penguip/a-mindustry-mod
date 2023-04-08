@@ -1,0 +1,8 @@
+type: Generator
+name: [red]Sinister Panel
+description: Generates a small amount of power from the sun.
+requirements: [
+     "cadocopper/15"
+     "anolead/5"
+]
+outputPower: .75
