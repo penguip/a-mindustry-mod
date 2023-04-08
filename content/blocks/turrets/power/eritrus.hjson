@@ -3,8 +3,9 @@ type: PowerTurret
 description: "A basic Anti-air turret. Fires energy flak at nearby air targets."
 health: 450
 size: 2
-reload: 12
+reload: 10
 category: turret
+range: 45
 consumes: {
 power: 2.4
 }
@@ -18,10 +19,24 @@ shootType: {
      sprite: "bullet"
      width: 5
      height: 5
+     speed: 3.98
+     damage: 90
      splashDamage: 45
      splashDamageRadius: 5
      despawnHit: true
         lightning: 3
         lightningDamage: 14
         lightningLength: 6
+}
+research: {
+    parent: entry
+    requirements: [
+         "tereletrinuim/75"
+         "siligone/450"
+         "cadocopper/1050"
+         "anolead/450"
+             objectives: [
+                 sector: ground-one
+                 ]
+         ]
 }
