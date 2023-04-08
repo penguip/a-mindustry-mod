@@ -30,11 +30,10 @@ requirements: [
 }
 research: {
     parent: entry
-    requirements: {
-         ItemStack("cadocopper/450", "anolead/350", "siligone/150", "tereletrinium/75")
-         objectives: {
-                 type: "SectorComplete"
-                 preset: "ground-one"
-         }
-    }
+    requirements: [
+        "tereletrinuim/75"
+        "anolead/350"
+        "cadocopper/450"
+        "siligone/150"
+    ]
 }
