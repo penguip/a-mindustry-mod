@@ -28,7 +28,6 @@ requirements: [
         lightningDamage: 14
         lightningLength: 6
 }
-research: sinister-panel
 parent: entry
 researchCost: [
 "tereletrinuim/75"
