@@ -9,10 +9,7 @@ requirements: [
 ]
 research: {
 parent: core-annex
-objectives: [micro-drill {
-type: Research
-preset: micro-drill
-}
+objectives: [micro-drill 
 ]
 }
 researchCost: [
