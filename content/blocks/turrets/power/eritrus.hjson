@@ -28,7 +28,7 @@ requirements: [
         lightningDamage: 14
         lightningLength: 6
 }
-parent: entry
+research: entry
 researchCost: [
 "tereletrinuim/75"
 "anolead/350"
