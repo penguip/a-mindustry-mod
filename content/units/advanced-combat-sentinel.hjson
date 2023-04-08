@@ -34,7 +34,7 @@ hitsize: 1.25 * 1.25
     }
     {
      name: sentinel-gun
-     x: 2
+     x: 4
      mirror: true
      reload: 15
      shootSound: bang
