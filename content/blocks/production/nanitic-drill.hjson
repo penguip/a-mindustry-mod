@@ -1,0 +1,18 @@
+name: "Nanitic Drill"
+description: "A better micro drill that runs on power instead of pugneum."
+size: 2
+requirements: [
+nanite/15
+cadocopper/45
+siligone/5
+]
+consumes: {
+power: 1.23
+}
+type: Drill
+tier: 2
+drillTime: 24
+research: {
+parent: micro-drill
+}
+researchCostMultiplier: 3
