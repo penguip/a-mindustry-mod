@@ -30,7 +30,7 @@ shootType: {
 }
 research: {
     parent: entry
-    requirements: [
+    requirements: {
          "tereletrinuim/75"
          "siligone/450"
          "cadocopper/1050"
@@ -39,5 +39,5 @@ research: {
                  type: SectorComplete
                  preset: ground-one
                  ]
-        ]
+        }
 }
