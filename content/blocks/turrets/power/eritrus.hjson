@@ -30,10 +30,10 @@ requirements: [
 }
 research: {
 parent: entry
-objectives: ["ground-one" [
-"type": "SectorCapture"
-"preset": "sector"
-]
+objectives: [sinister-panel, ground-one, {
+type: SectorCapture
+preset: sector
+}
 ]
 }
 researchCost: [
