@@ -30,11 +30,12 @@ shootType: {
 }
 research: {
     parent: entry
-    requirements: {
-            "cadocopper/345"
-            "tereletrinuim/75"
-            "anolead/250"
-             }
+    requirements: [
+         items: [
+             "cadocopper/345"
+             "tereletrinuim/75"
+             "anolead/250"
+         ]
          objectives: {
                  type: "SectorComplete"
                  preset: "ground-one"
