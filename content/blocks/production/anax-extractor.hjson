@@ -14,10 +14,10 @@ attribute: carbon
 output: carbon
 research: {
 parent: micro-drill
-objectives: [filter, Canax {
+objectives: [filter, Canax [
    type: SectorLand
    preset: Canax
-}
+]
 ]
 }
 researchCost: [
