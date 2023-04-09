@@ -4,7 +4,7 @@ reload: 25
 category: turret
 hasPower: true
 type: ItemTurret
-shootSound: shockBlast
+shootSound: flame
 requirements: [
 "cadocopper/35"
 ]
@@ -30,12 +30,15 @@ description: "The essential turret of Pugneo. Fires incendiary bullets at nearby
    sprite: "drill-laser-end"
    width: 12
    height: 13
+   ammoMultiplier: 1
+   reloadMultiplier: 55
    speed: 2.3
    lifetime: 27
    homingPower: 1
    damage: 17
    }
 }
+ammoUse: 2
 research: core-annex
 researchCost: [
 "cadocopper/45"
