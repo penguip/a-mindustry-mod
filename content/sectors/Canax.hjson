@@ -5,9 +5,9 @@ captureWave: 26
 sector: 128
 research: {
 parent: Ground One
-objectives: [Ground One {
+objectives: [Ground One [
 type: SectorCapture
 preset: Ground One
-}
+]
 ]
 }
