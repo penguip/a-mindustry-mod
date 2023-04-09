@@ -12,4 +12,14 @@ requirements: [
 "cadocopper/25"
 "nanite/5"
 ]
-craftEffect: 
+craftEffect: smoke
+research: {
+parent: filter
+outputItem: [
+"siligone/2"
+]
+objectives: [carbon]
+researchCost: [
+"cadocopper/500"
+"nanite/75"
+]
