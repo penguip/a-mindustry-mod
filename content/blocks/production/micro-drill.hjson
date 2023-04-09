@@ -6,7 +6,7 @@ cadocopper/35
 ]
 tier: 1
 category: production
-drillTime: 32.4
+drillTime: 76.65
 consumes: {
     liquid: "pugneum/.98"
 }
