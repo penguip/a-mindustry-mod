@@ -1,4 +1,5 @@
 localizedName: Pugneo
+allowLaunchScematics: true
 description: A remote planet where tragedy struck long ago. Nothing is left here except the crimson lair, The Atlas.
 alwaysUnlocked: true
 mesh: {
