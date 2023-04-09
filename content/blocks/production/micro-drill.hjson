@@ -7,9 +7,6 @@ cadocopper/35
 tier: 1
 category: production
 drillTime: 76.65
-consumes: {
-    liquid: "pugneum/.98"
-}
 description: "A precise but weak starter drill for Pugneo."
 research: core-annex
 researchCost: [
