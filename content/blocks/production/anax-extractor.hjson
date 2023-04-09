@@ -10,7 +10,7 @@ description: "Searches for carbon inside of cracks in the walls"
 consumes: {
 power: 1
 }
-drillTime: 12.3
+drillTime: 780
 attribute: carbon
 output: carbon
 research: {
