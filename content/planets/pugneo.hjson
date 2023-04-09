@@ -11,10 +11,10 @@ mesh: {
   radius: 1.2
   octaves: 3
   persistence: 0.8
-  scale: 3
+  scale: 4
   mag: 1.5
 }
-sectorSize: 3.2
+sectorSize: 3.5
 #cloudMesh: {}
 generator: {
   min: 100
@@ -35,8 +35,8 @@ updateLighting: true
 sectorSeed: 0
 bloom: false
 visible: true
-atmosphereColor: 000000
-iconColor: 29302b
+atmosphereColor: 00ffff
+iconColor: ff00ff
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
