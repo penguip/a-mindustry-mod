@@ -1,0 +1,5 @@
+name: "Crevice(Bronze)"
+size: 1
+type: OreBlock
+variants: 1
+itemDrop: bronze
