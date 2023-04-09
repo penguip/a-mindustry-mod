@@ -1,5 +1,6 @@
 type: Drill
 name: "Micro Drill"
+hasLiquid: false
 requirements: [
 anolead/15
 cadocopper/35
