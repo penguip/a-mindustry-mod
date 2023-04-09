@@ -1,5 +1,5 @@
 name: "Nanitic Drill"
-description: "A better micro drill that runs on power instead of pugneum."
+description: "A better micro drill that runs on power."
 size: 2
 requirements: [
 nanite/15
