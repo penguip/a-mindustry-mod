@@ -2,4 +2,11 @@ name: "Canax"
 description: "This sector contains cracks of carbon. Research your way to a better source of power."
 planet: pugneo
 sector: 128
-research: Ground One
+research: {
+parent: Ground One
+objectives: [Ground One {
+type: SectorCapture
+preset: Ground One
+}
+]
+}
