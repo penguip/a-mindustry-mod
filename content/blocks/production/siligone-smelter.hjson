@@ -1,0 +1,15 @@
+name: "Siligone Smelter"
+description: "Melts materials together into siligone."
+type: GenericCrafter
+consumes: [
+power: 2.34
+   items: [
+   "nanite/1"
+   "carbon/3"
+   ]
+]
+requirements: [
+"cadocopper/25"
+"nanite/5"
+]
+craftEffect: 
