@@ -30,6 +30,7 @@ description: "The essential turret of Pugneo. Fires incendiary bullets at nearby
    sprite: "drill-laser-end"
    width: 12
    height: 13
+   range: .98
    ammoMultiplier: 1
    reloadMultiplier: 1.6
    speed: 2.3
