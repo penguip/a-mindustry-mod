@@ -14,6 +14,9 @@ attribute: carbon
 output: carbon
 research: {
 parent: micro-drill
+objectives: [filter, siligone-smelter, Canax, {
+   type: SectorLand
+   preset: Canax
 }
 researchCost: [
 "cadocopper/185"
