@@ -12,7 +12,7 @@ power: 1.23
 type: Drill
 tier: 2
 category: production
-drillTime: 24
+drillTime: 56.79
 research: {
 parent: micro-drill
 }
