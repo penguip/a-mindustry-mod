@@ -3,7 +3,7 @@
 viscosity: .65
 explosiveness: 1
 heatCapacity: .1
-tempature: -.15
+temperature: -.15
 flammability: 0
 color: 6500a8
 effect: "distilled"
