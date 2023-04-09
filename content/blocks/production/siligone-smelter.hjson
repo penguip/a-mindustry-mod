@@ -18,6 +18,7 @@ parent: filter
 outputItem: [
 "siligone/2"
 ]
+}
 objectives: [carbon]
 researchCost: [
 "cadocopper/500"
