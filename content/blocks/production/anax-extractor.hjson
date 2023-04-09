@@ -15,6 +15,7 @@ output: carbon
 research: {
 parent: micro-drill
 objectives: [filter]
+}
 researchCost: [
 "cadocopper/185"
 "nanite/75"
