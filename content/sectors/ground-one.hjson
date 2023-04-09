@@ -1,4 +1,5 @@
 planet: pugneo
+localizedName: Ground One
 name: "ground-one"
 alwaysUnlocked: true
 sector: 0
