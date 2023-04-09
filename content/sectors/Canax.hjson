@@ -3,11 +3,4 @@ description: "This sector contains cracks of carbon. Research your way to a bett
 planet: pugneo
 captureWave: 26
 sector: 128
-research: {
-parent: Ground One
-objectives: [Ground One, {
-type: SectorCapture
-preset: Ground One
-}
-]
-}
+research: Ground One
