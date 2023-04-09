@@ -8,7 +8,7 @@ requirements: [
 displayedSpeed: 1
 research: {
 parent: hex-conveyor
-objectives: [Ground One, {
+objectives: [ground one, {
 type: SectorCapture
 preset: ground-one
 }
