@@ -31,7 +31,7 @@ description: "The essential turret of Pugneo. Fires incendiary bullets at nearby
    width: 12
    height: 13
    ammoMultiplier: 1
-   reloadMultiplier: .5
+   reloadMultiplier: 5
    speed: 2.3
    lifetime: 27
    homingPower: 1
