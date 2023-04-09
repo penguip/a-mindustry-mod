@@ -8,7 +8,7 @@ requirements: [
 armor: 3
 health: 975
 research: core-annex
-category: walls
+category: defense
 researchCost: [
 "cadocopper/20"
 ]
