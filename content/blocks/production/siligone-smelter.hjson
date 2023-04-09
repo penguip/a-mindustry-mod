@@ -1,6 +1,8 @@
 name: "Siligone Smelter"
 description: "Melts materials together into siligone."
 type: GenericCrafter
+size: 2
+category: crafting
 consumes: {
 power: 2.34
    items: [
