@@ -18,6 +18,7 @@ objectives: [filter, siligone-smelter, Canax, {
    type: SectorLand
    preset: Canax
 }
+]
 researchCost: [
 "cadocopper/185"
 "siligone/75"
