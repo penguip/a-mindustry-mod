@@ -17,9 +17,9 @@ requirements: [
 craftEffect: smoke
 research: {
 parent: filter
-outputItem: {
+outputItem: [
 "siligone/2"
-}
+]
 }
 objectives: [carbon]
 researchCost: [
