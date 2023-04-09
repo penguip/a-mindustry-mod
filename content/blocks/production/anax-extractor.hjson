@@ -14,7 +14,7 @@ attribute: carbon
 output: carbon
 research: {
 parent: micro-drill
-objectives: [filter, siligone-smelter, Canax, {
+objectives: [filter, Canax {
    type: SectorLand
    preset: Canax
 }
