@@ -19,6 +19,7 @@ objectives: [filter, Canax {
    preset: Canax
 }
 ]
+}
 researchCost: [
 "cadocopper/185"
 "nanite/75"
