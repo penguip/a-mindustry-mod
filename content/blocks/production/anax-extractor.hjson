@@ -14,12 +14,7 @@ attribute: carbon
 output: carbon
 research: {
 parent: micro-drill
-objectives: [filter, Canax [
-   type: SectorLand
-   preset: Canax
-]
-]
-}
+objectives: [filter]
 researchCost: [
 "cadocopper/185"
 "nanite/75"
