@@ -4,6 +4,7 @@ reload: 25
 category: turret
 hasPower: true
 type: ItemTurret
+shootSound: shockBlast
 requirements: [
 "cadocopper/35"
 ]
@@ -20,7 +21,8 @@ description: "The essential turret of Pugneo. Fires incendiary bullets at nearby
    height: 10
    speed: 2.3
    lifetime: 24.5
-   incendAmount: 1
+   status: burning
+   statusDuration: 23
    damage: 6
    }
    "siligone": {
