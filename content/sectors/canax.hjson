@@ -1,7 +1,7 @@
 name: "canax"
 localizedName: Canax
 overrideLaunchDefault: true
-allowCoreScematics: true
+allowLaunchScematics: true
 description: "This sector contains cracks of carbon. Research your way to a better source of power."
 planet: pugneo
 captureWave: 26
