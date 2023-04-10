@@ -4,7 +4,6 @@ type: GenericCrafter
 category: crafting
 consumes: {
     liquid: "pugneum/1"
-}
 power: 2.9
 }
 requirements: [
