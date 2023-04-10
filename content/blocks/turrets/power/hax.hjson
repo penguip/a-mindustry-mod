@@ -1,6 +1,9 @@
 type: PowerTurret
 name: "Hax"
 reload: 450
+consumes: {
+power: 3.3
+}
 range: 34
 description: "Shoots a hacking laser at enemy ground targets, completley disabling movement."
 requirements: [
@@ -14,3 +17,19 @@ shootType: [
    width: 12
    color: ff00ff
    length: 34
+   damage: 150
+   status: hacked
+   statusDuration: 1
+]
+research: {
+parent: entry
+objectives: [distiller]
+}
+researchCost: [
+"vile-cyst/75"
+"siligone/650"
+"nanite/90"
+"carbon/70"
+"cadocopper/1450"
+
+   
