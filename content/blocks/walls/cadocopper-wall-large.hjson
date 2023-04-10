@@ -1,5 +1,6 @@
 name: "Large Cadocopper Wall"
 description: "A bigger cadocopper wall. Gets another armor point!"
+category: defense
 size: 2
 armor: 4
 health: 3900
