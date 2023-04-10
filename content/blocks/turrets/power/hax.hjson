@@ -12,7 +12,7 @@ requirements: [
 "siligone/130"
 "carbon/35"
 ]
-shootType: [
+"shootType": {
    type: LaserBulletType
    width: 12
    color: ff00ff
@@ -20,7 +20,7 @@ shootType: [
    damage: 150
    status: hacked
    statusDuration: 1
-]
+}
 research: {
 parent: entry
 objectives: [distiller]
