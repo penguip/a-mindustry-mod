@@ -1,10 +1,11 @@
 type: PowerTurret
 name: "Hax"
 reload: 450
+shootSound: laser
 consumes: {
 power: 3.3
 }
-range: 34
+range: 240
 description: "Shoots a hacking laser at enemy ground targets, completley disabling movement."
 requirements: [
 "cadocopper/250"
@@ -14,9 +15,9 @@ requirements: [
 ]
 "shootType": {
    type: LaserBulletType
-   width: 12
-   color: ff00ff
-   length: 34
+   width: 23
+   colors: [0000ff, 00ff00, ff0000]
+   length: 240
    damage: 150
    status: loading..
    statusDuration: 1
