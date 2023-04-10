@@ -18,7 +18,7 @@ requirements: [
    color: ff00ff
    length: 34
    damage: 150
-   status: hacked
+   status: loading..
    statusDuration: 1
 }
 research: {
