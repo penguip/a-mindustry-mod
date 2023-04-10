@@ -1,0 +1,12 @@
+name: "Large Cadocopper Wall"
+description: "A bigger cadocopper wall. Gets another armor point!"
+size: 2
+armor: 4
+health: 3900
+requirements: [
+"cadocopper/24"
+]
+research: cadocopper-wall
+researchCost: [
+"cadocopper/700"
+]
