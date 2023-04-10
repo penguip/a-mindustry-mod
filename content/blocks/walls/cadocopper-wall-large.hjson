@@ -6,6 +6,7 @@ health: 3900
 requirements: [
 "cadocopper/24"
 ]
+type: Wall
 research: cadocopper-wall
 researchCost: [
 "cadocopper/700"
