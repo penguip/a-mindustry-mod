@@ -1,0 +1,23 @@
+name: "Distiller"
+description: "Distills pugneum into a solid state, using power to oparate that many ACs."
+type: GenericCrafter
+category: crafting
+consumes: {
+liquids: [
+    pugneum/1
+    ]
+power: 2.9
+}
+requirements: [
+"siligone/20"
+"carbon/15"
+"nanite/35"
+]
+outputItem: "vile-cyst/1"
+research: filter
+researchCost: [
+"cadocopper/300"
+"carbon/25"
+"siligone/65"
+"anolead/145"
+]
