@@ -7,10 +7,6 @@ shoot: {
    firstShotDelay: 250
 }
 shootSound: laser
-chargeEffect: {
-            type: ParticleEffect
-            region: sentinel-addon-apex-infinity
-}
 consumes: {
 power: 3.3
 }
@@ -31,6 +27,10 @@ requirements: [
    status: loading..
    statusDuration: 120
    lifetime: 150
+   chargeEffect: {
+            type: ParticleEffect
+            region: sentinel-addon-apex-infinity
+   }
 }
 research: {
 parent: entry
