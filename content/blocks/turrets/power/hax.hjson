@@ -1,6 +1,6 @@
 type: PowerTurret
 name: "Hax"
-reload: 395
+reload: 1045
 heatColor: 000000ff
 shoot: {
    shots: 1
@@ -11,6 +11,8 @@ chargeEffect: {
             type: ParticleEffect
             lifetime: 650
             region: sentinel-addon-apex-infinity
+            length: 0
+            width: 0
             sizeFrom: 50
             sizeTo: 20
             colorFrom: 000000ff
