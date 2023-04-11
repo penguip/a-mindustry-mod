@@ -1,8 +1,16 @@
 type: PowerTurret
 name: "Hax"
-reload: 335
+reload: 395
 heatColor: 000000ff
 shootSound: laser
+chargeEffect: {
+            type: ParticleEffect
+            lifetime: 650
+            region: sentinel-addon-apex-infinity
+            sizeFrom: 50
+            sizeTo: 20
+            colorFrom: 000000ff
+}
 consumes: {
 power: 3.3
 }
@@ -21,18 +29,8 @@ requirements: [
    length: 240
    damage: 150
    status: loading..
-   statusDuration: 1
+   statusDuration: 120
    lifetime: 455
-   effects: [
-            {
-            type: ParticleEffect
-            lifetime: 650
-            region: sentinel-addon-apex-infinity
-            sizeFrom: 50
-            sizeTo: 20
-            colorFrom: 000000ff
-            }
-     ]
 }
 research: {
 parent: entry
