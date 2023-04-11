@@ -2,7 +2,6 @@ type: PowerTurret
 name: "Hax"
 reload: 335
 heatColor: 000000
-shootEffect: apexInfinity
 shootSound: laser
 consumes: {
 power: 3.3
