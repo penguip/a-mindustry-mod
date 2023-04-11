@@ -11,8 +11,8 @@ chargeEffect: {
             type: ParticleEffect
             lifetime: 650
             region: sentinel-addon-apex-infinity
-            length: 0
-            width: 0
+            length: 18
+            width: 18
             sizeFrom: 50
             sizeTo: 20
             colorFrom: 000000ff
