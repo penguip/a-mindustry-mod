@@ -3,7 +3,7 @@ name: "Hax"
 reload: 335
 heatColor: 000000ff
 shootSound: laser
-shootEffect: {
+ammoUseEffect: {
             type: ParticleEffect
             lifetime: 30
             region: sentinel-addon-apex-infinity
