@@ -29,7 +29,7 @@ requirements: [
    lifetime: 150
    chargeEffect: {
             type: ParticleEffect
-            region: sentinel-addon-apex-infinity
+            sprite: sentinel-addon-apex-infinity
    }
 }
 research: {
