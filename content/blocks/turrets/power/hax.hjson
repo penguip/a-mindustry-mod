@@ -1,6 +1,7 @@
 type: PowerTurret
 name: "Hax"
-reload: 450
+reload: 335
+shootEffect: lancerLaserCharge
 shootSound: laser
 consumes: {
 power: 3.3
