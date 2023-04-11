@@ -31,6 +31,10 @@ requirements: [
             type: ParticleEffect
             sprite: sentinel-addon-apex-infinity
             lifetime: 250
+            sizeFrom: 75
+            sizeTo: 0
+            particles: 1
+            colorFrom: 000000
    }
 }
 research: {
