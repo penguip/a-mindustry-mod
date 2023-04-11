@@ -2,6 +2,10 @@ type: PowerTurret
 name: "Hax"
 reload: 395
 heatColor: 000000ff
+shoot: {
+   shots: 1
+   firstShotDelay: 650
+}
 shootSound: laser
 chargeEffect: {
             type: ParticleEffect
