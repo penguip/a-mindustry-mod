@@ -3,6 +3,15 @@ name: "Hax"
 reload: 335
 heatColor: 000000ff
 shootSound: laser
+shootEffect: {
+            type: ParticleEffect
+            lifetime: 30
+            region: sentinel-addon-apex-infinity
+            length: 10
+            width: 10
+            sizeFrom: 50
+            sizeTo: 20
+}
 consumes: {
 power: 3.3
 }
