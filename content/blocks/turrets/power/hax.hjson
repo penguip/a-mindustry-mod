@@ -9,11 +9,7 @@ shoot: {
 shootSound: laser
 chargeEffect: {
             type: ParticleEffect
-            lifetime: 650
             sprite: sentinel-addon-apex-infinity
-            sizeFrom: 50
-            sizeTo: 20
-            colorFrom: 000000ff
 }
 consumes: {
 power: 3.3
