@@ -28,9 +28,6 @@ requirements: [
             type: ParticleEffect
             lifetime: 650
             region: sentinel-addon-apex-infinity
-            length: 18
-            width: 18
-            spin: 3
             sizeFrom: 50
             sizeTo: 20
             colorFrom: 000000ff
