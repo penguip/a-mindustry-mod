@@ -1,7 +1,7 @@
 type: PowerTurret
 name: "Hax"
 reload: 335
-heatColor: 000000
+heatColor: 000000ff
 shootSound: laser
 consumes: {
 power: 3.3
