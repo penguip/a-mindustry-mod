@@ -2,7 +2,7 @@ type: PowerTurret
 name: "Hax"
 reload: 335
 heatColor: 000000
-shootEffect: sentinel-addon-apex-infinity
+shootEffect: apex-infinity
 shootSound: laser
 consumes: {
 power: 3.3
