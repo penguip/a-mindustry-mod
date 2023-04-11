@@ -5,7 +5,7 @@ heatColor: 000000ff
 shootSound: laser
 ammoUseEffect: {
             type: ParticleEffect
-            lifetime: 30
+            lifetime: 450
             region: sentinel-addon-apex-infinity
             length: 10
             width: 10
