@@ -2,6 +2,7 @@ name: "Urge"
 description: "A re-manufactured dagger, capable of walking on liquids."
 type: mech
 hovering: true
+speed: 1.2
 range: 112.45
 health: 350
 weapons: [
@@ -29,7 +30,7 @@ weapons: [
           sprite: missile
           damage: 16
           splashDamage: 7
-          splashDamageRange: 150
+          splashDamageRadius: 150
           }
      }
 ]
