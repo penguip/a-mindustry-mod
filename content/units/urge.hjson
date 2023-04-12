@@ -2,14 +2,15 @@ name: "Urge"
 description: "A re-manufactured dagger, capable of walking on liquids."
 type: mech
 hovering: true
-range: 304
+range: 39.12
 health: 350
 weapons: [
      {
       name: large-alt-weapon
       reload: 345
-      x: 1
-      maxRange: 304
+      x: 2
+      y: 1
+      maxRange: 39.12
       mirror: true
       shoot: {
         type: ShootPattern
@@ -18,7 +19,7 @@ weapons: [
       }
       bullet: {
           type: MissileBulletType
-          speed: 32
+          speed: 4.89
           trailColor: 5c3a6b
           backColor: 5c3a6b
           frontColor: 6a427a
