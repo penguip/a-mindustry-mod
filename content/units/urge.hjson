@@ -17,7 +17,7 @@ weapons: [
       shoot: {
         type: ShootPattern
         shots: 5
-        shotDelay: 7.56
+        shotDelay: 3
       }
       bullet: {
           type: MissileBulletType
@@ -29,7 +29,7 @@ weapons: [
           sprite: missile
           damage: 16
           splashDamage: 7
-          splashDamageRange: 23
+          splashDamageRange: 150
           }
      }
 ]
