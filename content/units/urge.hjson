@@ -19,6 +19,8 @@ weapons: [
       bullet: {
           type: MissileBulletType
           speed: 32
+          trialColor: 5c3a6b
+          backColor: 5c3a6b
           lifetime: 8
           sprite: missile
           damage: 16
