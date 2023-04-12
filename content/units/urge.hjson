@@ -8,6 +8,7 @@ weapons: [
      {
       name: large-alt-weapon
       reload: 345
+      top: false
       x: 4
       y: 2.5
       shootSound: missile
