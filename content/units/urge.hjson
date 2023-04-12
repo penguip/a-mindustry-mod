@@ -10,7 +10,7 @@ weapons: [
       reload: 345
       x: 2
       y: 1
-      shootSound:
+      shootSound: missile
       maxRange: 39.12
       mirror: true
       shoot: {
