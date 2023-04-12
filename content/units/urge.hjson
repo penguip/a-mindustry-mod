@@ -16,7 +16,7 @@ weapons: [
       shoot: {
         type: ShootPattern
         shots: 5
-        shotDelay: 60
+        shotDelay: 7.56
       }
       bullet: {
           type: MissileBulletType
