@@ -30,7 +30,7 @@ weapons: [
           sprite: missile
           damage: 16
           splashDamage: 7
-          splashDamageRadius: 1.75
+          splashDamageRadius: 3
           }
      }
 ]
