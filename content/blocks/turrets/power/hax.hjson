@@ -25,7 +25,7 @@ requirements: [
    length: 240
    damage: 150
    status: loading..
-   statusDuration: 120
+   statusDuration: 180
    lifetime: 150
    chargeEffect: {
             type: ParticleEffect
@@ -34,7 +34,6 @@ requirements: [
             sizeFrom: 25
             sizeTo: 0
             particles: 1
-            colorFrom: 000000ff
    }
 }
 research: {
