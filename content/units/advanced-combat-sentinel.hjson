@@ -29,7 +29,7 @@ hitsize: 1.25 * 1.25
         splashDamage: 35
         status: burning
         statusDuration: 345
-        splashDamageRadius: 15
+        splashDamageRadius: 155
      }
     }
     {
