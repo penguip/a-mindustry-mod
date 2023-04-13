@@ -7,7 +7,7 @@ requirements: [
 "cadocopper/4000"
 "anolead/3500"
 ]
-unitType: "alpha"
+unitType: "thachet"
 category: effect
 health: 6500
 size: 3
