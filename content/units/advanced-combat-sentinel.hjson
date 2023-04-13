@@ -5,7 +5,7 @@ armor: 2
 type: hover
 hovering: true
 range: 130
-hitsize: 1.25 * 1.25
+hitSize: 1.25 * 1.25
 "weapons": [
     {
      name: sentinel-bazooka
