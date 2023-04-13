@@ -7,7 +7,7 @@ playerControllable: false
 type: flying
 speed: 1.12
 mineTier: 1
-mineSpeed: 234
+mineSpeed: 2.5
 itemCapacity: 45
 mineItems: [
 cadocopper
