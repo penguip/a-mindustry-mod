@@ -2,18 +2,19 @@ name: "Thachet"
 description: "Defends the Annex core from enemies. Builds structures."
 flying: true
 type: flying
-engineOffset: 1.5
+engineOffset: 3.89
 health: 760
 armor: 2
 mineTier: 1
-mineSpeed: 25
+mineSpeed: 2.5
 itemCapacity: 35
-buildSpeed: 15
+buildSpeed: 1.5
 weapons: [
       {
        name: weapon-alt
        reload: 25
-       x: 4
+       top: false
+       x: 3
        y: 1
        mirror: true
          bullet: {
