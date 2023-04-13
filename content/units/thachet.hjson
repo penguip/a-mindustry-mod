@@ -11,7 +11,7 @@ itemCapacity: 35
 buildSpeed: 1.5
 weapons: [
       {
-       name: small-alt-weapon
+       name: small-basic-alt-weapon
        reload: 25
        top: false
        x: 3
