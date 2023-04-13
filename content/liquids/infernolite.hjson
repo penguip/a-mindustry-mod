@@ -1,6 +1,6 @@
 name: "Infernolite
 description: "This EXTREMELY HOT gas is responsible for erekir's boiling atmosphere."
-isGas: true
+gas: true
 color: ffa666
 boilPoint: -100
 gasColor: ffa666
