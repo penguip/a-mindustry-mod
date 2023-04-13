@@ -28,12 +28,12 @@ requirements: [
    statusDuration: 180
    lifetime: 150
    chargeEffect: {
-            type: ParticleEffect
-            sprite: sentinel-addon-apex-infinity
+            type: WaveEffect
             lifetime: 250
             sizeFrom: 25
             sizeTo: 0
             particles: 1
+            color: 000000
    }
 }
 research: {
