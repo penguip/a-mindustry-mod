@@ -34,7 +34,6 @@ requirements: [
             sizeFrom: 25
             sizeTo: 0
             particles: 1
-            lightColor: 00000000
    }
 }
 research: {
