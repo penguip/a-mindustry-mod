@@ -1,0 +1,26 @@
+name: "Thachet"
+description: "Defends the Annex core from enemies. Builds structures."
+health: 760
+armor: 2
+mineTier: 1
+mineSpeed: 25
+itemCapacity: 35
+buildSpeed: 15
+weapons: [
+      {
+       name: weapon-alt
+       reload: 25
+       x: 4
+       y: 1
+       mirror: true
+         bullet: {
+           type: BasicBulletType
+           sprite: bullet
+           frontColor: 000000
+           backColor: ff00ff
+           speed: 2
+           lifetime: 36
+           damage: 8
+           }
+     }
+]
