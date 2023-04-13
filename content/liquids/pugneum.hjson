@@ -5,6 +5,6 @@ explosiveness: 1
 heatCapacity: .1
 temperature: -.15
 flammability: 0
-color: 6500a8
+color: 5c3a6b
 effect: "distilled"
 isCoolant: false
