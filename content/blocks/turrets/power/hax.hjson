@@ -1,7 +1,6 @@
 type: PowerTurret
-name: "Hax"
+name:  "Hax"
 reload: 645
-heatColor: black
 shoot: {
    shots: 1
    firstShotDelay: 250
