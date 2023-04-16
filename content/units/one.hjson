@@ -3,7 +3,7 @@ description: "A sentinel mono with AI for taking bronze out of crevices, aswell 
 health: 640
 flying: true
 controller: MinerAI
-defaultCommand: mineCommand
+defaultCommand: "mineCommand"
 playerControllable: false
 type: flying
 speed: 1.12
