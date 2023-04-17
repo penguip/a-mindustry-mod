@@ -3,7 +3,7 @@ description: "A loader from the future..."
 type: UnitCargoLoader
 unit: timefold
 consumes: {
-power: .89
+power: 1.43
     liquids: [
         liquid: givanium/.32
     ]
