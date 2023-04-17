@@ -1,4 +1,5 @@
 name: "Loader Of Time"
+description: "A loader from the future..."
 type: UnitCargoLoader
 unit: timefold
 consumes: {
