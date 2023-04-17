@@ -5,9 +5,7 @@ unit: timefold
 consumes: {
 power: .89
     liquids: [
-        liquid: {
-         givanium: .32
-        }
+        liquid: givanium/.32
     ]
 }
 requirements: [
