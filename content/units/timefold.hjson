@@ -1,0 +1,9 @@
+name: "Timefold"
+description: "A manifold for Pugneo and Serpulo."
+type: flying
+controller: CargoAI
+defaultCommand: cargo
+flying: true
+speed: 1.9
+health: 1240
+armor: 4
