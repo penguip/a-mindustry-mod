@@ -1,0 +1,14 @@
+name: "Loader Of Time"
+type: UnitCargoLoader
+unit: timefold
+consumes: {
+power: .89
+    liquids: [
+        liquid: {
+         givanium: .32
+        }
+    ]
+}
+requirements: [
+time-stone/1
+]
