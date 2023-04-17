@@ -1,4 +1,5 @@
 name: "Loader Of Time"
+size: 3
 description: "A loader from the future..."
 type: UnitCargoLoader
 unit: timefold
