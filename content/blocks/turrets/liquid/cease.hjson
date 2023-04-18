@@ -2,3 +2,13 @@ type: LiquidTurret
 name: "Cease"
 description: "Fires long pugneum or givanium needles at enemy targets."
 size: 1
+category: turret
+shootSound: shootBig
+requirements: [
+"nanite/45"
+"tereletrinuim/25"
+"carbon/75"
+]
+ammo: [
+    {
+     
