@@ -2,7 +2,7 @@ name: "Loader Of Time"
 size: 3
 description: "A loader from the future..."
 type: UnitCargoLoader
-unit: timefold
+unitType: timefold
 consumes: {
 power: 1.43
     liquids: [
