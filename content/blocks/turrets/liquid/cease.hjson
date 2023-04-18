@@ -1,0 +1,4 @@
+type: LiquidTurret
+name: "Cease"
+description: "Fires long pugneum or givanium needles at enemy targets."
+size: 1
