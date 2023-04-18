@@ -5,13 +5,12 @@ health: 450
 size: 2
 reload: 10
 category: turret
-range: 45
+range: 391.5
 consumes: {
 power: 2.4
 }
 requirements: [
-"tereletrinuim/15"
-"siligone/150"
+"anolead/50"
 "cadocopper/350"
 ]
 "shootType": {
@@ -19,7 +18,8 @@ requirements: [
      sprite: "bullet"
      width: 5
      height: 5
-     speed: 3.98
+     speed: 4.9
+     lifetime: 87
      damage: 90
      splashDamage: 45
      splashDamageRadius: 5
@@ -30,15 +30,9 @@ requirements: [
 }
 research: {
 parent: entry
-objectives: [sinister-panel, ground-one, {
-type: SectorCapture
-preset: ground-one
-}
-]
+objectives: [sinister-panel]
 }
 researchCost: [
-"tereletrinuim/75"
 "anolead/350"
 "cadocopper/450"
-"siligone/150"
 ]
