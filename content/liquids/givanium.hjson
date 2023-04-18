@@ -2,4 +2,4 @@ name: "Givanium"
 description: "An exremely radioacive fluid."
 coolant: false
 color: 00ff00
-status: iradiomelting
+effect: "iradiomelting"
