@@ -1,0 +1,7 @@
+name: "Unloader of Time"
+description: "Acccepts timefold cargo that matches the selected filter."
+type: UnitCargoUnloadPoint
+requirements: [
+"time-stone/3"
+]
+size: 2
