@@ -14,6 +14,7 @@ requirements: [
     "givanium": {
      type: LiquidBulletType
      damage: 5
+     liquid: givanium
      sprite: sentinel-addon-liquid-dart
      speed: 4.7
      length: 23
