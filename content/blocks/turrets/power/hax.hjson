@@ -6,6 +6,7 @@ shoot: {
    firstShotDelay: 250
 }
 shootSound: laser
+moveWhileCharging: false
 consumes: {
 power: 3.3
 }
