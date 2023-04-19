@@ -16,6 +16,7 @@ requirements: [
      damage: 5
      frontColor: 00ff00
      liquid: givanium
+     backColor: 008c00
      sprite: sentinel-addon-liquid-dart
      speed: 4.7
      knockback: 1.2
