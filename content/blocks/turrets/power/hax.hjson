@@ -32,12 +32,13 @@ requirements: [
    lifetime: 150
    collidesAir: false
    chargeEffect: {
-            type: WaveEffect
+            type: ParticleEffect
             lifetime: 250
-            sizeFrom: 25
+            sizeFrom: 15
+            sprite: sentinel-addon-apex-infinity
             sizeTo: 0
             particles: 1
-            colorFrom: 000000ff
+            colorFrom: ff0000
             colorTo: 0000ff
    }
 }
