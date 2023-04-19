@@ -1,6 +1,7 @@
 type: PowerTurret
 name:  "Hax"
 reload: 645
+rotateSpeed: .98
 shoot: {
    shots: 1
    firstShotDelay: 250
