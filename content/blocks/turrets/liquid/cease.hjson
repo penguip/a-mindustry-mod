@@ -3,7 +3,7 @@ name: "Cease"
 description: "Fires long pugneum or givanium needles at enemy targets."
 size: 1
 category: turret
-reload: 345
+reload: 134
 shootSound: shootBig
 requirements: [
 "nanite/45"
