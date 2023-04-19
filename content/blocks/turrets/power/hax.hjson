@@ -23,7 +23,7 @@ requirements: [
 ]
 "shootType": {
    type: LaserBulletType
-   width: 23
+   width: 7
    colors: [0000ff, 00ff00, ff0000]
    length: 240
    damage: 150
