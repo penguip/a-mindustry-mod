@@ -6,6 +6,7 @@ shoot: {
    firstShotDelay: 250
 }
 shootSound: laser
+targetsAir: false
 moveWhileCharging: false
 consumes: {
 power: 3.3
@@ -27,13 +28,14 @@ requirements: [
    status: loading..
    statusDuration: 180
    lifetime: 150
+   collidesAir: false
    chargeEffect: {
             type: WaveEffect
             lifetime: 250
             sizeFrom: 25
             sizeTo: 0
             particles: 1
-            colorFrom: 000000
+            colorFrom: 000000ff
             colorTo: 0000ff
    }
 }
