@@ -33,6 +33,8 @@ requirements: [
      sprite: sentinel-addon-liquid-dart
      liquid: pugneum
      status: distilled
+     frontColor: 6a2791
+     backColor: 572077
      statusDuration: 45
      length: 23
      width: 12
