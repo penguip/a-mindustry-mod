@@ -18,12 +18,24 @@ requirements: [
      liquid: givanium
      backColor: 008c00
      sprite: sentinel-addon-liquid-dart
-     speed: 4.7
+     speed: 2.3
      knockback: 1.2
      status: iradiomelting
      statusDuration: 170
      length: 23
-     width: 8
-     lifetime: 354
+     width: 12
+     lifetime: 21
+    }
+    "pugneum": {
+     type: BasicBulletType
+     damage: 23
+     speed: 2.3
+     sprite: sentinel-addon-liquid-dart
+     liquid: pugneum
+     status: distilled
+     statusDuration: 45
+     length: 23
+     width: 12
+     lifetime: 23
     }
 }
