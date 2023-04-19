@@ -6,5 +6,7 @@ requirements: [
 "anolead/3"
 ]
 range: 12
-consumePowerBuffered: 2500
+consumes: {
+    powerBuffered: 2500
+}
 research: sinister-panel
