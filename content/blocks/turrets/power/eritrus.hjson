@@ -3,8 +3,8 @@ type: PowerTurret
 description: "A basic Anti-air turret. Fires energy flak at nearby air targets."
 health: 450
 size: 2
-targetsAir: true
-targetsGround: false
+targetAir: true
+targetGround: false
 reload: 10
 category: turret
 range: 391.5
