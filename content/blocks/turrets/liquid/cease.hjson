@@ -12,11 +12,14 @@ requirements: [
 ]
 "ammoTypes": {
     "givanium": {
-     type: LiquidBulletType
+     type: BasicBulletType
      damage: 5
      liquid: givanium
      sprite: sentinel-addon-liquid-dart
      speed: 4.7
+     knockback: 1.2
+     status: iradiomelting
+     statusDuration: 170
      length: 23
      width: 8
      lifetime: 354
