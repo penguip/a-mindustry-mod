@@ -12,12 +12,12 @@ hitSize: 1.25
      y: -4
      x: 0
      mirror: false
-     reload: 45
+     reload: 120
      maxRange: 50
      shootSound: shootBig
      shoot: {
       type: ShootSpread
-      shots: 7
+      shots: 5
       spread: 5
      }
      bullet: {
@@ -29,14 +29,14 @@ hitSize: 1.25
         splashDamage: 35
         status: burning
         statusDuration: 345
-        splashDamageRadius: 155
+        splashDamageRadius: 40
      }
     }
     {
      name: sentinel-gun
      x: 4
      mirror: true
-     reload: 15
+     reload: 30
      shootSound: bang
      shoot: {
       type: ShootSpread
@@ -48,7 +48,7 @@ hitSize: 1.25
        sprite: sentinel-addon-ballast-bullet
        speed: 4.5
        lifetime: 43.3
-       damage: 15
+       damage: 5
        knockback: 1
      }
     }
