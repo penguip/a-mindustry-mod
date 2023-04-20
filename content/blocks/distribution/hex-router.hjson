@@ -1,17 +1,10 @@
 name: "Hex Router"
 description: "A strange router."
 type: Router
-speed: 0.076
+speed: 0.76
 requirements: [
 "cadocopper/3"
 ]
 displayedSpeed: 1
-research: {
-parent: hex-conveyor
-objectives: [ground-one, {
-type: SectorCapture
-preset: ground-one
-}
-]
-}
+research: hex-conveyor
 researchCostMultipier: 0.5
