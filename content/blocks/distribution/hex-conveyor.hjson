@@ -4,7 +4,7 @@ description: A conveyor built for Pugneo's harsh climate
 requirements: [
 "cadocopper/1"
 ]
-speed: 0.023
+speed: 0.76
 displayedSpeed: 1
 research: core-annex
 researchCost: [
