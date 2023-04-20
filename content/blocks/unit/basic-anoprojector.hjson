@@ -6,8 +6,8 @@ size: 3
 constructTime: 3500
 upgrades: [
    [sentinel-drone, advanced-combat-sentinel]
-   [sentinel-repair-drone, urge]
-   [urge, one]
+   [dagger, urge]
+   [mono, one]
 ]
 consumes: {
    power: 3.4
