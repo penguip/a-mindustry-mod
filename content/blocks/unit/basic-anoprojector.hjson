@@ -11,9 +11,9 @@ upgrades: [
 ]
 consumes: {
    power: 3.4
-   liquids: {
+   liquids: [
       givanium/1.2
-   }
+   ]
    items: [
    "anolead/45"
    "tereletrinuim/35"
