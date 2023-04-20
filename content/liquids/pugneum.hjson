@@ -8,3 +8,5 @@ flammability: 0
 color: 5c3a6b
 effect: "distilled"
 coolant: false
+research: anolead
+alwaysUnlocked: true
