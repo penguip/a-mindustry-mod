@@ -1,0 +1,26 @@
+name: "Basic Anoprojector"
+description: "Modifies or upgrades sentinel input."
+type: Reconstructor
+constructTime: 3500
+upgrades: [
+   [sentinel-drone, advanced-combat-sentinel]
+   [sentinel-repair-drone, urge]
+   [urge, one]
+]
+consumes: {
+   power: 3.4
+   liquids: {
+      givanium/1.2
+   }
+   items: [
+   "anolead/45"
+   "tereletrinuim/35"
+   "siligone/70"
+   ]
+}
+requirements: [
+"siligone/650"
+"carbon/230"
+"tereletrinuim/200"
+"vile-cyst/340"
+]
