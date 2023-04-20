@@ -2,6 +2,7 @@ name: "Basic Anoprojector"
 description: "Modifies or upgrades sentinel input."
 type: Reconstructor
 category: units
+size: 3
 constructTime: 3500
 upgrades: [
    [sentinel-drone, advanced-combat-sentinel]
