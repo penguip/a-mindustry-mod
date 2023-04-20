@@ -4,3 +4,5 @@ explosiveness: .05
 flammability: 4
 radioactivity: 0
 charge: 0
+research: cadocopper
+alwaysUnlocked: true 
