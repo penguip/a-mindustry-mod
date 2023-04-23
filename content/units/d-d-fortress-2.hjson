@@ -7,7 +7,7 @@ weapons: [
      {
       name: d-d-fortress-gun
       x: 7
-      reload: 135
+      reload: 70
       mirror: false
       top: false
       bullet: {
