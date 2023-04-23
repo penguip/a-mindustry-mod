@@ -1,0 +1,6 @@
+name: "Motodagger"
+description: "A dagger driven by a motor, therefore it's a bit faster."
+health: 670
+speed: 2.3
+type: tank
+treadRects: [
