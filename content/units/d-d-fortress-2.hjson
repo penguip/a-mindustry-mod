@@ -7,13 +7,15 @@ weapons: [
      {
       name: d-d-fortress-gun
       x: 7
-      reload: 230
+      reload: 135
       mirror: false
       top: false
       bullet: {
          type: BasicBulletType
          sprite: sentinel-addon-spike-ball
          speed: 1.45
+         width: 25
+         length: 25
          lifetime: 87.8
          pierce: true
          canPierceBuildings: true
