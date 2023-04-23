@@ -1,0 +1,33 @@
+name: "D-D Fortress(Phase 1)"
+description: "The first boss of Pugneo, Serpulo, and Erekir. Launches large spike balls that are capable of crushing anything in it's way."
+type: mech
+health: 2345
+speed: .73
+abilities: [
+     {
+      type: SpawnDeathAbility
+      unitType: d-d-fortress-2
+      radius: 0
+     }
+]
+weapons: [
+     {
+      name: d-d-fortress-gun
+      x: 7
+      reload: 135
+      shootSound: shootBig
+      mirror: true
+      top: false
+         bullet: {
+             type: BasicBulletType
+             sprite: sentinel-addon-spike-ball
+             speed: 1.23
+             width: 25
+             height: 25
+             damage: 40
+             pierce: true
+             pierceCap: 40
+             }
+      }
+]
+      
