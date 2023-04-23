@@ -17,12 +17,12 @@ weapons: [
     y: 1
     mirror: true
         bullet: {
-        type: BasicBulletType
-        sprite: bullet
-        speed: 2.1
-        lifetime: 76
-        damage: 13
-       }
+            type: BasicBulletType
+            sprite: bullet
+            speed: 2.1
+            lifetime: 76
+            damage: 13
+           }
     }
 ]
         
