@@ -14,7 +14,7 @@ weapons: [
    {
     name: "motodagger-gun"
     reload: 5
-    top: true
+    top: false
     x: 4
     y: 1
     mirror: true
