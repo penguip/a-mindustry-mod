@@ -1,5 +1,5 @@
 name: "D-D Fortress(Phase 2)"
-description: The fortress, now with only one barrel, has sped up.
+description: "The fortress, now with only one barrel, has sped up."
 type: mech
 health: 870
 speed: .98
@@ -15,9 +15,9 @@ weapons: [
          sprite: sentinel-addon-spike-ball
          speed: 1.45
          lifetime: 87.8
-         peirce: true
-         canPeirceBuildings: true
-         peirceCap: 40
+         pierce: true
+         canPierceBuildings: true
+         pierceCap: 40
          damage: 40
          }
      }
