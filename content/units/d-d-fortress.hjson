@@ -7,7 +7,7 @@ abilities: [
      {
       type: SpawnDeathAbility
       unit: d-d-fortress-2
-      range: 0
+      spread: 0
      }
 ]
 weapons: [
