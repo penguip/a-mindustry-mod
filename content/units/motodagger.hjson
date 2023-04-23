@@ -11,6 +11,7 @@ treadRects: [
     }
 ]
 weapons: [
+   {
     name: "motodagger-gun"
     reload: 35
     x: 4
@@ -23,6 +24,6 @@ weapons: [
             lifetime: 76
             damage: 13
            }
-    }
+   }
 ]
         
