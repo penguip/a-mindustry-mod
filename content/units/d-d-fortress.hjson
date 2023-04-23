@@ -6,8 +6,8 @@ speed: .73
 abilities: [
      {
       type: SpawnDeathAbility
-      unitType: d-d-fortress-2
-      radius: 0
+      unit: d-d-fortress-2
+      range: 0
      }
 ]
 weapons: [
