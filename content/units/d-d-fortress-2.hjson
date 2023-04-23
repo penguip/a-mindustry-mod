@@ -19,7 +19,7 @@ weapons: [
          height: 25
          lifetime: 87.8
          pierce: true
-         pierceBuildings: true
+         pierceBuilding: true
          pierceCap: 40
          damage: 40
          }
