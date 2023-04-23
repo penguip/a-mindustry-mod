@@ -26,6 +26,7 @@ weapons: [
              width: 25
              height: 25
              damage: 40
+             pierceBuilding: true
              pierce: true
              pierceCap: 40
              }
