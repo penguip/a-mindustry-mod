@@ -3,4 +3,26 @@ description: "A dagger driven by a motor, therefore it's a bit faster."
 health: 670
 speed: 2.3
 type: tank
-treadRects: [
+treadRects: [ 
+    {
+     x: 1
+     y: 3
+     width: 12
+    }
+]
+weapons: [
+    name: "motodagger-gun"
+    reload: 35
+    x: 4
+    y: 1
+    mirror: true
+        bullet: {
+        type: BasicBulletType
+        sprite: bullet
+        speed: 2.1
+        lifetime: 76
+        damage: 13
+       }
+    }
+]
+        
