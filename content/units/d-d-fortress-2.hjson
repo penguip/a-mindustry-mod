@@ -15,10 +15,10 @@ weapons: [
          sprite: sentinel-addon-spike-ball
          speed: 1.45
          width: 25
-         length: 25
+         height: 25
          lifetime: 87.8
          pierce: true
-         canPierceBuildings: true
+         pierceBuildings: true
          pierceCap: 40
          damage: 40
          }
