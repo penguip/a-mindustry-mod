@@ -13,7 +13,8 @@ treadRects: [
 weapons: [
    {
     name: "motodagger-gun"
-    reload: 10
+    reload: 5
+    top: true
     x: 4
     y: 1
     mirror: true
