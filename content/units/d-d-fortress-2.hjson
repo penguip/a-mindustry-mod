@@ -8,6 +8,7 @@ weapons: [
       name: d-d-fortress-gun
       x: 7
       reload: 70
+      shootSound: shootBig
       mirror: false
       top: false
       bullet: {
