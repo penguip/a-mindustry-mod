@@ -1,0 +1,24 @@
+name: "Caprice"
+description: "Launches fake smash balls that are... quite explosive."
+size: 3
+type: ItemTurret
+reload: 345
+requirements: [
+switch-fabric/15
+nanite/120
+fearite/300
+siligone/750
+]
+ammoTypes: [
+      "nuke-compound": {
+            type: ArtilleryBulletType
+            sprite: sentinel-addon-fake-smash
+            speed: 1.2
+            lifetime: 890
+            damage: 65
+            splashDamage: 45
+            splashDamageRadius: 40.76
+            width: 50
+            height: 60
+            }
+]
