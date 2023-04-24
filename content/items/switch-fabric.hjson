@@ -1,0 +1,7 @@
+name: "Switch Fabric"
+description: "Useful. Mostly a turret material and ammo."
+explosiveness: .25
+flammability: 0
+radioactivity:.95
+charge: 0
+color: red
