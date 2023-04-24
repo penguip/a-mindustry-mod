@@ -1,6 +1,7 @@
 name: "Caprice"
 description: "Launches fake smash balls that are... quite explosive."
 size: 3
+range: 1068
 type: ItemTurret
 shootSound: bang
 category: turret
