@@ -6,7 +6,7 @@ type: ItemTurret
 shootSound: bang
 category: turret
 health: 780
-reload: 345
+reload: 285
 requirements: [
 switch-fabric/15
 nanite/120
