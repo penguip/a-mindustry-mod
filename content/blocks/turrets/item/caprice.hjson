@@ -11,7 +11,7 @@ fearite/300
 siligone/750
 ]
 ammoTypes: {
-      "nuke-compound": {
+      "nuclear-compound": {
             type: ArtilleryBulletType
             sprite: sentinel-addon-fake-smash
             speed: 1.2
