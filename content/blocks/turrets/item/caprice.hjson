@@ -1,7 +1,7 @@
 name: "Caprice"
 description: "Launches fake smash balls that are... quite explosive."
 size: 3
-range: 1068
+range: 414
 type: ItemTurret
 shootSound: bang
 category: turret
@@ -18,7 +18,7 @@ ammoTypes: {
             type: ArtilleryBulletType
             sprite: sentinel-addon-fake-smash
             speed: 1.2
-            lifetime: 890
+            lifetime: 345
             collidesAir: true
             damage: 65
             splashDamage: 45
