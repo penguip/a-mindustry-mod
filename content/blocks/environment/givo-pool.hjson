@@ -1,5 +1,7 @@
 name: "Givo Pool"
 size: 1
+isLiquid: true
+variants: 0
 type: Floor
 status: iradiomelting
 liquidDrop: givanium
