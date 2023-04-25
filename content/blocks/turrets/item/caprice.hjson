@@ -3,8 +3,10 @@ description: "Launches fake smash balls that are... quite explosive."
 size: 3
 range: 414
 type: ItemTurret
-shootSound: bang
+shootSound: mediumCannon
 category: turret
+drawer: {
+    type: DrawTurret
 health: 780
 reload: 285
 requirements: [
