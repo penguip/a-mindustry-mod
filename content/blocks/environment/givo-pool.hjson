@@ -1,0 +1,6 @@
+name: "Givo Pool"
+size: 1
+type: Floor
+status: iradiomelting
+liquidDrop: givanium
+cacheLayer: water
