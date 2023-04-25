@@ -7,7 +7,8 @@ shootSound: mediumCannon
 category: turret
 drawer: {
     type: DrawTurret
-        parts: {[
+        parts: [
+           {
            type: RegionPart
             suffix: -blade
             progress: warmup
@@ -17,7 +18,8 @@ drawer: {
             outline: false
             mirror: true
             layerOffset: -0.01
-           }]
+           }
+        ]
 }
 health: 780
 reload: 285
