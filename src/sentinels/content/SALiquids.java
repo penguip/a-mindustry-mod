@@ -12,10 +12,10 @@ public class SALiquids{
         pugneum = new Liquid("pugneum"){{
             temperature = 0f;
             flammability = 0f;
-            explosiveness = .65f;
+            explosiveness = heatCapacity = .65f;
             viscosity = 0.3f;
-            color = lightColor = Color.valueOf("F58859");
-            hideDetails = false;
+            color = Color.valueOf("5c3a6b");
+            coolant = false;
         }};
     }
 }
