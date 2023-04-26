@@ -10,7 +10,7 @@ drawer: {
         parts: [
            {
            type: RegionPart
-            suffix: -blade
+            suffix: "-blade"
             progress: warmup
             x: 7
             y: -3
