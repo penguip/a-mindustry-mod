@@ -3,7 +3,7 @@ description: "Launches fake smash balls that are... quite explosive."
 size: 3
 range: 414
 shootWarmupSpeed: .5
-minWarmup: .56
+minWarmup: .99
 type: ItemTurret
 shootSound: mediumCannon
 category: turret
