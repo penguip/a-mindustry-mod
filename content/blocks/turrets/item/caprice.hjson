@@ -6,6 +6,7 @@ type: ItemTurret
 shootSound: mediumCannon
 category: turret
 drawer: [
+   {
     type: DrawTurret
         parts: [
            {
@@ -20,6 +21,7 @@ drawer: [
             layerOffset: -0.01
            }
         ]
+   }
 ]
 health: 780
 reload: 285
