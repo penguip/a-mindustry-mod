@@ -9,7 +9,7 @@ drawer: {
     type: DrawTurret
         parts: [
            {
-           type: RegionPart
+            type: RegionPart
             suffix: "-blade"
             progress: warmup
             x: 7
