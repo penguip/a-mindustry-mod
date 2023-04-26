@@ -32,6 +32,7 @@ requirements: [
    lifetime: 150
    collidesAir: false
    chargeEffect: {
+           {
             type: ParticleEffect
             lifetime: 250
             sizeFrom: 15
@@ -40,7 +41,7 @@ requirements: [
             particles: 1
             colorFrom: ff0000
             colorTo: 0000ff
-   }
+           }
 }
 research: {
 parent: entry
