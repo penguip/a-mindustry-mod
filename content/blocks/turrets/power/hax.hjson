@@ -31,8 +31,7 @@ requirements: [
    statusDuration: 180
    lifetime: 150
    collidesAir: false
-   chargeEffect: [
-           {
+   chargeEffect: {
             type: ParticleEffect
             lifetime: 250
             sizeFrom: 15
@@ -42,7 +41,7 @@ requirements: [
             colorFrom: ff0000
             colorTo: 0000ff
            }
-]
+}
 research: {
 parent: entry
 objectives: [distiller]
