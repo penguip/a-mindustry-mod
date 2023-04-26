@@ -1,7 +1,0 @@
-name: "Nuclear Compound"
-description: "A material capable of flattening entire cities when under the right measures."
-explosiveness: 40
-flammability: 1
-radioactivity: 0
-charge: 0
-color: ff0000
