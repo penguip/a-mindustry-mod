@@ -1,0 +1,7 @@
+name: "[#0000ff]Space Stone"
+description: "A strange blue gem that can manipulate space time."
+explosiveness: 0
+flammability: 0
+color: 0000ff
+charge: 1
+radioactivity: .5

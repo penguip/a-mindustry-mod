@@ -1,0 +1,9 @@
+name: "Anolead"
+description: "A radioactive isotope of lead made from the distillation of normal lead and pugneum. Mildly explosive"
+explosiveness: .10
+flammability: 0
+radioactivity: .75
+charge: 0
+hardness: 1
+research: cadocopper
+alwaysUnlocked: true

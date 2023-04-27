@@ -1,0 +1,11 @@
+name: "Cadocopper"
+hardness: 1
+color: b06d3e
+description: "Copper distilled by pugneum. A vital part of Pugneo industry"
+details: "The pugneum has charged it by a small amount."
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: .5
+research: core-annex
+alwaysUnlocked: true
