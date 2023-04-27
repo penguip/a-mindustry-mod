@@ -1,0 +1,13 @@
+type: Conduit
+name: "Hex Conduit"
+description: "The walls seem to support this conduit's contents from evaporating."
+speed: 1
+category: liquid
+requirements: [
+"anolead/2"
+]
+research: hex-conveyor
+researchCost: [
+"anolead/200"
+]
+
