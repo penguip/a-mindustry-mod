@@ -1,0 +1,9 @@
+name: "Disturbing Sinistride"
+type: Floor
+size: 1
+isLiquid: true
+variants: 0
+cacheLayer: tar
+status: "distilled"
+drownTime: 350
+liquidDrop: "pugneum"

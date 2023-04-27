@@ -1,0 +1,5 @@
+name: "Space Stone"
+variants: 1
+type: OreBlock
+size: 1
+itemDrop: space-stone
