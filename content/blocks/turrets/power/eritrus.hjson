@@ -1,0 +1,41 @@
+name: "Eritrus"
+type: PowerTurret
+description: "A basic Anti-air turret. Fires energy flak at nearby air targets."
+health: 450
+size: 2
+targetAir: true
+targetGround: false
+reload: 10
+category: turret
+range: 391.5
+consumes: {
+power: 2.4
+}
+requirements: [
+"anolead/50"
+"cadocopper/350"
+]
+"shootType": {
+     type: FlakBulletType
+     sprite: "bullet"
+     width: 5
+     height: 5
+     speed: 4.9
+     lifetime: 87
+     collidesGround: false
+     damage: 90
+     splashDamage: 45
+     splashDamageRadius: 5
+     despawnHit: true
+        lightning: 3
+        lightningDamage: 14
+        lightningLength: 6
+}
+research: {
+parent: entry
+objectives: [sinister-panel]
+}
+researchCost: [
+"anolead/350"
+"cadocopper/450"
+]
