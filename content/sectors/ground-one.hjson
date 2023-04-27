@@ -1,0 +1,8 @@
+localizedName: "Ground One"
+description: "It's time to get back at the sentinels for everything they've done. This sector is a good starting point for this."
+planet: pugneo
+sector: 0
+captureWave: 16
+research: core-annex
+alwaysUnlocked: true
+
