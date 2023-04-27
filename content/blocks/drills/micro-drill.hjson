@@ -1,0 +1,16 @@
+type: Drill
+name: "Micro Drill"
+hasLiquid: false
+requirements: [
+anolead/15
+cadocopper/35
+]
+tier: 1
+category: production
+drillTime: 435
+description: "A precise but weak starter drill for Pugneo."
+research: core-annex
+researchCost: [
+"cadocopper/45"
+"anolead/75"
+]
