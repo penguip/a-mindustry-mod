@@ -11,7 +11,7 @@ requirements: [
 "carbon/15"
 "nanite/35"
 ]
-outputItem: "vile-cyst/1"
+outputItem: "atlantedium/1"
 research: filter
 researchCost: [
 "cadocopper/300"
