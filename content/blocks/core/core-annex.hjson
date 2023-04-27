@@ -1,0 +1,20 @@
+name: "Core: Annex"
+description: Core of the base. Armored. Once destroyed, the sector is lost.
+itemCapacity: 9500
+type: CoreBlock
+alwaysUnlocked: true
+requirements: [
+"cadocopper/4000"
+"anolead/3500"
+]
+unitType: "thachet"
+category: effect
+health: 6500
+size: 3
+armor: 3
+research: {
+        root: true
+        name: "Pugneo"
+        isFirstTier: true
+        planet: "pugneo"
+}
