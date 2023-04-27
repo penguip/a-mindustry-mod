@@ -17,7 +17,7 @@ range: 240
 description: "Shoots a hacking laser at enemy ground targets, completley disabling movement."
 requirements: [
 "cadocopper/250"
-"vile-cyst/45"
+"atlantedium/45"
 "siligone/130"
 "carbon/35"
 ]
