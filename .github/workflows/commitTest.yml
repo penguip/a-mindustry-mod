@@ -11,7 +11,7 @@ jobs:
     - name: Set up PATH
       run: |
         chmod +x gradlew
-        ./gradlew.jar
+        ./gradlew jar
       
 
 
