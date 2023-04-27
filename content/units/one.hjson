@@ -1,0 +1,18 @@
+name: "One"
+description: "A sentinel mono with AI for taking bronze out of crevices, aswell as mining cadocopper and anolead. Oddly durable."
+health: 640
+flying: true
+defaultController: MinerAI
+controller: MinerAI
+defaultCommand: mine
+"playerControllable": false
+type: flying
+speed: 1.12
+mineTier: 1
+mineSpeed: 2.5
+itemCapacity: 45
+mineItems: [
+cadocopper
+anolead
+bronze
+]
