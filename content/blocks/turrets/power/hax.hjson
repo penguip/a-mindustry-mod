@@ -47,7 +47,7 @@ parent: entry
 objectives: [distiller]
 }
 researchCost: [
-"vile-cyst/75"
+"atlantedium/75"
 "siligone/650"
 "nanite/90"
 "carbon/70"
