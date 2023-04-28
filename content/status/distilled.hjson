@@ -1,0 +1,5 @@
+name: "[crimson]Distilled"
+description: "Burns away at victims and extremely debuffs them. You are glitching out of reality."
+damage: 3.45
+speedMultiplier: .25
+reloadMultiplier: .15
