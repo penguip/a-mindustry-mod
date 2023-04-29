@@ -1,4 +1,4 @@
-description: Burns Nitrogen and fuses it with thorium, producing heat and fissile matter as byproducts
+description: Burns Nitrogen and fuses it with thorium, producing fissile matter as a byproduct.
 buildVisibility: shown
 requirements: [
 "thorium/35"
@@ -11,10 +11,7 @@ research: {
 parent: slag-heater
 objectives: [thorium, nitrogen]
 }
-outputsPower: true
-powerProduction: 4.3
-category: power
-type: HeaterGenerator
+
 
 
 
