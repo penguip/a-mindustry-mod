@@ -12,7 +12,7 @@ parent: slag-heater
 objectives: [thorium, nitrogen]
 }
 outputsPower: true
-outputPower: 4.3
+powerProduction: 4.3
 category: power
 
 
