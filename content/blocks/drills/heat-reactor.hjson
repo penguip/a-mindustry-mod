@@ -1,1 +1,41 @@
 description: Burns Nitrogen and fuses it with thorium, producing heat and fissile matter as byproducts
+hidden: false
+requirements: [
+"thoruim/35"
+"beryllium/760"
+"tungsten/450"
+"oxide/40"
+"stone/80"
+]
+research: {
+parent: slag-heater
+objectives: [thoruim, nitrogen]
+}
+outputsPower: true
+outputPower: 4.3
+category: power
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
