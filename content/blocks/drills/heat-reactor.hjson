@@ -14,7 +14,7 @@ objectives: [thorium, nitrogen]
 outputsPower: true
 powerProduction: 4.3
 category: power
-
+type: GenericCrafter
 
 
 
