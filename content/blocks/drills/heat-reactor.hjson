@@ -1,5 +1,5 @@
 description: Burns Nitrogen and fuses it with thorium, producing heat and fissile matter as byproducts
-hidden: false
+buildVisibility: shown
 requirements: [
 "thorium/35"
 "beryllium/760"
