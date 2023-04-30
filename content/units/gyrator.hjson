@@ -1,6 +1,22 @@
 name: "Gyrator"
 description: Dives towards enemy ground targets and crashes on them.
 type: flying
+controller: SuicideAI
 flying: true
 health: 230
-crashDamage: 45
+crashDamageMultipler: 1.2
+weapons: [
+     {
+      reload: 0
+      ejectEffect: null
+      shootEffect: null
+       bullet: {
+          type: BasicBulletType
+          lifetime: 0
+          killShooter: true
+          }
+      }
+]
+      
+      
+
