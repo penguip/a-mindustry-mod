@@ -35,7 +35,7 @@ requirements: [
             type: ParticleEffect
             lifetime: 250
             sizeFrom: 15
-            sprite: sentinel-addon-apex-infinity
+            region: sentinel-addon-apex-infinity
             sizeTo: 0
             particles: 1
             colorFrom: ff0000
