@@ -1,0 +1,6 @@
+name: "Gyrator"
+description: Dives towards enemy ground targets and crashes on them.
+type: flying
+flying: true
+health: 230
+crashDamage: 45
