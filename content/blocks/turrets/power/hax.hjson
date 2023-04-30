@@ -38,6 +38,7 @@ requirements: [
             region: sentinel-addon-apex-infinity
             sizeTo: 0
             particles: 1
+            spin: 7.5
             colorFrom: ff0000
             colorTo: 0000ff
    }
