@@ -7,11 +7,13 @@ health: 230
 crashDamageMultipler: 1.2
 weapons: [
      {
-      reload: 0
+      reload: 1000
       ejectEffect: null
       shootEffect: null
        bullet: {
           type: BasicBulletType
+          splashDamage: 78
+          splashDamageRadius: 54
           lifetime: 0
           killShooter: true
           }
