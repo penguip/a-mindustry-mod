@@ -2,5 +2,7 @@ name: "Crevice(Bronze)"
 size: 1
 type: SteamVent
 variants: 2
-attributes: [
-bronze
+attributes: {
+bronze: 1.5
+antimatter: .01
+}
