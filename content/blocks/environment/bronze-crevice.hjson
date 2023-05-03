@@ -1,7 +1,10 @@
 name: "Crevice(Bronze)"
 parent: yellow-stone
 size: 3
-effect: sentinel-addon-void
+effect: {
+type: ParticleEffect
+region: sentinel-addon-void
+}
 type: SteamVent
 variants: 2
 attributes: {
