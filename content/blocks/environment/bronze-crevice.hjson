@@ -1,9 +1,10 @@
 name: "Crevice(Bronze)"
-size: 1
+parent: yellow-stone
+size: 3
 effect: null
 type: SteamVent
 variants: 2
 attributes: {
 bronze: 1.5
-antimatter: .01
+antimatter: .001
 }
