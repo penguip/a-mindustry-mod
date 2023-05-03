@@ -1,6 +1,7 @@
 name: "Crevice(Bronze)"
 parent: yellow-stone
 size: 3
+blendGroup: yellow-stone
 effect: {
 type: ParticleEffect
 region: sentinel-addon-void
