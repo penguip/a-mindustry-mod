@@ -6,6 +6,7 @@ copper/35
 lead/45
 ]
 type: ItemTurret
+category: turret
 reload: 230
 ammoTypes: [
     "guiding-alloy"{
