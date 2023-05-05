@@ -7,6 +7,13 @@ lead/45
 ]
 type: ItemTurret
 range: 468
+ejectEffect: {
+        type: Particle Effect
+        particles: 25
+        lifetime: 230
+        sizeFrom: 25
+        sizeTo: 0
+}
 health: 280
 category: turret
 reload: 160
