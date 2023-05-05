@@ -7,7 +7,7 @@ lead/45
 ]
 type: ItemTurret
 range: 468
-ejectEffect: {
+shootEffect: {
         type: Particle Effect
         particles: 25
         lifetime: 230
