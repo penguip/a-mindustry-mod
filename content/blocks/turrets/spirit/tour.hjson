@@ -13,11 +13,16 @@ reload: 230
                     type: BasicBulletType
                     lifetime: 450
                     speed: 2
+                    lightning: 25
+                    lightningColor: 00cdd4
+                    lightningLengthRand: 4.56
+                    lightningLength: 35
+                    lightningDamage: 25
                     sprite: large-orb
                     frontColor: 00ffff
                     damage: 45
                     backColor: 00cdd4
-                    bulletInterval: 85
+                    bulletInterval: 15
                     intervalBullet: {
                         type: LightningBulletType
                         lightningLength: 35
