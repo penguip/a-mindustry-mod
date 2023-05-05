@@ -20,10 +20,10 @@ ammoTypes: [
                     bulletInterval: 35
                     intervalBullet: {
                         type: LightningBulletType
-                        lightningLength: 35
-                        lightningLengthRand: 4.56
-                        lightningDamage: 35
-                        lightningColor: 00cdd4
+                        length: 35
+                        lengthRand: 4.56
+                        damage: 35
+                        color: 00cdd4
                        }
                    }
 ]
