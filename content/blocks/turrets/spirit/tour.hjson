@@ -6,12 +6,13 @@ copper/35
 lead/45
 ]
 type: ItemTurret
+range: 468
 category: turret
-reload: 230
+reload: 160
 "ammoTypes": {
     "guiding-alloy": {
                     type: BasicBulletType
-                    lifetime: 450
+                    lifetime: 234
                     speed: 2
                     lightning: 25
                     lightningColor: 00cdd4
@@ -28,7 +29,7 @@ reload: 230
                         lightningLength: 35
                         lightningLengthRand: 4.56
                         lightningDamage: 35
-                        color: 00cdd4
+                        lightningColor: 00cdd4
                        }
                    }
 }
