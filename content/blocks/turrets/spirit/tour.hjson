@@ -8,7 +8,7 @@ lead/45
 type: ItemTurret
 category: turret
 reload: 230
-ammoTypes: [
+"ammoTypes": {
     "guiding-alloy": {
                     type: BasicBulletType
                     lifetime: 450
@@ -26,7 +26,7 @@ ammoTypes: [
                         color: 00cdd4
                        }
                    }
-]
+}
 shootSound: shockBlast
 
 
