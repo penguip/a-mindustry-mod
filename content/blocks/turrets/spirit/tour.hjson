@@ -1,0 +1,26 @@
+name: "Tour"
+description: One of Spirits turrets, and the very first one she ever made. Concentrates and fires orbs of pure light.
+requirements: [
+guiding-alloy/65
+copper/35
+lead/45
+]
+type: ItemTurret
+reload: 230
+ammoTypes: [
+    "guiding-alloy"{
+                    type: BasicBulletType
+                    lifetime: 450
+                    speed: 2
+                    sprite: orb
+                    frontColor: 00ffff
+                    backColor: 00cdd4
+                    lightning: 15
+                    lightningLength: 35
+                    lightningDamage: 35
+                    damage: 65
+                   }
+]                    
+                    
+                    
+                    
