@@ -2,6 +2,7 @@ type: LiquidTurret
 name: "Cease"
 description: "Fires long pugneum or givanium needles at enemy targets."
 size: 1
+health: 145
 category: turret
 reload: 134
 shootSound: shootBig
