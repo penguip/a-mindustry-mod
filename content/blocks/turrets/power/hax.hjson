@@ -1,6 +1,7 @@
 type: PowerTurret
 name:  "Hax"
 reload: 645
+health: 135
 rotateSpeed: .98
 shoot: {
    shots: 1
