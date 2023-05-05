@@ -17,6 +17,7 @@ ammoTypes: [
                     frontColor: 00ffff
                     damage: 45
                     backColor: 00cdd4
+                    bulletInterval: 35
                     intervalBullet: {
                         type: LightningBulletType
                         lightningLength: 35
