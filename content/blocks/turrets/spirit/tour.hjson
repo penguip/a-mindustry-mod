@@ -9,7 +9,7 @@ type: ItemTurret
 category: turret
 reload: 230
 ammoTypes: [
-    "guiding-alloy"{
+    "guiding-alloy": {
                     type: BasicBulletType
                     lifetime: 450
                     speed: 2
