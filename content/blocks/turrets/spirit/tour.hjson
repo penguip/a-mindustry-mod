@@ -21,8 +21,9 @@ ammoTypes: [
                     intervalBullet: {
                         type: LightningBulletType
                         lightningLength: 35
+                        lightningLengthRand: 4.56
                         lightningDamage: 35
-                        color: 00cdd4
+                        lightningColor: 00cdd4
                        }
                    }
 ]
