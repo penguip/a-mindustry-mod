@@ -21,6 +21,6 @@ ammoTypes: [
                     damage: 65
                    }
 ]                    
-                    
+shootSound: shockBlast                    
                     
                     
