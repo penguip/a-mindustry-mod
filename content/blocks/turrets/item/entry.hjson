@@ -1,6 +1,7 @@
 name: "Entry"
 range: 49
 reload: 25
+health: 95
 category: turret
 hasPower: true
 type: ItemTurret
