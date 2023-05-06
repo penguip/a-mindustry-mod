@@ -2,6 +2,7 @@ name: "Mito"
 description: A basic turret of Figure's. Unleashes a hot spike of burning tonerone.
 type: ItemTurret
 range: 135
+category: turret
 ammoPerShot: 4
 reload: 85
 health: 230
