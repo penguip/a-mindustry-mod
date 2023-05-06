@@ -12,7 +12,7 @@ loopSound: beam
 shootSound: none
 shootEffct: none
 size: 2
-liquidConsumed: 6
+liquidConsumed: .1
 category: turret
 health: 360
 requirements: [
