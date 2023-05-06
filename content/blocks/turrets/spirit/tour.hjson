@@ -10,8 +10,9 @@ range: 468
 shootEffect: {
         type: Particle Effect
         particles: 25
-        lifetime: 230
-        sizeFrom: 25
+        lifetime: 35
+        sizeFrom: 15
+        colorFrom: 00ffff
         sizeTo: 0
 }
 health: 280
