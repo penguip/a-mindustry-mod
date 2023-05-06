@@ -14,9 +14,8 @@ requirements: [
 "ammoTypes": {
      "tonerone": {
          type: ShrapnelBulletType
-         length: 23
-         height: 135
-         color: 730000
+         width: 23
+         length: 135
          damage: 35
          ammoMultiplier: 1
          status: burning
