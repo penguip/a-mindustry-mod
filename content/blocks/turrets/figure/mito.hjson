@@ -3,7 +3,7 @@ description: A basic turret of Figure's. Unleashes a hot spike of burning tonero
 type: ItemTurret
 range: 135
 ammoPerShot: 4
-reload: 110
+reload: 85
 health: 230
 shootEffect: none
 requirements: [
@@ -16,7 +16,9 @@ requirements: [
          type: ShrapnelBulletType
          width: 23
          length: 135
-         fromColor: 730000
+         fromColor: ff0000
+         toColor: 730000
+
          damage: 35
          ammoMultiplier: 1
          status: burning
