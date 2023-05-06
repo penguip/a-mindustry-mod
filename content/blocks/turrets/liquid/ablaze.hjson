@@ -1,4 +1,4 @@
-type: ContinuousTurret
+type: ContinuousLiquidTurret
 name: "Ablaze"
 description: Boils givanium and funnels it into a laser.
 "ammoTypes": {
