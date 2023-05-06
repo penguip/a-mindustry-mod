@@ -16,6 +16,7 @@ requirements: [
          type: ShrapnelBulletType
          width: 23
          length: 135
+         colorTo: 730000
          damage: 35
          ammoMultiplier: 1
          status: burning
