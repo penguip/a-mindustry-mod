@@ -1,0 +1,26 @@
+name: "Mito"
+description: A basic turret of Figure's. Unleashes a hot spike of burning tonerone.
+type: ItemTurret
+range: 135
+ammoPerShot: 4
+reload: 110
+health: 230
+shootEffect: none
+requirements: [
+"tonerone/65"
+"beryllium/45"
+"silicon/35"
+]
+"ammoTypes": {
+     "tonerone": {
+         type: ShrapnelBulletType
+         length: 23
+         height: 135
+         color: 730000
+         damage: 35
+         ammoMultiplier: 1
+         status: burning
+         statusDuration: 450
+     }
+}
+shootSound: shotgun
