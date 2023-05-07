@@ -9,7 +9,7 @@ shootType: {
 }
 consumes: {
      liquids: [
-        "givanium/1"
+        "givanium/.024"
 ]
 }
 loopSound: beam
