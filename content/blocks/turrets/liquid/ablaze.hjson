@@ -1,7 +1,7 @@
 type: ContinuousTurret
 name: "Ablaze"
 description: Boils givanium and funnels it into a laser.
-ShootType: {
+shootType: {
       type: PointLaserBulletType
       damage: 130
       color: 00ff00
