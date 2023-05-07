@@ -1,5 +1,6 @@
 type: ContinuousTurret
 name: "Ablaze"
+range: 350
 description: Boils givanium and funnels it into a laser.
 shootType: {
       type: PointLaserBulletType
