@@ -5,7 +5,7 @@ ShootType: {
       type: PointLaserBulletType
       damage: 130
       color: 00ff00
-
+      sprite: point-laser
 }
 consumes: {
      liquids: [
