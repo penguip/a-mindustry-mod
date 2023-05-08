@@ -1,7 +1,7 @@
 name: "Resonator"
-type: GenericCrafter
+type: HeatCrafter
 consumes: {
-    heat: 5
+
     liquids: [
        "arkycite/.87"
     ]
@@ -12,6 +12,7 @@ consumes: {
 }
 description: Resonates tonerone with different materials and heat.
 outputItem: tonerone
+heatRequirement: 5
 maxHeatEfficiency: 4
 requirements: [
 "tungsten/130"
