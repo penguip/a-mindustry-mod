@@ -1,0 +1,32 @@
+name: "Resonator"
+type: GenericCrafter
+consumes: {
+    heat: 5
+    liquids: [
+       "arkycite/.87"
+    ]
+    items: [
+    "beryllium/2"
+    ]
+    power: 3.4
+}
+description: Resonates tonerone with different materials and heat.
+outputItem: tonerone
+maxHeatEfficiency: 4
+requirements: [
+"tungsten/130"
+"graphite/450"
+"beryllium/760"
+"sillicon/970"
+"oxide/75"
+]
+research: {
+parent: oxidation-chamber
+objectives: [electric-heater, peaks, {
+type: OnSector
+preset: peaks
+}
+]
+}
+
+
