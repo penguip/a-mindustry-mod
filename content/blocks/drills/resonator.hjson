@@ -11,7 +11,7 @@ consumes: {
     power: 3.4
 }
 description: Resonates tonerone with different materials and heat.
-outputItem: tonerone
+outputItem: tonerone/2
 heatRequirement: 5
 maxHeatEfficiency: 4
 requirements: [
