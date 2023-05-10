@@ -7,15 +7,15 @@ armor: 7
 weapons: [
       {
        name: eye-weapon
-       reload: 125
-       
+       reload: 95
+       top: false
        shootSound: shootBig
        y: 4
        x: 6
        shoot: {
        type: ShootAlternate
-       shots: 3
-       shotDelay: 1.3
+       shots: 4
+       shotDelay: 5.5
        barrels: 2
        spread: 3
        }
