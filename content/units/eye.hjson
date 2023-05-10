@@ -3,11 +3,12 @@ description: The first mobile invention of the figure. Maws nearby targets with 
 speed: .98
 health: 1800
 type: mech
+hitSize: 10
 armor: 7
 weapons: [
       {
        name: eye-weapon
-       reload: 95
+       reload: 75
        top: false
        shootSound: shootBig
        y: 4
@@ -25,7 +26,7 @@ weapons: [
        speed: 2.4
        frontColor: fc8e6d
        backColor: f25555
-       lifetime: 125
+       lifetime: 100
        status: blasted
        fragBullets: 4
        fragBullet: {
@@ -34,7 +35,8 @@ weapons: [
             frontColor: f25555
             backColor: a14553
             damage: 15
-            lifetime: 75
+            lifetime: 10
+            
        }
        }
        }
