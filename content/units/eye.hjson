@@ -8,8 +8,10 @@ weapons: [
       {
        name: eye-weapon
        reload: 125
-       y: 1
-       x: 4
+       
+       shootSound: shootBig
+       y: 4
+       x: 6
        shoot: {
        type: ShootAlternate
        shots: 3
@@ -23,7 +25,7 @@ weapons: [
        speed: 2.4
        frontColor: fc8e6d
        backColor: f25555
-       lifetime: 340
+       lifetime: 125
        status: blasted
        fragBullets: 4
        fragBullet: {
