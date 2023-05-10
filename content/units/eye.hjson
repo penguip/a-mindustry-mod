@@ -24,6 +24,7 @@ weapons: [
        type: FlakBulletType
        damage: 45
        speed: 2.4
+       collidesGround: true
        frontColor: fc8e6d
        backColor: f25555
        lifetime: 100
