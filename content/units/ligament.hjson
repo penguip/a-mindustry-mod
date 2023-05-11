@@ -1,0 +1,43 @@
+name: "Ligament"
+description: Spews skin-slicing flame at nearby enemy targets.
+health: 280
+speed: .66
+armor: 2
+weapons: [
+   {
+    name: ligament-weapon
+    reload: 2.5
+    smokeEffect: {
+           
+
+
+           type: ParticleEffect 
+
+           particles: 30, 
+
+           length: 300
+
+           lifetime: 30
+
+           interp: circleOut
+
+           "cone": 8, 
+
+           "colorFrom": "", 
+
+           "colorTo": "62ae7f", 
+
+           "sizeFrom": 6, 
+
+           "sizeTo": 1, 
+
+           //testing line particles 
+
+           "line": true, 
+
+           "strokeFrom": 0.8, 
+
+           "strokeTo": 0.6 
+
+         }
+
