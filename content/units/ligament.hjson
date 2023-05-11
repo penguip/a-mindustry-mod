@@ -7,7 +7,7 @@ weapons: [
    {
     name: ligament-weapon
     reload: 2.5
-    smokeEffect: {
+    shooyEffect: {
            type: ParticleEffect 
            particles: 30
            length: 300
