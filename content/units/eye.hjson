@@ -1,6 +1,6 @@
 name: "Eye"
 description: Maws nearby targets with powerful fragging twin guns.
-speed: .98
+speed: .56
 health: 1800
 type: mech
 hitSize: 10
