@@ -7,7 +7,7 @@ weapons: [
    {
     name: ligament-weapon
     reload: 2.5
-    shooyEffect: {
+    shootEffect: {
            type: ParticleEffect 
            particles: 30
            length: 300
@@ -24,7 +24,7 @@ weapons: [
            }
     shootSound: flame
     bullet: {
-            type: BasicBulletType
+            type: BulletType
             length: .01
             width: .01
             damage: 15
