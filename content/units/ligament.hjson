@@ -10,8 +10,8 @@ weapons: [
     ejectEffect: {
            type: ParticleEffect 
            particles: 30
-           length: 300
-           lifetime: 3.5
+           length: 30
+           lifetime: 30
            interp: circleOut
            cone: 8
            colorFrom: f25555
