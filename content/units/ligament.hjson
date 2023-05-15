@@ -7,13 +7,14 @@ weapons: [
    {
     name: ligament-weapon
     reload: 2.5
+    shootCone: 14
     ejectEffect: {
            type: ParticleEffect 
            particles: 30
            length: 30
            lifetime: 30
            interp: circleOut
-           cone: 8
+           cone: 14
            colorFrom: f25555
            colorTo: fc8e6d
            sizeFrom: 6
@@ -25,6 +26,9 @@ weapons: [
     bullet: {
             type: BulletType
             damage: 15
+            lifetime: 30
+            hitEffect: none
+            despawnEffect: none
             }
 }
 ]
