@@ -13,7 +13,6 @@ weapons: [
            particles: 30
            length: 30
            lifetime: 30
-           interp: circleOut
            cone: 14
            colorFrom: f25555
            colorTo: fc8e6d
