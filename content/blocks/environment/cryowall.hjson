@@ -2,6 +2,8 @@ name: "Cryowall"
 type: StaticWall
 cacheLayer: wall
 variants: 2
+breakEffect: breakProp
+instantDeconstruct: false
 requirements: [
 "cryogel/15"
 ]
@@ -11,7 +13,6 @@ attributes: {
 sand: 1.45
 cryogel: 1
 }
-
 
 
 
