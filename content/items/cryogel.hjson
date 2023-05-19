@@ -1,0 +1,7 @@
+name: "Cryogel"
+description: A solid mix of spore matter and cryofluid. Can be either melted into cryofluid or used in advanced freezing ammunition.
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+color: 86ceeb
