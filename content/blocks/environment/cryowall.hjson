@@ -1,5 +1,6 @@
 name: "Cryowall"
 type: StaticWall
+cacheLayer: wall
 variants: 2
 requirements: [
 "cryogel/15"
