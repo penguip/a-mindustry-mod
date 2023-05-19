@@ -18,8 +18,8 @@ weapons: [
            colorTo: fc8e6d
            sizeFrom: 6
            sizeTo: 1
-           strokeFrom: 0.8
-           strokeTo: 0.6 
+           strokeFrom: 0.3
+           strokeTo: 0.1 
            }
     shootSound: flame
     bullet: {
