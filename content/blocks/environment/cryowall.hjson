@@ -1,0 +1,28 @@
+name: "Cryowall"
+type: StaticWall
+requirements: [
+"cryogel/15"
+]
+destructible: true
+buildVisibility: editorOnly
+attributes: {
+sand: 1.45
+cryogel: 1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
