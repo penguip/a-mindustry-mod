@@ -1,6 +1,6 @@
 name: "Cryowall"
 type: StaticWall
-cacheLayer: wall
+cacheLayer: walls
 variants: 2
 breakEffect: breakProp
 instantDeconstruct: false
