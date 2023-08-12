@@ -7,7 +7,7 @@ requirements: [
 "green-papers/50"
 ]
 reload: 20
-shootSound: sentinel-addon-basic-shot
+shootSound: basic-shot
 health: 500
 range: 90
 "ammoTypes": {
