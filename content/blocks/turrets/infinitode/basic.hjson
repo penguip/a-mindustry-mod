@@ -3,9 +3,20 @@ description: A simple turret with good, but limited power.
 buildCost: [
 "green-papers/50"
 ]
+reload: 10
+shoot-sound: basic-shot
 health: 500
-ammoTypes: [
-       scalar
+"ammoTypes": {
+       scalar: {
+            type: BasicBulletType
+            sprite: sentinel-addon-basic-bullet
+            width: 1
+            height: 1
+            speed: 2
+            lifetime: 180
+            damage: 18
+       }
+}
 
 
 
