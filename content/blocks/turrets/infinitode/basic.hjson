@@ -2,21 +2,21 @@ name: "[cyan]Basic"
 type: ItemTurret
 size: 2
 description: A simple turret with good, but limited power.
-requirments: [
+requirements: [
 "green-papers/50"
 ]
 reload: 10
-shoot-sound: basic-shot
+shootSound: basic-shot
 health: 500
-range: 360
+range: 90
 "ammoTypes": {
        scalar: {
             type: BasicBulletType
             sprite: sentinel-addon-basic-bullet
-            width: 1
-            height: 1
+            width: 5
+            height: 5
             speed: 2
-            lifetime: 180
+            lifetime: 45
             damage: 18
        }
 }
