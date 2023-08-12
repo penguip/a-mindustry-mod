@@ -1,6 +1,7 @@
 name: "[cyan]Basic"
 type: ItemTurret
 size: 2
+category: turret
 description: A simple turret with good, but limited power.
 requirements: [
 "green-papers/50"
