@@ -5,8 +5,8 @@ description: A simple turret with good, but limited power.
 requirements: [
 "green-papers/50"
 ]
-reload: 10
-shootSound: basic-shot
+reload: 20
+shootSound: sentinel-addon-basic-shot
 health: 500
 range: 90
 "ammoTypes": {
