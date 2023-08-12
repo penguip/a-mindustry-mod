@@ -1,0 +1,15 @@
+name: "[cyan]Basic"
+description: A simple turret with good, but limited power.
+buildCost: [
+"green-papers/50"
+]
+health: 500
+ammoTypes: [
+       scalar
+
+
+
+
+
+
+
