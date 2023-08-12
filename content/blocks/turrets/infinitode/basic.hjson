@@ -1,4 +1,6 @@
 name: "[cyan]Basic"
+type: ItemTurret
+size: 2
 description: A simple turret with good, but limited power.
 buildCost: [
 "green-papers/50"
