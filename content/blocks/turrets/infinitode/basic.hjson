@@ -6,6 +6,7 @@ buildCost: [
 reload: 10
 shoot-sound: basic-shot
 health: 500
+range: 360
 "ammoTypes": {
        scalar: {
             type: BasicBulletType
