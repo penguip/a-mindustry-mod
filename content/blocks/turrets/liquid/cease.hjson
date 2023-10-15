@@ -29,6 +29,7 @@ requirements: [
      puddleRange: 1
      puddleAmount: 10
      puddleLiquid: givanium
+     despawnHit: false
     }
     "pugneum": {
      type: BasicBulletType
@@ -47,5 +48,6 @@ requirements: [
      puddleRange: 1
      puddleAmount: 10
      puddleLiquid: pugneum
+     despawnHit: false
     }
 }
