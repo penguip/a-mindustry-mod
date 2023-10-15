@@ -27,9 +27,9 @@ requirements: [
      lifetime: 21     
      puddles: 1
      puddleRange: 1
-     puddleAmount: 10
+     puddleAmount: 50
      puddleLiquid: givanium
-     despawnHit: false
+     despawnHit: true
     }
     "pugneum": {
      type: BasicBulletType
@@ -46,8 +46,8 @@ requirements: [
      lifetime: 23
      puddles: 1
      puddleRange: 1
-     puddleAmount: 10
+     puddleAmount: 50
      puddleLiquid: pugneum
-     despawnHit: false
+     despawnHit: true
     }
 }
