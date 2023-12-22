@@ -1,2 +1,8 @@
 name: [magenta]RADIANT SHARD
 frames: 8
+description: A shard of pure chaos. Useless in it's current form, can be processed into nanites or cut to make cutting edge sentinel tech.
+explosiveness: 0
+flammability: 0
+radioactivity: 1
+charge: .25
+color: ff00ff
