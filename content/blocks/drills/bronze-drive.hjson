@@ -11,9 +11,9 @@ requirements: [
 description: "Searches for bronze inside of crevices."
 consumes: {
 power: 1
-items: {
+items: [
    "carbon/1"
-}
+]
 }
 drillTime: 780
 attribute: bronze
