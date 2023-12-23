@@ -1,7 +1,7 @@
 type: AttributeCrafter
 name: "Bronze Drive"
 category: production
-size: 2
+size: 3
 requirements: [
 "cadocopper/230"
 "siligone/160"
