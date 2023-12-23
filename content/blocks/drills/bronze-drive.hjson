@@ -1,0 +1,27 @@
+type: WallCrafter
+name: "Copper Drive"
+category: production
+size: 2
+requirements: [
+"cadocopper/230"
+"siligone/160"
+"anolead/85"
+"nanite/90"
+]
+description: "Searches for carbon inside of cracks in the walls"
+consumes: {
+power: 1
+}
+drillTime: 780
+attribute: carbon
+output: carbon
+research: {
+parent: anax-extractor
+objectives: [filter]
+}
+researchCost: [
+"cadocopper/865"
+"siligone/320"
+"anolead/150"
+"nanite/230"
+]
