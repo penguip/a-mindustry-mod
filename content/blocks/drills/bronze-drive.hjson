@@ -1,5 +1,6 @@
 type: AttributeCrafter
 name: "Bronze Drive"
+minEfficiency: 1
 category: production
 size: 3
 requirements: [
