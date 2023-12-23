@@ -10,7 +10,10 @@ requirements: [
 research: {
 parent: slag-heater
 objectives: [thorium, nitrogen, stronghold, {
-type: ]
+type: SectorComplete
+preset: stronghold
+}
+]
 }
 
 
