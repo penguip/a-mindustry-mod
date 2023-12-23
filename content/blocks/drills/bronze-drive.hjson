@@ -21,7 +21,7 @@ output: bronze
 research: {
 parent: anax-extractor
 objectives: [filter, canax, {
-type: OnSector
+type: SectorComplete
 preset: canax
 }
 ]
