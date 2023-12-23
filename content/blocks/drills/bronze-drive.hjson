@@ -17,7 +17,7 @@ items: [
 }
 drillTime: 780
 attribute: bronze
-outputItem: {
+"outputItem": {
  "bronze/1"
 }
 research: {
