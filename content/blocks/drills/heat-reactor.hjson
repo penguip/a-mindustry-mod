@@ -9,7 +9,8 @@ requirements: [
 ]
 research: {
 parent: slag-heater
-objectives: [thorium, nitrogen]
+objectives: [thorium, nitrogen, stronghold, {
+type: ]
 }
 
 
