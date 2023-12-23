@@ -1,4 +1,4 @@
-type: WallCrafter
+type: AttributeCrafter
 name: "Copper Drive"
 category: production
 size: 2
@@ -8,13 +8,16 @@ requirements: [
 "anolead/85"
 "nanite/90"
 ]
-description: "Searches for carbon inside of cracks in the walls"
+description: "Searches for bronze inside of crevices."
 consumes: {
 power: 1
+items: {
+   "carbon/1"
+}
 }
 drillTime: 780
-attribute: carbon
-output: carbon
+attribute: bronze
+output: bronze
 research: {
 parent: anax-extractor
 objectives: [filter, canax, {
