@@ -18,7 +18,8 @@ items: [
 drillTime: 780
 attribute: bronze
 outputItem: {
- 
+ item: bronze
+ amount: 1
 }
 research: {
 parent: anax-extractor
