@@ -17,9 +17,11 @@ items: [
 }
 drillTime: 780
 attribute: bronze
-outputItem: [
+output: {
+ items: [
  "bronze/1"
 ]
+}
 research: {
 parent: anax-extractor
 objectives: [filter, canax, {
