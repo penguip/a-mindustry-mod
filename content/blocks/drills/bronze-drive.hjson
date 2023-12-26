@@ -1,6 +1,7 @@
 type: AttributeCrafter
 name: "Bronze Drive"
 minEfficiency: 1
+maxBoost: 1.5
 baseEfficiency: 0
 category: production
 size: 3
