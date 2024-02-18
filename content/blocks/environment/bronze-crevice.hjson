@@ -9,6 +9,5 @@ region: sentinel-addon-void
 type: SteamVent
 variants: 2
 attributes: {
-bronze: 1.5
-antimatter: .001
+steam: 1.5
 }
