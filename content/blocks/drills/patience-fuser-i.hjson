@@ -1,0 +1,18 @@
+name: "PATIENCE resonator"
+description: "Reforms what's left of infinity soul PATIENCE."
+type: GenericCrafter
+size: 2
+category: crafting
+consumes: {
+power: 3.14
+   liquids: [
+     "patience-remanant/1.53"
+   ]
+}
+outputItem: "patience-piece-i/1"
+requirements: [
+"fearite/250"
+"nanite/500"
+"siligone/1300"
+"doom-alloy/50"
+]
