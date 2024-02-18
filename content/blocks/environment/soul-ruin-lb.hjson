@@ -1,0 +1,7 @@
+type: "Floor"
+name: "PATIENCE Memories"
+size: 1
+variants: 0
+liquidDrop: "patince-remanant"
+cacheLayer: water
+isLiquid: true
