@@ -20,7 +20,7 @@ items: [
 ]
 }
 drillTime: 780
-attribute: bronze
+attribute: steam
 outputItem: {
  item: bronze
  amount: 1
