@@ -3,6 +3,7 @@ description: "Reforms what's left of infinity soul PATIENCE."
 type: GenericCrafter
 size: 2
 category: crafting
+craftTime: 30
 consumes: {
 power: 3.14
    liquids: [
