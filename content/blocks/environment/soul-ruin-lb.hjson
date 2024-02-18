@@ -2,6 +2,6 @@ type: "Floor"
 name: "PATIENCE Memories"
 size: 1
 variants: 0
-liquidDrop: "patince-remanant"
+liquidDrop: "patience-remanant"
 cacheLayer: water
 isLiquid: true
