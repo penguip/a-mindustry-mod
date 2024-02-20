@@ -1,0 +1,8 @@
+name: "Terastanium"
+description: "A mutated, living isotope of plastanium made from the distillation of normal plastanium and pugneum. Enigmatic."
+explosiveness: 1
+flammability: 3
+radioactivity: 1.37
+charge: .89
+hardness: 1
+research: tereletrinium
