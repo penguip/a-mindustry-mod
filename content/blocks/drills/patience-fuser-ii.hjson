@@ -7,8 +7,8 @@ craftTime: 3600
 consumes: {
 power: 4.98
    items: [
-     "patience-piece-i/2
-     "tereletrinuim/5"
+     "patience-piece-i/2"
+     "tereletrinuim/65"
    liquids: [
      "patience-remanant/3.23"
    ]
