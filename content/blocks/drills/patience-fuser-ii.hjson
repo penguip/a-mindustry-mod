@@ -8,7 +8,7 @@ consumes: {
 power: 4.98
    items: [
      "patience-piece-i/2
-     "tereletrinium/65"
+     "tereletrinuim/65"
    liquids: [
      "patience-remanant/3.23"
    ]
@@ -19,5 +19,6 @@ requirements: [
 "nanite/4800"
 "siligone/2600"
 "doom-alloy/125"
+"tereletrinuim/290"
 "sinister-stasis-chamber/1"
 ]
