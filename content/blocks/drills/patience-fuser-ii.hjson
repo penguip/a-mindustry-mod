@@ -4,6 +4,7 @@ type: GenericCrafter
 size: 3
 category: crafting
 craftTime: 3600
+itemCapacity: 65
 consumes: {
 power: 4.98
    items: [
