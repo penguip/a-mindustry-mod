@@ -1,7 +1,7 @@
 name: "PATIENCE gluer"
 description: "Glues parts of infinity soul PATIENCE together."
 type: GenericCrafter
-size: 2
+size: 3
 category: crafting
 craftTime: 3600
 consumes: {
