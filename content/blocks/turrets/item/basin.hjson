@@ -1,1 +1,25 @@
-
+name: "Basin"
+range: 133.4
+reload: 45
+health: 95
+category: turret
+type: ItemTurret
+shootSound: shootBig
+requirements: [
+"universal-token/5"
+]
+size: 3
+description: "One of the very first Elder Futhark turrets. Deciphers and unleashes the energy of basic scrolls."
+"ammoTypes": {
+   "scroll-of-ansuz": {
+   type: BasicBulletType
+   sprite: basic-bullet
+   width: 10
+   height: 10
+   speed: 2.3
+   lifetime: 58
+   status: shocked
+   damage: 25
+   }
+}
+ammoPerShot: 2
