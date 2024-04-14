@@ -20,6 +20,9 @@ description: "One of the very first Elder Futhark turrets. Deciphers and unleash
    lifetime: 58
    status: shocked
    damage: 25
+        lightning: 25
+        lightningDamage: 2
+        lightningLength: 10
    }
 }
 ammoPerShot: 2
