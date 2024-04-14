@@ -19,6 +19,7 @@ description: "One of the very first Elder Futhark turrets. Deciphers and unleash
    speed: 2.3
    lifetime: 58
    status: shocked
+   despawnHit: true
    damage: 25
         lightning: 25
         lightningDamage: 2
