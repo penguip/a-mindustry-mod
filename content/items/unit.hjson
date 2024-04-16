@@ -1,0 +1,10 @@
+name: "Unit"
+hardness: 1
+color: ffff00
+description: "A kind of currency used galaxy-wide, in buyers and sellers."
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+research: "cadocopper"
+alwaysUnlocked: true
