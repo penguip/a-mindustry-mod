@@ -4,7 +4,7 @@ reload: 45
 health: 280
 category: turret
 type: ItemTurret
-shootSound: shootBig
+shootSound: shockBlast
 requirements: [
 "universal-token/5"
 ]
