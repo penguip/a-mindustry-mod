@@ -13,7 +13,7 @@ description: "One of the very first Elder Futhark turrets. Deciphers and unleash
 "ammoTypes": {
    "scroll-of-ansuz": {
    type: BasicBulletType
-   sprite: basic-bullet
+   sprite: large-orb
    width: 10
    height: 10
    speed: 2.3
