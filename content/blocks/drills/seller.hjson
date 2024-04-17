@@ -1,47 +1,47 @@
 type: multicraft.MultiCrafter
 name: "Seller"
-description: "Used with the buyer,
+description: "Used along with the buyer, this is a crucial part of a successful empire."
 size: 1
 health: 360
 alwaysUnlocked: false
-category: "production",
+category: effect
 requirements: [
-    "broken-metal/120",
-    "gemenium/50",
+    "universal-token/5"
 ],
 research: {
     parent: "micro-drill"
-    requirements: [],
+    requirements: [
+       "nanite/560"
+       "universal-token/1"
+    ],
 },
 recipes: 
 [
 {
   input: {
   items: [
-    polgranium-works-broken-metal/3
-    polgranium-works-gemenium/3
+    sentinel-addon-apocalyps-conservant/1
   ]
-  heat: 15
   }
   output: {
     items: [
-      polgranium-works-armored-gemenium/3
+      sentinel-addon-unit/1250
     ]
   }
-  craftTime: 600.0
+  craftTime: 60
   craftEffect: smeltsmoke
 }
 {
   input: {
   items: [
-    polgranium-works-broken-metal/1
-    polgranium-works-gemenium/1
+    sentinel-addon-radiant-shard/1
   ]
   heat: 5
   }
   output: {
     items: [
-      polgranium-works-armored-gemenium/1
+      sentinel-addon-unit/250
+      sentinel-addon-nanite/3
     ]
   }
   craftTime: 600.0
