@@ -7,4 +7,4 @@ explosiveness: 0
 flammability: 0
 heatCapacity: 3.5
 viscosity: .25
-temperature: .1
+temperature: 0
