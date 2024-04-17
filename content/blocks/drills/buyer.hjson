@@ -42,4 +42,18 @@ recipes:
   }
   craftTime: 20
 }
+{
+  input: {
+  items: [
+    sentinel-addon-unit/230
+    sentinel-addon-nanite/5
+  ]
+  }
+  output: {
+    items: [
+      sentinel-addon-universal-token/1
+    ]
+  }
+  craftTime: 180
+ }
 ]
