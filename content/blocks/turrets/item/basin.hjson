@@ -3,7 +3,7 @@ range: 133.4
 coolantMultiplier: 2
 "consumes": {
    "coolant": {
-      "amount": 1
+      "amount": 2
     }
  }
 reload: 45
