@@ -20,7 +20,7 @@ recipes:
 {
   input: {
   items: [
-    sentinel-addon-apocalyps-conservant/1
+    sentinel-addon-apocaylps-conservant/1
   ]
   }
   output: {
