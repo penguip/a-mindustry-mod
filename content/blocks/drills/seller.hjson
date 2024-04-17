@@ -46,7 +46,7 @@ recipes:
 }
 {
   input: {
-  liquid: [
+  fluids: [
     sentinel-addon-aether-conservant/2
   ]
   }
