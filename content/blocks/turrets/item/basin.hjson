@@ -1,5 +1,6 @@
 name: "Basin"
 range: 133.4
+hasCoolant: true
 reload: 45
 health: 280
 category: turret
