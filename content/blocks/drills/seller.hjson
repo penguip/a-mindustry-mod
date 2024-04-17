@@ -7,14 +7,14 @@ alwaysUnlocked: false
 category: effect
 requirements: [
     "universal-token/5"
-],
+]
 research: {
     parent: "micro-drill"
     requirements: [
        "nanite/560"
        "universal-token/1"
-    ],
-},
+    ]
+}
 recipes: 
 [
 {
@@ -43,5 +43,18 @@ recipes:
     ]
   }
   craftTime: 65
+}
+{
+  input: {
+  liquids: [
+    sentinel-addon-aether-conservant/1
+  ]
+  }
+  output: {
+    items: [
+      sentinel-addon-unit/25
+    ]
+  }
+  craftTime: 15
 }
 ]
