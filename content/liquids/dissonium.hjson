@@ -1,1 +1,10 @@
-
+name: "Dissonium"
+description: "A major dissonance agent, this gas gave Pugneo it's iconic talking point: it's dissonant atmosphere."
+color: 8b73c7
+gasColor: 8b73c7
+explosiveness: 5
+flammability: 5
+heatCapacity: 5
+viscosity: 5
+temperature: 5
+gas: true
