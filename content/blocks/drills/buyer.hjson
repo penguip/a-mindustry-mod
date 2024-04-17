@@ -4,7 +4,7 @@ description: "Used along with the seller, this is a crucial part of a successful
 size: 1
 health: 360
 alwaysUnlocked: false
-category: "production"
+category: crafting
 requirements: [
     "universal-token/3"
 ]
