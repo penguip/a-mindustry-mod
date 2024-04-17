@@ -29,14 +29,12 @@ recipes:
     ]
   }
   craftTime: 60
-  craftEffect: smeltsmoke
 }
 {
   input: {
   items: [
     sentinel-addon-radiant-shard/1
   ]
-  heat: 5
   }
   output: {
     items: [
@@ -44,7 +42,6 @@ recipes:
       sentinel-addon-nanite/3
     ]
   }
-  craftTime: 600.0
-  craftEffect: smeltsmoke
+  craftTime: 65
 }
 ]
