@@ -1,6 +1,7 @@
 name: "Basin"
 range: 133.4
-hasCoolant: true
+consumes: {
+   coolant
 reload: 45
 health: 280
 category: turret
