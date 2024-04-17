@@ -1,5 +1,5 @@
 name: "Æther Conservant"
 description: "The only substance known with a temperature of absolute zero. One of the best coolants, and it sells ok on sellers."
 coolant: true
-color: 00ff00
+color: 4769cc
 effect: "frozen"
