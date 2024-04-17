@@ -3,3 +3,6 @@ description: "The only substance known with a temperature of absolute zero. One 
 coolant: true
 color: 4769cc
 effect: "frozen"
+explosiveness: 0
+flammability: 0
+heat
