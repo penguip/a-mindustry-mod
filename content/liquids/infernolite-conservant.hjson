@@ -1,10 +1,10 @@
 name: "Infernolite Conservant"
-description: "The only substance known with a temperature of absolute zero. One of the best coolants, and it sells ok on sellers."
-coolant: true
-color: 4769cc
-effect: "frozen"
+description: "A liquid so hot it's been rumored to be what makes stars. An exteremely powerful source of heat, and exells at melting absolutely everything that touces it. Sells ok on sellers."
+coolant: false
+color: 
+effect: "liquidifying"
 explosiveness: 0
 flammability: 0
-heatCapacity: 10
-viscosity: .25
-temperature: 0
+heatCapacity: 0
+viscosity: 1
+temperature: 10
