@@ -1,6 +1,6 @@
 name: "Crevice(Bronze)"
 parent: yellow-stone
-size: 3
+size: 1
 blendGroup: yellow-stone
 effect: {
 type: ParticleEffect
