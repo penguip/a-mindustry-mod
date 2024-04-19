@@ -1,0 +1,22 @@
+name: "Æther Concentrator"
+description: "Concentrates æther from the atmosphere."
+type: GenericCrafter
+size: 3
+category: drills
+consumes: {
+power: 2.34
+}
+outputLiquid: aether/.25
+requirements: [
+
+]
+craftEffect: smoke
+research: {
+parent: surge-smelter
+}
+objectives: [nuclearComplex, {
+type: SectorCapture
+preset: nuclearComplex
+  }
+  ]
+
