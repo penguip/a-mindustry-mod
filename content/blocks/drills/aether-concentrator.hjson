@@ -15,11 +15,10 @@ requirements: [
    "plastanium/1250
    "phase-fabric/350
 ]
-craftEffect: smoke
 research: {
 parent: surge-smelter
 objectives: [nuclearComplex, {
-type: SectorCapture
+type: SectorComplete
 preset: nuclearComplex
 }
 ]
