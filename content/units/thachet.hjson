@@ -7,9 +7,9 @@ engineOffset: 6
 health: 760
 armor: 2
 mineTier: 1
-mineSpeed: 7
+mineSpeed: 13
 itemCapacity: 35
-buildSpeed: 1.78
+buildSpeed: 2.98
 weapons: [
       {
        name: small-basic-alt-weapon
