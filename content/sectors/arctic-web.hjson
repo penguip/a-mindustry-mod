@@ -1,0 +1,8 @@
+research: {
+parent: navalFortress
+objectives: [navalFortress, aether, {
+   type: SectorComplete
+   preset: navalFortress
+ }
+ ]
+}
