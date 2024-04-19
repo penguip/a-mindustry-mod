@@ -2,7 +2,7 @@ name: "Æther Concentrator"
 description: "Concentrates æther from the atmosphere."
 type: GenericCrafter
 size: 3
-category: drills
+category: drill
 consumes: {
 power: 2.34
 }
