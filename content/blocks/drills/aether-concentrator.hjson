@@ -15,11 +15,3 @@ requirements: [
    "plastanium/1250
    "phase-fabric/350
 ]
-research: {
-parent: surge-smelter
-objectives: [nuclearComplex, {
-type: SectorComplete
-preset: nuclearComplex
-}
-]
-}
