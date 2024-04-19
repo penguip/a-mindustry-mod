@@ -35,3 +35,11 @@ requirements: [
 "anolead/345"
 "siligone/250"
 ]
+research: {
+parent: core-annex
+objectives: [bronze-drive, lowdown, {
+type: OnSector
+preset: lowdown
+}
+]
+}
