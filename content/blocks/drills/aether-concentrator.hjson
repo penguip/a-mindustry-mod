@@ -8,15 +8,19 @@ power: 2.34
 }
 outputLiquid: aether/.25
 requirements: [
-
+   "surge-alloy/540"
+   "thorium/1460"
+   "silicon/2950"
+   "titanium/6300
+   "plastanium/1250
+   "phase-fabric/350
 ]
 craftEffect: smoke
 research: {
 parent: surge-smelter
-}
 objectives: [nuclearComplex, {
 type: SectorCapture
 preset: nuclearComplex
-  }
-  ]
+}
+]
 }
