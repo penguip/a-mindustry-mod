@@ -1,1 +1,9 @@
-
+name: "Uranium"
+description: "Used in weaponry - specifically - nuclear weapons, and power generation."
+color: 54d67d
+hardness: 5
+explosiveness: 1.5
+flammability: 1.75
+radioactivity: 1.25
+charge: 2
+research: thorium
