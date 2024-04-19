@@ -1,3 +1,8 @@
+localizedName: "Arctic Web"
+description: "All that's left of a Crux project that quickly went bust due to a legendary catalyst. Fight off the Crux forces. Obtain the catalyst and put it's power to good use."
+planet: serpulo
+sector: 25
+captureWave: 26
 research: {
 parent: navalFortress
 objectives: [navalFortress, aether, {
