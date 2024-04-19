@@ -1,7 +1,7 @@
 name: "Dissonium Conservant"
 description: "A vicious liquid capable of entirely erasing those who oppose it's power. Sells ok through sellers."
 coolant: false
-color: e38654
+color: a488eb
 effect: "unit-chr-deleted-successfully"
 explosiveness: 9.47263
 flammability: 294
