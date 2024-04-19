@@ -8,3 +8,4 @@ heatCapacity: 0
 viscosity: 0
 temperature: .15
 gas: true
+research: cryofluid
