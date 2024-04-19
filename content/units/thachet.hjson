@@ -2,6 +2,7 @@ name: "Thachet"
 description: "Defends the Annex core from enemies. Builds structures."
 flying: true
 type: flying
+speed: 10
 rotateSpeed: 15
 engineOffset: 6
 health: 760
