@@ -1,0 +1,13 @@
+localizedName: "Lowdown"
+description: "A small sentinel outpost lies just west of this ravine. Produce sentinels. Eradicate the outpost. Salvage something useful."
+planet: pugneo
+sector: 65
+captureWave: 26
+research: {
+parent: canax
+objectives: [canax, {
+   type: SectorComplete
+   preset: canax
+ }
+ ]
+  }
