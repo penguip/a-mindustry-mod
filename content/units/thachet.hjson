@@ -14,7 +14,7 @@ buildSpeed: 2.98
 weapons: [
       {
        name: small-basic-alt-weapon
-       reload: 34
+       reload: 15
        top: false
        x: 3
        y: 1
