@@ -10,3 +10,6 @@ health: 1450
 research: surge-wall-large
 category: defense
 deflectChance: 35
+lightningChance: 10
+lightningDamage: 65
+lightningLength: 15
