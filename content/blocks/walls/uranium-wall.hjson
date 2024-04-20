@@ -9,4 +9,4 @@ armor: 10
 health: 1450
 research: surge-wall-large
 category: defense
-baseDeflectChance: 35
+deflectChance: 35
