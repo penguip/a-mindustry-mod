@@ -1,0 +1,12 @@
+name: "Uranium Wall"
+type: Wall
+solid: true
+description: "Protects structures from enemy projectiles. Has a chance to deflect bullets."
+requirements: [
+"uranium/6"
+]
+armor: 10
+health: 1450
+research: surge-wall-large
+category: defense
+baseDeflectChance: 35
