@@ -1,7 +1,7 @@
 name: "Uranium Wall"
 type: Wall
 solid: true
-description: "Protects structures from enemy projectiles. Has a chance to deflect bullets."
+description: "Protects structures from enemy projectiles. Has a chance to deflect bullets, and a smaller chance to create arcs of electricity."
 requirements: [
 "uranium/6"
 ]
