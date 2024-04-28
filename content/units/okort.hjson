@@ -2,8 +2,14 @@ name: "Okort"
 description: "Footsoldiers of the Lightning faction. They have nasty rockets, but are only core-threatining in large numbers."
 health: 150
 armor: 1
-type: hover
-hovering: true
+type: tank
+treadRects: [ 
+    {
+     x: 3
+     y: 3
+     width: 12
+    }
+]
 range: 130
 hitSize: 10.25
 "weapons": [
