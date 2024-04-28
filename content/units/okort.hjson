@@ -5,7 +5,7 @@ armor: 1
 type: tank
 treadRects: [ 
     {
-     x: 3
+     x: 6
      y: 3
      width: 12
     }
@@ -20,7 +20,7 @@ hitSize: 10.25
      mirror: false
      reload: 45
      maxRange: 50
-     shootSound: shootBig
+     shootSound: missile
      shoot: {
       type: ShootSpread
       shots: 5
