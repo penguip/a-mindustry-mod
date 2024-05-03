@@ -30,7 +30,7 @@ consumes: {
   }
 }
 optionalUseTime: 120
-optionalMultiplier: 3
+optionalMultiplier: 4
 healPercent: 0.463728
 requirements: [
   nanite/135
@@ -54,3 +54,11 @@ drawer: {
   ]
 } 
 researchCostMultiplier: 1.25
+research: {
+parent: sinister-panel
+objectives: [lowdown, {
+type: OnSector
+preset: lowdown
+}
+]
+}
