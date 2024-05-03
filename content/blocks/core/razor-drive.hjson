@@ -20,7 +20,7 @@ effect: {
   sizeInterp: pow2Out
 }
 consumes: {
-  power: .75
+  power: .8
   items: {
     items: [
       ageriolix/1
