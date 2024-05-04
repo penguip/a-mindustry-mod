@@ -2,7 +2,7 @@ name: Razor Drive
 type: MendProjector
 description: Repairs nearby allied blocks. Requires power. May be optionally boosted with Ageriolix.
 size: 2
-range: 10
+range: 46
 baseColor: 000000
 squareSprite: false
 effect: {
@@ -32,7 +32,7 @@ consumes: {
 }
 optionalUseTime: 120
 optionalMultiplier: 4
-healPercent: 0.463728
+healPercent: 35.4
 requirements: [
   nanite/135
   bronze/35
