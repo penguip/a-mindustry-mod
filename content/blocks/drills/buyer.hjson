@@ -56,4 +56,18 @@ recipes:
   }
   craftTime: 180
  }
+ {
+  input: {
+  items: [
+    sentinel-addon-unit/10
+  ]
+  }
+  output: {
+    items: [
+      copper/1
+    ]
+  }
+  craftTime: 15
+}
 ]
+
