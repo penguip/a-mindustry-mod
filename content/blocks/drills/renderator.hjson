@@ -17,7 +17,7 @@ recipes:
     energy-spark/3
   ]
   liquids: [
-    aranazoine/1
+    aranacuzoine/1
     ]
   }
   output: {
