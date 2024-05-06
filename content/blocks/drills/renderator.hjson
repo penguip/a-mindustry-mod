@@ -22,7 +22,7 @@ recipes:
   }
   output: {
     items: [
-      curanadolium/1
+      curanodolium/1
     ]
   }
   craftTime: 15
