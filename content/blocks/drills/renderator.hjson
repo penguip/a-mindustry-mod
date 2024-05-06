@@ -1,70 +1,38 @@
 type: multicraft.MultiCrafter
-name: "Buyer"
-description: "Used along with the seller, this is a crucial part of a successful empire."
+name: "Renderator"
+description: "The eye inside this block proves it is alive. The eye can do hundreds of tasks, but not without a cost per task."
 size: 1
 health: 360
 alwaysUnlocked: false
 category: effect
 requirements: [
-    "universal-token/3"
+    "universal-token/15"
 ]
-research: {
-    parent: "siligone-smelter"
-    requirements: [
-      "universal-token/5"
-    ],
-},
 recipes: 
 [
 {
   input: {
   items: [
-    sentinel-addon-unit/10
+    copper/1
+    energy-spark/3
   ]
+  liquids: {
+    aranazoine/1
   }
   output: {
     items: [
-      sentinel-addon-nanite/1
+      curanadolium/1
     ]
   }
   craftTime: 15
 }
 {
   input: {
-  items: [
-    sentinel-addon-unit/40
-  ]
+  power: 5
   }
   output: {
     items: [
-      sentinel-addon-scroll-of-ansuz/1
-    ]
-  }
-  craftTime: 20
-}
-{
-  input: {
-  items: [
-    sentinel-addon-unit/230
-    sentinel-addon-nanite/5
-  ]
-  }
-  output: {
-    items: [
-      sentinel-addon-universal-token/1
-    ]
-  }
-  craftTime: 180
- }
- {
-  input: {
-  items: [
-    sentinel-addon-unit/10
-  ]
-  }
-  output: {
-    items: [
-      copper/1
+      energy-spark/1
     ]
   }
   craftTime: 15
