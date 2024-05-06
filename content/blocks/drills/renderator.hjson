@@ -15,6 +15,9 @@ recipes:
   items: [
     copper/1
   ]
+  fluids: [
+    aranacuzoine/3
+  ]
   }
   output: {
     items: [
