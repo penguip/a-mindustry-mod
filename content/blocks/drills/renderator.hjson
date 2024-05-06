@@ -16,9 +16,9 @@ recipes:
     copper/1
     energy-spark/3
   ]
-  liquids: {
+  liquids: [
     aranazoine/1
-  }
+  ]
   output: {
     items: [
       curanadolium/1
