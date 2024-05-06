@@ -18,14 +18,14 @@ recipes:
   ]
   liquids: [
     aranazoine/1
-  ]
+    ]
+  }
   output: {
     items: [
       curanadolium/1
     ]
   }
   craftTime: 15
-}
 }
 {
   input: {
