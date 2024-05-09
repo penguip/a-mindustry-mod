@@ -16,12 +16,12 @@ recipes:
     copper/1
   ]
   fluids: [
-    aranacuzoine/3
+    sentinel-addon-aranacuzoine/3
   ]
   }
   output: {
     items: [
-      curanodolium/1
+      sentinel-addon-curanodolium/1
     ]
   }
   craftTime: 15
@@ -32,7 +32,7 @@ recipes:
   }
   output: {
     items: [
-       energy-spark/1
+       sentinel-addon-energy-spark/1
     ]
   }
   craftTime: 20
