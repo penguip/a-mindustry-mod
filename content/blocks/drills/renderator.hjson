@@ -16,7 +16,7 @@ recipes:
     copper/1
   ]
   fluids: [
-    sentinel-addon-aranacuzoine/3
+    sentinel-addon-aranacuzoine/.5
   ]
   }
   output: {
