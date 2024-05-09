@@ -3,7 +3,7 @@ description: "Distills pugneum into a solid state, using power to oparate that m
 type: GenericCrafter
 category: crafting
 consumes: {
-    liquid: "pugneum/.5"
+    liquid: "pugneum/1"
 power: 2.9
 }
 requirements: [
