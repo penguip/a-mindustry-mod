@@ -5,20 +5,20 @@ range: 90
 type: hover
 hovering: true
 maxRange: 90
-health: 345
+health: 150
 speed: 1.28
 "weapons": [
    {
      name: sentinel-gun
      x: 0
      mirror: false
-     reload: 15
+     reload: 30
      targetAir: false
      bullet: {
         type: BasicBulletType
         sprite: bullet
         speed: 3.4
-        damage: 5
+        damage: 3
         lifetime: 25
      }
    }
