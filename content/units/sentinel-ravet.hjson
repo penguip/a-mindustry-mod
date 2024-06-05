@@ -1,11 +1,11 @@
 name: "Sentinel Ravet"
-description: "Young Sentinel Drones newly created by a summoner, brought to assault and defend in numbers. Whilst they aren't as powerful as drones, their increased density means they are rather durable, making them painfully hard to kill in large numbers."
+description: "Young Sentinel Drones newly created by a summoner, brought to assault and defend in numbers. Whilst they aren't as powerful as drones, they are often made in groups and are much harder to kill in large numbers."
 size: 1.25
 range: 90
 type: hover
 hovering: true
 maxRange: 90
-health: 1275
+health: 345
 speed: 1.28
 "weapons": [
    {
