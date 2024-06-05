@@ -11,13 +11,13 @@ hitSize: 11
       unit: "sentinel-ravet",
       spawnX: 4,
       spawnY: 0,
-      spawnTime: 1800
+      spawnTime: 300
     },
     {
       type: UnitSpawnAbility,
       unit: "sentinel-ravet",
       spawnX: -4,
       spawnY: 0,
-      spawnTime: 1800
+      spawnTime: 300
     }
   ]
