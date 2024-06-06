@@ -14,3 +14,20 @@ hitSize: 10.9
       spawnTime: 1800
     }
 ]
+
+"weapons": [
+   {
+     name: buffer-arc
+     x: 0
+     mirror: false
+     reload: 30
+     targetAir: false
+     bullet: {
+        type: BasicBulletType
+        sprite: bullet
+        speed: 3.4
+        damage: 3
+        lifetime: 25
+     }
+   }
+]
