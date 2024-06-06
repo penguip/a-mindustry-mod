@@ -1,6 +1,6 @@
 flying: true
 name: Sentinel Repair Drone
-description: A smol support drone, repairing any unit nearby.
+description: A small support drone, repairing any unit nearby. Weak, but should not be underestimated in large groups.
 health: 230
 speed: 2.9
 weapons: [
