@@ -1,7 +1,7 @@
 type: multicraft.MultiCrafter
 name: "Renderator"
 description: "The eye inside this block proves it is alive. The eye can do hundreds of tasks, but not without a cost per task."
-size: 1
+size: 3
 health: 360
 alwaysUnlocked: false
 category: effect
