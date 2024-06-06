@@ -1,1 +1,26 @@
-
+name: "[teal]Verdict"
+description: "A hybrid mix between a race of hornet and Daggers. They will melt rivals with powerful rayguns, and may eventually evolve."
+health: 8560
+armor: 15
+type: hover
+hovering: true
+hitSize: 10.9
+"weapons": [
+   {
+     name: verdict-weapon
+     x: 4
+     y: 3
+     mirror: true
+     reload: 40
+     targetAir: true
+     bullet: {
+        type: LaserBulletType
+        width: 20
+        colors: [00ffa6, 00ffa6, 00ffa6]
+        length: 450
+        damage: 200
+        status: melting
+        statusDuration: 1800
+     }
+   }
+]
