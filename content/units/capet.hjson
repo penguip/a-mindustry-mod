@@ -4,8 +4,7 @@ hitSize: 1.25
 health: 2000
 speed: .2
 createScorch: false
-type: hover
-hovering: true
+type: mech
 armor: 10
 "weapons": [
     {
