@@ -1,10 +1,10 @@
 name: "Sentinel Apothecary"
 description: "Specialist units in service of the sentinel horde. While they are not fast nor durable, their deadly, sinister flames are not to be underestimated."
 size: 1.25
-range: 90
+range: 187
 type: hover
 hovering: true
-maxRange: 90
+maxRange: 187
 health: 190
 speed: .46
 "weapons": [
@@ -23,9 +23,9 @@ speed: .46
         width: 6
         height: 6
         damage: 25
-        lifetime: 25
+        lifetime: 55
         splashDamage: 25
-        splashRadius: 75
+        splashRadius: 875
         status: sinful-inferno
         statusDuration: 420
      }
