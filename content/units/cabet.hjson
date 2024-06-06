@@ -1,0 +1,32 @@
+name: "[teal]Cabet"
+description: "The larval stage of Verdicts. Alone they are harmless, but in a group they are a significant threat as they develop into powerful beings."
+hitSize: 1.25
+health: 2000
+speed: .2
+createScorch: false
+type: hover
+hovering: true
+armor: 10
+"weapons": [
+    {
+     y: 0
+     x: 0
+     mirror: false
+     reload: 0
+     display: false
+     alwaysShooting: true
+     shootSound: none
+     ejectEffect: none
+     shootStatus: upgrading
+     bullet: {
+      type: MissileBulletType
+        sprite: none
+        speed: 0
+        lifetime: 0
+        damage: 0
+        shootEffect: none
+        despawnEffect: none
+        hitEffect: none
+     }
+   }
+]
