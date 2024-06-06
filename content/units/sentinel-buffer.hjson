@@ -11,7 +11,7 @@ hitSize: 10.9
       unit: "photon-shield",
       spawnX: 0,
       spawnY: 8,
-      spawnTime: 450
+      spawnTime: 390
     }
 ]
 
