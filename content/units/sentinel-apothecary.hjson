@@ -27,7 +27,7 @@ speed: .46
         splashDamage: 25
         splashRadius: 75
         status: sinful-inferno
-        statusDuration: 45
+        statusDuration: 420
      }
    }
 ]
