@@ -19,15 +19,18 @@ hitSize: 10.9
    {
      name: buffer-arc
      x: 0
+     y: 2
      mirror: false
-     reload: 30
-     targetAir: false
+     reload: 50
+     targetAir: true
      bullet: {
-        type: BasicBulletType
-        sprite: bullet
-        speed: 3.4
-        damage: 3
-        lifetime: 25
+        type: LaserBulletType
+        width: 12
+        colors: [ff0000, ff0000, ff0000]
+        length: 280
+        damage: 200
+        status: melting
+        statusDuration: 120
      }
    }
 ]
