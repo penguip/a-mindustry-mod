@@ -1,2 +1,27 @@
 name: "Sentinel Apothecary"
 description: "Specialist units in service of the sentinel horde. While they are not fast nor durable, their deadly, sinister flames are not to be underestimated.
+size: 1.25
+range: 90
+type: hover
+hovering: true
+maxRange: 90
+health: 280
+speed: .93
+"weapons": [
+   {
+     name: sentinel-apothecary-weapon
+     x: 3
+     mirror: true
+     top: false
+     reload: 23
+     shootSound: shootBig
+     targetAir: false
+     bullet: {
+        type: ArtilleryBulletType
+        sprite: sentinel-addon-apothecary-flame
+        speed: 3.4
+        damage: 15
+        lifetime: 25
+     }
+   }
+]
