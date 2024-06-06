@@ -30,3 +30,11 @@ armor: 10
      }
    }
 ]
+"abilities": [
+    {
+    type: SpawnDeathAbility
+    amount: 1
+    faceOutwards: true
+    unit: "verdict"
+    }
+]
