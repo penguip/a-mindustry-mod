@@ -2,8 +2,7 @@ name: "Sentinel Apothecary"
 description: "Specialist units in service of the sentinel horde. While they are not fast nor durable, their deadly, sinister flames are not to be underestimated."
 size: 1.25
 range: 187
-type: hover
-hovering: true
+type: mech
 maxRange: 187
 health: 190
 speed: .46
