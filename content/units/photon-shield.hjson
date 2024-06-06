@@ -1,8 +1,9 @@
 name: "Photon Shield"
 description: "A holographic barrier deployed by a Sentinel Buffer, has high armor but doesn't last long."
-size: 2.5
+hitSize: 2.5
 health: 200
 speed: 0
+createScorch: false
 type: hover
 hovering: true
 armor: 25
