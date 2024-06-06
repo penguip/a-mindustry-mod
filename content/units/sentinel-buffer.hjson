@@ -1,0 +1,16 @@
+name: "Sentinel Buffer"
+description: "The sentinel king more briefly experimented with the Sentinel Summoner's lack of defense and made ones that are completly on the offensive side. They will slowly project crimson shields to hide in, while they rip thier enemies to shred."
+health: 10000
+armor: 15
+type: hover
+hovering: true
+hitSize: 10.9
+"abilities": [
+    {
+      type: UnitSpawnAbility,
+      unit: "photon-shield",
+      spawnX: 0,
+      spawnY: 8,
+      spawnTime: 1800
+    }
+  ]
