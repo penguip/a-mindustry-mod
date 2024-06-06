@@ -28,7 +28,7 @@ hitSize: 10.25
         damage: 35
         splashDamage: 35
         status: burning
-        statusDuration: 345
+        statusDuration: 360
         splashDamageRadius: 40
      }
     }
