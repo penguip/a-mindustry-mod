@@ -24,7 +24,7 @@ speed: .46
         damage: 25
         lifetime: 55
         splashDamage: 25
-        splashRadius: 875
+        splashDamageRadius: 65
         status: sinful-inferno
         statusDuration: 420
      }
