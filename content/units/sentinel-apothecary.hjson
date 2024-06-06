@@ -20,6 +20,8 @@ speed: .46
         type: ArtilleryBulletType
         sprite: sentinel-addon-apothecary-flame
         speed: 3.4
+        width: 6
+        height: 6
         damage: 25
         lifetime: 25
         splashDamage: 25
