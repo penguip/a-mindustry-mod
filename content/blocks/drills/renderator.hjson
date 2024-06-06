@@ -7,6 +7,7 @@ alwaysUnlocked: false
 category: effect
 requirements: [
     "universal-token/15"
+    "renderator-eye/1"
 ]
 recipes: 
 [
