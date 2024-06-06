@@ -68,6 +68,19 @@ recipes:
     ]
   }
   craftTime: 15
-}
+  }
+  {
+  input: {
+  items: [
+    sentinel-addon-unit/12500
+  ]
+  }
+  output: {
+    items: [
+      sentinel-addon-renderator-eye/1
+    ]
+  }
+  craftTime: 75
+  }
 ]
 
