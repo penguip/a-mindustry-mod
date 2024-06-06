@@ -1,6 +1,6 @@
 name: "Sentinel Summoner"
 description: "These odd pyramid-shaped sentinels are critical to the lifecycle of sentnels. Should they be thrusted into the heat of battle, they will attempt to surround and overwhelm enemies with an army of ravets."
-health: 6500
+health: 1000
 armor: 4
 type: hover
 hovering: true
