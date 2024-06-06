@@ -6,3 +6,22 @@ speed: 0
 type: hover
 hovering: true
 armor: 25
+"weapons": [
+    {
+     y: 0
+     x: 0
+     mirror: false
+     reload: 0
+     display: false
+     alwaysShooting: true
+     shootSound: none
+     shootStatus: decompiling
+     bullet: {
+      type: MissileBulletType
+        sprite: none
+        speed: 0
+        lifetime: 0
+        damage: 0
+     }
+   }
+]
