@@ -5,6 +5,7 @@ immunities: [sentinel-addon-ai-ache]
 hitSize: 1.56
 type: flying
 speed: 1.23
+flying: true
 engineOffset: 4
 "weapons": [
    {
