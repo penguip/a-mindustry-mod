@@ -24,7 +24,9 @@ hitSize: 11.5
      reload: 240
      rotateSpeed: .12
      targetAir: true
+     cooldownTime: 450
      shootSound: beam
+     continuous: true
      bullet: {
         type: ContinuousLaserBulletType
         width: 35
@@ -33,7 +35,7 @@ hitSize: 11.5
         damage: 450
         status: melting
         statusDuration: 450
-        lifetime: 120
+        lifetime: 160
      }
    }
 ]
