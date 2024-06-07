@@ -1,6 +1,7 @@
 name: "[teal]Capet"
 description: "The larval stage of Verdicts. Alone they are harmless, but in a group they are a significant threat as they develop into powerful beings."
 hitSize: 9.25
+immunities: [shocked, electrocuted]
 health: 2000
 speed: .2
 createScorch: false
