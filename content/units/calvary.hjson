@@ -2,7 +2,7 @@ name: "[teal]Calvary"
 description: "The final evolutionary stage of the Verdict species. They can call forth new larvae, while incinerating their prey with a devastating hyper-ray that can melt structures quicker than you realize."
 health: 18700
 armor: 32
-immunities: [shocked, electrocuted, loading.., sapped]
+immunities: [shocked, electrified, loading.., sapped]
 type: flying
 flying: true
 engineOffset: 9
