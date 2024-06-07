@@ -3,17 +3,17 @@ description: "Dovers sometimes implant themselves into these mighty centipede-li
 health = 20000
 type: crawl
 armor = 12
-hitSize = 48f
+hitSize = 48
 omniMovement = false
-rotateSpeed = 1.7f
+rotateSpeed = 1.7
 immunities: [burning, melting, sentinel-addon-liquidifying, sentinel-addon-sinful-inferno]
-drownTimeMultiplier = 4f
+drownTimeMultiplier = 4
 segments = 4
 drawBody = false
-crushDamage = 2f
-segmentScl = 4f 
-segmentPhase = 5f
-speed = 1f
+crushDamage = 2
+segmentScl = 4
+segmentPhase = 5
+speed = 1
 healFlash: true
 healColor: neoplasm1
 "abilities": [
