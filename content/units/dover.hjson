@@ -5,11 +5,11 @@ hitSize: 10
 type: legs
 legCount: 8
 speed: .98
-legLength: .67
+legLength: 3
 "weapons": [
    {
-     x: 4
-     y: 3
+     x: 0
+     y: 0
      mirror: true
      shootSound: laser
      reload: 20
