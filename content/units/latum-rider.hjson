@@ -1,0 +1,15 @@
+name: "[orange]Latum Rider"
+description: "Dovers sometimes implant themselves into these mighty centipede-like creatures as a form of calvary. Should the Latum be slain, the Dover and Renales will pursue on foot."
+health = 20000
+armor = 12
+hitSize = 48f
+omniMovement = false
+rotateSpeed = 1.7f
+drownTimeMultiplier = 4f
+segments = 4
+drawBody = false
+crushDamage = 2f
+targetAir = false
+segmentScl = 4f 
+segmentPhase = 5f
+speed = 1f
