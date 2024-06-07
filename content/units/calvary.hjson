@@ -5,14 +5,14 @@ armor: 32
 type: flying
 flying: true
 engineOffset: 9
-engineSize: 9
+engineSize: 4
 hitSize: 11.5
 "abilities": [
     {
       type: UnitSpawnAbility,
       unit: "capet",
       spawnX: 0,
-      spawnY: -7,
+      spawnY: -6,
       spawnTime: 1800
     }
 ]
