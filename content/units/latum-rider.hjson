@@ -1,6 +1,7 @@
 name: "[orange]Latum Rider"
 description: "Dovers sometimes implant themselves into these mighty centipede-like creatures as a form of calvary. Should the Latum be slain, the Dover and Renales will pursue on foot."
 health = 20000
+type: crawler
 armor = 12
 hitSize = 48f
 omniMovement = false
@@ -9,7 +10,6 @@ drownTimeMultiplier = 4f
 segments = 4
 drawBody = false
 crushDamage = 2f
-targetAir = false
 segmentScl = 4f 
 segmentPhase = 5f
 speed = 1f
@@ -26,4 +26,23 @@ speed = 1f
     faceOutwards: true
     unit: "renale"
     }
+]
+"weapons": [
+   {
+     x: 0
+     y: 25
+     mirror: true
+     shootSound: laser
+     reload: 12.5
+     targetAir: true
+     bullet: {
+        type: LaserBulletType
+        width: 20
+        colors: [ff7700, ffff00, ffffff]
+        length: 450
+        damage: 200
+        status: liquidifying
+        statusDuration: 60
+     }
+   }
 ]
