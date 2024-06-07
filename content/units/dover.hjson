@@ -6,3 +6,22 @@ type: legs
 legCount: 8
 speed: .98
 legLength: .67
+"weapons": [
+   {
+     x: 4
+     y: 3
+     mirror: true
+     shootSound: laser
+     reload: 20
+     targetAir: true
+     bullet: {
+        type: LaserBulletType
+        width: 20
+        colors: [ff7700, ffff00, ffffff]
+        length: 450
+        damage: 200
+        status: liquidifying
+        statusDuration: 60
+     }
+   }
+]
