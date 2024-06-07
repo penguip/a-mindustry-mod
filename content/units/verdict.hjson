@@ -24,6 +24,27 @@ hitSize: 1.36
         statusDuration: 1800
      }
    }
+   {
+     y: 0
+     x: 0
+     mirror: false
+     reload: 0
+     display: false
+     alwaysShooting: true
+     shootSound: none
+     ejectEffect: none
+     shootStatus: upgrading
+     bullet: {
+      type: MissileBulletType
+        sprite: none
+        speed: 0
+        lifetime: 0
+        damage: 0
+        shootEffect: none
+        despawnEffect: none
+        hitEffect: none
+     }
+   }
 ]
 "abilities": [
     {
