@@ -19,9 +19,11 @@ hitSize: 2.5
      name: calvary-weapon
      x: 0
      y: 0
+     top: false
      mirror: false
      reload: 50
      targetAir: true
+     shootSound:
      bullet: {
         type: LaserBulletType
         width: 12
