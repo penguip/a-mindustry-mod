@@ -1,0 +1,26 @@
+name: "[magenta]Spinel"
+description: "These celestial machines possess powerful psionic magic, and are able to interfere with mechanical entities' inner processes. Organic life can resist the ache, however."
+health: 9800
+immunities: [sentinel-addon-ai-ache]
+hitSize: 1.56
+type: flying
+speed: 1.23
+engineOffset: 4
+"weapons": [
+   {
+     x: 0
+     y: 4
+     shootSound: laser
+     reload: 35
+     targetAir: true
+     bullet: {
+        type: LaserBulletType
+        width: 35
+        colors: [cf00bd, ff00ea, ffffff]
+        length: 250
+        damage: 300
+        status: ai-ache
+        statusDuration: 60
+     }
+   }
+]
