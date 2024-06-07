@@ -5,7 +5,7 @@ hitSize: 10
 type: legs
 legCount: 8
 speed: .98
-legLength: 3
+legLength: 25
 "weapons": [
    {
      x: 0
