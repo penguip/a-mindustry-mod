@@ -25,3 +25,11 @@ hitSize: 1.36
      }
    }
 ]
+"abilities": [
+    {
+    type: SpawnDeathAbility
+    amount: 1
+    faceOutwards: true
+    unit: "calvary"
+    }
+]
