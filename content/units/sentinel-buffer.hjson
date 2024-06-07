@@ -23,6 +23,7 @@ hitSize: 10.9
      mirror: false
      reload: 50
      targetAir: true
+     shootSound: laser
      bullet: {
         type: LaserBulletType
         width: 12
