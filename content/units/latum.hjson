@@ -12,3 +12,4 @@ description: "Like a cancer, the solar Renales mutate and evolve into bigger, de
     slurpEffect: neoplasmHeal
     }
 ]
+immunities: [burning, melting, sentinel-addon-liquidifying, sentinel-addon-sinful-inferno]
