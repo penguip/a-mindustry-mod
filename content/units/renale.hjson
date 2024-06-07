@@ -12,3 +12,4 @@ name: "[orange]Renale"
     slurpEffect: neoplasmHeal
     }
 ]
+immunities: [burning, melting, sentinel-addon-sinful-inferno]
