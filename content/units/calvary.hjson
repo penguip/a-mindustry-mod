@@ -22,6 +22,8 @@ hitSize: 2.5
      top: false
      mirror: false
      reload: 120
+     rotateLimit: 25
+     rotateSpeed: .65
      targetAir: true
      shootSound: laserBig
      loopSound: beam
