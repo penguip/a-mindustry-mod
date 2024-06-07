@@ -12,7 +12,8 @@ hitSize: 10.36
      x: 4
      y: 3
      mirror: true
-     reload: 40
+     shootSound: laser
+     reload: 20
      targetAir: true
      bullet: {
         type: LaserBulletType
@@ -20,7 +21,7 @@ hitSize: 10.36
         colors: [00ffa6, 00ffa6, 00ffa6]
         length: 450
         damage: 200
-        status: melting
+        status: burning
         statusDuration: 1800
      }
    }
