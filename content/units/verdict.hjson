@@ -3,7 +3,7 @@ description: "A hybrid mix between a race of hornet and Daggers. They will melt 
 health: 8560
 armor: 20
 type: mech
-immunities: [shocked, electrocuted, loading.]
+immunities: [shocked, electrocuted, loading..]
 createScorch: false
 canBoost: true
 boostMultiplier: 1.5
