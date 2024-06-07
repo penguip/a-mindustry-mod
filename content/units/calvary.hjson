@@ -21,17 +21,16 @@ hitSize: 11.5
      y: 0
      top: false
      mirror: false
-     reload: 120
+     reload: 240
      rotateSpeed: .12
      targetAir: true
-     shootSound: laserBig
+     shootSound: beam
      bullet: {
         type: ContinuousLaserBulletType
         width: 35
-        colors: [00ffa6, 00ffa6, 00ffa6]
+        colors: [00ffa6, 00ffa6, ffffff]
         length: 400
         damage: 450
-        loopSound: beam
         status: melting
         statusDuration: 450
         lifetime: 60
