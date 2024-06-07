@@ -22,7 +22,6 @@ hitSize: 11.5
      top: false
      mirror: false
      reload: 120
-     rotateLimit: 25
      rotateSpeed: .12
      targetAir: true
      shootSound: laserBig
