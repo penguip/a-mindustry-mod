@@ -3,7 +3,7 @@ description: "The final evolutionary stage of the Verdict species. They can call
 health: 18700
 armor: 32
 type: flying
-hitSize: 2.5
+hitSize: 11.5
 "abilities": [
     {
       type: UnitSpawnAbility,
@@ -23,7 +23,7 @@ hitSize: 2.5
      mirror: false
      reload: 120
      rotateLimit: 25
-     rotateSpeed: .65
+     rotateSpeed: .12
      targetAir: true
      shootSound: laserBig
      bullet: {
