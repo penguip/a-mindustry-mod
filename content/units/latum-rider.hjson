@@ -13,3 +13,17 @@ targetAir = false
 segmentScl = 4f 
 segmentPhase = 5f
 speed = 1f
+"abilities": [
+    {
+    type: SpawnDeathAbility
+    amount: 1
+    faceOutwards: true
+    unit: "dover"
+    }
+    {
+    type: SpawnDeathAbility
+    amount: 5
+    faceOutwards: true
+    unit: "renale"
+    }
+]
