@@ -1,0 +1,35 @@
+name: "[teal]Calvary"
+description: "The final evolutionary stage of the Verdict species. They can call forth new larvae, while incinerating their prey."
+health: 18700
+armor: 32
+type: flying
+hitSize: 2.5
+"abilities": [
+    {
+      type: UnitSpawnAbility,
+      unit: "capet",
+      spawnX: 0,
+      spawnY: -9,
+      spawnTime: 1800
+    }
+]
+
+"weapons": [
+   {
+     name: calvary-weapon
+     x: 0
+     y: 0
+     mirror: false
+     reload: 50
+     targetAir: true
+     bullet: {
+        type: LaserBulletType
+        width: 12
+        colors: [ff0000, ff0000, ff0000]
+        length: 280
+        damage: 200
+        status: melting
+        statusDuration: 120
+     }
+   }
+]
