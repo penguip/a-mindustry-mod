@@ -1,0 +1,8 @@
+name: "[orange]Dover"
+description: "These spider-like celestial machines brandish crude solar lasers that render those hit by it liquidifying rapidly."
+health: 6500
+hitSize: 10
+type: legs
+legCount: 8
+speed: .98
+legLength: .67
