@@ -9,6 +9,6 @@ name: "[orange]Renale"
     {
     type: LiquidRegenAbility
     liquid: slag
-    slurpEffect: 
+    slurpEffect: neoplasmHeal
     }
 ]
