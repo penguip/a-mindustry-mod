@@ -27,7 +27,7 @@ hitSize: 11.5
      reload: 240
      rotateSpeed: .12
      targetAir: true
-     cooldownTime: 450
+     cooldownTime: 400
      shootSound: beam
      continuous: true
      bullet: {
@@ -35,7 +35,7 @@ hitSize: 11.5
         width: 35
         colors: [00d98d, 00ffa6, ffffff]
         length: 400
-        damage: 450
+        damage: 150
         status: melting
         statusDuration: 450
         lifetime: 160
