@@ -6,6 +6,7 @@ armor = 12
 hitSize = 48f
 omniMovement = false
 rotateSpeed = 1.7f
+immunities: [burning, melting, sentinel-addon-liquidifying, sentinel-addon-sinful-inferno]
 drownTimeMultiplier = 4f
 segments = 4
 drawBody = false
@@ -32,6 +33,24 @@ healColor: neoplasm1
     type: regenAbility
     percentAmount: 0.0238095238
     }
+    {
+    type: LiquidExplodeAbility
+    liquid: slag
+    }
+    {
+    type: LiquidRegenAbility
+    liquid: slag
+    slurpEffect: neoplasmHeal
+    }
+    {
+    type: LiquidExplodeAbility
+    liquid: neoplasm
+    }
+    {
+    type: LiquidRegenAbility
+    liquid: neoplasm
+    slurpEffect: neoplasmHeal
+    }
 ]
 "weapons": [
    {
@@ -52,3 +71,4 @@ healColor: neoplasm1
      }
    }
 ]
+    
