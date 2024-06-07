@@ -1,5 +1,5 @@
 name: "[teal]Calvary"
-description: "The final evolutionary stage of the Verdict species. They can call forth new larvae, while incinerating their prey."
+description: "The final evolutionary stage of the Verdict species. They can call forth new larvae, while incinerating their prey with a devastating hyper-ray that can melt structures quicker than you realize."
 health: 18700
 armor: 32
 type: flying
@@ -21,17 +21,19 @@ hitSize: 2.5
      y: 0
      top: false
      mirror: false
-     reload: 50
+     reload: 120
      targetAir: true
-     shootSound:
+     shootSound: laserBig
+     loopSound: beam
      bullet: {
-        type: LaserBulletType
-        width: 12
-        colors: [ff0000, ff0000, ff0000]
-        length: 280
-        damage: 200
+        type: ContinuousLaserBulletType
+        width: 35
+        colors: [00ffa6, 00ffa6, 00ffa6]
+        length: 400
+        damage: 450
         status: melting
-        statusDuration: 120
+        statusDuration: 450
+        lifetime: 60
      }
    }
 ]
