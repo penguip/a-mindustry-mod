@@ -14,6 +14,22 @@ mesh: {
   radius: 1.2
   octaves: 3
   persistence: 0.8
-  scale: 4
+  scale: 3
   mag: 1.5
 }
+orbitSpacing: 4
+radius: 1.5
+minZoom: 1.8
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: true
+sectorSeed: 0
+bloom: false
+visible: true
+atmosphereColor: 00ffff
+iconColor: ff00ff
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
