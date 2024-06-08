@@ -11,7 +11,7 @@ engineOffset: 4
      name: starlight-bazooka
      x: -2
      y: 2
-     shootSound: missle
+     shootSound: missile
      reload: 2.5
      mirror: true
      bullet: {
