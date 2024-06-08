@@ -2,3 +2,5 @@ localizedName: Tantros
 allowLaunchScematics: true
 alwaysUnlocked: true
 allowWaves: true
+parent: sun
+solarSystem: sun
