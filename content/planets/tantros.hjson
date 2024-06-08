@@ -10,15 +10,15 @@ mesh: {
   seed: 69
   divisions: 4
   color1: 4769cc
-  color2: 7191eb
+  color2: 4769cc
   radius: 1.2
   octaves: 3
   persistence: 0.8
-  scale: 3
+  scale: 2
   mag: 1.5
 }
-orbitSpacing: 4
-radius: 1.5
+orbitSpacing: 3
+radius: 1.8
 minZoom: 1.8
 drawOrbit: true
 atmosphereRadIn: 0
@@ -28,8 +28,8 @@ updateLighting: true
 sectorSeed: 0
 bloom: false
 visible: true
-atmosphereColor: 00ffff
-iconColor: ff00ff
+atmosphereColor: 4769cc
+iconColor: 7191eb
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
