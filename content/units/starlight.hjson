@@ -1,1 +1,30 @@
-
+name: "[blue]Starlight"
+description: "An oddly shaped Nova, imbued with the limitless power of celestial energy which allows it to divide and multiply rapidly."
+health: 1200
+immunities: [sentinel-addon-unit-chr-deleted-successfuly]
+hitSize: 1.56
+type: mech
+speed: 1.23
+engineOffset: 4
+"weapons": [
+   {
+     name: starlight-bazooka
+     x: -2
+     y: 2
+     shootSound: missle
+     reload: 2.5
+     mirror: true
+     bullet: {
+        type: MissileBulletType
+        sprite: missile
+        width: 5
+        frontColor: 0073ff
+        speed: 3.8
+        lifetime: 85
+        backColor: 0065e0
+        height: 6
+        splashDamage: 30
+        splashDamageRadius: 65
+     }
+   }
+]
