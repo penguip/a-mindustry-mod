@@ -3,9 +3,10 @@ description: "An oddly shaped Nova, imbued with the limitless power of celestial
 health: 1200
 immunities: [sentinel-addon-unit-chr-deleted-successfully]
 hitSize: 1.56
+range: 600
+maxRange: 600
 type: mech
 speed: 1.23
-engineOffset: 4
 "weapons": [
    {
      name: starlight-bazooka
@@ -23,6 +24,26 @@ engineOffset: 4
         lifetime: 85
         backColor: 0065e0
         height: 6
+        splashDamage: 30
+        splashDamageRadius: 65
+     }
+   }
+   {
+     name: starlight-artillery
+     x: -3
+     y: 3
+     shootSound: shootBig
+     reload: 60
+     mirror: true
+     bullet: {
+        type: ArtilleryBulletType
+        sprite: bullet
+        width: 7
+        frontColor: 0073ff
+        speed: 5
+        lifetime: 120
+        backColor: 0065e0
+        height: 7
         splashDamage: 30
         splashDamageRadius: 65
      }
