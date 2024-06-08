@@ -23,6 +23,7 @@ speed: 1.23
      y: 2
      shootSound: missile
      reload: 2.5
+     alternate: false
      mirror: true
      bullet: {
         type: MissileBulletType
