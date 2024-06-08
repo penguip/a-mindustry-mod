@@ -4,3 +4,16 @@ alwaysUnlocked: true
 allowWaves: true
 parent: sun
 solarSystem: sun
+mesh: {
+  type: NoiseMesh
+  planet: tantros
+  seed: 69
+  divisions: 4
+  color1: 4769cc
+  color2: 7191eb
+  radius: 1.2
+  octaves: 3
+  persistence: 0.8
+  scale: 4
+  mag: 1.5
+}
