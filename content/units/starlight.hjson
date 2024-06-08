@@ -43,7 +43,7 @@ speed: 1.23
      x: -3
      y: 3
      shootSound: shootBig
-     reload: 60
+     reload: 30
      mirror: true
      bullet: {
         type: ArtilleryBulletType
@@ -54,8 +54,8 @@ speed: 1.23
         lifetime: 120
         backColor: 0065e0
         height: 7
-        splashDamage: 30
-        splashDamageRadius: 65
+        splashDamage: 60
+        splashDamageRadius: 130
      }
    }
 ]
