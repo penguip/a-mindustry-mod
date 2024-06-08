@@ -14,7 +14,7 @@ mesh: {
   radius: 1.2
   octaves: 3
   persistence: 0.8
-  scale: 2
+  scale: 1
   mag: 1.5
 }
 orbitSpacing: 3
