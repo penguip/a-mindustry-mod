@@ -57,4 +57,18 @@ recipes:
   }
   craftTime: 15
 }
+{
+  input: {
+  items: [
+    sentinel-addon-martial-artists-headband/1
+  ]
+  }
+  output: {
+    items: [
+      sentinel-addon-unit/750000
+      sentinel-addon-emerald/1000
+    ]
+  }
+  craftTime: 65
+}
 ]
