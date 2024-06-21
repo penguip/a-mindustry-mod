@@ -69,6 +69,6 @@ recipes:
       sentinel-addon-emerald/1000
     ]
   }
-  craftTime: 65
+  craftTime: 45
 }
 ]
