@@ -1,1 +1,8 @@
-
+name: "Emerald"
+description: "These shimmering green gems often form deep within the crust of a planet, and therefore are very common in ocean planets, but are extremely rare outside of that. Tantros' exclusive currency."
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+research: cadocopper
+color: 54d67d
