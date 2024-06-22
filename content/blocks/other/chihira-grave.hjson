@@ -3,6 +3,6 @@ health: 50000000000
 type: Wall
 instantDeconstruct: false
 requirements: [
-"transmogrification-shard/1"
+"transmogrification-shard/2"
 ]
 buildVisibility: editorOnly
