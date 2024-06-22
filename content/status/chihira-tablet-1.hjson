@@ -19,3 +19,4 @@ researchCost: [
 "silicon/500"
 "copper/1250"
 ]
+alwaysUnlocked: false
