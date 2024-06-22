@@ -6,5 +6,11 @@ details: "It's been sooooo unbelievably long, but, finally, I don't have to deal
   If only Mondo and Taka could see me now!
 
                        -Chihira Fujasaki"
-research: [
+research: {
 parent: core-shard
+objectives: [windsweptIslands, {
+type: OnSector
+preset: windsweptIslands
+}
+]
+}
