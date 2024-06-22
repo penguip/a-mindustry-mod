@@ -9,12 +9,13 @@ details: "It's been sooooo unbelievably long, but, finally, I don't have to deal
 research: {
 parent: core-shard
 objectives: [windsweptIslands, {
-type: OnSector
+type: SectorCapture
 preset: windsweptIslands
 }
 ]
 }
 researchCost: [
-"cadocopper/150"
-"anolead/50"
+"metaglass/450"
+"silicon/500"
+"copper/1250"
 ]
