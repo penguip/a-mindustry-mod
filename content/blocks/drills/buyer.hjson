@@ -24,7 +24,7 @@ recipes:
   }
   output: {
     items: [
-      sentinel-addon-nanite/1
+      sentinel-addon-diamond/1
     ]
   }
   craftTime: 15
@@ -46,7 +46,7 @@ recipes:
   input: {
   items: [
     sentinel-addon-unit/230
-    sentinel-addon-nanite/5
+    sentinel-addon-diamond/5
   ]
   }
   output: {
