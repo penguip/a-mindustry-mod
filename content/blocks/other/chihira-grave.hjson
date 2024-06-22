@@ -4,3 +4,4 @@ type: Wall
 requirements: [
 "transmogrification-shard/3"
 ]
+buildVisibility: editorOnly
