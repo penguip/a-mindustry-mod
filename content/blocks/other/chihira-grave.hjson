@@ -5,4 +5,3 @@ instantDeconstruct: false
 requirements: [
 "transmogrification-shard/2"
 ]
-buildVisibility: editorOnly
