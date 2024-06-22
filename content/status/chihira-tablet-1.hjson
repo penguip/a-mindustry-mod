@@ -8,9 +8,9 @@ details: "It's been sooooo unbelievably long, but, finally, I don't have to deal
                        -Chihira Fujasaki"
 research: {
 parent: core-shard
-objectives: [windsweptIslands, {
+objectives: [ruinousShores, {
 type: SectorCapture
-preset: windsweptIslands
+preset: ruinousShores
 }
 ]
 }
@@ -19,4 +19,3 @@ researchCost: [
 "silicon/500"
 "copper/1250"
 ]
-alwaysUnlocked: false
