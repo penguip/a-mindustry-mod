@@ -65,7 +65,7 @@ recipes:
   }
   output: {
     items: [
-      sentinel-addon-unit/750000
+      sentinel-addon-unit/7500
       sentinel-addon-emerald/1000
     ]
   }
@@ -79,7 +79,7 @@ recipes:
   }
   output: {
     items: [
-      sentinel-addon-unit/750000
+      sentinel-addon-unit/7500
       sentinel-addon-gold/1000
     ]
   }
