@@ -1,7 +1,6 @@
 name: "Grave( Windswept Islands)"
 health: 50000000000
 type: Wall
-instantDeconstruct: false
 requirements: [
-"transmogrification-shard/2"
+"transmogrification-shard/3"
 ]
