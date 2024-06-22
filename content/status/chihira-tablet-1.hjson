@@ -14,3 +14,7 @@ preset: windsweptIslands
 }
 ]
 }
+researchCost: [
+"cadocopper/150"
+"anolead/50"
+]
