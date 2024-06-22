@@ -1,0 +1,7 @@
+name: "Grave( Windswept Islands)"
+health: 50000000000
+instantDeconstruct: false
+requirements: [
+"transmogrification-shard/1"
+]
+buildVisibility: editorOnly
