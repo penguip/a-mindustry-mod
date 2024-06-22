@@ -71,4 +71,18 @@ recipes:
   }
   craftTime: 45
 }
+{
+  input: {
+  items: [
+    sentinel-addon-transmogrification-shard/1
+  ]
+  }
+  output: {
+    items: [
+      sentinel-addon-unit/750000
+      sentinel-addon-gold/1000
+    ]
+  }
+  craftTime: 45
+}
 ]
