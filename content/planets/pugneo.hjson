@@ -15,7 +15,7 @@ mesh: {
   scale: 4
   mag: 1.5
 }
-sectorSize: 3.5
+sectorSize: 4
 #cloudMesh: {}
 generator: {
   min: 100
