@@ -1,3 +1,3 @@
 Events.on(ContentInitEvent, e => {   
-  Planets.serpulo.sectorSize = 4
+  Planets.serpulo.sectorSize = 3
 });
