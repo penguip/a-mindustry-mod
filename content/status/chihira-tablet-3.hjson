@@ -7,7 +7,7 @@ details: "I publicly confronted Gamma today, though before I could speak, he tol
   
                        -Chihiro Fujasaki"
 research: {
-parent: chihira-tablet-3
+parent: chihira-tablet-2
 objectives: [plastanium-compressor]
 }
 researchCost: [
