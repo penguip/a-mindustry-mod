@@ -7,7 +7,11 @@ details: "I was simply pacing around the islands when one of Gamma's rissos atta
                        -Chihira Fujasaki"
 research: {
 parent: chihira-tablet-1
-objectives: [chihira-tablet-1]
+objectives: [windsweptIslands, {
+type: SectorComplete
+preset: windsweptIslands
+}
+]
 }
 researchCost: [
 "titanium/450"
