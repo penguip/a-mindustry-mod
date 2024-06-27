@@ -1,0 +1,23 @@
+name: "Tablet - The Water"
+description: "A data tablet of the long missing owner of the Transmogrification Shard. Perhaps this can help you learn what happened to her, and succeed where she failed..."
+details: "I was simply pacing around the islands when one of Gamma's rissos attacked me! I was merely passing by it when it almost TORE me to shreds with it's giant bazooka. Thankfully for me, I escaped to safety.
+  Something didn't seem right about the risso though. It wasn't just the blood-red cell, but the fact that I have a very respected position in Gamma's friend list. He couldn't have just betrayed me, it's almost like it tried to ambush me!
+  So it's either I did something wrong on accident, or something else is on this chilly sphere...
+  
+                       -Chihira Fujasaki"
+research: {
+parent: chihira-tablet-1
+objectives: [windsweptIslands, {
+type: SectorComplete
+preset: windsweptIslands
+}
+]
+}
+researchCost: [
+"titanium/450"
+"graphite/500"
+"copper/2350"
+"lead/870"
+"silicon/1850"
+]
+alwaysUnlocked: false
