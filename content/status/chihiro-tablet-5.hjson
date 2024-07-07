@@ -1,0 +1,27 @@
+name: "Tablet - A Horrifying Discovery..."
+description: "A data tablet of the long missing owner of the Transmogrification Shard. Perhaps this can help you learn what happened to her, and succeed where she failed..."
+details: "A few days ago I noticed that my clothes were...how do I put this...sweating. Not only that but my sweat was way too viscous for me to not be healty, but Gamma has been gone for months now - it's been several months since my last post.
+  Only today did I realize Gamma wasn't lying about the water being unsafe...
+  My hands are trembling while I'm typing this message...I'm so scared...I think...I think I'm melting...
+  I don't know what to do, Gamma is looking for my friends' bodies, his elite units are too busy protecting him from danger, and Miu is going with him to see her father.
+  I'm all alone...the PLT's turrets are on Oct... it's so, so eerily quiet here...
+  I think... I think I'm actually going to die here...
+  
+  
+                       -Chihiro Fujasaki"
+research: {
+parent: chihiro-tablet-4
+objectives: [saltFlats, {
+  type: sectorComplete
+  preset: saltFlats
+}
+]
+}
+researchCost: [
+"titanium/450"
+"graphite/500"
+"copper/2350"
+"lead/870"
+"silicon/1850"
+]
+alwaysUnlocked: false
