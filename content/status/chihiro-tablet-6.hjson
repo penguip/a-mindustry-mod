@@ -1,0 +1,23 @@
+name: "Tablet - Letter to Gamma"
+description: "A video tablet of the long dead Chihiro Fujasaki, Ultimate Programmer. That is not all. Something is in this last tablet. Chihiro has left something behind that will aid you in your journey to defeat Solaris, God of Despair..."
+details: "Gamma,
+  You have been my dearest friend.
+  
+  
+                       -Chihiro Fujasaki"
+research: {
+parent: chihiro-tablet-5
+objectives: [tarFields, {
+  type: sectorComplete
+  preset: tarFields
+}
+]
+}
+researchCost: [
+"titanium/450"
+"graphite/500"
+"copper/2350"
+"lead/870"
+"silicon/1850"
+]
+alwaysUnlocked: false
