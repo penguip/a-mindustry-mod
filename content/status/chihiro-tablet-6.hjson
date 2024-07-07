@@ -1,10 +1,22 @@
 name: "Tablet - Letter to Gamma"
 description: "A video tablet of the long dead Chihiro Fujasaki, Ultimate Programmer. That is not all. Something is in this last tablet. Chihiro has left something behind that will aid you in your journey to defeat Solaris, God of Despair..."
 details: "Gamma,
-  You have been my dearest friend.
   
-  
-                       -Chihiro Fujasaki"
+  You have been my dearest friend. I am so, so sorry I didn't listen to you...
+ 
+  I won't make it.
+
+  But, the islands are my favorite place on the planet...
+
+  So, when you find my body in the tar fields, scoop it, and let me rest somewhere on those islands...
+
+  For the first and last time, I love you, Gamma...
+
+  And please, do what this message says, I beg of you...
+ 
+
+                       -Sincerely,
+                          Chihiro Fujasaki"
 research: {
 parent: chihiro-tablet-5
 objectives: [tarFields, {
