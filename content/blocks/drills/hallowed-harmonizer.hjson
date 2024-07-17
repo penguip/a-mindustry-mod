@@ -1,0 +1,17 @@
+name: "Hallowed Harmonizer"
+description: "Harmonizes Universal Tokens into a better version, utilizing the blessing."
+type: GenericCrafter
+size: 4
+category: crafting
+consumes: {
+power: 8.5
+   items: [
+   "hallowed-copper/1"
+   "universal-token/10"
+   ]
+}
+outputItem: "hallowed-token/10"
+requirements: [
+"universal-token/25"
+"hallowed-copper/500"
+]
