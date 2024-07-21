@@ -3,5 +3,5 @@ description: "This ancient coin is the final tier of currency; each one is worth
 explosiveness: 0
 flammability: 0
 radioactivity: 0
-charge: .75
+charge: 0
 color: ffcc66
