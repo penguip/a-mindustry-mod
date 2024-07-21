@@ -1,0 +1,7 @@
+name: "Silver"
+description: "This durable metal isn't as rare as on most planets due to the spores exposing massive deposits underground, and is often associated with deterring evil spirits. Serpulo's exclusive Unit."
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: .5
+color: 6e6e6e
