@@ -1,0 +1,24 @@
+name: "Stasis Factory"
+description: "Forges Photon Batteries using a variety of materials."
+type: GenericCrafter
+size: 2
+category: crafting
+research: gamma-tablet-2
+consumes: {
+power: 8.5
+   items: [
+   "titanium/5"
+   "copper/26"
+   "lead/45"
+   "silicon/45"
+   ]
+}
+craftTime: 300
+outputItem: "photon-battery/1"
+requirements: [
+"titanium/250"
+"silicon/500"
+"copper/850"
+"lead/650"
+"graphite/750"
+]
