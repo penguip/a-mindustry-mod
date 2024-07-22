@@ -1,0 +1,10 @@
+name: "Photon Battery"
+description: "A mysterious Phase Fabric based energy source. One of the few energy sources that meet the immense energy requirements of The Annihilator, the others being Warp Cells, Rhenium Cysts, and Crimson Hypercores.
+
+This item is an [navy]Quest Item[]. It is used in finding the fate of deceased Ultimates, and may have some purpose afterwards..."
+color: f59f7d
+radioactivity: 0
+explosiveness: 0
+flammability: 0
+charge: 0
+research: gamma-tablet-2
