@@ -4,6 +4,7 @@ type: GenericCrafter
 size: 2
 category: crafting
 research: gamma-tablet-2
+itemCapacity: 45
 consumes: {
 power: 8.5
    items: [
