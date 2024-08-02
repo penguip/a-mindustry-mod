@@ -2,10 +2,11 @@ type: PowerTurret
 name:  "[ae00ff]Darkness"
 reload: 98
 health: 135
-rotateSpeed: .87
-inaccuracy: 10
+rotateSpeed: 1.9
+inaccuracy: 25
 shoot: {
-   shots: 7
+   shots: 10
+   shotDelay: 5
 }
 shootSound: laser
 targetAir: true
@@ -26,7 +27,7 @@ requirements: [
    collidesAir: true
    shootEffect: {
             type: ParticleEffect
-            lifetime: 250
+            lifetime: 15
             sizeFrom: 15
             sizeTo: 0
             particles: 10
