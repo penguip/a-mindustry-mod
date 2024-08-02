@@ -1,5 +1,5 @@
 type: PowerTurret
-name:  "[ae00ff]Darkness"
+name:  "[#ae00ff]Darkness"
 reload: 98
 health: 135
 rotateSpeed: 1.9
@@ -14,7 +14,7 @@ consumes: {
 power: 1.5
 }
 range: 280
-description: "[ae00ff]Rapid fires destructive beams of negative energy."
+description: "[#ae00ff]Rapid fires destructive beams of negative energy."
 requirements: [
 "darkness-fabric/25"
 ]
