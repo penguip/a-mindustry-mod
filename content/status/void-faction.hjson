@@ -4,5 +4,4 @@ research: {
         root: true
         name: "Void"
         isFirstTier: true
-        planet: "serpulo"
 }
