@@ -1,0 +1,7 @@
+name: "[#ae00ff]Darkness Fabric"
+description: "[#ae00ff]Air-infused negative energy. An important material for the Void."
+color: ae00ff
+explosiveness: .33
+flammability: 0
+radioactivity: .65
+charge: 0
