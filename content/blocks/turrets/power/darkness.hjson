@@ -1,0 +1,39 @@
+type: PowerTurret
+name:  "[ae00ff]Darkness"
+reload: 98
+health: 135
+rotateSpeed: .87
+inaccuracy: 10
+shoot: {
+   shots: 7
+}
+shootSound: laser
+targetAir: true
+consumes: {
+power: 1.5
+}
+range: 280
+description: "[ae00ff]Rapid fires destructive beams of negative energy."
+requirements: [
+"darkness-fabric/25"
+]
+"shootType": {
+   type: LaserBulletType
+   width: 3
+   colors: [9900ff, ae00ff, bf00ff]
+   length: 280
+   damage: 50
+   collidesAir: true
+   shootEffect: {
+            type: ParticleEffect
+            lifetime: 250
+            sizeFrom: 15
+            sizeTo: 0
+            particles: 10
+            spin: 7.5
+            colorFrom: bf00ff
+            colorTo: 9900ff
+   }
+}
+research: void-faction
+category: turret
