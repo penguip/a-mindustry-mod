@@ -1,7 +1,0 @@
-name: "[#8eff80]Acid"
-description: "[#8eff80]Not to be confused with a factor called poison, this foul-hearted, sour-old faction originates from the more Earth-like planets of the galaxy. With their hyper corrosive armaments in hand, they dissolve through all in their way, living or not."
-research: {
-        root: true
-        name: "Acid"
-        isFirstTier: true
-}

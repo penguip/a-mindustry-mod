@@ -1,7 +1,0 @@
-name: "Grave(Windswept Islands)"
-health: 50000000000
-type: Wall
-requirements: [
-"transmogrification-shard/3"
-]
-buildVisibility: editorOnly

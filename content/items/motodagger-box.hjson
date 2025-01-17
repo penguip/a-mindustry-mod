@@ -1,7 +1,0 @@
-name: "Box (Motodagger) "
-description: "A very small crate containing the materials necessary to create a Motodagger."
-explosiveness: 0
-flammability: 0
-radioactivity: 0
-charge: 0
-color: c2c5cc

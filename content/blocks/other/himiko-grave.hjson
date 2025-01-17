@@ -1,7 +1,0 @@
-name: "Grave(Split)"
-health: 50000000000
-type: Wall
-requirements: [
-"burning-hat/3"
-]
-buildVisibility: editorOnly

@@ -1,7 +1,0 @@
-name: "Thor"
-description: Erekir's arc.
-consumes: {
-power: .92
-}
-shootType: [
-       

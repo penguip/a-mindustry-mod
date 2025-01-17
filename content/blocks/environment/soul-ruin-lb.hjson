@@ -1,7 +1,0 @@
-type: "Floor"
-name: "PATIENCE Memories"
-size: 1
-variants: 0
-liquidDrop: "patience-remanant"
-cacheLayer: water
-isLiquid: true

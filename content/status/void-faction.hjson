@@ -1,7 +1,0 @@
-name: "[#ae00ff]Void"
-description: "[#ae00ff]The Void is a mysterious and chaotic faction associated with The Backrooms, a mysterious liminal space where reality doesn't exist. They utilize powerful destructive tech, usually with no regards to the harm such tech can do."
-research: {
-        root: true
-        name: "Void"
-        isFirstTier: true
-}
