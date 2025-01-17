@@ -1,28 +1,7 @@
-name : sentinel-addon
-displayName : "[scarlet]ATLAS' [crimson]Revolutions"
-author : The skelebros
-description : "With the revolution of the ATLAS and his time, the flashlight springs to life.
-
-
-An extension mod for Mindustry that adds a new planet: Pugneo.[magenta]This desalote and myterious planet is home to one of the most threatening beings in the universe: Sentinels, small, robotic, and bloodthirsty entities that flourish around Pugneo's untouched atmosphere.[]
-
-
-In addition to adding Pugneo, this mod also extends campaign of both Serpulo and Erekir, as well as adding Tantros, an enormous ocean planet, home to the faction Bushark.
-
-
-Credits(not fully completed, will get into that as soon as possible):
-NMS(No Man's Sky) - Hello Games
-Roblox Doors - LSPLASH
-Garten of BanBan - Euphoric Brothers
-Infinitode - Prineside
-Undertale - Toby Fox
-Danganronpa - Spike Chunsoft(specifically Kazutaka Kodaka)
-Terraria - Re-Logic
-
-[scarlet]IMPORTANT![] Make sure MultiCrafter is activated, and, if something seems off lore-wise, then that is most likely because it is a headcanon of mine.
-
-
-Have a good day, and provide any feedback if necessary!"
+name : daf
+displayName : "BEEPDUSTRY"
+author : Me(duh)
+description : ".... . / .... . / .... . .-.-.- / ... --- / ... .. .-.. .-.. -.-- .-.-.- / .. ... -. .----. - / - .... .. ... / .--- ..- ... - / .--. . .-. ..-. . -.-. - ..--.. / ..-. .. .-. ... - / .. / -.- .. .-.. .-.. / -.-- --- ..- .-. / -.. .- -.. -.. -.-- --..-- / -. --- .-- --..-- / .. / -.- .. .-.. .-.. / -.-- --- ..- .-.-.- / .. / -.-. .- -. .----. - / -... . .-.. .. . ...- . / .. - -.-.-- / - .... .. ... / .-- .. .-.. .-.. / -... . / -.--. .- -. -.. / .-.. --- .-. -.. / --. .. -.-- --. .- ... / .-- .. .-.. .-.. / .... .- ...- . -.--.- / ... --- / -- ..- -.-. .... / ..-. ..- -. -.-.--"
 minGameVersion : 136
 dependencies: ["multi-crafter"]
-subtitle: "A breeze in the wind... A wave in the ocean..."
+subtitle: "See you soon - [scarlet]ADVISOR"
