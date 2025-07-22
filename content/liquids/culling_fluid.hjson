@@ -1,0 +1,6 @@
+localizedName: "Culling Fluid"
+description: "Blood enriched with slag, melts (almost) anything it touches INSTANTLY."
+isLiquid:true
+effect: culled
+color: ff0000
+viscosity: 0.85
