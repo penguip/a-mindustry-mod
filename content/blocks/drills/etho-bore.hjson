@@ -1,0 +1,16 @@
+localizedName: "Etho Bore"
+description: "Mines low level wall ores. Requires power."
+type: beamDrill
+health: 450
+range: 5
+tier: 1
+size: 1
+drillTime: 120
+ambientSound: drill
+ambientSoundVolume: 0.08
+hasLiquids: true
+consumes: {
+  power: 0.25
+}
+buildCostMultiplier: 2
+category: production
