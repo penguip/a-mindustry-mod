@@ -1,0 +1,4 @@
+localizedName: Yttrium Ore
+type: OreBlock
+itemDrop: yttrium
+wallOre: true
