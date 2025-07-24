@@ -27,6 +27,7 @@ ammoTypes: {
     ff0000,
     000000,
     ]
+  }
 }
 research: glitch
 researchCost: [
