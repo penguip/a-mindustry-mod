@@ -1,7 +1,7 @@
 type: Duct
 size: 1
 localizedName: Mover
-description: Moves items forward, can only accept one at a time.
+description: "Moves items forward, can only accept one at a time."
 health: 65
 speed: 10
 requirements: [
