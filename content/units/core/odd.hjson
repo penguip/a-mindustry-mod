@@ -8,9 +8,11 @@ engineOffset: 5
 engineSize: 2.5
 drag: 0.02
 accel: 0.03
+canBuild: true
+mineWalls: true
 rotateSpeed: 3
 circleTarget: true
-faceTarget: false
+faceTarget: true
 targetAir: true
 itemCapacity: 0
 useUnitCap: false
@@ -32,7 +34,10 @@ weapons: [{
     length: 45
     width: 2
     lifetime: 30
-    
+    colors: [
+      ff0000
+      000000
+    ]
     smokeEffect: hitLaserColor
   }
 }]
