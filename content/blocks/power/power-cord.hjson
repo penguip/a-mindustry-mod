@@ -1,0 +1,20 @@
+type: PowerNode
+fogRadius: 0
+localizedName: Power Cord
+description: Transmits power to and from other blocks.
+size: 1
+health: 250
+squareSprite: true
+laserRange: 10
+maxNodes: 10
+category: power
+laserScale: 0.6
+laserColor1: FF0000FF
+laserColor2: FF0000FF
+research: entropanel
+researchCost: [
+  yttrium/30
+]
+requirements: [
+  yttruim/3
+]
