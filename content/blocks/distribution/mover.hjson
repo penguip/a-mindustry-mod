@@ -1,0 +1,16 @@
+type: Duct
+size: 1
+localizedName: Mover
+description: Moves items forward, can only accept one at a time.
+health: 65
+speed: 10
+requirements: [
+  yttrium/1
+]
+research: glitch
+researchCost: [
+  yttrium/4
+]
+category: distribution
+bridgeReplacement: highway
+junctionReplacement: crossmover
