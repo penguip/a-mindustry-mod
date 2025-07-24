@@ -81,7 +81,7 @@ cloudMesh: [
 ]
 radius: 1.2
 startSector: 0
-sectorSize: 5
+sectorSize: 2
 orbitRadius: 78
 orbitOffset: 102
 minZoom: 0.8
@@ -104,7 +104,7 @@ defaultCore: glitch
 parent: sun
 solarSystem: sun
 tidalLock: false
-orbitSpacing: 2
+orbitSpacing: 1
 
 enemyBuildSpeedMultiplier: 0.7
 campaignRules.fog: true
