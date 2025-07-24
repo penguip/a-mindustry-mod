@@ -7,8 +7,8 @@ research: etho-bore
 researchCost: [
   yttrium/60
 ]
-drillTime: 175
-tier: 2
+drillTime: 340
+tier: 1
 itemCapacity: 20
 researchCostMultiplier: 0.2
 requirements: [
