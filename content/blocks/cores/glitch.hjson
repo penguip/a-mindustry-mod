@@ -1,6 +1,8 @@
 type: CoreBlock
 size: 2
-health: 5500
+localizedName: "Core: Glitch"
+description: "Core of the base. Armored. Once destroyed, the sector is lost."
+health: 2500
 armor: 3
 unitType: odd
 requirements: [
