@@ -12,5 +12,11 @@ hasLiquids: true
 consumes: {
   power: 0.25
 }
-buildCostMultiplier: 2
 category: production
+research: glitch
+researchCost: [
+  yttrium/10
+]
+requirements: [
+  yttrium/60
+]
