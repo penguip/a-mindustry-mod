@@ -13,6 +13,8 @@ mesh: [
     color2: 6a689c
     octaves: 4
     persistence: 0.8
+    mag: 1.4
+    scl: 5
     }
     {
     //aquabiome
@@ -25,8 +27,6 @@ mesh: [
     color2: 2a7667
     octaves: 3
     persistence: 1.1
-    mag: 1.4
-    scl: 5
     }
     {
     //nightmarebiome
