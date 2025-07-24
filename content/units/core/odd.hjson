@@ -35,8 +35,8 @@ weapons: [{
   bullet: {
     type: LaserBulletType
     damage: 35
-    length: 45
-    width: 2
+    length: 100
+    width: 8
     lifetime: 30
     colors: [
       ff0000
