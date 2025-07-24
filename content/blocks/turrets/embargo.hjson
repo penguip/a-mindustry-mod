@@ -1,6 +1,6 @@
 type: ItemTurret
 size: 1
-health: 1580
+health: 120
 localizedName: Embargo
 description: Superheats osmium and fires a laser.
 shootSound: laser
