@@ -1,0 +1,122 @@
+generator: "PlanetGenerator"
+localizedName: Exerio
+description: A mysterious world where nothing today is the same tomorrow, and nightmarish anomalies frolic about.
+mesh: [
+    {
+    //normalbiome
+    type: NoiseMesh
+    planet: exerio
+    divisions: 6
+    seed: 67
+    radius: 1.152
+    color1: 6ea85e
+    color2: 6a689c
+    octaves: 4
+    persistence: 0.8
+    }
+    {
+    //aquabiome
+    type: NoiseMesh
+    planet: exerio
+    divisions: 5
+    seed: 13
+    radius: 1.122
+    color1: 38ac9a
+    color2: 2a7667
+    octaves: 3
+    persistence: 1.1
+    mag: 1.4
+    scl: 5
+    }
+    {
+    //nightmarebiome
+    type: NoiseMesh
+    planet: exerio
+    divisions: 6
+    seed: 94
+    radius: 1.1662
+    color1: ba0000
+    color2: 363636
+    octaves: 4
+    persistence: 1.2
+    }
+    {
+    //nullbiome
+    type: NoiseMesh
+    planet: exerio
+    divisions: 5
+    seed: 59
+    radius: 1.122
+    color1: ff00ff
+    color2: 00ffff
+    octaves: 3
+    persistence: 1.1
+    }
+]
+cloudMesh: [
+   {
+   type: HexSkyMesh
+   planet: exerio
+   speed: 1.1
+   radius: 0.200
+   divisions: 6
+   color: ffffff60
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.45
+   }
+   {
+   type: HexSkyMesh
+   planet: exerio
+   speed: 1.1
+   radius: 0.195
+   divisions: 6
+   color: ffffff60
+   octaves: 3
+   persistence: 0.4
+   scl: 0.8
+   thresh: 0.45
+   }
+]
+radius: 1.2
+startSector: 0
+sectorSize: 5
+orbitRadius: 78
+orbitOffset: 102
+minZoom: 0.8
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: true
+allowSectorInvasion: false
+allowCampaignRules: true
+hasAtmosphere: true
+iconColor: 6ca85e
+accessible: true
+visible: true
+alwaysUnlocked: true
+updateLighting: false
+bloom: false
+
+clearSectorOnLose: true
+prebuildBase: true
+defaultCore: glitch
+parent: sun
+solarSystem: sun
+tidalLock: false
+orbitSpacing: 2
+
+enemyBuildSpeedMultiplier: 0.7
+campaignRules.fog: true
+campaignRules.showSpawns: true
+campaignRules.rtsAI: true
+campaignRuleDefaults.fog: true
+campaignRuleDefaults.showSpawns: true
+campaignRuleDefaults.rtsAI: true
+coreDestroyClear: false
+
+launchCandidates: []
+itemWhitelist: [
+  "yttrium",
+  "osmium",
+]
