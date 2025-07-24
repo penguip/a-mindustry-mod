@@ -104,13 +104,13 @@ defaultCore: glitch
 parent: sun
 solarSystem: sun
 tidalLock: false
-orbitSpacing: 1
+orbitSpacing: 2
 
 enemyBuildSpeedMultiplier: 0.7
-campaignRules.fog: true
+campaignRules.fog: false
 campaignRules.showSpawns: true
 campaignRules.rtsAI: true
-campaignRuleDefaults.fog: true
+campaignRuleDefaults.fog: false
 campaignRuleDefaults.showSpawns: true
 campaignRuleDefaults.rtsAI: true
 coreDestroyClear: false
