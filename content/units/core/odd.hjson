@@ -1,1 +1,39 @@
-
+name: Odd
+description: Protects the Glitch core from enemies. Builds structures. 
+speed: 2.5
+flying: true
+health: 60
+armor: 2
+engineOffset: 5
+engineSize: 2.5
+drag: 0.02
+accel: 0.03
+rotateSpeed: 3
+circleTarget: true
+faceTarget: false
+targetAir: true
+itemCapacity: 0
+useUnitCap: false
+hitSize: 6
+weapons: [{
+  name: odd-weapon
+  y: 0
+  x: -3
+  reload: 60
+  shootSound: lasershoot
+  inaccuracy: .45
+  mirror: true
+  shootCone: 180
+  useAttackRange: true
+  rotationLimit: 180
+  bullet: {
+    type: LaserBulletType
+    damage: 35
+    length: 45
+    width: 2
+    lifetime: 30
+    
+    smokeEffect: hitLaserColor
+  }
+}]
+range: 280
