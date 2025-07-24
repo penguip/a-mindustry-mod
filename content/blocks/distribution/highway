@@ -1,0 +1,18 @@
+type: DuctBridge
+size: 1
+localizedName: Highway
+description: Transports materials over other blocks.
+health: 65
+speed: 6
+range: 10
+requirements: [
+  yttrium/15
+  osmium/35
+]
+category: distribution
+squareSprite: false
+research: mover
+researchCost: [
+  yttrium/20
+  osmium/35
+]
