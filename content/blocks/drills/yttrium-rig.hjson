@@ -1,0 +1,16 @@
+type: Drill
+name: Yttrium Rig
+description: Mines low tier floor ores.
+size: 2
+category: production
+research: etho-bore
+researchCost: [
+  yttrium/60
+]
+drillTime: 175
+tier: 2
+itemCapacity: 20
+researchCostMultiplier: 0.2
+requirements: [
+  yttrium/20
+]
