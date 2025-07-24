@@ -1,0 +1,18 @@
+type: Junction
+localizedName: Crossmover
+Allows two mover belts to pass through each other.
+details: Look what they need to mimic a FRACTION of our power!
+health: 65
+size: 1
+speed: 22
+requirements: [
+  yttrium/6
+  osmium/2
+]
+squareSprite: false
+category: distribution
+research: mover
+researchCost: [
+  yttrium/12
+  osmium/9
+]
