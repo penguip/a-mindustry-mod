@@ -1,7 +1,7 @@
 type: Junction
 localizedName: Crossmover
 Allows two mover belts to pass through each other.
-details: Look what they need to mimic a FRACTION of our power!
+details: "Look what they need to mimic a FRACTION of our power!"
 health: 65
 size: 1
 speed: 22
