@@ -15,8 +15,11 @@ rotateSpeed: 3
 circleTarget: true
 faceTarget: true
 targetAir: true
-itemCapacity: 0
-useUnitCap: false
+mineSpeed: 5.5
+mineTier: 2
+buildSpeed: 1
+itemCapacity: 25
+useUnitCap: true
 hitSize: 6
 weapons: [{
   name: odd-weapon
