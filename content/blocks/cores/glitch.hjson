@@ -1,0 +1,23 @@
+type: CoreBlock
+size: 2
+health: 5500
+armor: 3
+unitType: odd
+requirements: [
+ yttrium/800
+ osmium/500
+]
+requiresCoreZone: true
+incinerateNonBuildable: true
+category: effect
+isFirstTier: true
+squareSprite: false
+alwaysUnlocked: true
+itemCapacity: 3000
+unitCapModifier: 10
+research: {
+  planet: exerio
+  root: true
+  name: Exerio
+  requiresUnlock: false
+}
