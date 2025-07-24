@@ -21,8 +21,8 @@ ammoTypes: {
     type: LaserBulletType
     buildingDamageMultiplier: 0.25
     damage: 105
-    length: 100
-    width: 6
+    length: 208
+    width: 10
     colors: [ff00ff,
     ff0000,
     000000,
