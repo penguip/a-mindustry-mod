@@ -81,9 +81,9 @@ cloudMesh: [
 ]
 radius: 1.2
 startSector: 0
-sectorSize: 2
-orbitRadius: 78
-orbitOffset: 102
+sectorSize: 3
+orbitRadius: 124
+orbitOffset: 170
 minZoom: 0.8
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
