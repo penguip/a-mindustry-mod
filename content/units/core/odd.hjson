@@ -16,7 +16,7 @@ circleTarget: true
 faceTarget: true
 targetAir: true
 mineSpeed: 5.5
-mineTier: 2
+mineTier: 1
 buildSpeed: 1
 itemCapacity: 25
 useUnitCap: true
@@ -26,7 +26,7 @@ weapons: [{
   y: 0
   x: -3
   reload: 60
-  shootSound: lasershoot
+  shootSound: laser
   inaccuracy: .45
   mirror: true
   shootCone: 180
