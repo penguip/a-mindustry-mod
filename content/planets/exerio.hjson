@@ -28,7 +28,7 @@ mesh: [
     octaves: 3
     persistence: 1.1
     mag: 0
-    scl: 7.789
+    scl: 8
     }
     {
     //nightmarebiome
