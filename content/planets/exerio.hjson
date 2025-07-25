@@ -91,7 +91,7 @@ sectorSize: 3
 orbitRadius: 124
 orbitOffset: 170
 minZoom: 0.8
-allowLaunchSchematics: false
+allowLaunchSchematics: true
 allowLaunchToNumbered: false
 allowLaunchLoadout: true
 allowSectorInvasion: false
@@ -106,7 +106,7 @@ bloom: false
 
 clearSectorOnLose: true
 prebuildBase: true
-defaultCore: daf-glitch
+defaultCore: glitch
 parent: sun
 solarSystem: sun
 tidalLock: false
