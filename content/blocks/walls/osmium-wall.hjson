@@ -1,6 +1,9 @@
+type: Wall
 localizedName: Osmium Wall
 description: Protects against enemy fire.
 health: 500
+size: 1
+category: defense
 requirements: [
   osmium/6
 ]
