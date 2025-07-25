@@ -93,7 +93,7 @@ orbitOffset: 170
 minZoom: 0.8
 allowLaunchSchematics: true
 allowLaunchToNumbered: false
-allowLaunchLoadout: true
+allowLaunchLoadout: false
 allowSectorInvasion: false
 allowCampaignRules: true
 hasAtmosphere: true
