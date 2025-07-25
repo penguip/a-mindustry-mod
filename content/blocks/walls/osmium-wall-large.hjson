@@ -5,6 +5,7 @@ health: 2000
 armor: 2
 requirements: [
   osmium/24
+]
 research: glitch
 researchCost: [
   osmium/700
