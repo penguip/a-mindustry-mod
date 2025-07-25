@@ -5,8 +5,8 @@ localizedName: Mech Station
 description: Builds Beeps and Eyboxes.
 configurable: true
 requirements: [
-  yttrium/350
-  osmium/250
+  yttrium/30
+  osmium/25
 ]
 category: units
 plans: [
