@@ -14,7 +14,7 @@ mesh: [
     octaves: 4
     persistence: 0.8
     mag: 1.4
-    scl: 5
+    scl: 4
     }
     {
     //aquabiome
@@ -28,7 +28,7 @@ mesh: [
     octaves: 3
     persistence: 1.1
     mag: 0
-    scl: 12
+    scl: 5
     }
     {
     //nightmarebiome
