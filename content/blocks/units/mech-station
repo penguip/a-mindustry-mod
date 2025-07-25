@@ -1,6 +1,8 @@
 type: UnitFactory
 size: 2
 health: 450
+localizedName: Mech Station
+description: Builds Beeps and Eyboxes.
 configurable: true
 requirements: [
   yttrium/350
