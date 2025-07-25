@@ -47,3 +47,5 @@ weapons: [{
   }
 }]
 range: 280
+research: glitch
+alwaysUnlocked: true
