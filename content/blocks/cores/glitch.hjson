@@ -15,7 +15,7 @@ category: effect
 isFirstTier: true
 squareSprite: false
 alwaysUnlocked: true
-itemCapacity: 3000
+itemCapacity: 5000
 unitCapModifier: 10
 research: {
   planet: exerio
