@@ -1,0 +1,27 @@
+type: UnitFactory
+size: 2
+health: 450
+configurable: true
+requirements: [
+  yttrium/350
+  osmium/250
+]
+category: units
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: beep
+    requirements: [
+      yttrium/60
+      osmium/50
+    ]
+    time: 2100
+  }
+]
+consumes: {
+  power: 3.5
+}
+research: glitch
+recearchCost: [
+  yttrium/60
+  osmium/45
