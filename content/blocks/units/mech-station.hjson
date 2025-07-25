@@ -24,8 +24,7 @@ consumes: {
   power: 3.5
 }
 research: glitch
-researchCostMultiplier: 1
 recearchCost: [
-  yttrium/60
-  osmium/45
+  yttrium/6
+  osmium/4
 ]
