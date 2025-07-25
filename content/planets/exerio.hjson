@@ -28,7 +28,7 @@ mesh: [
     octaves: 3
     persistence: 1.1
     mag: 0
-    scl: 10
+    scl: 12
     }
     {
     //nightmarebiome
@@ -52,11 +52,11 @@ mesh: [
     seed: 59
     radius: 1.122
     color1: ff00ff
-    color2: 00ffff
+    color2: ffff00
     octaves: 3
     persistence: 1.1
     mag: 1.1
-    scl: 1
+    scl: 2
     }
 ]
 cloudMesh: [
