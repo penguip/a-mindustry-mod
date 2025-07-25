@@ -4,4 +4,5 @@ sector: 0
 planet: exerio
 research: glitch
 alwaysUnlocked: true
+overrideLaunchDefaults: true
 difficulty: 2
