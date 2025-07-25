@@ -1,5 +1,5 @@
 type: CoreBlock
-size: 2
+size: 3
 localizedName: "Core: Glitch"
 description: "Core of the base. Armored. Once destroyed, the sector is lost."
 health: 2500
