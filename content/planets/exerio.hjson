@@ -105,7 +105,7 @@ updateLighting: false
 bloom: false
 
 clearSectorOnLose: true
-prebuildBase: true
+prebuildBase: false
 defaultCore: glitch
 parent: sun
 solarSystem: sun
@@ -113,7 +113,7 @@ tidalLock: false
 orbitSpacing: 2
 
 enemyBuildSpeedMultiplier: 0.7
-campaignRules.fog: false
+campaignRules.fog: true
 campaignRules.showSpawns: true
 campaignRules.rtsAI: true
 campaignRuleDefaults.fog: false
