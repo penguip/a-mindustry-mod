@@ -15,7 +15,7 @@ weapons: [
       recoil: 0.4
       reload: 600
         mirror: false
-        shootSound: 
+        shootSound: artillery
         bullet: {
           type: ArtilleryBulletType
           speed: 4
