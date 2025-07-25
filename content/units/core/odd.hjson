@@ -10,6 +10,7 @@ drag: 0.02
 accel: 0.03
 canBuild: true
 mineWalls: true
+mineFloor: false
 canBuild: true
 rotateSpeed: 3
 circleTarget: true
