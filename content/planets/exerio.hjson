@@ -22,13 +22,13 @@ mesh: [
     planet: exerio
     divisions: 5
     seed: 13
-    radius: 1.122
+    radius: 4
     color1: 38ac9a
     color2: 2a7667
     octaves: 3
     persistence: 1.1
     mag: 0
-    scl: 160
+    scl: 4
     }
     {
     //nightmarebiome
