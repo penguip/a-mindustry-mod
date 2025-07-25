@@ -25,6 +25,6 @@ consumes: {
 }
 research: glitch
 recearchCost: [
-  yttrium/3
-  osmium/4
+  yttrium/60
+  osmium/45
 ]
