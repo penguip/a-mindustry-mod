@@ -22,7 +22,7 @@ mesh: [
     planet: exerio
     divisions: 5
     seed: 13
-    radius: 1.746
+    radius: 1.446
     color1: 38ac9a
     color2: 2a7667
     octaves: 3
