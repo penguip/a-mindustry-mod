@@ -94,7 +94,6 @@ minZoom: 0.8
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: true
-overrideLaunchDefaults: true
 allowSectorInvasion: false
 allowCampaignRules: true
 hasAtmosphere: true
