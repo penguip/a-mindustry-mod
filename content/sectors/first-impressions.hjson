@@ -1,0 +1,7 @@
+localizedName: First Impressions
+description: The Void has setup a small mining operation here. A perfect place to start our get-back. Mine yttrium and osmium. Research and build a beep unit. Take down the operation.
+sector: 0
+planet: exerio
+research: glitch
+alwaysUnlocked: true
+difficulty: 2
