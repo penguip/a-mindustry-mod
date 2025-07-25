@@ -106,7 +106,7 @@ bloom: false
 
 clearSectorOnLose: true
 prebuildBase: true
-defaultCore: glitch
+defaultCore: daf-glitch
 parent: sun
 solarSystem: sun
 tidalLock: false
