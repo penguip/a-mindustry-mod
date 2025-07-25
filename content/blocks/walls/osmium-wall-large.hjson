@@ -6,7 +6,7 @@ armor: 2
 requirements: [
   osmium/24
 ]
-research: glitch
+research: osmium-wall
 researchCost: [
   osmium/700
 ]
