@@ -91,9 +91,10 @@ sectorSize: 3
 orbitRadius: 124
 orbitOffset: 170
 minZoom: 0.8
-allowLaunchSchematics: true
+allowLaunchSchematics: false
 allowLaunchToNumbered: false
-allowLaunchLoadout: false
+allowLaunchLoadout: true
+overrideLaunchDefaults: true
 allowSectorInvasion: false
 allowCampaignRules: true
 hasAtmosphere: true
