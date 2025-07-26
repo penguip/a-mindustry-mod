@@ -15,16 +15,16 @@ weapons: [
       y:0
       recoil: 0.4
       reload: 150
-        mirror: false
-        shootSound: artillery
-        bullet: {
-          type: ArtilleryBulletType
-          speed: 4
-          lifetime: 32
-          damage: 125
-          width: 28
-          height: 18
-        }
+      mirror: false
+      shootSound: artillery
+      bullet: {
+        type: ArtilleryBulletType
+        speed: 4
+        lifetime: 32
+        damage: 125
+        width: 28
+        height: 34
+      }
     }
 ]
 research: mech-station
