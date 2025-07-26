@@ -1,0 +1,9 @@
+localizedName: Gadolinium
+description: Used in production of materials, and some units and turrets.
+hardness: 1
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+research: yttrium
+color:ffc187
