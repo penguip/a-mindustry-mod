@@ -37,8 +37,7 @@ weapons: [
       width: 10
       drawFlare: false
       damageInterval: 10
-      damage: 76
-      buildingDamageMultiplier: 0.01
+      damage: 56
       pierceArmor: true
       pierceCap: 3
       hitEffect: none
