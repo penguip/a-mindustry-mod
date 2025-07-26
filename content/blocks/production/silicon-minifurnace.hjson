@@ -23,3 +23,12 @@ consumes: {
 }
 ambientSound: smelter
 ambientSoundVolume: 0.6
+research: {
+  parent: glitch
+  objectives: [
+    {
+      type: OnSector
+      preset: tainted-plains
+    }
+  ]
+}
