@@ -1,4 +1,4 @@
 type: OreBlock
 wallOre: true
 itemDrop: gadolinium
-name: Gadolinium Ore
+LocalizedName: Gadolinium Ore
