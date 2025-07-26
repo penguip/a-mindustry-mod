@@ -24,23 +24,23 @@ weapons: [
     continuous: true
     alwaysContinuous: true
     ejectEffect: none
-    shootSound: laserbeam
-    shootY: 1
+    loopSound: torch
+    shootY: 3
     bullet: {
       collides: true
       collidesTiles: true
-      collidesAir: true
+      collidesAir: false
       collidesGround: true
       type: ContinuousFlameBulletType
       colors: [00c5db, 00e6ff, 7df2ff, 9cf5ff, ffffff]
       length: 95
       width: 10
       drawFlare: false
-      damageInterval: 15
-      damage: 36
+      damageInterval: 10
+      damage: 76
       buildingDamageMultiplier: 0.01
-      pierceArmor: false
-      pierceCap: 1
+      pierceArmor: true
+      pierceCap: 3
       hitEffect: none
       despawnEffect: none
     }
