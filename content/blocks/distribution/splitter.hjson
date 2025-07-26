@@ -1,4 +1,6 @@
 type: Router
+localizedName: Splitter
+description: Distributes items across 3 exits.
 size: 1
 health: 65
 speed: 6
