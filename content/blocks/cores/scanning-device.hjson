@@ -9,8 +9,6 @@ requirements: [
   yttrium/50
 ]
 research: glitch
-consumes: [
-  power/2.5
-  ]
+consumePower: 0.6
 name: Scanning Device
 description: Uncovers a small area of fog around it, requires power
