@@ -1,7 +1,3 @@
-Planets.tantros.accessible = Planets.tantros.alwaysUnlocked = Planets.tantros.visible = true
-Planets.tantros.localizedName = "Tantros"
-Planets.tantros.sectors = 4
-
 Events.run(ClientLoadEvent, () => {
   // Definition of methods
   let moddedItem = contentName => Vars.content.item(contentName); //Modded item
