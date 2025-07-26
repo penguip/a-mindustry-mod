@@ -1,0 +1,25 @@
+type: GenericCrafter
+size: 1
+localizedName: Silicon Minifurnace
+description: Fuses gadolinium and yttrium into silicon.
+health: 650
+category: crafting
+itemCapacity: 20
+requirements: [
+  yttrium/110
+  osmium/60
+]
+craftTime: 100
+craftEffect: none
+outputItems: [
+  silicon/1
+]
+consumes: {
+  items: [
+    yttrium/2
+    gadolinium/1
+  ]
+  power: 1
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
