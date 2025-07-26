@@ -2,7 +2,7 @@ name: Odd
 description: Protects the Glitch core from enemies. Builds structures. 
 speed: 2.5
 flying: true
-health: 60
+health: 650
 armor: 2
 engineOffset: 5
 engineSize: 2.5
