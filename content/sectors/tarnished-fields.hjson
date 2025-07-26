@@ -2,6 +2,13 @@ localizedName: Tarnished Fields
 description: Scanners have detected deposits of gadolinium lining the walls. Mine the gadolinium. Make silicon. Research and produce stronger units.
 sector: 129
 planet: exerio
-research: 
 overrideLaunchDefaults: true
 difficulty: 2
+research: {
+  parent: first-impressions
+  objectives: [first-impressions, {
+    type: SectorComplete
+    preset: first-impressions
+  }
+  ]
+}
