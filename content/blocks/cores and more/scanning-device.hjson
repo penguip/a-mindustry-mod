@@ -1,0 +1,12 @@
+type: Radar
+size: 1
+health: 450
+category: effect
+fogRadius: 35
+ambientSound: radar-pulsing
+ambientSoundVolume: 0.75
+consumes: [
+  power/2.5
+  ]
+name: Scanning Device
+description: Uncovers a small area of fog around it, requires power
