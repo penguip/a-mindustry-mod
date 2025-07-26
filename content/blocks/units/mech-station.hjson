@@ -23,7 +23,7 @@ plans: [
     type: FactoryUnitPlan
     unit:eyebox
     requirements: [
-      yttruim/120
+      yttrium/120
       osmium/90
       gadolinium/50
       silicon/60
