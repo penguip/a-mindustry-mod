@@ -12,6 +12,7 @@ canBuild: true
 mineWalls: true
 mineFloor: false
 canBuild: true
+fogRadius: 0
 rotateSpeed: 3
 circleTarget: true
 faceTarget: true
