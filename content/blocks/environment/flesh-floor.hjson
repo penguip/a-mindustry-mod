@@ -1,0 +1,6 @@
+type: Floor
+name: Flesh Floor
+variants: 3
+attributes: {
+  flesh: 0.25
+}
