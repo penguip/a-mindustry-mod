@@ -3,8 +3,6 @@ size: 1
 health: 450
 category: effect
 fogRadius: 35
-ambientSound: radar-pulsing
-ambientSoundVolume: 0.75
 requirements: [
   yttrium/50
 ]
