@@ -25,9 +25,13 @@ ambientSound: smelter
 ambientSoundVolume: 0.6
 research: {
   parent: glitch
-  objectives: [gadolinium, tarnished-fields, {
+  objectives: [tarnished-fields, {
     type: OnSector
     preset: tarnished-fields
 }
 ]
 }
+researchCost: [
+  yttrium/900
+  osmium/450
+]
