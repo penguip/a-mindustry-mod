@@ -3,4 +3,5 @@ description: "Blood enriched with slag, melts (almost) anything it touches INSTA
 isLiquid:true
 effect: culled
 color: ff0000
-viscosity: 0.85
+viscosity: 0.80
+coolant: false
