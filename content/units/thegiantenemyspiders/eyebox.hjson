@@ -15,6 +15,7 @@ hitSize: 6
 drag: 0.4
 itemCapacity: 20
 range: 95
+targetAir: false
 weapons: [
   {
     x: 0
