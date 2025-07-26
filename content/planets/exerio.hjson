@@ -125,4 +125,6 @@ launchCandidates: []
 itemWhitelist: [
   "yttrium",
   "osmium",
+  "gadolinium",
+  "silicon”,
 ]
