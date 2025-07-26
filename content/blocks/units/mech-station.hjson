@@ -19,6 +19,17 @@ plans: [
     ]
     time: 2100
   }
+  {
+    type: FactoryUnitPlan
+    unit:eyebox
+    requirements: [
+      yttruim/120
+      osmium/90
+      gadolinium/50
+      silicon/60
+    ]
+    time: 5000
+  }
 ]
 consumes: {
   power: 3.5
