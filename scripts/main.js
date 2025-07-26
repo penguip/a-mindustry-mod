@@ -33,4 +33,3 @@ Events.run(ClientLoadEvent, () => {
   let exerio = moddedPlanet("daf-exerio");
 >   addNode(Items.silicon, moddedItem("gadolinium")); //Water will branch off of the item, if you want an item, like sand, use Items.sand
 });
-```
