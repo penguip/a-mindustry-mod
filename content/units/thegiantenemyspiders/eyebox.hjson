@@ -1,0 +1,47 @@
+type: legs
+legCount: 4
+legLength: 8
+legSpeed: 0.23
+legForwardScl: 0.56
+legMoveSpace: 0.9
+hovering: true
+groundLayer: 60
+name: Eyebox
+description: Scorches nearby ground enemies with a continuous, high-damage flame.
+health: 
+armor: 8
+speed: 1.38
+hitSize: 6
+drag: 0.4
+itemCapacity: 20
+range: 95
+weapons: [
+  {
+    x: 0
+    y: 0
+    mirror: false
+    continuous: true
+    alwaysContinuous: true
+    ejectEffect: none
+    shootSound: laserbeam
+    shootY: 1
+    bullet: {
+      collides: true
+      collidesTiles: true
+      collidesAir: true
+      collidesGround: true
+      type: ContinuousFlameBulletType
+      colors: [00c5db, 00e6ff, 7df2ff, 9cf5ff, ffffff]
+      length: 95
+      width: 10
+      drawFlare: false
+      damageInterval: 15
+      damage: 36
+      buildingDamageMultiplier: 0.01
+      pierceArmor: false
+      pierceCap: 1
+      hitEffect: none
+      despawnEffect: none
+    }
+  }
+]
