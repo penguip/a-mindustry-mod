@@ -1,0 +1,14 @@
+type: Router
+size: 1
+health: 65
+speed: 6
+itemCapacity: 1
+requirements: [
+  yttrium/5
+]
+category: distribution
+squareSprite: false
+research: crossmover
+researchCost: [
+  yttrium/6
+]
