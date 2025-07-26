@@ -25,7 +25,7 @@ ambientSound: smelter
 ambientSoundVolume: 0.6
 research: {
   parent: glitch
-  objectives: [gadolinium, tarnished-feilds, {
+  objectives: [gadolinium, tarnished-fields, {
     type: OnSector
     preset: tarnished-fields
 }
