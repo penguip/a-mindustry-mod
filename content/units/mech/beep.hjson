@@ -24,6 +24,12 @@ weapons: [
         damage: 125
         width: 28
         height: 34
+        collides = true
+        collidesTiles = true
+        splashDamageRadius = 40
+        splashDamage = 95
+        backColor = 00e6ff
+        frontColor = 7df2ff
       }
     }
 ]
