@@ -3,9 +3,10 @@ name: Beep
 description: Fires light artillery at enemies. Slow, but has defense and power to make up for it.
 speed: 0.465555
 flying: false
-health: 350
+health: 980
 armor: 5
 hitSize: 4
+range: 128
 weapons: [
     {
       top: true
