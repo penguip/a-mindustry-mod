@@ -1,0 +1,13 @@
+localizedName: Plasm Syringe
+description: Extracts neoplasm from flesh walls.
+type: WallCrafter
+consumes: [
+  power/0.6
+]
+attribute: flesh
+output: neoplasm
+research: yttrium-rig
+requirements: [
+  osmium/130
+  silicon/60
+]
