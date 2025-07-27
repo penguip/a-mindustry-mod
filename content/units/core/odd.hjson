@@ -27,7 +27,7 @@ weapons: [{
   name: odd-weapon
   y: 0
   x: -5
-  reload: 15
+  reload: 30
   shootSound: laser
   inaccuracy: .45
   mirror: true
