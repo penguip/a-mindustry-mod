@@ -4,3 +4,6 @@ author : Me(duh)
 description : "The new Mindustry."
 minGameVersion : 149
 subtitle: "He's here..."
+contentOrder: [
+  flesh
+]
