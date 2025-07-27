@@ -44,4 +44,11 @@ weapons: [
     }
   }
 ]
-research: beep
+research: {
+  parent: beep
+  objectives: [tarnished-fields, {
+    type: OnSector
+    preset: tarnished-fields
+}
+]
+}
