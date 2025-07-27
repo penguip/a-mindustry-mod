@@ -6,8 +6,8 @@ health: 650
 armor: 2
 engineOffset: 5
 engineSize: 2.5
-drag: 0.02
-accel: 0.03
+drag: 0.2
+accel: 0.3
 canBuild: true
 mineWalls: true
 mineFloor: false
@@ -26,7 +26,7 @@ hitSize: 6
 weapons: [{
   name: odd-weapon
   y: 0
-  x: -3
+  x: -5
   reload: 15
   shootSound: laser
   inaccuracy: .45
