@@ -126,5 +126,7 @@ itemWhitelist: [
   "yttrium",
   "osmium",
   "gadolinium",
-  "silicon"
+  "silicon",
+  "flesh",
+  "neoplasm-capsule"
 ]
