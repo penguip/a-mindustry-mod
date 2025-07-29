@@ -127,6 +127,6 @@ itemWhitelist: [
   "osmium",
   "gadolinium",
   "silicon",
-  "flesh",
+  "item-flesh",
   "neoplasm-capsule"
 ]
