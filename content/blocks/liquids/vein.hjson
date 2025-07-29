@@ -1,5 +1,7 @@
 type: Conduit
 category: liquid
+localizedName: Vein
+description: Transports fluids to and from certain locations(as veins tend to do).
 requirements: [
   flesh/2
 ]
