@@ -5,7 +5,7 @@ description: Transports fluids over other infrastructure.
 health: 65
 range: 5
 requirements: [
-  flesh/10
+  item-flesh/10
 ]
 category: liquid
 squareSprite: false
