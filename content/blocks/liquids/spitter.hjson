@@ -1,0 +1,12 @@
+type: LiquidJunction
+localizedName: Spitter
+description: Allows two liquid flows to intersect each other.
+size: 1
+solid: false
+underBullets: true
+category: liquid
+squareSprite: false
+health: 65
+requirements: [
+  flesh/5
+]
