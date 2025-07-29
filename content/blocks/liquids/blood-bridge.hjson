@@ -1,0 +1,9 @@
+type: DirectionLiquidBridge
+size: 1
+health: 65
+range: 5
+requirements: [
+  flesh/10
+]
+category: liquid
+squareSprite: false
