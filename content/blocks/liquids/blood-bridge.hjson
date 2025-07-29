@@ -1,5 +1,7 @@
 type: DirectionLiquidBridge
 size: 1
+localizedName: Blood Bridge
+description: Transports fluids over other infrastructure.
 health: 65
 range: 5
 requirements: [
