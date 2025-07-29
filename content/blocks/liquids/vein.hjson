@@ -1,0 +1,10 @@
+type: Conduit
+category: liquid
+requirements: [
+  flesh/2
+]
+health: 65
+junctionReplacement: spitter
+rotBridgeReplacement: blood-bridge
+underBullets: true
+solid: false
