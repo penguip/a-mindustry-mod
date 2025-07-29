@@ -3,7 +3,7 @@ category: liquid
 localizedName: Vein
 description: Transports fluids to and from certain locations(as veins tend to do).
 requirements: [
-  flesh/2
+  item-flesh/2
 ]
 health: 65
 junctionReplacement: spitter
