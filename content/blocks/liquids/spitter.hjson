@@ -8,5 +8,5 @@ category: liquid
 squareSprite: false
 health: 65
 requirements: [
-  flesh/5
+  item-flesh/5
 ]
