@@ -1,0 +1,25 @@
+type: GenericCrafter
+size: 1
+liquidCapacity: 30
+hasLiquids: true
+health: 1250
+category: crafting
+itemCapacity: 30
+requirements: [
+  flesh/120
+  silicon/50
+]
+craftTime: 120
+outputItems: [
+  yttrium/3
+]
+outputLiquids: [
+  neoplasm/0.6666666667
+]
+consumes: {
+  items: [
+    neoplasm-capsule/1
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
