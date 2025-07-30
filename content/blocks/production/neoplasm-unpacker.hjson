@@ -2,7 +2,9 @@ type: GenericCrafter
 size: 1
 liquidCapacity: 30
 hasLiquids: true
-health: 1250
+localizedName: Neoplasm Unpacking Machine
+description: Opens neoplasm capulses and extracts the fluid. The capsule is dissasembled and outputted as a byproduct.
+health: 250
 category: crafting
 itemCapacity: 30
 requirements: [
