@@ -1,0 +1,28 @@
+type: GenericCrafter
+size: 2
+liquidCapacity: 30
+hasLiquids: true
+localizedName: Neoplasia Splitter
+description: Rips neoplasm apart for the blood inside, outputting the remaining 'skin' as a byproduct(I swear this process is painless!).
+health: 500
+category: crafting
+itemCapacity: 30
+requirements: [
+  yttrium/120
+  osmium/70
+  silicon/50
+]
+craftTime: 120
+outputItems: [
+  dormant-cyst/1
+]
+outputLiquids: [
+  blood/0.33333333333
+]
+consumes: {
+  liquids: [
+    neoplasm/0.9999999999
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
