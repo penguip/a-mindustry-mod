@@ -2,4 +2,4 @@ localizedName: Blood
 description: Used for creating biological units, culling fluid, and for operating flesh turrets and facilities.
 isLiquid: true
 color: ba0000
-viscosity: 0.80
+viscosity: 0.35
