@@ -5,6 +5,7 @@ consumes: [
   power/0.6
 ]
 attribute: flesh
+category: production
 output: neoplasm-capsule
 research: yttrium-rig
 requirements: [
