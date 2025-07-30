@@ -6,7 +6,7 @@ health: 1250
 category: crafting
 itemCapacity: 30
 requirements: [
-  flesh/120
+  item-flesh/120
   silicon/50
 ]
 craftTime: 120
