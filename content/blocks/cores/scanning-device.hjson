@@ -7,7 +7,7 @@ requirements: [
   yttrium/50
 ]
 research: glitch
-consume: [
+consumes: [
  power: 0.25
 ]
 name: Scanning Device
