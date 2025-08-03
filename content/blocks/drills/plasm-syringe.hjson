@@ -1,6 +1,7 @@
 localizedName: Plasm Syringe
 description: Extracts neoplasm from flesh walls, and inserts it into a capsule.
 type: WallCrafter
+hasPower: true
 consumes: [
   power: 0.6
 ]
