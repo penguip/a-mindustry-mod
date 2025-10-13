@@ -7,6 +7,7 @@ requirements: [
   yttrium/50
 ]
 research: glitch
+hasPower: true
 consumes: [
  power: 0.25
 ]
