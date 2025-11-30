@@ -1,3 +1,3 @@
 # Our Hero Industry
 
-Don't belive me.
+Don't believe me.
