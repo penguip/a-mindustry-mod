@@ -1,3 +1,3 @@
-# Our Hero Industry
+# BEEPDUSTRY
 
 Don't believe me.
