@@ -1,11 +1,11 @@
 generator: "PlanetGenerator"
 localizedName: Planetary Abomination
-description: A mysterious world where nothing today is the same tomorrow, and nightmarish anomalies frolic about.
+description: A world of worlds.
 mesh: [
     {
     //normalbiome
     type: NoiseMesh
-    planet: exerio
+    planet: abomination
     divisions: 6
     seed: 67
     radius: 1.152
@@ -19,7 +19,7 @@ mesh: [
     {
     //aquabiome
     type: NoiseMesh
-    planet: exerio
+    planet: abomination
     divisions: 5
     seed: 13
     radius: 1.3
