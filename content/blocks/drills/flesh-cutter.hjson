@@ -4,7 +4,7 @@ description: Shreds flesh into usable chunks. Outputs blood as a byproduct.
 size: 2
 attribute: flesh
 baseEfficiency: 0
-minEfficiency: 1
+minEfficiency: 20
 boostScale: 0.04
 liquidCapacity: 120
 hasLiquids: true
