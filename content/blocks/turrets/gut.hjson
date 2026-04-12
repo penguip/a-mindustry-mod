@@ -19,6 +19,7 @@ shootY: 1
 ammoTypes: {
   osmium: {
     type: BasicBulletType
+    sprite: gut-projectile
     buildingDamageMultiplier: 0.25
     damage: 6
     speed: 10
