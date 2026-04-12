@@ -1,7 +1,7 @@
 type: mech
 name: Beep
 description: Fires light artillery at enemies. Slow, but has armor to make up for it.
-speed: 0.2.87643
+speed: 0.287643
 flying: false
 health: 980
 armor: 5
