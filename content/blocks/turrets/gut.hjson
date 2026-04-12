@@ -30,7 +30,7 @@ ammoTypes: {
     speed: 10
     pierce: true
     pierceCap: 5
-    lifespan: 20
+    lifetime: 20
   }
 }
 research: glitch
