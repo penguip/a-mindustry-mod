@@ -17,14 +17,14 @@ reload: 75
 shoot: {
     type: shootPattern
     shots: 10
-    shotDelay: 50
+    shotDelay: 35
 }
 range: 600
 shootY: 1
 ammoTypes: {
-  osmium: {
+  calcium: {
     type: BasicBulletType
-    sprite: gut-projectile
+    sprite: daf-gut-projectile
     buildingDamageMultiplier: 0.25
     damage: 6
     speed: 10
