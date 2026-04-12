@@ -27,7 +27,7 @@ ammoTypes: {
     type: BasicBulletType
     sprite: daf-gut-projectile
     buildingDamageMultiplier: 0.25
-    damage: 3
+    damage: 10
     speed: 10
     pierce: true
     pierceCap: 5
