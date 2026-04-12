@@ -31,7 +31,6 @@ ammoTypes: {
     peirce: true
     peirceCap: 5
     lifespan: 60
-    ]
   }
 }
 research: glitch
