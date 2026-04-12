@@ -13,13 +13,13 @@ recoil: 3
 targetAir: false
 targetGround: true
 rotateSpeed: 1.5
-reload: 75
+reload: 120
 shoot: {
     type: shootPattern
     shots: 15
-    shotDelay: 10
+    shotDelay: 60
 }
-range: 250
+range: 275
 shootY: 1
 ammoTypes: {
   calcium: {
