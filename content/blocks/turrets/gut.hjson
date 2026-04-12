@@ -19,7 +19,7 @@ shoot: {
     shots: 15
     shotDelay: 45
 }
-range: 350
+range: 200
 shootY: 1
 ammoTypes: {
   calcium: {
@@ -28,9 +28,9 @@ ammoTypes: {
     buildingDamageMultiplier: 0.25
     damage: 3
     speed: 10
-    peirce: true
-    peirceCap: 5
-    lifespan: 60
+    pierce: true
+    pierceCap: 5
+    lifespan: 20
   }
 }
 research: glitch
