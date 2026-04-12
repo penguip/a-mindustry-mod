@@ -17,7 +17,7 @@ reload: 120
 shoot: {
     type: shootPattern
     shots: 15
-    shotDelay: 25
+    shotDelay: 15
 }
 range: 200
 shootY: 1
