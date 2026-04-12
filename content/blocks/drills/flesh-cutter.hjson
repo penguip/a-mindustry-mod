@@ -5,7 +5,7 @@ size: 2
 attribute: flesh
 baseEfficiency: 0
 minEfficiency: 20
-boostScale: 0.1
+boostScale: 0.25
 liquidCapacity: 120
 hasLiquids: true
 health: 650
