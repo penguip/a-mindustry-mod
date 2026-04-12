@@ -1,7 +1,7 @@
 localizedName: First Impressions
-description: The Void has setup a small mining operation here. A perfect place to start our get-back. Mine yttrium and osmium. Research and build a beep unit. Take down the operation.
+description: The Void has setup a small mining operation here. A perfect place to start our conquest of our most disastrous discovery. Mine yttrium and osmium. Research and build a beep unit. Take down the operation.
 sector: 0
-planet: exerio
+planet: abomination
 research: glitch
 alwaysUnlocked: true
 overrideLaunchDefaults: true
