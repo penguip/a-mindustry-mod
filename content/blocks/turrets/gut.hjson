@@ -13,7 +13,7 @@ category: turret
 recoil: 3
 targetAir: false
 targetGround: true
-rotateSpeed: 1.5
+rotateSpeed: 5.764
 reload: 98
 shoot: {
     type: shootPattern
