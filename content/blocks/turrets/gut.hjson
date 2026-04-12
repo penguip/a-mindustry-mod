@@ -1,6 +1,6 @@
 type: ItemTurret
 size: 1
-health: 120
+health: 350
 localizedName: Gut
 description: Using calcium, fires bony spikes that peirce enemies. Starts firing slowly but eventually fires very fast.
 shootSound: shootCyclone
@@ -14,6 +14,11 @@ targetAir: false
 targetGround: true
 rotateSpeed: 1.5
 reload: 75
+shoot: {
+    type: shootPattern
+    shots: 10
+    shotDelay: 50
+}
 range: 600
 shootY: 1
 ammoTypes: {
