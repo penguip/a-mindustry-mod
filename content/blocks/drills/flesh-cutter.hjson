@@ -1,0 +1,25 @@
+type: AttributeCrafter
+localizedName: Flesh Cutter
+description: Shreds flesh into usable chunks. Outputs blood as a byproduct.
+size: 2
+attribute: flesh
+baseEfficiency: 0
+minEfficiency: 1
+boostScale: 0.04
+liquidCapacity: 120
+hasLiquids: true
+health: 650
+category: production
+itemCapacity: 30
+requirements: [
+  calcium/140
+  silicon/250
+]
+craftTime: 240
+craftEffect: none
+outputLiquids: [
+  blood/0.11111111
+]
+outputItems: [
+  item-flesh/3
+]
