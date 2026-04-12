@@ -17,9 +17,9 @@ reload: 120
 shoot: {
     type: shootPattern
     shots: 15
-    shotDelay: 60
+    shotDelay: 45
 }
-range: 275
+range: 350
 shootY: 1
 ammoTypes: {
   calcium: {
