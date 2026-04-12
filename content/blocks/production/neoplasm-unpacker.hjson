@@ -6,6 +6,7 @@ localizedName: Neoplasm Unpacking Machine
 description: Opens neoplasm capulses and extracts the fluid. The capsule is dissasembled and outputted as a byproduct.
 health: 250
 category: crafting
+research: plasm-syringe
 itemCapacity: 30
 requirements: [
   item-flesh/120
