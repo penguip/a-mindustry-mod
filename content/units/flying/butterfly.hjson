@@ -18,6 +18,7 @@ weapons: [
       mirror: false
       shootSound: shootDiffuse
       shootCone: 20
+      shootSpread: 15
       bullet: {
         type: BasicBulletType
         speed: 5
