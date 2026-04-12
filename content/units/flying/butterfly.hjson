@@ -1,7 +1,7 @@
 type: flying
 name: Beep
 description: Fires a burst of weak bullets at enemies in a wide cone.
-speed: 0.36557
+speed: 2.675
 flying: false
 health: 980
 armor: 5
