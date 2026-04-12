@@ -17,16 +17,16 @@ reload: 75
 shoot: {
     type: shootPattern
     shots: 15
-    shotDelay: 25
+    shotDelay: 10
 }
-range: 300
+range: 250
 shootY: 1
 ammoTypes: {
   calcium: {
     type: BasicBulletType
     sprite: daf-gut-projectile
     buildingDamageMultiplier: 0.25
-    damage: 6
+    damage: 3
     speed: 10
     peirce: true
     peirceCap: 5
