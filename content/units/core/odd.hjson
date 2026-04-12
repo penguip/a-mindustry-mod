@@ -40,6 +40,7 @@ weapons: [{
     length: 280
     width: 10
     lifetime: 30
+    pierceBuildings: false
     colors: [
       ff0000
       000000
