@@ -28,6 +28,8 @@ ammoTypes: {
     buildingDamageMultiplier: 0.25
     damage: 6
     speed: 10
+    peirce: true
+    peirceCap: 5
     lifespan: 60
     ]
   }
