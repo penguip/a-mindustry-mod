@@ -17,8 +17,11 @@ weapons: [
       reload: 100
       mirror: false
       shootSound: shootDiffuse
-      shootCone: 20
-      shootSpread: 15
+      shoot: {
+        type: ShootSpread
+        shots: 20
+        spread: 5
+      }
       bullet: {
         type: BasicBulletType
         speed: 5
