@@ -1,5 +1,5 @@
 type: flying
-name: Beep
+name: Butterfly
 description: Fires a burst of weak bullets at enemies in a wide cone.
 speed: 2.675
 flying: true
