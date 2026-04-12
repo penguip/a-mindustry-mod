@@ -2,7 +2,7 @@ type: ItemTurret
 size: 1
 health: 350
 localizedName: Gut
-description: Using calcium, fires bony spikes that peirce enemies. Starts firing slowly but eventually fires very fast.
+description: Using calcium, fires bony spikes that peirce ground targets. Starts firing slowly but eventually fires very fast.
 shootSound: shootCyclone
 requirements: [
   item-flesh/35
@@ -17,7 +17,7 @@ reload: 120
 shoot: {
     type: shootPattern
     shots: 15
-    shotDelay: 45
+    shotDelay: 25
 }
 range: 200
 shootY: 1
