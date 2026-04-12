@@ -16,7 +16,9 @@ weapons: [
       recoil: 0.4
       reload: 100
       mirror: false
-      shootSound: shootDisperse
+      shootSound: shootDiffuse
+      shoot: {
+       shootType: ShootCone
       bullet: {
         type: BasicBulletType
         speed: 5
