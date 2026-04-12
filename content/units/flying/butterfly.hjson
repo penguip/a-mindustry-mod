@@ -26,11 +26,11 @@ weapons: [
         type: BasicBulletType
         speed: 5
         lifetime: 46
-        damage: 10
-        width: 28
-        height: 34
-        backColor: 00e6ff
-        frontColor: 7df2ff
+        damage: 14
+        width: 16
+        height: 10
+        backColor: 000000
+        frontColor: ff00ff
       }
     }
 ]
