@@ -13,11 +13,11 @@ recoil: 3
 targetAir: false
 targetGround: true
 rotateSpeed: 1.5
-reload: 120
+reload: 98
 shoot: {
     type: shootPattern
     shots: 15
-    shotDelay: 15
+    shotDelay: 47
 }
 range: 200
 shootY: 1
