@@ -29,7 +29,7 @@ weapons: [
         damage: 14
         width: 16
         height: 10
-        backColor: 000000
+        backColor: cf00bd
         frontColor: ff00ff
       }
     }
