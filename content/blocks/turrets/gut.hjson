@@ -5,6 +5,7 @@ localizedName: Gut
 description: Using calcium, fires bony spikes that peirce ground targets. Starts firing slowly but eventually fires very fast.
 shootSound: shootCyclone
 requirements: [
+  dormant-cyst/25
   item-flesh/35
   calcium/10
 ]
@@ -35,6 +36,7 @@ ammoTypes: {
 }
 research: glitch
 researchCost: [
+  dormant-cyst/350
   item-flesh/450
   calcium/140
 ]
