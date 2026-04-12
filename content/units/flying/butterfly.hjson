@@ -19,7 +19,8 @@ weapons: [
       shootSound: shootDiffuse
       shoot: {
         type: ShootCone
-        spread: 2
+        shots: 20
+        spread: 15
       }
       bullet: {
         type: BasicBulletType
