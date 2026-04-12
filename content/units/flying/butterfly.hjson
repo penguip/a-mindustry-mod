@@ -20,15 +20,15 @@ weapons: [
       shoot: {
         type: ShootCone
         shots: 20
-        spread: 85
+        shootSpread: 25
       }
       bullet: {
         type: BasicBulletType
         speed: 5
         lifetime: 46
         damage: 14
-        width: 2.4
-        height: 1.6
+        width: 7.65
+        height: 6.43
         backColor: cf00bd
         frontColor: ff00ff
       }
