@@ -16,10 +16,10 @@ rotateSpeed: 1.5
 reload: 75
 shoot: {
     type: shootPattern
-    shots: 10
-    shotDelay: 35
+    shots: 15
+    shotDelay: 25
 }
-range: 600
+range: 300
 shootY: 1
 ammoTypes: {
   calcium: {
