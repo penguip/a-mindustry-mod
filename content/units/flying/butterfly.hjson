@@ -2,9 +2,9 @@ type: flying
 name: Beep
 description: Fires a burst of weak bullets at enemies in a wide cone.
 speed: 2.675
-flying: false
-health: 980
-armor: 5
+flying: true
+health: 1250
+armor: 6
 hitSize: 5
 range: 230
 weapons: [
@@ -14,7 +14,7 @@ weapons: [
       x:0
       y:0
       recoil: 0.4
-      reload: 100
+      reload: 60
       mirror: false
       shootSound: shootDiffuse
       shoot: {
@@ -26,7 +26,7 @@ weapons: [
         type: BasicBulletType
         speed: 5
         lifetime: 46
-        damage: 14
+        damage: 18
         width: 7.65
         height: 6.43
         backColor: cf00bd
