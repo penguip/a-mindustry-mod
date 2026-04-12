@@ -18,7 +18,7 @@ alwaysUnlocked: true
 itemCapacity: 5000
 unitCapModifier: 10
 research: {
-  planet: exerio
+  planet: abomination
   root: true
   name: Exerio
   requiresUnlock: false
