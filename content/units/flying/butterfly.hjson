@@ -1,1 +1,31 @@
-
+type: flying
+name: Beep
+description: Fires a burst of weak bullets at enemies in a wide cone.
+speed: 0.36557
+flying: false
+health: 980
+armor: 5
+hitSize: 5
+range: 230
+weapons: [
+    {
+      top: true
+      name: butterfly-weapon
+      x:0
+      y:0
+      recoil: 0.4
+      reload: 100
+      mirror: false
+      shootSound: shootDisperse
+      bullet: {
+        type: BasicBulletType
+        speed: 5
+        lifetime: 46
+        damage: 10
+        width: 28
+        height: 34
+        backColor: 00e6ff
+        frontColor: 7df2ff
+      }
+    }
+]
