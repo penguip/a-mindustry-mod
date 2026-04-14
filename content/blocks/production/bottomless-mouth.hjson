@@ -1,0 +1,16 @@
+type: ItemIncinerator
+size: 1
+health: 100
+squareSprite: false
+consumes: {
+  liquids: [
+    blood/0.1111111111111
+  ]
+}
+category: production
+localizedName: Bottomless Mouth
+description: Infinitely eats items and drinks fluids. Requires some blood to give it consciousness.
+requirements: [
+  flesh/10
+  calcium/40
+]
