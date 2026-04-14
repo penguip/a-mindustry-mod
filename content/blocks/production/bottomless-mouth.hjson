@@ -7,10 +7,10 @@ consumes: {
     blood/0.1111111111111
   ]
 }
-category: production
+category: crafting
 localizedName: Bottomless Mouth
 description: Infinitely eats items and drinks fluids. Requires some blood to give it consciousness.
 requirements: [
-  flesh/10
+  item-flesh/10
   calcium/40
 ]
