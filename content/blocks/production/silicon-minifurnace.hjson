@@ -12,14 +12,14 @@ requirements: [
 craftTime: 100
 craftEffect: none
 outputItems: [
-  silicon/1
+  silicon/3
 ]
 consumes: {
   items: [
     yttrium/2
     gadolinium/1
   ]
-  power: 1
+  power: 0.64
 }
 ambientSound: smelter
 ambientSoundVolume: 0.6
