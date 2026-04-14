@@ -1,7 +1,7 @@
 type: Conduit
 category: liquid
-localizedName: Vein
-description: Transports fluids to and from certain locations(as veins tend to do).
+localizedName: Artery
+description: Transports fluids to and from certain locations(as arteries tend to do).
 requirements: [
   item-flesh/2
 ]
@@ -11,3 +11,4 @@ rotBridgeReplacement: blood-bridge
 underBullets: true
 solid: false
 leaks: false
+research: glitch
