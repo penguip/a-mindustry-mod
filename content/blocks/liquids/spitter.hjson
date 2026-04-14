@@ -10,3 +10,4 @@ health: 65
 requirements: [
   item-flesh/5
 ]
+research: vein
