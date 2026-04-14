@@ -5,7 +5,7 @@ health: 450
 range: 5
 tier: 1
 size: 1
-drillTime: 120
+drillTime: 156
 ambientSound: drill
 ambientSoundVolume: 0.08
 hasLiquids: true
