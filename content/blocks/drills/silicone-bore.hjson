@@ -15,8 +15,11 @@ consumes: {
 category: production
 research: glitch
 researchCost: [
-  yttrium/10
+  silicon/340
+  gadolinium/120
 ]
 requirements: [
-  yttrium/60
+  silicon/120
+  gadolinium/75
+  osmium/90
 ]
