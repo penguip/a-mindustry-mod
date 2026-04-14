@@ -8,7 +8,7 @@ research: glitch
 requirements: [
   yttrium/10
 ]
-powerProduction: 5
+powerProduction: 0.47
 generateEffect: none
 researchCost: [
   yttrium/35
