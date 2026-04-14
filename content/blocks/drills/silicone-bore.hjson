@@ -1,0 +1,22 @@
+localizedName: "Silicone Bore"
+description: "Mines wall ores. Requires more power than an Etho Bore, but mines faster, and can mine calcium and tungsten."
+type: beamDrill
+health: 450
+range: 5
+tier: 2
+size: 2
+drillTime: 95
+ambientSound: drill
+ambientSoundVolume: 0.08
+hasLiquids: true
+consumes: {
+  power: 0.85
+}
+category: production
+research: glitch
+researchCost: [
+  yttrium/10
+]
+requirements: [
+  yttrium/60
+]
