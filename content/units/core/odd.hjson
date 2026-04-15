@@ -27,7 +27,7 @@ weapons: [{
   name: odd-weapon
   y: 0
   x: -5
-  reload: 30
+  reload: 20
   shootSound: shootLancer
   inaccuracy: 5
   mirror: true
@@ -36,7 +36,7 @@ weapons: [{
   rotationLimit: 180
   bullet: {
     type: LaserBulletType
-    damage: 15
+    damage: 5
     length: 280
     width: 10
     lifetime: 30
