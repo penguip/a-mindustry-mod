@@ -6,9 +6,9 @@ overrideLaunchDefaults: true
 difficulty: 2
 research: {
   parent: first-impressions
-  objectives: [first-impressions, {
+  objectives: [tarnished-fields, {
     type: SectorComplete
-    preset: first-impressions
+    preset: tarnished-fields
   }
   ]
 }
