@@ -11,6 +11,6 @@ consumes: {
 ]
 }
 requirements: [
-  flesh/35
+  item-flesh/35
   calcium/10
 ]
