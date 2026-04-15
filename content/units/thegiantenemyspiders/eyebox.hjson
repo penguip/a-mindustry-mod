@@ -4,6 +4,8 @@ legLength: 8
 legSpeed: 0.23
 legForwardScl: 0.56
 legMoveSpace: 0.9
+legSplashDamage: 4
+legSplashRange: 3
 hovering: true
 groundLayer: 60
 name: Eyebox
