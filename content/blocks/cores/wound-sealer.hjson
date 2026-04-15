@@ -7,7 +7,7 @@ range: 137
 baseColor: ff0000
 consumes: {
   liquids: [
-    blood/0.75
+    blood/0.2134124
 ]
 }
 requirements: [
