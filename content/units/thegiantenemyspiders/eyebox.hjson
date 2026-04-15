@@ -35,10 +35,11 @@ weapons: [
       length: 95
       width: 10
       drawFlare: false
-      damageInterval: 10
-      damage: 56
+      damageInterval: 9.23
+      damage: 48
       pierceArmor: true
-      pierceCap: 3
+      pierceCap: 7
+      pierce: true
       hitEffect: none
       despawnEffect: none
     }
