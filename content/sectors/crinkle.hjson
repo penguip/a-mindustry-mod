@@ -5,7 +5,7 @@ planet: abomination
 overrideLaunchDefaults: true
 difficulty: 2
 research: {
-  parent: first-impressions
+  parent: tarnished-fields
   objectives: [tarnished-fields, {
     type: SectorComplete
     preset: tarnished-fields
