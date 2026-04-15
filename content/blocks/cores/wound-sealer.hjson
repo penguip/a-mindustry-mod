@@ -10,3 +10,7 @@ consumes: {
     blood/0.75
 ]
 }
+requirements: [
+  flesh/35
+  calcium/10
+]
