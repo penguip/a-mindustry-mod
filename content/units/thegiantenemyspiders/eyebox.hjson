@@ -35,7 +35,6 @@ weapons: [
       length: 95
       width: 10
       status: burning
-      drawFlare: false
       damageInterval: 1
       damage: 14
       pierceArmor: true
