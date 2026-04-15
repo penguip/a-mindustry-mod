@@ -11,7 +11,7 @@ requirements: [
 ]
 category: turret
 recoil: 3
-inaccuracy: 12
+inaccuracy: 3
 targetAir: false
 targetGround: true
 rotateSpeed: 5.764
