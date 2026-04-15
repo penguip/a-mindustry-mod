@@ -5,8 +5,8 @@ reload: 75
 healPercent: 10
 range: 137
 baseColor: ff0000
-consumes: [
+consumes: {
   liquids: [
     blood/0.75
 ]
-]
+}
