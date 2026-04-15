@@ -28,15 +28,15 @@ weapons: [{
   y: 0
   x: -5
   reload: 200
-  shootSound: laser
-  inaccuracy: .45
+  shootSound: shootLancer
+  inaccuracy: 5
   mirror: true
   shootCone: 180
   useAttackRange: true
   rotationLimit: 180
   bullet: {
     type: LaserBulletType
-    damage: 60
+    damage: 30
     length: 280
     width: 10
     lifetime: 30
