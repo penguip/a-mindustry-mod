@@ -1,0 +1,35 @@
+type: UnitFactory
+size: 2
+health: 450
+localizedName: Flying Station
+description: Builds Butterflies and Moths.
+configurable: true
+requirements: [
+  yttrium/30
+  osmium/25
+  silicon/20
+]
+category: units
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: butterfly
+    requirements: [
+      yttrium/40
+      osmium/30
+      silicon/40
+    ]
+    time: 2100
+  }
+]
+consumes: {
+  power: 3
+}
+research: {
+  parent: mech-station
+  objectives: [crinkle, {
+    type: OnSector
+    preset: crinkle
+}
+]
+}
