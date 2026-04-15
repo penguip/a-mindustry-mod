@@ -34,9 +34,10 @@ weapons: [
       colors: [00c5db, 00e6ff, 7df2ff, 9cf5ff, ffffff]
       length: 95
       width: 10
+      status: burning
       drawFlare: false
-      damageInterval: 9.23
-      damage: 48
+      damageInterval: 1
+      damage: 14
       pierceArmor: true
       pierceCap: 7
       pierce: true
