@@ -1,0 +1,14 @@
+localizedName: Crinkle
+description: This sector is one of many that has skeletons of an unspecified species of homnid, believed to be giants. The Void has a small yet harmless outpost here that is fortified by living turrets. Gather flesh and bone, but be wary that the Void still knows you're here.
+sector: 129
+planet: abomination
+overrideLaunchDefaults: true
+difficulty: 2
+research: {
+  parent: first-impressions
+  objectives: [first-impressions, {
+    type: SectorComplete
+    preset: first-impressions
+  }
+  ]
+}
