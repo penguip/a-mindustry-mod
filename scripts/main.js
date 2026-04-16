@@ -28,6 +28,5 @@ Events.run(ClientLoadEvent, () => {
   // Application of methods
   let abomination = moddedPlanet("daf-abomination");
    addNode(Items.silicon, moddedItem("daf-gadolinium"));
-   addNode(Items.dormant-cyst, moddedItem("daf-item-flesh"));
-   addNode(Liquids.neoplasm, moddedItem("daf-glitch"));//Water will branch off of the item, if you want an item, like sand, use Items.sand
+   //Water will branch off of the item, if you want an item, like sand, use Items.sand
 });
