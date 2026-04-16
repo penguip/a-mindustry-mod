@@ -18,10 +18,10 @@ requirements: [
 craftTime: 240
 craftEffect: none
 outputLiquids: [
-  blood/0.11111111
+  blood/0.05743
 ]
 outputItems: [
-  item-flesh/3
+  item-flesh/5
 ]
 researchCost: [
   calcium/420
