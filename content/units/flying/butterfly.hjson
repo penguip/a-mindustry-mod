@@ -36,3 +36,7 @@ weapons: [
 ]
 research: flying-station
 researchCost: [
+  yttruim/240
+  osmium/180
+  silicon/240
+]
