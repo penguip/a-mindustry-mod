@@ -56,3 +56,9 @@ research: {
 }
 ]
 }
+researchCost: [
+  yttrium/430
+  osmium/230
+  gadolinium/320
+  silicon/175
+]
