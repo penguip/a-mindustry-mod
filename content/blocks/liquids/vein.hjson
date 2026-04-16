@@ -12,3 +12,6 @@ underBullets: true
 solid: false
 leaks: false
 research: glitch
+researchCost: [
+  item-flesh/15
+]
