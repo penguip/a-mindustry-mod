@@ -24,7 +24,7 @@ outputItems: [
   item-flesh/3
 ]
 researchCost: [
-  bone/420
+  calcium/420
   silicon/590
 ]
 research: silicone-bore
