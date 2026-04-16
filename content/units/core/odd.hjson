@@ -37,7 +37,7 @@ weapons: [{
   bullet: {
     type: LaserBulletType
     damage: 3
-    length: 280
+    length: 45
     width: 10
     lifetime: 30
     pierceBuildings: false
