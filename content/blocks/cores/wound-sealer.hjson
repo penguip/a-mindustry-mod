@@ -18,7 +18,6 @@ requirements: [
 ]
 research: research: {
   parent: entropanel
-  objectives: [blood, {
-}
+  objectives: [blood, 
 ]
 }
