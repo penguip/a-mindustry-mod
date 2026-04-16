@@ -16,7 +16,7 @@ requirements: [
   item-flesh/35
   calcium/10
 ]
-research: research: {
+research: {
   parent: entropanel
   objectives: [blood, 
 ]
