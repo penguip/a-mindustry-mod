@@ -34,3 +34,5 @@ weapons: [
       }
     }
 ]
+research: flying-station
+researchCost: [
