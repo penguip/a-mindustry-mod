@@ -34,3 +34,7 @@ weapons: [
     }
 ]
 research: mech-station
+researchCost: [
+  yttrium/100
+  osmium/85
+]
