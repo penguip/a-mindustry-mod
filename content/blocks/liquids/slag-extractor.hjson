@@ -2,7 +2,7 @@ type: AttributeCrafter
 localizedName: Slag Extractor
 description: Extracts slag from deep underground. Requires being placed on slag exposed through cracks in the earth to function, using said slag to kickstart the process.
 size: 3
-attribute: slag
+attribute: heat
 baseEfficiency: 0
 minEfficiency: 0.2
 boostScale: 0.33333333
