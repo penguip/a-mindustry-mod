@@ -9,7 +9,7 @@ boostScale: 0.33333333
 liquidCapacity: 120
 hasLiquids: true
 health: 650
-category: production
+category: liquids
 itemCapacity: 30
 requirements: [
   gadolinium/140
