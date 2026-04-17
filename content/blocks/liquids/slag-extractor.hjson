@@ -1,6 +1,6 @@
 type: AttributeCrafter
 localizedName: Slag Extractor
-description: Extracts slag from deep underground. Requires being placed on slag exposed through cracks in the earth to function, using said slag to kickstart the process.
+description: Extracts slag from deep underground. Requires geothermal hotspots or slag pools to function.
 size: 3
 attribute: heat
 baseEfficiency: 0
@@ -17,7 +17,7 @@ requirements: [
   yttrium/130
 ]
 outputLiquids: [
-  slag/2.5
+  slag/0.66666667
 ]
 drawer: {
 	    type: DrawMulti
