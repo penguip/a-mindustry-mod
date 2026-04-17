@@ -1,3 +1,23 @@
+type: AttributeCrafter
+localizedName: Slag Extractor
+description: Extracts slag from deep underground. Requires being placed on slag exposed through cracks in the earth to function, using said slag to kickstart the process.
+size: 3
+attribute: slag
+baseEfficiency: 0
+minEfficiency: 0.2
+boostScale: 0.33333333
+liquidCapacity: 120
+hasLiquids: true
+health: 650
+category: production
+itemCapacity: 30
+requirements: [
+  gadolinium/140
+  silicon/250
+]
+outputLiquids: [
+  slag/2.5
+]
 drawer: {
 	    type: DrawMulti
 	    drawers : [
