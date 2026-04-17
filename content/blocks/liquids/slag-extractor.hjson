@@ -13,7 +13,8 @@ category: production
 itemCapacity: 30
 requirements: [
   gadolinium/140
-  silicon/250
+  silicon/85
+  yttrium/130
 ]
 outputLiquids: [
   slag/2.5
