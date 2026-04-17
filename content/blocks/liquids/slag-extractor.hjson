@@ -22,6 +22,24 @@ outputLiquids: [
 drawer: {
 	    type: DrawMulti
 	    drawers : [
+                    {
+                      type : DrawRegion
+                      suffix : "-bottom"
+                    },
+                    {
+                      type: DrawLiquidTile
+                      drawLiquid: slag
+                      padding: 3
+                    },
+                    {
+                      type: DrawBubbles
+                      color: edc787
+                      sides: 10
+                      recurrence: 3
+                      spread: 8
+                      radius: 1.8
+                      amount: 26
+                    },
 	            	{
 	            	  type : DrawBlurSpin
 	            	  suffix : "-rotator"
