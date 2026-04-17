@@ -1,0 +1,29 @@
+type: LiquidTurret
+size: 2
+health: 740
+localizedName: Slinter
+description: Fires liquid, fragmentary flak at air targets. The first frag has homing properties and frags a second time.
+shootSound: laser
+requirements: [
+  yttrium/100
+  osmium/75
+]
+category: turret
+recoil: 3
+targetAir: true
+targetGround: true
+rotateSpeed: 1.5
+reload: 100
+range: 208
+shootY: 3
+ammoTypes: {
+  slag: {
+    type: BasicBulletType
+    buildingDamageMultiplier: 0.25
+    damage: 15
+    length: 35
+    status: melting
+    width: 25
+    color: 
+  }
+}
