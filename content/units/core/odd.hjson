@@ -37,7 +37,7 @@ weapons: [{
   bullet: {
     type: LaserBulletType
     damage: 20
-    buildingDamageMultiplier: 0.99
+    buildingDamageMultiplier: 0.01
     length: 45
     width: 10
     lifetime: 30
