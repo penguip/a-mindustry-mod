@@ -36,7 +36,8 @@ weapons: [{
   rotationLimit: 180
   bullet: {
     type: LaserBulletType
-    damage: 3
+    damage: 20
+    buildingDamageMultiplier: 0.99
     length: 45
     width: 10
     lifetime: 30
