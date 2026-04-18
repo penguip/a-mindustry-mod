@@ -26,7 +26,7 @@ ammoTypes: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     damage: 15
-    length: 35
+    length: 15
     status: melting
     width: 25
     speed: 1.23
@@ -68,9 +68,9 @@ ammoTypes: {
         frontColor: ffa166
         damage: 3
         status: melting
-        length: 15
+        length: 5
         collidesGround: false
-        width: 10
+        width: 5
         speed: 0.86
         lifetime: 25
       }
