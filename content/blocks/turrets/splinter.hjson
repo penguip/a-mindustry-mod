@@ -77,3 +77,33 @@ ammoTypes: {
     }
   }
 }
+drawer: {
+		type: DrawTurret
+     		basePrefix: base
+		parts : [
+    			{
+      			type : RegionPart
+      			suffix : "-barrel-r"
+      			progress : recoil
+      			mirror : false
+      			under : true
+			    recoilIndex: 1
+      			moveX : 0
+			    moveY : -2
+      			moveRot : 0
+    			},
+    			{
+      			type : RegionPart
+      			suffix : -barrel-l"
+      			progress : recoil
+      			heatProgress : recoil
+      			heatColor : "ffffff"
+      			mirror : false
+      			under : true
+			    recoilIndex: 0
+      			moveX : 0
+			    moveY : -2
+      			moveRot : 0
+    			},
+		]
+	}
