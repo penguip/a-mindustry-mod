@@ -3,7 +3,7 @@ size: 1
 health: 120
 localizedName: Embargo
 description: Superheats osmium and fires a laser.
-shootSound: laser
+shootSound: shootLancer
 requirements: [
   yttrium/100
   osmium/75
