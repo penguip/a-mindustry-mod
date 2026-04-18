@@ -27,6 +27,46 @@ ammoTypes: {
     speed: 1.23
     lifetime: 480
     collidesGround: false
-    color: ffa166
+    frontColor: ffa166
+    homingPower: 0.21
+    homingRange: 35
+    fragOnHit: true
+    fragVelocityMin: 2
+    fragVelocityMax: 2
+    fragBullets: 7
+    fragSpread: 0
+    fragRandomSpread: 360
+    fragAngle: 0
+    fragBullet: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 0.25
+      frontColor: ffa166
+      damage: 6
+      status: melting
+      length: 15
+      collidesGround: false
+      width: 10
+      speed: 0.86
+      lifetime: 45
+      homingPower: 0.34
+      homingRange: 39
+      fragOnHit: true
+      fragVelocityMin: 2
+      fragVelocityMax: 2
+      fragBullets: 20
+      fragSpread: 0
+      fragRandomSpread: 360
+      fragAngle: 0
+      fragBullet: {
+        type: BasicBulletType
+        buildingDamageMultiplier: 0.25
+        frontColor: ffa166
+        damage: 3
+        status: melting
+        length: 15
+        collidesGround: false
+        width: 10
+        speed: 0.86
+        lifetime: 25
   }
 }
