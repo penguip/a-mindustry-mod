@@ -94,7 +94,7 @@ drawer: {
     			},
     			{
       			type : RegionPart
-      			suffix : -barrel-l"
+      			suffix : "-barrel-l"
       			progress : recoil
       			heatProgress : recoil
       			heatColor : "ffffff"
