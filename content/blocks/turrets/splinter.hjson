@@ -16,6 +16,11 @@ rotateSpeed: 1.5
 reload: 100
 range: 590.4
 shootY: 3
+shoot: {
+		type: shootAlternate
+    barrels: 2
+		x: 2
+	}
 ammoTypes: {
   slag: {
     type: BasicBulletType
