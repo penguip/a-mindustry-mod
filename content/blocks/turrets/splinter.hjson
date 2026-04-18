@@ -68,5 +68,7 @@ ammoTypes: {
         width: 10
         speed: 0.86
         lifetime: 25
+      }
+    }
   }
 }
