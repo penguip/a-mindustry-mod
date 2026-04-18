@@ -18,7 +18,7 @@ range: 590.4
 shootY: 3
 shoot: {
 		type: shootAlternate
-    barrels: 2
+        barrels: 2
 		x: 2
 	}
 ammoTypes: {
@@ -28,7 +28,7 @@ ammoTypes: {
     damage: 15
     length: 15
     status: melting
-    width: 25
+    width: 5
     speed: 3.234
     lifetime: 182.56
     collidesGround: false
@@ -48,9 +48,9 @@ ammoTypes: {
       frontColor: ffa166
       damage: 6
       status: melting
-      length: 15
+      length: 10
       collidesGround: false
-      width: 10
+      width: 5
       speed: 0.86
       lifetime: 45
       homingPower: 0.34
@@ -100,7 +100,7 @@ drawer: {
       			heatColor : "ffffff"
       			mirror : false
       			under : true
-			    recoilIndex: 0
+			    recoilIndex: 2
       			moveX : 0
 			    moveY : -2
       			moveRot : 0
