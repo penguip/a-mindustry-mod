@@ -46,7 +46,7 @@ ammoTypes: {
       type: BasicBulletType
       buildingDamageMultiplier: 0.25
       frontColor: ffa166
-      damage: 6
+      damage: 10
       status: melting
       length: 10
       collidesGround: false
@@ -87,7 +87,7 @@ drawer: {
       			progress : recoil
       			mirror : false
       			under : true
-			    recoilIndex: 0
+			    recoilIndex: 1
       			moveX : 0
 			    moveY : -2
       			moveRot : 0
@@ -100,7 +100,7 @@ drawer: {
       			heatColor : "ffffff"
       			mirror : false
       			under : true
-			    recoilIndex: 1
+			    recoilIndex: 2
       			moveX : 0
 			    moveY : -2
       			moveRot : 0
