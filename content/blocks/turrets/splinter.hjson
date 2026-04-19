@@ -13,7 +13,7 @@ shootSound: shootFuse
 targetAir: true
 targetGround: false
 rotateSpeed: 1.5
-reload: 100
+reload: 30
 range: 590.4
 shootY: 3
 shoot: {
@@ -96,11 +96,9 @@ drawer: {
       			type : RegionPart
       			suffix : "-barrel-l"
       			progress : recoil
-      			heatProgress : recoil
-      			heatColor : "ffffff"
       			mirror : false
       			under : true
-			    recoilIndex: 2
+			    recoilIndex: 0
       			moveX : 0
 			    moveY : -2
       			moveRot : 0
