@@ -9,6 +9,7 @@ requirements: [
 ]
 category: turret
 recoil: 3
+recoils: 2
 shootSound: shootFuse
 targetAir: true
 targetGround: false
