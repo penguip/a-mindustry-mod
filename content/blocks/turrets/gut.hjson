@@ -26,7 +26,7 @@ shootY: 1
 ammoTypes: {
   calcium: {
     type: BasicBulletType
-    sprite: daf-gut-projectile
+    sprite: beepdustry-gut-projectile
     buildingDamageMultiplier: 0.25
     damage: 27
     speed: 10
