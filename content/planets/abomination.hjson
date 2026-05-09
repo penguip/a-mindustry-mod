@@ -106,7 +106,7 @@ bloom: false
 
 clearSectorOnLose: true
 prebuildBase: false
-defaultCore: glitch
+defaultCore: core-glitch
 parent: sun
 solarSystem: sun
 tidalLock: false
