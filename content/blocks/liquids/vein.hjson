@@ -11,7 +11,7 @@ rotBridgeReplacement: blood-bridge
 underBullets: true
 solid: false
 leaks: false
-research: glitch
+research: core-glitch
 researchCost: [
   item-flesh/15
 ]
