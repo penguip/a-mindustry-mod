@@ -13,7 +13,7 @@ consumes: {
   power: 0.25
 }
 category: production
-research: glitch
+research: core-glitch
 researchCost: [
   yttrium/10
 ]
