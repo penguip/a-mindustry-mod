@@ -2,9 +2,9 @@ type: SolarGenerator
 size: 1
 health: 100
 localizedName: Entropanel
-description: Generates power off of Exerio's anomalous atmosphere.
+description: Generates power off of Keisuris' anomalous atmosphere.
 category: power
-research: glitch
+research: core-glitch
 requirements: [
   yttrium/10
 ]
