@@ -21,7 +21,7 @@ plans: [
   }
   {
     type: FactoryUnitPlan
-    unit:eyebox
+    unit: eyebox
     requirements: [
       yttrium/120
       osmium/90
@@ -34,7 +34,7 @@ plans: [
 consumes: {
   power: 3.5
 }
-research: glitch
+research: core-glitch
 recearchCost: [
   yttrium/6
   osmium/4
