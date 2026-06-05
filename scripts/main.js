@@ -26,7 +26,7 @@ Events.run(ClientLoadEvent, () => {
   };
 
   // Application of methods
-  let abomination = moddedPlanet("beepdustry-abomination");
+  let abomination = moddedPlanet("beepdustry-keisuris");
    addNode(Items.silicon, moddedItem("beepdustry-gadolinium"));
    //Water will branch off of the item, if you want an item, like sand, use Items.sand
 });
