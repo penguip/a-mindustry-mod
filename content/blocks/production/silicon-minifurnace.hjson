@@ -24,7 +24,7 @@ consumes: {
 ambientSound: smelter
 ambientSoundVolume: 0.6
 research: {
-  parent: glitch
+  parent: core-glitch
   objectives: [tarnished-fields, {
     type: OnSector
     preset: tarnished-fields
