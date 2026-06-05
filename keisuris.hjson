@@ -1,11 +1,11 @@
 generator: "PlanetGenerator"
-localizedName: Planetary Abomination
+localizedName: Keisuris
 description: A world of worlds.
 mesh: [
     {
     //normalbiome
     type: NoiseMesh
-    planet: abomination
+    planet: keisuris
     divisions: 6
     seed: 67
     radius: 1.152
@@ -19,7 +19,7 @@ mesh: [
     {
     //aquabiome
     type: NoiseMesh
-    planet: abomination
+    planet: keisuris
     divisions: 5
     seed: 13
     radius: 1.3
@@ -33,7 +33,7 @@ mesh: [
     {
     //nightmarebiome
     type: NoiseMesh
-    planet: abomination
+    planet: keisuris
     divisions: 6
     seed: 94
     radius: 1.1662
@@ -47,7 +47,7 @@ mesh: [
     {
     //nullbiome
     type: NoiseMesh
-    planet: abomination
+    planet: keisuris
     divisions: 5
     seed: 59
     radius: 1.122
@@ -62,7 +62,7 @@ mesh: [
 cloudMesh: [
    {
    type: HexSkyMesh
-   planet: abomination
+   planet: keisuris
    speed: 1.1
    radius: 0.200
    divisions: 6
@@ -74,7 +74,7 @@ cloudMesh: [
    }
    {
    type: HexSkyMesh
-   planet: abomination
+   planet: keisuris
    speed: 1.1
    radius: 0.195
    divisions: 6
