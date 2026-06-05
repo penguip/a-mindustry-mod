@@ -29,7 +29,7 @@ ammoTypes: {
     ]
   }
 }
-research: glitch
+research: core-glitch
 researchCost: [
   yttrium/450
   osmium/150
