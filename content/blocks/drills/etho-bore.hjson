@@ -10,7 +10,7 @@ ambientSound: drill
 ambientSoundVolume: 0.08
 hasLiquids: true
 consumes: {
-  power: 0.25
+  power: 0.07
 }
 category: production
 research: core-glitch
