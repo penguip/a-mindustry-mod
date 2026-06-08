@@ -8,6 +8,7 @@ researchCost: [
   yttrium/60
 ]
 drillTime: 340
+optionalBoostMultiplier: 1
 tier: 1
 itemCapacity: 20
 researchCostMultiplier: 0.2
