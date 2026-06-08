@@ -6,6 +6,7 @@ range: 5
 tier: 1
 size: 1
 drillTime: 280
+optionalBoostMultiplier: 1
 ambientSound: drill
 ambientSoundVolume: 0.08
 hasLiquids: true
