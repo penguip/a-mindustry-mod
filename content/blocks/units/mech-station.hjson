@@ -2,7 +2,7 @@ type: UnitFactory
 size: 2
 health: 450
 localizedName: Mech Station
-description: Builds Beeps and Eyboxes.
+description: Builds Beep units. Output may be used directly, or moved into modifiers for advanced construction.
 configurable: true
 requirements: [
   yttrium/30
@@ -18,17 +18,6 @@ plans: [
       osmium/50
     ]
     time: 2100
-  }
-  {
-    type: FactoryUnitPlan
-    unit: eyebox
-    requirements: [
-      yttrium/120
-      osmium/90
-      gadolinium/50
-      silicon/60
-    ]
-    time: 5000
   }
 ]
 consumes: {
