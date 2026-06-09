@@ -15,6 +15,7 @@ targetGround: true
 rotateSpeed: 1.5
 reload: 65
 range: 208
+drawer
 shootY: 1
 ammoTypes: {
   osmium: {
