@@ -9,8 +9,8 @@ laserRange: 10
 maxNodes: 10
 category: power
 laserScale: 0.6
-laserColor1: FF0000FF
-laserColor2: FF0000FF
+laserColor1: B3FFC1
+laserColor2: B9FFB1
 research: entropanel
 researchCost: [
   yttrium/30
