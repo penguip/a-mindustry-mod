@@ -49,9 +49,9 @@ drawer: {
 		]
 	}
 shootY: 1
-consumes: [
+consumes: {
   power: 1
-]
+}
 ammoTypes: {
   osmium: {
     type: LaserBulletType
