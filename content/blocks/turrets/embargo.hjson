@@ -10,12 +10,30 @@ requirements: [
 ]
 category: turret
 recoil: 3
+shootWarmupSpeed: 0.1
+shootMinWarmup: 0.99
 targetAir: true
 targetGround: true
 rotateSpeed: 1.5
 reload: 65
 range: 208
-drawer
+drawer: {
+		type: DrawTurret
+     		basePrefix: base
+		parts: [
+    			   {
+      			   type: RegionPart
+      			   suffix: "-barrel"
+      			   progress: warmup
+      		     mirror: true
+      		  	 under: true
+               y: -1
+      			   moveX: 2
+			         moveY: 0
+      			   moveRot: 0
+    			},
+		]
+	}
 shootY: 1
 ammoTypes: {
   osmium: {
