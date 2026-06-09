@@ -22,15 +22,26 @@ drawer: {
      		basePrefix: base
 		parts: [
     			   {
-      			   type: RegionPart
-      			   suffix: "-barrel"
-      			   progress: warmup
-      		     mirror: true
-      		  	 under: true
-               y: -1
-      			   moveX: 2
+      			     type: RegionPart
+      			     suffix: "-barrel-r"
+      			     progress: warmup
+      		         mirror: true
+      		  	     under: true
+                     y: -1
+      			     moveX: 2
 			         moveY: 0
-      			   moveRot: 0
+      			     moveRot: 0
+    			},
+                {
+      			     type: RegionPart
+      			     suffix: "-barrel-l"
+      			     progress: warmup
+      		         mirror: true
+      		  	     under: true
+                     y: -1
+      			     moveX: -2
+			         moveY: 0
+      			     moveRot: 0
     			},
 		]
 	}
