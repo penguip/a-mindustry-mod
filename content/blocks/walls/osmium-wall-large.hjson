@@ -1,8 +1,8 @@
 type: Wall
 localizedName: Large Osmium Wall
-description: Protects against enemy fire. Has armor cuz' I said so.
+description: Protects against enemy fire.
 health: 2000
-armor: 2
+armor: 5
 size: 2
 requirements: [
   osmium/24
