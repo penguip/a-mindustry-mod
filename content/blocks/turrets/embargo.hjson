@@ -50,7 +50,7 @@ drawer: {
 	}
 shootY: 1
 consumes: {
-  power: 1
+  power: 0.12
 }
 ammoTypes: {
   osmium: {
