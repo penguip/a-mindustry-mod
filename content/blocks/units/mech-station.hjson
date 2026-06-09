@@ -9,6 +9,7 @@ requirements: [
   osmium/25
 ]
 category: units
+configurable: false
 plans: [
   {
     type: FactoryUnitPlan
