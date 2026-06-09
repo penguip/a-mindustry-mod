@@ -44,7 +44,7 @@ weapons: [{
     pierceBuildings: false
     colors: [
       FFA56E
-      000000
+      FFBC83
     ]
     smokeEffect: hitLaserColor
   }
