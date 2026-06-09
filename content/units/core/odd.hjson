@@ -43,12 +43,12 @@ weapons: [{
     lifetime: 30
     pierceBuildings: false
     colors: [
-      ff0000
+      FFA56E
       000000
     ]
     smokeEffect: hitLaserColor
   }
 }]
-range: 280
+range: 45
 research: glitch
 alwaysUnlocked: true
