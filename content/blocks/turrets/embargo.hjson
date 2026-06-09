@@ -26,7 +26,7 @@ drawer: {
       			     suffix: "-barrel-r"
       			     progress: warmup
       		         mirror: true
-      		  	     under: true
+      		  	     under: false
                      y: -1
       			     moveX: 2
 			         moveY: 0
@@ -37,7 +37,7 @@ drawer: {
       			     suffix: "-barrel-l"
       			     progress: warmup
       		         mirror: true
-      		  	     under: true
+      		  	     under: false
                      y: -1
       			     moveX: -2
 			         moveY: 0
