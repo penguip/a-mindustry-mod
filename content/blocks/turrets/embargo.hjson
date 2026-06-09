@@ -60,8 +60,8 @@ ammoTypes: {
     length: 208
     width: 10
     colors: [A3FFC8,
-    ff0000,
-    000000,
+    B3FFC1,
+    B9FFB1,
     ]
   }
 }
