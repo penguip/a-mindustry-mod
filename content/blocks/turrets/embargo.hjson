@@ -59,7 +59,7 @@ ammoTypes: {
     damage: 105
     length: 208
     width: 10
-    colors: [ff00ff,
+    colors: [A3FFC8,
     ff0000,
     000000,
     ]
