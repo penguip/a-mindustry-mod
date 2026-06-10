@@ -3,7 +3,7 @@ description: Protects the Glitch core from enemies. Builds structures.
 speed: 3.42
 flying: true
 health: 650
-outlineColor: 454857
+outlineColor: 282C36
 armor: 2
 engineOffset: 5
 engineSize: 2.5
@@ -26,7 +26,7 @@ useUnitCap: true
 hitSize: 6
 weapons: [{
   name: odd-weapon
-  outlineColor: 454857
+  outlineColor: 282C36
   y: 0
   x: -5
   reload: 15
