@@ -26,6 +26,7 @@ useUnitCap: true
 hitSize: 6
 weapons: [{
   name: odd-weapon
+  outlineColor: 454857
   y: 0
   x: -5
   reload: 15
