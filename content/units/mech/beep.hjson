@@ -15,6 +15,7 @@ weapons: [
       x:0
       y:0
       recoil: 0.4
+      outlineColor: 454857
       reload: 200
       mirror: false
       shootSound: shootArtillerySmall
