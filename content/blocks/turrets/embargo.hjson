@@ -12,7 +12,7 @@ category: turret
 recoil: 3
 shootWarmupSpeed: 0.1
 minWarmup: 0.99
-outlineColor: 454857
+outlineColor: 55596A
 targetAir: true
 targetGround: true
 rotateSpeed: 1.5
