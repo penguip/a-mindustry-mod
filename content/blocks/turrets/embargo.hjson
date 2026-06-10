@@ -12,6 +12,7 @@ category: turret
 recoil: 3
 shootWarmupSpeed: 0.1
 minWarmup: 0.99
+outlineColor: 454857
 targetAir: true
 targetGround: true
 rotateSpeed: 1.5
@@ -30,7 +31,8 @@ drawer: {
       			     type: RegionPart
       			     suffix: "-barrel-r"
       			     progress: warmup
-      		  	     under: false
+                     outlineColor: 454857
+                     under: false
                      y: 0
       			     moveX: 1
 			         moveY: 0
@@ -41,6 +43,7 @@ drawer: {
       			     suffix: "-barrel-l"
       			     progress: warmup
       		  	     under: false
+                     outlineColor: 454857
                      y: 0
       			     moveX: -1
 			         moveY: 0
