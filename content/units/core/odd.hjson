@@ -3,6 +3,7 @@ description: Protects the Glitch core from enemies. Builds structures.
 speed: 3.42
 flying: true
 health: 650
+outlineColor: 454857
 armor: 2
 engineOffset: 5
 engineSize: 2.5
