@@ -30,7 +30,7 @@ shoot: {
       1,0,0
 ]
 }
-range: 208
+range: 227
 drawer: {
 		type: DrawTurret
      		basePrefix: base
@@ -41,8 +41,8 @@ drawer: {
       			     progress: warmup
                  outlineColor: 282C36
                  under: true
-                 x: 2
-      			    moveX: 2
+                 x: 1
+      			    moveX: 3
 			        moveY: 0
       			    moveRot: 45
     			},
@@ -52,8 +52,8 @@ drawer: {
       			     progress: warmup
       		  	   under: true
                  outlineColor: 282C36
-                 x: -2
-      			     moveX: -2
+                 x: -1
+      			     moveX: -3
 			           moveY: 0
       			     moveRot: -45
     			},
