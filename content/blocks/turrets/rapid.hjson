@@ -4,7 +4,7 @@ health: 120
 localizedName: Rapid
 description: Fires a burst of three yttrium, actinium, or ageriolix missiles at enemy targets.
 [scarlet]Some ammo types are missing, this is intentional.
-shootSound: shootLancer
+shootSound: shootMissileSmall
 requirements: [
   yttrium/100
   osmium/75
@@ -57,7 +57,8 @@ shootY: 1
 ammoTypes: {
   yttrium: {
     type: BulletType
-    spawnUnit: 
+    spawnUnit: rapid-missile-yttrium
+    instantDisappear: true
   }
 }
 research: embargo
