@@ -1,10 +1,10 @@
 type: ItemTurret
 size: 1
-health: 120
+health: 190
 localizedName: Rapid
 description: Fires a burst of three yttrium, actinium, or ageriolix missiles at enemy targets.
 [scarlet]Some ammo types are missing, this is intentional.
-shootSound: shootMissileSmall
+shootSound: shootMissileShort
 requirements: [
   yttrium/100
   osmium/75
