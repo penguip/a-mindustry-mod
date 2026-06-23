@@ -21,8 +21,8 @@ missileAccelTime: 0
 hidden: true
 trailColor: FFD37F
 engineColor: FFD37F
-engineSize: 4
-engineOffset: 10
+engineSize: 1
+engineOffset: 1
 trailLength: 18
 fogRadius: 6
 weapons: [
