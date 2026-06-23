@@ -23,6 +23,7 @@ reload: 76
 shoot: {
   type: shootBarrel
   shots: 3
+  shotDelay: 5
   barrels: [
       -1,
       0,
