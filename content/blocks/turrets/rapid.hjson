@@ -41,8 +41,8 @@ drawer: {
       			     progress: warmup
                  outlineColor: 282C36
                  under: true
-                 x: 3
-      			    moveX: 0
+                 x: 2
+      			    moveX: 2
 			        moveY: 0
       			    moveRot: 45
     			},
@@ -52,8 +52,8 @@ drawer: {
       			     progress: warmup
       		  	   under: true
                  outlineColor: 282C36
-                 x: -3
-      			     moveX: 0
+                 x: -2
+      			     moveX: -2
 			           moveY: 0
       			     moveRot: -45
     			},
@@ -63,6 +63,7 @@ shootY: 1
 ammoTypes: {
   yttrium: {
     type: BulletType
+    shootEffect: none
     spawnUnit: rapid-missile-yttrium
     instantDisappear: true
   }
