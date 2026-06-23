@@ -25,11 +25,3 @@ plans: [
 consumes: {
   power: 3
 }
-research: {
-  parent: mech-station
-  objectives: [crinkle, {
-    type: OnSector
-    preset: crinkle
-}
-]
-}
