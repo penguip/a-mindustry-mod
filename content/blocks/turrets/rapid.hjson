@@ -1,1 +1,67 @@
-
+type: ItemTurret
+size: 1
+health: 120
+localizedName: Rapid
+description: Fires a burst of three yttrium uranium, missiles at enemy targets.
+shootSound: shootLancer
+requirements: [
+  yttrium/100
+  osmium/75
+  gadolinium/25
+]
+category: turret
+recoil: 3
+shootWarmupSpeed: 0.1
+minWarmup: 0.99
+outlineColor: 282C36
+targetAir: true
+targetGround: true
+rotateSpeed: 1.5
+reload: 120
+shoot: {
+  type: shootPattern
+  shots: 3
+}
+range: 208
+drawer: {
+		type: DrawTurret
+     		basePrefix: base
+		parts: [
+    			   {
+      			     type: RegionPart
+      			     suffix: "-blade-r"
+      			     progress: warmup
+                 outlineColor: 282C36
+                 under: true
+                 y: 0
+      			     moveX: 0
+			           moveY: 0
+      			     moveRot: 45
+    			},
+                {
+      			     type: RegionPart
+      			     suffix: "-blade-l"
+      			     progress: warmup
+      		  	   under: true
+                 outlineColor: 282C36
+                 y: 0
+      			     moveX: 0
+			           moveY: 0
+      			     moveRot: -45
+    			},
+		]
+	}
+shootY: 1
+ammoTypes: {
+  yttrium: {
+    type: BulletType
+    spawnUnit: 
+  }
+}
+research: embargo
+researchCost: [
+  yttrium/450
+  osmium/150
+  gadolinium/170
+  silicon/80
+]
