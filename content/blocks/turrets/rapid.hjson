@@ -2,12 +2,14 @@ type: ItemTurret
 size: 1
 health: 120
 localizedName: Rapid
-description: Fires a burst of three yttrium uranium, missiles at enemy targets.
+description: Fires a burst of three yttrium, actinium, or ageriolix missiles at enemy targets.
+[scarlet]Some ammo types are missing, this is intentional.
 shootSound: shootLancer
 requirements: [
   yttrium/100
   osmium/75
-  gadolinium/25
+  gadolinium/45
+  silicon/15
 ]
 category: turret
 recoil: 3
