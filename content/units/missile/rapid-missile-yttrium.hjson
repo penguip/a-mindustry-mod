@@ -1,1 +1,83 @@
-
+type: missile
+template: MissileUnitType
+flying: true
+speed: 3.4
+outlineColor: 26262F
+physics: false
+lifetime: 65
+lowAltitude: true
+rotateSpeed: 0.325
+homingDelay: 3
+hitSize: 1.2
+useUnitCap: false
+health: 300
+autoFindTarget: true
+circleTarget: false
+faceTarget: true
+targetAir: true
+targetUnderBlocks: false
+drawCell: false
+missileAccelTime: 50
+loopSound: loopMissileTrail
+loopSoundVolume: 0.65
+hidden: true
+trailColor: FFD37F
+engineColor: FFD37F
+engineSize: 4
+engineOffset: 10
+trailLength: 18
+fogRadius: 6
+deathSound: explosionMissile
+abilities: [
+  {
+    type: MoveEffectAbility
+    effect: missileTrailSmoke
+    rotation: 180
+    y: -9
+    interval: 4
+    color: FFD37F45
+  }
+]
+weapons: [
+  {
+    reload: 1
+    shootOnDeath: true
+    mirror: true
+    shootCone: 360
+    shake: 10
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 1800
+      splashDamageRadius: 72
+      despawnEffect: scatheExplosion
+      fragLifeMin: 0.1
+      fragBullets: 6
+      collidesAir: false
+      buildingDamageMultiplier: 0.1
+      ammoMultiplier: 1
+      fragBullet: {
+        type: ArtilleryBulletType
+        buildingDamageMultiplier: 0.25
+        drag: 0.02
+        hitEffect: massiveExplosion
+        despawnEffect: scatheSlash
+        knockback: 0.8
+        lifetime: 18
+        width: 18
+        height: 18
+        collidesTiles: false
+        splashDamage: 130
+        splashDamageRadius: 40
+        backColor: FFD37F
+        trailColor: FFD37F
+        hitColor: FFD37F
+        lightColor: FFD37F
+        frontColor: FFFFFF
+        smokeEffect: shootBigSmoke2
+        despawnShake: 7
+        lightRadius: 30
+        lightOpacity: 0.65
+      }
+    }
+  }
+]
