@@ -6,9 +6,9 @@ outlineColor: 282C36
 physics: false
 lifetime: 65
 lowAltitude: true
-rotateSpeed: 0.325
-homingDelay: 3
+homingDelay: 0
 hitSize: 1.2
+rotateSpeed: 5
 useUnitCap: false
 health: 120
 autoFindTarget: true
@@ -17,9 +17,7 @@ faceTarget: true
 targetAir: true
 targetUnderBlocks: false
 drawCell: false
-missileAccelTime: 50
-loopSound: loopMissileTrail
-loopSoundVolume: 0.65
+missileAccelTime: 0
 hidden: true
 trailColor: FFD37F
 engineColor: FFD37F
@@ -27,17 +25,6 @@ engineSize: 4
 engineOffset: 10
 trailLength: 18
 fogRadius: 6
-deathSound: explosionMissile
-abilities: [
-  {
-    type: MoveEffectAbility
-    effect: missileTrailSmoke
-    rotation: 180
-    y: -1
-    interval: 4
-    color: FFD37F45
-  }
-]
 weapons: [
   {
     reload: 1
@@ -49,9 +36,6 @@ weapons: [
       type: ExplosionBulletType
       splashDamage: 9
       splashDamageRadius: 12
-      fragLifeMin: 0.1
-      fragBullets: 6
-      collidesAir: false
       buildingDamageMultiplier: 0.1
       ammoMultiplier: 1
     }
