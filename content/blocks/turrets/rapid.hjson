@@ -21,8 +21,13 @@ targetGround: true
 rotateSpeed: 1.6
 reload: 76
 shoot: {
-  type: shootPattern
+  type: shootBarrel
   shots: 3
+  barrels: [
+      -1,
+      0,
+      1,
+]
 }
 range: 208
 drawer: {
