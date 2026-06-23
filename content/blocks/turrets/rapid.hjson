@@ -18,8 +18,8 @@ minWarmup: 0.99
 outlineColor: 282C36
 targetAir: true
 targetGround: true
-rotateSpeed: 1.6
-reload: 76
+rotateSpeed: 3.4
+reload: 58
 shoot: {
   type: shootBarrel
   shots: 3
