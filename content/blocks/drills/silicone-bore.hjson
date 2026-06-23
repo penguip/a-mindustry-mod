@@ -13,18 +13,6 @@ consumes: {
   power: 0.85
 }
 category: production
-research: {
-  parent: etho-bore
-  objectives: [crinkle, {
-    type: OnSector
-    preset: crinkle
-}
-]
-}
-researchCost: [
-  silicon/340
-  gadolinium/120
-]
 requirements: [
   silicon/120
   gadolinium/75
