@@ -25,9 +25,9 @@ shoot: {
   shots: 3
   shotDelay: 5
   barrels: [
-      -1,
-      0,
-      1,
+      -1,0,0
+      0,0,0
+      1,0,0
 ]
 }
 range: 208
