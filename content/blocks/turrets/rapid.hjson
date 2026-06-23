@@ -2,9 +2,9 @@ type: ItemTurret
 size: 1
 health: 190
 localizedName: Rapid
-description: 'Fires a burst of three yttrium, actinium, or ageriolix missiles at enemy targets.
+description: 'Fires quick salvos of yttrium, actinium, or ageriolix missiles at enemy targets.
 [scarlet]Some ammo types are missing, this is intentional.'
-shootSound: shootMissileShort
+shootSound: shootMissile
 requirements: [
   yttrium/100
   osmium/75
@@ -41,10 +41,10 @@ drawer: {
       			     progress: warmup
                  outlineColor: 282C36
                  under: true
-                 y: 0
-      			     moveX: 0
-			           moveY: 0
-      			     moveRot: 45
+                 x: 3
+      			    moveX: 0
+			        moveY: 0
+      			    moveRot: 45
     			},
                 {
       			     type: RegionPart
@@ -52,7 +52,7 @@ drawer: {
       			     progress: warmup
       		  	   under: true
                  outlineColor: 282C36
-                 y: 0
+                 x: -3
       			     moveX: 0
 			           moveY: 0
       			     moveRot: -45
