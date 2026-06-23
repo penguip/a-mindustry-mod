@@ -18,8 +18,8 @@ minWarmup: 0.99
 outlineColor: 282C36
 targetAir: true
 targetGround: true
-rotateSpeed: 1.5
-reload: 120
+rotateSpeed: 1.6
+reload: 76
 shoot: {
   type: shootPattern
   shots: 3
