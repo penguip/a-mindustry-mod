@@ -13,6 +13,7 @@ requirements: [
 ]
 category: turret
 recoil: 3
+predictTarget: false
 shootWarmupSpeed: 0.1
 minWarmup: 0.99
 outlineColor: 282C36
