@@ -58,6 +58,7 @@ weapons: [
     {
     top: true
     name: stray-weapon
+    mirror: true
     shootSound: ice-ray
     reload: 50
     shoot: {
@@ -68,7 +69,14 @@ weapons: [
     bullet: {
        type: LaserBulletType
        status: freezing
+       length: 139
+       damage: 10
        statusDuration: 15
-       color: [
-       
+       colors: [
+       ao4eff
+       d267ff
+       ffffff
+       ]
+      }
+   }
 ]
