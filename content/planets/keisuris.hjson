@@ -128,5 +128,6 @@ itemWhitelist: [
   "gadolinium",
   "silicon",
   "item-flesh",
-  "neoplasm-capsule"
+  "neoplasm-capsule",
+  "dormant-cyst"
 ]
