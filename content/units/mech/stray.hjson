@@ -22,6 +22,7 @@ weapons: [
         type: BasicBulletType
         speed: 6
         lifetime: 12
+        sprite: large-orb
         damage: 34
         width: 15
         despawnSound: ice-crash
