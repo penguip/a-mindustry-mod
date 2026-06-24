@@ -1,7 +1,7 @@
 type: GenericCrafter
 size: 1
 localizedName: Silicon Minifurnace
-description: Fuses gadolinium and yttrium into silicon.
+description: Fuses germanium and yttrium into silicon.
 health: 650
 category: crafting
 itemCapacity: 20
