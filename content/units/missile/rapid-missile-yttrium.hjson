@@ -35,6 +35,7 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       splashDamage: 9
+      damage: 36
       splashDamageRadius: 12
       buildingDamageMultiplier: 0.1
       ammoMultiplier: 1
