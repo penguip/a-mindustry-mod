@@ -1,7 +1,7 @@
 type: mech
 name: Stray
-description: Shoots chilling lasers and cryogenic flak at enemy targets.
-speed: 0.3.456
+description: Shoots chilling lasers and cryogenic orbs of flak at enemy targets.
+speed: 3.456
 flying: false
 outlineColor: 282C36
 health: 3450
@@ -15,27 +15,23 @@ weapons: [
       y:-1
       recoil: 0.4
       outlineColor: 282C36
-      reload: 147
+      reload: 200
       mirror: false
       shootSound: ice-blast
       bullet: {
-        type: ArtilleryBulletType
-        speed: 4
-        lifetime: 32
-        damage: 45
-        width: 5
-        height: 5
+        type: BasicBulletType
+        speed: 6
+        lifetime: 12
+        damage: 34
+        width: 15
+        despawnSound: ice-crash
+        height: 15
+        pierce: true
+        pierceCap: 2
         collides: true
         collidesTiles: true
-        splashDamageRadius: 40
-        splashDamage: 15
         backColor: ao4eff
         frontColor: d267ff
       }
     }
-]
-research: mech-station
-researchCost: [
-  yttrium/100
-  osmium/85
 ]
