@@ -4,7 +4,7 @@ description: Fires light artillery at enemies. Despite its artillery being unabl
 speed: 0.287643
 flying: false
 outlineColor: 282C36
-health: 350
+health: 780
 armor: 5
 hitSize: 4
 range: 128
@@ -12,11 +12,11 @@ weapons: [
     {
       top: true
       name: beep-weapon
-      x:0
+      x:1
       y:0
       recoil: 0.4
       outlineColor: 282C36
-      reload: 200
+      reload: 147
       mirror: false
       shootSound: shootArtillerySmall
       bullet: {
