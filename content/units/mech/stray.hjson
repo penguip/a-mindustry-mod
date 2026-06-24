@@ -34,6 +34,7 @@ weapons: [
         pierce: true
         hitEffect
         pierceCap: 2
+        despawnEffect: none
         collides: true
         collidesTiles: true
         backColor: ao4eff
@@ -45,6 +46,7 @@ weapons: [
             pierce: true
             pierceCap: 1
             status: freezing
+            despawnEffect: none
             statusDuration: 30
             width: 1.2
             height: 3
@@ -53,4 +55,17 @@ weapons: [
             }
         }   
     }
+    {
+    top: true
+    name: stray-weapon
+    shootSound: ice-ray
+    reload: 50
+    shoot: {
+       type: ShootPattern
+       shots: 4
+       shotDelay: 15
+    }
+    bullet: {
+       
+
 ]
