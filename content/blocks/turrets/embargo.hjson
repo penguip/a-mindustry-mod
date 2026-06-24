@@ -59,7 +59,7 @@ ammoTypes: {
   osmium: {
     type: LaserBulletType
     buildingDamageMultiplier: 0.25
-    damage: 105
+    damage: 65
     length: 208
     width: 10
     colors: [A3FFC8,
