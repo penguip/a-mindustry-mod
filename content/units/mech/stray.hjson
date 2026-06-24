@@ -4,7 +4,7 @@ description: Shoots chilling lasers and cryogenic orbs of flak at enemy targets.
 speed: 3.456
 flying: false
 outlineColor: 282C36
-health: 3450
+health: 2670
 armor: 8
 hitSize: 4.25
 range: 128
@@ -25,6 +25,8 @@ weapons: [
         damage: 34
         width: 15
         despawnSound: ice-crash
+        status: freezing
+        statusDuration: 120
         height: 15
         pierce: true
         pierceCap: 2
@@ -32,6 +34,19 @@ weapons: [
         collidesTiles: true
         backColor: ao4eff
         frontColor: d267ff
-      }
+        fragBullets: 10
+            fragBullet: [
+            type: BasicBulletType
+            damage: 7
+            pierce: true
+            pierceCap: 1
+            status: freezing
+            statusDuration: 30
+            width: 1.2
+            height: 3
+            backColor: ao4eff
+            frontColor: d267ff
+            ]
+        }   
     }
 ]
