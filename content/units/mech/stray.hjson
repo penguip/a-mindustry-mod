@@ -36,7 +36,7 @@ weapons: [
         frontColor: d267ff
         fragBullets: 10
             fragBullet: [
-            type: BasicBulletType
+            type: FragBulletType
             damage: 7
             pierce: true
             pierceCap: 1
