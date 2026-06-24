@@ -1,5 +1,5 @@
 localizedName: Blood
-description: Used for creating biological units and for operating flesh turrets and facilities.
+description: Used for creating biological units and for operating flesh turrets and facilities. Contains large amounts of iron.
 isLiquid: true
 color: ba0000
 viscosity: 0.35
