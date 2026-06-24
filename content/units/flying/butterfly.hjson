@@ -4,13 +4,13 @@ description: Fires a burst of weak bullets at enemies in a wide cone.
 speed: 2.675
 flying: true
 health: 630
+outlineColor: 282C36
 armor: 2
 hitSize: 5
 range: 230
 weapons: [
     {
       top: true
-      name: butterfly-weapon
       x:0
       y:0
       recoil: 0.4
