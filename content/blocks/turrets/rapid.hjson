@@ -2,7 +2,7 @@ type: ItemTurret
 size: 1
 health: 190
 localizedName: Rapid
-description: 'Fires quick salvos of yttrium, actinium, or ageriolix missiles at enemy targets.
+description: 'Fires quick salvos of yttrium, actinium, or ageriolix missiles at enemy targets. Deals more damage on a direct hit.
 [scarlet]Some ammo types are missing, this is intentional.'
 shootSound: shootMissile
 requirements: [
