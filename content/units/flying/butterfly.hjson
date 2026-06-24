@@ -3,8 +3,8 @@ name: Butterfly
 description: Fires a burst of weak bullets at enemies in a wide cone.
 speed: 2.675
 flying: true
-health: 1250
-armor: 6
+health: 630
+armor: 2
 hitSize: 5
 range: 230
 weapons: [
@@ -26,11 +26,11 @@ weapons: [
         type: BasicBulletType
         speed: 5
         lifetime: 46
-        damage: 18
+        damage: 9
         width: 7.65
         height: 6.43
-        backColor: cf00bd
-        frontColor: ff00ff
+        backColor: 94431c
+        frontColor: 94574b
       }
     }
 ]
