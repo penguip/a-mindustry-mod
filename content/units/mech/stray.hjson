@@ -66,6 +66,9 @@ weapons: [
        shotDelay: 15
     }
     bullet: {
+       type: LaserBulletType
+       status: freezing
+       statusDuration: 15
+       color: [
        
-
 ]
