@@ -1,12 +1,13 @@
 type: mech
 name: Stray
 description: Shoots chilling lasers and cryogenic orbs of flak at enemy targets.
-speed: 3.456
+speed: 0.3456
 flying: false
 outlineColor: 282C36
 health: 2670
 armor: 8
 hitSize: 4.25
+rotateSpeed: 1.2
 range: 128
 weapons: [
     {
@@ -21,7 +22,8 @@ weapons: [
       bullet: {
         type: BasicBulletType
         speed: 6
-        lifetime: 12
+        lifetime: 65
+        accel: 0.2
         sprite: large-orb
         damage: 34
         width: 15
@@ -30,6 +32,7 @@ weapons: [
         statusDuration: 120
         height: 15
         pierce: true
+        hitEffect
         pierceCap: 2
         collides: true
         collidesTiles: true
