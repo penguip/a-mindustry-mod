@@ -32,7 +32,7 @@ weapons: [
         statusDuration: 120
         height: 15
         pierce: true
-        hitEffect
+        hitEffect: none
         pierceCap: 2
         despawnEffect: none
         collides: true
@@ -46,6 +46,7 @@ weapons: [
             pierce: true
             pierceCap: 1
             status: freezing
+            hitEffect: none
             despawnEffect: none
             statusDuration: 30
             width: 1.2
