@@ -24,14 +24,14 @@ weapons: [
         speed: 4
         lifetime: 32
         damage: 45
-        width: 28
-        height: 34
+        width: 5
+        height: 5
         collides: true
         collidesTiles: true
         splashDamageRadius: 40
         splashDamage: 15
-        backColor: 00e6ff
-        frontColor: 7df2ff
+        backColor: ao4eff
+        frontColor: d267ff
       }
     }
 ]
