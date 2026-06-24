@@ -10,7 +10,7 @@ requirements: [
   osmium/60
 ]
 craftTime: 100
-squareSprite: true
+squareSprite: false
 craftEffect: none
 outputItems: [
   silicon/3
