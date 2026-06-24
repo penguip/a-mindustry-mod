@@ -33,7 +33,8 @@ ammoTypes: {
     speed: 3.234
     lifetime: 182.56
     collidesGround: false
-    frontColor: ffa166
+    frontColor: ffcd66
+    backColor: e28654
     homingPower: 0.21
     homingRange: 35
     fragOnHit: true
@@ -46,7 +47,8 @@ ammoTypes: {
     fragBullet: {
       type: BasicBulletType
       buildingDamageMultiplier: 0.25
-      frontColor: ffa166
+      frontColor: ffcd66
+      backColor: e28654
       damage: 10
       status: melting
       length: 10
@@ -66,7 +68,8 @@ ammoTypes: {
       fragBullet: {
         type: BasicBulletType
         buildingDamageMultiplier: 0.25
-        frontColor: ffa166
+        frontColor: ffcd66
+        backColor: e28654
         damage: 3
         status: melting
         length: 5
