@@ -8,6 +8,14 @@ health: 950
 armor: 4
 template: TankUnitType
 speed: 0.95
+treadRects: [
+    {
+        x: -13.5,
+        y: -13,
+        width: 27,
+        height: 26
+    }
+]
 rotateSpeed: 2.2
 itemCapacity: 0
 outlineColor: 26262F
