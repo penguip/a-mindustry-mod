@@ -3,7 +3,7 @@ gas: true
 description: An invaluable factor that powers almost all Keisuran machinery.
 boilPoint: -1
 color: 5438b5
-explosiveness: 1
+explosiveness: 2
 flammability: 0
 heatCapacity: 0
 coolant: false
