@@ -4,7 +4,7 @@ type: legs
 legCount: 8
 lockLegBase: true
 legExtension: -2
-legBaseOffset: 0
+legBaseOffset: 4
 legLength: 11
 legContinuousMove: true
 legMaxLength: 1.1
@@ -43,11 +43,9 @@ weapons: [
       shots: 4
       shotDelay: 15
     }
-    continuous: true
-    alwaysContinuous: true
     shootSound: shootBreach
     shootStatus: slow
-    shootStatusDuration: 16
+    shootStatusDuration: 76
     bullet: {
       type: BasicBulletType
       height: 7.5
