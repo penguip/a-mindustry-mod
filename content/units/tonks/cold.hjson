@@ -14,15 +14,6 @@ outlineColor: 26262F
 tankMoveVolume: 0.3
 tankMoveSound: tankMoveSmall
 floorMultiplier: 0.95
-treadFrames: 12
-treadRects: [
-  {
-    x: 5
-    y: -25
-    width: 13
-    height: 52
-  }
-]
 weapons: [
   {
     x: 2
