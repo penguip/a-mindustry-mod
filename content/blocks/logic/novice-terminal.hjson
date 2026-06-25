@@ -1,0 +1,15 @@
+type: LogicBlock
+category: logic
+requirements: [
+  yttrium/185
+  silicon/75
+  osmium/45
+  oxide/60
+]
+instructionsPerTick: 15
+size: 1
+health: 350
+researchCostMultiplier: 0.5
+range: 150
+localizedName: Novice Terminal
+description: Runs logic instructions in a loop. Can control units and buildings.
