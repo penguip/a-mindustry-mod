@@ -1,5 +1,7 @@
 type: tank
-hitSize: 9
+hitSize: 1
+localizedName: Cold
+description: Fires a spray of weak bullets that cut through armor but don't always hit.
 singleTarget: false
 omniMovement: false
 faceTarget: false
@@ -27,8 +29,10 @@ weapons: [
     x: 2
     y: 0
     name: cold-weapon
-    reload: 1
+    reload: 2
     mirror: true
+    ejectEffect: casing1
+    inaccuracy: 10
     rotate: true
     rotateSpeed: 2
     shootSound: shootStell
@@ -41,7 +45,7 @@ weapons: [
       lifetime: 59.4
       width: 5
       height: 5
-      peirceArmor: true
+      pierceArmor: true
       shootEffect: shootSmall
       }
    }
