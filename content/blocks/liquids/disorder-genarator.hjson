@@ -1,8 +1,8 @@
 type: GenericCrafter
-size: 2
+size: 1
 localizedName: Disorder Generator
 description: Harnesses the unique nature of Keisuris' atmosphere to produce small amounts of entropy. Inefficient, but operates from anywhere.
-health: 650
+health: 250
 category: crafting
 itemCapacity: 20
 requirements: [
