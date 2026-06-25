@@ -20,3 +20,17 @@ researchCost: [
   yttrium/900
   osmium/450
 ]
+drawer: {
+	    type: DrawMulti
+	    drawers : [
+                    {
+                      type : DrawDefaultRegion
+                    },
+                    { 
+                      type: DrawRegion
+                      suffix: "-rotator"
+                      spinSprite: true
+                      rotateSpeed: 1
+                    }
+			]
+}
