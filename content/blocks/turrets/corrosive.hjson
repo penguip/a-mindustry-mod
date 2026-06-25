@@ -16,20 +16,22 @@ targetAir: true
 targetGround: true
 rotateSpeed: 5.764
 reload: 309
-range: 200
+range: 400
 shootY: 3
 ammoTypes: {
   silicon: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     width: 2.5
-    height: 8
+    height: 20
     damage: 148
     speed: 20
     pierce: true
     pierceCap: 20
-    lifetime: 8
+    lifetime: 20
     homingPower: 0.76
     homingRange: 1.45
+    backColor: 3a3a50
+    frontColor: 767a84
   }
 }
