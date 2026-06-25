@@ -45,6 +45,8 @@ ammoTypes: {
     pierceCap: 20
     status: corroded
     statusDuration: 600
+    rangeChange: -148
+    reloadMultiplier: 1.80
     lifetime: 14
     backColor: aob380
     frontColor: e4ffd6
