@@ -40,10 +40,11 @@ drawer: {
                       drawLiquid: blood
                       padding: 3
                     },
-	            	    {
-	            	      type : DrawBlurSpin
-	            	      suffix : "-rotator"
-	              	    rotateSpeed: 10
-	            	    },
+	            	{
+	            	  type : DrawRegion
+	            	  suffix : "-rotator"
+	              	  rotateSpeed: 0.25
+                      spinSprite: true
+	                },
 			]
 }
