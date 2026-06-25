@@ -1,0 +1,65 @@
+localizedName: Disappointment
+description: Fires weak piercing rounds at enemy ground targets. Can walk over most terrain.
+type: legs
+legCount: 8
+lockLegBase: true
+legExtension: -2
+legBaseOffset: 3
+legLength: 9
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.25
+legGroupSize: 2
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
+hovering: true
+groundLayer: 60
+health: 740
+armor: 4
+allowLegStep: true
+speed: 0.9
+rotateSpeed: 3.5
+hitSize: 1.3
+drag: 0.1
+itemCapacity: 0
+outlineColor: 26262F
+alwaysShootWhenMoving: true
+targetAir: false
+stepSound: walkerStepTiny
+stepSoundVolume: 0.3
+researchCostMultiplier: 0
+weapons: [
+  {
+    x: 2
+    y: 1
+    shootY: 0
+    reload: 75
+    mirror: true
+    shoot: {
+      type: shootPattern
+      shots: 4
+      shotDelay: 15
+    }
+    ejectEffect: ejectCasing1
+    continuous: true
+    alwaysContinuous: true
+    shootSound: shootBreach
+    shootStatus: slow
+    shootStatusDuration: 16
+    bullet: {
+      type: BasicBulletType
+      height: 7.5
+      width: 2.5
+      damage: 9
+      pierce: true
+      speed: 2.4
+      lifetime: 35
+      pierceArmor: true
+      pierceCap: 3
+      backColor: ab51bo
+      frontColor: a75ebo
+    }
+  }
+  ]
