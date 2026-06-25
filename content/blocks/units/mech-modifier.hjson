@@ -7,10 +7,11 @@ category: units
 droneType: redesign
 areaSize: 13
 requirements: [
-  yttrium/1100
-  osmium/1200
-  silicon/750
-  gadolinium/1000
+  yttrium/110
+  osmium/120
+  silicon/75
+  gadolinium/100
+  oxide/ 30
 ]
 liquidCapacity: 120
 plans: [
