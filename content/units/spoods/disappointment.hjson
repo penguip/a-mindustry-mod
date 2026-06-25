@@ -42,7 +42,6 @@ weapons: [
       shots: 4
       shotDelay: 15
     }
-    ejectEffect: ejectCasing1
     continuous: true
     alwaysContinuous: true
     shootSound: shootBreach
