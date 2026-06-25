@@ -38,8 +38,8 @@ weapons: [
     shootSound: shootStell
     bullet: {
       type: BasicBulletType
-      frontColor: 6BBDCB
-      backColor: 377A86
+      frontColor: dbbc42
+      backColor: dba40f
       speed: 2.5
       damage: 3
       lifetime: 59.4
