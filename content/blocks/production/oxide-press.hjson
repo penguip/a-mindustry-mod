@@ -1,0 +1,32 @@
+type: GenericCrafter
+size: 2
+localizedName: Oxide Press
+description: Expsoses osmium to extreme pressure to create oxide. Requires entropy.
+health: 650
+category: crafting
+itemCapacity: 20
+requirements: [
+  yttrium/110
+  osmium/60
+]
+craftTime: 300
+squareSprite: false
+craftEffect: none
+outputItems: [
+  oxide/1
+]
+consumes: {
+  items: [
+    osmium/3
+  ]
+  liquids: [
+    entropy/0.27
+  ]
+  power: 1.4
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
+researchCost: [
+  yttrium/900
+  osmium/450
+]
