@@ -1,0 +1,49 @@
+type: tank
+hitSize: 9
+singleTarget: false
+omniMovement: false
+faceTarget: false
+targetAir: false
+health: 950
+armor: 4
+template: TankUnitType
+speed: 0.95
+rotateSpeed: 2.2
+itemCapacity: 0
+outlineColor: 26262F
+tankMoveVolume: 0.3
+tankMoveSound: tankMoveSmall
+floorMultiplier: 0.95
+treadFrames: 12
+treadRects: [
+  {
+    x: 5
+    y: -25
+    width: 13
+    height: 52
+  }
+]
+weapons: [
+  {
+    x: 2
+    y: 0
+    name: cold-weapon
+    reload: 1
+    mirror: true
+    rotate: true
+    rotateSpeed: 2
+    shootSound: shootStell
+    bullet: {
+      type: BasicBulletType
+      frontColor: 6BBDCB
+      backColor: 377A86
+      speed: 2.5
+      damage: 3
+      lifetime: 59.4
+      width: 5
+      height: 5
+      peirceArmor: true
+      shootEffect: shootSmall
+      }
+   }
+]
