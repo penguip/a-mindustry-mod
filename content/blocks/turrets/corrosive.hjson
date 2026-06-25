@@ -10,6 +10,22 @@ requirements: [
   silicon/90
   oxide/35
 ]
+drawer: {
+		type: DrawTurret
+     		basePrefix: base
+		parts: [
+    			   {
+      			     type: RegionPart
+      			     suffix: "-barrel"
+      			     progress: recoil
+                     outlineColor: 282C36
+                     under: false
+                     y: 0
+      			     moveX: -4
+			           moveY: 0
+      			     moveRot: 0
+    			}
+]
 category: turret
 recoil: 3
 targetAir: true
