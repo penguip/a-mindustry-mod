@@ -2,8 +2,8 @@ type: UnitFactory
 size: 2
 health: 450
 localizedName: Flying Station
-description: Builds Butterflies and Moths.
-configurable: true
+description: Builds Butterfly units. Output may be used directly, or moved into modifiers for advanced construction.
+configurable: false
 requirements: [
   yttrium/30
   osmium/25
