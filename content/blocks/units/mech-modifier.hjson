@@ -1,0 +1,32 @@
+type: UnitAssembler
+size: 5
+localizedName: Mech Modifier
+description: Creates larger mech units by fusing together inputted blocks and Beep units via entropy. Output tier may be increased by adding modules. 
+health: 3500
+category: units
+droneType: redesign
+areaSize: 13
+requirements: [
+  yttrium/1100
+  osmium/1200
+  silicon/750
+  gadolinium/1000
+]
+liquidCapacity: 120
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: stray
+    requirements: [
+      beepdustry-osmium-wall/4
+      beepdustry-beep/1
+    ]
+    time: 1200
+  }
+]
+squareSprite: false
+consumes: {
+  power: 4
+  liquid: entropy/3
+}
+researchCostMultiplier: 0.5
