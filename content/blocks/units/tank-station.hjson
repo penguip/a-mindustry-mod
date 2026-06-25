@@ -1,0 +1,28 @@
+type: UnitFactory
+size: 2
+health: 650
+localizedName: Tank Station
+description: Builds Cold units. Output may be used directly, or moved into modifiers for advanced construction.
+configurable: false
+requirements: [
+  yttrium/190
+  osmium/145
+  silicon/15
+  gadolinium/45
+]
+category: units
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: cold
+    requirements: [
+      silicon/35
+      yttrium/75
+      oxide/10
+    ]
+    time: 4500
+  }
+]
+consumes: {
+  power: 4.5
+}
