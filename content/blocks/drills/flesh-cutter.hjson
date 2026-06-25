@@ -28,3 +28,22 @@ researchCost: [
   silicon/590
 ]
 research: silicone-bore
+drawer: {
+	    type: DrawMulti
+	    drawers : [
+                    {
+                      type : DrawRegion
+                      suffix : "-bottom"
+                    },
+                    {
+                      type: DrawLiquidTile
+                      drawLiquid: blood
+                      padding: 3
+                    },
+	            	    {
+	            	      type : DrawBlurSpin
+	            	      suffix : "-rotator"
+	              	    rotateSpeed: 10
+	            	    },
+			]
+}
