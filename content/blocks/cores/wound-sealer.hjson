@@ -1,11 +1,11 @@
-type: mendProjector
+type: RegenProjector
 localizedName: Wound Sealer
 description: Seals wounds in flesh and holes in machines. Requires blood.
 reload: 80
 healPercent: 9
 size: 1
 category: effect
-range: 137
+range: 45
 baseColor: ff0000
 consumes: {
   liquids: [
