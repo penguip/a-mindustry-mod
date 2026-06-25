@@ -15,7 +15,7 @@ recoil: 3
 targetAir: true
 targetGround: true
 rotateSpeed: 5.764
-reload: 986
+reload: 309
 range: 200
 shootY: 3
 ammoTypes: {
