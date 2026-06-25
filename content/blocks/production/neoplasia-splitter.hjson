@@ -32,3 +32,32 @@ researchCost: [
   osmium/260
   silicon/135
 ]
+drawer: {
+	    type: DrawMulti
+	    drawers : [
+                    {
+                      type : DrawRegion
+                      suffix : "-bottom"
+                    },
+                    {
+                      type: DrawLiquidTile
+                      drawLiquid: neoplasm
+                      padding: 3
+                    },
+                    {
+                      type: DrawLiquidTile
+                      drawLiquid: blood
+                      padding: 3
+                    },
+	            	  {
+	            	  type: DrawRegion
+	            	  suffix: "-rotator"
+	              	  rotateSpeed: 1
+                      spinSprite: true
+	                },
+                  {
+                    type: DrawRegion
+                    suffix: "-top"
+                  }
+			]
+}
