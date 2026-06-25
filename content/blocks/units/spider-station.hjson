@@ -14,7 +14,7 @@ category: units
 plans: [
   {
     type: FactoryUnitPlan
-    unit: beep
+    unit: disappointment
     requirements: [
       yttrium/70
       osmium/120
