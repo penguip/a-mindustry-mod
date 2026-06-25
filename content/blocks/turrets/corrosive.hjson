@@ -66,5 +66,5 @@ ammoTypes: {
     lifetime: 14
     backColor: aob380
     frontColor: e4ffd6
-  }
+  },
 }
