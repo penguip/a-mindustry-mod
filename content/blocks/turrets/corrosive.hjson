@@ -33,5 +33,20 @@ ammoTypes: {
     homingRange: 1.45
     backColor: 3a3a50
     frontColor: 767a84
+  },
+  oxide: {
+    type: BasicBulletType
+    buildingDamageMultiplier: 0.25
+    width: 2.5
+    height: 20
+    damage: 189
+    speed: 18
+    pierce: true
+    pierceCap: 20
+    status: corroded
+    statusDuration: 600
+    lifetime: 14
+    backColor: aob380
+    frontColor: e4ffd6
   }
 }
