@@ -26,6 +26,7 @@ drawer: {
       			     moveRot: 0
     			}
 ]
+}
 category: turret
 recoil: 3
 targetAir: true
