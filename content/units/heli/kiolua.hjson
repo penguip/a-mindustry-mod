@@ -78,6 +78,8 @@ weapons: [
         suffix: rotor-blur
         layer: 116
       }
+     ]
+   }
 ]
 research: flying-station
 researchCost: [
