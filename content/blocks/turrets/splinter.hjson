@@ -34,7 +34,7 @@ ammoTypes: {
     lifetime: 182.56
     collidesGround: false
     frontColor: de7f61
-    backColor: e28654
+    backColor: de6b56
     homingPower: 0.21
     homingRange: 35
     fragOnHit: true
