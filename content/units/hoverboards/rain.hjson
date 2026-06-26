@@ -1,0 +1,84 @@
+type: mech
+hovering: true
+hoverable: true
+faceTarget: false
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.075
+outlineColor: 26262f
+speed: 1.75
+rotateSpeed: 4.5
+accel: 0.1
+groundLayer: 60
+health: 650
+armor: 1
+hitSize: 8
+itemCapacity: 0
+useEngineElevation: false
+lowAltitude: false
+canDrown: false
+targetAir: false
+moveSound: loopExtract
+moveSoundVolume: 0.15
+moveSoundPitchMin: 0.5
+moveSoundPitchMax: 1.2
+parts: [
+  {
+    type: HoverPart
+    x: 4
+    y: 3
+    mirror: true
+    radius: 4
+    phase: 90
+    stroke: 2
+    layerOffset: -0.001
+    color: d8f18c
+  }
+  {
+    type: HoverPart
+    x: 4
+    y: -4
+    mirror: true
+    radius: 4
+    phase: 90
+    stroke: 2
+    layerOffset: -0.001
+    color: d8f18c
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.1
+    teamColor: true
+    effectParam: 3
+    interval: 3
+    x: 0
+    y: -4
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 1
+    name: rain-weapon
+    reload: 24
+    rotate: true
+    mirror: false
+    shootSound: small-laser
+    shootSoundVolume: 0.3
+    rotateSpeed: 2.5
+    bullet: {
+      type: LightningBulletType
+      lightningLength: 12
+      damage: 12
+      pierce: false
+      pierceBuilding: false
+      lightningColor: e9c574
+      status: shocked
+    }
+  }
+]
