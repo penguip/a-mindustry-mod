@@ -9,3 +9,4 @@ heatCapacity: 0
 coolant: false
 viscosity: 0
 temperature: 0
+shownPlanets: [keisuris]
