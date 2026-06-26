@@ -18,7 +18,7 @@ hitSize: 1.4
 mineSpeed: 4.5
 drag: 0.4
 itemCapacity: 20
-outlineColor: 42413e
+outlineColor: 851200
 weapons: [
     {
       top: true
