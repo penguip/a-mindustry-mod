@@ -37,10 +37,12 @@ weapons: [
     {
     reload: 20
     x: 0
-    y: 0
+    y: -2
     shootX: 0
     shootY: 0
     recoil: 0
+    shootEffect: none
+    smokeEffect: none
     shootSound: none
     ejectEffect: none
     alwaysShooting: true
@@ -70,12 +72,12 @@ weapons: [
     parts: [
       {
         x: 0
-        y: 0
+        y: -2
         moveRot: -9180
         type: regionPart
         progress: reload
         outline: false
-        suffix: rotor-blur
+        suffix: -rotor-blur
         layer: 116
       }
      ]
