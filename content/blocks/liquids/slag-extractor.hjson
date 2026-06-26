@@ -1,10 +1,11 @@
 type: AttributeCrafter
-localizedName: Slag Extractor
-description: Extracts slag from deep underground. Requires geothermal hotspots or slag pools to function.
+localizedName: Infernum Extractor
+description: Extracts infernum from deep underground. Requires geothermal hotspots to function.
 size: 3
 attribute: heat
 baseEfficiency: 0
 minEfficiency: 0.2
+maxEfficiency: 2.25
 boostScale: 0.33333333
 liquidCapacity: 120
 hasLiquids: true
@@ -17,7 +18,7 @@ requirements: [
   yttrium/130
 ]
 outputLiquids: [
-  slag/0.66666667
+  infernum/0.66666667
 ]
 drawer: {
 	    type: DrawMulti
@@ -28,12 +29,12 @@ drawer: {
                     },
                     {
                       type: DrawLiquidTile
-                      drawLiquid: slag
+                      drawLiquid: infernum
                       padding: 3
                     },
                     {
                       type: DrawBubbles
-                      color: ffa166
+                      color: de7f61
                       sides: 10
                       recurrence: 3
                       spread: 8
