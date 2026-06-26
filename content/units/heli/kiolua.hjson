@@ -41,7 +41,6 @@ weapons: [
     shootX: 0
     shootY: 0
     recoil: 0
-    shootEffect: none
     smokeEffect: none
     shootSound: none
     ejectEffect: none
@@ -64,6 +63,7 @@ weapons: [
       hitEffect: none
       despawnEffect: none
       smokeEffect: none
+      shootEffect: none
       hittable: false
       knockback: 0.5
       lifetime: 1
