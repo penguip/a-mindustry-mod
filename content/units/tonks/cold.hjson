@@ -1,5 +1,5 @@
 type: tank
-hitSize: 1
+hitSize: 21.2
 localizedName: Cold
 description: Fires a spray of weak bullets that cut through armor but don't always hit.
 singleTarget: false
