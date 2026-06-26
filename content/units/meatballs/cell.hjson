@@ -29,7 +29,7 @@ weapons: [
       outlineColor: 282C36
       reload: 15
       rotate: true
-      rotateSpeed: 0.25
+      rotateSpeed: 1.9
       mirror: false
       shootSound: stepMud
       bullet: {
