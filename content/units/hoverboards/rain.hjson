@@ -1,4 +1,6 @@
 type: mech
+localizedName: Rain
+description: Fires laser beams at enemy targets. Floats over liquids.
 hovering: true
 hoverable: true
 faceTarget: false
@@ -27,10 +29,10 @@ moveSoundPitchMax: 1.2
 parts: [
   {
     type: HoverPart
-    x: 3
-    y: 2
+    x: 2
+    y: 1
     mirror: true
-    radius: 3
+    radius: 2
     phase: 90
     stroke: 2
     layerOffset: -0.001
@@ -38,10 +40,10 @@ parts: [
   }
   {
     type: HoverPart
-    x: 3
-    y: -3
+    x: 2
+    y: -2
     mirror: true
-    radius: 4
+    radius: 2
     phase: 90
     stroke: 2
     layerOffset: -0.001
