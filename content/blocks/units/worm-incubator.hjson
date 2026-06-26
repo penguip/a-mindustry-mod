@@ -1,0 +1,31 @@
+type: UnitFactory
+size: 2
+health: 650
+localizedName: Worm Incubator
+description: Sustains an environment that allows for the incubation of Cell units when entropy is provided. Output may be used directly, or moved into evolvers for more advanced lifeforms.
+configurable: false
+requirements: [
+  yttrium/190
+  osmium/145
+  oxide/15
+  flesh/45
+]
+category: units
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: cell
+    requirements: [
+      calcium/35
+      flesh/75
+      dormant-cyst/10
+    ]
+    time: 5000
+  }
+]
+consumes: {
+  liquids: [
+    entropy/0.0111
+  ]
+  power: 3
+}
