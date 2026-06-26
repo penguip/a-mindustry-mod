@@ -2,7 +2,7 @@ type: crawl
 name: Cell
 description: Spews orbs of gastric acids at enemy targets. Capable of self regeneration.
 health: 560
-speed: 2.05
+speed: 0.35
 armor: 2
 drawBody: false
 drawCell: false
@@ -12,10 +12,39 @@ segmentScl: 2
 groundLayer: 69.69
 segmentPhase: 5
 segmentMag: 0.5
-rotateSpeed: 6
+rotateSpeed: 0.6
 omniMovement: false
 hitSize: 1.4
 mineSpeed: 4.5
 drag: 0.4
 itemCapacity: 20
 outlineColor: 42413e
+weapons: [
+    {
+      top: true
+      name: cell-mount
+      x:0
+      y:-2
+      recoil: 0.4
+      outlineColor: 282C36
+      reload: 45
+      rotate: true
+      rotateSpeed: 0.25
+      mirror: false
+      shootSound: stepMud
+      bullet: {
+        type: ArtilleryBulletType
+        speed: 4
+        lifetime: 32
+        damage: 45
+        width: 5
+        height: 5
+        collides: true
+        collidesTiles: true
+        splashDamageRadius: 40
+        splashDamage: 15
+        backColor: ao4eff
+        frontColor: d267ff
+      }
+    }
+]
