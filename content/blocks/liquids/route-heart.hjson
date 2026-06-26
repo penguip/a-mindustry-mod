@@ -1,0 +1,14 @@
+type: LiquidRouter
+name: Route Heart
+description: Equally outputs liquids to three sides.
+size: 1
+solid: false
+underBullets: true
+health: 45
+liquidCapacity: 75
+category: liquid
+squareSprite: false
+requirements: [
+  item-flesh/10
+]
+researchCostMultiplier: 0.5
