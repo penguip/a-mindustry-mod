@@ -23,7 +23,7 @@ shoot: {
 		x: 2
 	}
 ammoTypes: {
-  slag: {
+  infernum: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     damage: 15
@@ -33,7 +33,7 @@ ammoTypes: {
     speed: 3.234
     lifetime: 182.56
     collidesGround: false
-    frontColor: ffcd66
+    frontColor: de7f61
     backColor: e28654
     homingPower: 0.21
     homingRange: 35
