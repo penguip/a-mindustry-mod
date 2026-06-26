@@ -15,7 +15,7 @@ weapons: [
       x:0
       y:0
       recoil: 0.4
-      reload: 60
+      reload: 120
       mirror: false
       shootSound: shootMissile
       shoot: {
