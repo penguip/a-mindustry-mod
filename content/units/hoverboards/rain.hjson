@@ -62,22 +62,30 @@ abilities: [
 ]
 weapons: [
   {
-    x: 0
+    x: 2
     y: 1
     name: rain-weapon
-    reload: 24
+    reload: 60
     rotate: true
-    mirror: false
+    mirror: true
     shootSound: small-laser
     shootSoundVolume: 0.3
+    shoot: {
+    type: ShootSpread
+    shots: 3
+    spread: 4
+    shotDelay: 8
+    }
     rotateSpeed: 2.5
     bullet: {
-      type: LightningBulletType
-      lightningLength: 12
+      type: LaserBoltBulletType
+      length: 10
       damage: 12
       pierce: false
+      width: 6
       pierceBuilding: false
-      lightningColor: e9c574
+      speed: 3.4
+      lifetime: 13
       status: shocked
     }
   }
