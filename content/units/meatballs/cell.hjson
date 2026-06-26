@@ -27,18 +27,19 @@ weapons: [
       y:-2
       recoil: 0.4
       outlineColor: 282C36
-      reload: 45
+      reload: 15
       rotate: true
       rotateSpeed: 0.25
       mirror: false
       shootSound: stepMud
       bullet: {
-        type: ArtilleryBulletType
-        speed: 4
-        lifetime: 32
-        damage: 45
+        type: LiquidBulletType
+        speed: 5.4
+        liquid: gastric-juice
+        lifetime: 15
+        damage: 10
         width: 5
-        height: 5
+        puddleSize: 20
         collides: true
         collidesTiles: true
         splashDamageRadius: 40
