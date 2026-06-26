@@ -1,0 +1,43 @@
+type: flying
+name: Kiolua
+description: Launches volleys of missiles at enemy ground targets.
+speed: 2.675
+flying: true
+health: 630
+targetAir: false
+outlineColor: 282C36
+armor: 2
+hitSize: 5
+range: 230
+weapons: [
+    {
+      top: true
+      x:0
+      y:0
+      recoil: 0.4
+      reload: 60
+      mirror: false
+      shootSound: shootMissile
+      shoot: {
+        type: ShootPattern
+        shots: 10
+        spread: 5
+      }
+      bullet: {
+        type: BasicBulletType
+        speed: 5
+        lifetime: 46
+        damage: 9
+        width: 7.65
+        height: 6.43
+        backColor: 94431c
+        frontColor: 94574b
+      }
+    }
+]
+research: flying-station
+researchCost: [
+  yttruim/240
+  osmium/180
+  silicon/240
+]
