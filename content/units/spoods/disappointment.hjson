@@ -12,9 +12,9 @@ legMinLength: 0.2
 legSpeed: 3.5
 legGroupSize: 2
 legForwardScl: 1.6
-legLengthScl: 0.1
+legLengthScl: 1
 legPhysicsLayer: false
-legStraightness: 1
+legStraightness: 0
 hovering: true
 groundLayer: 60
 health: 740
