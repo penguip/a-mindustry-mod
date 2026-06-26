@@ -33,7 +33,51 @@ weapons: [
         backColor: 94431c
         frontColor: 94574b
       }
-    }
+    },
+    {
+    reload: 20
+    x: 0
+    y: 0
+    shootX: 0
+    shootY: 0
+    recoil: 0
+    shootSound: none
+    ejectEffect: none
+    alwaysShooting: true
+    controllable: false
+    aiControllable: false
+    autoTarget: false
+    predictTarget: false
+    useAttackRange: false
+    alternate: false
+    showStatSprite: false
+    display: false
+    top: true
+    mirror: false
+    rotate: false
+    bullet: {
+      splashDamage: 3
+      splashDamageRadius: 4
+      pierceBuilding: true
+      hitEffect: none
+      despawnEffect: none
+      smokeEffect: none
+      hittable: false
+      knockback: 0.5
+      lifetime: 1
+      damage: 10
+      }
+    parts: [
+      {
+        x: 0
+        y: 0
+        moveRot: -9180
+        type: regionPart
+        progress: reload
+        outline: false
+        suffix: rotor-blur
+        layer: 116
+      }
 ]
 research: flying-station
 researchCost: [
