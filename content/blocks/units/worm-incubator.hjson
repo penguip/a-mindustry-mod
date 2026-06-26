@@ -8,7 +8,7 @@ requirements: [
   yttrium/190
   osmium/145
   oxide/15
-  flesh/45
+  item-flesh/45
 ]
 category: units
 plans: [
@@ -17,7 +17,7 @@ plans: [
     unit: cell
     requirements: [
       calcium/35
-      flesh/75
+      item-flesh/75
       dormant-cyst/10
     ]
     time: 5000
