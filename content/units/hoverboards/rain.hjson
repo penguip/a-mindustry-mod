@@ -73,7 +73,7 @@ weapons: [
     shoot: {
     type: ShootSpread
     shots: 3
-    spread: 4
+    spread: 6
     shotDelay: 8
     }
     rotateSpeed: 2.5
@@ -82,10 +82,10 @@ weapons: [
       length: 10
       damage: 12
       pierce: false
-      width: 6
+      width: 2
       pierceBuilding: false
       speed: 3.4
-      lifetime: 13
+      lifetime: 16
       status: shocked
     }
   }
