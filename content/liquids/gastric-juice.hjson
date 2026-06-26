@@ -1,0 +1,6 @@
+localizedName: Gastric Juices
+description: A collection of different acids and enzymes, flammable and highly corrosive. Secreted by living units as a weapon.
+color: 36bo41
+flammability: 0.35
+status: corroded
+incinerable: false
