@@ -4,12 +4,12 @@ health: 100
 squareSprite: false
 consumes: {
   liquids: [
-    blood/0.1111111111111
+    infernum/0.1111111111111
   ]
 }
 category: crafting
-localizedName: Bottomless Mouth
-description: Infinitely eats items and drinks fluids. Requires some blood to give it consciousness.
+localizedName: Sentient incinerator
+description: Incinerates items and liquids. Requires infernum.
 requirements: [
   item-flesh/10
   calcium/40
