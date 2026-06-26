@@ -4,3 +4,4 @@ color: 36bo41
 flammability: 0.35
 status: corroded
 incinerable: false
+shownPlanets: [keisuris]
