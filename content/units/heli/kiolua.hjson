@@ -22,23 +22,19 @@ weapons: [
         type: ShootPattern
         shots: 10
         spread: 5
+        shotDelay: 5
       }
       bullet: {
-        type: BasicBulletType
-        speed: 5
-        lifetime: 46
-        damage: 9
-        width: 7.65
-        height: 6.43
-        backColor: 94431c
-        frontColor: 94574b
-      }
+        type: BulletType
+        spawnUnit: kiolua-missile
+        instantDisappear: true
+    }
     },
     {
     name: kiolua-rotor-weapon
     reload: 20
     x: 0
-    y: -2
+    y: -1
     shootX: 0
     shootY: 0
     recoil: 0
@@ -83,10 +79,4 @@ weapons: [
       }
      ]
    }
-]
-research: flying-station
-researchCost: [
-  yttruim/240
-  osmium/180
-  silicon/240
 ]
