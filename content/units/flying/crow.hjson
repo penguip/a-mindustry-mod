@@ -3,9 +3,9 @@ name: Crow
 description: Fires missiles at enemy targets. Equipped with a short range tesla cannon.
 speed: 2.345
 flying: true
-health: 630
+health: 1350
 outlineColor: 282C36
-armor: 2
+armor: 5
 hitSize: 5
 range: 230
 weapons: [
