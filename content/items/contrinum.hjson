@@ -5,3 +5,4 @@ explosiveness: 0.05
 flammability: 0
 radioactivity: 0
 charge: 0
+shownPlanets: [keisuris]
