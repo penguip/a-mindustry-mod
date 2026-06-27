@@ -3,7 +3,7 @@ name: Kiolua
 description: Launches volleys of missiles at enemy ground targets.
 speed: 2.675
 flying: true
-health: 630
+health: 970
 targetAir: false
 outlineColor: 282C36
 armor: 2
