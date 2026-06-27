@@ -13,6 +13,8 @@ engines: [
         radius: 2.5
         x: 0
         rotation: 0
+       }
+]
 range: 230
 weapons: [
     {
