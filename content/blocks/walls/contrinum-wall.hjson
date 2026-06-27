@@ -4,6 +4,7 @@ description: Protects against enemy fire. Explodes after enough damage is sustai
 size: 1
 health: 450
 category: defense
+armor: 7
 requirements: [
   contrinum/6
 ]
