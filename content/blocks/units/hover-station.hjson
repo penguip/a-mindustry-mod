@@ -1,0 +1,28 @@
+type: UnitFactory
+size: 2
+health: 450
+localizedName: Hover Station
+description: Builds Rain units. Output may be used directly, or moved into modifiers for advanced construction.
+configurable: false
+requirements: [
+  yttrium/500
+  osmium/360
+  contrinum/100
+]
+category: units
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: rain
+    requirements: [
+      silicon/70
+      osmium/50
+      gadolinium/35
+      oxide/45
+    ]
+    time: 5000
+  }
+]
+consumes: {
+  power: 5
+}
