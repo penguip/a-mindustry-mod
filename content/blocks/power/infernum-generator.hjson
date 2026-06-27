@@ -1,6 +1,7 @@
 type: ConsumeGenerator
 health: 650
-size: 3
+size: 2
+
 powerProduction: 7.5
 squareSprite: false
 hasLiquids: true
@@ -46,10 +47,10 @@ drawer: {
 liquidCapacity: 100
 category: power
 requirements: [
-  01a-02-item-nickel/150
-  01a-05-item-aluminium/90
-  01a-06-item-chromium/90
-  01a-07-item-clevorite/50
+  yttrium/150
+  silicon/90
+  oxide/90
+  contrinum/50
 ]
 ambientSound: loopSmelter
 ambientSoundVolume: 0.03
