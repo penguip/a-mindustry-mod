@@ -24,7 +24,7 @@ engines: [
 range: 230
 weapons: [
     {
-      name: crow-weapon-l
+      name: crow-tesla
       top: false
       layerOffset: -1
       x:-4
