@@ -41,7 +41,7 @@ weapons: [
         shotDelay: 5
       }
       bullet: {
-        type: LightingBulletType
+        type: LightningBulletType
         lightningLength: 5
         lightning: 4
         lightningLengthRand: 10
