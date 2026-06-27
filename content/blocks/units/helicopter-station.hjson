@@ -1,0 +1,29 @@
+type: UnitFactory
+size: 2
+health: 450
+localizedName: Spider Station
+description: Builds Disappointment units. Output may be used directly, or moved into modifiers for advanced construction.
+configurable: false
+requirements: [
+  yttrium/120
+  osmium/175
+  silicon/55
+  oxide/25
+  contrinum/35
+]
+category: units
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: kiolua
+    requirements: [
+      oxide/10
+      osmium/35
+      gadolinium/60
+    ]
+    time: 1200
+  }
+]
+consumes: {
+  power: 4
+}
