@@ -1,7 +1,7 @@
 type: Wall
 localizedName: Osmium Wall
 description: Protects against enemy fire.
-health: 500
+health: 240
 armor: 5
 size: 1
 category: defense
