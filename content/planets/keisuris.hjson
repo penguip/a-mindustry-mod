@@ -129,5 +129,6 @@ itemWhitelist: [
   "silicon",
   "item-flesh",
   "neoplasm-capsule",
-  "dormant-cyst"
+  "dormant-cyst",
+  "contrinum"
 ]
