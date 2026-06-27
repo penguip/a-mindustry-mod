@@ -8,5 +8,9 @@ requirements: [
   contrinum/6
 ]
 destroyBullet: {
+    type: ExplosionBulletType
+      splashDamage: 90
+      splashDamageRadius: 8
+      ammoMultiplier: 1
 }
 researchCostMultiplier: 0.5
