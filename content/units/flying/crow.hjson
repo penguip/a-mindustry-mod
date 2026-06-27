@@ -12,13 +12,13 @@ engines: [
         y: -3.0
         radius: 2
         x: 4
-        rotation: 45
+        rotation: 90
        }
        {
         y: -3.0
         radius: 2
         x: -4
-        rotation: 90
+        rotation: 45
        }
 ]
 range: 230
@@ -29,24 +29,24 @@ weapons: [
       x:-2
       y:1
       recoil: 0.4
-      reload: 180
+      reload: 240
       mirror: false
       chargeSound: charge-crow
       shootSound: shootEnergyField
       shoot: {
         type: ShootPattern
-        shots: 2
-        firstShotDelay: 0.5
+        shots: 3
+        firstShotDelay: 50
+        shotDelay: 5
       }
       bullet: {
-        type: BasicBulletType
-        speed: 5
-        lifetime: 46
-        damage: 9
-        width: 7.65
-        height: 6.43
-        backColor: 94431c
-        frontColor: 94574b
+        type: LightingBulletType
+        lightningLength: 5
+        lightning: 4
+        lightningLengthRand: 10
+        lightningAngle: 10
+        damage: 80
+        lightningColor: 946d6c
       }
     }
 ]
