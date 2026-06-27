@@ -22,6 +22,7 @@ useEngineElevation: false
 lowAltitude: false
 canDrown: false
 targetAir: false
+range: 54.4
 moveSound: loopExtract
 moveSoundVolume: 0.15
 moveSoundPitchMin: 0.5
