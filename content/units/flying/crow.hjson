@@ -12,13 +12,13 @@ engines: [
         y: -3.0
         radius: 2
         x: 4
-        rotation: 0
+        rotation: 45
        }
        {
         y: -3.0
         radius: 2
         x: -4
-        rotation: 0
+        rotation: 90
        }
 ]
 range: 230
