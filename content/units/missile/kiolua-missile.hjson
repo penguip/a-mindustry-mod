@@ -1,7 +1,7 @@
 type: missile
 template: MissileUnitType
 flying: true
-speed: 1.56
+speed: 2.75
 outlineColor: 282C36
 physics: false
 lifetime: 135
@@ -17,7 +17,7 @@ faceTarget: true
 targetAir: true
 targetUnderBlocks: false
 drawCell: false
-missileAccelTime: 0.9
+missileAccelTime: 60
 hidden: true
 engineColor: FFD37F
 engineSize: 1
