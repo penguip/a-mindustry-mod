@@ -9,12 +9,6 @@ armor: 5
 hitSize: 5
 engines: [
        {
-        y: -6.0
-        radius: 2.5
-        x: 0
-        rotation: 0
-       }
-       {
         y: -3.0
         radius: 2
         x: 4
