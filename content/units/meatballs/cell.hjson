@@ -17,6 +17,7 @@ omniMovement: false
 hitSize: 1.4
 mineSpeed: 4.5
 drag: 0.4
+range: 81
 itemCapacity: 20
 outlineColor: 520500
 weapons: [
