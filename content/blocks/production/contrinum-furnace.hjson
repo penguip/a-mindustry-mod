@@ -15,6 +15,17 @@ outputItem: contrinum/1
 outputLiquid: water/0.01111
 ignoreLiquidFullness: true
 craftTime: 100
+drawer: {
+  type: drawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatInput
+    }
+]
+}
 consumes: {
   items: [
     calcium/4
