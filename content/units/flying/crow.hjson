@@ -50,4 +50,25 @@ weapons: [
         lightningColor: 946d6c
       }
     }
+    {
+      name: crow-weapon-r
+      top: false
+      layerOffset: -1
+      x:4
+      y:3
+      recoil: 0.4
+      reload: 240
+      mirror: false
+      shootSound: shootMissile
+      shoot: {
+        type: ShootPattern
+        shots: 2
+        shotDelay: 10
+      }
+      bullet: {
+        type: MissileBulletType
+        length: 12
+        width: 8
+      }
+    }
 ]
