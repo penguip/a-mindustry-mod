@@ -1,0 +1,37 @@
+type: ConsumeGenerator
+health: 650
+size: 3
+powerProduction: 7.5
+squareSprite: false
+researchCostMultiplier: 0.5
+hasLiquids: true
+consumes: {
+  liquids: [
+    water/0.33333333
+    infernum/0.166666666
+  ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: entropy
+      
+    }
+  ]
+}
+liquidCapacity: 60
+category: power
+requirements: [
+  01a-02-item-nickel/150
+  01a-05-item-aluminium/90
+  01a-06-item-chromium/90
+  01a-07-item-clevorite/50
+]
+ambientSound: loopSmelter
+ambientSoundVolume: 0.03
