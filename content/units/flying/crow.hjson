@@ -1,7 +1,7 @@
 type: flying
-name: Butterfly
-description: Fires a burst of weak bullets at enemies in a wide cone.
-speed: 2.675
+name: Crow
+description: Fires missiles at enemy targets. Equipped with a short range tesla cannon.
+speed: 2.345
 flying: true
 health: 630
 outlineColor: 282C36
@@ -10,12 +10,14 @@ hitSize: 5
 range: 230
 weapons: [
     {
+      name: crow-weapon-l
       top: false
       x:-2
       y:1
       recoil: 0.4
       reload: 180
       mirror: false
+      chargeSound: charge-crow
       shootSound: shootEnergyField
       shoot: {
         type: ShootPattern
