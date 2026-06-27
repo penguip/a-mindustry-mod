@@ -1,7 +1,7 @@
 type: HeatCrafter
 name: Contrinum Furnace
 description: Melts calcium with infernum, then uses additional heat to create entropy to stabilize the reaction into contrinum. Outputs water as a byproduct.
-size: 2
+size: 3
 maxEfficiency: 1.5
 category: crafting
 heatRequirement: 15
