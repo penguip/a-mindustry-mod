@@ -1,2 +1,7 @@
 localizedName: Contrinum
 description: A slightly explosive alloy made from infernum, calcium, and heat. Useful for more advanced technology.
+color: 857524
+explosiveness: 0.05
+flammability: 0
+radioactivity: 0
+charge: 0
