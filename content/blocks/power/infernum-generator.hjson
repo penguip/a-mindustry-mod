@@ -3,12 +3,11 @@ health: 650
 size: 3
 powerProduction: 7.5
 squareSprite: false
-researchCostMultiplier: 0.5
 hasLiquids: true
 consumes: {
   liquids: [
-    water/0.33333333
-    infernum/0.166666666
+    water/1.16666666667
+    infernum/0.5
   ]
 }
 drawer: {
@@ -21,11 +20,30 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: entropy
-      
+      padding: 4.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: infernum
+      padLeft: 1.5
+      padRight: 12.75
+      padTop: 6
+      padBottom: 6
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      padLeft: 12.75
+      padRight: 1.5
+      padTop: 6
+      padBottom: 6
+    }
+    {
+      type: DrawDefault
     }
   ]
 }
-liquidCapacity: 60
+liquidCapacity: 100
 category: power
 requirements: [
   01a-02-item-nickel/150
