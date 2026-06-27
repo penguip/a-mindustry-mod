@@ -45,7 +45,7 @@ weapons: [
         lightningLength: 5
         lightning: 4
         lightningLengthRand: 10
-        lightningAngle: 10
+        lightningCone: 10
         damage: 80
         lightningColor: 946d6c
       }
