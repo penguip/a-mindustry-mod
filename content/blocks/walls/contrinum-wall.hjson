@@ -1,0 +1,12 @@
+type: Wall
+name: Contrinum Wall
+description: Protects.
+size: 1
+health: 510
+category: defense
+requirements: [
+  contrinum/6
+]
+destroyBullet: {
+}
+researchCostMultiplier: 0.5
