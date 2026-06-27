@@ -1,0 +1,17 @@
+type: Wall
+name: Contrinum Wall
+description: Protects against enemy fire. Explodes after enough damage is sustained(usually when it is destroyed), damaging nearby enemies.
+size: 2
+health: 1800
+category: defense
+requirements: [
+  contrinum/24
+]
+destroyBullet: {
+    type: ExplosionBulletType
+      splashDamage: 360
+      splashDamageRadius: 32
+      ammoMultiplier: 1
+}
+researchCostMultiplier: 0.5
+armor: 7
