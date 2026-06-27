@@ -70,6 +70,9 @@ weapons: [
         type: MissileBulletType
         despawnSound: explosion
         length: 12
+        frontColor: 94574b
+        backColor: 94431c
+        trailColor: 94431c
         speed: 1.5
         trailChance: 0
         trailLength: 20
