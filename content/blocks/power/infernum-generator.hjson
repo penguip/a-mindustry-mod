@@ -1,7 +1,8 @@
 type: ConsumeGenerator
 health: 650
 size: 2
-
+localizedName: Infernum Generator
+description: Generates power by boiling water with infernum and transforming the steam via entropy.
 powerProduction: 7.5
 squareSprite: false
 hasLiquids: true
@@ -9,6 +10,7 @@ consumes: {
   liquids: [
     water/1.16666666667
     infernum/0.5
+    entropy/0.11111111
   ]
 }
 drawer: {
