@@ -1,6 +1,6 @@
 type: flying
 name: Crow
-description: Fires missiles at enemy targets. Equipped with a short range tesla cannon.
+description: Fires missiles at enemy targets. Equipped with a short range tesla cannon. Does extra damage to shields.
 speed: 2.345
 flying: true
 health: 1350
@@ -43,6 +43,7 @@ weapons: [
       bullet: {
         type: LightningBulletType
         lightningLength: 5
+        shieldDamageMultiplier: 2
         lightning: 4
         lightningLengthRand: 10
         lightningCone: 10
@@ -57,7 +58,7 @@ weapons: [
       x:4
       y:3
       recoil: 0.4
-      reload: 240
+      reload: 60
       mirror: false
       shootSound: shootMissile
       shoot: {
@@ -67,8 +68,20 @@ weapons: [
       }
       bullet: {
         type: MissileBulletType
+        despawnSound: explosion
         length: 12
+        speed: 1.5
+        trailChance: 0
+        trailLength: 20
+        trailParam: 3
+        shieldDamageMultiplier: 1.5
         width: 8
+        accel: 0.1
+        damage: 27
+        splashDamage: 14
+        splashDamageRadius: 28
+        weaveMag: 5
+        weaveScale: 6
       }
     }
 ]
