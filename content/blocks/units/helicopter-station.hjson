@@ -1,8 +1,8 @@
 type: UnitFactory
 size: 2
 health: 450
-localizedName: Spider Station
-description: Builds Disappointment units. Output may be used directly, or moved into modifiers for advanced construction.
+localizedName: Helicopter Station
+description: Builds Kiolua units. Output may be used directly, or moved into modifiers for advanced construction.
 configurable: false
 requirements: [
   yttrium/120
