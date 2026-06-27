@@ -21,7 +21,7 @@ engines: [
         rotation: 45
        }
 ]
-range: 230
+range: 213.2
 weapons: [
     {
       name: crow-tesla
