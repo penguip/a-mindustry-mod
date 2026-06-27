@@ -1,5 +1,5 @@
 type: Wall
-name: Contrinum Wall
+name: Large Contrinum Wall
 description: Protects against enemy fire. Explodes after enough damage is sustained(usually when it is destroyed), damaging nearby enemies.
 size: 2
 health: 1800
