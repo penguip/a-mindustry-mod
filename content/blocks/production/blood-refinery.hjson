@@ -23,17 +23,17 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      liquid: infernum
+      drawLiquid: infernum
       padding: 9.75
     }
     {
       type: DrawLiquidTile
-      liquid: hemogen
+      drawLiquid: hemogen
       padding: 9.75
     }
     {
       type: DrawLiquidTile
-      liquid: blood
+      drawLiquid: blood
       padTop: 4.5
       padLeft: 4.5
       padRight: 16
@@ -41,7 +41,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      liquid: blood
+      drawLiquid: blood
       padTop: 16
       padLeft: 4.5
       padRight: 4.5
@@ -49,7 +49,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      liquid: blood
+      drawLiquid: blood
       padTop: 4.5
       padLeft: 16
       padRight: 4.5
@@ -57,7 +57,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      liquid: blood
+      drawLiquid: blood
       padTop: 16
       padLeft: 16
       padRight: 4.5
