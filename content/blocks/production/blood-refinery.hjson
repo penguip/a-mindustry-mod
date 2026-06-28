@@ -32,6 +32,12 @@ drawer: {
       padding: 9.75
     }
     {
+      type: DrawLiquidTile
+      liquid: blood
+      padTop: 4.5
+      padLeft: 4.5
+    }
+    {
       type: DrawDefault
     }
     {
