@@ -8,7 +8,7 @@ targetAir: false
 outlineColor: 282C36
 armor: 2
 hitSize: 5
-range: 228.75
+range: 100
 weapons: [
     {
       top: true
