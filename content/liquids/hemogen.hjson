@@ -15,3 +15,4 @@ blockReactive: false
 type: cellLiquid
 incinerable: false
 alwaysUnlocked: false
+shownPlanets: [keisuris]
