@@ -1,6 +1,6 @@
 type: HeatCrafter
-name: Contrinum Furnace
-description: Melts calcium with infernum, then uses additional heat to create entropy to stabilize the reaction into contrinum. Outputs water as a byproduct.
+name: Blood Refinery
+description: Uses heat and infernum to boil blood, exposing iron. Outputs dangerous hemogen as a byproduct.
 size: 3
 maxEfficiency: 3
 category: crafting
@@ -32,6 +32,6 @@ drawer: {
 consumes: {
   liquids: [
     infernum/0.066666
-    blood: 
+    blood/ 
   ]
 }
