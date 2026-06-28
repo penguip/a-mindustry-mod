@@ -2,7 +2,7 @@ type: UnitAssembler
 size: 5
 localizedName: Flying Modifier
 description: Creates larger flying units by fusing together inputted blocks and Butterfly units via entropy. Output tier may be increased by adding modules. 
-health: 3500
+health: 3750
 category: units
 droneType: redesign
 areaSize: 13
@@ -10,8 +10,9 @@ requirements: [
   yttrium/110
   osmium/120
   silicon/75
-  gadolinium/100
-  oxide/ 30
+  gadolinium/90
+  oxide/20
+  contrinum/35
 ]
 liquidCapacity: 120
 plans: [
