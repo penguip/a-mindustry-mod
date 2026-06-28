@@ -10,7 +10,6 @@ junctionReplacement: spitter
 rotBridgeReplacement: blood-bridge
 underBullets: true
 solid: false
-leaks: false
 research: core-glitch
 researchCost: [
   item-flesh/15
