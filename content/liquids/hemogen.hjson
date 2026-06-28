@@ -1,1 +1,17 @@
-
+colorFrom: 9e2828
+colorTo: 9e554f
+color: 9e3e37
+localizedName: Hemogen
+description: A very dangerous liquid created from certain refining processes involving infernum. Capable of spreading into blood.
+flammability: 0
+temperature: 1
+heatCapacity: 0
+viscosity: 0.95
+explosiveness: 0
+boilPoint: 0.5
+capPuddles: false
+spreadTarget: blood
+blockReactive: false
+type: cellLiquid
+incinerable: false
+alwaysUnlocked: false
