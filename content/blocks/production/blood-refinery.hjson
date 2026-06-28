@@ -1,0 +1,37 @@
+type: HeatCrafter
+name: Contrinum Furnace
+description: Melts calcium with infernum, then uses additional heat to create entropy to stabilize the reaction into contrinum. Outputs water as a byproduct.
+size: 3
+maxEfficiency: 3
+category: crafting
+heatRequirement: 10
+itemCapacity: 30
+requirements: [
+  gadolinium/90
+  silicon/50
+  oxide/70
+]
+outputItem: iron/5
+outputLiquid: hemogen/1.5833333333
+craftTime: 300
+drawer: {
+  type: drawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatInput
+    }
+]
+}
+consumes: {
+  liquids: [
+    infernum/0.066666
+    blood: 
+  ]
+}
