@@ -30,7 +30,7 @@ drawer: {
 ]
 }
 consumes: {
-  power/4.3333333333
+  power: 4.3333333333
   liquids: [
     infernum/1.08333333333
     blood/0.66666666667
