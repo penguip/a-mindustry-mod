@@ -22,6 +22,11 @@ drawer: {
       suffix: "-bottom"
     }
     {
+      type: DrawLiquidTile
+      liquid: blood
+      padding:
+    }
+    {
       type: DrawDefault
     }
     {
