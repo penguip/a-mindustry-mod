@@ -20,7 +20,7 @@ plans: [
     unit: crow
     requirements: [
       beepdustry-contrinum-wall/2
-      beepdustry-osmium-wall
+      beepdustry-osmium-wall/4
       beepdustry-butterfly/1
     ]
     time: 1200
