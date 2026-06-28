@@ -36,6 +36,32 @@ drawer: {
       liquid: blood
       padTop: 4.5
       padLeft: 4.5
+      padRight: 16
+      padBottom: 16
+    }
+    {
+      type: DrawLiquidTile
+      liquid: blood
+      padTop: 16
+      padLeft: 4.5
+      padRight: 4.5
+      padBottom: 16
+    }
+    {
+      type: DrawLiquidTile
+      liquid: blood
+      padTop: 4.5
+      padLeft: 16
+      padRight: 4.5
+      padBottom: 16
+    }
+    {
+      type: DrawLiquidTile
+      liquid: blood
+      padTop: 16
+      padLeft: 16
+      padRight: 4.5
+      padBottom: 4.5
     }
     {
       type: DrawDefault
