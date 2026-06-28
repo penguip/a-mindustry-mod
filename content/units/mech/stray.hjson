@@ -6,7 +6,7 @@ flying: false
 outlineColor: 282C36
 health: 2670
 armor: 8
-hitSize: 14.8
+hitSize: 10
 rotateSpeed: 1.7
 range: 128
 weapons: [
