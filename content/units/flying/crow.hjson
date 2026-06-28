@@ -6,7 +6,7 @@ flying: true
 health: 1350
 outlineColor: 282C36
 armor: 5
-hitSize: 5
+hitSize: 23
 engines: [
        {
         y: -3.0
