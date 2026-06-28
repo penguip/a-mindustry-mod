@@ -1,0 +1,34 @@
+type: UnitAssembler
+size: 5
+localizedName: Flying Modifier
+description: Creates larger flying units by fusing together inputted blocks and Butterfly units via entropy. Output tier may be increased by adding modules. 
+health: 3500
+category: units
+droneType: redesign
+areaSize: 13
+requirements: [
+  yttrium/110
+  osmium/120
+  silicon/75
+  gadolinium/100
+  oxide/ 30
+]
+liquidCapacity: 120
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: crow
+    requirements: [
+      beepdustry-contrinum-wall/2
+      beepdustry-osmium-wall
+      beepdustry-butterfly/1
+    ]
+    time: 1200
+  }
+]
+squareSprite: false
+consumes: {
+  power: 2.5
+  liquid: entropy/5
+}
+researchCostMultiplier: 0.5
