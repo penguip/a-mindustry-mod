@@ -5,3 +5,5 @@ flammability: 0
 radioactivity: 0
 charge: 0.15
 color: bba8a3
+shownPlanets: [keisuris]
+research: contrinum
