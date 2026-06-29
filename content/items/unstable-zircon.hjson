@@ -1,0 +1,10 @@
+localizedName: Unstable Zircon
+description: A piece of zirconium destabilized from being in accumulated entropy for a decade at minimum; the entropy must be removed before it can be utilized.
+explosiveness: 1
+flammability: 0.7
+radioactivity: 0.45
+charge: 0.65
+hardness: 3
+color: bba8a3
+shownPlanets: [keisuris]
+research: contrinum
