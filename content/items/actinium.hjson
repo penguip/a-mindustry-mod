@@ -1,9 +1,9 @@
 localizedName: Actinium
 description: A highly radioactive material derived from shale outcrops. Used in high-tech structures and units.
-explosiveness: 0
+explosiveness: 0.5
 flammability: 0
 radioactivity: 1.5
 charge: 0
-color: 5f38b5
+color: 6169c7
 shownPlanets: [keisuris]
 research: contrinum
