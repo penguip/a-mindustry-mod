@@ -1,0 +1,31 @@
+type: BurstDrill
+name: Fissure Rig
+description: Using entropy as an energy source, creates a miniature fissure to mine resources, including destabilized zircon. In order to resist the rig itself exploding, iron is used for fortification. May optionally be cooled with water.
+size: 2
+category: production
+hardnessDrillMultiplier: 50
+drillTime: 300
+hasPower: false
+tier: 3
+shake: 1
+itemCapacity: 30
+hasLiquids: false
+researchCostMultiplier: 0.5
+requirements: [
+  yttrium/50
+  silicon/75
+  osmium/65
+  iron/15
+]
+consumes: {
+  liquids: {
+  entropy/0.8888888888
+    liquids: [
+      water/0.5
+    ]
+    optional: true
+    boooster: true
+  }
+}
+liquidBoostIntensity: 1.2
+liquidCapacity: 15
