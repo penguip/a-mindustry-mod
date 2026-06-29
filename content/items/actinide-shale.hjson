@@ -1,0 +1,9 @@
+localizedName: Actinide Shale
+description: An outcrop of shale that has been irradiated by contained actinium. Useless on its own but can be processed into actinium.
+explosiveness: 0
+flammability: 0
+radioactivity: 0.6
+charge: 0
+color: 6169c7
+shownPlanets: [keisuris]
+research: zirconium
