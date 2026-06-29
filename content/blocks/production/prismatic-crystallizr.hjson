@@ -39,6 +39,7 @@ drawer: {
     {
       type: DrawGlowRegion
       suffix: "-glow"
+    }
 ]
 }
 consumes: {
