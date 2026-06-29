@@ -4,6 +4,6 @@ explosiveness: 0
 flammability: 0
 radioactivity: 0
 charge: 0
-color: 5f38b5
+color: c7983a
 shownPlanets: [keisuris]
 research: unstable-zircon
