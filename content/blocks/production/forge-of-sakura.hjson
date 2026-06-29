@@ -33,7 +33,7 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: hemogen
       padLeft: 4.5
-      padRight: 
+      padRight: 17
     }
     {
       type: DrawDefault
