@@ -7,14 +7,10 @@ category: crafting
 heatRequirement: 20
 itemCapacity: 30
 requirements: [
-  gadolinium/560
-  silicon/650
-  oxide/450
-  yttrium/800
-  osmium/500
-  actinium/400
-  plastanium/250
-  alloy-of-sakura/125
+  gadolinium/235
+  osmium/245
+  plastanium/120
+  alloy-of-sakura/45
 ]
 outputItem: ageriolix/2
 craftTime: 500
