@@ -1,0 +1,10 @@
+localizedName: Zirconium
+description: Used in mid-to-high tier structures and units. Obtained from cleaning entropy off of natural destabilized deposits.
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+hardness: 3
+color: 5f38b5
+shownPlanets: [keisuris]
+research: unstable-zircon
