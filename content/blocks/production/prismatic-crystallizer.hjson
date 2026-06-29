@@ -22,7 +22,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: blood
+      drawLiquid: cenessiodreon 
       padding: 
     }
     {
@@ -33,12 +33,12 @@ drawer: {
     }
     {
       type: DrawGlowRegion
-      suffix: glow
+      suffix: "-glow"
 ]
 }
 consumes: {
   power: 10
   liquids: [
-    cenessiodreon/
+    cenessiodreon/0.1666666666666667
   ]
 }
