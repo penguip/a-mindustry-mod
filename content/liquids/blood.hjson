@@ -3,4 +3,5 @@ description: Used for creating biological units and for operating flesh turrets 
 isLiquid: true
 color: ba0000
 viscosity: 0.35
+coolant: false
 research: core-glitch
