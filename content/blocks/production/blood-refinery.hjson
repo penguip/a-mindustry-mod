@@ -44,8 +44,8 @@ drawer: {
       drawLiquid: blood
       padTop: 16
       padLeft: 4.5
-      padRight: 4.5
-      padBottom: 16
+      padRight: 16
+      padBottom: 4.5
     }
     {
       type: DrawLiquidTile
