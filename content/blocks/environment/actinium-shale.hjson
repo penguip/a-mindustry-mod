@@ -1,0 +1,4 @@
+type: Floor
+name: Actinium Shale
+variants: 3
+itemDrop: actinide-shale
