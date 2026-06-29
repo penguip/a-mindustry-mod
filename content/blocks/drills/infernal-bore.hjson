@@ -7,6 +7,7 @@ tier: 4
 size: 3
 drillTime: 140
 ambientSound: drill
+optionalBoostIntensity: 1.4
 ambientSoundVolume: 0.08
 hasLiquids: true
 consumes: {
@@ -20,7 +21,10 @@ consumes: {
 }
 category: production
 requirements: [
-  silicon/120
-  gadolinium/75
-  osmium/90
+  silicon/350
+  gadolinium/450
+  osmium/450
+  oxide/150
+  contrinum/60
+  zirconium/45
 ]
