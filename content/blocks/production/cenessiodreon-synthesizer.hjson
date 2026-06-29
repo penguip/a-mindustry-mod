@@ -40,12 +40,12 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: hemogen
-      padding: 7
+      padding: 6
     }
     {
       type: DrawLiquidTile
       drawLiquid: cenessiodreon
-      padding: 7
+      padding: 6
     }
     {
       type: DrawDefault
