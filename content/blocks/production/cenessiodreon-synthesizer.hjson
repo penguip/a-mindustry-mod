@@ -1,10 +1,10 @@
 type: GenericCrafter
-size: 2
+size: 3
 liquidCapacity: 80
 hasLiquids: true
-localizedName: Entropy Washer
-description: Cleanses destabilized zircon using water, outputting the entropy for use in other facilities.
-health: 800
+localizedName: Cenessiodreon Synthesizer
+description: Recycles hemogen by mixing it with crushed zirconium to make the powerful coolant cenessiodreon. Requires entropy.
+health: 160
 category: crafting
 itemCapacity: 40
 ignoreLiquidFullness: true
@@ -19,11 +19,13 @@ outputLiquids: [
   cenessiodreon/0.2666666666667
 ]
 consumes: {
+  power: 4.4666666666666667
   items: [
     zirconium/1
   ]
   liquids: [
     hemogen/3
+    entropy/0.1666666666666667
   ]
 }
 ambientSound: smelter
