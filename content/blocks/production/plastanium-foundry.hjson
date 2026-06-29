@@ -11,7 +11,7 @@ requirements: [
 ]
 outputItem: plastanium/2
 outputLiquid: hemogen/3
-craftTime: 300
+craftTime: 400
 drawer: {
   type: drawMulti
   drawers: [
@@ -22,12 +22,12 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: infernum
-      padding: 9.75
+      padding: 7
     }
     {
       type: DrawLiquidTile
       drawLiquid: hemogen
-      padding: 9.75
+      padding: 7
     }
     {
       type: DrawDefault
@@ -36,8 +36,11 @@ drawer: {
 }
 consumes: {
   power: 4.3333333333
+  items: [
+  zirconium/2
+  ]
   liquids: [
     infernum/1.08333333333
-    blood/0.66666666667
+    entropy/0.66666666667
   ]
 }
