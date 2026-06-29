@@ -1,0 +1,26 @@
+localizedName: Infernal Bore
+description: Uses lots of power to drill walls using a beam of pressurized infernum gas. Can mine actinium shale. Can be cooled with water.
+type: beamDrill
+health: 1000
+range: 5
+tier: 4
+size: 3
+drillTime: 140
+ambientSound: drill
+ambientSoundVolume: 0.08
+hasLiquids: true
+consumes: {
+  power: 3.33333333333
+  liquid: infernum/0.3333333333333
+  liquids: [
+    water/0.666666666667
+  ]
+  optional: true
+  booster: true
+}
+category: production
+requirements: [
+  silicon/120
+  gadolinium/75
+  osmium/90
+]
