@@ -39,11 +39,15 @@ drawer: {
     {
       type: DrawGlowRegion
       suffix: "-glow"
+      color: ffffff
     }
 ]
 }
 consumes: {
   power: 10
+  items: [
+  alloy-of-sakura/3
+  ]
   liquids: [
     cenessiodreon/0.1666666666666667
   ]
