@@ -1,0 +1,43 @@
+type: GenericCrafter
+name: Plastanium Foundry
+description: Uses entropy to rearrange infernum and zirconium into plastanium. Outputs dangerous hemogen as a byproduct.
+size: 3
+category: crafting
+itemCapacity: 30
+requirements: [
+  gadolinium/450
+  silicon/250
+  oxide/40
+]
+outputItem: plastanium/2
+outputLiquid: hemogen/3
+craftTime: 300
+drawer: {
+  type: drawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: infernum
+      padding: 9.75
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: hemogen
+      padding: 9.75
+    }
+    {
+      type: DrawDefault
+    }
+]
+}
+consumes: {
+  power: 4.3333333333
+  liquids: [
+    infernum/1.08333333333
+    blood/0.66666666667
+  ]
+}
