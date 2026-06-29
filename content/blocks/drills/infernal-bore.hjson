@@ -13,11 +13,13 @@ hasLiquids: true
 consumes: {
   power: 3.33333333333
   liquid: infernum/0.3333333333333
-  liquids: [
-    water/0.666666666667
-  ]
-  optional: true
-  booster: true
+  liquids: {
+    liquids: [
+      water/0.666666666667
+    ]
+    optional: true
+    boooster: true
+  }
 }
 category: production
 requirements: [
