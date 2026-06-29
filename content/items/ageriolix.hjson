@@ -1,0 +1,10 @@
+localizedName: Ageriolix
+description: A chromatic, radioactive, charged and slightly explosive crystalline material used in top-noch buildings and units. Made by crystallizing molten alloy of sakura with heat, using cenessiodreon as a coolant and stabilizer.
+explosiveness: 0.2
+flammability: 0
+radioactivity: 1
+charge: 0.5
+color: 7d83d6
+frames: 4
+frameTime: 15
+research: alloy-of-sakura
