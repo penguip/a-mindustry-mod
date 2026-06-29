@@ -4,7 +4,7 @@ liquidCapacity: 80
 hasLiquids: true
 localizedName: Cenessiodreon Synthesizer
 description: Recycles hemogen by mixing it with crushed zirconium to make the powerful coolant cenessiodreon. Requires entropy.
-health: 160
+health: 1600
 category: crafting
 itemCapacity: 40
 ignoreLiquidFullness: true
@@ -30,3 +30,25 @@ consumes: {
 }
 ambientSound: smelter
 ambientSoundVolume: 0.6
+drawer: {
+  type: drawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: hemogen
+      padding: 7
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: cenessiodreon
+      padding: 7
+    }
+    {
+      type: DrawDefault
+    }
+]
+}
