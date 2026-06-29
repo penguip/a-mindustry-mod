@@ -59,6 +59,6 @@ consumes: {
   ]
   liquids: [
     infernum/1.5
-    hemogen/3.5
+    hemogen/4.5967741935
   ]
 }
