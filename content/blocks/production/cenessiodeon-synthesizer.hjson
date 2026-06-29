@@ -1,1 +1,30 @@
-
+type: GenericCrafter
+size: 2
+liquidCapacity: 80
+hasLiquids: true
+localizedName: Entropy Washer
+description: Cleanses destabilized zircon using water, outputting the entropy for use in other facilities.
+health: 800
+category: crafting
+itemCapacity: 40
+ignoreLiquidFullness: true
+requirements: [
+  silicon/90
+  osmium/180
+  contrinum/50
+  oxide/60
+]
+craftTime: 275
+outputLiquids: [
+  cenessiodreon/0.2666666666667
+]
+consumes: {
+  items: [
+    zirconium/1
+  ]
+  liquids: [
+    hemogen/3
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
