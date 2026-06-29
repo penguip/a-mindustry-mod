@@ -26,13 +26,14 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: infernum
-      padding: 7
+      drawLiquid: entropy
+      padding: 10
     }
     {
       type: DrawLiquidTile
       drawLiquid: hemogen
-      padding: 7
+      padLeft: 4.5
+      padRight: 
     }
     {
       type: DrawDefault
