@@ -5,12 +5,9 @@ size: 3
 category: crafting
 itemCapacity: 30
 requirements: [
-  osmium/650
-  gadolinium/450
-  contrinum/450
-  silicon/250
-  zirconium/140
-  actinium/125
+  osmium/145
+  contrinum/165
+  actinium/45
 ]
 outputItem: alloy-of-sakura/10
 outputLiquid: entropy/15
