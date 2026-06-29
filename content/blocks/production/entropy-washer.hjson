@@ -7,7 +7,6 @@ description: Cleanses destabilized zircon using water, outputting the entropy fo
 health: 800
 category: crafting
 itemCapacity: 40
-ignoreLiquidFullness: true
 requirements: [
   silicon/90
   osmium/180
