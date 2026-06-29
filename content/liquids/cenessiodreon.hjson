@@ -1,0 +1,11 @@
+localizedName: Cenessiodreon
+description: An explosive gas made from hemogen and zirconium. Despite its explosiveness, it is a very potent coolant for turrets and facilities alike.
+isLiquid: true
+color: 323432
+gas: true
+explosiveness: 1.1
+flammability: 0
+heatCapacity: 0.9
+temperature: 0.1
+boilPoint: -1
+research: core-glitch
