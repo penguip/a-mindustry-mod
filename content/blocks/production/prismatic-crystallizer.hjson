@@ -7,9 +7,14 @@ category: crafting
 heatRequirement: 20
 itemCapacity: 30
 requirements: [
-  gadolinium/90
-  silicon/50
-  oxide/70
+  gadolinium/560
+  silicon/650
+  oxide/450
+  yttrium/800
+  osmium/500
+  actinium/400
+  plastanium/250
+  alloy-of-sakura/125
 ]
 outputItem: ageriolix/2
 craftTime: 500
@@ -23,7 +28,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: cenessiodreon 
-      padding: 
+      padding: 2.75
     }
     {
       type: DrawDefault
