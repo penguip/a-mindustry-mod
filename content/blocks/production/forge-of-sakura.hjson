@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Forge of Sakura
-description: Uses entropy to rearrange infernum and zirconium into plastanium. Outputs dangerous hemogen as a byproduct.
+description: Uses infernum to separate entropy from destabilized zircon before melting it with silicon and excited actinium. Finally, the resulting liquid is mixed with hemogen and set to quickly cool into alloy of sakura.
 size: 3
 category: crafting
 itemCapacity: 30
@@ -12,8 +12,11 @@ requirements: [
   zirconium/140
   actinium/125
 ]
-outputItem: alloy-of-sakura/7
-craftTime: 600
+outputItem: alloy-of-sakura/10
+outputLiquid: entropy/15
+ignoreLiquidFullness: true
+liquidCapacity: 320
+craftTime: 700
 drawer: {
   type: drawMulti
   drawers: [
@@ -39,10 +42,12 @@ drawer: {
 consumes: {
   power: 7.333333333333
   items: [
-  zirconium/3
+  unstable-zircon/5
+  actinium/7
+  silicon/8
   ]
   liquids: [
-    infernum/1.08333333333
-    entropy/0.66666666667
+    infernum/1.5
+    hemogen/3.1
   ]
 }
