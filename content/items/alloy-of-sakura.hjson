@@ -1,0 +1,8 @@
+localizedName: Alloy of Sakura
+description: A highly charged, radioactive alloy. Used in very powerful technology. Made by forging actinium with zirconium and silicon using hemogen and entropy.
+explosiveness: 0
+flammability: 0
+radioactivity: 0.7
+charge: 1
+color: ff5399
+research: actinium
