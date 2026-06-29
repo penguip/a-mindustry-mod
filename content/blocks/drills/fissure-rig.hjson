@@ -18,8 +18,8 @@ requirements: [
   iron/15
 ]
 consumes: {
+  liquid: entropy/0.1
   liquids: {
-  entropy/0.8888888888
     liquids: [
       water/0.5
     ]
