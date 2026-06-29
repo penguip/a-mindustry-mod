@@ -34,6 +34,16 @@ drawer: {
       drawLiquid: hemogen
       padLeft: 4.5
       padRight: 17
+      padTop: 8.25
+      padBottom: 8.25
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: infernum
+      padLeft: 17
+      padRight: 4.5
+      padTop: 8.25
+      padBottom: 8.25
     }
     {
       type: DrawDefault
@@ -49,6 +59,6 @@ consumes: {
   ]
   liquids: [
     infernum/1.5
-    hemogen/3.1
+    hemogen/3.5
   ]
 }
