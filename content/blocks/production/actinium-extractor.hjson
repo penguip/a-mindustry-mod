@@ -1,0 +1,30 @@
+type: GenericCrafter
+size: 2
+liquidCapacity: 80
+hasLiquids: true
+localizedName: Actinium Extractor
+description: Uses a mixture of infernum and neoplasm to extract usable and buildable actinium from shale outcrops.
+health: 750
+category: crafting
+itemCapacity: 40
+ignoreLiquidFullness: true
+requirements: [
+  osmium/180
+  iron/80
+  zirconium/45
+]
+craftTime: 390
+outputItems: [
+  actinium/6
+]
+consumes: {
+  items: [
+    actinide-shale/12
+  ]
+  liquids: [
+    infernum/1
+    neoplasm/0.33333333333
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
