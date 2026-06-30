@@ -9,5 +9,4 @@ requirements: [
   contrinum/15
   zirconium/30
 ]
-liquidPadding: 1.8
-researchCostMultiplier: 0.5
+liquidPadding: 5.25
