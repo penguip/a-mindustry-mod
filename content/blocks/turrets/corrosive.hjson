@@ -3,6 +3,7 @@ description: Fires piercing needles that either chase or corrode enemy targets.
 size: 2
 type: ItemTurret
 health: 1200
+outlineColor: 26262f
 shootSound: shoot-sharp
 requirements: [
   yttrium/140
