@@ -1,0 +1,10 @@
+type: OverflowGate
+name: Logic Unit(Underflow)
+invert: true
+description: Opposite of its overflow gate caunterpart. Outputs items to the front when the sides becomes blocked.
+category: distribution
+requirements: [
+  yttrium/3
+  osmium/3
+]
+researchCostMultiplier: 0.5
