@@ -11,6 +11,7 @@ requirements: [
   silicon/50
   iron/70
   zirconium/40
+  plastanium/15
 ]
 outputItem: flesh/15
 craftTime: 180
