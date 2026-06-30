@@ -5,7 +5,7 @@ size: 3
 attribute: heat
 baseEfficiency: 0
 minEfficiency: 0.2
-maxEfficiency: 2.25
+maxBoost: 2.25
 boostScale: 0.33333333
 liquidCapacity: 120
 hasLiquids: true
