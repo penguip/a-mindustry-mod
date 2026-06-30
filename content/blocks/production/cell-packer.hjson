@@ -1,17 +1,18 @@
 type: GenericCrafter
-name: Hemogen Distillery
-description: Separates anomalous factors from hemogen, shifting it into blood.
+name: Cell Packer
+description: Stimulates blood clotting to form large amounts of flesh. Useful when flesh is scarce.
 size: 2
 squareSprite: false
-category: liquid
+category: crafting
 liquidCapacity: 230
+itemCapacity: 60
 requirements: [
   yttrium/90
   silicon/50
   iron/70
   zirconium/40
 ]
-outputItem: flesh/5
+outputItem: flesh/15
 craftTime: 180
 drawer: {
   type: drawMulti
