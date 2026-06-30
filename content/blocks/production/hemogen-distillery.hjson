@@ -3,7 +3,7 @@ name: Hemogen Distillery
 description: Separates anomalous factors from hemogen, shifting it into blood.
 size: 2
 squareSprite: false
-category: crafting
+category: liquid
 liquidCapacity: 230
 requirements: [
   yttrium/90
