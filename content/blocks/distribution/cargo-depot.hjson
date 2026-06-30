@@ -1,5 +1,5 @@
 type: UnitCargoUnloadPoint
-name: Cargo Drop Point
+name: Cargo Depot
 description: Receives items from a Sonata cargo drone. Only accepts items with a matching filter.
 itemCapacity: 100
 size: 2
