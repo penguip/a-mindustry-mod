@@ -21,3 +21,19 @@ craftEffect: none
 outputLiquids: [
   gastric-juice/0.5
 ]
+drawer: {
+  type: drawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: gastric-juice
+      padding: 3.25
+    }
+    {
+      type: DrawDefault
+    }
+]
