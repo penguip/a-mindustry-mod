@@ -1,0 +1,22 @@
+type: MassDriver
+size: 1
+health: 750
+localizedName: Floral Railgun
+description: Long-range transport structure. Launches small batches of items to a linked Floral Railgun in range. Consumes power and entropy.
+squareSprite: false
+itemCapacity: 10
+reload: 160
+range: 800
+consumes: {
+  liquids: [
+    entropy/1
+  ]
+  power: 1.25
+}
+category: distribution
+requirements: [
+  yttrium/80
+  plastanium/40
+  alloy-of-sakura/60
+]
+outlineColor: 2C2A36
