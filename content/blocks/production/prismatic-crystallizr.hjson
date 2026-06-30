@@ -2,6 +2,7 @@ type: HeatCrafter
 name: Prismatic Crystallizer
 description: Remelts alloy of sakura under immense heat, eventually creating ageriolix from crystallization. Requires cenessiodreon as a stabilizer and coolant.
 size: 4
+squareSprite: false
 maxEfficiency: 1.5
 category: crafting
 heatRequirement: 20
