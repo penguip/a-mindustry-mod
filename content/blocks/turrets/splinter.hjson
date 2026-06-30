@@ -11,6 +11,7 @@ category: turret
 recoil: 3
 recoils: 2
 shootSound: shootFuse
+outlineColor: 26262f
 targetAir: true
 targetGround: false
 rotateSpeed: 1.5
