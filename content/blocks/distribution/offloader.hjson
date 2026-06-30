@@ -1,0 +1,15 @@
+type: DirectionalUnloader
+name: Offloader
+description: Unloads items from the block behind it. Unable to unload from cores. 
+size: 1
+category: distribution
+requirements: [
+  silicon/30
+  zirconium/20
+]
+speed: 4
+solid: false
+underBullets: true
+regionRotated1: 1
+allowCoreUnload: false
+researchCostMultiplier: 0.5
