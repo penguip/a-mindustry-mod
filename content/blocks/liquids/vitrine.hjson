@@ -1,0 +1,13 @@
+type: LiquidRouter
+size: 3
+hasLiquids: true
+liquidCapacity: 400
+name: Vitrine
+description: Stores a decent amount of liquid.
+category: liquid
+requirements: [
+  contrinum/15
+  zirconium/30
+]
+liquidPadding: 1.8
+researchCostMultiplier: 0.5
