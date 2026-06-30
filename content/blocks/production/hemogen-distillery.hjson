@@ -1,0 +1,42 @@
+type: GenericCrafter
+name: Hemogen Distillery
+description: Separates anomalous factors from hemogen, shifting it into blood.
+size: 2
+squareSprite: false
+category: crafting
+liquidCapacity: 230
+requirements: [
+  yttrium/90
+  silicon/50
+  oxide/70
+  zirconium/40
+]
+outputLiquid: blood/1.4
+craftTime: 300
+drawer: {
+  type: drawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: hemogen
+      padding: 9.75
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: blood
+      padding: 9.75
+    }
+    {
+      type: DrawDefault
+    }
+]
+}
+consumes: {
+  liquids: [
+    hemogen/1.66666666666666667
+  ]
+}
