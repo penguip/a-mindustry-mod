@@ -46,5 +46,8 @@ drawer: {
 	            	  suffix : "-rotator"
 	            	  rotateSpeed: 10
 	            	},
-			]
+                    {
+                      type: DrawDefault
+                    }
+]
 }
