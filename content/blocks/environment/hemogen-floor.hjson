@@ -8,3 +8,4 @@ cacheLayer: tar
 supportsOverlay: true
 liquidMultiplier: 1
 drownTime: 60
+status: melting
