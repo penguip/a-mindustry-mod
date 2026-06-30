@@ -1,0 +1,9 @@
+type: Sorter
+name: Filter
+description: Outputs a select item in the front, everything that doesn't match the selected item goes to the sides.
+category: distribution
+requirements: [
+  yttrium/3
+  osmium/3
+]
+researchCostMultiplier: 0.5
