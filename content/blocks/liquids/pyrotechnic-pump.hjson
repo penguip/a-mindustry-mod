@@ -1,0 +1,20 @@
+type: Pump
+name: Pyrotechnic Pump
+description: Pumps liquids in large amounts from liquid tiles. Requires infernum to operate.
+size: 3
+category: liquid
+squareSprite: false
+requirements: [
+  oxide/60
+  osmium/45
+  silicon/25
+  contrinum/20
+]
+pumpAmount: 0.46
+consumes: {
+  liquids: [
+    infernum/1
+  ]
+}
+researchCostMultiplier: 0.5
+  liquidCapacity: 800
