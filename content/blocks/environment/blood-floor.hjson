@@ -8,3 +8,5 @@ cacheLayer: water
 supportsOverlay: true
 liquidMultiplier: 1
 drownTime: 90
+status: bloodied
+statusDuration: 240
