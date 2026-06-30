@@ -1,0 +1,23 @@
+type: AttributeCrafter
+localizedName: Bile Pump
+description: Extracts gastric juices from flesh tiles for use as ammunition.
+size: 2
+attribute: flesh
+baseEfficiency: 0
+minEfficiency: 0.2
+boostScale: 0.25
+liquidCapacity: 120
+hasLiquids: true
+health: 650
+category: production
+itemCapacity: 30
+requirements: [
+  item-flesh/140
+  silicon/250
+  zirconium/65
+]
+craftTime: 240
+craftEffect: none
+outputLiquids: [
+  gastric-juice/0.5
+]
