@@ -1,0 +1,10 @@
+type: Floor
+name: Blood
+speedMultiplier: 0.35
+variants: 0
+isLiquid: true
+liquidDrop: blood
+cacheLayer: water
+supportsOverlay: true
+liquidMultiplier: 1
+drownTime: 90
