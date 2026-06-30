@@ -1,0 +1,11 @@
+type: UnitCargoUnloadPoint
+name: Cargo Drop Point
+description: Receives items from a Sonata cargo drone. Only accepts items with a matching filter.
+itemCapacity: 100
+size: 2
+category: distribution
+requirements: [
+  contrinum/250
+  actinium/90
+  plastanium/40
+]
