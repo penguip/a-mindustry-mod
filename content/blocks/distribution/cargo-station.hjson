@@ -1,0 +1,19 @@
+type: UnitCargoLoader
+name: Cargo Base Station
+description: Loads a cargo drone with items to be sent off towards a Cargo Drop Point.
+size: 2
+unitType: sonata
+buildTime: 600
+consumes: {
+  power: 8
+  liquid: cenessiodreon/0.5
+}
+polyColor: c5a381
+polyRadius: 9
+itemCapacity: 200
+category: distribution
+requirements: [
+  contrinum/180
+  actinium/50
+  plastanium/70
+]
