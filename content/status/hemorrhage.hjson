@@ -1,0 +1,7 @@
+localizedName: Hemorrhage
+description: Covered in hemogen, this unit is getting progressively dissolved by the various anomalous acids and bases present in it, also being melted by infernum residue. Decreases all stats slightly and does constant damage.
+damage: 1
+healthMultiplier: 0.80
+speedMultiplier: 0.85
+damageMultilpier: 0.75
+reloadMultiplier: 1.2
