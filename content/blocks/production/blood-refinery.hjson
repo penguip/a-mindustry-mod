@@ -2,6 +2,7 @@ type: HeatCrafter
 name: Blood Refinery
 description: Uses heat and infernum to boil blood, exposing iron. Outputs dangerous hemogen as a byproduct.
 size: 3
+squareSprite: false
 maxEfficiency: 3
 category: crafting
 heatRequirement: 10
