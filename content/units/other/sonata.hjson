@@ -18,3 +18,23 @@ itemCapacity: 50
 health: 60
 hitSize: 8
 hidden: true
+engines: [
+  {
+    x: -5.8
+    radius: 2.8
+    rotation: -90
+    y: -7
+  }
+  {
+    x: 5.8
+    radius: 2.8
+    rotation: -90
+    y: -7
+  }
+  {
+    x: 0
+    radius: 2
+    rotation: -90
+    y: -8
+  }
+]
