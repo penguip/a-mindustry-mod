@@ -3,7 +3,7 @@ size: 1
 localizedName: Flux Mover
 description: Moves items forward, can only accept one at a time. Faster than a normal mover.
 health: 65
-speed: 9.5
+speed: 4.75
 requirements: [
   iron/1
   contrinum/1
