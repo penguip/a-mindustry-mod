@@ -4,4 +4,5 @@ isLiquid: true
 color: ba0000
 viscosity: 0.35
 coolant: false
+status: bloodied
 research: core-glitch
