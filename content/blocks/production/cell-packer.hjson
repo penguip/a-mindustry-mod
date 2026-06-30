@@ -13,7 +13,7 @@ requirements: [
   zirconium/40
   plastanium/15
 ]
-outputItem: flesh/15
+outputItem: item-flesh/15
 craftTime: 180
 drawer: {
   type: drawMulti
