@@ -1,0 +1,4 @@
+localizedName: Bloodied
+description: Being covered in blood provides a field of defense and minor harm due to impurities. Defense is increased, but this unit is slowly taking damage.
+healthMultiplier: 1.15
+damage: 13
