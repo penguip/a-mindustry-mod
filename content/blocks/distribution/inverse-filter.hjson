@@ -1,0 +1,9 @@
+type: Sorter
+invert: true
+name: Inverse Filter
+description: Akin to a normal filter. Outputs selected item to the sides instead.
+requirements: [
+  yttrium/3
+  osmium/3
+]
+researchCostMultiplier: 0.5
