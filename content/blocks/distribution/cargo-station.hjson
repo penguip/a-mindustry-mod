@@ -1,5 +1,5 @@
 type: UnitCargoLoader
-name: Cargo Base Station
+name: Cargo Station
 description: Constructs a cargo drone to carry resources to a Cargo Depot.
 size: 2
 unitType: sonata
