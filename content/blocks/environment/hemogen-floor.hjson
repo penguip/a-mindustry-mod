@@ -1,0 +1,10 @@
+type: Floor
+name: Hemogen
+speedMultiplier: 0.1
+variants: 0
+isLiquid: true
+liquidDrop: hemogen
+cacheLayer: tar
+supportsOverlay: true
+liquidMultiplier: 1
+drownTime: 60
