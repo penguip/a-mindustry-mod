@@ -19,7 +19,7 @@ drawer: {
 }
 consumes: {
   liquids: [
-    infernum/1
+    infernum/0.125
   ]
 }
 ambientSound: loopHum
