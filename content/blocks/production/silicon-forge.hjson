@@ -41,6 +41,8 @@ drawer: {
       drawLiquid: infernum
       padLeft: 3.5
       padRight: 12
+      padTop: 6.25
+      padBottom: 6.25
     }
     {
       type: DrawDefault
