@@ -1,6 +1,6 @@
 type: AttributeCrafter
 attribute: radon
-localizedName: Radon Extractor
+localizedName: Radon Condenser
 description: Extracts radon from actinium shale vents. Requires power.
 size: 3
 hasLiquids: true
