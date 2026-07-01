@@ -1,1 +1,31 @@
-
+type: AttributeCrafter
+size: 2
+localizedName: Silicon Forge
+description: Fuses germanium and yttrium into batches of silicon, using infernum as an additional source of heat. Can exctract infernum from geothermal hotspots, providing more efficiency.
+health: 650
+category: crafting
+attribute: heat
+maxBoost: 1.5
+itemCapacity: 20
+requirements: [
+  yttrium/170
+  oxide/65
+  zirconium/ 35
+]
+craftTime: 90
+squareSprite: false
+craftEffect: none
+outputItems: [
+  silicon/6
+]
+consumes: {
+  items: [
+    yttrium/3
+    gadolinium/4
+  ]
+  liquids: [
+    infernum/0.66666666666667
+  power: 1.45
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
