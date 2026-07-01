@@ -1,14 +1,14 @@
 type: GenericCrafter
 size: 2
-localizedName: Disorder Generator
+localizedName: Infernum Distorter
 description: Uses infernum to extract lots of entropy.
-health: 250
+health: 800
 category: crafting
 itemCapacity: 20
 requirements: [
-  gadolinium/35
-  silicon/15
-  yttrium/75
+  gadolinium/80
+  silicon/60
+  actinium/45
 ]
 craftTime: 100
 squareSprite: false
@@ -22,7 +22,16 @@ researchCost: [
 ]
 drawer: {
 	    type: DrawMulti
-	    drawers : [
+	    drawers: [
+                    {
+                      type: DrawRegion
+                      suffix: "-bottom"
+					}
+                    {
+                      type: DrawLiquidTile
+                      drawLiquid: infernum
+                      padLeft: 14
+					}
                     {
                       type : DrawDefault
                     }
