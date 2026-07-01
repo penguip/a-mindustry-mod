@@ -1,0 +1,9 @@
+name: Actinium Shale Vent
+type: SteamVent
+blendGroup: actinium-shale
+parent: actinium-shale
+effectSpacing: 25
+attributes: {
+   steam: 1
+   radon: 1
+}
