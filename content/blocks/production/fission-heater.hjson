@@ -16,7 +16,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: radon
-      padding: 1.5
+      padding: 7.5
     }
     {
       type: DrawDefault
