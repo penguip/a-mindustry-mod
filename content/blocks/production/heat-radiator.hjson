@@ -1,0 +1,25 @@
+type: HeatConductor
+name: Heat Radiator
+description: Transfers heat forward. 
+size: 1
+category: crafting
+requirements: [
+  yttrium/30
+  oxide/20
+]
+regionRotated1: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+    {
+      type: DrawHeatInput
+      suffix: -heat
+    }
+  ]
+}
