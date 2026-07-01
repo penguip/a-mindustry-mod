@@ -29,3 +29,19 @@ consumes: {
 }
 ambientSound: smelter
 ambientSoundVolume: 0.6
+drawer: {
+  type: drawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: infernum
+      padding: 3.25
+    }
+    {
+      type: DrawDefault
+    }
+]
