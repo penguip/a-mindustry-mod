@@ -49,6 +49,14 @@ drawer: {
                       padTop: 16
 					}
                     {
+                      type: DrawLiquidTile
+                      drawLiquid: infernum
+                      padLeft: 19.25
+                      padRight: 2.75
+                      padBottom: 8
+                      padTop: 8
+					}
+                    {
                       type : DrawDefault
                     }
                     { 
@@ -56,16 +64,24 @@ drawer: {
                       suffix: "-rotator"
                       spinSprite: true
                       rotateSpeed: 8
-                      x: -8
-                      y: -8
+                      x: -6
+                      y: -6
                     }
                     { 
                       type: DrawRegion
                       suffix: "-rotator"
                       spinSprite: true
                       rotateSpeed: 8
-                      x: -8
-                      y: 8
+                      x: -6
+                      y: 6
+                    }
+                    { 
+                      type: DrawRegion
+                      suffix: "-rotator"
+                      spinSprite: true
+                      rotateSpeed: 8
+                      x: -6
+                      y: 0
                     }
 			]
 }
