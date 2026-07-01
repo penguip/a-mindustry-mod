@@ -1,4 +1,5 @@
 type: AttributeCrafter
+squareSprite: false
 localizedName: Bile Pump
 description: Extracts gastric juices from flesh tiles for use as ammunition.
 size: 2
