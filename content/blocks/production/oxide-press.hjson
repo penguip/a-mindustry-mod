@@ -6,8 +6,9 @@ health: 650
 category: crafting
 itemCapacity: 20
 requirements: [
-  yttrium/110
-  osmium/60
+  yttrium/80
+  osmium/90
+  silicon/75
 ]
 craftTime: 300
 squareSprite: false
