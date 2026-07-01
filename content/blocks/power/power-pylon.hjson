@@ -1,0 +1,13 @@
+type: BeamNode
+health: 65
+fogRadius: 2
+range: 20
+size: 1
+squareSprite: false
+category: power
+requirements: [
+  yttrium/10
+  iron/15
+]
+laserColor1: CEADEEFF
+laserColor2: 6A4291FF
