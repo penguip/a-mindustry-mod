@@ -13,6 +13,11 @@ requirements: [
 craftTime: 100
 squareSprite: false
 craftEffect: none
+consumes: {
+  liquids: [
+    infernum/0.6666666666666667
+  ]
+}
 outputLiquid: entropy/3
 ambientSound: smelter
 ambientSoundVolume: 0.6
