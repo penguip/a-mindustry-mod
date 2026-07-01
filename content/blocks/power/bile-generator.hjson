@@ -22,8 +22,8 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: entropy
-      padding: 4.5
+      drawLiquid: gastric-juice
+      padding: 7
     }
     {
       type: DrawDefault
@@ -32,6 +32,7 @@ drawer: {
 }
 liquidCapacity: 100
 category: power
+productionTime: 900
 requirements: [
   osmium/120
   silicon/90
