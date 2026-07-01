@@ -1,0 +1,31 @@
+type: HeatProducer
+size: 2
+localizedName: Infernum Heater
+description: Burns infernum to produce a small amount of heat.
+heatOutput: 4
+health: 250
+craftTime: 90
+researchCostMultiplier: 0.5
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+  ]
+}
+consumes: {
+  liquids: [
+    infernum/1
+  ]
+}
+ambientSound: loopHum
+ambientSoundVolume: 0.04
+category: crafting
+requirements: [
+  yttrium/30
+  oxide/20
+]
