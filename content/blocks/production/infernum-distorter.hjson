@@ -57,6 +57,11 @@ drawer: {
                       padTop: 8
 					}
                     {
+                      type: DrawLiquidTile
+                      drawLiquid: entropy
+                      padding: 8
+					}
+                    {
                       type : DrawDefault
                     }
                     { 
