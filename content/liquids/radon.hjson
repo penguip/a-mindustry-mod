@@ -1,5 +1,5 @@
 localizedName: Radon
-description: A radioactive gas extracted from deep pockets. Can be rearranged into actinium or used for other applications.
+description: A radioactive gas extracted from deep pockets. Can be rearranged into actinium or used as a source of heating.
 isLiquid: true
 color: 6169c7
 gas: true
