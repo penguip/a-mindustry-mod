@@ -1,6 +1,7 @@
 type: ItemTurret
 size: 1
 health: 350
+outlineColor: 520500
 localizedName: Gut
 description: Using calcium, fires bony spikes that peirce ground targets. Starts firing slowly but eventually fires very fast.
 shootSound: shootCyclone
