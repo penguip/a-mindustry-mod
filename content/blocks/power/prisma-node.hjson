@@ -2,7 +2,7 @@ type: PowerNode
 localizedName: Prisma Node
 description: Transmits power to and from blocks over vast distances. Only capable of forming one link.
 fogRadius: 2
-laserRange: 100
+laserRange: 450
 health: 750
 maxNodes: 1
 size: 3
