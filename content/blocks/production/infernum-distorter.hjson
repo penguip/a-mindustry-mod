@@ -1,5 +1,5 @@
 type: GenericCrafter
-size: 2
+size: 3
 localizedName: Infernum Distorter
 description: Uses infernum to extract large amounts of entropy.
 health: 800
@@ -56,16 +56,16 @@ drawer: {
                       suffix: "-rotator"
                       spinSprite: true
                       rotateSpeed: 8
-                      x: -4
-                      y: -4
+                      x: -8
+                      y: -8
                     }
                     { 
                       type: DrawRegion
                       suffix: "-rotator"
                       spinSprite: true
                       rotateSpeed: 8
-                      x: -4
-                      y: 4
+                      x: -8
+                      y: 8
                     }
 			]
 }
