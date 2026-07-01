@@ -2,7 +2,7 @@ type: LiquidTurret
 size: 2
 health: 740
 localizedName: Splinter
-description: Fires liquid, homing, fragmentary flak at air targets. The first frag has homing properties and frags a second time.
+description: Fires homing, fragmentary infernum flak at enemy targets. The first frag has homing properties and frags a second time.
 requirements: [
   yttrium/100
   osmium/75
@@ -13,9 +13,9 @@ recoils: 2
 shootSound: shootFuse
 outlineColor: 26262f
 targetAir: true
-targetGround: false
+targetGround: true
 rotateSpeed: 1.5
-reload: 30
+reload: 60
 range: 590.4
 shootY: 3
 shoot: {
@@ -29,7 +29,6 @@ ammoTypes: {
     buildingDamageMultiplier: 0.25
     damage: 15
     length: 15
-    status: melting
     width: 5
     speed: 3.234
     lifetime: 182.56
@@ -51,7 +50,6 @@ ammoTypes: {
       frontColor: ffcd66
       backColor: e28654
       damage: 10
-      status: melting
       length: 10
       collidesGround: false
       width: 5
@@ -72,9 +70,8 @@ ammoTypes: {
         frontColor: ffcd66
         backColor: e28654
         damage: 3
-        status: melting
         length: 5
-        collidesGround: false
+        collidesGround: true
         width: 5
         speed: 0.86
         lifetime: 25
