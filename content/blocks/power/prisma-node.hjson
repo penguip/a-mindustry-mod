@@ -17,6 +17,6 @@ requirements: [
   ageriolix/50
   
 ]
-laserScale: 1
-laserColor1: CEADEEFF
-laserColor2: 6A4291FF
+laserScale: 1.2
+laserColor1: B3FFC1
+laserColor2: B9FFB1
