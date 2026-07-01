@@ -1,5 +1,5 @@
 type: BeamNode
-localizedName: Power Pylon
+localizedName: Beam Pylon
 description: Transmits power to and from blocks. Has more range and durability than a Power Cord, but only transmits power in cardinal directions.
 health: 160
 fogRadius: 2
