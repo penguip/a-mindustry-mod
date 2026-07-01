@@ -39,7 +39,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: infernum
-      padding: 3.25
+      padLeft: 3.5
     }
     {
       type: DrawDefault
