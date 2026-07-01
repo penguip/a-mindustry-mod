@@ -1,0 +1,22 @@
+type: PowerNode
+localizedName: Prisma Node
+description: Transmits power to and from blocks over vast distances. Only capable of forming one link.
+fogRadius: 2
+laserRange: 100
+health: 750
+maxNodes: 1
+size: 3
+squareSprite: false
+researchCostMultiplier: 0.5
+category: power
+requirements: [
+  osmium/230
+  contrinum/180
+  zirconium/130
+  alloy-of-sakura/100
+  ageriolix/50
+  
+]
+laserScale: 1
+laserColor1: CEADEEFF
+laserColor2: 6A4291FF
