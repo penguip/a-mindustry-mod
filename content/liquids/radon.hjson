@@ -1,7 +1,7 @@
 localizedName: Radon
 description: A radioactive gas extracted from deep pockets. Can be rearranged into actinium or used for other applications.
 isLiquid: true
-color: 323432
+color: 6169c7
 gas: true
 coolant: false
 explosiveness: 0.5
