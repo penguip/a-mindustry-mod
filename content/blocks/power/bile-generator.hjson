@@ -9,6 +9,7 @@ hasLiquids: true
 consumes: {
   items: [
     item-flesh/1
+  ]
   liquids: [
     gastric-juice/0.5
   ]
