@@ -23,10 +23,8 @@ consumes: {
 }
 category: production
 requirements: [
-  silicon/350
-  gadolinium/450
-  osmium/450
-  oxide/150
+  silicon/150
+  oxide/50
   contrinum/60
   zirconium/45
 ]
