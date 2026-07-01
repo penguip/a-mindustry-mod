@@ -28,7 +28,7 @@ drawer: {
 }
 consumes: {
   liquids: [
-    radon/2
+    cenessiodreon/0.266666666667
   ]
 }
 ambientSound: loopHum
