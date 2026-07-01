@@ -1,7 +1,7 @@
 type: GenericCrafter
 size: 2
 localizedName: Infernum Distorter
-description: Uses infernum to extract lots of entropy.
+description: Uses infernum to extract large amounts of entropy.
 health: 800
 category: crafting
 itemCapacity: 20
@@ -32,6 +32,7 @@ drawer: {
                       drawLiquid: infernum
                       padLeft: 14
                       padRight: 2.75
+                      padBottom: 16
 					}
                     {
                       type : DrawDefault
@@ -41,6 +42,16 @@ drawer: {
                       suffix: "-rotator"
                       spinSprite: true
                       rotateSpeed: 8
+                      x: -4
+                      y: -4
+                    }
+                    { 
+                      type: DrawRegion
+                      suffix: "-rotator"
+                      spinSprite: true
+                      rotateSpeed: 8
+                      x: -4
+                      y: 4
                     }
 			]
 }
