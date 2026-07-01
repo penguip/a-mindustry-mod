@@ -25,6 +25,7 @@ consumes: {
   ]
   liquids: [
     infernum/0.66666666666667
+  ]
   power: 1.45
 }
 ambientSound: smelter
