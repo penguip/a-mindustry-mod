@@ -1,8 +1,8 @@
 type: GenericCrafter
 size: 3
 localizedName: Compression Facility
-description: Expsoses osmium and germanium to extreme pressure to create oxide. Requires entropy. More efficient than a normal Oxide Press.
-health: 650
+description: Expsoses osmium and germanium to extreme pressure to create oxide. Requires entropy and small amounts of water as coolant. More efficient than a normal Oxide Press.
+health: 1400
 category: crafting
 itemCapacity: 20
 requirements: [
@@ -10,11 +10,11 @@ requirements: [
   osmium/100
   plastanium/70
 ]
-craftTime: 250
+craftTime: 60
 squareSprite: false
 craftEffect: none
 outputItems: [
-  oxide/1
+  oxide/3
 ]
 consumes: {
   items: [
@@ -23,6 +23,7 @@ consumes: {
   ]
   liquids: [
     entropy/0.78
+    water/0.25
   ]
   power: 3.5
 }
