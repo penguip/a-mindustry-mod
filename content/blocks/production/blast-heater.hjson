@@ -35,8 +35,9 @@ ambientSound: loopHum
 ambientSoundVolume: 0.04
 category: crafting
 requirements: [
-  yttrium/100
-  oxide/80
-  zirconium/50
-  actinium/35
+  yttrium/120
+  oxide/100
+  zirconium/80
+  actinium/50
+  alloy-of-sakura/15
 ]
