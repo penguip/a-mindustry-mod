@@ -32,7 +32,7 @@ consumes: {
   ]
   liquids: [
     radon/2
-    water: 0.6666666666667
+    water: 0.66666667
   ]
 }
 ambientSound: loopHum
