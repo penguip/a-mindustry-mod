@@ -1,0 +1,40 @@
+type: GenericCrafter
+name: Cell Packer
+description: Harnesses natural entropy to shift radon into liquid actinium, before hardening it with water. Requires a lot of radon.
+size: 2
+squareSprite: false
+category: crafting
+liquidCapacity: 230
+itemCapacity: 60
+requirements: [
+  silicon/50
+  iron/70
+  zirconium/40
+  plastanium/15
+  actinium/35
+]
+outputItem: actinium/1
+craftTime: 60
+drawer: {
+  type: drawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: radon
+      padding: 5.5
+    }
+    {
+      type: DrawDefault
+    }
+]
+}
+consumes: {
+  liquids: [
+    radon/6
+    water/2
+  ]
+}
