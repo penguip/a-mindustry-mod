@@ -2,6 +2,7 @@ type: LiquidRouter
 size: 3
 hasLiquids: true
 liquidCapacity: 2900
+squareSprite: false
 name: Vitrine
 description: Stores a large amount of liquid.
 category: liquid
