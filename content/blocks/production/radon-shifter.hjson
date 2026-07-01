@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Cell Packer
+name: Radon Shifter
 description: Harnesses natural entropy to shift radon into liquid actinium, before hardening it with water. Requires a lot of radon.
 size: 2
 squareSprite: false
