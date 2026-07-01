@@ -1,0 +1,42 @@
+type: HeatProducer
+size: 3
+localizedName: Blast Heater
+description: Detonates controlled cenessiodreon explosions to produce an extensive amount of heat. Can heat virtually any building.
+heatOutput: 32
+health: 100
+craftTime: 1800
+researchCostMultiplier: 0.5
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion    
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: radon
+      padding: 7.5
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+  ]
+}
+consumes: {
+  liquids: [
+    radon/2
+  ]
+}
+ambientSound: loopHum
+ambientSoundVolume: 0.04
+category: crafting
+requirements: [
+  yttrium/100
+  oxide/80
+  zirconium/50
+  actinium/35
+]
