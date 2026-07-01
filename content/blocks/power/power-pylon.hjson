@@ -1,7 +1,9 @@
 type: BeamNode
-health: 65
+localizedName: Power Pylon
+description: Transmits power to and from blocks. Has more range and durability than a Power Cord, but only transmits power in cardinal directions.
+health: 160
 fogRadius: 2
-range: 20
+range: 35
 size: 1
 squareSprite: false
 category: power
@@ -9,5 +11,5 @@ requirements: [
   yttrium/10
   iron/15
 ]
-laserColor1: CEADEEFF
-laserColor2: 6A4291FF
+laserColor1: B3FFC1
+laserColor2: B9FFB1
