@@ -1,0 +1,36 @@
+type: GenericCrafter
+size: 2
+localizedName: Disorder Generator
+description: Uses infernum to extract lots of entropy.
+health: 250
+category: crafting
+itemCapacity: 20
+requirements: [
+  gadolinium/35
+  silicon/15
+  yttrium/75
+]
+craftTime: 100
+squareSprite: false
+craftEffect: none
+outputLiquid: entropy/3
+ambientSound: smelter
+ambientSoundVolume: 0.6
+researchCost: [
+  yttrium/900
+  osmium/450
+]
+drawer: {
+	    type: DrawMulti
+	    drawers : [
+                    {
+                      type : DrawDefault
+                    }
+                    { 
+                      type: DrawRegion
+                      suffix: "-rotator"
+                      spinSprite: true
+                      rotateSpeed: 8
+                    }
+			]
+}
