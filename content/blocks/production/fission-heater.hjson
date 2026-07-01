@@ -1,0 +1,46 @@
+type: HeatProducer
+size: 3
+localizedName: Fission Heater
+description: Utilizes nuclear fission from actinium and radon to produce a large amount of heat. Requires water as a coolant.
+heatOutput: 16
+health: 750
+craftTime: 1800
+researchCostMultiplier: 0.5
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion    
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: radon
+      padding: 1.5
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+  ]
+}
+consumes: {
+  items: [
+  actinium/1
+  ]
+  liquids: [
+    radon/2
+    water: 0.6666666666667
+  ]
+}
+ambientSound: loopHum
+ambientSoundVolume: 0.04
+category: crafting
+requirements: [
+  yttrium/100
+  oxide/80
+  zirconium/50
+  actinium/35
+]
