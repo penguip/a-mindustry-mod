@@ -33,6 +33,15 @@ drawer: {
                       padLeft: 14
                       padRight: 2.75
                       padBottom: 16
+                      padTop: 2.25
+					}
+                    {
+                      type: DrawLiquidTile
+                      drawLiquid: infernum
+                      padLeft: 14
+                      padRight: 2.75
+                      padBottom: 2.25
+                      padTop: 16
 					}
                     {
                       type : DrawDefault
