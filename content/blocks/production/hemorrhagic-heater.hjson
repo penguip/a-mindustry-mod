@@ -14,6 +14,10 @@ drawer: {
       suffix: -bottom
     }
     {
+      type: DrawLiquidTile
+      drawLiquid: hemogen
+      padding: 1.5
+    {
       type: DrawDefault
     }
     {
