@@ -1,0 +1,43 @@
+type: ConsumeGenerator
+health: 1200
+size: 3
+localizedName: Bile Generator
+description: Generates power by burning flesh and gastric juices.
+powerProduction: 10.25
+squareSprite: false
+hasLiquids: true
+consumes: {
+  items: [
+    item-flesh/1
+  liquids: [
+    gastric-juice/0.5
+  ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: entropy
+      padding: 4.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+liquidCapacity: 100
+category: power
+requirements: [
+  osmium/120
+  silicon/90
+  oxide/110
+  iron/50
+  zirconium/40
+]
+ambientSound: loopSmelter
+ambientSoundVolume: 0.03
