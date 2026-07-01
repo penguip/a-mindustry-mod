@@ -1,0 +1,36 @@
+type: HeatProducer
+size: 2
+localizedName: Hemorrhagic Heater
+description: Burns hemogen to produce a moderate amount of heat.
+heatOutput: 8
+health: 250
+craftTime: 90
+researchCostMultiplier: 0.5
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion    
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+  ]
+}
+consumes: {
+  liquids: [
+    hemogen/0.5
+  ]
+}
+ambientSound: loopHum
+ambientSoundVolume: 0.04
+category: crafting
+requirements: [
+  yttrium/60
+  oxide/40
+  zirconium/20
+]
