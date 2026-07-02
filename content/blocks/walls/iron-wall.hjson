@@ -1,5 +1,6 @@
 type: Wall
 size: 1
+armor: 7
 name: Iron Wall
 description: Protects structures from enemy fire. Sometimes releases electrical arcs that damage nearby enemies.
 lightningChance: 0.15
