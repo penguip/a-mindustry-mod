@@ -1,0 +1,44 @@
+type: PowerTurret
+name: Green Chromatic Wall
+description: Protects against enemy fire. Can be powered for offensive weapons. The color determines the attack(launches a ball lightning). Conducts power.
+health: 1450
+armor: 12
+size: 1
+squareSprite: false
+drawer: {
+  type: DrawTurret
+  basePrefix: chromatic-wall-green-
+}
+hasPower: true
+conductivePower: true
+rotateSpeed: 160
+smokeEffect: none
+shootSound: explosionAfflict
+chargeSound: charge-crow
+shoot: {
+  type: ShootPattern
+  firstShotDelay: 50
+}
+shootY: 0
+shootX: 0
+reload: 420
+recoil: 0
+shootCone: 360
+range: 90
+consumes: {
+  power: 2
+}
+shootType: {
+  type: ExplosionBulletType
+  splashDamage: 120
+  splashDamageRadius: 90
+  status: blasted
+  hitColor: ffff00
+  killShooter: false
+  hitEffect: titanExplosionLarge
+  despawnEffect: titanSmokeLarge
+}
+category: defense
+requirements: [
+  ageriolix/6
+  ]
