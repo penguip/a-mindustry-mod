@@ -29,11 +29,12 @@ consumes: {
   ]
 }
 requirements: [
-  yttrium/3000
-  silicon/1850
-  actinium/1200
-  alloy-of-sakura/360
-  ageriolix/85
+  yttrium/4500
+  silicon/2000
+  zirconium/1800
+  actinium/1500
+  alloy-of-sakura/300
+  ageriolix/100
 ]
 category: power
 drawer: {
@@ -46,7 +47,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: water  
-      padding: 8
+      padding: 17.75
     }
     {
       type: DrawDefault
