@@ -67,5 +67,10 @@ drawer: {
       suffix: -glow-g
       color: 83d68d
     }
+    {
+      type: DrawGlowRegion
+      suffix: -glow-b
+      color: 9ab8d6
+    }
   ]
 }
