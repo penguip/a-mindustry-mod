@@ -1,0 +1,55 @@
+type: NuclearReactor
+name: Prismacore Reactor
+description: Produces massive amounts of power from ageriolix decay. Slowly builds up heat and eventually releases it in a devastating explosion. In order to prevent this, extensive coolant is necessary.
+size: 5
+researchCostMultiplier: 0.05
+hasPower: true
+hasLiquids: true
+hasItems: true
+explodeSound: explosionReactorNeoplasm
+explosionShake: 25
+ambientSound: loopPulse
+ambientSoundVolume: 1
+itemCapacity: 20
+liquidCapacity: 800
+itemDuration: 600
+powerProduction: 112.5
+heating: 0.0008
+squareSprite: false
+smokeThreshold: 0.6
+flashThreshold: 0.75
+explosionRadius: 100
+explosionDamage: 25000
+explodeEffect: [scatheExplosion, massiveExplosion, impactReactorExplosion]
+fuelItem: 01a-14-item-draysten
+consumes: {
+  liquid: water/10
+  items: [
+    ageriolix/1
+  ]
+}
+requirements: [
+  yttrium/3000
+  silicon/1850
+  actinium/1200
+  alloy-of-sakura/360
+  ageriolix/85
+]
+category: power
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water  
+      padding: 8
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
