@@ -34,6 +34,7 @@ shootType: {
   splashDamageRadius: 90
   status: blasted
   hitColor: ffff00
+  killShooter: false
   hitEffect: titanExplosionLarge
   despawnEffect: titanSmokeLarge
 }
