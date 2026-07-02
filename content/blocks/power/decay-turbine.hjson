@@ -1,0 +1,22 @@
+type: ThermalGenerator
+name: Decay Turbine
+description: Generates power by radon decay from vents.
+size: 3
+attribute: steam
+displayEfficiencyScale: 0.11111111111
+displayEfficiency: false
+minEfficiency: 1
+powerProduction: 1.2
+generateEffect: turbinegenerate
+effectChance: 0.25
+squareSprite: false
+category: power
+requirements: [
+  osmium/80
+  contrinum/55
+  iron/35
+  actinium/10
+]
+ambientSound: loopHum
+ambientSoundVolume: 0.08
+researchCostMultiplier: 0.5
