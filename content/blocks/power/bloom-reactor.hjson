@@ -14,7 +14,9 @@ requirements: [
 ]
 hasLiquids: true
 consumes: {
-  item: alloy-of-sakura/1
+  items: [
+    alloy-of-sakura/1
+  ]
   liquids: [
     hemogen/2
     water/3
