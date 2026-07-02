@@ -1,4 +1,4 @@
-type: PowerTurret
+type: ContinuousTurret
 name: Red Chromatic Wall
 description: Protects against enemy fire. Can be powered for offensive weapons. The color determines the attack(fires a continuous single-target laser). Conducts power.
 health: 1450
