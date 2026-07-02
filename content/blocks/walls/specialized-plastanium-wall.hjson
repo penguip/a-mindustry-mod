@@ -1,0 +1,16 @@
+type: Wall
+name: Specialized Plastanium Wall
+description: Protects structures from enemy fire. Capable of absorbing lasers and conducting power.
+absorbLasers: true
+health: 670
+armor: 1
+requirements: [
+  plastanium/4
+  iron/2
+]
+hasPower: true
+conductivePower: true
+squareSprite: false
+category: defense
+research: 08h-07-obsidian-wall-small
+researchCostMultiplier: 0.5
