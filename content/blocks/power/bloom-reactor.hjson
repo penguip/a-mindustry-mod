@@ -60,6 +60,22 @@ drawer: {
       padBottom: 5.5
     }
     {
+      type: DrawLiquidTile
+      drawLiquid: neoplasm
+      padLeft: 23.5
+      padTop: 23.5
+      padRight: 5.5
+      padBottom: 5.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: radon
+      padLeft: 23.5
+      padTop: 5.5
+      padRight: 5.5
+      padBottom: 23.5
+    }
+    {
       type: DrawDefault
     }
     {
@@ -71,7 +87,7 @@ drawer: {
 }
 liquidCapacity: 240
 explosionRadius: 60
-explosionDamage: 20000
+explosionDamage: 2000
 explosionPuddles: 16
 explosionPuddleRange: 20
 explosionPuddleAmount: 350
