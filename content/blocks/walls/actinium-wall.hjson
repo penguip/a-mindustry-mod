@@ -1,0 +1,10 @@
+type: Wall
+localizedName: Osmium Wall
+description: Protects against enemy fire. Durable
+health: 1260
+armor: 11
+size: 1
+category: defense
+requirements: [
+  actinium/6
+]
