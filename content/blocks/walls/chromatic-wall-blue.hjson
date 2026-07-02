@@ -31,14 +31,23 @@ consumes: {
   power: 2
 }
 shootType: {
-  type: ExplosionBulletType
-  splashDamage: 120
-  splashDamageRadius: 90
-  status: blasted
-  hitColor: ffff00
-  killShooter: false
-  hitEffect: titanExplosionLarge
-  despawnEffect: titanSmokeLarge
+  type: MissileBulletType
+        despawnSound: explosionQuad
+        length: 12
+        frontColor: 0000ff
+        backColor: 0000ff
+        trailColor: 0000ff
+        speed: 1.5
+        trailChance: 0
+        trailLength: 20
+        trailParam: 3
+        shieldDamageMultiplier: 1.5
+        width: 8
+        damage: 27
+        splashDamage: 14
+        splashDamageRadius: 28
+        weaveMag: 5
+        weaveScale: 6
 }
 category: defense
 requirements: [
