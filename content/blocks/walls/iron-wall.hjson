@@ -1,0 +1,12 @@
+type: Wall
+size: 1
+name: Iron Wall
+description: Protects structures from enemy fire. Sometimes releases electrical arcs that damage nearby enemies.
+lightningChance: 0.15
+lightningDamage: 7.5
+lightningColor: cf9991
+health: 600
+requirements: [
+  iron/6
+] 
+category: defense
