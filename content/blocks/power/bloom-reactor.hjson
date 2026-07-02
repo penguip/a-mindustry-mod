@@ -28,7 +28,7 @@ consumes: {
 }
 outputLiquid: ardegrix/1
 consumeTime: 600
-powerProduction: 103.333333
+powerProduction: 98.333333
 explodeOnFull: true
 generateEffect: generatespark
 drawer: {
