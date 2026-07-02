@@ -1,0 +1,41 @@
+type: ContinuousTurret
+name: Yellow Chromatic Wall
+description: Protects against enemy fire. Can be powered for offensive weapons. The color determines the attack(creates a small explosion). Conducts power.
+health: 1450
+armor: 12
+size: 1
+squareSprite: false
+drawer: {
+  type: DrawTurret
+  basePrefix: chromatic-wall-yellow-
+}
+hasPower: true
+conductivePower: true
+rotateSpeed: 160
+smokeEffect: none
+shootSound: explosionTitan
+chargeSound: charge-crow
+shoot: {
+  type: ShootPattern
+  firstShotDelay: 50
+}
+shootY: 0
+shootX: 0
+recoil: 0
+shootCone: 360
+range: 90
+consumes: {
+  power: 2
+}
+shootType: {
+  type: PointLaserBulletType
+  buildingDamageMultiplier: 0.1
+  damage: 9
+  status: burning
+  color: ff0000
+  hitColor: ff0000
+}
+category: defense
+requirements: [
+  ageriolix/6
+  ]
