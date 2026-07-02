@@ -46,6 +46,8 @@ drawer: {
       drawLiquid: hemogen
       padLeft: 5.5
       padTop: 5.5
+      padRight: 23.5
+      padBottom: 23.5
     }
     {
       type: DrawDefault
