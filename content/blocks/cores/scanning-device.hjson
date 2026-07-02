@@ -8,8 +8,8 @@ requirements: [
 ]
 research: glitch
 hasPower: true
-consumes: [
+consumes: {
  power: 0.25
-]
+}
 name: Scanning Device
-description: Uncovers a small area of fog around it, requires power
+description: Uncovers a small area of fog around it, requires power.
