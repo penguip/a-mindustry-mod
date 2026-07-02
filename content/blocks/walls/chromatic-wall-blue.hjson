@@ -23,7 +23,7 @@ shoot: {
 }
 shootY: 0
 shootX: 0
-reload: 100
+reload: 70
 recoil: 0
 shootCone: 360
 range: 90
@@ -37,7 +37,9 @@ shootType: {
         frontColor: 0000ff
         backColor: 0000ff
         trailColor: 0000ff
+        hitColor: 0000ff
         speed: 1.5
+        lifetime: 60
         trailChance: 0
         trailLength: 20
         trailParam: 3
@@ -45,9 +47,10 @@ shootType: {
         width: 8
         damage: 27
         splashDamage: 14
-        splashDamageRadius: 28
+        splashDamageRadius: 18
         weaveMag: 5
         weaveScale: 6
+        despawnEffect: scatheExplosionSmall
 }
 category: defense
 requirements: [
