@@ -1,0 +1,45 @@
+type: GenericCrafter
+name: Ardegrix Recycler
+description: Triggers a neutralization reaction within ardegrix, transforming it back into hemogen. Requires radon.
+size: 2
+squareSprite: false
+category: liquid
+liquidCapacity: 230
+requirements: [
+  zirconium/90
+  silicon/120
+  actinium/85
+  alloy-of-sakura/45
+]
+outputLiquid: hemogen/2
+craftTime: 300
+ignoreLiquidFullness: true
+drawer: {
+  type: drawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: "-bottom"
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: ardegrix
+      padding: 3.25
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: hemogen
+      padding: 3.25
+    }
+    {
+      type: DrawDefault
+    }
+]
+}
+consumes: {
+  power: 1.3333333333
+  liquids: [
+    ardegrix/1
+    radon/0.75
+  ]
+}
