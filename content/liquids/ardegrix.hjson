@@ -1,0 +1,19 @@
+colorFrom: 
+colorTo: 9e554f
+color: 9e3e37
+localizedName: Ardegrix
+description: An extremely dangerous, explosive byproduct of the Bloom Reactor. Spreads into blood.
+flammability: 0
+temperature: 1
+heatCapacity: 0
+viscosity: 0.95
+explosiveness: 0
+boilPoint: 0.5
+status: hemorrhage
+capPuddles: false
+spreadTarget: blood
+blockReactive: false
+type: cellLiquid
+incinerable: false
+alwaysUnlocked: false
+shownPlanets: [keisuris]
