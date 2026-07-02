@@ -1,0 +1,14 @@
+type: Wall
+name: Large Silicon Wall
+description: Protects structures from enemy fire. Blocks lightning and interrupts power connections. 
+size: 2
+health: 1440
+category: defense
+requirements: [
+  silicon/24
+]
+squareSprite: false
+armor: 3
+researchCostMultiplier: 0.5
+insulated: true
+shownPlanets: [keisuris]
