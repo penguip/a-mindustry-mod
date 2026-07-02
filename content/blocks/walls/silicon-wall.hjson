@@ -1,6 +1,6 @@
 type: Wall
 name: Silicon Wall
-description: A wall made from silicon. Blocks lightning and interrupts power connections. 
+description: Protects structures from enemy fire. Blocks lightning and interrupts power connections. 
 size: 1
 health: 360
 category: defense
