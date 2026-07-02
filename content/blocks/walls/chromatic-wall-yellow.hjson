@@ -32,8 +32,10 @@ shootType: {
   type: ExplosionBulletType
   splashDamage: 120
   splashDamageRadius: 90
-  satus: blasted
-  smokeEffect: scatheExplosionSmall
+  status: blasted
+  hitColor: ffff00
+  hitEffect: titanExplosionBig
+  despawnEffect: titanSmokeBig
 }
 category: defense
 requirements: [
