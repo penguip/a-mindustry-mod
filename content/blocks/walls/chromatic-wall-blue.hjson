@@ -39,6 +39,7 @@ shootType: {
         trailColor: 0000ff
         hitColor: 0000ff
         speed: 1.5
+        status: freezing
         lifetime: 60
         trailChance: 0
         trailLength: 20
