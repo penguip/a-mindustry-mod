@@ -44,7 +44,7 @@ drawer: {
     }
   ]
 }
-liquidCapacity: 160
+liquidCapacity: 240
 explosionRadius: 60
 explosionDamage: 20000
 explosionPuddles: 16
@@ -52,4 +52,4 @@ explosionPuddleRange: 20
 explosionPuddleAmount: 350
 explosionPuddleLiquid: ardegrix
 explosionShake: 15
-explodeEffect: [scatheExplosion, impactReactorExplosion
+explodeEffect: [scatheExplosion, impactReactorExplosion]
