@@ -1,6 +1,6 @@
 type: DirectionalForceProjector
 name: Wall of Sakura
-description: Protects structures from enemy fire, sometimes deflecting bullets. Projects a directional wall when supplied with power.
+description: Protects structures from enemy fire, sometimes deflecting bullets. Projects a directional force shield when supplied with power.
 size: 1
 health: 800
 cooldownBrokenBase: 300
