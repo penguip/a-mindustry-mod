@@ -34,8 +34,8 @@ shootType: {
   splashDamageRadius: 90
   status: blasted
   hitColor: ffff00
-  hitEffect: titanExplosionBig
-  despawnEffect: titanSmokeBig
+  hitEffect: titanExplosionLarge
+  despawnEffect: titanSmokeLarge
 }
 category: defense
 requirements: [
