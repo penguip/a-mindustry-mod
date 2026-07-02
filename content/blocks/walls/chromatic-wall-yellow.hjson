@@ -1,4 +1,4 @@
-type: ContinuousTurret
+type: PowerTurret
 name: Yellow Chromatic Wall
 description: Protects against enemy fire. Can be powered for offensive weapons. The color determines the attack(creates a small explosion). Conducts power.
 health: 1450
@@ -21,6 +21,7 @@ shoot: {
 }
 shootY: 0
 shootX: 0
+reload: 420
 recoil: 0
 shootCone: 360
 range: 90
@@ -28,12 +29,10 @@ consumes: {
   power: 2
 }
 shootType: {
-  type: PointLaserBulletType
-  buildingDamageMultiplier: 0.1
-  damage: 9
-  status: burning
-  color: ff0000
-  hitColor: ff0000
+  type: ExplosionBulletType
+  splashDamage: 120
+  splashDamageRadius: 90
+  smokeEffect: scatheExplosionSmall
 }
 category: defense
 requirements: [
