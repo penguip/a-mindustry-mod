@@ -32,6 +32,7 @@ shootType: {
   type: ExplosionBulletType
   splashDamage: 120
   splashDamageRadius: 90
+  satus: blasted
   smokeEffect: scatheExplosionSmall
 }
 category: defense
