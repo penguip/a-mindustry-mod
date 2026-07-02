@@ -1,0 +1,10 @@
+type: Wall
+localizedName: Zirconium Wall
+description: Protects against enemy fire.
+health: 650
+armor: 5
+size: 7
+category: defense
+requirements: [
+  zirconium/6
+]
