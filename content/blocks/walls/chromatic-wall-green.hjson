@@ -21,7 +21,7 @@ shoot: {
 }
 shootY: 0
 shootX: 0
-reload: 900
+reload: 230
 recoil: 0
 shootCone: 360
 range: 90
