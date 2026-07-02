@@ -1,0 +1,41 @@
+type: PowerTurret
+name: Red Chromatic Wall
+description: Protects against enemy fire. Can be powered for offensive weapons. The color determines the attack(fires a continuous single-target laser). Conducts power.
+health: 1010
+armor: 6
+size: 1
+squareSprite: false
+drawer: {
+  type: DrawTurret
+  basePrefix: chromatic-wall-red-
+}
+hasPower: true
+conductivePower: true
+rotateSpeed: 160
+smokeEffect: none
+shootSound: beamLustre
+shootY: 0
+shootX: 0
+recoil: 0
+shootCone: 360
+range: 90
+consumes: {
+  power: 2
+}
+shootType: {
+  type: BasicBulletType
+  speed: 0
+  lifetime: 1
+  splashDamage: 1
+  splashDamageRadius: 64
+  splashDamagePierce: true
+  damage: 0
+  status: slow
+  statusDuration: 180
+  width: 0.00001
+  height: 0.00001
+}
+category: defense
+requirements: [
+  ageriolix/6
+  ]
