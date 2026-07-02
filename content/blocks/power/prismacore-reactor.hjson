@@ -52,5 +52,10 @@ drawer: {
     {
       type: DrawDefault
     }
+    {
+      type: DrawGlowRegion
+      suffix: -glow-r
+      color: ff7ac8
+    }
   ]
 }
