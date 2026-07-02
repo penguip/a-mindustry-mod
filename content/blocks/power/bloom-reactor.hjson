@@ -1,0 +1,55 @@
+type: ConsumeGenerator
+localizedName: Bloom Reactor
+description: Generates large amounts of power from exciting alloy of sakura using neoplasm, water, hemogen, and radon. Outputs extremely dangerous ardegrix as a byproduct, and will explode violently if the ardegrix is not removed.
+size: 4
+health: 4000
+category: power
+squareSprite: false
+requirements: [
+  silicon/450
+  zirconium/380
+  actinium/250
+  plastanium/160
+  alloy-of-sakura/135
+]
+hasLiquids: true
+consumes: {
+  item: alloy-of-sakura/1
+  liquids: [
+    hemogen/2
+    water/3
+    neoplasm/1.3
+    radon/3
+  ]
+}
+outputLiquid: ardegrix/1
+consumeTime: 600
+powerProduction: 103.333333
+explodeOnFull: true
+generateEffect: generatespark
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      color: 60c9ad
+    }
+  ]
+}
+liquidCapacity: 160
+explosionRadius: 60
+explosionDamage: 20000
+explosionPuddles: 16
+explosionPuddleRange: 20
+explosionPuddleAmount: 350
+explosionPuddleLiquid: ardegrix
+explosionShake: 15
+explodeEffect: [scatheExplosion, impactReactorExplosion
