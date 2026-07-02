@@ -14,6 +14,12 @@ conductivePower: true
 rotateSpeed: 160
 smokeEffect: none
 loopSound: beamLustre
+shootSound: explosionObviate
+chargeSound: charge-crow
+shoot: {
+  type: ShootPattern
+  firstShotDelay: 50
+}
 shootY: 0
 shootX: 0
 recoil: 0
@@ -26,7 +32,9 @@ shootType: {
   type: PointLaserBulletType
   buildingDamageMultiplier: 0.1
   damage: 9
-  hitColor: dcc6c6
+  status: burning
+  color: ff0000
+  hitColor: ff0000
 }
 category: defense
 requirements: [
