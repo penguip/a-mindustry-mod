@@ -21,7 +21,7 @@ shoot: {
 }
 shootY: 0
 shootX: 0
-reload: 420
+reload: 900
 recoil: 0
 shootCone: 360
 range: 90
@@ -29,14 +29,85 @@ consumes: {
   power: 2
 }
 shootType: {
-  type: ExplosionBulletType
-  splashDamage: 120
-  splashDamageRadius: 90
-  status: blasted
-  hitColor: ffff00
-  killShooter: false
-  hitEffect: titanExplosionLarge
-  despawnEffect: titanSmokeLarge
+  type: BasicBulletType
+      speed: 10
+      lifetime: 16
+      width: 0
+      height: 0
+      damage: 0
+      spawnBullets: [
+        {
+          type: BasicBulletType
+          recoil: 2
+          chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
+          speed: 3
+          status: electrified
+          lifetime: 5
+          backColor: 00ff00
+          frontColor: 00ff00
+          trailColor: 00ff00
+          damage: 140
+          pierce: true
+          pierceBuilding: true
+          sprite: large-orb
+          width: 6
+          height: 6
+          trailWidth: 2
+          trailLength: 9
+          shootEffect: shootTitan
+          smokeEffect: shootSmokeTitan
+          fragBullets: 1
+          fragVelocityMin: 1
+          fragVelocityMax: 1
+          fragLifeMin: 1
+          fragLifeMax: 1
+          fragRandomSpread: 0
+          fragOnHit: false
+          despawnHit: true
+          buildingDamageMultiplier: 0.65
+          fragBullet: {
+            type: BasicBulletType
+            frontColor: 00ff00
+            backColor: 00ff00
+            trailColor: 00ff00
+            sprite: large-orb
+            width: 12
+            height: 12
+            speed: 1
+            lifetime: 75
+            pierce: true
+            pierceBuilding: true
+            pierceCap: 3
+            damage: 90
+            trailEffect: missileTrail
+            trailInterval: 3
+            trailParam: 2
+            trailWidth: 1
+            trailLength: 11
+            despawnSound: shootEnergyField
+            hitSound: shootEnergyField
+            bulletInterval: 4
+            status: electrified
+            intervalRandomSpread: 360
+            intervalBullets: 4
+            intervalAngle: 360
+            intervalSpread: 300
+            buildingDamageMultiplier: 0.65
+            intervalBullet: {
+              type: LightningBulletType
+              damage: 5
+              lightningColor: 00ff00
+              lightningLength: 8
+              hitSound: shootEnergyField
+              status: electrified
+              despawnSound: shootEnergyField
+              pierce: true
+              pierceCap: 2
+              buildingDamageMultiplier: 0.65
+            }
+          }
+        }
+     ]
 }
 category: defense
 requirements: [
