@@ -55,7 +55,17 @@ drawer: {
     {
       type: DrawGlowRegion
       suffix: -glow-r
-      color: ff7ac8
+      color: d6545d
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow-y
+      color: d6c557
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow-g
+      color: 83d68d
     }
   ]
 }
