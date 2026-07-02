@@ -1,13 +1,13 @@
 colorFrom: 4fc29d
 colorTo: a2c29f
-color: 9e3e37
+color: 70c28e
 localizedName: Ardegrix
 description: An extremely dangerous, explosive byproduct of the Bloom Reactor. Spreads into blood.
-flammability: 0
+flammability: 1.2
 temperature: 1
 heatCapacity: 0
-viscosity: 0.95
-explosiveness: 0
+viscosity: 0.99
+explosiveness: 1.5
 boilPoint: 0.5
 status: hemorrhage
 capPuddles: false
