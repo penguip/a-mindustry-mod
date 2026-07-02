@@ -40,7 +40,7 @@ drawer: {
     {
       type: DrawGlowRegion
       suffix: -glow
-      color: 60c9ad
+      color: ff7ac8
     }
   ]
 }
