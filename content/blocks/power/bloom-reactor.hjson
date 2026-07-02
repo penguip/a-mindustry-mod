@@ -3,6 +3,8 @@ localizedName: Bloom Reactor
 description: Generates large amounts of power from exciting alloy of sakura using neoplasm, water, hemogen, and radon. Outputs extremely dangerous ardegrix as a byproduct, and will explode violently if the ardegrix is not removed.
 size: 4
 health: 4000
+ambientSound: loopThoriumReactor
+ambientSoundVolume: 0.75
 category: power
 squareSprite: false
 requirements: [
