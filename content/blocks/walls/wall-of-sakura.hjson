@@ -1,15 +1,12 @@
-type: ShieldedWall
+type: ShieldWall
 name: Wall of Sakura
 description: Protects structures from enemy fire, sometimes deflecting bullets. Projects a force shield when supplied with power.
 size: 1
 health: 800
-cooldownBrokenBase: 600
-cooldownNormal: 300
-cooldownLiquid: 300
-length: 4
-width: 4
-deflectChance: 0.15
-padSize: 1
+outputsPower: false
+hasPower: true
+conductivePower: true
+chanceDeflect: 15
 shieldHealth: 300
 category: defense
 requirements: [
