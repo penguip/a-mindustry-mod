@@ -37,6 +37,11 @@ drawer: {
       suffix: -bottom
     }
     {
+      type: DrawLiquidTile
+      drawLiquid: ardegrix
+      padding: 13.75
+    }
+    {
       type: DrawDefault
     }
     {
