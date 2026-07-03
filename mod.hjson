@@ -36,5 +36,21 @@ contentOrder: [
   silicone-bore
   fissure-rig
   infernal-bore
+  flesh-cutter
+  plasm-syringe
   bile-pump
+  radon-condenser
+  mover
+  flux-mover
+  actinium-conveyo
+  crossmover
+  splitter
+  highway
+  filter
+  inverse-filter
+  logic-unit-overflow
+  logic-unit-underflow
+  cargo-station
+  cargo-depot
+  floral-railgun
 ]
