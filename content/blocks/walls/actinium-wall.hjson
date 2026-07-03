@@ -1,6 +1,6 @@
 type: Wall
 localizedName: Actinium Wall
-description: Protects against enemy fire. Durable
+description: Protects against enemy fire. Durable.
 health: 1260
 armor: 11
 size: 1
