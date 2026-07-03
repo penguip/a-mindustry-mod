@@ -1,0 +1,115 @@
+type: PowerTurret
+name: Large Green Chromatic Wall
+description: Protects against enemy fire. Can be powered for offensive weapons. The color determines the attack(launches a ball lightning). Conducts power.
+health: 5800
+armor: 12
+size: 2
+squareSprite: false
+drawer: {
+  type: DrawTurret
+  basePrefix: chromatic-wall-green-large-
+}
+hasPower: true
+conductivePower: true
+rotateSpeed: 160
+smokeEffect: none
+shootSound: explosionAfflict
+chargeSound: charge-crow
+shoot: {
+  type: ShootPattern
+  firstShotDelay: 50
+}
+shootY: 0
+shootX: 0
+reload: 230
+recoil: 0
+shootCone: 360
+range: 180
+consumes: {
+  power: 2
+}
+shootType: {
+  type: BasicBulletType
+      speed: 10
+      lifetime: 16
+      width: 0
+      height: 0
+      damage: 0
+      spawnBullets: [
+        {
+          type: BasicBulletType
+          recoil: 2
+          chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
+          speed: 3
+          status: electrified
+          lifetime: 5
+          backColor: 00ff00
+          frontColor: 00ff00
+          trailColor: 00ff00
+          damage: 560
+          pierce: true
+          pierceBuilding: true
+          sprite: large-orb
+          width: 6
+          height: 6
+          trailWidth: 2
+          trailLength: 9
+          shootEffect: shootTitan
+          smokeEffect: shootSmokeTitan
+          fragBullets: 1
+          fragVelocityMin: 1
+          fragVelocityMax: 1
+          fragLifeMin: 1
+          fragLifeMax: 1
+          fragRandomSpread: 0
+          fragOnHit: false
+          despawnHit: true
+          buildingDamageMultiplier: 0.65
+          fragBullet: {
+            type: BasicBulletType
+            frontColor: 00ff00
+            backColor: 00ff00
+            trailColor: 00ff00
+            sprite: large-orb
+            width: 12
+            height: 12
+            speed: 1
+            lifetime: 165
+            pierce: true
+            pierceBuilding: true
+            pierceCap: 3
+            damage: 360
+            trailEffect: missileTrail
+            trailInterval: 3
+            trailParam: 2
+            trailWidth: 1
+            trailLength: 11
+            despawnSound: shootEnergyField
+            hitSound: shootEnergyField
+            bulletInterval: 4
+            status: electrified
+            intervalRandomSpread: 360
+            intervalBullets: 4
+            intervalAngle: 360
+            intervalSpread: 300
+            buildingDamageMultiplier: 0.65
+            intervalBullet: {
+              type: LightningBulletType
+              damage: 20
+              lightningColor: 00ff00
+              lightningLength: 8
+              hitSound: shootEnergyField
+              status: electrified
+              despawnSound: shootEnergyField
+              pierce: true
+              pierceCap: 2
+              buildingDamageMultiplier: 0.65
+            }
+          }
+        }
+     ]
+}
+category: defense
+requirements: [
+  ageriolix/24
+  ]
