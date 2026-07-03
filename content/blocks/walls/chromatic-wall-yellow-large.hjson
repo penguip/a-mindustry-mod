@@ -1,0 +1,44 @@
+type: PowerTurret
+name: Yellow Chromatic Wall
+description: Protects against enemy fire. Can be powered for offensive weapons. The color determines the attack(creates a small explosion). Conducts power.
+health: 5800
+armor: 12
+size: 2
+squareSprite: false
+drawer: {
+  type: DrawTurret
+  basePrefix: chromatic-wall-yellow-large-
+}
+hasPower: true
+conductivePower: true
+rotateSpeed: 160
+smokeEffect: none
+shootSound: explosionTitan
+chargeSound: charge-crow
+shoot: {
+  type: ShootPattern
+  firstShotDelay: 50
+}
+shootY: 0
+shootX: 0
+reload: 420
+recoil: 0
+shootCone: 360
+range: 180
+consumes: {
+  power: 2
+}
+shootType: {
+  type: ExplosionBulletType
+  splashDamage: 480
+  splashDamageRadius: 180
+  status: blasted
+  hitColor: ffff00
+  killShooter: false
+  hitEffect: titanExplosionLarge
+  despawnEffect: titanSmokeLarge
+}
+category: defense
+requirements: [
+  ageriolix/24
+  ]
