@@ -10,8 +10,8 @@ chanceDeflect: 15
 shieldHealth: 1200
 category: defense
 requirements: [
-  alloy-of-sakura/4
-  iron/2
+  alloy-of-sakura/16
+  iron/8
 ]
 armor: 8
 consumes: {
