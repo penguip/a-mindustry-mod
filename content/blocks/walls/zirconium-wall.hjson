@@ -3,9 +3,9 @@ localizedName: Zirconium Wall
 description: Protects against enemy fire. Entropic residue lets it delfect bullets and emit electric arcs.
 health: 650
 armor: 5
-chanceDeflect: 15
-lightningChance: 0.15
-lightningDamage: 7.5
+chanceDeflect: 5
+lightningChance: 0.05
+lightningDamage: 5
 lightningColor: c7b55d
 size: 7
 category: defense
