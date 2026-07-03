@@ -3,12 +3,12 @@ name: Autohealer
 description: Repairs allied blocks. Uses power instead of blood. Heals faster than a Wound Sealer, and can be boosted with alloy of sakura.
 size: 2
 range: 11
-baseColor: 
+baseColor: c7b55d
 squareSprite: false
 effect: {
   type: ParticleEffect
-  colorFrom: 85c278
-  colorTo: 69a25e
+  colorFrom: c7b55d
+  colorTo: c77917
   particles: 3
   line: true
   length: 4
