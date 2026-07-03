@@ -1,0 +1,16 @@
+type: Battery
+localizedName: Energy Container
+description: Stores energy in times of surplus and outputs it during extensive use.
+size: 2
+health: 250
+squareSprite: false
+consumes: {
+  powerBuffered: 25000
+}
+requirements: [
+  iron/60
+  osmium/40
+  contrinum/30
+]
+category: power
+fogRadius: 1
