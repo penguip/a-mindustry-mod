@@ -26,7 +26,7 @@ recoil: 0
 shootCone: 360
 range: 180
 consumes: {
-  power: 8
+  power: 0.6666667
 }
 shootType: {
   type: PointLaserBulletType
