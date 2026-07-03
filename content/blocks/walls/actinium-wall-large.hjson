@@ -3,7 +3,7 @@ localizedName: Large Actinium Wall
 description: Protects against enemy fire. Incredibly durable.
 health: 5040
 armor: 44
-size: 1
+size: 2
 category: defense
 requirements: [
   actinium/24
