@@ -1,5 +1,5 @@
 type: Wall
-localizedName: Zirconium Wall
+localizedName: Large Zirconium Wall
 description: Protects against enemy fire. Entropic residue lets it deflect projectiles and emit electric arcs.
 health: 2800
 lightningChance: 0.05
