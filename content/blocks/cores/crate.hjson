@@ -1,0 +1,11 @@
+type: StorageBlock
+localizedName: Crate
+description: Stores a decent amount of items of each type. Adds to a core's storage capacity. Contents can be retrieved via an offloader.
+size: 2
+health: 450
+itemCapacity: 350
+category: effect
+requirements: [
+  iron/30
+  yttrium/70
+]
