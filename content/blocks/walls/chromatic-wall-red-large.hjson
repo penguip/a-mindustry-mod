@@ -3,7 +3,7 @@ name: Large Red Chromatic Wall
 description: Protects against enemy fire. Can be powered for offensive weapons. The color determines the attack(fires a continuous single-target laser). Conducts power.
 health: 5800
 armor: 12
-size: 1
+size: 2
 squareSprite: false
 drawer: {
   type: DrawTurret
