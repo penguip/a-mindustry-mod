@@ -1,5 +1,5 @@
 type: PowerTurret
-name: Blue Chromatic Wall
+name: Large Blue Chromatic Wall
 description: Protects against enemy fire. Can be powered for offensive weapons. The color determines the attack(fires cold plasma missiles). Conducts power.
 health: 5800
 armor: 12
