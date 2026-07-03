@@ -46,7 +46,7 @@ shootType: {
         trailParam: 3
         shieldDamageMultiplier: 1.5
         width: 8
-        damage: 27
+        damage: 14
         splashDamage: 14
         splashDamageRadius: 18
         weaveMag: 5
