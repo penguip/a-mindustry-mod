@@ -5,7 +5,7 @@ health: 650
 armor: 5
 lightningChance: 0.15
 lightningDamage: 7.5
-lightningColor: cf9991
+lightningColor: c7b55d
 size: 7
 category: defense
 requirements: [
