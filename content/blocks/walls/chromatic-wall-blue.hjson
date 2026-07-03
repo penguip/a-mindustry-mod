@@ -28,7 +28,7 @@ recoil: 0
 shootCone: 360
 range: 90
 consumes: {
-  power: 2
+  power: 0.33333333333
 }
 shootType: {
   type: MissileBulletType
