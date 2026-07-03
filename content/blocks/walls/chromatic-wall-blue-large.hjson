@@ -1,0 +1,59 @@
+type: PowerTurret
+name: Blue Chromatic Wall
+description: Protects against enemy fire. Can be powered for offensive weapons. The color determines the attack(fires cold plasma missiles). Conducts power.
+health: 5800
+armor: 12
+size: 2
+squareSprite: false
+drawer: {
+  type: DrawTurret
+  basePrefix: chromatic-wall-blue-large-
+}
+hasPower: true
+conductivePower: true
+rotateSpeed: 160
+smokeEffect: none
+shootSound: shootMalign
+chargeSound: charge-crow
+shoot: {
+  type: ShootPattern
+  firstShotDelay: 50
+  shots: 5
+  shotDelay: 5
+}
+shootY: 0
+shootX: 0
+reload: 70
+recoil: 0
+shootCone: 360
+range: 180
+consumes: {
+  power: 8
+}
+shootType: {
+  type: MissileBulletType
+        despawnSound: explosionQuad
+        length: 12
+        frontColor: 0000ff
+        backColor: 0000ff
+        trailColor: 0000ff
+        hitColor: 0000ff
+        speed: 1.5
+        status: freezing
+        lifetime: 120
+        trailChance: 0
+        trailLength: 20
+        trailParam: 3
+        shieldDamageMultiplier: 1.5
+        width: 8
+        damage: 56
+        splashDamage: 56
+        splashDamageRadius: 18
+        weaveMag: 5
+        weaveScale: 6
+        despawnEffect: scatheExplosionSmall
+}
+category: defense
+requirements: [
+  ageriolix/24
+  ]
