@@ -1,0 +1,19 @@
+type: ShieldWall
+name: Large Wall of Sakura
+description: Protects structures from enemy fire, sometimes deflecting bullets. Projects a force shield when supplied with power.
+size: 2
+health: 800
+outputsPower: false
+hasPower: true
+conductivePower: true
+chanceDeflect: 15
+shieldHealth: 1200
+category: defense
+requirements: [
+  alloy-of-sakura/4
+  iron/2
+]
+armor: 8
+consumes: {
+  power: 4
+}
