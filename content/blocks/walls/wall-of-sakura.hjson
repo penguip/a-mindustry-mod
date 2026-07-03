@@ -15,5 +15,5 @@ requirements: [
 ]
 armor: 8
 consumes: {
-  power: 1
+  power: 0.083333333333
 }
