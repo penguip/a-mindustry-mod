@@ -1,0 +1,42 @@
+type: ContinuousTurret
+name: Large Red Chromatic Wall
+description: Protects against enemy fire. Can be powered for offensive weapons. The color determines the attack(fires a continuous single-target laser). Conducts power.
+health: 1450
+armor: 12
+size: 1
+squareSprite: false
+drawer: {
+  type: DrawTurret
+  basePrefix: chromatic-wall-red-large
+}
+hasPower: true
+conductivePower: true
+rotateSpeed: 160
+smokeEffect: none
+loopSound: beamLustre
+shootSound: explosionObviate
+chargeSound: charge-crow
+shoot: {
+  type: ShootPattern
+  firstShotDelay: 50
+}
+shootY: 0
+shootX: 0
+recoil: 0
+shootCone: 360
+range: 180
+consumes: {
+  power: 8
+}
+shootType: {
+  type: PointLaserBulletType
+  buildingDamageMultiplier: 0.1
+  damage: 36
+  status: burning
+  color: ff0000
+  hitColor: ff0000
+}
+category: defense
+requirements: [
+  ageriolix/24
+  ]
