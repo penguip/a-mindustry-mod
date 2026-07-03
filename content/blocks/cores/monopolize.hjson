@@ -1,0 +1,22 @@
+type: BuildTurret
+localizedName: Monopolize
+description: Advanced support turret. Automatically rebuilds destroyed structures and aids nearby units with construction.
+size: 3
+health: 1000
+squareSprite: false
+requirements: [
+  silicon/200
+  contrinum/150
+  actinium/150
+]
+consumes: {
+  power: 1.25
+  liquids: [
+    radon/0.25
+  ]
+}
+liquidCapacity: 60
+buildSpeed: 2.15
+range: 200
+category: effect
+outlineColor: 2C2A36
