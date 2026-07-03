@@ -2,7 +2,7 @@ type: RegenProjector
 localizedName: Wound Sealer
 description: Seals wounds in flesh and holes in machines. Requires blood.
 reload: 80
-healPercent: 0.3
+healPercent: 0.03
 size: 1
 category: effect
 range: 5
