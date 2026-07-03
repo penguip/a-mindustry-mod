@@ -1,0 +1,12 @@
+type: StorageBlock
+localizedName: Warehouse
+description: Stores a large amount of items of each type. Adds to a core's storage capacity. Contents can be retrieved via an offloader.
+size: 3
+health: 900
+itemCapacity: 1200
+category: effect
+requirements: [
+  iron/150
+  zirconium/65
+  actinium/80
+]
