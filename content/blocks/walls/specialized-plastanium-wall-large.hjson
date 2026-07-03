@@ -1,0 +1,15 @@
+type: Wall
+name: Large Specialized Plastanium Wall
+description: Protects structures from enemy fire. Capable of absorbing lasers and conducting power.
+absorbLasers: true
+health: 2680
+armor: 1
+requirements: [
+  plastanium/16
+  iron/8
+]
+hasPower: true
+conductivePower: true
+squareSprite: false
+category: defense
+size: 2
