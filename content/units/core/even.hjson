@@ -5,6 +5,30 @@ flying: true
 health: 900
 outlineColor: 282C36
 armor: 5
+parts: [
+  {
+    type: FlarePart
+    radius: 3
+    radiusTo: 15
+    innerScl: 0.75
+    color1: ffa56e
+    color2: ffbc83
+    spinSpeed: 1
+    x: -5
+    y: -1
+  }
+  {
+    type: FlarePart
+    radius: 3
+    radiusTo: 15
+    innerScl: 0.75
+    color1: ffa56e
+    color2: ffbc83
+    spinSpeed: 1
+    x: 5
+    y: -1
+  }
+]
 engineOffset: 5
 engineSize: 2.5
 drag: 0.2
