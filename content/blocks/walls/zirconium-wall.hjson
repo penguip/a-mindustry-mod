@@ -7,7 +7,7 @@ chanceDeflect: 5
 lightningChance: 0.05
 lightningDamage: 5
 lightningColor: c7b55d
-size: 7
+size: 1
 category: defense
 requirements: [
   zirconium/6
