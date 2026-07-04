@@ -148,6 +148,33 @@ weapons: [
     ]
   }
 }
+{
+  shootSound: explosionObviate
+  chargeSound: chargeVela
+  reload: 250
+  x: -5
+  mirror: false
+  bullet: {
+    type: ArtilleryBulletType
+    collidesAir: true
+    frontColor: ffbc83
+    backColor: ffa56e
+    width: 20
+    height: 20
+    buildingDamageMultiplier: 0.01
+    hitSound: explosionTitan
+    hitEffect: titanSmoke
+    hitColor: ffbc83
+    despawnEffect: titanExplosion
+    despawnHit: true
+    status: burning
+    statusDuration: 255
+    speed: 2
+    lifetime: 100
+    splashDamage: 156
+    splashDamageRadius: 63
+    }
+}
 ]
 range: 196
 research: glitch
