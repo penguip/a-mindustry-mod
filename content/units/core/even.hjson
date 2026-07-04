@@ -34,7 +34,7 @@ weapons: [
   inaccuracy: 5
   mirror: true
   alternate: false
-  shootCone: 180
+  shootCone: 25
   useAttackRange: true
   rotationLimit: 180
   bullet: {
@@ -86,6 +86,21 @@ weapons: [
     splashDamage: 136
     splashDamageRadius: 47
     }
+}
+{
+  reload: 10
+  mirror: false
+  x: -5
+  shootSound: shootMalign
+  bullet: {
+    type: LaserBulletType
+    damage: 38
+    length: 196
+    colors: [
+    ffa56e
+    ffbc83
+    ]
+  }
 }
 ]
 range: 196
