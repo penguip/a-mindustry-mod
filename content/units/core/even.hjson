@@ -31,10 +31,22 @@ parts: [
 ]
 engines: [
   {
-    radius: 2
+    radius: 1.9
     x: 0
     y: -8
     rotation: 90
+  }
+  {
+    radius: 1.75
+    x: 5
+    y: -9
+    rotation: 45
+  }
+  {
+    radius: 1.75
+    x: -5
+    y: -9
+    rotation: -45
   }
 ]
 drag: 0.2
