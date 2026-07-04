@@ -1,0 +1,154 @@
+name: Prime
+description: Protects the Malware core from enemies. Builds structures. 
+speed: 6.8
+flying: true
+health: 1400
+outlineColor: 282C36
+armor: 8
+parts: [
+  {
+    type: FlarePart
+    radius: 3
+    radiusTo: 15
+    innerScl: 0.75
+    color1: ffa56e
+    color2: ffbc83
+    spinSpeed: 1
+    x: -5
+    y: -1
+  }
+  {
+    type: FlarePart
+    radius: 3
+    radiusTo: 15
+    innerScl: 0.75
+    color1: ffa56e
+    color2: ffbc83
+    spinSpeed: 1
+    x: 5
+    y: -1
+  }
+]
+engines: [
+  {
+    radius: 1.9
+    x: 0
+    y: -8
+    rotation: 90
+  }
+  {
+    radius: 1.75
+    x: 5
+    y: -9
+    rotation: 45
+  }
+  {
+    radius: 1.75
+    x: -5
+    y: -9
+    rotation: 135
+  }
+]
+drag: 0.2
+engineSize: 0
+accel: 0.3
+canBuild: true
+mineWalls: true
+mineFloor: false
+canBuild: true
+fogRadius: 0
+rotateSpeed: 13.4
+circleTarget: true
+faceTarget: true
+targetAir: true
+mineSpeed: 8
+mineTier: 2
+buildSpeed: 1.8
+itemCapacity: 80
+useUnitCap: true
+hitSize: 11.8
+weapons: [
+  {
+  outlineColor: 282C36
+  y: 3
+  x: -2
+  reload: 7.5
+  shootSound: shootCleroi
+  inaccuracy: 5
+  mirror: true
+  alternate: false
+  shootCone: 25
+  useAttackRange: true
+  rotationLimit: 180
+  bullet: {
+    type: BasicBulletType
+    frontColor: ffbc83
+    backColor: ffa56e
+    damage: 20
+    speed: 5.7
+    drag: 0.07
+    despawnHit: true
+    splashDamage: 34
+    buildingDamageMultiplier: 0.01
+    splashDamageRadius: 24
+    hitSound: explosionCleroi
+    lifetime: 80
+    hitEffect: [
+        {
+        type: WaveEffect
+        colorFrom: ffbc83
+        colorTo: ffa56e
+        strokeFrom: 5
+        sizeTo: 20
+        lifetime: 10
+        }
+      ]
+  }
+}
+{
+  shootSound: shootTank
+  reload: 250
+  mirror: false
+  bullet: {
+    type: ArtilleryBulletType
+    collidesAir: true
+    frontColor: ffbc83
+    backColor: ffa56e
+    width: 20
+    height: 20
+    buildingDamageMultiplier: 0.01
+    hitSound: explosionTitan
+    hitEffect: titanSmoke
+    hitColor: ffbc83
+    despawnEffect: titanExplosion
+    despawnHit: true
+    status: burning
+    statusDuration: 255
+    speed: 2
+    lifetime: 100
+    splashDamage: 156
+    splashDamageRadius: 63
+    }
+}
+{
+  reload: 20
+  mirror: true
+  alternate: false  
+  x: -5
+  y: 5
+  shootSound: shootMalign
+  bullet: {
+    type: LaserBulletType
+    damage: 54
+    length: 196
+    buildingDamageMultiplier: 0.01
+    colors: [
+    ffa56e
+    ffbc83
+    ]
+  }
+}
+]
+range: 196
+research: glitch
+alwaysUnlocked: true
