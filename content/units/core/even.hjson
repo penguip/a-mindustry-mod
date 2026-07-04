@@ -88,6 +88,6 @@ weapons: [
     }
 }
 ]
-range: 45
+range: 196
 research: glitch
 alwaysUnlocked: true
