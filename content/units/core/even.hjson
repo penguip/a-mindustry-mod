@@ -1,0 +1,56 @@
+name: Even
+description: Protects the Error core from enemies. Builds structures. 
+speed: 5
+flying: true
+health: 900
+outlineColor: 282C36
+armor: 5
+engineOffset: 5
+engineSize: 2.5
+drag: 0.2
+accel: 0.3
+canBuild: true
+mineWalls: true
+mineFloor: false
+canBuild: true
+fogRadius: 0
+rotateSpeed: 12.3
+circleTarget: true
+faceTarget: true
+targetAir: true
+mineSpeed: 7.5
+mineTier: 1
+buildSpeed: 1.65
+itemCapacity: 60
+useUnitCap: true
+hitSize: 9.8
+weapons: [{
+  outlineColor: 282C36
+  y: 3
+  x: -2
+  reload: 15
+  shootSound: shootCleroi
+  inaccuracy: 5
+  mirror: true
+  alternate: false
+  shootCone: 180
+  useAttackRange: true
+  rotationLimit: 180
+  bullet: {
+    type: LaserBulletType
+    damage: 20
+    buildingDamageMultiplier: 0.01
+    length: 45
+    width: 10
+    lifetime: 30
+    pierceBuildings: false
+    colors: [
+      FFA56E
+      FFBC83
+    ]
+    smokeEffect: hitLaserColor
+  }
+}]
+range: 45
+research: glitch
+alwaysUnlocked: true
