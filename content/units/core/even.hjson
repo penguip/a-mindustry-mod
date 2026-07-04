@@ -29,8 +29,14 @@ parts: [
     y: -1
   }
 ]
-engineOffset: 5
-engineSize: 2.5
+engines: [
+  {
+    radius: 2
+    x: 0
+    y: -8
+    rotation: 90
+  }
+]
 drag: 0.2
 accel: 0.3
 canBuild: true
