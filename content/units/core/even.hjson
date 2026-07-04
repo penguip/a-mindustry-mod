@@ -28,7 +28,7 @@ weapons: [{
   outlineColor: 282C36
   y: 3
   x: -2
-  reload: 15
+  reload: 7.5
   shootSound: shootCleroi
   inaccuracy: 5
   mirror: true
@@ -37,18 +37,16 @@ weapons: [{
   useAttackRange: true
   rotationLimit: 180
   bullet: {
-    type: LaserBulletType
-    damage: 20
-    buildingDamageMultiplier: 0.01
-    length: 45
-    width: 10
-    lifetime: 30
-    pierceBuildings: false
-    colors: [
-      FFA56E
-      FFBC83
-    ]
-    smokeEffect: hitLaserColor
+    type: BasicBulletType
+    frontColor: ffbc83
+    backColor: ffa56e
+    damage: 16
+    speed: 5.7
+    drag: 0.07
+    splashDamage: 18
+    splashDamageRadius: 18
+    despawnSound: explosionCleroi
+    lifetime: 80
   }
 }]
 range: 45
