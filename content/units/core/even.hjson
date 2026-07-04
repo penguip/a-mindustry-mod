@@ -65,6 +65,7 @@ weapons: [
 {
   shootSound: shootTank
   reload: 250
+  mirror: false
   bullet: {
     type: ArtilleryBulletType
     collidesAir: true
