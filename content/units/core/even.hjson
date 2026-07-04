@@ -75,6 +75,7 @@ weapons: [
     buildingDamageMultiplier: 0.01
     hitSound: explosionTitan
     hitEffect: titanSmoke
+    hitColor: ffbc83
     despawnEffect: titanExplosion
     despawnHit: true
     status: burning
