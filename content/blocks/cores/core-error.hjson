@@ -1,0 +1,21 @@
+type: CoreBlock
+size: 4
+localizedName: Core: Error
+description: Core of the base. Decently armored. Stores a sizeable amount of items.
+health: 4750
+armor: 8
+unitType: even
+requirements: [
+ yttrium/3000
+ osmium/3000
+ contrinum/1000
+ oxide/1000
+ iron/1000
+]
+incinerateNonBuildable: true
+category: effect
+isFirstTier: true
+squareSprite: false
+alwaysUnlocked: true
+itemCapacity: 9800
+unitCapModifier: 15
