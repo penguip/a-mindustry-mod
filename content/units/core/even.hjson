@@ -24,7 +24,8 @@ buildSpeed: 1.65
 itemCapacity: 60
 useUnitCap: true
 hitSize: 9.8
-weapons: [{
+weapons: [
+  {
   outlineColor: 282C36
   y: 3
   x: -2
@@ -43,11 +44,12 @@ weapons: [{
     damage: 16
     speed: 5.7
     drag: 0.07
+    despawnHit: true
     splashDamage: 18
     splashDamageRadius: 18
-    despawnSound: explosionCleroi
+    hitSound: explosionCleroi
     lifetime: 80
-    despawnEffect: [
+    hitEffect: [
         {
         type: WaveEffect
         colorFrom: ffbc83
@@ -58,7 +60,26 @@ weapons: [{
         }
       ]
   }
-}]
+}
+{
+  shootSound: shootTank
+  reload: 250
+  bullet: {
+    type: ArtilleryBulletType
+    collidesAir: true
+    frontColor: ffbc83
+    backColor: ffa56e
+    width: 20
+    height: 20
+    hitSound: explosionTitan
+    hitEffect: titanSmoke
+    despawnEffect: titanExplosion
+    despawnHit: true
+    status: burning
+    statusDuration: 255
+    speed: 2
+    lifetime: 200
+]
 range: 45
 research: glitch
 alwaysUnlocked: true
