@@ -96,6 +96,7 @@ weapons: [
     type: LaserBulletType
     damage: 38
     length: 196
+    buildingDamageMultiplier: 0.01
     colors: [
     ffa56e
     ffbc83
