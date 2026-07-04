@@ -81,6 +81,8 @@ weapons: [
     lifetime: 100
     splashDamage: 136
     splashDamageRadius: 47
+    }
+}
 ]
 range: 45
 research: glitch
