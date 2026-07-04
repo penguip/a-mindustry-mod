@@ -46,10 +46,11 @@ engines: [
     radius: 1.75
     x: -5
     y: -9
-    rotation: -45
+    rotation: 135
   }
 ]
 drag: 0.2
+engineSize: 0
 accel: 0.3
 canBuild: true
 mineWalls: true
