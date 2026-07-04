@@ -47,6 +47,16 @@ weapons: [{
     splashDamageRadius: 18
     despawnSound: explosionCleroi
     lifetime: 80
+    despawnEffect: [
+        {
+        type: WaveEffect
+        colorFrom: ffbc83
+        colorTo: ffa56e
+        strokeFrom: 5
+        sizeTo: 20
+        lifetime: 10
+        }
+      ]
   }
 }]
 range: 45
