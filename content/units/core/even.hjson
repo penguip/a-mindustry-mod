@@ -78,7 +78,9 @@ weapons: [
     status: burning
     statusDuration: 255
     speed: 2
-    lifetime: 200
+    lifetime: 100
+    splashDamage: 136
+    splashDamageRadius: 47
 ]
 range: 45
 research: glitch
