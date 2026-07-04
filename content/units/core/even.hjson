@@ -46,6 +46,7 @@ weapons: [
     drag: 0.07
     despawnHit: true
     splashDamage: 18
+    buildingDamageMultiplier: 0.01
     splashDamageRadius: 18
     hitSound: explosionCleroi
     lifetime: 80
@@ -71,6 +72,7 @@ weapons: [
     backColor: ffa56e
     width: 20
     height: 20
+    buildingDamageMultiplier: 0.01
     hitSound: explosionTitan
     hitEffect: titanSmoke
     despawnEffect: titanExplosion
