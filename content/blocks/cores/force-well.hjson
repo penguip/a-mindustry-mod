@@ -1,0 +1,34 @@
+type: ForceProjector
+name: Force Well
+description: Creates a decagonal force shield when supplied with power, absorbing most bullets. Can use alloy of sakura to boost efficiency.
+size: 3
+squareSprite: false
+shieldHealth: 800
+cooldownNormal: 2
+cooldownLiquid: 1.25
+cooldownBrokenBase: 0.35
+coolantConsumption: 0.1
+category: effect
+requirements: [
+  yttrium/120
+  item-flesh/100
+  contrinum/40
+  zirconium/60
+]
+consumes: {
+  power: 4
+  items: {
+    items: [
+      alloy-of-sakura/1
+    ]
+    optional: true
+    booster: true
+  }
+}
+radius: 120
+researchCostMultiplier: 0.5
+phaseRadiusBoost: 200
+phaseShieldBoost: 150
+phaseUseTime: 240
+sides: 10
+shieldRotation: 45
