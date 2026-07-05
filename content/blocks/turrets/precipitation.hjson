@@ -24,7 +24,7 @@ ammoTypes: {
     splashDamageRadius: 34
     length: 15
     width: 5
-    speed: 230
+    speed: 2
     lifetime: 200
     collidesAir: true
     frontColor: de7f61
