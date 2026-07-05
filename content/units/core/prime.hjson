@@ -164,24 +164,25 @@ weapons: [
     firstShotDelay: 84
   }
   bullet: {
-    type: ArtilleryBulletType
-    collidesAir: true
-    frontColor: ffbc83
-    backColor: ffa56e
+    type: BasicBulletType
+    sprite: large-orb
+    damage: 97
     width: 20
     height: 20
-    buildingDamageMultiplier: 0.01
-    hitSound: explosionTitan
-    hitEffect: titanSmoke
-    hitColor: ffbc83
-    despawnEffect: titanExplosion
+    shrinkY: 0
+    backColor: ffa56e
+    frontColor: ffbc83
+    lightningColor: ffbc83
+    lightning: 20
+    lightningLength: 5
+    lightningLengthRand: 10
     despawnHit: true
-    status: burning
-    statusDuration: 255
-    speed: 2
-    lifetime: 100
-    splashDamage: 156
-    splashDamageRadius: 63
+    hitSound: shockBullet
+    intervalBullets: 3
+    bulletInterval: 5
+    lifetime: 196
+    weaveMag: 1
+    weaveScale: 7
     }
 }
 ]
