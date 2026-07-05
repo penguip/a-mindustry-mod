@@ -1,0 +1,51 @@
+type: LiquidTurret
+size: 2
+health: 740
+localizedName: Precipitation
+description: Fires shells of liquid at enemy targets. Can extinguish fires.
+requirements: [
+  yttrium/100
+  osmium/75
+]
+category: turret
+recoil: 4
+shootSound: shootArtillerySmall
+outlineColor: 26262f
+targetAir: true
+targetGround: true
+rotateSpeed: 3.65
+reload: 120
+shootY: 3
+ammoTypes: {
+  water: {
+    type: ArtilleryBulletType
+    buildingDamageMultiplier: 0.25
+    splashDamage: 25
+    splashDamageRadius: 34
+    length: 15
+    width: 5
+    speed: 230
+    lifetime: 200
+    collidesAir: true
+    frontColor: de7f61
+    backColor: de6b56
+    fragOnHit: true
+    fragVelocityMin: 2
+    fragVelocityMax: 2
+    fragBullets: 10
+    fragSpread: 36
+    fragAngle: 0
+    fragBullet: {
+        type: LiquidBulletType
+        liquid: water
+        despawnHit: true
+        hitSound: shootAtrax
+        damage: 3
+        length: 5
+        collidesAir: true
+        width: 5
+        speed: 0.86
+        lifetime: 25
+      }
+    }
+  }
