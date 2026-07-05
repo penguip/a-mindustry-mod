@@ -1,0 +1,5 @@
+localizedName: Bloodied
+description: The unique radiation of ageriolix is taking its toll on this unit. Causes significant damage, decreases defense, and increases speed.
+healthMultiplier: 0.65
+speedMultiplier: 1.2
+damage: 6
