@@ -183,6 +183,13 @@ weapons: [
     lifetime: 196
     weaveMag: 1
     weaveScale: 7
+    intervalBullet: {
+      type: LightningBulletType
+      damage: 14
+      lightningLength: 5
+      lightningLengthRand: 7
+      lightningColor: ffbc83
+    }
     }
 }
 ]
