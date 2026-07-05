@@ -8,25 +8,29 @@ armor: 8
 parts: [
   {
     type: FlarePart
-    radius: 3
-    radiusTo: 15
+    radius: 5
+    radiusTo: 20
     innerScl: 0.75
+    innerRadScl: 0.7
     color1: ffa56e
     color2: ffbc83
     spinSpeed: 1
     x: -5
-    y: -1
+    y: 1
+    sides: 5
   }
   {
     type: FlarePart
-    radius: 3
-    radiusTo: 15
+    radius: 5
+    radiusTo: 20
+    innerRadScl: 0.7
     innerScl: 0.75
     color1: ffa56e
     color2: ffbc83
     spinSpeed: 1
     x: 5
-    y: -1
+    y: 1
+    sides: 5
   }
 ]
 engines: [
@@ -154,6 +158,11 @@ weapons: [
   reload: 250
   x: -5
   mirror: false
+  shoot: {
+    type: shootHelix
+    scl: 10
+    firstShotDelay: 84
+  }
   bullet: {
     type: ArtilleryBulletType
     collidesAir: true
