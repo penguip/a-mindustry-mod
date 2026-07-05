@@ -177,6 +177,7 @@ weapons: [
     lightningLength: 5
     lightningLengthRand: 10
     despawnHit: true
+    buildingDamageMultiplier: 0.99
     hitSound: shockBullet
     intervalBullets: 3
     bulletInterval: 5
@@ -186,6 +187,7 @@ weapons: [
     intervalBullet: {
       type: LightningBulletType
       damage: 14
+      0.99
       lightningLength: 5
       lightningLengthRand: 7
       lightningColor: ffbc83
