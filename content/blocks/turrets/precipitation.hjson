@@ -34,7 +34,7 @@ ammoTypes: {
     fragVelocityMax: 2
     fragBullets: 10
     fragSpread: 36
-    frag
+    fragRandomSpread: 0
     fragAngle: 0
     fragBullet: {
         type: LiquidBulletType
