@@ -10,6 +10,7 @@ itemCapacity: 30
 requirements: [
   gadolinium/235
   osmium/245
+  energite/165
   plastanium/120
   alloy-of-sakura/45
 ]
