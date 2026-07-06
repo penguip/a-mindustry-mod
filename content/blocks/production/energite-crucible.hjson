@@ -1,0 +1,70 @@
+type: GenericCrafter
+size: 3
+localizedName: Energite Crucible
+description: Uses heavy power fluxes to charge water and mix that with hemogen before submerging iron in the mixture, making energite. The mixture, ardegrix, must be dumped or recycled in order to continuously produce energite.
+health: 650
+category: crafting
+itemCapacity: 20
+requirements: [
+  gadolinium/80
+  silicon/60
+  iron/45
+]
+craftTime: 300
+squareSprite: false
+craftEffect: none
+consumes: {
+  power: 7
+  items: [
+    iron/1
+  ]
+  liquids: [
+    hemogen/0.6666666666666667
+    water/0.5
+  ]
+}
+outputLiquid: ardegrix/0.25
+outputItem: energite/5
+ambientSound: smelter
+ambientSoundVolume: 0.6
+drawer: {
+	    type: DrawMulti
+	    drawers: [
+                    {
+                      type: DrawRegion
+                      suffix: "-bottom"
+					          }
+                    {
+                      type: DrawLiquidTile
+                      drawLiquid: hemogen
+                      padLeft: 14
+                      padRight: 2.75
+                      padBottom: 16
+                      padTop: 2.25
+					          }
+                    {
+                      type: DrawLiquidTile
+                      drawLiquid: water
+                      padLeft: 14
+                      padRight: 2.75
+                      padBottom: 2.25
+                      padTop: 16
+					          }
+                    {
+                      type: DrawLiquidTile
+                      drawLiquid: water
+                      padLeft: 19.25
+                      padRight: 2.75
+                      padBottom: 8
+                      padTop: 8
+					          }
+                    {
+                      type: DrawLiquidTile
+                      drawLiquid: ardegrix
+                      padding: 8
+					          }
+                    {
+                      type : DrawDefault
+                    }
+			]
+}
