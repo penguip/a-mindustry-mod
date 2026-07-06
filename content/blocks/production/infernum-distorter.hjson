@@ -8,7 +8,7 @@ itemCapacity: 20
 requirements: [
   gadolinium/80
   silicon/60
-  actinium/45
+  iron/45
 ]
 craftTime: 100
 squareSprite: false
