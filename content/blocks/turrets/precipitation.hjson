@@ -3,7 +3,7 @@ size: 2
 health: 890
 targetHealing: true
 localizedName: Precipitation
-description: Fires shells of liquid at enemy targets. Can extinguish fires.
+description: Fires shells of liquid at enemy targets. Can extinguish fires with water and heal blocks with neoplasm.
 requirements: [
   gadolinium/150
   silicon/120
