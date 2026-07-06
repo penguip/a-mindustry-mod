@@ -45,7 +45,7 @@ drawer: {
                       padLeft: 14
                       padRight: 2.75
                       padBottom: 2.25
-                      padTop: 16
+                      padTop: 2.75
 				    }
                     {
                       type: DrawLiquidTile
