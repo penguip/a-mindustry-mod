@@ -12,6 +12,7 @@ category: power
 requirements: [
   osmium/230
   contrinum/180
+  energite/140
   zirconium/130
   alloy-of-sakura/100
   ageriolix/50
