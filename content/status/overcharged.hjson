@@ -1,6 +1,7 @@
 localizedName: Overcharged
-description: The high charge of energite is causing this unit to operate faster than its infrastructure can handle. Causes heavy damage and decreases damage, but increases reload, defense, and speed.
+description: The high charge of energite is causing this unit to operate faster than its infrastructure can handle. Causes heavy damage and decreases damage significantly, but increases reload, defense, and speed.
 healthMultiplier: 1.6
+damageMultilpier: 0.35
 speedMultiplier: 1.5
 reloadMultiplier: 1.6
 damage: 20
