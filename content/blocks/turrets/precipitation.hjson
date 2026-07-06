@@ -73,9 +73,9 @@ ammoTypes: {
     healAmount: 6
     lifetime: 200
     collidesAir: true
-    frontColor: 7090ea
-    backColor: 486acd
-    trailColor: 7090ea
+    frontColor: f98f4a
+    backColor: eo5438
+    trailColor: f98f4a
     fragOnHit: true
     fragVelocityMin: 2
     fragVelocityMax: 2
