@@ -1,6 +1,7 @@
 type: LiquidTurret
 size: 2
 health: 890
+targetHealing: true
 localizedName: Precipitation
 description: Fires shells of liquid at enemy targets. Can extinguish fires.
 requirements: [
@@ -56,6 +57,45 @@ ammoTypes: {
         length: 5
         collidesAir: true
         width: 5
+        speed: 0.86
+        lifetime: 25
+      }
+    }
+    neoplasm: {
+    type: ArtilleryBulletType
+    buildingDamageMultiplier: 0.25
+    splashDamage: 35
+    splashDamageRadius: 34
+    height: 15
+    width: 15
+    speed: 2
+    collidesTeam: true
+    healAmount: 6
+    lifetime: 200
+    collidesAir: true
+    frontColor: 7090ea
+    backColor: 486acd
+    trailColor: 7090ea
+    fragOnHit: true
+    fragVelocityMin: 2
+    fragVelocityMax: 2
+    fragBullets: 10
+    fragSpread: 36
+    fragRandomSpread: 0
+    fragAngle: 0
+    fragBullet: {
+        type: LiquidBulletType
+        liquid: neoplasm
+        despawnHit: true
+        hitSound: shootAtrax
+        puddleSize: 0
+        despawnSound: shootAtrax
+        damage: 7
+        length: 5
+        collidesAir: true
+        width: 5
+        collidesTeam: true
+        healAmount: 3
         speed: 0.86
         lifetime: 25
       }
