@@ -31,6 +31,7 @@ contentOrder: [
   splinter
   gut
   corrosive
+  precipitation
   etho-bore
   yttrium-rig
   silicone-bore
@@ -50,7 +51,15 @@ contentOrder: [
   inverse-filter
   logic-unit-overflow
   logic-unit-underflow
+  offloader
   cargo-station
   cargo-depot
   floral-railgun
+  entropy
+  infernum
+  blood
+  gastric-juice
+  radon
+  cenessiodreon
+  ardegrix
 ]
