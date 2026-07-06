@@ -10,6 +10,7 @@ squareSprite: false
 requirements: [
   silicon/450
   zirconium/380
+  energite/200
   actinium/250
   plastanium/160
   alloy-of-sakura/135
