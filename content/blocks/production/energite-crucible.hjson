@@ -58,7 +58,7 @@ drawer: {
                     {
                       type: DrawLiquidTile
                       drawLiquid: ardegrix
-                      padding: 4.25
+                      padding: 2.25
 					}
                     {
                       type : DrawDefault
