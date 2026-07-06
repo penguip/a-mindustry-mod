@@ -9,7 +9,6 @@ requirements: [
   zirconium/90
   silicon/120
   actinium/85
-  alloy-of-sakura/45
 ]
 outputLiquid: hemogen/2
 craftTime: 300
