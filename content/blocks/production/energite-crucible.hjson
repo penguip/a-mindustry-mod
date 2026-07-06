@@ -46,7 +46,7 @@ drawer: {
                       padRight: 2.75
                       padBottom: 2.25
                       padTop: 16
-					          }
+				    }
                     {
                       type: DrawLiquidTile
                       drawLiquid: water
@@ -54,12 +54,12 @@ drawer: {
                       padRight: 2.75
                       padBottom: 8
                       padTop: 8
-					          }
+					}
                     {
                       type: DrawLiquidTile
                       drawLiquid: ardegrix
                       padding: 8
-					          }
+					}
                     {
                       type : DrawDefault
                     }
