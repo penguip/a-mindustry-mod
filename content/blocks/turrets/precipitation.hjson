@@ -35,6 +35,7 @@ ammoTypes: {
     collidesAir: true
     frontColor: 7090ea
     backColor: 486acd
+    trailColor: 7090ea
     fragOnHit: true
     fragVelocityMin: 2
     fragVelocityMax: 2
