@@ -33,15 +33,12 @@ drawer: {
                     {
                       type: DrawRegion
                       suffix: "-bottom"
-					          }
+					}
                     {
                       type: DrawLiquidTile
                       drawLiquid: hemogen
-                      padLeft: 14
-                      padRight: 2.75
-                      padBottom: 16
-                      padTop: 2.25
-					          }
+                      padding: 7.5
+					}
                     {
                       type: DrawLiquidTile
                       drawLiquid: water
