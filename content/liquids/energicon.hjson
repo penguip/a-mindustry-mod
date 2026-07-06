@@ -1,6 +1,6 @@
 localizedName: Energicon
 description: Liquid energite that has been accelerated to the point of having an extremely high volt charge. Can be used as an extremely strong ammunition or for coolant in the Prismacore Reactor. Also required in the creation of the parts of the strongest of units.
-color: 36bo41
+color: 80ffbd
 viscosity: 0.65
 status: overcharged
 shownPlanets: [keisuris]
