@@ -20,6 +20,7 @@ contentOrder: [
   neoplasm-capsule
   contrinum
   iron
+  energite
   unstable-zircon
   zirconium
   actinide-shale
@@ -59,8 +60,9 @@ contentOrder: [
   infernum
   blood
   hemogen
+  ardegrix
   gastric-juice
   radon
   cenessiodreon
-  ardegrix
+  energicon
 ]
