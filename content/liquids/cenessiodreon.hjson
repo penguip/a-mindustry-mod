@@ -8,4 +8,5 @@ flammability: 0
 heatCapacity: 0.9
 temperature: 0.1
 boilPoint: -1
-research: core-glitch
+research: core-glitc
+shownPlanets: [keisuris]
