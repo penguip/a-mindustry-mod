@@ -1,6 +1,6 @@
 type: NuclearReactor
 name: Prismacore Reactor
-description: Produces massive amounts of power from ageriolix decay. Slowly builds up heat and eventually releases it in a devastating explosion. In order to prevent this, extensive coolant is necessary.
+description: Produces massive amounts of power from ageriolix decay. Slowly builds up heat and eventually releases it in a devastating explosion. In order to prevent this, extensive coolant and energicon are necessary.
 size: 5
 researchCostMultiplier: 0.05
 hasPower: true
@@ -23,7 +23,10 @@ explosionDamage: 25000
 explodeEffect: [scatheExplosion, massiveExplosion, impactReactorExplosion]
 fuelItem: ageriolix
 consumes: {
-  liquid: water/10
+  liquids: [
+    water/10
+    energicon/0.5
+  ]
   items: [
     ageriolix/1
   ]
