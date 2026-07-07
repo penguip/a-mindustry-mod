@@ -178,4 +178,43 @@ ammoTypes: {
         lifetime: 25
       }
     }
+    hemogen: {
+    type: ArtilleryBulletType
+    buildingDamageMultiplier: 0.25
+    splashDamage: 37
+    splashDamageRadius: 34
+    height: 15
+    width: 15
+    speed: 2
+    status: hemorrhage
+    statusDuration: 180
+    lifetime: 200
+    collidesAir: true
+    frontColor: 9e554f
+    backColor: 9e3e37
+    trailColor: 9e554f
+    fragOnHit: true
+    fragVelocityMin: 2
+    fragVelocityMax: 2
+    fragBullets: 10
+    fragSpread: 36
+    fragRandomSpread: 0
+    fragAngle: 0
+    fragBullet: {
+        type: LiquidBulletType
+        liquid: blood
+        despawnHit: true
+        hitSound: shootAtrax
+        status: hemorrhage
+        statusDuration: 60
+        puddleSize: 60
+        despawnSound: shootAtrax
+        damage: 8
+        length: 5
+        collidesAir: true
+        width: 5
+        speed: 0.86
+        lifetime: 25
+      }
+    }
   }
