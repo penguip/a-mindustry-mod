@@ -251,7 +251,85 @@ ammoTypes: {
         hitSound: shootAtrax
         puddleSize: 60
         despawnSound: shootAtrax
-        damage: 8
+        damage: 11
+        length: 5
+        collidesAir: true
+        width: 5
+        speed: 0.86
+        lifetime: 25
+      }
+    }
+    gastric-juice: {
+    type: ArtilleryBulletType
+    buildingDamageMultiplier: 0.25
+    splashDamage: 66
+    splashDamageRadius: 34
+    height: 15
+    width: 15
+    speed: 2
+    status: corroded
+    statusDuration: 180
+    lifetime: 200
+    collidesAir: true
+    frontColor: 66b057
+    backColor: 36bo41
+    trailColor: 66b057
+    fragOnHit: true
+    fragVelocityMin: 2
+    fragVelocityMax: 2
+    fragBullets: 10
+    fragSpread: 36
+    fragRandomSpread: 0
+    fragAngle: 0
+    fragBullet: {
+        type: LiquidBulletType
+        liquid: gastric-juice
+        despawnHit: true
+        hitSound: shootAtrax
+        status: corroded
+        statusDuration: 60
+        puddleSize: 60
+        despawnSound: shootAtrax
+        damage: 13
+        length: 5
+        collidesAir: true
+        width: 5
+        speed: 0.86
+        lifetime: 25
+      }
+    }
+    energicon: {
+    type: ArtilleryBulletType
+    buildingDamageMultiplier: 0.25
+    splashDamage: 124
+    splashDamageRadius: 40
+    height: 15
+    width: 15
+    speed: 2
+    status: overcharged
+    statusDuration: 180
+    lifetime: 200
+    collidesAir: true
+    frontColor: a8fff1
+    backColor: 80ffbd
+    trailColor: a8fff1
+    fragOnHit: true
+    fragVelocityMin: 2
+    fragVelocityMax: 2
+    fragBullets: 10
+    fragSpread: 36
+    fragRandomSpread: 0
+    fragAngle: 0
+    fragBullet: {
+        type: LiquidBulletType
+        liquid: energicon
+        despawnHit: true
+        hitSound: shootAtrax
+        status: overcharged
+        statusDuration: 60
+        puddleSize: 60
+        despawnSound: shootAtrax
+        damage: 16
         length: 5
         collidesAir: true
         width: 5
