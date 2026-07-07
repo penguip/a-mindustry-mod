@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Hypercharger
-description: Harnessing the high temperature of infernum, flash melts energite and accelerates it to blazing speeds to create energicon.
+description: Harnessing the high temperature of infernum, flash melts energite and accelerates it to blazing speeds to create energicon. Uses a lot of infernum and power.
 size: 2
 squareSprite: false
 category: crafting
@@ -11,8 +11,8 @@ requirements: [
   alloy-of-sakura/90
   ageriolix/25
 ]
-outputLiquid: energicon/0.25
-craftTime: 500
+outputLiquid: energicon/3
+craftTime: 300
 drawer: {
   type: drawMulti
   drawers: [
@@ -22,14 +22,16 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: cenessiodreon 
-      padding: 2.75
+      drawLiquid: infernum
+      padding: 5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: energicon
+      padding: 5
     }
     {
       type: DrawDefault
-    }
-    {
-      type: DrawHeatInput
     }
     {
       type: DrawGlowRegion
@@ -39,11 +41,11 @@ drawer: {
 ]
 }
 consumes: {
-  power: 10
+  power: 30
   items: [
-  alloy-of-sakura/3
+  energite/1
   ]
   liquids: [
-    cenessiodreon/0.1666666666666667
+  infernum/5
   ]
 }
