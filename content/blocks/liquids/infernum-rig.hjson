@@ -1,0 +1,57 @@
+type: AttributeCrafter
+localizedName: Infernum Rig
+description: Extracts infernum from deep underground. Requires geothermal hotspots to function. More efficient than an infernum extractor, requires power.
+size: 3
+attribute: heat
+baseEfficiency: 0
+minEfficiency: 0.2
+maxBoost: 2.25
+boostScale: 0.33333333
+liquidCapacity: 500
+hasLiquids: true
+health: 650
+category: liquid
+itemCapacity: 30
+requirements: [
+  gadolinium/200
+  silicon/120
+  yttrium/240
+  actinium/75
+]
+outputLiquids: [
+  infernum/3
+]
+drawer: {
+	    type: DrawMulti
+	    drawers : [
+                    {
+                      type : DrawRegion
+                      suffix : "-bottom"
+                    },
+                    {
+                      type: DrawLiquidTile
+                      drawLiquid: infernum
+                      padding: 3
+                    },
+                    {
+                      type: DrawBubbles
+                      color: de7f61
+                      sides: 10
+                      recurrence: 3
+                      spread: 8
+                      radius: 1.8
+                      amount: 26
+                    },
+	            	{
+	            	  type : DrawBlurSpin
+	            	  suffix : "-rotator"
+	            	  rotateSpeed: 10
+	            	},
+                    {
+                      type: DrawDefault
+                    }
+]
+}
+consumes: {
+  power: 2
+}
