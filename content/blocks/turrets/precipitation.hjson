@@ -223,7 +223,12 @@ ammoTypes: {
     splashDamage: 54
     splashDamageRadius: 34
     puddleLiquid: ardegrix
-    puddleSize: 60
+    puddleAmount: 60
+    puddles: 4
+    puddleRange: 3
+    incendAmount: 10
+    incendChance: 100
+    incendSpread: 5
     height: 15
     width: 15
     speed: 2
