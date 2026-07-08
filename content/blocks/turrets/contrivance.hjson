@@ -13,6 +13,7 @@ requirements: [
 category: turret
 recoil: 0
 recoils: 2
+loopSound: none
 shootSound: shootAfflict
 chargeSound: charge-crow
 outlineColor: 26262f
