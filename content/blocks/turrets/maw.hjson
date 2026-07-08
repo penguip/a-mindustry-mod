@@ -1,6 +1,12 @@
 type: ItemTurret
 size: 2
 health: 650
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.5
+}
 localizedName: Maw
 description: Fires a barrage of piercing teeth at enemy targets. Akin to Gut, but does not need to "start up".
 requirements: [
