@@ -7,6 +7,7 @@ requirements: [
   item-flesh/180
   calcium/100
   dormant-cyst/60
+  zirconium/25
 ]
 category: turret
 recoil: 0
