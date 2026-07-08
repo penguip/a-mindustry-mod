@@ -47,12 +47,44 @@ ammoTypes: {
     fragRandomSpread: 0
     homingPower: 50
     homingRange: 10
-    despawnSound: ShootBeamPlasmaSmall
-    HitSound: ShootBeamPlasmaSmall
+    despawnSound: shootBeamPlasma
+    HitSound: shootBeamPlasma
     fragBullet: {
       type: LaserBulletType
       length: 87
       damage: 34
+      colors: [
+      363f9a,
+      486acd,
+      7090ea,
+      ffffff
+      ]
+    }
+  }
+  cenessiodreon: {
+    type: BasicBulletType
+    sprite: large-orb
+    buildingDamageMultiplier: 0.25
+    damage: 354
+    height: 10
+    width: 10
+    speed: 2.3
+    lifetime: 123
+    frontColor: 7090ea
+    backColor: 486acd
+    pierce: true
+    pierceCap: 1
+    fragBullets: 6
+    fragSpread: 60
+    fragRandomSpread: 0
+    homingPower: 50
+    homingRange: 10
+    despawnSound: shootBeamPlasma
+    HitSound: shootBeamPlasma
+    fragBullet: {
+      type: LaserBulletType
+      length: 87
+      damage: 90
       colors: [
       363f9a,
       486acd,
