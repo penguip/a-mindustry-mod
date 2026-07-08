@@ -11,6 +11,12 @@ requirements: [
   calcium/10
 ]
 category: turret
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.3
+}
 recoil: 3
 inaccuracy: 3
 targetAir: false
