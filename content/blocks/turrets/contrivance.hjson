@@ -67,6 +67,7 @@ ammoTypes: {
     buildingDamageMultiplier: 0.25
     damage: 354
     height: 10
+    status: blasted
     width: 10
     speed: 2.3
     lifetime: 123
