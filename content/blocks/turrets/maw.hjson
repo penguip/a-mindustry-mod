@@ -48,6 +48,7 @@ drawer: {
       			progress : recoil
       			mirror : false
       			under : true
+                layerOffset: 1
 			      recoilIndex: 1
             y: -1
       			moveX : 0
@@ -55,7 +56,8 @@ drawer: {
       			moveRot : 0
             moves: [
               {
-                x: -2
+                x: 2
+                y: 1
               }
             ]
     			},
@@ -65,6 +67,7 @@ drawer: {
       			progress : recoil
       			mirror : false
       			under : true
+                layerOffset: 1
 			      recoilIndex: 0
             y: -1
       			moveX : 0
@@ -72,7 +75,8 @@ drawer: {
       			moveRot : 0
             moves: [
              {
-               x: 2
+               x: -2
+               y: 1
              }
             ]
     			},
