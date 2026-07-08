@@ -1,0 +1,100 @@
+type: LiquidTurret
+size: 2
+health: 650
+localizedName: Contrivance
+description: Launches an orb that bursts into lasers.
+requirements: [
+  germanium/230
+  yttrium/135
+  contrinum/80
+  zirconium/60
+]
+category: turret
+recoil: 0
+recoils: 2
+shootSound: shootAfflict
+chargeSound: charge-crow
+outlineColor: 520500
+targetAir: true
+targetGround: true
+rotateSpeed: 1.5
+shootWarmupSpeed: 0.1
+minWarmup: 0.99
+reload: 180
+range: 282.9
+shootY: 3
+shoot: {
+		type: shootPattern
+    firstShotDelay: 54
+	}
+ammoTypes: {
+  water: {
+    type: BasicBulletType
+    sprite: large-orb
+    buildingDamageMultiplier: 0.25
+    damage: 121
+    length: 25
+    width: 25
+    speed: 2.3
+    lifetime: 123
+    frontColor: f9ecec
+    backColor: f1dbdb
+    pierce: true
+    pierceCap: 3
+    fragBullets: 12
+    fragSpread: 30
+    fragRandomSpread: 0
+    homingPower: 50
+    homingRange: 10
+    fragBullet: {
+      type: LaserBulletType
+      length: 65
+      damage: 34
+      colors: [
+      
+  }
+}
+drawer: {
+		type: DrawTurret
+     		basePrefix: base
+		parts : [
+    			{
+      			type : RegionPart
+      			suffix : "-side-r"
+      			progress : recoil
+      			mirror : false
+      			under : true
+                layerOffset: 1
+			      recoilIndex: 1
+            y: -1
+      			moveX : 0
+			      moveY : -2
+      			moveRot : 0
+            moves: [
+              {
+                x: 2
+                y: 1
+              }
+            ]
+    			},
+    			{
+      			type : RegionPart
+      			suffix : "-side-l"
+      			progress : recoil
+      			mirror : false
+      			under : true
+                layerOffset: 1
+			      recoilIndex: 0
+            y: -1
+      			moveX : 0
+			      moveY : -2
+      			moveRot : 0
+            moves: [
+             {
+               x: -2
+               y: 1
+             }
+            ]
+    			},
+		]
+	}
