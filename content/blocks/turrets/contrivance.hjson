@@ -7,6 +7,7 @@ requirements: [
   germanium/230
   yttrium/135
   contrinum/80
+  oxide/25
   zirconium/60
 ]
 category: turret
@@ -24,7 +25,7 @@ reload: 180
 range: 282.9
 shootY: 3
 shoot: {
-		type: shootPattern
+    type: shootPattern
     firstShotDelay: 54
 	}
 ammoTypes: {
