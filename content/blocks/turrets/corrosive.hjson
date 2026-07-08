@@ -2,6 +2,12 @@ localizedName: Corrosive
 description: Fires piercing needles that either chase or corrode enemy targets.
 size: 2
 type: ItemTurret
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.35
+}
 health: 1200
 outlineColor: 26262f
 shootSound: shoot-sharp
