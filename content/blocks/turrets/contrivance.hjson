@@ -4,7 +4,7 @@ health: 650
 localizedName: Contrivance
 description: Launches an orb that bursts into lasers.
 requirements: [
-  germanium/230
+  gadolinium/230
   yttrium/135
   contrinum/80
   oxide/25
