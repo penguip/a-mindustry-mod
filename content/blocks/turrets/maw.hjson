@@ -17,8 +17,10 @@ outlineColor: 26262f
 targetAir: true
 targetGround: true
 rotateSpeed: 1.5
+shootWarmupSpeed: 0.1
+minWarmup: 0.99
 reload: 5
-range: 590.4
+range: 101.4
 shootY: 3
 shoot: {
 		type: shootAlternate
@@ -30,12 +32,14 @@ ammoTypes: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     damage: 19
-    length: 15
+    length: 25
     width: 5
-    speed: 3.234
-    lifetime: 182.56
+    speed: 7.8
+    lifetime: 13
     frontColor: f9ecec
     backColor: f1dbdb
+    pierce: true
+    pierceCap: 12
   }
 }
 drawer: {
