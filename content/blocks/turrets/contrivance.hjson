@@ -68,29 +68,9 @@ drawer: {
 		parts : [
     			{
       			type : RegionPart
-      			suffix : "-arm-r"
+      			suffix : "-arm"
       			progress : recoil
-      			mirror : false
-      			under : true
-                layerOffset: 1
-			    recoilIndex: 1
-                y: -1
-      			moveX : 0
-			    moveY : 0
-      			moveRot : -90
-            moves: [
-              {
-                rot: 45
-              }
-            ]
-    			},
-    			{
-      			type : RegionPart
-      			suffix : "-arm-l"
-      			progress : recoil
-      			mirror : false
-      			under : true
-                layerOffset: 1
+      			mirror : true
 			      recoilIndex: 0
             y: -1
       			moveX : 0
