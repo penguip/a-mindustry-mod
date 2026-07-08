@@ -9,6 +9,12 @@ requirements: [
   osmium/75
 ]
 category: turret
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
 recoil: 3
 shootWarmupSpeed: 0.1
 minWarmup: 0.99
