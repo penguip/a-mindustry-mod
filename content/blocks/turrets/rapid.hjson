@@ -4,6 +4,12 @@ health: 190
 localizedName: Rapid
 description: 'Fires quick salvos of yttrium, actinium, or ageriolix missiles at enemy targets. Deals more damage on a direct hit.'
 shootSound: shootMissile
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
 requirements: [
   yttrium/100
   osmium/75
