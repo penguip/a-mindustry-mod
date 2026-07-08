@@ -70,7 +70,6 @@ drawer: {
       			type : RegionPart
       			suffix : "-arm-r"
       			progress : recoil
-      			mirror : true
 			    recoilIndex: 0
                 y: -1
       			moveX : 0
@@ -86,7 +85,6 @@ drawer: {
       			type : RegionPart
       			suffix : "-arm-l"
       			progress : recoil
-      			mirror : true
 			    recoilIndex: 0
                 y: -1
       			moveX : 0
