@@ -15,7 +15,7 @@ recoil: 0
 recoils: 2
 shootSound: shootAfflict
 chargeSound: charge-crow
-outlineColor: 520500
+outlineColor: 26262f
 targetAir: true
 targetGround: true
 rotateSpeed: 1.5
@@ -75,10 +75,10 @@ drawer: {
                 mirror: true
       			moveX : 0
 			    moveY : 0
-      			moveRot : 90
+      			moveRot : -90
                 moves: [
                   {
-                     rot: -45
+                     rot: 45
                   }
                 ]
     		},
