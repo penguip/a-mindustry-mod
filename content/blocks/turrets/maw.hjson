@@ -29,13 +29,13 @@ ammoTypes: {
   calcium: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
-    damage: 15
+    damage: 19
     length: 15
     width: 5
     speed: 3.234
     lifetime: 182.56
-    frontColor: de7f61
-    backColor: de6b56
+    frontColor: f9ecec
+    backColor: f1dbdb
   }
 }
 drawer: {
