@@ -33,7 +33,7 @@ ammoTypes: {
     type: BasicBulletType
     sprite: large-orb
     buildingDamageMultiplier: 0.25
-    damage: 121
+    damage: 233
     length: 25
     width: 25
     speed: 2.3
@@ -47,9 +47,11 @@ ammoTypes: {
     fragRandomSpread: 0
     homingPower: 50
     homingRange: 10
+    despawnSound: ShootBeamPlasmaSmall
+    HitSound: ShootBeamPlasmaSmall
     fragBullet: {
       type: LaserBulletType
-      length: 65
+      length: 87
       damage: 34
       colors: [
       363f9a,
@@ -102,3 +104,6 @@ drawer: {
     			},
 		]
 	}
+consumes: {
+  power: 5
+}
