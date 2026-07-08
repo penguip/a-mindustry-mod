@@ -1,0 +1,79 @@
+type: ItemTurret
+size: 2
+health: 650
+localizedName: Maw
+description: Fires a barrage of piercing teeth at enemy targets. Akin to Gut, but does not need to "start up".
+requirements: [
+  item-flesh/180
+  calcium/100
+  dormant-cyst/60
+]
+category: turret
+recoil: 0
+recoils: 2
+shootSound: shootScatter
+outlineColor: 26262f
+targetAir: true
+targetGround: true
+rotateSpeed: 1.5
+reload: 5
+range: 590.4
+shootY: 3
+shoot: {
+		type: shootAlternate
+        barrels: 2
+		x: 2
+	}
+ammoTypes: {
+  calcium: {
+    type: BasicBulletType
+    buildingDamageMultiplier: 0.25
+    damage: 15
+    length: 15
+    width: 5
+    speed: 3.234
+    lifetime: 182.56
+    frontColor: de7f61
+    backColor: de6b56
+  }
+}
+drawer: {
+		type: DrawTurret
+     		basePrefix: base
+		parts : [
+    			{
+      			type : RegionPart
+      			suffix : "-side-r"
+      			progress : recoil
+      			mirror : false
+      			under : true
+			      recoilIndex: 1
+            y: -1
+      			moveX : 0
+			      moveY : -2
+      			moveRot : 0
+            moves: [
+              {
+                x: -2
+              }
+            ]
+    			},
+    			{
+      			type : RegionPart
+      			suffix : "-side-l"
+      			progress : recoil
+      			mirror : false
+      			under : true
+			      recoilIndex: 0
+            y: -1
+      			moveX : 0
+			      moveY : -2
+      			moveRot : 0
+            moves: [
+             {
+               x: 2
+             }
+            ]
+    			},
+		]
+	}
