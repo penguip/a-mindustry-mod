@@ -69,12 +69,11 @@ drawer: {
 			      recoilIndex: 1
             y: -1
       			moveX : 0
-			      moveY : -2
+			      moveY : 0
       			moveRot : 0
             moves: [
               {
-                x: 2
-                y: 1
+                rot: 
               }
             ]
     			},
