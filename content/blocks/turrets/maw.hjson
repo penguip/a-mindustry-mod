@@ -13,7 +13,7 @@ category: turret
 recoil: 0
 recoils: 2
 shootSound: shootScatter
-outlineColor: 26262f
+outlineColor: 520500
 targetAir: true
 targetGround: true
 rotateSpeed: 1.5
