@@ -21,7 +21,7 @@ targetGround: true
 rotateSpeed: 1.5
 shootWarmupSpeed: 0.1
 minWarmup: 0.99
-reload: 180
+reload: 300
 range: 282.9
 shootY: 3
 shoot: {
@@ -34,8 +34,8 @@ ammoTypes: {
     sprite: large-orb
     buildingDamageMultiplier: 0.25
     damage: 233
-    length: 25
-    width: 25
+    height: 10
+    width: 10
     speed: 2.3
     lifetime: 123
     frontColor: 7090ea
