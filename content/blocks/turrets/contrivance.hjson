@@ -70,8 +70,8 @@ ammoTypes: {
     width: 10
     speed: 2.3
     lifetime: 123
-    frontColor: 7090ea
-    backColor: 486acd
+    frontColor: 525652
+    backColor: 323432
     pierce: true
     pierceCap: 1
     fragBullets: 6
@@ -86,9 +86,9 @@ ammoTypes: {
       length: 87
       damage: 90
       colors: [
-      363f9a,
-      486acd,
-      7090ea,
+      1c1d1c,
+      323432,
+      525652,
       ffffff
       ]
     }
