@@ -62,6 +62,7 @@ drawer: {
                 y: 0
                 mirror: false
       			moveRot : 0
+                },
     			{
       			type : RegionPart
       			suffix : "-side-r"
