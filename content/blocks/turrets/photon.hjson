@@ -32,36 +32,22 @@ shoot: {
 	}
 ammoTypes: {
   water: {
-    type: BasicBulletType
-    sprite: large-orb
-    buildingDamageMultiplier: 0.25
-    damage: 233
-    height: 10
-    width: 10
-    speed: 2.3
-    lifetime: 123
-    frontColor: 7090ea
-    backColor: 486acd
-    pierce: true
-    pierceCap: 3
-    fragBullets: 12
-    fragSpread: 30
-    fragRandomSpread: 0
-    homingPower: 50
-    homingRange: 10
-    despawnSound: shootBeamPlasma
-    HitSound: shootBeamPlasma
-    fragBullet: {
-      type: LaserBulletType
-      length: 87
-      damage: 34
-      colors: [
-      363f9a,
-      486acd,
-      7090ea,
-      ffffff
-      ]
-    }
+    type: ContinuousLaserBulletType 
+	ammoMultiplier: 1
+  	shake: 0.2
+  	damageInterval: 5
+  	damage: 87
+  	length: 120
+  	incendChance: 0
+  	incendSpread: 0
+  	incendAmount: 0
+  	width: 4
+  	splashDamagePierce: true
+  	makeFire: false
+  	status: melting
+  	statusDuration: 120
+  	hitEffect: hitBulletColor
+	colors: [b85a2e55, b85a2eaa, e07b39, ffffff]
   }
 }
 drawer: {
