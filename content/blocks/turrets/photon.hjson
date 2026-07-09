@@ -37,8 +37,8 @@ ammoTypes: {
 	ammoMultiplier: 1
   	shake: 0.2
   	damageInterval: 5
-  	damage: 87
-  	length: 120
+  	damage: 90
+  	length: 240
   	incendChance: 0
   	incendSpread: 0
   	incendAmount: 0
@@ -48,8 +48,13 @@ ammoTypes: {
   	status: melting
   	statusDuration: 120
   	hitEffect: hitBulletColor
-	colors: [b85a2e55, b85a2eaa, e07b39, ffffff]
-  }
+	colors: [
+      363f9a,
+      486acd,
+      7090ea,
+      ffffff
+      ]
+   }
 }
 drawer: {
 		type: DrawTurret
