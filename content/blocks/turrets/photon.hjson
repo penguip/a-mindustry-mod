@@ -70,19 +70,25 @@ drawer: {
 		parts : [
     			{
       			type : RegionPart
-      			suffix : "-arm"
-      			progress : recoil
+      			suffix : "-side-r"
+      			progress : warmup
 			    recoilIndex: 0
-                y: -1
+                y: 0
                 mirror: true
-      			moveX : 0
-			    moveY : 0
-      			moveRot : -90
-                moves: [
-                  {
-                     rot: 45
-                  }
-                ]
+      			moveX : 1
+			    moveY : 1
+      			moveRot : 0
+    		},
+            {
+      			type : RegionPart
+      			suffix : "-side-l"
+      			progress : warmup
+			    recoilIndex: 0
+                y: 0
+                mirror: true
+      			moveX : -1
+			    moveY : 1
+      			moveRot : 0
     		},
 		]
 	}
