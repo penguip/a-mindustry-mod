@@ -15,7 +15,7 @@ category: turret
 recoil: 0
 recoils: 2
 loopSound: beam-photon
-shootSound: shootAfflict
+shootSound: shootBeamPlasmaSmall
 chargeSound: charge-crow
 outlineColor: 26262f
 targetAir: true
