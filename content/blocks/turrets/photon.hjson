@@ -1,0 +1,91 @@
+type: LiquidTurret
+size: 2
+health: 950
+localizedName: Photon
+description: Charges and fires a constant, powerful laser. Due to a design flaw, it cannot rotate.
+requirements: [
+  gadolinium/230
+  yttrium/135
+  contrinum/80
+  oxide/45
+  zirconium/25
+  energite/65
+]
+category: turret
+recoil: 0
+recoils: 2
+loopSound: beam-photon
+shootSound: shootAfflict
+chargeSound: charge-crow
+outlineColor: 26262f
+targetAir: true
+targetGround: true
+rotateSpeed: 1.5
+shootWarmupSpeed: 0.1
+minWarmup: 0.99
+reload: 300
+range: 282.9
+shootY: 3
+shoot: {
+    type: shootPattern
+    firstShotDelay: 54
+	}
+ammoTypes: {
+  water: {
+    type: BasicBulletType
+    sprite: large-orb
+    buildingDamageMultiplier: 0.25
+    damage: 233
+    height: 10
+    width: 10
+    speed: 2.3
+    lifetime: 123
+    frontColor: 7090ea
+    backColor: 486acd
+    pierce: true
+    pierceCap: 3
+    fragBullets: 12
+    fragSpread: 30
+    fragRandomSpread: 0
+    homingPower: 50
+    homingRange: 10
+    despawnSound: shootBeamPlasma
+    HitSound: shootBeamPlasma
+    fragBullet: {
+      type: LaserBulletType
+      length: 87
+      damage: 34
+      colors: [
+      363f9a,
+      486acd,
+      7090ea,
+      ffffff
+      ]
+    }
+  }
+}
+drawer: {
+		type: DrawTurret
+     		basePrefix: base
+		parts : [
+    			{
+      			type : RegionPart
+      			suffix : "-arm"
+      			progress : recoil
+			    recoilIndex: 0
+                y: -1
+                mirror: true
+      			moveX : 0
+			    moveY : 0
+      			moveRot : -90
+                moves: [
+                  {
+                     rot: 45
+                  }
+                ]
+    		},
+		]
+	}
+consumes: {
+  power: 4.3333333333
+}
