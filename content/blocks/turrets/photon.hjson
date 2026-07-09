@@ -1,4 +1,4 @@
-type: LiquidTurret
+type: ContinuousLiquidTurret
 size: 2
 health: 950
 localizedName: Photon
