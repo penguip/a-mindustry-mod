@@ -20,7 +20,7 @@ chargeSound: charge-crow
 outlineColor: 26262f
 targetAir: true
 targetGround: true
-rotateSpeed: 1.5
+rotateSpeed: 0
 shootWarmupSpeed: 0.1
 minWarmup: 0.99
 reload: 300
