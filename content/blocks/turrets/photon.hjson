@@ -26,7 +26,7 @@ shootCone: 360
 minWarmup: 0.99
 reload: 300
 range: 282.9
-shootY: 3
+shootY: 6
 shoot: {
     type: shootPattern
     firstShotDelay: 54
@@ -42,7 +42,7 @@ ammoTypes: {
   	incendChance: 0
   	incendSpread: 0
   	incendAmount: 0
-  	width: 4
+  	width: 2
   	splashDamagePierce: true
   	makeFire: false
   	status: melting
@@ -59,6 +59,7 @@ drawer: {
       			type : RegionPart
       			suffix : "-body"
       			heatProgress : warmup
+                heatColor: 1cab00e8
 			    recoilIndex: 0
                 y: 0
                 mirror: false
