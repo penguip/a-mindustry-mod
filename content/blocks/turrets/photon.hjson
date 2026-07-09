@@ -54,15 +54,24 @@ drawer: {
 		type: DrawTurret
      		basePrefix: base
 		parts : [
+                {
+      			type : RegionPart
+      			suffix : "body"
+      			heatProgress : warmup
+			    recoilIndex: 0
+                y: 0
+                mirror: false
+      			moveRot : 0
     			{
       			type : RegionPart
       			suffix : "-side-r"
       			progress : warmup
 			    recoilIndex: 0
+                layerOffset: -1
                 y: 0
                 mirror: false
-      			moveX : 1
-			    moveY : 1
+      			moveX : 2.5
+			    moveY : 2.5
       			moveRot : 0
     		},
             {
@@ -70,10 +79,11 @@ drawer: {
       			suffix : "-side-l"
       			progress : warmup
 			    recoilIndex: 0
+                layerOffset: -1
                 y: 0
                 mirror: false
-      			moveX : -1
-			    moveY : 1
+      			moveX : -2.5
+			    moveY : 2.5
       			moveRot : 0
     		},
 		]
