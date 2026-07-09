@@ -60,7 +60,7 @@ drawer: {
       			progress : warmup
 			    recoilIndex: 0
                 y: 0
-                mirror: true
+                mirror: false
       			moveX : 1
 			    moveY : 1
       			moveRot : 0
@@ -71,7 +71,7 @@ drawer: {
       			progress : warmup
 			    recoilIndex: 0
                 y: 0
-                mirror: true
+                mirror: false
       			moveX : -1
 			    moveY : 1
       			moveRot : 0
