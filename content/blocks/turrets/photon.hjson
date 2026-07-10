@@ -2,16 +2,17 @@ type: ContinuousLiquidTurret
 size: 2
 health: 950
 localizedName: Photon
-description: Charges and fires a constant, powerful laser. Due to a design flaw, it cannot rotate.
+description: Charges and fires a constant, powerful laser. Due to a design flaw, it cannot rotate. Requires certain liquids as catalysts, and strength can vary depending on the catalyst providied.
 requirements: [
-  gadolinium/230
-  yttrium/135
-  contrinum/80
-  oxide/45
-  zirconium/25
+  gadolinium/280
+  yttrium/90
+  contrinum/100
+  oxide/85
+  zirconium/90
   energite/65
 ]
 category: turret
+liquidConsumed: 1
 recoil: 0
 recoils: 2
 loopSound: beam-photon
@@ -35,6 +36,29 @@ ammoTypes: {
   water: {
     type: ContinuousLaserBulletType 
 	ammoMultiplier: 1
+  	shake: 0.2
+  	damageInterval: 5
+  	damage: 90
+  	length: 240
+  	incendChance: 0
+  	incendSpread: 0
+  	incendAmount: 0
+  	width: 2
+  	splashDamagePierce: true
+  	makeFire: false
+  	status: melting
+  	statusDuration: 120
+  	hitEffect: hitBulletColor
+	colors: [
+      363f9a,
+      486acd,
+      7090ea,
+      ffffff
+      ]
+   }
+   infernum: {
+    type: ContinuousLaserBulletType 
+	ammoMultiplier: 0.5
   	shake: 0.2
   	damageInterval: 5
   	damage: 90
