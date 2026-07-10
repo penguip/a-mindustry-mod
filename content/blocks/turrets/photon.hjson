@@ -74,7 +74,7 @@ ammoTypes: {
   	statusDuration: 120
   	hitEffect: hitBulletColor
 	colors: [
-      ff085a,
+      ff805a,
       ffa56e,
       ffbc83,
       ffffff
