@@ -80,6 +80,29 @@ ammoTypes: {
       ffffff
       ]
    }
+   hemogen: {
+    type: ContinuousLaserBulletType 
+	ammoMultiplier: 1
+  	shake: 0.2
+  	damageInterval: 4
+  	damage: 106
+  	length: 240
+  	incendChance: 0
+  	incendSpread: 0
+  	incendAmount: 0
+  	width: 2
+  	splashDamagePierce: true
+  	makeFire: false
+  	status: hemorrhage
+  	statusDuration: 120
+  	hitEffect: hitBulletColor
+	colors: [
+      363f9a,
+      486acd,
+      7090ea,
+      ffffff
+      ]
+   }
 }
 drawer: {
 		type: DrawTurret
