@@ -1,7 +1,7 @@
 localizedName: Radiation Decay
-description: Decreases all stats  and does low damage.
+description: Decreases all stats and does low damage.
 damage: 0.25
 healthMultiplier: 0.6
 speedMultiplier: 0.9
-damageMultilpier: 0.6
+damageMultiplier: 0.6
 reloadMultiplier: 0.8
