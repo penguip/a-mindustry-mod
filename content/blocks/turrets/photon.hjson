@@ -103,6 +103,30 @@ ammoTypes: {
       ffffff
       ]
    }
+   radon: {
+    type: ContinuousLaserBulletType 
+	ammoMultiplier: 3
+  	shake: 0.2
+  	damageInterval: 4
+  	damage: 116
+  	length: 320
+    rangeChange: 80
+  	incendChance: 0
+  	incendSpread: 0
+  	incendAmount: 0
+  	width: 2
+  	splashDamagePierce: true
+  	makeFire: false
+  	status: radiation-decay
+  	statusDuration: 60
+  	hitEffect: hitBulletColor
+	colors: [
+      2264c7,
+      6169c7,
+      9b7dc7,
+      ffffff
+      ]
+   }
 }
 drawer: {
 		type: DrawTurret
