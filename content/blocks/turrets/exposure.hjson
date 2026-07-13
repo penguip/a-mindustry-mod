@@ -39,7 +39,7 @@ ammoTypes: {
     damage: 87
     height: 10
     status: expose
-    statusDuration: 0.0391666667
+    statusDuration: 141
     width: 10
     speed: 1.7
     despawnHit: true
