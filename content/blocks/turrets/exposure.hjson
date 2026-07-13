@@ -14,7 +14,7 @@ category: turret
 recoil: 0
 recoils: 2
 loopSound: none
-shootSound: shootArtilleryShockSmall
+shootSound: shootArtillerySap
 outlineColor: 26262f
 targetAir: false
 targetGround: true
@@ -32,15 +32,13 @@ ammoTypes: {
     type: BasicBulletType
     sprite: shell
     buildingDamageMultiplier: 0.25
-    damage: 64
+    damage: 87
     height: 10
     width: 10
     speed: 1.7
     lifetime: 300
     frontColor: 7090ea
     backColor: 486acd
-    pierce: true
-    pierceCap: 3
     weaveMag: 5
     weaveScale: 10
     homingPower: 1
@@ -57,6 +55,22 @@ drawer: {
       			progress : recoil
                 heatProgress: warmup
                 mirror: true
+      			moveX : 0
+			    moveY : -2
+      			moveRot : 0
+                moves: [
+                  {
+                     x: 4
+                  }
+                ]
+    		},
+            {
+      			type : RegionPart
+      			suffix : "-spine"
+      			progress : recoil
+                heatProgress: warmup
+                mirror: true
+                layerOffset: -1
       			moveX : 0
 			    moveY : -2
       			moveRot : 0
