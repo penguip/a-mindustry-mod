@@ -38,7 +38,7 @@ ammoTypes: {
     buildingDamageMultiplier: 0.25
     damage: 87
     height: 10
-    status: exposed
+    status: expose
     statusDuration: 0.0391666667
     width: 10
     speed: 1.7
