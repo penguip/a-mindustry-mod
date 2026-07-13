@@ -23,7 +23,7 @@ rotateSpeed: 1.5
 shootWarmupSpeed: 0.1
 minWarmup: 0.99
 reload: 40
-range: 282.9
+range: 510
 shake: 3
 shootY: 0
 shoot: {
@@ -38,9 +38,12 @@ ammoTypes: {
     buildingDamageMultiplier: 0.25
     damage: 87
     height: 10
+    status: exposed
+    statusDuration: 2.35
     width: 10
     speed: 1.7
     despawnHit: true
+    collidesAir: false
     despawnSound: explosionDull
     lifetime: 300
     frontColor: c7b3ae
