@@ -43,8 +43,8 @@ ammoTypes: {
     despawnHit: true
     despawnSound: explosionDull
     lifetime: 300
-    frontColor: 7090ea
-    backColor: 486acd
+    frontColor: c7b3ae
+    backColor: bba8a3
     weaveMag: 5
     weaveScale: 10
     homingPower: 35
