@@ -1,0 +1,3 @@
+localizedName: Exposed
+description: When a unit is exposed, its defense falls somewhat.
+healthMultiplier: 0.8
