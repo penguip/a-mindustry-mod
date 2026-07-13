@@ -1,0 +1,76 @@
+type: ItemTurret
+size: 3
+health: 650
+localizedName: Exposure
+description: Shoot large weaving bullets at enemy ground targets, decreasing defense on impact.
+requirements: [
+  gadolinium/300
+  yttrium/340
+  contrinum/145
+  oxide/80
+  zirconium/120
+]
+category: turret
+recoil: 0
+recoils: 2
+loopSound: none
+shootSound: shootArtilleryShockSmall
+outlineColor: 26262f
+targetAir: false
+targetGround: true
+rotateSpeed: 1.5
+shootWarmupSpeed: 0.1
+minWarmup: 0.99
+reload: 80
+range: 282.9
+shootY: 3
+shoot: {
+    type: shootAlternate
+    firstShotDelay: 54
+	}
+ammoTypes: {
+  energite: {
+    type: BasicBulletType
+    sprite: shell
+    buildingDamageMultiplier: 0.25
+    damage: 64
+    height: 10
+    width: 10
+    speed: 3.5
+    lifetime: 36
+    frontColor: 7090ea
+    backColor: 486acd
+    pierce: true
+    pierceCap: 3
+    weaveMag: 3
+    weaveScale: 2.6
+    homingPower: 50
+    homingRange: 10
+  }
+}
+drawer: {
+		type: DrawTurret
+     		basePrefix: base
+		parts : [
+    			{
+      			type : RegionPart
+      			suffix : "-barrel"
+      			progress : recoil
+            heatProgress: warmup
+			      recoilIndex: 0
+            y: -1
+            mirror: true
+      			moveX : 0
+			      moveY : 0
+      			moveRot : 0
+                moves: [
+                  {
+                     x: 2
+                  }
+                ]
+    		},
+		]
+	}
+consumes: {
+  power: 2
+}
