@@ -49,6 +49,16 @@ ammoTypes: {
     weaveScale: 10
     homingPower: 35
     homingRange: 30
+    hitEffect: [
+        {
+        type: WaveEffect
+        colorFrom: bba8a3
+        colorTo: c7b3ae
+        strokeFrom: 5
+        sizeTo: 20
+        lifetime: 10
+        }
+      ]
   }
 }
 drawer: {
