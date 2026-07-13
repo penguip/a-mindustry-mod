@@ -55,7 +55,7 @@ drawer: {
       			type : RegionPart
       			suffix : "-barrel"
       			progress : recoil
-                heatProgress: warmup                y: -1
+                heatProgress: warmup
                 mirror: true
       			moveX : 0
 			    moveY : -2
