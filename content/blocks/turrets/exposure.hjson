@@ -76,8 +76,8 @@ ammoTypes: {
     collidesAir: false
     despawnSound: explosionArtilleryShock
     lifetime: 300
-    frontColor: c7b3ae
-    backColor: bba8a3
+    frontColor: a8fff1
+    backColor: 80ffbd
     weaveMag: 5
     weaveScale: 10
     homingPower: 35
@@ -85,10 +85,10 @@ ammoTypes: {
     hitEffect: [
         {
         type: WaveEffect
-        colorFrom: bba8a3
-        colorTo: c7b3ae
+        colorFrom: 80ffbd
+        colorTo: a8fff1
         strokeFrom: 5
-        sizeTo: 20
+        sizeTo: 60
         lifetime: 10
         }
       ]
@@ -97,6 +97,7 @@ ammoTypes: {
       type: LightningBulletType
       damage: 17
       lightningLength: 15
+      lightningColor: a8fff1
     }
   }
 }
