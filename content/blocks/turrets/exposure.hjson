@@ -23,7 +23,7 @@ rotateSpeed: 1.5
 shootWarmupSpeed: 0.1
 minWarmup: 0.99
 reload: 40
-range: 510
+range: 450
 shake: 3
 shootY: 0
 shoot: {
@@ -127,7 +127,8 @@ drawer: {
                 heatProgress: warmup
                 mirror: true
                 layerOffset: -1
-                y: -1
+                turretHeatLayer: 49
+                y: -2
       			moveX : 0
 			    moveY : -2
       			moveRot : 0
