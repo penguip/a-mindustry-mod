@@ -37,6 +37,7 @@ contentOrder: [
   maw
   contrivance
   photon
+  exposure
   etho-bore
   yttrium-rig
   silicone-bore
@@ -60,6 +61,14 @@ contentOrder: [
   cargo-station
   cargo-depot
   floral-railgun
+  vien
+  spitter
+  route-heart
+  blood-bridge
+  slag-extractor
+  infernum-rig
+  hemogen-distillery
+  ardegrix-recycler
   entropy
   infernum
   blood
@@ -69,4 +78,16 @@ contentOrder: [
   radon
   cenessiodreon
   energicon
+  beep
+  stray
+  butterfly
+  crow
+  disappointment
+  cold
+  kiolua
+  cell
+  rain
+  odd
+  even
+  prime
 ]
