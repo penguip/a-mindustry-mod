@@ -74,6 +74,7 @@ drawer: {
                 heatProgress: warmup
                 mirror: true
                 layerOffset: -1
+                y: -1
       			moveX : 0
 			    moveY : -2
       			moveRot : 0
