@@ -41,6 +41,7 @@ contentOrder: [
   phrase
   fray
   berate
+  skull
   etho-bore
   yttrium-rig
   silicone-bore
@@ -74,6 +75,39 @@ contentOrder: [
   vitrine
   hemogen-distillery
   ardegrix-recycler
+  power-cord
+  beam-pylon
+  prisma-node
+  entropanel
+  infernum-generator
+  bile-generator
+  decay-turbine
+  bloom-reactor
+  prismacore-reactor
+  osmium-wall
+  osmium-wall-large
+  silicon-wall
+  silicon-wall-large
+  contrinum-wall
+  contrinum-wall-large
+  iron-wall
+  iron-wall-large
+  zirconium-wall
+  zirconium-wall-large
+  actinium-wall
+  actinium-wall-large
+  specialized-plastanium-wall
+  soecialized-plastanium-wall-large
+  wall-of-sakura
+  wall-of-sakura-large
+  chromatic-wall-red
+  chromatic-wall-red-large
+  chromatic-wall-yellow
+  chromatic-wall-yellow-large
+  chromatic-wall-green
+  chromatic-wall-green-large
+  chromatic-wall-blue
+  chromatic-wall-blue-large
   entropy
   infernum
   blood
