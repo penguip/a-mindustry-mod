@@ -10,6 +10,7 @@ coolant: {
 }
 size: 3
 outlineColor: 26262f
+coolantMultiplier: 1.35
 shootSound: shootDisperse
 requirements: [
   yttrium/350
@@ -273,6 +274,8 @@ ammoTypes: {
     despawnHit: true
     despawnSound: explosionMissile
     despawnShake: 8
+    despawnEffect: none
+    hitEffect: none
     fragBullets: 1
     fragBullet: {
       type: ExplosionBulletType
