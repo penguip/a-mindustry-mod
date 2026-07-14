@@ -12,7 +12,7 @@ requirements: [
 ]
 category: turret
 recoil: 4
-range: 400
+range: 450
 loopSound: loopGlow
 shootSound: shootRipple
 outlineColor: 26262f
