@@ -57,6 +57,31 @@ drawer: {
        ]
       }
     ]
+    zirconium: [
+      {
+       type: RegionPart
+       suffix: -arrow-zirconium
+       y: 0
+       layerOffset: -0.01
+       outline: false
+       under: true
+       progress: {
+         type: reload
+         interp: pow2In
+       }
+       colorTo: ffffff00
+       color: ffffffff
+       mixColorTo: ffd37fff
+       mixColor: ffffff00
+       moves: [
+         {
+          type: PartMove
+          progress: warmup
+          y: 1
+         }
+       ]
+      }
+    ]
    }
 }
 category: turret
@@ -67,6 +92,7 @@ shootEffect: none
 rotateSpeed: 3.5
 reload: 87
 range: 342
+ammoPerUse: 7
 shootY: 1
 ammoTypes: {
   iron: {
@@ -82,5 +108,20 @@ ammoTypes: {
     backColor: 486acd
     pierce: true
     pierceCap: 3
+    }
+  }
+  zirconium: {
+    type: BasicBulletType
+    sprite: beepdustry-large-arrow
+    buildingDamageMultiplier: 0.25
+    damage: 650
+    height: 35
+    width: 35
+    speed: 7.6
+    lifetime: 45
+    frontColor: c7b55d
+    backColor: 486acd
+    pierce: true
+    pierceCap: 5
     }
   }
