@@ -2,12 +2,6 @@ localizedName: Phrase
 description: Fires a barrage of armor peircing lasers.
 size: 3
 type: PowerTurret
-coolant: {
-  type: ConsumeCoolant
-  allowGas: true
-  allowLiquid: true
-  amount: 0.35
-}
 health: 1200
 outlineColor: 26262f
 shootSound: small-laser
