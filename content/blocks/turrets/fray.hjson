@@ -109,7 +109,6 @@ ammoTypes: {
     pierce: true
     pierceCap: 3
     }
-  }
   zirconium: {
     type: BasicBulletType
     sprite: beepdustry-large-arrow
@@ -124,3 +123,4 @@ ammoTypes: {
     pierce: true
     pierceCap: 5
     }
+}
