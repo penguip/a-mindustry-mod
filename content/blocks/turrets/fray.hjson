@@ -37,7 +37,7 @@ drawer: {
        type: RegionPart
        suffix: -arrow-iron
        y: 0
-       layerOffset: -0.01
+       layerOffset: 1
        outline: false
        under: true
        progress: {
@@ -62,7 +62,7 @@ drawer: {
        type: RegionPart
        suffix: -arrow-zirconium
        y: 0
-       layerOffset: -0.01
+       layerOffset: 1
        outline: false
        under: true
        progress: {
