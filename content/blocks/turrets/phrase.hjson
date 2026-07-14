@@ -1,5 +1,5 @@
 localizedName: Phrase
-description: Fires a barrage of armor peircing lasers.
+description: Fires a barrage of armor peircing lasers. Uses trace amounts of radon.
 size: 3
 type: PowerTurret
 health: 1250
@@ -23,6 +23,29 @@ drawer: {
                      under: false
                      y: 0
       			     moveX: 0
+			         moveY: -2
+      			     moveRot: 0
+    			}
+                {
+      			     type: RegionPart
+      			     suffix: "-wing"
+      			     progress: warmup
+                     outlineColor: 282C36
+                     under: false
+                     mirror: true
+                     y: 0
+      			     moveX: 0
+			         moveY: 0
+      			     moveRot: -20
+    			}
+                {
+      			     type: RegionPart
+      			     suffix: "-middle"
+      			     progress: recoil
+                     outlineColor: 282C36
+                     under: false
+                     y: 0
+      			     moveX: 0
 			         moveY: -1
       			     moveRot: 0
     			}
@@ -32,7 +55,7 @@ category: turret
 inaccuracy: 10
 shoot: {
    shots: 5
-   shotDelay: 5
+   shotDelay: 2
 }
 recoil: 3
 targetAir: true
@@ -43,7 +66,7 @@ range: 320
 shootY: 7
 shootType: {
       type: LaserBoltBulletType
-      length: 10
+      length: 6
       damage: 20
       pierce: false
       width: 2
@@ -55,4 +78,5 @@ shootType: {
     }
 consumes: {
   power: 3
+  liquid: radon/0.33333333333
 }
