@@ -2,7 +2,7 @@ localizedName: Phrase
 description: Fires a barrage of armor peircing lasers.
 size: 3
 type: PowerTurret
-health: 1200
+health: 1250
 outlineColor: 26262f
 shootSound: small-laser
 requirements: [
@@ -13,7 +13,7 @@ requirements: [
 ]
 drawer: {
 		type: DrawTurret
-     		basePrefix: base
+     	basePrefix: base
 		parts: [
     			   {
       			     type: RegionPart
@@ -23,30 +23,35 @@ drawer: {
                      under: false
                      y: 0
       			     moveX: 0
-			           moveY: -1
+			         moveY: -1
       			     moveRot: 0
     			}
 ]
 }
 category: turret
+inaccuracy: 10
+shoot: {
+   shots: 5
+   shotDelay: 5
+}
 recoil: 3
 targetAir: true
 targetGround: true
 rotateSpeed: 5.764
 reload: 20
 range: 320
-shootY: 3
+shootY: 7
 shootType: {
       type: LaserBoltBulletType
       length: 10
-      damage: 2₩
+      damage: 20
       pierce: false
       width: 2
       pierceBuilding: false
       speed: 4
       lifetime: 80
       backColor: b2736a
-      armorPeircing
+      pierceArmor: true
     }
 consumes: {
   power: 3
