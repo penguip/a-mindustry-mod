@@ -68,3 +68,35 @@ shootType: {
 consumes: {
   power: 7
 }
+drawer: {
+		type: DrawTurret
+     	basePrefix: base
+		parts: [
+                {
+      			     type: RegionPart
+      			     suffix: "-glow"
+      			     progress: warmup
+                     heatProgress: warmup
+                     heatColor: b286ba
+                     outlineColor: 282C36
+                     under: false
+                     y: 0
+      			     moveX: 0
+			         moveY: 0
+    			}
+                {
+      			     type: RegionPart
+      			     suffix: "-side"
+      			     progress: warmup
+                     heatProgress: warmup
+                     heatColor: b286ba
+                     outlineColor: 282C36
+                     under: false
+                     mirror: true
+                     y: 0
+      			     moveX: 0
+			         moveY: 0
+      			     moveRot: 20
+    			}
+]
+}
