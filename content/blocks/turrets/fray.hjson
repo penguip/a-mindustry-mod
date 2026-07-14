@@ -211,14 +211,20 @@ ammoTypes: {
     pierceCap: 6
     despawnHit: true
     despawnSound: explosionDull
-    fragBullets: 8
+    fragBullets: 6
+    fragRandomSpread: 0
+    fragSpread: 60
+    fragVelocityMax: 1
+    fragVelocityMin: 1
     fragBullet: {
       type: BasicBulletType
       damage: 35
+      width: 10
+      height: 10
       frontColor: edf3a9
       backColor: cbd97f
-      speed: 1
-      lifetime: 60
+      speed: 2
+      lifetime: 30
      }
     }
 }
