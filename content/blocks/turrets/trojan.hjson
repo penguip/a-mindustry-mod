@@ -167,7 +167,7 @@ drawer: {
                  y: 0
       			 moveX: 1
 			     moveY: -2
-                 moveRot: 10
+                 moveRot: -5
                  moves: [
                    {
                      x: 1
