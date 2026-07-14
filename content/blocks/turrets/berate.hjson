@@ -20,6 +20,7 @@ liquidConsumed: 1
 recoil: 0
 shootDuration: 400
 recoils: 2
+ambientSound: loopMalign
 loopSound: beamMeltdown
 shootSound: shootBeamPlasma
 chargeSound: charge-crow
@@ -30,6 +31,7 @@ rotateSpeed: 1
 shootWarmupSpeed: 0.1
 shootCone: 3
 minWarmup: 0.99
+coolantMultiplier: 1
 cooldownTime: 200
 reload: 400
 shake: 25
