@@ -6,7 +6,7 @@ laserRange: 450
 health: 750
 maxNodes: 1
 size: 3
-sameBlockConnection
+sameBlockConnection: true
 squareSprite: false
 researchCostMultiplier: 0.5
 category: power
