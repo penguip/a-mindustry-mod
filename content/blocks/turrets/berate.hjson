@@ -12,7 +12,7 @@ requirements: [
 category: turret
 liquidConsumed: 1
 recoil: 0
-shootDuration
+shootDuration: 400
 recoils: 2
 loopSound: beamMeltdown
 shootSound: shootBeamPlasma
@@ -20,14 +20,15 @@ chargeSound: charge-crow
 outlineColor: 26262f
 targetAir: true
 targetGround: true
-rotateSpeed: 0.2
+rotateSpeed: 1
 shootWarmupSpeed: 0.1
 shootCone: 360
 minWarmup: 0.99
-reload: 300
+cooldownTime: 200
+reload: 400
 shake: 25
 range: 240
-shootY: 6
+shootY: 8
 shoot: {
     type: shootPattern
     firstShotDelay: 54
@@ -43,9 +44,9 @@ shootType: {
   	incendChance: 0.25
   	incendSpread: 2
   	incendAmount: 5
-  	width: 5
+  	width: 4
   	splashDamagePierce: true
-  	makeFire: false
+  	makeFire: true
   	status: melting
   	statusDuration: 120
   	hitEffect: hitBulletColor
