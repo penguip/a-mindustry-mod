@@ -66,6 +66,9 @@ shootType: {
       ]
    }
 consumes: {
-  coolant: 1
+  coolant: {
+    type: ConsumeCoolant
+    amount: 1
+  }
   power: 7
 }
