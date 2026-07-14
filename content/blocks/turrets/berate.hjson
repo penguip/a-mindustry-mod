@@ -1,0 +1,57 @@
+type: LaserTurret
+size: 3
+health: 1300
+localizedName: Berate
+description: Charges and fires a persistent, deadly laser. Devastates single targets. Less effective at dealing with fast hordes. 
+requirements: [
+  gadolinium/500
+  silicon/400
+  actinium/200
+  plastanium/80
+]
+category: turret
+liquidConsumed: 1
+recoil: 0
+recoils: 2
+loopSound: beamMeltdown
+shootSound: shootBeamPlasma
+chargeSound: charge-crow
+outlineColor: 26262f
+targetAir: true
+targetGround: true
+rotateSpeed: 0.2
+shootWarmupSpeed: 0.1
+shootCone: 360
+minWarmup: 0.99
+reload: 300
+shake: 25
+range: 240
+shootY: 6
+shoot: {
+    type: shootPattern
+    firstShotDelay: 54
+	}
+shootType: {
+    type: ContinuousLaserBulletType 
+	  ammoMultiplier: 1
+  	shake: 0.2
+  	damageInterval: 3
+  	damage: 130
+  	length: 240
+    lifetime: 200
+  	incendChance: 0.25
+  	incendSpread: 2
+  	incendAmount: 5
+  	width: 5
+  	splashDamagePierce: true
+  	makeFire: false
+  	status: melting
+  	statusDuration: 120
+  	hitEffect: hitBulletColor
+	  colors: [
+      363f9a,
+      486acd,
+      7090ea,
+      ffffff
+      ]
+   }
