@@ -13,6 +13,9 @@ requirements: [
 category: turret
 recoil: 4
 range: 450
+minWarmup: 0.99
+shootWarmupSpeed: 0.03
+trackingRange: 650
 loopSound: loopGlow
 shootSound: shootRipple
 outlineColor: 26262f
@@ -27,12 +30,112 @@ ammoTypes: {
     buildingDamageMultiplier: 0.25
     splashDamage: 0
     splashDamageRadius: 0
+    damage: 0
     height: 15
     width: 15
-    speed: 1.5
-    lifetime: 300
+    speed: 4.5
+    scaleLife: false
+    homingPower: 10
+    homingRange: 50
+    lifetime: 100
     collidesAir: true
     despawnUnit: beep
+   }
+   osmium: {
+    type: ArtilleryBulletType
+    buildingDamageMultiplier: 0.25
+    splashDamage: 0
+    splashDamageRadius: 0
+    damage: 0
+    height: 15
+    width: 15
+    speed: 4.5
+    scaleLife: false
+    homingPower: 10
+    homingRange: 50
+    lifetime: 100
+    collidesAir: true
+    despawnUnit: butterfly
+   }
+   silicon: {
+    type: ArtilleryBulletType
+    buildingDamageMultiplier: 0.25
+    splashDamage: 0
+    splashDamageRadius: 0
+    damage: 0
+    height: 15
+    width: 15
+    speed: 4.5
+    scaleLife: false
+    homingPower: 10
+    homingRange: 50
+    lifetime: 100
+    collidesAir: true
+    despawnUnit: disappointment
+   }
+   oxide: {
+    type: ArtilleryBulletType
+    buildingDamageMultiplier: 0.25
+    splashDamage: 0
+    splashDamageRadius: 0
+    damage: 0
+    height: 15
+    width: 15
+    speed: 4.5
+    scaleLife: false
+    homingPower: 10
+    homingRange: 50
+    lifetime: 100
+    collidesAir: true
+    despawnUnit: cold
+   }
+   item-flesh: {
+    type: ArtilleryBulletType
+    buildingDamageMultiplier: 0.25
+    splashDamage: 0
+    splashDamageRadius: 0
+    damage: 0
+    height: 15
+    width: 15
+    speed: 4.5
+    scaleLife: false
+    homingPower: 10
+    homingRange: 50
+    lifetime: 100
+    collidesAir: true
+    despawnUnit: cell
+   }
+   contrinum: {
+    type: ArtilleryBulletType
+    buildingDamageMultiplier: 0.25
+    splashDamage: 0
+    splashDamageRadius: 0
+    damage: 0
+    height: 15
+    width: 15
+    speed: 4.5
+    scaleLife: false
+    homingPower: 10
+    homingRange: 50
+    lifetime: 100
+    collidesAir: true
+    despawnUnit: kiolua
+   }
+   iron: {
+    type: ArtilleryBulletType
+    buildingDamageMultiplier: 0.25
+    splashDamage: 0
+    splashDamageRadius: 0
+    damage: 0
+    height: 15
+    width: 15
+    speed: 4.5
+    scaleLife: false
+    homingPower: 10
+    homingRange: 50
+    lifetime: 100
+    collidesAir: true
+    despawnUnit: rain
    }
 }
 drawer: {
