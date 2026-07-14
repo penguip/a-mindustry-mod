@@ -270,8 +270,6 @@ ammoTypes: {
     lifetime: 45
     frontColor: ff7ac8
     backColor: 486acd
-    pierce: true
-    pierceCap: 8
     despawnHit: true
     despawnSound: explosionMissile
     despawnShake: 8
@@ -286,6 +284,7 @@ ammoTypes: {
       height: 10
       hitColor: ff7ac8
       hitEffect: scatheExplosion
+      despawnEffect: none
       despawnHit: true
      }
     }
