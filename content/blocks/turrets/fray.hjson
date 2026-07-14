@@ -1,0 +1,51 @@
+localizedName: Fray
+description: Fires a powerful crossbow bolt at enemy air targets.
+type: ItemTurret
+health: 1250
+outlineColor: 26262f
+shootSound: shootDisperse
+requirements: [
+  yttrium/350
+  silicon/120
+  zirconium/120
+  actinium/80
+]
+drawer: {
+		type: DrawTurret
+     	basePrefix: base
+		parts: [
+    			   {
+      			     type: RegionPart
+      			     suffix: "-string"
+      			     progress: reload
+                 mirror: true
+                     outlineColor: 282C36
+                     under: false
+                     y: 0
+      			         moveX: 0
+			               moveY: -2
+      			         moveRot: 0
+            }
+    			]
+}
+category: turret
+recoil: 3
+targetAir: true
+targetGround: false
+shootEffect: none
+rotateSpeed: 3.5
+reload: 120
+range: 320
+shootY: 1
+shootType: {
+      type: LaserBoltBulletType
+      length: 6
+      damage: 20
+      pierce: false
+      width: 2
+      pierceBuilding: false
+      speed: 4
+      lifetime: 80
+      backColor: b9ffb1
+      pierceArmor: true
+    }
