@@ -2,6 +2,12 @@ localizedName: Fray
 description: Fires powerful crossbow bolts at enemy air targets.
 type: ItemTurret
 health: 1250
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.5
+}
 size: 3
 outlineColor: 26262f
 shootSound: shootDisperse
