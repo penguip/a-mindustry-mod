@@ -17,7 +17,7 @@ faceTarget: true
 targetAir: true
 targetUnderBlocks: false
 drawCell: false
-missileAccelTime: 60
+missileAccelTime: 15
 hidden: true
 engineColor: FFD37F
 engineSize: 1
