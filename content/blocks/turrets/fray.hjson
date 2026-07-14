@@ -18,13 +18,13 @@ drawer: {
       			     type: RegionPart
       			     suffix: "-string"
       			     progress: reload
-                 mirror: true
+                     mirror: true
                      outlineColor: 282C36
                      under: false
                      y: 0
-      			         moveX: 0
-			               moveY: -2
-      			         moveRot: 0
+      			     moveX: 0
+			         moveY: -2
+      			     moveRot: 0
             }
     			]
 }
@@ -37,15 +37,37 @@ rotateSpeed: 3.5
 reload: 120
 range: 320
 shootY: 1
-shootType: {
-      type: LaserBoltBulletType
-      length: 6
-      damage: 20
-      pierce: false
-      width: 2
-      pierceBuilding: false
-      speed: 4
-      lifetime: 80
-      backColor: b9ffb1
-      pierceArmor: true
+ammoTypes: {
+  iron: {
+    type: BasicBulletType
+    sprite: large-arrow
+    buildingDamageMultiplier: 0.25
+    damage: 180
+    height: 10
+    width: 10
+    speed: 2.3
+    lifetime: 123
+    frontColor: 7090ea
+    backColor: 486acd
+    pierce: true
+    pierceCap: 3
+    fragBullets: 12
+    fragSpread: 30
+    fragRandomSpread: 0
+    homingPower: 50
+    homingRange: 10
+    despawnSound: shootBeamPlasma
+    HitSound: shootBeamPlasma
+    fragBullet: {
+      type: LaserBulletType
+      length: 87
+      damage: 34
+      colors: [
+      363f9a,
+      486acd,
+      7090ea,
+      ffffff
+      ]
     }
+  }
+}
