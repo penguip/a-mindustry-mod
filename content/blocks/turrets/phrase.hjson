@@ -10,12 +10,12 @@ coolant: {
 }
 health: 1200
 outlineColor: 26262f
-shootSound: shoot-sharp
+shootSound: small-laser
 requirements: [
-  yttrium/140
-  osmium/180
-  silicon/90
-  oxide/35
+  osmium/245
+  silicon/145
+  oxide/80
+  actinium/65
 ]
 drawer: {
 		type: DrawTurret
@@ -39,6 +39,21 @@ recoil: 3
 targetAir: true
 targetGround: true
 rotateSpeed: 5.764
-reload: 309
-range: 400
+reload: 20
+range: 320
 shootY: 3
+shootType: {
+      type: LaserBoltBulletType
+      length: 10
+      damage: 2₩
+      pierce: false
+      width: 2
+      pierceBuilding: false
+      speed: 4
+      lifetime: 80
+      backColor: b2736a
+      armorPeircing
+    }
+consumes: {
+  power: 3
+}
