@@ -154,5 +154,23 @@ drawer: {
       			     moveX: 0
 			           moveY: -2
     			}
+                {
+      		     type: RegionPart
+      			 suffix: "-side"
+      		     progress: recoil
+                 heatProgress: warmup
+                 heatColor: ff7ac8
+                 outlineColor: 282C36
+                 under: false
+                 y: 0
+      			 moveX: 1
+			     moveY: -2
+                 moveRot: 10
+                 moves: [
+                   {
+                     x: 1
+                   }
+                 ]
+    			}
      ]
 }
