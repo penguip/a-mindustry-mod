@@ -187,6 +187,7 @@ ammoTypes: {
     width: 35
     speed: 7.6
     lifetime: 45
+    collidesGround: false
     frontColor: c7b3ae
     backColor: 486acd
     pierce: true
@@ -199,6 +200,7 @@ ammoTypes: {
     damage: 650
     height: 35
     width: 35
+    collidesGround: false
     speed: 7.6
     lifetime: 45
     frontColor: c7b55d
@@ -215,6 +217,7 @@ ammoTypes: {
     width: 35
     speed: 7.6
     lifetime: 45
+    collidesGround: false
     frontColor: a8fff1
     backColor: 486acd
     pierce: true
@@ -225,6 +228,7 @@ ammoTypes: {
     fragBullet: {
       type: LightningBulletType
       lightningColor: a8fff1
+      collidesGround: false
       damage: 50
       lightningLength: 15
     }
@@ -236,6 +240,7 @@ ammoTypes: {
     damage: 870
     height: 35
     width: 35
+    collidesGround: false
     speed: 7.6
     lifetime: 45
     frontColor: edf3a9
@@ -254,6 +259,7 @@ ammoTypes: {
       damage: 35
       width: 10
       height: 10
+      collidesGround: false
       frontColor: edf3a9
       backColor: cbd97f
       speed: 2
@@ -269,6 +275,7 @@ ammoTypes: {
     width: 35
     speed: 7.6
     lifetime: 45
+    collidesGround: false
     frontColor: ff7ac8
     backColor: 486acd
     despawnHit: true
@@ -285,6 +292,8 @@ ammoTypes: {
       statusDuration: 30
       width: 10
       height: 10
+      collidesGround: false
+      killShooter: false
       hitColor: ff7ac8
       hitEffect: scatheExplosion
       despawnEffect: none
