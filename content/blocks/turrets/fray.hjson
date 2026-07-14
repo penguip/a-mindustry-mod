@@ -107,6 +107,31 @@ drawer: {
        ]
       }
     ]
+    plastanium: [
+      {
+       type: RegionPart
+       suffix: -arrow-plastanium
+       y: 0
+       layerOffset: 1
+       outline: false
+       under: true
+       progress: {
+         type: reload
+         interp: pow2In
+       }
+       colorTo: ffffff00
+       color: ffffffff
+       mixColorTo: ffd37fff
+       mixColor: ffffff00
+       moves: [
+         {
+          type: PartMove
+          progress: warmup
+          y: 0
+         }
+       ]
+      }
+    ]
    }
 }
 category: turret
@@ -170,5 +195,30 @@ ammoTypes: {
       damage: 50
       lightningLength: 15
     }
+    }
+   plastanium: {
+    type: BasicBulletType
+    sprite: beepdustry-large-arrow
+    buildingDamageMultiplier: 0.25
+    damage: 870
+    height: 35
+    width: 35
+    speed: 7.6
+    lifetime: 45
+    frontColor: edf3a9
+    backColor: 486acd
+    pierce: true
+    pierceCap: 6
+    despawnHit: true
+    despawnSound: explosionDull
+    fragBullets: 8
+    fragBullet: {
+      type: BasicBulletType
+      damage: 35
+      frontColor: edf3a9
+      backColor: cbd97f
+      speed: 1
+      lifetime: 60
+     }
     }
 }
