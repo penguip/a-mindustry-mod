@@ -1,7 +1,6 @@
 type: ItemTurret
 size: 3
 health: 1450
-targetHealing: true
 localizedName: Trojan
 description: A large turret that fires shells which do no damage but deploy allied units on impact.
 requirements: [
