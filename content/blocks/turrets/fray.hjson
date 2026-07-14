@@ -132,6 +132,31 @@ drawer: {
        ]
       }
     ]
+    alloy-of-sakura: [
+      {
+       type: RegionPart
+       suffix: -arrow-alloy-of-sakura
+       y: 0
+       layerOffset: 1
+       outline: false
+       under: true
+       progress: {
+         type: reload
+         interp: pow2In
+       }
+       colorTo: ffffff00
+       color: ffffffff
+       mixColorTo: ffd37fff
+       mixColor: ffffff00
+       moves: [
+         {
+          type: PartMove
+          progress: warmup
+          y: 0
+         }
+       ]
+      }
+    ]
    }
 }
 category: turret
@@ -225,6 +250,35 @@ ammoTypes: {
       backColor: cbd97f
       speed: 2
       lifetime: 30
+     }
+    }
+    alloy-of-sakura: {
+      type: BasicBulletType
+    sprite: beepdustry-large-arrow
+    buildingDamageMultiplier: 0.25
+    damage: 1150
+    height: 35
+    width: 35
+    speed: 7.6
+    lifetime: 45
+    frontColor: ff7ac8
+    backColor: 486acd
+    pierce: true
+    pierceCap: 8
+    despawnHit: true
+    despawnSound: explosionTitan
+    fragBullets: 1
+    fragBullet: {
+      type: ExplosionBulletType
+      splashDamage: 700
+      splashDamageRadius: 100
+      status: radiation-decay
+      statusDuration: 30
+      width: 10
+      height: 10
+      hitColor: ff7ac8
+      hitEffect: explosionScathe
+      despawnHit: true
      }
     }
 }
