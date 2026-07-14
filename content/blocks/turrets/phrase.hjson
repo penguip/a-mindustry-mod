@@ -1,0 +1,44 @@
+localizedName: Phrase
+description: Fires a barrage of armor peircing lasers.
+size: 3
+type: PowerTurret
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.35
+}
+health: 1200
+outlineColor: 26262f
+shootSound: shoot-sharp
+requirements: [
+  yttrium/140
+  osmium/180
+  silicon/90
+  oxide/35
+]
+drawer: {
+		type: DrawTurret
+     		basePrefix: base
+		parts: [
+    			   {
+      			     type: RegionPart
+      			     suffix: "-barrel"
+      			     progress: recoil
+                     outlineColor: 282C36
+                     under: false
+                     y: 0
+      			     moveX: 0
+			           moveY: -1
+      			     moveRot: 0
+    			}
+]
+}
+category: turret
+recoil: 3
+targetAir: true
+targetGround: true
+rotateSpeed: 5.764
+reload: 309
+range: 400
+shootY: 3
