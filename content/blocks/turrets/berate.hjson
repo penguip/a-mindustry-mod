@@ -10,6 +10,12 @@ requirements: [
   plastanium/80
 ]
 category: turret
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.5
+}
 liquidConsumed: 1
 recoil: 0
 shootDuration: 400
