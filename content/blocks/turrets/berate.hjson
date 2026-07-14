@@ -134,5 +134,20 @@ drawer: {
                   strokeTo: 2
                   y: -13
 				}
+                {
+                  type: HaloPart
+                  color: b286ba
+                  tri: true
+                  haloRadius: 12
+                  haloRotation: 90
+                  shapeRotation: 180
+                  radius: 0
+                  radiusTo: 3
+                  stroke: 0
+                  strokeTo: 1
+                  y: -13
+                  triLength: 0
+                  triLengthTo: 5
+				}
 ]
 }
