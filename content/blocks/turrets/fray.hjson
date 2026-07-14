@@ -44,7 +44,7 @@ shootY: 1
 ammoTypes: {
   iron: {
     type: BasicBulletType
-    sprite: large-arrow
+    sprite: beepdustry-large-arrow
     buildingDamageMultiplier: 0.25
     damage: 450
     height: 10
