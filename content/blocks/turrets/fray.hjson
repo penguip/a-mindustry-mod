@@ -165,9 +165,10 @@ targetAir: true
 targetGround: false
 shootEffect: none
 rotateSpeed: 3.5
-reload: 87
+reload: 45
 range: 342
-ammoPerUse: 7
+ammoPerShot: 7
+maxAmmo: 35
 shootY: 1
 ammoTypes: {
   iron: {
@@ -267,11 +268,12 @@ ammoTypes: {
     pierceCap: 8
     despawnHit: true
     despawnSound: explosionMissile
+    despawnShake: 8
     fragBullets: 1
     fragBullet: {
       type: ExplosionBulletType
       splashDamage: 700
-      splashDamageRadius: 100
+      splashDamageRadius: 60
       status: radiation-decay
       statusDuration: 30
       width: 10
