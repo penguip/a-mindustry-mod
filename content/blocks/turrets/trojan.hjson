@@ -1,0 +1,39 @@
+type: ItemTurret
+size: 3
+health: 1450
+targetHealing: true
+localizedName: Trojan
+description: A large turret that fires shells which do no damage but deploy allied units on impact.
+requirements: [
+  gadolinium/420
+  silicon/350
+  oxide/350
+  actinium/175
+  alloy-of-sakura/85
+]
+category: turret
+recoil: 4
+range: 400
+loopSound: loopGlow
+shootSound: shootRipple
+outlineColor: 26262f
+targetAir: true
+targetGround: true
+rotateSpeed: 2.36
+reload: 600
+shootY: 3
+ammoTypes: {
+  yttrium: {
+    type: ArtilleryBulletType
+    buildingDamageMultiplier: 0.25
+    splashDamage: 0
+    splashDamageRadius: 0
+    height: 15
+    width: 15
+    speed: 1.5
+    lifetime: 300
+    collidesAir: true
+    despawnUnit: beep
+    trailColor: 7090ea
+   }
+}
