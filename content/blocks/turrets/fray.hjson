@@ -1,5 +1,5 @@
 localizedName: Fray
-description: Fires a powerful crossbow bolt at enemy air targets.
+description: Fires powerful crossbow bolts at enemy air targets.
 type: ItemTurret
 health: 1250
 size: 3
@@ -38,7 +38,7 @@ targetAir: true
 targetGround: false
 shootEffect: none
 rotateSpeed: 3.5
-reload: 120
+reload: 87
 range: 320
 shootY: 1
 ammoTypes: {
@@ -46,7 +46,7 @@ ammoTypes: {
     type: BasicBulletType
     sprite: large-arrow
     buildingDamageMultiplier: 0.25
-    damage: 180
+    damage: 450
     height: 10
     width: 10
     speed: 2.3
