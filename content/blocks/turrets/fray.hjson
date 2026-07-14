@@ -9,6 +9,7 @@ requirements: [
   yttrium/350
   silicon/120
   zirconium/120
+  energite/190
   actinium/80
 ]
 drawer: {
@@ -22,10 +23,10 @@ drawer: {
                      mirror: true
                      outlineColor: 282C36
                      under: false
-                     y: 2
+                     y: 1
       			     moveX: 0
-			         moveY: -2
-      			     moveRot: 0
+			         moveY: -7
+      			     moveRot: -60
             }
     			]
 }
