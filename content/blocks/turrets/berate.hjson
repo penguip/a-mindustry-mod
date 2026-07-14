@@ -109,5 +109,17 @@ drawer: {
                   strokeTo: 1
                   y: -13
 				}
+                {
+                  type: HaloPart
+                  color: b286ba
+                  haloRadius: 0
+                  haloRadiusTo: 8
+                  haloRotateSpeed: 1.23
+                  radius: 0
+                  radiusTo: 2
+                  stroke: 0
+                  strokeTo: 1
+                  y: -13
+				}
 ]
 }
