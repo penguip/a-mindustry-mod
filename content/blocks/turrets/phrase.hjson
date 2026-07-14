@@ -50,7 +50,7 @@ shootType: {
       pierceBuilding: false
       speed: 4
       lifetime: 80
-      backColor: b2736a
+      backColor: b9ffb1
       pierceArmor: true
     }
 consumes: {
