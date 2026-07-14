@@ -59,9 +59,9 @@ shootType: {
   	statusDuration: 120
   	hitEffect: hitBulletColor
 	  colors: [
+      a055ba,
+      7e68ba,
       b286ba,
-      486acd,
-      7090ea,
       ffffff
       ]
    }
