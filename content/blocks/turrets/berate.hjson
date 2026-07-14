@@ -28,7 +28,7 @@ outlineColor: 26262f
 targetAir: true
 targetGround: true
 rotateSpeed: 1
-shootWarmupSpeed: 0.1
+shootWarmupSpeed: 0.08
 shootCone: 3
 minWarmup: 0.99
 coolantMultiplier: 1
@@ -159,7 +159,6 @@ drawer: {
                   tri: true
                   haloRadius: 12
                   haloRotation: 90
-                  shapeRotation: 180
                   shapes: 2
                   radius: 0
                   radiusTo: 3
@@ -167,7 +166,7 @@ drawer: {
                   strokeTo: 1
                   y: -13
                   triLength: 0
-                  triLengthTo: 5
+                  triLengthTo: 9
 				}
 ]
 }
