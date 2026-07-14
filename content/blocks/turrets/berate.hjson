@@ -121,5 +121,18 @@ drawer: {
                   strokeTo: 1
                   y: -13
 				}
+                {
+                  type: ShapePart
+                  color: b286ba
+                  sides: 4
+                  hollow: true
+                  radius: 0
+                  radiusTo: 5
+                  rotation: 90
+                  rotateSpeed: -0.76
+                  stroke: 0
+                  strokeTo: 2
+                  y: -13
+				}
 ]
 }
