@@ -22,7 +22,7 @@ targetAir: true
 targetGround: true
 rotateSpeed: 1
 shootWarmupSpeed: 0.1
-shootCone: 360
+shootCone: 3
 minWarmup: 0.99
 cooldownTime: 200
 reload: 400
@@ -36,7 +36,7 @@ shoot: {
 shootType: {
     type: ContinuousLaserBulletType 
 	ammoMultiplier: 1
-  	shake: 0.2
+  	shake: 5
   	damageInterval: 3
   	damage: 130
   	length: 240
@@ -57,3 +57,7 @@ shootType: {
       ffffff
       ]
    }
+consumes: {
+  coolant: 1
+  power: 7
+}
