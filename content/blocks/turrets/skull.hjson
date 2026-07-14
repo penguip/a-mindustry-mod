@@ -1,7 +1,7 @@
 localizedName: Skull
 description: Fires a blast of armor peircing shrapnel. Annihilates swarms. Less efficient against stronger targets.
 size: 3
-type: PowerTurret
+type: ItemTurret
 health: 1250
 outlineColor: 26262f
 shootSound: shootFuse
@@ -19,17 +19,22 @@ targetGround: true
 rotateSpeed: 5.764
 reload: 60
 shake: 3
-range: 320
+range: 170
 shootY: 5
-shootType: {
+ammoTypes: {
+   calcium: {
       type: ShrapnelBulletType
-      length: 80
+      length: 170
       damage: 150
-      width: 2
+      width: 8
+      serrations: 10
+      serrationWidth: 8
+      serrationSpacing: 12
+      toColor: e2caca
       pierceBuilding: false
-      backColor: b9ffb1
       pierceArmor: true
     }
+  }
 consumes: {
   liquid: blood/1.5
 }
