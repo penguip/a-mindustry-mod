@@ -31,3 +31,22 @@ ammoTypes: {
     instantDisappear: true
    }
 }
+drawer: {
+		type: DrawTurret
+     	basePrefix: base
+		parts: [
+                {
+      			     type: RegionPart
+      			     suffix: "-top"
+      			     progress: warmup
+                 heatProgress: warmup
+                 heatColor: ff7ac8
+                 outlineColor: 282C36
+                 under: false
+                 colorTo: ffffff00
+                 y: 0
+      			     moveX: 0
+			           moveY: -20
+    			}
+      ]
+  }
