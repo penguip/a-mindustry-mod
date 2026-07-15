@@ -115,7 +115,6 @@ drawer: {
                   color: b286ba
                   haloRadius: 0
                   haloRadiusTo: 8
-                  
                   haloRotateSpeed: 1.23
                   radius: 0
                   radiusTo: 2
