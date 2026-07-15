@@ -31,7 +31,7 @@ shoot: {
     barrels: 2
 	spread: 7
     shots: 2
-    shotDelay: 5
+    shotDelay: 10
 	}
 ammoTypes: {
   alloy-of-sakura: {
@@ -89,7 +89,7 @@ drawer: {
             heatProgress: warmup
             heatColor: d6c557
             progress: warmup
-            moveX: 2
+            moveX: 3
           }
 		]
 	}
