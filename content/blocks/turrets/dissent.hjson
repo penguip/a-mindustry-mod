@@ -14,6 +14,7 @@ recoil: 3
 recoils: 2
 shootSound: shootConquer
 outlineColor: 26262f
+loopSound: loopGlow
 targetAir: true
 targetGround: true
 rotateSpeed: 3.45
