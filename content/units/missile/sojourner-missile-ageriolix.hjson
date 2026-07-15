@@ -1,0 +1,60 @@
+type: missile
+template: MissileUnitType
+flying: true
+speed: 3.2
+outlineColor: 282C36
+physics: false
+lifetime: 250
+lowAltitude: true
+homingDelay: 0
+hitSize: 13
+rotateSpeed: 0.125
+useUnitCap: false
+health: 1000
+autoFindTarget: true
+circleTarget: false
+faceTarget: true
+targetAir: true
+targetUnderBlocks: false
+drawCell: false
+missileAccelTime: 30
+hidden: true
+trailColor: 7d83d6
+engineColor: 7d83d6
+engineSize: 3.7
+engineOffset: 9
+abilities: [
+  {
+    type: MoveEffectAbility
+    effect: missileTrailSmoke
+    rotation: 180
+    y: -9
+    interval: 4
+    color: 7d83d645
+  }
+]
+trailLength: 18
+loopSoundVolume: 0.8
+fogRadius: 6
+deathSound: explosionMissile
+deathShake: 7
+weapons: [
+  {
+    reload: 1
+    shootOnDeath: true
+    mirror: true
+    shootCone: 360
+    shake: 10
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 2000
+      splashDamageRadius: 75
+      status: freezing
+      statusDuration: 600
+      buildingDamageMultiplier: 0.1
+      ammoMultiplier: 1
+      hitEffect: scatheExplosion
+      hitColor: 7d83d6
+    }
+  }
+]
