@@ -71,6 +71,7 @@ weapons: [
          lightningLengthRand: 5
          damage: 120
          lightningColor: 80ffbd
+         despawnSound: explosionArtilleryShock
         }
       }
     }
