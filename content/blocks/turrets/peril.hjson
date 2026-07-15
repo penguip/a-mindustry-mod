@@ -49,7 +49,7 @@ consumes: {
 }
 drawer: {
 		type: DrawTurret
-     		basePrefix: base
+     	basePrefix: base
 		parts : [
     			{
       			type : RegionPart
@@ -58,10 +58,22 @@ drawer: {
                 heatProgress: warmup
                 heatColor: ff0000
                 mirror: true
-                layerOffset: -1
+                layerOffset: 0
       			moveX : 1
 			    moveY : -1
       			moveRot : 0
     		},
+            {
+              type: HaloPart
+              color: ff0000ff
+              radius: 0
+              radiusTo: 2.35
+              stroke: 0
+              strokeTo: 1
+              y: -13
+              haloRotateSpeed: 1.24
+              shapes: 4
+              layer: 110
+            }
         ]
 }
