@@ -14,6 +14,7 @@ category: turret
 recoil: 4
 range: 450
 ammoPerShot: 30
+maxAmmo: 60
 minWarmup: 0.99
 shootWarmupSpeed: 0.03
 trackingRange: 650
