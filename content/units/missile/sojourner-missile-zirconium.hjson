@@ -19,10 +19,20 @@ targetUnderBlocks: false
 drawCell: false
 missileAccelTime: 30
 hidden: true
-trailColor: FFD37F
-engineColor: FFD37F
+trailColor: c7983a
+engineColor: c7983a
 engineSize: 3.7
 engineOffset: 9
+abilities: [
+  {
+    type: MoveEffectAbility
+    effect: missileTrailSmoke
+    rotation: 180
+    y: -9
+    interval: 4
+    color: b286ba05
+  }
+]
 trailLength: 18
 loopSoundVolume: 0.8
 fogRadius: 6
