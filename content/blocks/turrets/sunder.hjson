@@ -1,6 +1,6 @@
 type: ContinuousLiquidTurret
 size: 3
-health: 950
+health: 2400
 localizedName: Sunder
 description: Starts a constant, armor piercing stream of flame. After shooting, ejects an explosive plasma shell.
 requirements: [
@@ -26,6 +26,37 @@ minWarmup: 0.99
 reload: 300
 range: 240
 shootY: 6
+drawer: {
+		type: DrawTurret
+     		basePrefix: base
+		parts : [
+    			{
+      			type : RegionPart
+      			suffix : "-arm-base"
+      			progress : warmup
+                heatProgress : warmup
+      			mirror : true
+      			under : true
+                y: 0
+      			moveX : 0
+			    moveY : 0
+      			moveRot : 0
+    			},
+    			{
+      			type : RegionPart
+      			suffix : "-arm-end"
+      			progress : warmup
+                heatProgress: warmup
+      			mirror : true
+      			under : true
+			    recoilIndex: 0
+                y: 0
+      			moveX : 0
+			    moveY : -2
+      			moveRot : 0
+    			},
+          ]
+}
 shoot: {
     type: shootPattern
     firstShotDelay: 54
