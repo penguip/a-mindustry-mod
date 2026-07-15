@@ -11,6 +11,7 @@ requirements: [
 category: turret
 recoil: 4
 range: 1500
+targetBuilding: false
 ammoPerShot: 30
 maxAmmo: 60
 minWarmup: 0.99
