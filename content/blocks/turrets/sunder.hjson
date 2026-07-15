@@ -12,16 +12,15 @@ category: turret
 liquidConsumed: 3
 recoil: 0
 recoils: 2
-loopSound: loopMalign
-shootSound: shootSublimate
-initialShootSound: shootFlamePlasma
+loopSound: shootSublimate
+shootSound: shootBeamPlasma
 chargeSound: charge-crow
 outlineColor: 26262f
 targetAir: true
 targetGround: true
 rotateSpeed: 2.13
 shootWarmupSpeed: 0.1
-shootCone: 360
+shootCone: 3
 minWarmup: 0.99
 reload: 300
 range: 240
@@ -39,9 +38,9 @@ drawer: {
       			mirror : true
       			under : true
                 y: 0
-      			moveX : 0
+      			moveX : 4
 			    moveY : 0
-      			moveRot : 0
+      			moveRot :  45
     			},
     			{
       			type : RegionPart
@@ -53,9 +52,9 @@ drawer: {
       			under : true
 			    recoilIndex: 0
                 y: 0
-      			moveX : 0
-			    moveY : -2
-      			moveRot : 0
+      			moveX : 7
+			    moveY : -3
+      			moveRot : 45
     			},
           ]
 }
@@ -71,10 +70,15 @@ ammoTypes: {
   	damageInterval: 10
   	damage: 145
   	length: 240
+    lifetime: 120
+    flareColor: 83d68d
+    flareLength: 10
     pierceArmor: true
   	incendChance: 0
   	incendSpread: 0
   	incendAmount: 0
+    despawnShake: 10
+    despawnSound: shootNavanax
   	width: 2
   	splashDamagePierce: true
   	makeFire: false
