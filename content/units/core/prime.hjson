@@ -173,9 +173,10 @@ weapons: [
     backColor: ffa56e
     frontColor: ffbc83
     lightningColor: ffbc83
-    lightning: 20
+    lightning: 5
     lightningLength: 5
     lightningLengthRand: 10
+    lightningDamage: 18
     despawnHit: true
     buildingDamageMultiplier: 0.01
     hitSound: shockBullet
