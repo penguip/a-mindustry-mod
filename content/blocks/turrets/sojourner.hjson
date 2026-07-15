@@ -1,6 +1,6 @@
 type: ItemTurret
 size: 4
-health: 1800
+health: 2750
 localizedName: Sojourner
 description: A large missile battery that shoots a single, powerful missile at enemy targets over a significant distance. Can only be cooled with water.
 requirements: [
@@ -28,6 +28,10 @@ shootY: 0
 ammoTypes: {
   zirconium: {
     spawnUnit: sojourner-missile-zirconium
+    instantDisappear: true
+   }
+  energite: {
+    spawnUnit: sojourner-missile-energite
     instantDisappear: true
    }
 }
