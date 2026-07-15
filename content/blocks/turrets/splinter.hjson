@@ -32,7 +32,6 @@ ammoTypes: {
     width: 5
     speed: 3.234
     lifetime: 182.56
-    collidesGround: false
     frontColor: de7f61
     backColor: de6b56
     homingPower: 0.21
@@ -51,7 +50,6 @@ ammoTypes: {
       backColor: e28654
       damage: 10
       length: 10
-      collidesGround: false
       width: 5
       speed: 0.86
       lifetime: 45
@@ -71,7 +69,6 @@ ammoTypes: {
         backColor: e28654
         damage: 3
         length: 5
-        collidesGround: true
         width: 5
         speed: 0.86
         lifetime: 25
