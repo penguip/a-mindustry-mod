@@ -27,7 +27,6 @@ trailLength: 18
 loopSoundVolume: 0.8
 fogRadius: 6
 deathSound: explosionMissile
-deathEffect: explosionScathe
 deathShake: 7
 weapons: [
   {
@@ -42,6 +41,8 @@ weapons: [
       splashDamageRadius: 75
       buildingDamageMultiplier: 0.1
       ammoMultiplier: 1
+      hitEffect: explosionScathe
+      hitColor: c7983a
     }
   }
 ]
