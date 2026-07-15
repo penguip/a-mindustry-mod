@@ -103,7 +103,7 @@ ammoTypes: {
       backColor: 63d659
       frontColor: 83d68d
       height: 10
-      speed: 12
+      speed: 11
       lifetime: 30
       width: 10
       damage: 250
