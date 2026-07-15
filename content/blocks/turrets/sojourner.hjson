@@ -15,6 +15,7 @@ recoil: 4
 range: 800
 ammoPerShot: 10
 shake: 18
+predictTarget: false
 minWarmup: 0.99
 shootWarmupSpeed: 0.01
 trackingRange: 650
