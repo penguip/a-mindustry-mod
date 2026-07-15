@@ -1,11 +1,13 @@
 type: ItemTurret
 size: 3
-health: 740
+health: 2400
 localizedName: Dissent
 description: Shoots large dual shells at enemy targets using ageriolix or alloy of sakura as ammo and heat.
 requirements: [
-  yttrium/100
-  osmium/75
+  yttrium/800
+  osmium/650
+  alloy-of-sakura/250
+  ageriolix/85
 ]
 category: turret
 recoil: 3
@@ -14,7 +16,7 @@ shootSound: shootConquer
 outlineColor: 26262f
 targetAir: true
 targetGround: true
-rotateSpeed: 1.5
+rotateSpeed: 3.45
 reload: 30
 range: 180
 shootY: 3
@@ -72,6 +74,7 @@ drawer: {
             type: RegionPart
             suffix: "-body"
             heatProgress: warmup
+            heatColor: d6c557
           }
 		]
 	}
