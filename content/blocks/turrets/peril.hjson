@@ -56,7 +56,7 @@ drawer: {
       			suffix : "-rail"
       			progress : warmup
                 heatProgress: warmup
-                heatColor: ff0000
+                heatColor: d6545d
                 mirror: true
                 layerOffset: 0
       			moveX : 1
@@ -65,7 +65,7 @@ drawer: {
     		},
             {
               type: HaloPart
-              color: ff0000ff
+              color: d6545d
               radius: 0
               radiusTo: 2.35
               stroke: 0
