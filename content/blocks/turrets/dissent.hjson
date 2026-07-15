@@ -12,20 +12,24 @@ requirements: [
 category: turret
 recoil: 3
 recoils: 2
+heatRequirement: 30
+maxHeatEfficiency: 2.5
 shootSound: shootConquer
 outlineColor: 26262f
 loopSound: loopGlow
 targetAir: true
+shootWarmupSpeed: 0.07
+minWarmup: 0.99
 targetGround: true
 rotateSpeed: 3.45
-reload: 30
+reload: 60
 range: 180
-shootY: 3
+shootY: 5
 shake: 10
 shoot: {
 		type: shootAlternate
     barrels: 2
-		x: 2
+	spread: 7
     shots: 2
     shotDelay: 5
 	}
@@ -34,7 +38,7 @@ ammoTypes: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     damage: 170
-    length: 15
+    height: 15
     width: 15
     speed: 10
     lifetime: 18
@@ -80,11 +84,12 @@ drawer: {
           {
             type: RegionPart
             suffix: "-side"
+            layerOffset: -0.01
             mirror: true
             heatProgress: warmup
             heatColor: d6c557
             progress: warmup
-            moveX: -2
+            moveX: 2
           }
 		]
 	}
