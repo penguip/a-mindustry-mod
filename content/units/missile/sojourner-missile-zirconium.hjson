@@ -30,7 +30,7 @@ abilities: [
     rotation: 180
     y: -9
     interval: 4
-    color: b286ba45
+    color: c7983a45
   }
 ]
 trailLength: 18
