@@ -43,8 +43,8 @@ ammoTypes: {
     speed: 10
     lifetime: 18
     collidesGround: false
-    frontColor: de7f61
-    backColor: de6b56
+    frontColor: ff7ac8
+    backColor: ff5399
   }
 }
 drawer: {
