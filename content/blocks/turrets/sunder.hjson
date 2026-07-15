@@ -70,9 +70,9 @@ ammoTypes: {
   	damageInterval: 10
   	damage: 145
   	length: 300
-    lifetime: 30
+    lifetime: 16
     flareColor: 83d68d
-    flareLength: 10
+    flareLength: 20
     pierceArmor: true
   	incendChance: 0
   	incendSpread: 0
