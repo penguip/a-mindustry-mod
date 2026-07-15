@@ -1,0 +1,57 @@
+type: ContinuousLiquidTurret
+size: 3
+health: 950
+localizedName: Sunder
+description: Starts a constant, armor piercing stream of flame. After shooting, ejects an explosive plasma shell.
+requirements: [
+  gadolinium/500
+  plastanium/600
+  ageriolix/90
+]
+category: turret
+liquidConsumed: 1
+recoil: 0
+recoils: 2
+loopSound: loopMalign
+shootSound: shootSublimate
+initialShootSound: shootFlamePlasma
+chargeSound: charge-crow
+outlineColor: 26262f
+targetAir: true
+targetGround: true
+rotateSpeed: 2.13
+shootWarmupSpeed: 0.1
+shootCone: 360
+minWarmup: 0.99
+reload: 300
+range: 240
+shootY: 6
+shoot: {
+    type: shootPattern
+    firstShotDelay: 54
+	}
+ammoTypes: {
+  energicon: {
+    type: ContinuousFlameBulletType 
+	  ammoMultiplier: 1
+  	shake: 1
+  	damageInterval: 5
+  	damage: 145
+  	length: 240
+    pierceArmor: true
+  	incendChance: 0
+  	incendSpread: 0
+  	incendAmount: 0
+  	width: 2
+  	splashDamagePierce: true
+  	makeFire: false
+  	status: electrified
+  	statusDuration: 120
+  	hitEffect: hitBulletColor
+	  colors: [
+      363f9a,
+      486acd,
+      7090ea,
+      ffffff
+      ]
+   }
