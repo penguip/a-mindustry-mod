@@ -75,5 +75,44 @@ drawer: {
               shapes: 4
               layer: 110
             }
+  {
+    type: ShapePart
+    color: d5545dff
+    sides: 4
+    y: -13
+    rotateSpeed: 1.24
+    radiusTo: 9
+    radius: 0
+    stroke: 0
+    strokeTo: 1
+    hollow: "true"
+    layer: 110
+  }
+  {
+    type: ShapePart
+    color: d5545dff
+    sides: 4
+    y: -13
+    rotateSpeed: -1.24
+    radiusTo: 9
+    radius: 0
+    stroke: 0
+    strokeTo: 1
+    hollow: "true"
+    layer: 110
+  }
+  {
+    type: ShapePart
+    color: d5545dff
+    sides: 4
+    y: -13
+    rotateSpeed: 1.24
+    radiusTo: 4
+    radius: 0
+    stroke: 0
+    strokeTo: 1
+    hollow: "true"
+    layer: 110
+  }
         ]
 }
