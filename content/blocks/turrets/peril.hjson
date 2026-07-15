@@ -47,3 +47,18 @@ ammoTypes: {
 consumes: {
    liquid: energicon/3
 }
+drawer: {
+		type: DrawTurret
+     		basePrefix: base
+		parts : [
+    			{
+      			type : RegionPart
+      			suffix : "-rail"
+      			progress : warmup
+            heatProgress: warmup
+            mirror: true
+            layerOffset: -1
+      			moveX : -1
+			      moveY : -1
+      			moveRot : 0
+    		},
