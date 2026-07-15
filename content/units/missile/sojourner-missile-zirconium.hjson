@@ -41,7 +41,7 @@ weapons: [
       splashDamageRadius: 75
       buildingDamageMultiplier: 0.1
       ammoMultiplier: 1
-      hitEffect: explosionScathe
+      hitEffect: scatheExplosion
       hitColor: c7983a
     }
   }
