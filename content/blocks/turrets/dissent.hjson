@@ -23,7 +23,7 @@ minWarmup: 0.99
 targetGround: true
 rotateSpeed: 3.45
 reload: 60
-range: 180
+range: 300
 shootY: 5
 shake: 10
 shoot: {
@@ -37,12 +37,11 @@ ammoTypes: {
   alloy-of-sakura: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
-    damage: 170
+    damage: 190
     height: 15
     width: 15
-    speed: 10
-    lifetime: 18
-    collidesGround: false
+    speed: 20
+    lifetime: 15
     frontColor: ff7ac8
     backColor: ff5399
   }
