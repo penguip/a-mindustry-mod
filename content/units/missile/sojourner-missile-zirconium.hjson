@@ -27,6 +27,7 @@ trailLength: 18
 loopSoundVolume: 0.8
 fogRadius: 6
 deathSound: explosionMissile
+deathEffect: explosionScathe
 deathShake: 7
 weapons: [
   {
