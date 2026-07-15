@@ -35,6 +35,10 @@ ammoTypes: {
     spawnUnit: sojourner-missile-energite
     instantDisappear: true
    }
+  actinium: {
+    spawnUnit: sojourner-missile-actinium
+    instantDisappear: true
+   }
 }
 drawer: {
 		type: DrawTurret
