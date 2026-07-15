@@ -38,7 +38,11 @@ ammoTypes: {
   actinium: {
     spawnUnit: sojourner-missile-actinium
     instantDisappear: true
-   }
+  }
+  ageriolix: {
+    spawnUnit: sojourner-missile-ageriolix
+    instantDisappear: true
+  }
 }
 drawer: {
 		type: DrawTurret
