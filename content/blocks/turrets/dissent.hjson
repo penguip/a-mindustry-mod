@@ -76,5 +76,14 @@ drawer: {
             heatProgress: warmup
             heatColor: d6c557
           }
+          {
+            type: RegionPart
+            suffix: "-side"
+            mirror: true
+            heatProgress: warmup
+            heatColor: d6c557
+            progress: warmup
+            moveX: -2
+          }
 		]
 	}
