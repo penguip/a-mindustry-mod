@@ -1,0 +1,45 @@
+type: ItemTurret
+size: 3
+health: 2400
+localizedName: Peril
+description: Fires a devastating gauss pulse over vast distances. Prioritizes high-health enemies. Uses energicon as an energy source.
+requirements: [
+  silicon/650
+  actinium/270
+  ageriolix/85
+]
+category: turret
+recoil: 4
+range: 800
+ammoPerShot: 30
+maxAmmo: 60
+minWarmup: 0.99
+shootWarmupSpeed: 0.1
+shoot: {
+  firstShotDelay: 456
+}
+trackingRange: 650
+loopSound: loopMalign
+shootSound: shoot-peril
+chargeSound: charge-peril
+outlineColor: 26262f
+targetAir: true
+targetGround: true
+shake: 50
+rotateSpeed: 2.36
+reload: 800
+shootY: 3
+ammoTypes: {
+  ageriolix: {
+    type: RailBulletType
+    buildingDamageMultiplier: 0.25
+    splashDamage: 0
+    splashDamageRadius: 0
+    damage: 7500
+    length: 800
+    width: 3
+   }
+}
+consumes: {
+   liquid: energicon/3
+}
