@@ -41,8 +41,9 @@ drawer: {
       			     progress: warmup
                  heatProgress: warmup
                  heatColor: ff7ac8
-                 outlineColor: 282C36
+                 outline: false
                  under: false
+                 color: ffffff
                  colorTo: ffffff00
                  y: 0
       			     moveX: 0
