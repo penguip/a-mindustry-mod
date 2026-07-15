@@ -2,7 +2,7 @@ type: ContinuousLiquidTurret
 size: 3
 health: 2400
 localizedName: Sunder
-description: Starts a constant, armor piercing stream of flame. After shooting, ejects an explosive plasma sphere that flies past its shoot range.
+description: Starts a constant, armor piercing stream of flame. After shooting, ejects an explosive plasma sphere that flies past its shoot range to hit incoming enemies.
 requirements: [
   gadolinium/500
   plastanium/600
@@ -40,7 +40,7 @@ drawer: {
                 y: 0
       			moveX : 4
 			    moveY : 0
-      			moveRot :  45
+      			moveRot : -45
     			},
     			{
       			type : RegionPart
@@ -70,7 +70,7 @@ ammoTypes: {
   	damageInterval: 10
   	damage: 145
   	length: 300
-    lifetime: 120
+    lifetime: 30
     flareColor: 83d68d
     flareLength: 10
     pierceArmor: true
@@ -85,6 +85,7 @@ ammoTypes: {
   	status: electrified
   	statusDuration: 180
   	hitEffect: hitBulletColor
+    buildingDamageMultiplier: 0
 	  colors: [
       5ed629,
       63d659,
@@ -102,8 +103,8 @@ ammoTypes: {
       backColor: 63d659
       frontColor: 83d68d
       height: 10
-      speed: 2
-      lifetime: 250
+      speed: 6
+      lifetime: 60
       width: 10
       damage: 250
       splashDamage: 100
