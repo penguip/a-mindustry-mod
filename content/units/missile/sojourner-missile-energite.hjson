@@ -7,7 +7,7 @@ physics: false
 lifetime: 250
 lowAltitude: true
 homingDelay: 0
-hitSize: 0.25
+hitSize: 13
 rotateSpeed: 0.135
 useUnitCap: false
 health: 700
