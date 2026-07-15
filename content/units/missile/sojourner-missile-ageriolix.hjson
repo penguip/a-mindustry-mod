@@ -32,6 +32,14 @@ abilities: [
     interval: 4
     color: 7d83d645
   }
+  {
+    type: ForceFieldAbility
+    radius: 100
+    sides: 4
+    cooldown: 99999999
+    regen: 0
+    max: 6500
+  }
 ]
 trailLength: 18
 loopSoundVolume: 0.8
