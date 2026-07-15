@@ -9,7 +9,7 @@ requirements: [
   ageriolix/90
 ]
 category: turret
-liquidConsumed: 1
+liquidConsumed: 3
 recoil: 0
 recoils: 2
 loopSound: loopMalign
@@ -35,6 +35,7 @@ drawer: {
       			suffix : "-arm-base"
       			progress : warmup
                 heatProgress : warmup
+                heatColor: 83d68d 
       			mirror : true
       			under : true
                 y: 0
@@ -47,6 +48,7 @@ drawer: {
       			suffix : "-arm-end"
       			progress : warmup
                 heatProgress: warmup
+                heatColor: 83d68d
       			mirror : true
       			under : true
 			    recoilIndex: 0
@@ -66,7 +68,7 @@ ammoTypes: {
     type: ContinuousFlameBulletType 
 	  ammoMultiplier: 1
   	shake: 1
-  	damageInterval: 5
+  	damageInterval: 10
   	damage: 145
   	length: 240
     pierceArmor: true
@@ -77,12 +79,11 @@ ammoTypes: {
   	splashDamagePierce: true
   	makeFire: false
   	status: electrified
-  	statusDuration: 120
+  	statusDuration: 180
   	hitEffect: hitBulletColor
 	  colors: [
-      363f9a,
-      486acd,
-      7090ea,
-      ffffff
+      5ed629,
+      63d659,
+      83d68d
       ]
    }
