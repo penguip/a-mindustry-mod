@@ -37,7 +37,7 @@ drawer: {
 		parts: [
                 {
       			     type: RegionPart
-      			     suffix: "-top"
+      			     suffix: "-lid"
       			     progress: warmup
                  heatProgress: warmup
                  heatColor: ff7ac8
