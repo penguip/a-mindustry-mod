@@ -45,6 +45,18 @@ ammoTypes: {
     frontColor: ff7ac8
     backColor: ff5399
   }
+  ageriolix: {
+    type: BasicBulletType
+    buildingDamageMultiplier: 0.25
+    damage: 300
+    height: 15
+    width: 15
+    speed: 20
+    pierce: true
+    lifetime: 15
+    frontColor: d6c557
+    backColor: ff5399
+  }
 }
 drawer: {
 		type: DrawTurret
@@ -90,5 +102,52 @@ drawer: {
             progress: warmup
             moveX: 3
           }
-		]
-	}
+  {
+    type: HaloPart
+    color: d6c557
+    layer: 110
+    mirror: "true"
+    tri: "true"
+    triLengthTo: 7
+    triLength: 0
+    radius: 0
+    radiusTo: 3
+    shapes: 1
+    stroke: 0
+    strokeTo: 1
+    haloRotation: 140
+    haloRadius: 12
+  }
+  {
+    type: HaloPart
+    color: d6c557 
+    layer: 110
+    tri: "true"
+    triLengthTo: 9
+    triLength: 0
+    radius: 0
+    radiusTo: 3
+    shapes: 1
+    stroke: 0
+    strokeTo: 1
+    haloRotation: 180
+    haloRadius: 12
+  }
+  {
+    type: HaloPart
+    color: d6c557
+    layer: 110
+    mirror: "true"
+    tri: "true"
+    triLengthTo: 8
+    triLength: 0
+    radius: 0
+    radiusTo: 3
+    shapes: 1
+    stroke: 0
+    strokeTo: 1
+    haloRotation: 160
+    haloRadius: 12
+  }
+  ]
+}
