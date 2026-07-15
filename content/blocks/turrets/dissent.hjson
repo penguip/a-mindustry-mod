@@ -48,14 +48,14 @@ ammoTypes: {
   ageriolix: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
-    damage: 300
+    damage: 380
     height: 15
     width: 15
     speed: 20
     pierce: true
     lifetime: 15
     frontColor: d6c557
-    backColor: ff5399
+    backColor: d6cb41
   }
 }
 drawer: {
