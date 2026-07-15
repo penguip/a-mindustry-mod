@@ -4,8 +4,9 @@ health: 740
 localizedName: Splinter
 description: Fires homing, fragmentary infernum flak at enemy targets. The first frag has homing properties and frags a second time.
 requirements: [
-  yttrium/100
-  osmium/75
+  yttrium/180
+  osmium/120
+  silicon/90
 ]
 category: turret
 recoil: 3
