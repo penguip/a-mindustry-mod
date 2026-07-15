@@ -10,7 +10,7 @@ requirements: [
 ]
 category: turret
 recoil: 4
-range: 800
+range: 1500
 ammoPerShot: 30
 maxAmmo: 60
 minWarmup: 0.99
@@ -27,17 +27,21 @@ targetAir: true
 targetGround: true
 shake: 50
 rotateSpeed: 2.36
-reload: 800
+reload: 2000
 shootY: 3
 ammoTypes: {
   ageriolix: {
-    type: RailBulletType
+    type: LaserBulletType
     buildingDamageMultiplier: 0.25
     splashDamage: 0
     splashDamageRadius: 0
     damage: 7500
-    length: 800
+    length: 1500
     width: 3
+    colors: [
+    ff0000
+    ffffff
+    ]
    }
 }
 consumes: {
