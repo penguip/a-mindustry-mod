@@ -1,0 +1,69 @@
+type: ItemTurret
+size: 3
+health: 2400
+localizedName: Spite
+description: Accelerates items to extreme speeds, then launches them, dealing heavy damage and exploding violently on impact with enemies. Uses energicon as an energy source.
+requirements: [
+  zirconium/700
+  plastanium/250
+  ageriolix/100
+]
+category: turret
+recoil: 4
+range: 430
+ammoPerShot: 10
+maxAmmo: 30
+minWarmup: 0.99
+shootWarmupSpeed: 0.1
+shoot: {
+  firstShotDelay: 54
+}
+trackingRange: 650
+loopSound: loopMalign
+shootSound: shoot-spite
+chargeSound: charge-crow
+outlineColor: 26262f
+targetAir: true
+targetGround: true
+shake: 25
+rotateSpeed: 2.36
+reload: 1000
+shootY: 3
+ammoTypes: {
+  plastanium: {
+    type: LaserBulletType
+    buildingDamageMultiplier: 0
+    splashDamage: 0
+    splashDamageRadius: 0
+    damage: 600
+    length: 430
+    width: 5
+    colors: [
+    edf3a9
+    ffffff
+    ]
+    spawnBullets: [
+      {
+        type: BasicBulletType
+        sprite: large-orb
+        speed: 20
+        lifetime: 21.5
+        damage: 800
+        splashDamage: 300
+        splashDamageRadius: 100
+        frontColor: edf3a9
+        backColor: cbd97f
+        height: 5
+        width: 5
+        despawnHit: true
+        hitColor: edf3a9
+        hitEffect: scatheExplosion
+        despawnSound: explosion-spite
+        despawnEffect: titanExplosion
+      }
+    ]
+   }
+}
+consumes: {
+   liquid: energicon/3
+}
