@@ -10,3 +10,31 @@ hitSize: 32
 rotateSpeed: 1.02
 range: 370
 stepSound: mechStepHeavy
+weapons: [
+  {
+    bullet: {
+      type: BasicBulletType
+      splashDamageRadius: 100
+      sprite: large-orb
+      width: 15
+      height: 15
+      damage: 467
+      splashDamage: 82
+      hitSound: explosionCore
+      statusDuration: 250
+      homingPower: 50
+      homingRange: 20
+      circleShooter: true
+      circleShooterRadius: 35
+      speed: 2.3
+      lifetime: 140
+      despawnEffect: titanExplosion
+      hitEffect: titanSmoke
+      hitColor: d267ffff
+      frontColor: d267ff
+    }
+    shootSound: explosionObviate
+    reload: 800
+    shake: 25
+  }
+]
