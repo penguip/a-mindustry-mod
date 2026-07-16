@@ -1,0 +1,12 @@
+type: Junction
+size: 3
+customShadow: true
+placeablePlayer: false
+localizedName: Aphelion Reactor
+description: A powerful reactor used in producing Dread and Eternity.
+requirements: [
+  zirconium/85
+  alloy-of-sakura/25
+]
+databaseTag: unitpart
+researchCostMultiplier: 1
