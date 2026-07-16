@@ -68,3 +68,5 @@ shoot: {
 shootSound: shootArtillerySap
 x: 0
 }
+abilities: [
+   
