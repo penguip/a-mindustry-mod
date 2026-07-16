@@ -1,0 +1,10 @@
+type: mech
+name: Dread
+description: Launches suppression missiles at enemy targets. Irradiates nearby enemies occasionally. Targets enemy bullets with point defense weapons.
+speed: 0.1879
+flying: false
+outlineColor: 282C36
+health: 15600
+armor: 23
+hitSize: 26
+rotateSpeed: 1.26
