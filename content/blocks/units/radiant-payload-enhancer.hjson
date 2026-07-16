@@ -1,0 +1,17 @@
+type: UnitAssemblerModule
+size: 5
+localizedName: Radiant Payload Enhancer
+description: Increases an assembler's output tier by one when placed next to its bounding box. Can be used as an additional payload input.
+health: 1230
+category: units
+requirements: [
+  silicon/1200
+  osmium/1000
+  zirconium/600
+  actinium/700
+]
+consumes: {
+  power: 4
+}
+tier: 1
+researchCostMultiplier: 0.5
