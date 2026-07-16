@@ -8,7 +8,7 @@ health: 37800
 armor: 35
 hitSize: 32
 rotateSpeed: 1.02
-range: 370
+range: 371
 stepSound: mechStepHeavy
 weapons: [
   {
@@ -20,6 +20,7 @@ weapons: [
       height: 15
       damage: 467
       splashDamage: 82
+      despawnShake: 15
       hitSound: explosionCore
       statusDuration: 250
       homingPower: 50
