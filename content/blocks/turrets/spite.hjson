@@ -81,6 +81,57 @@ ammoTypes: {
       }
     ]
    }
+   alloy-of-sakura: {
+    type: BasicBulletType
+        sprite: large-orb
+        speed: 20
+        lifetime: 21.5
+        damage: 1100
+        splashDamage: 500
+        splashDamageRadius: 100
+        frontColor: ff7ac8 
+        backColor: ff5399
+        height: 10
+        width: 10
+        despawnHit: true
+        hitColor: ff7ac8
+        hitEffect: scatheExplosion
+        despawnSound: explosion-spite
+        despawnEffect: titanExplosion
+        fragBullets: 8
+        fragRandomSpread: 0
+        fragSpread: 45
+        fragVelocityMax: 1
+        fragVelocityMin: 1
+        fragBullet: {
+          type: BasicBulletType
+          speed: 2.4
+          lifetime: 40
+          damage: 125
+          homingPower: 50
+          homingRange: 30
+          splashDamage: 12.5
+          splashDamageRadius: 35
+          frontColor: ff7ac8
+          backColor: ff5399
+        }
+    spawnBullets: [
+      {
+        type: LaserBulletType
+    buildingDamageMultiplier: 0
+    splashDamage: 0
+    splashDamageRadius: 0
+    damage: 800
+    length: 430
+    width: 10
+    lifetime: 60
+    colors: [
+    ff7ac8
+    ffffff
+    ]
+      }
+    ]
+   }
 }
 consumes: {
    liquid: energicon/3
