@@ -48,6 +48,19 @@ plans: [
     ]
     time: 7200
   }
+  {
+    type: AssemblerUnitPlan
+    unit: eternity
+    requirements: [
+      beepdustry-silicon-wall-large/15
+      beepdustry-specialized-plastanium-wall-large/8
+      beepdustry-chromatic-wall-blue/4
+      beepdustry-beep/20
+      beepdustry-spite/1
+      beepdustry-aphelion-reactor/3
+    ]
+    time: 16800
+  }
 ]
 squareSprite: false
 consumes: {
