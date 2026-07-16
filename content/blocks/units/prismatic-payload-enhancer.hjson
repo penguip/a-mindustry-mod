@@ -1,0 +1,20 @@
+type: UnitAssemblerModule
+size: 5
+localizedName: Prismatic Payload Enhancer
+description: Increases an assembler's output tier by three when placed next to its bounding box. Can be used as an additional payload input. Requires the previous payload enhancer(s) to function.
+health: 2670
+category: units
+requirements: [
+  silicon/5000
+  osmium/7500
+  zirconium/4000
+  actinium/2000
+  plastanium/1600
+  alloy-of-sakura/1000
+  ageriolix/100
+]
+consumes: {
+  power: 10
+}
+tier: 3
+researchCostMultiplier: 0.5
