@@ -1,0 +1,19 @@
+type: UnitAssemblerModule
+size: 5
+localizedName: Defiant Payload Enhancer
+description: Increases an assembler's output tier by two when placed next to its bounding box. Can be used as an additional payload input. Requires the previous payload enhancer(s) to function.
+health: 1870
+category: units
+requirements: [
+  silicon/2000
+  osmium/1700
+  zirconium/1000
+  actinium/1100
+  plastanium/600
+  alloy-of-sakura/400
+]
+consumes: {
+  power: 6
+}
+tier: 2
+researchCostMultiplier: 0.5
