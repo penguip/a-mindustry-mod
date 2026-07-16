@@ -1,0 +1,10 @@
+type: mech
+name: Gnoll
+description: Shoots explosive energy darts. Occasionally charges forward every few attacks.
+speed: 0.2987
+flying: false
+outlineColor: 282C36
+health: 8790
+armor: 15
+hitSize: 10
+rotateSpeed: 1.45
