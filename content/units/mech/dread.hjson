@@ -8,6 +8,7 @@ health: 15600
 armor: 23
 hitSize: 26
 rotateSpeed: 1.26
+range: 370
 stepSound: mechStep
 weapons: [
   {
