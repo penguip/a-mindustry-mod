@@ -12,10 +12,9 @@ segmentScl: 2
 groundLayer: 69.69
 segmentPhase: 5
 segmentMag: 0.5
-rotateSpeed: 0.6
+rotateSpeed: 5.4
 omniMovement: false
 hitSize: 6
-mineSpeed: 4.5
 drag: 0.4
 range: 81
 itemCapacity: 20
