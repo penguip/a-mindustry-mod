@@ -16,7 +16,7 @@ weapons: [
     mirror: true
     shootSound: shootBreachCarbide
     reload: 45
-    x: -10
+    x: 10
     shoot: {
        type: ShootPattern
        shots: 8
