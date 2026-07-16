@@ -34,7 +34,7 @@ weapons: [
     mirror: true
     shootSound: shootMissileSmall
     reload: 90
-    x: 18
+    x: 16
     shoot: {
        type: ShootPattern
        shots: 3
@@ -47,9 +47,17 @@ weapons: [
     parts: [
       {
       suffix: -blade
-      moveRot: 10
+      moveRot: -20
       rotation: -90
+      x: -2
+      y: -1
       progress: recoil
+      moves: [
+        {
+          rot: 40
+          x: 1
+        }
+      ]
       }
      ]
     }
