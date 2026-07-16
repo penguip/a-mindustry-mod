@@ -37,7 +37,7 @@ weapons: [
       splashDamage: 80
       splashDamageRadius: 18
       buildingDamageMultiplier: 0.1
-      suppressionRadius: 20
+      suppressionRange: 20
       suppressionDuration: 360
       ammoMultiplier: 1
     }
