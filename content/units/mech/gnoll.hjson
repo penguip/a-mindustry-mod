@@ -1,6 +1,6 @@
 type: mech
 name: Gnoll
-description: Shoots explosive energy darts. Occasionally charges forward every few attacks.
+description: Shoots a barrage of energy darts. Occasionally charges forward every few attacks.
 speed: 0.2987
 flying: false
 outlineColor: 282C36
@@ -8,3 +8,30 @@ health: 8790
 armor: 15
 hitSize: 17
 rotateSpeed: 1.45
+range: 187.5
+weapons: [
+    {
+    top: true
+    name: stray-weapon
+    mirror: true
+    shootSound: shootBreachCarbide
+    reload: 45
+    x: -4
+    shoot: {
+       type: ShootPattern
+       shots: 8
+       shotDelay: 3
+    }
+    bullet: {
+       type: BasicBulletType
+       length: 139
+       speed: 7.5
+       lifetime: 25
+       height: 20
+       width: 2
+       damage: 54
+       backColor: ao4eff
+       frontColor: d267ff
+      }
+   }
+]
