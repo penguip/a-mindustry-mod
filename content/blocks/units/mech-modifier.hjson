@@ -21,8 +21,20 @@ plans: [
     requirements: [
       beepdustry-osmium-wall/4
       beepdustry-beep/1
+      beepdustry-embargo/1
     ]
     time: 1200
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: gnoll
+    requirements: [
+      beepdustry-osmium-wall-large/10
+      beepdustry-actinium-wall/4
+      beepdustry-beep/5
+      beepdustry-phrase/1
+    ]
+    time: 6000
   }
 ]
 squareSprite: false
