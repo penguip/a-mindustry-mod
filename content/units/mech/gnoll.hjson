@@ -69,4 +69,13 @@ shootSound: shootArtillerySap
 x: 0
 }
 abilities: [
-   
+  {
+    type: MoveEffectAbility
+    minVelocity: 1.1
+    x: 0
+    y: -2.4
+    effect: artilleryTrailSmoke
+    teamColor: true
+    interval: 3
+  }
+]
