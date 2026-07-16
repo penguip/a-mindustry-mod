@@ -28,6 +28,34 @@ weapons: [
     reload: 600
     shake: 25
   }
+  {
+    top: true
+    name: dread-weapon
+    mirror: true
+    shootSound: shootMissileSmall
+    reload: 90
+    x: 18
+    shoot: {
+       type: ShootPattern
+       shots: 3
+       shotDelay: 10
+    }
+    bullet: {
+       spawnUnit: dread-missile
+       instantDisappear: true
+      }
+    parts: [
+      {
+      suffix: -blade
+      moveRot: 10
+      rotation: -90
+      progress: recoil
+      moves: [
+        rot: 80
+      ]
+      }
+     ]
+    }
 ]
 abilities: [
   {
