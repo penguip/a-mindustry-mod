@@ -1,6 +1,6 @@
 type: mech
 name: Eternity
-description: Creates an orb of energy that chases enemies, causing a large explosion on impact. Shoots at enemies with dual plasma cannons and piercing lasers. Supresses nearby repair structures and Monopolize turrets.
+description: Creates an orb of energy that chases enemies, causing a large explosion on impact. Shoots at enemies with dual cannons and piercing lasers. Supresses nearby repair structures and Monopolize turrets.
 speed: 0.1465
 flying: false
 outlineColor: 282C36
@@ -24,8 +24,6 @@ weapons: [
       statusDuration: 250
       homingPower: 50
       homingRange: 20
-      circleShooter: true
-      circleShooterRadius: 35
       speed: 2.3
       lifetime: 140
       despawnEffect: titanExplosion
