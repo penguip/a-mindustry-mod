@@ -18,6 +18,12 @@ hitSize: 6
 drag: 0.4
 range: 81
 itemCapacity: 20
+abilities:[
+  {
+    type: RegenAbility
+    percentAmount: 0.01
+  }
+]
 outlineColor: 520500
 weapons: [
     {
