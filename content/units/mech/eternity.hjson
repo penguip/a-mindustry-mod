@@ -43,7 +43,7 @@ weapons: [
     shootSound: shootScepter
     reload: 45
     shake: 10
-    shootY: 15
+    shootY: 12
     x: 19
     shoot: {
        type: ShootPattern
