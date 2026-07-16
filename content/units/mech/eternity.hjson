@@ -38,3 +38,15 @@ weapons: [
     shake: 25
   }
 ]
+abilities: [
+  {
+    type: SuppressionFieldAbility
+    y: -1
+    orbRadius: 5
+    color: d267ffff
+    effectColor: d267ffff
+    particleColor: d267ffff
+    particleSize: 2
+    particles: 20
+  }
+]
