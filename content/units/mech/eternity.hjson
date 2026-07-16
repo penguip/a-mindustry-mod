@@ -43,7 +43,7 @@ weapons: [
     shootSound: shootScepter
     reload: 45
     shake: 10
-    shootY: 4
+    shootY: 15
     x: 19
     shoot: {
        type: ShootPattern
@@ -67,7 +67,7 @@ weapons: [
    {
     x: 12
     y: 0
-    reload: 30
+    reload: 15
     mirror: true
     alternate: true
     targetInterval: 8
@@ -91,7 +91,7 @@ weapons: [
   {
     x: 14
     y: -4
-    reload: 45
+    reload: 25
     mirror: true
     alternate: true
     targetInterval: 8
