@@ -34,4 +34,37 @@ weapons: [
        frontColor: d267ff
       }
    }
-]
+   {
+     type: Weapon
+bullet: {
+  type: BasicBulletType
+  collides: "false"
+  damage: 0
+  despawnEffect: none
+  hitEffect: none
+  impact: "true"
+  lifetime: 10
+  lightRadius: 20
+  lightningType: damageLightning
+  parts: []
+  pierce: "true"
+  pierceBuilding: "true"
+  range: 80
+  recoil: -12
+  spawnBullets: []
+  speed: 8
+  height: 0
+  width: 0
+}
+display: "false"
+mirror: "false"
+name: beepdustry-
+parts: []
+recoilTime: 91
+reload: 134
+shoot: {
+  type: ShootPattern
+}
+shootSound: shootArtillerySap
+x: 0
+}
