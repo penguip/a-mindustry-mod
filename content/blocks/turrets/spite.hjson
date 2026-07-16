@@ -137,8 +137,8 @@ ammoTypes: {
         sprite: large-orb
         speed: 20
         lifetime: 21.5
-        damage: 1100
-        splashDamage: 500
+        damage: 1600
+        splashDamage: 800
         splashDamageRadius: 100
         frontColor: 9ab8d6
         backColor: 7d83d6
@@ -172,7 +172,7 @@ ammoTypes: {
     buildingDamageMultiplier: 0
     splashDamage: 0
     splashDamageRadius: 0
-    damage: 800
+    damage: 1100
     length: 430
     width: 10
     lifetime: 60
