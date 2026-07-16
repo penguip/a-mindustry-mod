@@ -38,6 +38,33 @@ weapons: [
     reload: 400
     shake: 25
   }
+  {
+    top: true
+    name: eternity-weapon
+    mirror: true
+    shootSound: shootScepter
+    reload: 45
+    shake: 10
+    x: 15
+    shoot: {
+       type: ShootPattern
+       shots: 3
+       shotDelay: 3
+    }
+    bullet: {
+       type: BasicBulletType
+       length: 139
+       speed: 7.5
+       lifetime: 50
+       height: 20
+       pierce: true
+       pierceCap: 2
+       width: 20
+       damage: 98
+       backColor: ao4eff
+       frontColor: d267ff
+      }
+   }
 ]
 abilities: [
   {
