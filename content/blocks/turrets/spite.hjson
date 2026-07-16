@@ -27,8 +27,8 @@ targetAir: true
 targetGround: true
 shake: 25
 rotateSpeed: 2.36
-reload: 1000
-shootY: 3
+reload: 400
+shootY: 0
 ammoTypes: {
   plastanium: {
     type: BasicBulletType
@@ -40,13 +40,30 @@ ammoTypes: {
         splashDamageRadius: 100
         frontColor: edf3a9
         backColor: cbd97f
-        height: 5
-        width: 5
+        height: 10
+        width: 10
         despawnHit: true
         hitColor: edf3a9
         hitEffect: scatheExplosion
         despawnSound: explosion-spite
         despawnEffect: titanExplosion
+        fragBullets: 8
+        fragRandomSpread: 0
+        fragSpread: 45
+        fragVelocityMax: 1
+        fragVelocityMin: 1
+        fragBullet: {
+          type: BasicBulletType
+          speed: 2.4
+          lifetime: 40
+          damage: 100
+          homingPower: 50
+          homingRange: 30
+          splashDamage: 10
+          splashDamageRadius: 35
+          frontColor: edf3a9
+          backColor: cbd97f
+        }
     spawnBullets: [
       {
         type: LaserBulletType
@@ -55,7 +72,8 @@ ammoTypes: {
     splashDamageRadius: 0
     damage: 600
     length: 430
-    width: 5
+    width: 10
+    lifetime: 60
     colors: [
     edf3a9
     ffffff
