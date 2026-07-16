@@ -3,7 +3,7 @@ description: Fires a blast of armor peircing shrapnel. Annihilates swarms. Less 
 size: 3
 type: ItemTurret
 health: 1250
-outlineColor: 26262f
+outlineColor: 520500
 shootSound: shootFuse
 requirements: [
   calcium/240
