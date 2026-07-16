@@ -11,7 +11,7 @@ requirements: [
   osmium/120
   silicon/75
   gadolinium/100
-  oxide/ 30
+  oxide/30
 ]
 liquidCapacity: 120
 plans: [
@@ -34,7 +34,19 @@ plans: [
       beepdustry-beep/5
       beepdustry-phrase/1
     ]
-    time: 6000
+    time: 3600
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: dread
+    requirements: [
+      beepdustry-silicon-wall-large/10
+      beepdustry-specialized-plastanium-wall-large/6
+      beepdustry-beep/10
+      beepdustry-berate/1
+      beepdustry-aphelion-reactor/1
+    ]
+    time: 7000
   }
 ]
 squareSprite: false
