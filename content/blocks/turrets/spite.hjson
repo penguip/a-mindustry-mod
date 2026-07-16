@@ -31,20 +31,7 @@ reload: 1000
 shootY: 3
 ammoTypes: {
   plastanium: {
-    type: LaserBulletType
-    buildingDamageMultiplier: 0
-    splashDamage: 0
-    splashDamageRadius: 0
-    damage: 600
-    length: 430
-    width: 5
-    colors: [
-    edf3a9
-    ffffff
-    ]
-    spawnBullets: [
-      {
-        type: BasicBulletType
+    type: BasicBulletType
         sprite: large-orb
         speed: 20
         lifetime: 21.5
@@ -60,6 +47,19 @@ ammoTypes: {
         hitEffect: scatheExplosion
         despawnSound: explosion-spite
         despawnEffect: titanExplosion
+    spawnBullets: [
+      {
+        type: LaserBulletType
+    buildingDamageMultiplier: 0
+    splashDamage: 0
+    splashDamageRadius: 0
+    damage: 600
+    length: 430
+    width: 5
+    colors: [
+    edf3a9
+    ffffff
+    ]
       }
     ]
    }
