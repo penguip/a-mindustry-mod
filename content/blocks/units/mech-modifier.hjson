@@ -46,7 +46,7 @@ plans: [
       beepdustry-berate/1
       beepdustry-aphelion-reactor/1
     ]
-    time: 7000
+    time: 7200
   }
 ]
 squareSprite: false
