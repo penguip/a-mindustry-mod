@@ -1,0 +1,45 @@
+type: missile
+template: MissileUnitType
+flying: true
+speed: 2.4
+outlineColor: 282C36
+physics: false
+lifetime: 156
+lowAltitude: true
+homingDelay: 0
+hitSize: 0.25
+rotateSpeed: 5
+useUnitCap: false
+health: 200
+autoFindTarget: true
+circleTarget: false
+faceTarget: true
+targetAir: true
+targetUnderBlocks: false
+drawCell: false
+missileAccelTime: 0
+hidden: true
+trailColor: FFD37F
+engineColor: FFD37F
+engineSize: 1
+engineOffset: 1
+trailLength: 18
+fogRadius: 6
+weapons: [
+  {
+    reload: 1
+    shootOnDeath: true
+    mirror: true
+    shootCone: 360
+    shake: 10
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 80
+      splashDamageRadius: 18
+      buildingDamageMultiplier: 0.1
+      suppressionRadius: 20
+      suppressionDuration: 360
+      ammoMultiplier: 1
+    }
+  }
+]
