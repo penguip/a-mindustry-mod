@@ -33,7 +33,7 @@ shootCone: 3
 minWarmup: 0.99
 coolantMultiplier: 1
 cooldownTime: 200
-reload: 400
+reload: 120
 shake: 25
 range: 240
 shootY: 8
