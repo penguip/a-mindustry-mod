@@ -78,11 +78,38 @@ weapons: [
     shootSound: ice-ray
     type: Weapon
     bullet: {
-      type: BulletType
-      shootEffect: sparkShoot
-      hitEffect: pointHit
-      maxRange: 120
-      damage: 20
+      type: LaserBulletType
+       length: 89
+       damage: 65
+       colors: [
+       ao4eff
+       d267ff
+       ffffff
+       ]
+    }
+  }
+  {
+    x: 14
+    y: -4
+    reload: 45
+    mirror: true
+    alternate: true
+    targetInterval: 8
+    targetSwitchInterval: 8
+    recoil: 0.5
+    name: dread-mount
+    shootY: 1
+    shootSound: ice-ray
+    type: Weapon
+    bullet: {
+      type: LaserBulletType
+       length: 100
+       damage: 89
+       colors: [
+       ao4eff
+       d267ff
+       ffffff
+       ]
     }
   }
 ]
