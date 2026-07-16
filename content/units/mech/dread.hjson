@@ -50,9 +50,6 @@ weapons: [
       moveRot: 10
       rotation: -90
       progress: recoil
-      moves: [
-        rot: 80
-      ]
       }
      ]
     }
