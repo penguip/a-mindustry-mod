@@ -56,6 +56,61 @@ drawer: {
 			    moveY : -3
       			moveRot : 45
     			},
+  {
+    type: ShapePart
+    color: 82d58cff
+    layer: 110
+    circle: "true"
+    hollow: "true"
+    y: -13
+    radiusTo: 7
+    radius: 0
+    strokeTo: 1
+    stroke: 0
+  }
+  {
+    type: ShapePart
+    color: 82d58cff
+    hollow: "true"
+    sides: 6
+    rotateSpeed: 0.87
+    y: -13
+    stroke: 0
+    strokeTo: 1
+    radius: 0
+    radiusTo: 5
+    layer: 110
+  }
+  {
+    type: HaloPart
+    color: 82d58cff
+    haloRadius: 0
+    shapes: 4
+    tri: "true"
+    triLength: 0
+    triLengthTo: 5
+    strokeTo: 1
+    stroke: 0
+    haloRadiusTo: 12
+    layer: 110
+    y: -13
+    haloRotateSpeed: 1
+  }
+  {
+    type: HaloPart
+    color: 82d58cff
+    haloRadius: 0
+    shapes: 4
+    tri: "true"
+    triLength: 0
+    triLengthTo: 5
+    strokeTo: 1
+    stroke: 0
+    haloRadiusTo: 12
+    layer: 110
+    y: -13
+    haloRotateSpeed: -1
+  }
           ]
 }
 shoot: {
