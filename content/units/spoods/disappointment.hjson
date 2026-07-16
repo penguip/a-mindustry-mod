@@ -22,7 +22,7 @@ armor: 4
 allowLegStep: true
 speed: 0.9
 rotateSpeed: 3.5
-hitSize: 1.3
+hitSize: 7
 drag: 0.1
 itemCapacity: 0
 outlineColor: 26262F
