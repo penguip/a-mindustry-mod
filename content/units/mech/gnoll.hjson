@@ -6,5 +6,5 @@ flying: false
 outlineColor: 282C36
 health: 8790
 armor: 15
-hitSize: 10
+hitSize: 17
 rotateSpeed: 1.45
