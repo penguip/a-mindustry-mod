@@ -35,7 +35,7 @@ weapons: [
       backColor: ao4eff
     }
     shootSound: explosionObviate
-    reload: 800
+    reload: 400
     shake: 25
   }
 ]
