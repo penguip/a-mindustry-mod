@@ -32,6 +32,7 @@ weapons: [
       hitEffect: titanSmoke
       hitColor: d267ffff
       frontColor: d267ff
+      backColor: ao4eff
     }
     shootSound: explosionObviate
     reload: 800
