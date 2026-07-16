@@ -1,6 +1,6 @@
 type: mech
 name: Dread
-description: Launches suppression missiles at enemy targets. Irradiates nearby enemies occasionally. Targets enemy bullets with point defense weapons.
+description: Launches suppression missiles at enemy targets. Irradiates nearby enemies occasionally. Targets enemy bullets with point defense weapons. Briefly supresses nearby strucure repair blocks and Monopolize turrets.
 speed: 0.1879
 flying: false
 outlineColor: 282C36
@@ -8,3 +8,36 @@ health: 15600
 armor: 23
 hitSize: 26
 rotateSpeed: 1.26
+stepSound: mechStep
+weapons: [
+  {
+    bullet: {
+      type: ExplosionBulletType 
+      status: beepdustry-radiation-decay
+      splashDamageRadius: 80
+      damage: 0
+      statusDuration: 250
+      killShooter: "false"
+      despawnEffect: titanExplosionSmall
+      hitEffect: titanSmokeSmall
+      hitColor: d267ffff
+    }
+    alwaysShooting: "true"
+    controllable: "false"
+    shootSound: explosionReactor
+    reload: 600
+    shake: 25
+  }
+]
+abilities: [
+  {
+    type: SuppressionFieldAbility
+    y: -3
+    orbRadius: 3.4
+    color: d267ffff
+    effectColor: d267ffff
+    particleColor: d267ffff
+    particleSize: 2
+    particles: 20
+  }
+]
