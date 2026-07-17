@@ -84,6 +84,7 @@ contentOrder: [
   power-cord
   beam-pylon
   prisma-node
+  energy-container
   entropanel
   infernum-generator
   bile-generator
