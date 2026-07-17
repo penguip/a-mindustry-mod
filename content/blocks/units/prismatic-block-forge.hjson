@@ -1,0 +1,64 @@
+type: Constructor
+name: Defiant Block Forge
+description: 
+''' 
+  Crafts top-noch blocks used for unit modification. Requires power and energicon. Can create advanced unit parts. 
+  Conducts power to blocks it touches.
+
+  Recipes: 
+    - Peril
+    - Dissent
+    - Sunder
+    - Spite
+    - Red Chromatic Wall
+    - Large Red Chromatic Wall
+    - Yellow Chromatic Wall
+    - Large Yellow Chromatic Wall
+    - Green Chromatic Wall
+    - Large Green Chromatic Wall
+    - Blue Chromatic Wall
+    - Large Blue Chromatic Wall
+    - Aphelion Reactor
+    - Flux Engine
+    - FAC
+    - Actinide Treads
+    - Sophisticated Ligament
+    - Razor Rotor
+    - Gravity Suspender
+''' 
+size: 3
+category: units
+requirements: [
+  yttrium/430
+  silicon/450
+  iron/340
+  zirconium/270
+  actinium/230
+  plastanium/150
+  ageriolix/50
+] 
+hasPower: true
+consumes: {
+  power: 0.5
+  liquid: energicon/0.25
+}
+buildSpeed: 1
+filter: [
+  peril
+  dissent
+  sunder
+  spite
+  chromatic-wall-red
+  chromatic-wall-red-large
+  chromatic-wall-yellow
+  chromatic-wall-yellow-large
+  chromatic-wall-green
+  chromatic-wall-green-large
+  chromatic-wall-blue
+  chromatic-wall-blue-large
+  aphelion-reactor
+]
+squareSprite: false
+conductivePower: true
+researchCostMultiplier: 0.3
+maxBlockSize: 3
