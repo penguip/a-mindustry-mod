@@ -118,6 +118,8 @@ contentOrder: [
   silicon-minifurnace
   silicon-forge
   oxide-press
+  neoplasm-unpacking-machine
+  neoplasia-splitter
   compression-facility
   contrinum-furnace
   blood-refinery
@@ -135,7 +137,7 @@ contentOrder: [
   blast-heater
   heat-radiator
   cell-packer
-  disorder-generator
+  disorder-genarator
   infernum-distorter
   radon-shifter
   bottomless-mouth
