@@ -118,9 +118,9 @@ contentOrder: [
   silicon-minifurnace
   silicon-forge
   oxide-press
+  compression-facility
   neoplasm-unpacking-machine
   neoplasia-splitter
-  compression-facility
   contrinum-furnace
   blood-refinery
   entropy-washer
@@ -145,8 +145,8 @@ contentOrder: [
   flying-station
   spider-station
   tank-station
-  worm-incubator
   helicopter-station
+  worm-incubator
   hover-station
   mech-modifier
   flying-modifier
