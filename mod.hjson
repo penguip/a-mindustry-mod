@@ -134,6 +134,8 @@ contentOrder: [
   blast-heater
   heatRadiator
   cell-packer
+  disorder-generator
+  infernum-distorter
   bottomless-mouth
   mech-station
   flying-station
@@ -162,7 +164,7 @@ contentOrder: [
   autohealer
   force-well
   monopolize
-  novic-terminal
+  novice-terminal
   aphelion-reactor
   entropy
   infernum
