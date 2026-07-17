@@ -15,9 +15,10 @@ requirements: [
 craftTime: 120
 outputItems: [
   yttrium/3
+  osmium/1
 ]
 outputLiquids: [
-  neoplasm/0.6666666667
+  neoplasm/1
 ]
 consumes: {
   items: [
