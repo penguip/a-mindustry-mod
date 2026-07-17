@@ -1,0 +1,24 @@
+type: RepairTower
+size: 3
+health: 800
+localizedName: Neoplasmic Revitalizer
+description: Utilizing the reproductive capabilites of neoplasm, gradually heals any allied units. Requires power.
+squareSprite: false
+category: units
+liquidCapacity: 60
+requirements: [
+  yttrium/120
+  osmium/100
+  silicon/85
+  zirconium/60
+  dormant-cyst/95
+]
+range: 140
+healAmount: 3.5
+glowColor: f98f4a
+squareRad: 4
+consumes: {
+  power: 3
+  liquid: neoplasm/0.5
+}
+researchCostMultiplier: 0.5
