@@ -1,0 +1,12 @@
+type: PayloadRouter
+health: 650
+localizedName: Rail Router
+description: Equally distributes payloads in three directions.
+category: units
+requirements: [
+  yttrium/30
+  osmium/15
+]
+canOverdrive: false
+payloadLimit: 3
+researchCostMultiplier: 0.5
