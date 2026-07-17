@@ -1,0 +1,53 @@
+type: Constructor
+name: Defiant Block Forge
+description: 
+''' 
+  Crafts advanced blocks used for unit modification. Requires power and cenessiodreon. Can create advanced unit parts. 
+  Conducts power to blocks it touches.
+
+  Recipes: 
+    - Berate
+    - Skull
+    - Trojan
+    - Specialized Plastanium Wall
+    - Large Specialized Plastanium Wall
+    - Wall of Sakura
+    - Large Wall of Sakura
+    - Aphelion Reactor
+    - Flux Engine
+    - FAC
+    - Actinide Treads
+    - Sophisticated Ligament
+    - Razor Rotor
+    - Gravity Suspender
+''' 
+size: 3
+category: units
+requirements: [
+  yttrium/250
+  silicon/200
+  iron/160
+  zirconium/120
+  actinium/100
+  plastanium/65
+] 
+hasPower: true
+consumes: {
+  power: 0.5
+  liquid: cenessiodreon/0.133333333333
+}
+buildSpeed: 1
+filter: [
+  berate
+  skull
+  trojan
+  specialized-plastanium-wall
+  specialized-plastanium-wall-large
+  wall-of-sakura
+  wall-of-sakura-large
+  aphelion-reactor
+]
+squareSprite: false
+conductivePower: true
+researchCostMultiplier: 0.3
+maxBlockSize: 3
