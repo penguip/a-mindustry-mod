@@ -1,0 +1,57 @@
+type: Constructor
+name: Simple Block Forge
+description: 
+''' 
+  Crafts basic blocks used for unit modification. Requires power and entropy. 
+  Conducts power to blocks it touches.
+
+  Recipes: 
+    - Embargo
+    - Rapid
+    - Splinter
+    - Gut
+    - Corrosive
+    - Precipitation
+    - Osmium Wall
+    - Large Osmium
+    - Silicon Wall
+    - Large Silicon Wall
+    - Contrinum Wall
+    - Large Contrinum Wall
+    - Iron Wall
+    - Large Iron Wall
+    - Payload Rail
+''' 
+size: 3
+category: units
+requirements: [
+  yttrium/50
+  silicon/30
+  iron/10
+] 
+hasPower: true
+consumes: {
+  power: 0.5
+  liquid: entropy/0.033333 
+}
+buildSpeed: 1
+filter: [
+  embargo
+  rapid
+  splinter
+  gut
+  corrosive
+  precipitation
+  osmium-wall
+  osmium-wall-large
+  silicon-wall
+  silicon-wall-large
+  contrinum-wall
+  contrinum-wall-large
+  iron-wall
+  iron-wall-large
+]
+squareSprite: false
+conductivePower: true
+researchCostMultiplier: 0.3
+maxBlockSize: 3
