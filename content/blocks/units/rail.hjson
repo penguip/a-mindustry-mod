@@ -1,7 +1,7 @@
 type: PayloadConveyor
 health: 650
 localizedName: Rail
-description: Transports payloads forward.
+description: Transports payloads forward. May have minor design flaws.
 category: units
 requirements: [
   yttrium/30
