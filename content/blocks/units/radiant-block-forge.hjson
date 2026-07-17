@@ -1,0 +1,50 @@
+type: Constructor
+name: Radiant Block Forge
+description: 
+''' 
+  Crafts midtier blocks used for unit modification. Requires power and radon. 
+  Conducts power to blocks it touches.
+
+  Recipes: 
+    - Maw
+    - Contrivance
+    - Photon
+    - Exposure
+    - Phrase
+    - Fray
+    - Zirconium Wall
+    - Large Zirconium Wall
+    - Actinium Wall
+    - Large Actinium Wall
+''' 
+size: 3
+category: units
+requirements: [
+  yttrium/130
+  silicon/100
+  iron/70
+  zirconium/80
+  actinium/60
+] 
+hasPower: true
+consumes: {
+  power: 0.5
+  liquid: radon/0.5
+}
+buildSpeed: 1
+filter: [
+  maw
+  contrivance
+  photon
+  exposure
+  phrase
+  fray
+  zirconium-wall
+  zirconium-wall-large
+  actinium-wall
+  actinium-wall-large
+]
+squareSprite: false
+conductivePower: true
+researchCostMultiplier: 0.3
+maxBlockSize: 3
