@@ -20,7 +20,7 @@ description:
     - Large Contrinum Wall
     - Iron Wall
     - Large Iron Wall
-    - Payload Rail
+    - Rail
 ''' 
 size: 3
 category: units
