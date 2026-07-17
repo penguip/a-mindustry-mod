@@ -114,6 +114,56 @@ contentOrder: [
   chromatic-wall-green-large
   chromatic-wall-blue
   chromatic-wall-blue-large
+  silicon-minifurnace
+  silicon-forge
+  oxide-press
+  compression-facility
+  contrinum-furnace
+  blood-refinery
+  entropy-washer
+  energite-crucible
+  actinium-extractor
+  plastanium-foundry
+  cenessiodreon-synthesizer
+  forge-of-sakura
+  prismatic-crystallizr
+  hypercharger
+  infernum-heater
+  hemorrhagic-heater
+  fission-heater
+  blast-heater
+  heatRadiator
+  cell-packer
+  bottomless-mouth
+  mech-station
+  flying-station
+  spider-station
+  tank-station
+  worm-incubator
+  helicopter-station
+  hover-station
+  mech-modifier
+  flying-modifier
+  radiant-payload-enhancer
+  defiant-payload-enhancer
+  prismatic-payload-enhancer
+  rail
+  rail-router
+  simple-block-forge
+  radiant-block-forge
+  defiant-block-forge
+  prismatic-block-forge
+  core-glitc
+  core-error
+  core-malware
+  crate
+  warehouse
+  wound-sealer
+  autohealer
+  force-well
+  monopolize
+  novic-terminal
+  aphelion-reactor
   entropy
   infernum
   blood
