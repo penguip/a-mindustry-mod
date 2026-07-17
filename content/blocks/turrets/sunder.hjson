@@ -2,7 +2,7 @@ type: ContinuousLiquidTurret
 size: 3
 health: 2400
 localizedName: Sunder
-description: Starts a constant, armor piercing stream of flame. After shooting, ejects an explosive plasma sphere that flies past its shoot range to hit incoming enemies.
+description: Starts a constant, armor piercing stream of flame.
 requirements: [
   gadolinium/500
   plastanium/600
@@ -121,7 +121,7 @@ ammoTypes: {
   energicon: {
     type: ContinuousFlameBulletType 
 	  ammoMultiplier: 1
-  	shake: 1
+  	shake: 3
   	damageInterval: 10
   	damage: 145
   	length: 300
@@ -132,8 +132,6 @@ ammoTypes: {
   	incendChance: 0
   	incendSpread: 0
   	incendAmount: 0
-    despawnShake: 10
-    despawnSound: shootNavanax
   	width: 2
   	splashDamagePierce: true
   	makeFire: false
@@ -146,29 +144,5 @@ ammoTypes: {
       63d659,
       83d68d
       ]
-    fragBullets: 1
-    fragRandomSpread: 0
-    fragVelocityMax: 1
-    fragVelocityMin: 1
-    fragBullet: {
-      type: BasicBulletType
-      sprite: large-orb
-      despawnShake: 20
-      buildingDamageMultiplier: 0
-      backColor: 63d659
-      frontColor: 83d68d
-      height: 10
-      speed: 11
-      lifetime: 30
-      width: 10
-      damage: 250
-      splashDamage: 100
-      splashDamageRadius: 100
-      status: unmoving
-      statusDuration: 30
-      hitColor: 83d68d
-      hitEffect: titanExplosion
-      hitSound: explosionNavanax
-    }
    }
 }
