@@ -50,6 +50,7 @@ filter: [
   contrinum-wall-large
   iron-wall
   iron-wall-large
+  rail
 ]
 squareSprite: false
 conductivePower: true
