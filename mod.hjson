@@ -122,7 +122,7 @@ contentOrder: [
   blood-refinery
   entropy-washer
   energite-crucible
-  actinium-extractor
+  actinium-exctractor
   plastanium-foundry
   cenessiodreon-synthesizer
   forge-of-sakura
@@ -132,10 +132,11 @@ contentOrder: [
   hemorrhagic-heater
   fission-heater
   blast-heater
-  heatRadiator
+  heat-radiator
   cell-packer
   disorder-generator
   infernum-distorter
+  radon-shifter
   bottomless-mouth
   mech-station
   flying-station
@@ -163,6 +164,7 @@ contentOrder: [
   wound-sealer
   autohealer
   force-well
+  scanning-device
   monopolize
   novice-terminal
   aphelion-reactor
