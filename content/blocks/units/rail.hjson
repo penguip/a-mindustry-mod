@@ -1,0 +1,12 @@
+type: PayloadConveyor
+health: 650
+localizedName: Rail
+description: Transports payloads forward.
+category: units
+requirements: [
+  yttrium/30
+  osmium/15
+]
+canOverdrive: false
+payloadLimit: 3
+researchCostMultiplier: 0.5
