@@ -18,7 +18,7 @@ plans: [
       yttrium/60
       osmium/50
     ]
-    time: 2100
+    time: 600
   }
 ]
 consumes: {
