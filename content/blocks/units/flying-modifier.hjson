@@ -27,6 +27,17 @@ plans: [
     ]
     time: 1200
   }
+  {
+    type: AssemblerUnitPlan
+    unit: pterodactyl
+    requirements: [
+      beepdustry-zirconium-wall-large/3
+      beepdustry-osmium-wall-large/8
+      beepdustry-butterfly/5
+      beepdustry-photon/1
+    ]
+    time: 3300
+  }
 ]
 squareSprite: false
 consumes: {
