@@ -15,6 +15,7 @@ weapons: [
       recoil: 10
       lightningSpacing: 45
       damage: 80
+      shieldDamageMultiplier: 2.5
       lightningDamage: 10
       lightningLength: 10
       lightningAngleRand: 5
