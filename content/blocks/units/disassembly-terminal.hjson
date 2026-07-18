@@ -1,0 +1,21 @@
+type: PayloadDeconstructor
+itemCapacity: 150
+health: 650
+localizedName: Disassembly Terminal
+description: Deconstructs any recieved payload, returns 100% of the materials used to make it. Uses small amounts of hemogen.
+size: 3
+category: units
+requirements: [
+  yttrium/100
+  gadolinium/100
+  silicon/80
+  contriunum/25
+]
+squareSprite: false
+deconstructSpeed: 1.5
+consumes: {
+  power: 4
+  liquid: hemogen/0.125
+}
+researchCostMultiplier: 0.5
+liquidCapacity: 60
