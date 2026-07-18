@@ -155,6 +155,7 @@ contentOrder: [
   prismatic-payload-enhancer
   rail
   rail-router
+  cargo-thrower
   simple-block-forge
   radiant-block-forge
   defiant-block-forge
