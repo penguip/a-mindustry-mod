@@ -23,6 +23,7 @@ plans: [
       beepdustry-contrinum-wall/2
       beepdustry-osmium-wall/4
       beepdustry-butterfly/1
+      beepdustry-rapid/1
     ]
     time: 1200
   }
