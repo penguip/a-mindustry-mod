@@ -7,6 +7,20 @@ health: 6750
 outlineColor: 282C36
 armor: 18
 hitSize: 18
+engines: [
+      {
+        x: -6
+        y: -7
+        radius: 2
+        rotation: 90
+      }
+      {
+        x: 6
+        y: -7
+        radius: 2
+        rotation: 90
+      }
+    ]
 weapons: [
   {
     bullet: {
@@ -25,7 +39,7 @@ weapons: [
         ffffff
       ]
     }
-    reload: 240
+    reload: 60
     shake: 5
     shootSound: shootOmura
   }
