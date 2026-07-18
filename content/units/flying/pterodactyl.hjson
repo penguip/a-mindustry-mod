@@ -1,0 +1,9 @@
+type: flying
+name: Pterodactyl
+description: Durable and armored. Fires a piercing laser and large fragmentary shells at enemy targets. Deals high damage to enemy shields.
+speed: 2
+flying: true
+health: 6750
+outlineColor: 282C36
+armor: 18
+hitSize: 18
