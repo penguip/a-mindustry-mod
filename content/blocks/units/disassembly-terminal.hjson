@@ -9,10 +9,10 @@ requirements: [
   yttrium/100
   gadolinium/100
   silicon/80
-  contriunum/25
+  contrinum/25
 ]
 squareSprite: false
-deconstructSpeed: 1.5
+deconstructSpeed: 2
 consumes: {
   power: 4
   liquid: hemogen/0.125
