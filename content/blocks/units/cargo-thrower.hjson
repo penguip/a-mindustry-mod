@@ -1,0 +1,19 @@
+type: PayloadMassDriver
+name: Cargo Thrower
+description: Uses the high heat of infernum to launch payloads to another Cargo Thrower in range.
+consumes: {
+  liquid: infernum/2
+}
+category: units
+requirements: [
+  yttrium/280
+  silicon/100
+  iron/110
+  zirconium/70
+]
+reload: 90
+chargeTime: 90
+range: 500
+maxPayloadSize: 3
+size: 3
+researchCostMultiplier: 0.25
