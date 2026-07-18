@@ -19,7 +19,7 @@ plans: [
       osmium/30
       silicon/40
     ]
-    time: 2100
+    time: 750
   }
 ]
 consumes: {
