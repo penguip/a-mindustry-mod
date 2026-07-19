@@ -10,6 +10,7 @@ accel: 0.4
 drag: 0.03
 hitSize: 24
 range: 360
+rotateSpeed: 1.2
 engineSize: 0
 engines: [
       {
