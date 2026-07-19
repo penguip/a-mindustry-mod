@@ -1,6 +1,6 @@
 type: flying
 name: Wyvern
-description: Fires a piercing orb of flame at enemy targets. Armed with dual flamethrowers. Deals severe damage to enemy shields.
+description: Fires a piercing orb of flame at enemy targets. Armed with dual flamethrowers. Deals severe damage to enemy shields. Protects itself with its own shield when firing.
 speed: 1.1423
 flying: true
 health: 12300
@@ -12,6 +12,17 @@ hitSize: 24
 range: 360
 rotateSpeed: 1.2
 engineSize: 0
+abilities: [
+ {
+type: ShieldArcAbility
+radius: 25
+angle: 361
+chanceDeflect: 0.05
+cooldown: 600
+max: 1000
+regen: 0.7
+}
+]
 engines: [
       {
         x: -6
