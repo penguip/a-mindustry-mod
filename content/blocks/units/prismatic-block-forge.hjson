@@ -57,6 +57,7 @@ filter: [
   chromatic-wall-blue
   chromatic-wall-blue-large
   aphelion-reactor
+  flux-engine
 ]
 squareSprite: false
 conductivePower: true
