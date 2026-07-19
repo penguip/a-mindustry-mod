@@ -46,6 +46,7 @@ filter: [
   wall-of-sakura
   wall-of-sakura-large
   aphelion-reactor
+  flux-engine
 ]
 squareSprite: false
 conductivePower: true
