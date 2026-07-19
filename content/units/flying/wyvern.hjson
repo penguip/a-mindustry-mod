@@ -38,19 +38,19 @@ engines: [
       }
       {
         x: -9
-        y: -9
+        y: -7
         radius: 2
         rotation: 90
       }
       {
         x: 9
-        y: -9
+        y: -7
         radius: 2
         rotation: 90
       }
       {
         x: 0
-        y: -11
+        y: -9
         radius: 3.5
         rotation: 90
       }
