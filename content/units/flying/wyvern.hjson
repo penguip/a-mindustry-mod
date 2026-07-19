@@ -13,13 +13,25 @@ range: 360
 engineSize: 0
 engines: [
       {
-        x: -7
+        x: -6
         y: -9
         radius: 2
         rotation: 90
       }
       {
-        x: 7
+        x: 6
+        y: -9
+        radius: 2
+        rotation: 90
+      }
+      {
+        x: -9
+        y: -9
+        radius: 2
+        rotation: 90
+      }
+      {
+        x: 9
         y: -9
         radius: 2
         rotation: 90
@@ -65,6 +77,8 @@ bullet: {
   despawnEffect: scatheExplosionSmall
   incendAmount: 80
   incendChance: 100
+  status: burning
+  statusDuration: 180
   incendSpread: 20
   despawnShake: 15
 }
@@ -91,6 +105,7 @@ shootSound: shootAfflict
     targetInterval: 8
     targetSwitchInterval: 8
     recoil: 0.5
+    rotateSpeed: 1.23
     name: wyvern-mount
     shootY: 1
     shootSound: shootFlame
@@ -98,6 +113,10 @@ shootSound: shootAfflict
     bullet: {
       type: FireBulletType
        length: 100
+       velMin: 6.7
+       velMax: 9
+       status: burning
+       statusDuration: 30
        damage: 12
     }
    }
