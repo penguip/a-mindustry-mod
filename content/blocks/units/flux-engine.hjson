@@ -1,0 +1,13 @@
+type: Junction
+size: 3
+customShadow: true
+placeablePlayer: false
+localizedName: Flux Engine
+description: A large engine that converts atmospheric entropy into additional torque. Used in producing Wyvern and Dragon.
+requirements: [
+  silicon/80
+  contrinum/45
+  plastanium/60
+]
+databaseTag: unitpart
+researchCostMultiplier: 1
