@@ -1,30 +1,80 @@
 type: flying
 name: Wyvern
 description: Fires a piercing orb of flame at enemy targets. Armed with dual flamethrowers. Deals severe damage to enemy shields.
-speed: 1.8937
+speed: 1.1423
 flying: true
 health: 12300
 outlineColor: 282C36
 armor: 23
 hitSize: 24
+range: 360
 engineSize: 0
 engines: [
       {
-        x: -6
-        y: -7
+        x: -7
+        y: -9
         radius: 2
         rotation: 90
       }
       {
-        x: 6
-        y: -7
+        x: 7
+        y: -9
         radius: 2
         rotation: 90
       }
       {
         x: 0
-        y: -13
+        y: -11
         radius: 3.5
         rotation: 90
       }
     ]
+weapons: [
+{
+type: Weapon
+bullet: {
+  type: BasicBulletType
+  damage: 875
+  despawnHit: "true"
+  drawSize: 160
+  lifetime: 36
+  lightRadius: 20
+  parts: []
+  pierce: "true"
+  pierceCap: 5
+  range: 360
+  shieldDamageMultiplier: 4
+  recoil: 25
+  spawnBullets: []
+  speed: 10
+  splashDamage: 80.75
+  splashDamageRadius: 28
+  trailChance: -1
+  trailColor: "#d8f18cff"
+  trailInterval: 2.5
+  trailLength: 8
+  trailParam: 4
+  trailRotation: "true"
+  trailWidth: 4
+  trailEffect: shootSmokeTitan
+  scaleLife: "true"
+  hitSound: blockExplodeExplosive
+  despawnEffect: scatheExplosionSmall
+  incendAmount: 80
+  incendChance: 100
+  incendSpread: 20
+  despawnShake: 15
+}
+mirror: "false"
+parts: []
+recoilTime: 170
+reload: 200
+shake: 5
+shoot: {
+  type: ShootPattern
+}
+x: 0
+y: -6
+shootSound: shootAfflict
+}
+]
