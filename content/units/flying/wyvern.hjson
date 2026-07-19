@@ -78,4 +78,24 @@ x: 0
 y: -6
 shootSound: shootAfflict
 }
+{
+    x: 7
+    y: -6
+    reload: 5
+    mirror: true
+    rotate: true
+    alternate: true
+    targetInterval: 8
+    targetSwitchInterval: 8
+    recoil: 0.5
+    name: wyvern-weapon
+    shootY: 1
+    shootSound: shootFlame
+    type: Weapon
+    bullet: {
+      type: FireBulletType
+       length: 100
+       damage: 12
+    }
+   }
 ]
