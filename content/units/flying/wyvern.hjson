@@ -50,7 +50,7 @@ bullet: {
   splashDamage: 80.75
   splashDamageRadius: 28
   trailChance: -1
-  trailColor: "#d8f18cff"
+  trailColor: 946d6c
   trailInterval: 2.5
   trailLength: 8
   trailParam: 4
@@ -59,6 +59,7 @@ bullet: {
   trailEffect: shootSmokeTitan
   scaleLife: "true"
   hitSound: blockExplodeExplosive
+  hitColor: 946d6c
   despawnEffect: scatheExplosionSmall
   incendAmount: 80
   incendChance: 100
