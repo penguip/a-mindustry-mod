@@ -38,6 +38,18 @@ plans: [
     ]
     time: 3300
   }
+  {
+    type: AssemblerUnitPlan
+    unit: wyvern
+    requirements: [
+      beepdustry-zirconium-wall-large/10
+      beepdustry-wall-of-sakura/3
+      beepdustry-butterfly/10
+      beepdustry-fray/1
+      beepdustry-flux-engine/5
+    ]
+    time: 6600
+  }
 ]
 squareSprite: false
 consumes: {
