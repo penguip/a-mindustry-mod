@@ -6,6 +6,8 @@ flying: true
 health: 12300
 outlineColor: 282C36
 armor: 23
+accel: 0.4
+drag: 0.03
 hitSize: 24
 range: 360
 engineSize: 0
@@ -44,7 +46,7 @@ bullet: {
   pierceCap: 5
   range: 360
   shieldDamageMultiplier: 4
-  recoil: 25
+  recoil: 4
   spawnBullets: []
   speed: 10
   splashDamage: 80.75
