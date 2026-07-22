@@ -233,6 +233,7 @@ targetInterval: 8
 targetSwitchInterval: 8
 x: 7
 y: -6
+alternate: false
 continuous: "true"
 alwaysContinuous: "true"
 rotationLimit: 36
