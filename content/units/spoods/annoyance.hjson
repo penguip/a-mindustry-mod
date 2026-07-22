@@ -50,7 +50,7 @@ weapons: [
       pierceBuilding: false
       speed: 3.4
       lifetime: 60
-      backColor: b2736a
+      backColor: a66cb0
     }
   }
   ]
