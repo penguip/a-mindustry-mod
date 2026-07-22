@@ -1,0 +1,57 @@
+type: flying
+name: Dragon
+description: Fires a massive plasma fireball at enemy targets over a long range. Armed with dual flamethrowers that rip anything nearby to shreds. Effectively disintegrates enemy shields. Protects itself and a small area around it with its own shield. Only attacks ground targets.
+speed: 1
+flying: true
+health: 29000
+outlineColor: 282C36
+armor: 28
+accel: 0.4
+drag: 0.03
+hitSize: 24
+range: 360
+rotateSpeed: 1
+targetAir: false
+engineSize: 0
+abilities: [
+ {
+type: ForceFieldAbility
+radius: 80
+chanceDeflect: 0.05
+cooldown: 600
+max: 2600
+regen: 1
+}
+]
+engines: [
+      {
+        x: -6
+        y: -9
+        radius: 2
+        rotation: 90
+      }
+      {
+        x: 6
+        y: -9
+        radius: 2
+        rotation: 90
+      }
+      {
+        x: -9
+        y: -7
+        radius: 2
+        rotation: 90
+      }
+      {
+        x: 9
+        y: -7
+        radius: 2
+        rotation: 90
+      }
+      {
+        x: 0
+        y: -12
+        radius: 3.5
+        rotation: 90
+      }
+    ]
