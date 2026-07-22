@@ -98,7 +98,7 @@ weapons: [
       pierceCap: 5
       recoil: 6
       scaleLife: "true"
-      shieldDamageMultiplier: 4
+      shieldDamageMultiplier: 6.75
       spawnBullets: []
       speed: 10
       splashDamage: 80.75
@@ -134,7 +134,7 @@ weapons: [
         pierce: "true"
         pierceCap: 5
         recoil: 4
-        shieldDamageMultiplier: 4
+        shieldDamageMultiplier: 2
         spawnBullets: []
         speed: 7.5
         splashDamage: 20
@@ -163,7 +163,7 @@ weapons: [
     chargeSound: charge-peril
     shoot: {
       type: ShootPattern
-      firstShotDelay: 456
+      firstShotDelay: 480
     }
     shootSound: explosionObviate
     x: 0
