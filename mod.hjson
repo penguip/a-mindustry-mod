@@ -150,6 +150,7 @@ contentOrder: [
   hover-station
   mech-modifier
   flying-modifier
+  spider-modifier
   radiant-payload-enhancer
   defiant-payload-enhancer
   prismatic-payload-enhancer
