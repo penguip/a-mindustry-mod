@@ -75,3 +75,96 @@ engines: [
         rotation: 90
       }
     ]
+weapons: [
+  {
+    type: Weapon
+    bullet: {
+      type: BasicBulletType
+      damage: 1860
+      despawnEffect: scatheExplosionSmall
+      despawnHit: "true"
+      despawnShake: 40
+      drawSize: 160
+      hitColor: "#946d6cff"
+      hitSound: explosionMissile
+      incendAmount: 80
+      incendChance: 100
+      incendSpread: 20
+      lifetime: 60
+      lightRadius: 20
+      lightningType: damageLightning
+      parts: []
+      pierce: "true"
+      pierceCap: 5
+      recoil: 6
+      scaleLife: "true"
+      shieldDamageMultiplier: 4
+      spawnBullets: []
+      speed: 10
+      splashDamage: 80.75
+      splashDamageRadius: 28
+      status: burning
+      statusDuration: 180
+      trailChance: -1
+      trailColor: "#946d6cff"
+      trailEffect: shootSmokeTitan
+      trailInterval: 2.5
+      trailLength: 8
+      trailParam: 4
+      trailRotation: "true"
+      trailWidth: 4
+      fragBullets: 12
+      collidesAir: "false"
+      fragBullet: {
+        type: BasicBulletType
+        damage: 100
+        despawnEffect: scatheExplosionSmall
+        despawnHit: "true"
+        despawnShake: 15
+        drawSize: 160
+        hitColor: "#946d6cff"
+        hitSound: blockExplodeExplosive
+        incendAmount: 80
+        incendChance: 100
+        incendSpread: 20
+        lifetime: 10
+        lightRadius: 20
+        lightningType: damageLightning
+        parts: []
+        pierce: "true"
+        pierceCap: 5
+        recoil: 4
+        shieldDamageMultiplier: 4
+        spawnBullets: []
+        speed: 7.5
+        splashDamage: 20
+        splashDamageRadius: 28
+        status: burning
+        statusDuration: 180
+        trailChance: -1
+        trailColor: "#946d6cff"
+        trailEffect: shootSmokeTitan
+        trailInterval: 2.5
+        trailLength: 8
+        trailParam: 4
+        trailRotation: "true"
+        trailWidth: 4
+        collidesAir: "false"
+      }
+    }
+    mirror: "false"
+    name: beepdustry-
+    parts: []
+    recoilTime: 170
+    reload: 600
+    shake: 65
+    chargeSound: charge-peril
+    shoot: {
+      type: ShootPattern
+      firstShotDelay: 75
+    }
+    shootSound: explosionObviate
+    x: 0
+    y: -6
+  }
+]
