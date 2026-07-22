@@ -40,6 +40,7 @@ parts: [
     radius: 0.25
     spinSpeed: -1.25
     innerRadScl: 0
+    stroke: 4
   }
 ]
 engines: [
