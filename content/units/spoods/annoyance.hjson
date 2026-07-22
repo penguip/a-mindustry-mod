@@ -42,17 +42,15 @@ weapons: [
     shootStatus: slow
     shootStatusDuration: 9
     bullet: {
-      type: BasicBulletType
-      height: 7.5
-      width: 2.5
-      damage: 9
-      pierce: true
-      speed: 2.4
-      lifetime: 35
-      pierceArmor: true
-      pierceCap: 3
-      backColor: ab51bo
-      frontColor: a75ebo
+      type: LaserBoltBulletType
+      length: 6
+      damage: 20
+      pierce: false
+      width: 2
+      pierceBuilding: false
+      speed: 3.4
+      lifetime: 60
+      backColor: b2736a
     }
   }
   ]
