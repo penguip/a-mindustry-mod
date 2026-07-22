@@ -169,4 +169,72 @@ weapons: [
     x: 0
     y: -6
   }
+  {
+  type: Weapon
+bullet: {
+  type: ContinuousFlameBulletType
+  damage: 13
+  lightRadius: 20
+  lightningType: damageLightning
+  parts: []
+  spawnBullets: []
+  status: burning
+  statusDuration: 180
+  buildingDamageMultiplier: 0
+  drawSize: 600
+  hitEffect: hitBulletColor
+  incendChance: 0
+  incendSpread: 0
+  splashDamagePierce: "true"
+  damageInterval: 5
+  length: 140
+  shake: 3
+  colors: [
+    94431c
+    94574b
+    946d6c
+  ]
+  flareColor: "#83d68dff"
+  flareLength: 20
+  lengthWidthPans: [
+    1.1200000047683716
+    1.2999999523162842
+    0.3199999928474426
+    1
+    1
+    0.30000001192092896
+    0.800000011920929
+    0.8999999761581421
+    0.20000000298023224
+    0.5
+    0.800000011920929
+    0.15000000596046448
+    0.25
+    0.699999988079071
+    0.10000000149011612
+  ]
+  width: 2
+  collidesAir: "false"
+  drawFlare: "false"
+}
+name: wyvern-mount
+otherSide: 2
+parts: []
+recoil: 0.5
+recoilTime: 10
+rotate: "true"
+rotateSpeed: 1.2300000190734863
+shoot: {
+  type: ShootPattern
+}
+shootSound: shootSublimate
+shootY: 1
+targetInterval: 8
+targetSwitchInterval: 8
+x: 7
+y: -6
+continuous: "true"
+alwaysContinuous: "true"
+rotationLimit: 36
+}
 ]
