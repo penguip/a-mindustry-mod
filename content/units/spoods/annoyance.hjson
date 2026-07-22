@@ -27,6 +27,6 @@ drag: 0.1
 itemCapacity: 0
 outlineColor: 26262F
 alwaysShootWhenMoving: true
-stepSound: walkerStep
+stepSound: walkerStepSmall
 stepSoundVolume: 0.3
 researchCostMultiplier: 0
