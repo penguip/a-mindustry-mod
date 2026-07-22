@@ -16,6 +16,7 @@ description:
     - Large Zirconium Wall
     - Actinium Wall
     - Large Actinium Wall
+    - Force Well
 ''' 
 size: 3
 category: units
@@ -43,6 +44,7 @@ filter: [
   zirconium-wall-large
   actinium-wall
   actinium-wall-large
+  force-well
 ]
 squareSprite: false
 conductivePower: true
