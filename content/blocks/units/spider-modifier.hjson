@@ -1,0 +1,35 @@
+type: UnitAssembler
+size: 5
+localizedName: Spider Modifier
+description: Creates larger spider units by fusing together inputted blocks and Disappointment units via entropy. Output tier may be increased by adding modules. 
+health: 3500
+category: units
+droneType: redesign
+areaSize: 13
+requirements: [
+  yttrium/160
+  osmium/110
+  silicon/45
+  gadolinium/100
+  oxide/40
+  iron/20
+]
+liquidCapacity: 120
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: annoyance
+    requirements: [
+      beepdustry-iron-wall/8
+      beepdustry-disappointment/1
+      beepdustry-rapid/1
+    ]
+    time: 1200
+  }
+]
+squareSprite: false
+consumes: {
+  power: 3
+  liquid: entropy/2
+}
+researchCostMultiplier: 0.5
