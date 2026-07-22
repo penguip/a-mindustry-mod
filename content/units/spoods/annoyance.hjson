@@ -30,3 +30,29 @@ alwaysShootWhenMoving: true
 stepSound: walkerStepSmall
 stepSoundVolume: 0.3
 researchCostMultiplier: 0
+weapons: [
+  {
+    x: 0
+    y: 3
+    shootY: 0
+    reload: 3
+    inaccuracy: 10
+    mirror: false
+    shootSound: shootElude
+    shootStatus: slow
+    shootStatusDuration: 9
+    bullet: {
+      type: BasicBulletType
+      height: 7.5
+      width: 2.5
+      damage: 9
+      pierce: true
+      speed: 2.4
+      lifetime: 35
+      pierceArmor: true
+      pierceCap: 3
+      backColor: ab51bo
+      frontColor: a75ebo
+    }
+  }
+  ]
