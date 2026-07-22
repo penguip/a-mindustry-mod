@@ -8,7 +8,7 @@ outlineColor: 282C36
 armor: 28
 accel: 0.4
 drag: 0.03
-hitSize: 24
+hitSize: 27
 range: 360
 rotateSpeed: 1
 targetAir: false
@@ -161,7 +161,7 @@ weapons: [
     chargeSound: charge-peril
     shoot: {
       type: ShootPattern
-      firstShotDelay: 75
+      firstShotDelay: 456
     }
     shootSound: explosionObviate
     x: 0
