@@ -158,6 +158,8 @@ weapons: [
     recoilTime: 170
     reload: 600
     shake: 65
+    shootStatus: unmoving
+    shootStatusDuration: 480
     chargeSound: charge-peril
     shoot: {
       type: ShootPattern
