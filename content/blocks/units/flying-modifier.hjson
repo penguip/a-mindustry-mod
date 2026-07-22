@@ -50,6 +50,20 @@ plans: [
     ]
     time: 6600
   }
+  {
+    type: AssemblerUnitPlan
+    unit: dragon
+    requirements: [
+      beepdustry-actinium-wall-large/12
+      beepdustry-wall-of-sakura-large/4
+      beepdustry-force-well/1
+      beepdustry-chromatic-wall-green/5
+      beepdustry-butterfly/10
+      beepdustry-sunder/1
+      beepdustry-flux-engine/5
+    ]
+    time: 15900
+  }
 ]
 squareSprite: false
 consumes: {
