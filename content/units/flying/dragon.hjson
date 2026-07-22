@@ -23,6 +23,25 @@ max: 2600
 regen: 1
 }
 ]
+parts: [
+  {
+    type: FlarePart
+    sides: 15
+    color1: 94431c
+    color2: 94574b
+    radius: 4
+    spinSpeed: 1.25
+    innerRadScl: 0.7
+  }
+  {
+    type: FlarePart
+    color1: 946d6c
+    sides: 10
+    radius: 0.25
+    spinSpeed: -1.25
+    innerRadScl: 0
+  }
+]
 engines: [
       {
         x: -6
