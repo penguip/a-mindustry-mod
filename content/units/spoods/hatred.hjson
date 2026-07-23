@@ -39,6 +39,7 @@ weapons: [
     bullet: {
       type: LightningBulletType
       status: sapped
+      statusDuration: 30
       damage: 19
       lifesteal: 5
       lightningColor: a66cb0
@@ -58,7 +59,7 @@ weapons: [
     {
       top: true
       name: anger-mount
-      x: 5
+      x: 7
       y: -4
       recoil: 1
       outlineColor: 282C36
@@ -78,7 +79,7 @@ weapons: [
         hitColor: a66cb0
         lifetime: 80
         status: sapped
-        statusDuration: 60
+        statusDuration: 240
         lifesteal: 60
         despawnShake: 15
         damage: 460
@@ -91,7 +92,8 @@ weapons: [
         backColor: ab51bo
         frontColor: a75ebo
         fragLifeMin: 0.7
-        fragLifeMax: 1.3
+        fragLifeMax: 3
+        fragVelocityMax: 2
         fragBullet: {
           type: ArtilleryBulletType
           speed: 1
@@ -100,7 +102,7 @@ weapons: [
           hitColor: a66cb0
           lifetime: 20
           status: sapped
-          statusDuration: 60
+          statusDuration: 120
           lifesteal: 10
           despawnShake: 15
           damage: 120
