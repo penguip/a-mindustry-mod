@@ -75,7 +75,7 @@ weapons: [
       {
         suffix: -barrels
         progress: recoil
-        layerOffset: -1
+        layerOffset: 0
         x: 0
         y: 0
         moveY: -2
@@ -120,7 +120,7 @@ weapons: [
         suffix: -barrels
         progress: recoil
         moveY: -2
-        layerOffset: -1
+        layerOffset: 0
         x: 0
         y: 0
       }
