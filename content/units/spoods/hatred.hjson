@@ -34,3 +34,24 @@ stepSound: walkerStep
 stepSoundVolume: 0.3
 stepShake: 1
 researchCostMultiplier: 0
+weapons: [
+  {
+    bullet: {
+      type: LightningBulletType
+      status: sapped
+      damage: 19
+      lifesteal: 5
+      lightningLengthRand: 5
+      layer: -1
+    }
+    shootSound: shockBullet
+    reload: 3
+    top: "false"
+    shake: 0.5
+    shootStatus: slow
+    alternate: false
+    shootStatusDuration: 30
+    y: 3
+    x: 7
+  }
+]
