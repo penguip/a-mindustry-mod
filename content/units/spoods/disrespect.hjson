@@ -62,12 +62,22 @@ weapons: [
     top: true
     name: disrespect-weapon
     mirror: false
+    rotate: true
+    rotateSpeed: 1.75
     shootSound: shootReign
     shake: 5
     x: 0
     y: -2
     inaccuracy: 5
     reload: 18
+    parts: [
+      {
+        type: DrawRegion
+        suffix: -barrels
+        progress: recoil
+        moveY: -2
+      }
+    ]
     shoot: {
        type: ShootBarrel
        barrels: [
@@ -85,6 +95,48 @@ weapons: [
        pierce: true
        width: 10
        damage: 108
+       backColor: a66cb0
+       frontColor: a75ebo
+    }
+  }
+  {
+    top: true
+    name: disrespect-weapon
+    mirror: true
+    rotate: true
+    rotateSpeed: 1.3
+    shootSound: shootReign
+    shake: 5
+    x: 7
+    y: 1
+    inaccuracy: 5
+    reload: 18
+    parts: [
+      {
+        type: DrawRegion
+        suffix: -barrels
+        progress: recoil
+        moveY: -2
+      }
+    ]
+    shoot: {
+       type: ShootBarrel
+       barrels: [
+       2,1,0
+       -2,1,0
+       0,0,0
+       ]
+       shots: 3
+    }
+    bullet: {
+      type: BasicBulletType
+       speed: 7.5
+       lifetime: 25
+       height: 20
+       pierce: true
+       pierceCap: 1
+       width: 10
+       damage: 56
        backColor: a66cb0
        frontColor: a75ebo
     }
