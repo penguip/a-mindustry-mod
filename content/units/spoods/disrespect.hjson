@@ -72,7 +72,6 @@ weapons: [
     reload: 18
     parts: [
       {
-        type: DrawRegion
         suffix: -barrels
         progress: recoil
         x: 0
@@ -115,7 +114,6 @@ weapons: [
     reload: 18
     parts: [
       {
-        type: DrawRegion
         suffix: -barrels
         progress: recoil
         moveY: -2
