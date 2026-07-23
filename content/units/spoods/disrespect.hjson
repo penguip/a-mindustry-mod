@@ -78,8 +78,8 @@ weapons: [
        pierce: true
        width: 10
        damage: 108
-       backColor: a
-       frontColor: d267ff
+       backColor: a66cb0
+       frontColor: a75ebo
     }
   }
 ]
