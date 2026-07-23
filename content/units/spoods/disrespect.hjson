@@ -64,6 +64,7 @@ weapons: [
     mirror: false
     rotate: true
     rotateSpeed: 1.75
+    layerOffset: 1
     shootSound: shootReign
     shake: 5
     x: 0
@@ -74,6 +75,7 @@ weapons: [
       {
         suffix: -barrels
         progress: recoil
+        layerOffset: -1
         x: 0
         y: 0
         moveY: -2
@@ -110,6 +112,7 @@ weapons: [
     shake: 5
     x: 7
     y: 1
+    layerOffset: 1
     inaccuracy: 5
     reload: 18
     parts: [
@@ -117,6 +120,7 @@ weapons: [
         suffix: -barrels
         progress: recoil
         moveY: -2
+        layerOffset: -1
         x: 0
         y: 0
       }
