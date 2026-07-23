@@ -26,6 +26,17 @@ plans: [
     ]
     time: 1200
   }
+  {
+    type: AssemblerUnitPlan
+    unit: anger
+    requirements: [
+      beepdustry-actinium-wall/4
+      beepdustry-iron-wall-large/8
+      beepdustry-disappointment/5
+      beepdustry-exposure/1
+    ]
+    time: 4500
+  }
 ]
 squareSprite: false
 consumes: {
