@@ -62,8 +62,8 @@ weapons: [
         height: 10
         collides: true
         collidesTiles: true
-        splashDamageRadius: 160
-        splashDamage: 20
+        splashDamageRadius: 60
+        splashDamage: 160
         backColor: ab51bo
         frontColor: a75ebo
       }
