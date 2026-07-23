@@ -24,7 +24,7 @@ speed: 0.7654
 rotateSpeed: 3.5
 hitSize: 16
 drag: 0.1
-range: 160
+range: 200
 itemCapacity: 0
 outlineColor: 26262F
 alwaysShootWhenMoving: true
@@ -43,7 +43,7 @@ weapons: [
       outlineColor: 282C36
       shootStatus: slow
       shootStatusDuration: 200
-      reload: 480
+      reload: 70
       shake: 5
       mirror: false
       shootSound: shootCollaris
@@ -53,7 +53,7 @@ weapons: [
         hitSound: explosionQuad
         hitEffect: shootQuellPulse
         hitColor: a66cb0
-        lifetime: 120
+        lifetime: 50
         status: sapped
         statusDuration: 60
         lifesteal: 40
