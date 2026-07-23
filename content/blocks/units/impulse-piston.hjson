@@ -1,0 +1,12 @@
+type: Junction
+size: 3
+customShadow: true
+placeablePlayer: false
+localizedName: Impulse Piston
+description: A large hydraulic piston that uses energite charge to propel a unit quickly whilst being fairly durable. Used in producing Hatred and Disrespect.
+requirements: [
+  iron/120
+  energite/25
+]
+databaseTag: unitpart
+researchCostMultiplier: 1
