@@ -1,5 +1,5 @@
 localizedName: Anger
-description: Fires large artillery at enemy ground targets, sapping health from hit targets. Can walk over most terrain.
+description: Fires sapping artillery at enemy ground targets, restoring health on hit. Can walk over most terrain.
 type: legs
 legCount: 8
 lockLegBase: true
