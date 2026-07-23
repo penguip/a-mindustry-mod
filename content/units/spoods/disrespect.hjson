@@ -65,6 +65,8 @@ weapons: [
     rotate: true
     rotateSpeed: 1.75
     layerOffset: 2
+    shootStatus: slow
+    shootStatusDuration: 19
     shootSound: shootReign
     shake: 5
     x: 0
@@ -108,6 +110,8 @@ weapons: [
     mirror: true
     rotate: true
     rotateSpeed: 1.3
+    shootStatus: slow
+    shootStatusDuration: 10
     shootSound: shootReign
     shake: 5
     x: 7
