@@ -43,24 +43,26 @@ weapons: [
       outlineColor: 282C36
       shootStatus: slow
       shootStatusDuration: 200
-      reload: 180
+      reload: 480
       shake: 5
       mirror: false
       shootSound: shootCollaris
       bullet: {
         type: ArtilleryBulletType
         speed: 4
-        HitSound: explosionQuad
-        lifetime: 40
+        hitSound: explosionQuad
+        hitEffect: shootQuellPulse
+        hitColor: a66cb0
+        lifetime: 120
         status: sapped
         statusDuration: 60
-        lifesteal: 8
-        damage: 80
-        width: 5
-        height: 5
+        lifesteal: 40
+        damage: 240
+        width: 10
+        height: 10
         collides: true
         collidesTiles: true
-        splashDamageRadius: 30
+        splashDamageRadius: 160
         splashDamage: 20
         backColor: ab51bo
         frontColor: a75ebo
