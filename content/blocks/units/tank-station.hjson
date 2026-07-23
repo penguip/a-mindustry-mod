@@ -20,7 +20,7 @@ plans: [
       yttrium/75
       oxide/10
     ]
-    time: 4500
+    time: 900
   }
 ]
 consumes: {
