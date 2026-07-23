@@ -60,7 +60,7 @@ plans: [
       beepdustry-impulse-piston/8
       beepdustry-dissent/1
     ]
-    time: 8700
+    time: 18000
   }
 ]
 squareSprite: false
