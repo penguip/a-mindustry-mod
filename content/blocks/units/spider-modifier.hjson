@@ -37,6 +37,18 @@ plans: [
     ]
     time: 4500
   }
+  {
+    type: AssemblerUnitPlan
+    unit: hatred
+    requirements: [
+      beepdustry-specialized-plastanium-wall/8
+      beepdustry-iron-wall-large/14
+      beepdustry-disappointment/10
+      beepdustry-impulse-piston/8
+      beepdustry-fray/1
+    ]
+    time: 8700
+  }
 ]
 squareSprite: false
 consumes: {
