@@ -22,8 +22,8 @@ description:
     - Flux Engine
     - Impulse Piston
     - Actinide Treads
-    - Sophisticated Ligament
     - Razor Rotor
+    - Sophisticated Ligament
     - Gravity Suspender
 ''' 
 size: 3
@@ -58,6 +58,7 @@ filter: [
   chromatic-wall-blue-large
   aphelion-reactor
   flux-engine
+  impulse-piston
 ]
 squareSprite: false
 conductivePower: true
