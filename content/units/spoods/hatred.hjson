@@ -26,7 +26,7 @@ speed: 0.7
 rotateSpeed: 3.5
 hitSize: 21
 drag: 0.1
-range: 200
+range: 240
 itemCapacity: 0
 outlineColor: 26262F
 alwaysShootWhenMoving: true
@@ -55,4 +55,63 @@ weapons: [
     y: 3
     x: 7
   }
+    {
+      top: true
+      name: anger-mount
+      x: 5
+      y: -4
+      recoil: 1
+      outlineColor: 282C36
+      shootStatus: slow
+      shootStatusDuration: 200
+      reload: 190
+      shake: 10
+      mirror: true
+      shootSound: shootNavanax
+      bullet: {
+        type: ArtilleryBulletType
+        speed: 3
+        hitSound: explosionNavanax
+        hitEffect: scatheExplosion
+        hitColor: a66cb0
+        lifetime: 80
+        status: sapped
+        statusDuration: 60
+        lifesteal: 60
+        despawnShake: 15
+        damage: 460
+        width: 10
+        height: 10
+        collides: true
+        collidesTiles: true
+        splashDamageRadius: 100
+        splashDamage: 200
+        backColor: ab51bo
+        frontColor: a75ebo
+        fragLifeMin: 0.7
+        fragLifeMax: 1.3
+        fragBullet: {
+          type: ArtilleryBulletType
+          speed: 1
+          hitSound: explosionQuad
+          hitEffect: shootQuellPulse
+          hitColor: a66cb0
+          lifetime: 20
+          status: sapped
+          statusDuration: 60
+          lifesteal: 10
+          despawnShake: 15
+          damage: 120
+          width: 5
+          height: 5
+          collides: true
+          collidesTiles: true
+          splashDamageRadius: 45
+          splashDamage: 34
+          backColor: ab51bo
+          frontColor: a75ebo
+        }
+      }
+    }
 ]
+
