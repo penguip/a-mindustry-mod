@@ -34,3 +34,26 @@ stepSound: walkerStep
 stepSoundVolume: 0.3
 stepShake: 1
 researchCostMultiplier: 0
+abilities: [
+  {
+    type: UnitSpawnAbility
+    unit: cold
+    spawnTime: 400
+    spawnX: 0
+    spawnY: -9
+  }
+  {
+    type: UnitSpawnAbility
+    unit: disappointment
+    spawnTime: 600
+    spawnX: 8
+    spawnY: -7
+  }
+  {
+    type: UnitSpawnAbility
+    unit: disappointment
+    spawnTime: 600
+    spawnX: -8
+    spawnY: -7
+  }
+]
