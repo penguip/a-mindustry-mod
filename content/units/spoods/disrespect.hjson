@@ -75,6 +75,8 @@ weapons: [
         type: DrawRegion
         suffix: -barrels
         progress: recoil
+        x: 0
+        y: 0
         moveY: -2
       }
     ]
@@ -117,6 +119,8 @@ weapons: [
         suffix: -barrels
         progress: recoil
         moveY: -2
+        x: 0
+        y: 0
       }
     ]
     shoot: {
