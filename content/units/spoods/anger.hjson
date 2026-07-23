@@ -17,16 +17,53 @@ legPhysicsLayer: false
 legStraightness: 0.6
 hovering: true
 groundLayer: 60
-health: 3650
-armor: 7
+health: 7860
+armor: 15
 allowLegStep: true
 speed: 0.7654
 rotateSpeed: 3.5
 hitSize: 16
 drag: 0.1
+range: 160
 itemCapacity: 0
 outlineColor: 26262F
 alwaysShootWhenMoving: true
 stepSound: walkerStepSmall
 stepSoundVolume: 0.3
+stepShake: 0
+targetAir: false
 researchCostMultiplier: 0
+weapons: [
+    {
+      top: true
+      name: anger-mount
+      x: 0
+      y: 0
+      recoil: 1
+      outlineColor: 282C36
+      shootStatus: slow
+      shootStatusDuration: 200
+      reload: 180
+      shake: 5
+      mirror: false
+      shootSound: shootCollaris
+      bullet: {
+        type: ArtilleryBulletType
+        speed: 4
+        HitSound: explosionQuad
+        lifetime: 40
+        status: sapped
+        statusDuration: 60
+        lifesteal: 8
+        damage: 80
+        width: 5
+        height: 5
+        collides: true
+        collidesTiles: true
+        splashDamageRadius: 30
+        splashDamage: 20
+        backColor: ab51bo
+        frontColor: a75ebo
+      }
+    }
+]
