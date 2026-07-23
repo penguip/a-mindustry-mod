@@ -64,6 +64,8 @@ weapons: [
       outlineColor: 282C36
       shootStatus: slow
       shootStatusDuration: 200
+      rotate: true
+      rotateSpeed: 2
       reload: 190
       shake: 10
       mirror: true
