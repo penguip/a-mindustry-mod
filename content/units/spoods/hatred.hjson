@@ -41,6 +41,7 @@ weapons: [
       status: sapped
       damage: 19
       lifesteal: 5
+      lightningColor: a66cb0
       lightningLengthRand: 5
       layer: -1
     }
