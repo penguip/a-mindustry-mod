@@ -42,7 +42,7 @@ weapons: [
       recoil: 1
       outlineColor: 282C36
       shootStatus: slow
-      shootStatusDuration: 200
+      shootStatusDuration: 80
       reload: 70
       shake: 5
       mirror: false
