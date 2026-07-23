@@ -49,6 +49,19 @@ plans: [
     ]
     time: 8700
   }
+  {
+    type: AssemblerUnitPlan
+    unit: disrespect
+    requirements: [
+      beepdustry-specialized-plastanium-wall/10
+      beepdustry-actinium-wall-large/10
+      beepdustry-chromatic-wall-yellow/4
+      beepdustry-disappointment/20
+      beepdustry-impulse-piston/8
+      beepdustry-dissent/1
+    ]
+    time: 8700
+  }
 ]
 squareSprite: false
 consumes: {
