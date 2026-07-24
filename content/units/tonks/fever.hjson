@@ -22,7 +22,7 @@ itemCapacity: 0
 range: 100
 outlineColor: 26262F
 tankMoveVolume: 0.3
-tankMoveSound: tankMoveSmall
+tankMoveSound: tankMove
 floorMultiplier: 0.95
 weapons: [
   {
