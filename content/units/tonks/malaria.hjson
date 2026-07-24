@@ -48,17 +48,18 @@ weapons: [
        backColor: dba40f
        frontColor: dbbc42
        trailColor: dbbc42
-       trailLength: 10
-       trailWidth: 10
+       trailLength: 21
+       trailWidth: 5
        despawnHit: true
        hitSound: explosionDull
        bulletInterval: 5
        intervalBullets: 3
-       intervalRandomSpread: 90
+       intervalRandomSpread: 30
        intervalBullet: {
         type: LightningBulletType
         despawnSound: shockBullet
-        lightningLength: 15
+        lightningLength: 7
+        damage: 13
         lightningColor: dbd46f
        }
     }
