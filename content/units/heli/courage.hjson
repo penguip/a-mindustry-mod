@@ -16,7 +16,7 @@ weapons: [
     name: courage-rotor-weapon
     reload: 20
     x: 6
-    y: -4
+    y: -5
     shootX: 0
     shootY: 0
     recoil: 0
