@@ -41,10 +41,11 @@ weapons: [
     mirror: false
     rotate: true
     rotateSpeed: 2.34
+    shootY: 7
     reload: 10
     bullet: {
        type: BasicBulletType
-       length: 15
+       length: 30
        damage: 54
        splashDamage: 25.7
        splashDamageRadius: 35
@@ -55,6 +56,9 @@ weapons: [
        lifetime: 80
        backColor: dba40f
        frontColor: dbbc42
+       trailColor: dbbc42
+       trailLength: 11
+       trailWidth: 1
        despawnHit: true
        hitEffect: flakExplosion
        hitSound: explosion
