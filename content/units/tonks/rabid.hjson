@@ -38,6 +38,42 @@ tankMoveSound: tankMoveHeavy
 crushDamage: 7.666666666667
 floorMultiplier: 0.95
 weapons: [
+      {
+      type: Weapon
+bullet: {
+  type: LaserBulletType
+  damage: 56
+  drawSize: 200
+  lightRadius: 20
+  lightningType: damageLightning
+  parts: []
+  range: 100
+  spawnBullets: []
+  colors: [
+    "#dbd46fff"
+    "#dbbc42ff"
+    "#ffffffff"
+  ]
+  length: 200
+  width: 10
+  sideAngle: 25
+}
+mirror: true
+name: fever-weapon
+parts: []
+recoilTime: 15
+reload: 110
+rotate: "true"
+rotateSpeed: 3.559999942779541
+shoot: {
+  type: ShootPattern
+  shots: 4
+  shotDelay: 15
+}
+x: -11
+y: 8
+shootSound: shootEclipse
+}
   {
     top: true
     name: rabid-weapon
@@ -74,7 +110,7 @@ weapons: [
        despawnHit: true
        hitSound: explosionQuad
        hitEffect: greenBomb
-       bulletInterval: 5
+       bulletInterval: 10
        intervalBullets: 2
        intervalRandomSpread: 0
        intervalSpread: 65
@@ -83,6 +119,8 @@ weapons: [
         width: 5
         length: 45
         despawnSound: shockBullet
+        status: electrified
+        statusDuration: 90
         damage: 64
         colors: [
         dbd46f
@@ -119,40 +157,4 @@ weapons: [
        fragLifeMin: 0.8
        }
     }
-    {
-      type: Weapon
-bullet: {
-  type: LaserBulletType
-  damage: 48
-  drawSize: 200
-  lightRadius: 20
-  lightningType: damageLightning
-  parts: []
-  range: 100
-  spawnBullets: []
-  colors: [
-    "#dbd46fff"
-    "#dbbc42ff"
-    "#ffffffff"
-  ]
-  length: 200
-  width: 10
-  sideAngle: 25
-}
-mirror: true
-name: fever-weapon
-parts: []
-recoilTime: 15
-reload: 110
-rotate: "true"
-rotateSpeed: 3.559999942779541
-shoot: {
-  type: ShootPattern
-  shots: 4
-  shotDelay: 15
-}
-x: -11
-y: 8
-shootSound: shootEclipse
-}
 ]
