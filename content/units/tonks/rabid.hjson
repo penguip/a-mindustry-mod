@@ -1,7 +1,7 @@
 type: tank
 hitSize: 34
 localizedName: Rabid
-description: Fires a large, explosive bullet and powerful lasers at enemy targets.
+description: Fires a large, explosive cluster shell and powerful lasers at enemy targets.
 singleTarget: false
 omniMovement: false
 faceTarget: false
@@ -31,9 +31,56 @@ treadRects: [
 ]
 rotateSpeed: 1
 itemCapacity: 0
-range: 204.8
+range: 250
 outlineColor: 26262F
 tankMoveVolume: 0.9
 tankMoveSound: tankMoveHeavy
 crushDamage: 7.666666666667
 floorMultiplier: 0.95
+weapons: [
+  {
+    top: true
+    name: rabid-weapon
+    shootSound: shoot-rabid
+    chargeSound: charge-rabid
+    x: 0
+    y: 0
+    mirror: false
+    rotate: true
+    recoil: 5
+    rotateSpeed: 1.69
+    shoot: {
+      firstShotDelay: 140
+    }
+    shake: 15
+    reload: 170
+    bullet: {
+       type: BasicBulletType
+       height: 30
+       damage: 189
+       pierce: true
+       scaleLife: true
+       width: 30
+       speed: 2
+       lifetime: 125
+       backColor: dba40f
+       frontColor: dbbc42
+       trailColor: dbbc42
+       trailLength: 35
+       trailWidth: 5
+       despawnHit: true
+       hitSound: explosionQuad
+       bulletInterval: 15
+       intervalBullets: 2
+       intervalRandomSpread: 0
+       intervalSpread: 65
+       intervalBullet: {
+        type: LaserBulletType
+        width: 2
+        length: 10
+        despawnSound: shockBullet
+        damage: 64
+       }
+    }
+   }
+]
