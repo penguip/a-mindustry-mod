@@ -151,6 +151,7 @@ contentOrder: [
   mech-modifier
   flying-modifier
   spider-modifier
+  tank-modifier
   radiant-payload-enhancer
   defiant-payload-enhancer
   prismatic-payload-enhancer
