@@ -21,7 +21,7 @@ rotateSpeed: 1.87
 itemCapacity: 0
 range: 100
 outlineColor: 26262F
-tankMoveVolume: 0.3
+tankMoveVolume: 0.55
 tankMoveSound: tankMove
 floorMultiplier: 0.95
 weapons: [
