@@ -40,9 +40,26 @@ weapons: [
        type: BasicBulletType
        length: 10
        damage: 68
+       pierce: true
+       pierceCap: 2
        width: 10
+       speed: 2.56
+       lifetime: 87
        backColor: dba40f
        frontColor: dbbc42
-      }
+       trailColor: dbbc42
+       trailLength: 10
+       trailWidth: 10
+       despawnHit: true
+       hitSound: explosionDull
+       bulletInterval: 5
+       intervalBullets: 3
+       intervalRandomSpread: 90
+       intervalBullet: {
+        type: LightningBulletType
+        lightningLength: 15
+        lightningColor: dbd46f
+       }
+    }
    }
 ]
