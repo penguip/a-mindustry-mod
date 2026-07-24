@@ -8,3 +8,55 @@ outlineColor: 282C36
 armor: 7
 hitSize: 9
 range: 228.75
+weapons: [
+{
+    name: courage-rotor-weapon
+    reload: 20
+    x: 10
+    mirror: true
+    y: -6
+    shootX: 0
+    shootY: 0
+    recoil: 0
+    smokeEffect: none
+    shootSound: none
+    ejectEffect: none
+    alwaysShooting: true
+    controllable: false
+    aiControllable: false
+    autoTarget: false
+    predictTarget: false
+    useAttackRange: false
+    alternate: false
+    showStatSprite: false
+    display: false
+    top: true
+    mirror: false
+    rotate: false
+    bullet: {
+      splashDamage: 7
+      splashDamageRadius: 8
+      pierceBuilding: true
+      hitEffect: none
+      despawnEffect: none
+      smokeEffect: none
+      shootEffect: none
+      hittable: false
+      knockback: 0.5
+      lifetime: 1
+      damage: 17
+      }
+    parts: [
+      {
+        x: 0
+        y: 0
+        moveRot: -9180
+        type: regionPart
+        progress: reload
+        outline: false
+        suffix: -blur
+        layer: 116
+      }
+     ]
+   }
+]
