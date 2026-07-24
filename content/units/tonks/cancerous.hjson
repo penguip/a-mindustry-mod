@@ -16,6 +16,12 @@ treadRects: [
         width: 11,
         height: 119
     }
+    {
+        x: -8,
+        y: -61,
+        width: 8,
+        height: 26
+    }
 ]
 rotateSpeed: 1.32
 itemCapacity: 0
