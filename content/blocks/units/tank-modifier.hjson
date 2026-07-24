@@ -32,10 +32,21 @@ plans: [
     requirements: [
       beepdustry-zirconium-wall-large/8
       beepdustry-rail/6
-      beepdustry-cold/1
+      beepdustry-cold/5
       beepdustry-contrivance/1
     ]
     time: 4200
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: cancerous
+    requirements: [
+      beepdustry-specialized-plastanium-wall-large/8
+      beepdustry-actinide-treads/5
+      beepdustry-cold/10
+      beepdustry-trojan/1
+    ]
+    time: 9300
   }
 ]
 squareSprite: false
