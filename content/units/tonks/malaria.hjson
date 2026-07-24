@@ -1,0 +1,26 @@
+type: tank
+hitSize: 22
+localizedName: Malaria
+description: Fires laser pulses at enemy targets.
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 11000
+armor: 16
+template: TankUnitType
+speed: 0.7162
+treadRects: [
+    {
+        x: -22,
+        y: -25,
+        width: 6,
+        height: 53
+    }
+]
+rotateSpeed: 1.64
+itemCapacity: 0
+range: 100
+outlineColor: 26262F
+tankMoveVolume: 0.3
+tankMoveSound: tankMove
+floorMultiplier: 0.95
