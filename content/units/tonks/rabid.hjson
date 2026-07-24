@@ -1,5 +1,5 @@
 type: tank
-hitSize: 34
+hitSize: 36
 localizedName: Rabid
 description: Fires a large, explosive cluster shell and powerful lasers at enemy targets.
 singleTarget: false
@@ -80,6 +80,11 @@ weapons: [
         length: 10
         despawnSound: shockBullet
         damage: 64
+        colors: [
+        dbd46f
+        dbbc42
+        ffffff
+        ]
        }
     }
    }
