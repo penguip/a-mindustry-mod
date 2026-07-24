@@ -3,6 +3,7 @@ name: Courage
 description: Shoots piercing bullets at enemy targets.
 speed: 2.3456
 flying: true
+rotateSpeed: 4.35
 health: 3450
 outlineColor: 282C36
 armor: 7
