@@ -11,10 +11,10 @@ template: TankUnitType
 speed: 0.6745
 treadRects: [
     {
-        x: -37,
-        y: -40,
-        width: 10,
-        height: 83
+        x: -43,
+        y: -58,
+        width: 11,
+        height: 119
     }
 ]
 rotateSpeed: 1.32
