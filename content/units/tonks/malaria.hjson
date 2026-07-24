@@ -33,7 +33,7 @@ weapons: [
     y: 0
     mirror: false
     rotate: true
-    rotateSpeed: 3.56
+    rotateSpeed: 2.89
     shake: 3
     reload: 90
     bullet: {
