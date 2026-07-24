@@ -61,8 +61,10 @@ weapons: [
        pierce: true
        scaleLife: true
        width: 30
-       speed: 2
-       lifetime: 125
+       speed: 4
+       splashDamage: 93
+       splashDamageRadius: 75
+       lifetime: 62.5
        backColor: dba40f
        frontColor: dbbc42
        trailColor: dbbc42
@@ -70,14 +72,15 @@ weapons: [
        trailWidth: 5
        despawnHit: true
        hitSound: explosionQuad
-       bulletInterval: 15
+       hitEffect: greenBomb
+       bulletInterval: 5
        intervalBullets: 2
        intervalRandomSpread: 0
        intervalSpread: 65
        intervalBullet: {
         type: LaserBulletType
-        width: 2
-        length: 10
+        width: 5
+        length: 45
         despawnSound: shockBullet
         damage: 64
         colors: [
