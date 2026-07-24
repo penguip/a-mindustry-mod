@@ -31,6 +31,9 @@ weapons: [
     shootSound: ice-ray
     x: 0
     y: -1
+    mirror: false
+    rotate: true
+    rotateSpeed: 3.56
     reload: 15
     bullet: {
        type: LaserBulletType
