@@ -19,7 +19,7 @@ treadRects: [
 ]
 rotateSpeed: 1.64
 itemCapacity: 0
-range: 100
+range: 115.2
 outlineColor: 26262F
 tankMoveVolume: 0.3
 tankMoveSound: tankMove
@@ -44,7 +44,7 @@ weapons: [
        pierceCap: 2
        width: 10
        speed: 2.56
-       lifetime: 87
+       lifetime: 45
        backColor: dba40f
        frontColor: dbbc42
        trailColor: dbbc42
@@ -57,6 +57,7 @@ weapons: [
        intervalRandomSpread: 90
        intervalBullet: {
         type: LightningBulletType
+        despawnSound: shockBullet
         lightningLength: 15
         lightningColor: dbd46f
        }
