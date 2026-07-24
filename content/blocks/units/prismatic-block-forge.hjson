@@ -59,6 +59,7 @@ filter: [
   aphelion-reactor
   flux-engine
   impulse-piston
+  actinide-treads
 ]
 squareSprite: false
 conductivePower: true
