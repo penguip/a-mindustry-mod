@@ -27,7 +27,7 @@ floorMultiplier: 0.95
 weapons: [
   {
     top: true
-    name: malaria-weapon
+    name: malaria-weapo
     shootSound: shoot-malaria
     x: 0
     y: 0
