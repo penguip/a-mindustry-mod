@@ -19,7 +19,29 @@ treadRects: [
 ]
 rotateSpeed: 2.2
 itemCapacity: 0
+range: 100
 outlineColor: 26262F
 tankMoveVolume: 0.3
 tankMoveSound: tankMoveSmall
 floorMultiplier: 0.95
+weapons: [
+  {
+    top: true
+    name: fever-weapon
+    shootSound: ice-ray
+    x: 0
+    y: -1
+    reload: 15
+    bullet: {
+       type: LaserBulletType
+       length: 100
+       damage: 48
+       width: 0.5
+       colors: [
+       dbd46f
+       d267ff
+       ffffff
+       ]
+      }
+   }
+]
