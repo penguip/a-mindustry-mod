@@ -29,4 +29,35 @@ range: 115.2
 outlineColor: 26262F
 tankMoveVolume: 0.3
 tankMoveSound: tankMove
+crushDamage: 3.5
 floorMultiplier: 0.95
+weapons: [
+  {
+    top: true
+    name: cancerous-weapon
+    shootSound: shoot-cancerous
+    x: 0
+    y: 0
+    mirror: false
+    rotate: true
+    rotateSpeed: 2.34
+    reload: 10
+    bullet: {
+       type: BasicBulletType
+       length: 15
+       damage: 54
+       splashDamage: 25.7
+       splashDamageRadius: 35
+       pierce: true
+       pierceCap: 5
+       width: 3
+       speed: 2.56
+       lifetime: 80
+       backColor: dba40f
+       frontColor: dbbc42
+       despawnHit: true
+       hitEffect: flakExplosion
+       hitSound: explosion
+    }
+   }
+]
