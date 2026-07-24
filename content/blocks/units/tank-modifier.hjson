@@ -48,6 +48,19 @@ plans: [
     ]
     time: 9300
   }
+  {
+    type: AssemblerUnitPlan
+    unit: rabid
+    requirements: [
+      beepdustry-silicon-wall-large/8
+      beepdustry-specialized-plastanium-wall-large/10
+      beepdustry-chromatic-wall-red/10
+      beepdustry-actinide-treads/6
+      beepdustry-cold/20
+      beepdustry-peril/1
+    ]
+    time: 18600
+  }
 ]
 squareSprite: false
 consumes: {
