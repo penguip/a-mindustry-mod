@@ -1,0 +1,35 @@
+type: UnitAssembler
+size: 5
+localizedName: Tank Modifier
+description: Creates larger tank units by fusing together inputted blocks and Cold units via entropy. Output tier may be increased by adding modules. 
+health: 4000
+category: units
+droneType: redesign
+areaSize: 13
+requirements: [
+  yttrium/180
+  osmium/90
+  silicon/80
+  gadolinium/170
+  oxide/50
+  iron/25
+]
+liquidCapacity: 120
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: cold
+    requirements: [
+      beepdustry-contrinum-wall-large/6
+      beepdustry-cold/1
+      beepdustry-splinter/1
+    ]
+    time: 1200
+  }
+]
+squareSprite: false
+consumes: {
+  power: 0.5
+  liquid: entropy/4.333333333
+}
+researchCostMultiplier: 0.5
