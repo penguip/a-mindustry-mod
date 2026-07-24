@@ -1,0 +1,26 @@
+type: tank
+hitSize: 28
+localizedName: Cancerous
+description: Fires a barrage of piercing, explosive bullets at enemy targets.
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 26700
+armor: 16
+template: TankUnitType
+speed: 0.6745
+treadRects: [
+    {
+        x: -37,
+        y: -40,
+        width: 10,
+        height: 83
+    }
+]
+rotateSpeed: 1.32
+itemCapacity: 0
+range: 115.2
+outlineColor: 26262F
+tankMoveVolume: 0.3
+tankMoveSound: tankMove
+floorMultiplier: 0.95
