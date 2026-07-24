@@ -1,7 +1,7 @@
 type: tank
 hitSize: 34
 localizedName: Rabid
-description: Fires a large, explosive orb and powerful lasers at enemy targets.
+description: Fires a large, explosive bullet and powerful lasers at enemy targets.
 singleTarget: false
 omniMovement: false
 faceTarget: false
@@ -15,6 +15,12 @@ treadRects: [
         y: -71,
         width: 9,
         height: 148
+    }
+    {
+        x: -34,
+        y: -73,
+        width: 14,
+        height: 17
     }
 ]
 rotateSpeed: 1
