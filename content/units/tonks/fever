@@ -1,0 +1,25 @@
+type: tank
+hitSize: 17
+localizedName: Fever
+description: Fires small lasers at enemy targets.
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 950
+armor: 4
+template: TankUnitType
+speed: 0.95
+treadRects: [
+    {
+        x: -13.5,
+        y: -13,
+        width: 27,
+        height: 26
+    }
+]
+rotateSpeed: 2.2
+itemCapacity: 0
+outlineColor: 26262F
+tankMoveVolume: 0.3
+tankMoveSound: tankMoveSmall
+floorMultiplier: 0.95
