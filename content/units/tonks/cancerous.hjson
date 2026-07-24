@@ -25,7 +25,7 @@ treadRects: [
 ]
 rotateSpeed: 1.32
 itemCapacity: 0
-range: 115.2
+range: 204.8
 outlineColor: 26262F
 tankMoveVolume: 0.3
 tankMoveSound: tankMove
