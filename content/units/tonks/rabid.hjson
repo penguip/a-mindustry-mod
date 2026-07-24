@@ -119,4 +119,40 @@ weapons: [
        fragLifeMin: 0.8
        }
     }
+    {
+      type: Weapon
+bullet: {
+  type: LaserBulletType
+  damage: 48
+  drawSize: 200
+  lightRadius: 20
+  lightningType: damageLightning
+  parts: []
+  range: 100
+  spawnBullets: []
+  colors: [
+    "#dbd46fff"
+    "#dbbc42ff"
+    "#ffffffff"
+  ]
+  length: 200
+  width: 10
+  sideAngle: 25
+}
+mirror: true
+name: fever-weapon
+parts: []
+recoilTime: 15
+reload: 110
+rotate: "true"
+rotateSpeed: 3.559999942779541
+shoot: {
+  type: ShootPattern
+  shots: 4
+  shotDelay: 15
+}
+x: -11
+y: 8
+shootSound: shootEclipse
+}
 ]
