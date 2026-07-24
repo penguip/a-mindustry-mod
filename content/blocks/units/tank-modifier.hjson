@@ -26,6 +26,17 @@ plans: [
     ]
     time: 1200
   }
+  {
+    type: AssemblerUnitPlan
+    unit: malaria
+    requirements: [
+      beepdustry-zirconium-wall-large/8
+      beepdustry-rail/6
+      beepdustry-cold/1
+      beepdustry-contrivance/1
+    ]
+    time: 4200
+  }
 ]
 squareSprite: false
 consumes: {
