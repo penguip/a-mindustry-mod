@@ -1,0 +1,10 @@
+type: flying
+name: Courage
+description: Shoots piercing bullets at enemy targets.
+speed: 2.3456
+flying: true
+health: 3450
+outlineColor: 282C36
+armor: 7
+hitSize: 9
+range: 228.75
