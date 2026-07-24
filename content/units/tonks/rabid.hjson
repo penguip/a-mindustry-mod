@@ -62,6 +62,7 @@ weapons: [
        scaleLife: true
        width: 30
        speed: 4
+       despawnShake: 10
        splashDamage: 93
        splashDamageRadius: 75
        lifetime: 62.5
@@ -89,6 +90,33 @@ weapons: [
         ffffff
         ]
        }
+        fragBullet: {
+        type: BasicBulletType
+        damage: 35
+        despawnShake: 5
+        despawnHit: true
+        hitEffect: titanExplosionSmall
+        despawnEffect: none
+        hitSound: explosionPlasmaSmall
+        lightRadius: 20
+        pierce: true
+        scaleLife: true
+        spawnBullets: []
+        speed: 1
+        splashDamage: 12
+        splashDamageRadius: 20
+        trailColor: dbbc42
+        trailLength: 10
+        trailWidth: 2
+        backColor: dba40f
+        frontColor: dbbc42
+        hitColor: dbbc42
+        height: 10
+        width: 10
+        lifetime: 30
+      }
+       fragVelocityMin: 0.5
+       fragLifeMin: 0.8
+       }
     }
-   }
 ]
