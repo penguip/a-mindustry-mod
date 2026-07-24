@@ -11,16 +11,10 @@ template: TankUnitType
 speed: 0.4568
 treadRects: [
     {
-        x: -43,
-        y: -58,
-        width: 11,
-        height: 119
-    }
-    {
-        x: -8,
-        y: -61,
-        width: 8,
-        height: 26
+        x: -71,
+        y: -71,
+        width: 9,
+        height: 148
     }
 ]
 rotateSpeed: 1
@@ -29,5 +23,5 @@ range: 204.8
 outlineColor: 26262F
 tankMoveVolume: 0.9
 tankMoveSound: tankMoveHeavy
-crushDamage: 7
+crushDamage: 7.666666666667
 floorMultiplier: 0.95
