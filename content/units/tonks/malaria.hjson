@@ -24,3 +24,25 @@ outlineColor: 26262F
 tankMoveVolume: 0.3
 tankMoveSound: tankMove
 floorMultiplier: 0.95
+weapons: [
+  {
+    top: true
+    name: malaria-weapon
+    shootSound: shoot-malaria
+    x: 0
+    y: 0
+    mirror: false
+    rotate: true
+    rotateSpeed: 3.56
+    shake: 3
+    reload: 90
+    bullet: {
+       type: BasicBulletType
+       length: 10
+       damage: 68
+       width: 10
+       backColor: dba40f
+       frontColor: dbbc42
+      }
+   }
+]
