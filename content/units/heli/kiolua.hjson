@@ -1,5 +1,5 @@
 type: flying
-name: Kiolua
+name: Determination
 description: Launches volleys of missiles at enemy ground targets.
 speed: 2.675
 flying: true
