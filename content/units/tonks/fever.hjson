@@ -8,7 +8,7 @@ faceTarget: false
 health: 4600
 armor: 9
 template: TankUnitType
-speed: 0.95
+speed: 0.8753
 treadRects: [
     {
         x: -22,
@@ -17,7 +17,7 @@ treadRects: [
         height: 53
     }
 ]
-rotateSpeed: 2.2
+rotateSpeed: 1.87
 itemCapacity: 0
 range: 100
 outlineColor: 26262F
@@ -42,7 +42,7 @@ weapons: [
        width: 0.5
        colors: [
        dbd46f
-       d267ff
+       dbbc42
        ffffff
        ]
       }
