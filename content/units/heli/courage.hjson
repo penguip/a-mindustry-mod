@@ -16,6 +16,7 @@ parts: [
         x: 0
         y: 0
         type: regionPart
+        spinSprite: true
         outline: false
         suffix: -rotor-weapon-blur
         layer: 116
