@@ -11,17 +11,6 @@ engineOffset: 8
 engineSize: 3
 hitSize: 14
 range: 189
-parts: [
-      {
-        x: 0
-        y: 0
-        type: regionPart
-        spinSprite: true
-        outline: false
-        suffix: -rotor-weapon-blur
-        layer: 116
-      }
- ]
 weapons: [
 {
     name: courage-rotor-weapon
@@ -44,7 +33,6 @@ weapons: [
     showStatSprite: false
     display: false
     top: true
-    mirror: true
     rotate: false
     bullet: {
       splashDamage: 7
