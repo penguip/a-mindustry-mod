@@ -63,14 +63,14 @@ weapons: [
         intervalBullets: 5
         damage: 0
         speed: 0
-        pierce: true
+        collides: false
         lifetime: 100
         bulletInterval: 2
         intervalBullet: {
          type: LightningBulletType
          lightningLength: 45
          lightningLengthRand: 5
-         damage: 12
+         damage: 50
          lightningColor: 80ffbd
          despawnSound: explosionArtilleryShock
         }
