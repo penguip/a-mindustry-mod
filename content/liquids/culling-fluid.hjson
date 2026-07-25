@@ -1,5 +1,5 @@
-localizedName: "Culling Fluid"
-description: "Blood enriched with slag, melts (almost) anything it touches INSTANTLY."
+localizedName: Murdurium
+description: Murders ground units that touch it. Sandbox only.
 isLiquid:true
 effect: culled
 color: ff0000
