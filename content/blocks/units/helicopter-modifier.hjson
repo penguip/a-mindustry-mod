@@ -1,0 +1,35 @@
+type: UnitAssembler
+size: 5
+localizedName: Helicopter Modifier
+description: Creates larger helicopter units by fusing together inputted blocks and Determination units via entropy. Output tier may be increased by adding modules. 
+health: 3600
+category: units
+droneType: redesign
+areaSize: 13
+requirements: [
+  yttrium/110
+  osmium/120
+  silicon/35
+  gadolinium/130
+  contrinum/60
+  iron/35
+]
+liquidCapacity: 120
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: courage
+    requirements: [
+      beepdustry-silicon-wall/8
+      beepdustry-kiolua/1
+      beepdustry-corrosive/1
+    ]
+    time: 1200
+  }
+]
+squareSprite: false
+consumes: {
+  power: 4
+  liquid: entropy/1.333333
+}
+researchCostMultiplier: 0.5
