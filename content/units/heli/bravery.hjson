@@ -88,7 +88,7 @@ rotate: true
 rotationLimit: 75
 y: 5
 x: 0
-mirror
+mirror: false
 predictTarget: false
 shootCone: 25
 ejectEffect: casing1
