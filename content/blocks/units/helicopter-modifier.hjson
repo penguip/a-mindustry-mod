@@ -35,7 +35,7 @@ plans: [
       beepdustry-kiolua/5
       beepdustry-fray/1
     ]
-    time: 6000
+    time: 4200
   }
 ]
 squareSprite: false
