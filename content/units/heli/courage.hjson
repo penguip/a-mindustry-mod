@@ -11,56 +11,17 @@ engineOffset: 8
 engineSize: 3
 hitSize: 14
 range: 189
-weapons: [
-{
-    name: courage-rotor-weapon
-    reload: 20
-    x: 6
-    y: -5
-    shootX: 0
-    shootY: 0
-    recoil: 0
-    smokeEffect: none
-    shootSound: none
-    ejectEffect: none
-    alwaysShooting: true
-    controllable: false
-    aiControllable: false
-    autoTarget: false
-    predictTarget: false
-    useAttackRange: false
-    alternate: false
-    showStatSprite: false
-    display: false
-    top: true
-    mirror: true
-    rotate: false
-    bullet: {
-      splashDamage: 7
-      splashDamageRadius: 8
-      pierceBuilding: true
-      hitEffect: none
-      despawnEffect: none
-      smokeEffect: none
-      shootEffect: none
-      hittable: false
-      knockback: 0.5
-      lifetime: 1
-      damage: 17
-      }
-    parts: [
+parts: [
       {
         x: 0
         y: 0
-        moveRot: -9180
         type: regionPart
-        progress: reload
         outline: false
-        suffix: -blur
+        suffix: -rotor-weapon-blur
         layer: 116
       }
-     ]
-   }
+ ]
+weapons: [
    {
      y: -4
 bullet: {
@@ -72,7 +33,7 @@ bullet: {
   frontColor: 5251ad
   backColor: 4031ad
   trailColor: 5251ad
-  pierceCap: 2
+  piceCap: 2
   trailLength: 5
   speed: 5.4
   lifetime: 35
