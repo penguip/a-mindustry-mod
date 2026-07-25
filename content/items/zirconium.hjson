@@ -5,5 +5,6 @@ flammability: 0
 radioactivity: 0
 charge: 0
 color: c7983a
+cost: 0.9
 shownPlanets: [keisuris]
 research: unstable-zircon
