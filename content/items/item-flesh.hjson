@@ -4,5 +4,6 @@ explosiveness: 0
 flammability: 0
 radioactivity: 0
 charge: 0
+cost: 0.6
 color: ff0000
 research: calcium
