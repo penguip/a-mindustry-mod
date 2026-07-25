@@ -3,3 +3,4 @@ description: The unique radiation of ageriolix is taking its toll on this unit. 
 healthMultiplier: 0.65
 speedMultiplier: 1.2
 damage: 6
+outline: false
