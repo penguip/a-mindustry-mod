@@ -1,0 +1,63 @@
+type: flying
+name: Bravery
+description: Fires piercing bullets and pure energy boomerangs at enemy targets.
+speed: 1.13
+flying: true
+rotateSpeed: 2.34
+health: 19500
+outlineColor: 282C36
+armor: 20
+engineOffset: 16
+engineSize: 4
+hitSize: 27
+range: 234
+weapons: [
+{
+    name: bravery-rotor-weapon
+    reload: 20
+    x: 0
+    y: 0
+    shootX: 0
+    shootY: 0
+    recoil: 0
+    smokeEffect: none
+    shootSound: none
+    ejectEffect: none
+    alwaysShooting: true
+    controllable: false
+    aiControllable: false
+    autoTarget: false
+    predictTarget: false
+    useAttackRange: false
+    alternate: false
+    showStatSprite: false
+    display: false
+    top: true
+    rotate: false
+    bullet: {
+      splashDamage: 30
+      splashDamageRadius: 24
+      pierceBuilding: true
+      hitEffect: none
+      despawnEffect: none
+      smokeEffect: none
+      shootEffect: none
+      hittable: false
+      knockback: 0.5
+      lifetime: 1
+      damage: 60
+      }
+    parts: [
+   {
+     x: 13
+     y: -13
+     mirror: true
+     moveRot: -9180
+        type: regionPart
+        progress: reload
+        outline: false
+        suffix: -blur
+        layer: 116
+    }
+   ]
+  }
