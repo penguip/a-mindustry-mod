@@ -4,5 +4,6 @@ explosiveness: 0
 flammability: 0
 radioactivity: 0.7
 charge: 1
+cost: 1.35
 color: ff5399
 research: actinium
