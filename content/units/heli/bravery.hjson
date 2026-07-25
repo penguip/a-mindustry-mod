@@ -1,6 +1,6 @@
 type: flying
 name: Bravery
-description: Fires piercing bullets and pure energy boomerangs at enemy targets.
+description: Fires piercing bullets and pure energy AP boomerangs at enemy targets.
 speed: 1.13
 flying: true
 rotateSpeed: 2.34
@@ -67,7 +67,7 @@ weapons: [
   width: 5
   height: 7
   damage: 14
-  pierce: "true"
+  pierce: true
   frontColor: 5251ad
   backColor: 4031ad
   trailColor: 5251ad
@@ -95,19 +95,71 @@ ejectEffect: casing1
 }
 {
 bullet: {
-  sprite: bullet
-  width: 5
-  height: 7
-  damage: 17
-  pierce: "true"
-  frontColor: 5251ad
-  backColor: 4031ad
-  trailColor: 5251ad
-  piceCap: 2
-  trailLength: 5
-  speed: 5.4
-  lifetime: 35
-  armorMultiplier: 0.65
+  type: BulletType
+  hitSound: explosionCleroi
+            lightOpacity: 0.6
+            lightColor: 7eccbc
+            lightRadius: 40
+            status: radiation-decay
+            statusDuration: 400
+            pierce: true
+            pierceArmor: true
+            speed: 5
+            lifetime: 30
+            damage: 70
+            width: 10
+            height: 10
+            trailInterval: 1
+            trailEffect: {
+                type: WaveEffect
+                colorFrom: c71245
+                colorTo: e69cd3
+                sizeTo: 4
+                sizeFrom: 8
+                lifetime: 15
+                strokeFrom: 3
+            }
+            fragOnHit: false
+            fragVelocityMin: 1
+            fragVelocityMax: 1
+            fragBullets: 1
+            fragSpread: 0
+            fragRandomSpread: 0
+            fragAngle: 180
+            fragBullet: {
+                type: BulletType
+                hitSound: none
+                lightOpacity: 0.6
+                lightColor: 7eccbc
+                lightRadius: 40
+                status: radiation-decay
+                statusDuration: 400
+                pierce: true
+                pierceArmor: true
+                speed: 5
+                lifetime: 30
+                damage: 90
+                width: 10
+                height: 10
+                trailInterval: 1
+                trailEffect: {
+                    type: WaveEffect
+                    colorFrom: c71245
+                    colorTo: e69cd3
+                    sizeTo: 4
+                    sizeFrom: 8
+                    lifetime: 15
+                    strokeFrom: 3
+                }
+            }
+            shootEffect: {
+                type: WaveEffect
+                colorFrom: c71245
+                colorTo: e69cd3
+                sizeTo: 6
+                lifetime: 30
+                strokeFrom: 3
+            }
 }
 reload: 150
 shootSound: shoot-bravery
