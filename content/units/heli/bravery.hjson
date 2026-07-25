@@ -112,7 +112,7 @@ bullet: {
             trailInterval: 1
             trailEffect: {
                 type: WaveEffect
-                colorFrom: c71245
+                colorFrom: 6271ad
                 colorTo: e69cd3
                 sizeTo: 4
                 sizeFrom: 8
@@ -144,7 +144,7 @@ bullet: {
                 trailInterval: 1
                 trailEffect: {
                     type: WaveEffect
-                    colorFrom: c71245
+                    colorFrom: 6271ad
                     colorTo: e69cd3
                     sizeTo: 4
                     sizeFrom: 8
@@ -154,7 +154,7 @@ bullet: {
             }
             shootEffect: {
                 type: WaveEffect
-                colorFrom: c71245
+                colorFrom: 6271ad
                 colorTo: e69cd3
                 sizeTo: 6
                 lifetime: 30
