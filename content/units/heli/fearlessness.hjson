@@ -61,4 +61,34 @@ weapons: [
     }
    ]
   }
+  {
+  bullet: {
+  type: MissileBulletType
+  width: 5
+  height: 5
+  damage: 36
+  frontColor: 5251ad
+  backColor: 4031ad
+  trailColor: 5251ad
+  trailLength: 5
+  splashDamage: 17
+  splashDamageRadius: 35
+  speed: 2.34
+  lifetime: 100
+}
+reload: 130
+shoot: {
+  shots: 5
+  shotDelay: 20
+}
+shootSound: shootMissileLong
+inaccuracy: 4
+rotate: true
+rotationLimit: 75
+y: -8
+x: 6
+predictTarget: false
+shootCone: 25
+}
 ]
+l
