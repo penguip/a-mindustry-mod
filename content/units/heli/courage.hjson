@@ -87,6 +87,7 @@ inaccuracy: 7.5
 rotate: true
 rotationLimit: 75
 y: -4
+predictTarget: false
 shootCone: 25
 ejectEffect: casing1
 }
