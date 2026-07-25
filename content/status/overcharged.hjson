@@ -5,3 +5,4 @@ damageMultiplier: 0.35
 speedMultiplier: 1.5
 reloadMultiplier: 1.6
 damage: 20
+outline: false
