@@ -1,9 +1,9 @@
 type: flying
 name: Fearlessness
 description: Fires barrages of missiles at enemy targets.
-speed: 2
+speed: 1.87
 flying: true
-rotateSpeed: 3.79
+rotateSpeed: 3.64
 health: 9870
 outlineColor: 282C36
 armor: 14
