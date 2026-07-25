@@ -62,6 +62,14 @@ weapons: [
     parts: [
    {
      y: -4
+     moveRot: -9180
+        type: regionPart
+        progress: reload
+        outline: false
+        suffix: -blur
+        layer: 116
+    }
+   ]
 bullet: {
   sprite: bullet
   width: 5
