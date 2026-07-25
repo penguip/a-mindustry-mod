@@ -66,6 +66,7 @@ weapons: [
   type: MissileBulletType
   width: 5
   height: 5
+  shootEffect: none
   damage: 36
   frontColor: 5251ad
   backColor: 4031ad
@@ -91,4 +92,3 @@ predictTarget: false
 shootCone: 25
 }
 ]
-l
