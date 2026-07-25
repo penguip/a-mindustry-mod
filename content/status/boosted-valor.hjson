@@ -4,3 +4,4 @@ healthMultiplier: 1.2
 speedMultiplier: 1.2
 damageMultiplier: 1.2
 reloadMultiplier: 1.2
+healing: 0.5
