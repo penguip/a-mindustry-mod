@@ -98,7 +98,7 @@ bullet: {
   type: BulletType
   hitSound: explosionCleroi
             lightOpacity: 0.6
-            lightColor: 7eccbc
+            lightColor: 6271ad
             lightRadius: 40
             status: radiation-decay
             statusDuration: 400
@@ -113,7 +113,7 @@ bullet: {
             trailEffect: {
                 type: WaveEffect
                 colorFrom: 6271ad
-                colorTo: e69cd3
+                colorTo: 4031ad
                 sizeTo: 4
                 sizeFrom: 8
                 lifetime: 15
@@ -130,7 +130,7 @@ bullet: {
                 type: BulletType
                 hitSound: none
                 lightOpacity: 0.6
-                lightColor: 7eccbc
+                lightColor: 6271ad
                 lightRadius: 40
                 status: radiation-decay
                 statusDuration: 400
@@ -145,7 +145,7 @@ bullet: {
                 trailEffect: {
                     type: WaveEffect
                     colorFrom: 6271ad
-                    colorTo: e69cd3
+                    colorTo: 4031ad
                     sizeTo: 4
                     sizeFrom: 8
                     lifetime: 15
@@ -155,7 +155,7 @@ bullet: {
             shootEffect: {
                 type: WaveEffect
                 colorFrom: 6271ad
-                colorTo: e69cd3
+                colorTo: 4031ad
                 sizeTo: 6
                 lifetime: 30
                 strokeFrom: 3
