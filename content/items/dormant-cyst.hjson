@@ -1,3 +1,4 @@
-description: Remaining 'skin' from shredding neoplasm. Useful for creating flesh units and walls, and as ammunition in flesh turrets.
+description: Remaining 'skin' from shredding neoplasm. Useful for creating flesh units and blocks.
 hidden: false
 shownPlanets: [keisuris]
+cost: 0.7
