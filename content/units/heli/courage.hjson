@@ -61,4 +61,27 @@ weapons: [
       }
      ]
    }
+   {
+     y: -4
+bullet: {
+  sprite: bullet
+  width: 5
+  height: 7
+  damage: 17
+  pierce: "true"
+  pierceCap: 2
+  trailLength: 5
+  speed: 5.4
+  lifetime: 35
+  armorMultiplier: 0.65
+}
+reload: 90
+shoot: {
+  shots: 25
+  shotDelay: 2
+}
+shootSound: shootAvert
+inaccuracy: 7.5
+ejectEffect: casing1
+}
 ]
