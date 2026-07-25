@@ -9,7 +9,7 @@ outlineColor: 282C36
 armor: 7
 engineOffset: 8
 engineSize: 3
-hitSize: 9
+hitSize: 14
 range: 189
 weapons: [
 {
