@@ -23,6 +23,43 @@ parts: [
       }
  ]
 weapons: [
+{
+    name: courage-rotor-weapon
+    reload: 20
+    x: 6
+    y: -5
+    shootX: 0
+    shootY: 0
+    recoil: 0
+    smokeEffect: none
+    shootSound: none
+    ejectEffect: none
+    alwaysShooting: true
+    controllable: false
+    aiControllable: false
+    autoTarget: false
+    predictTarget: false
+    useAttackRange: false
+    alternate: false
+    showStatSprite: false
+    display: false
+    top: true
+    mirror: true
+    rotate: false
+    bullet: {
+      splashDamage: 7
+      splashDamageRadius: 8
+      pierceBuilding: true
+      hitEffect: none
+      despawnEffect: none
+      smokeEffect: none
+      shootEffect: none
+      hittable: false
+      knockback: 0.5
+      lifetime: 1
+      damage: 17
+      }
+    parts: [
    {
      y: -4
 bullet: {
