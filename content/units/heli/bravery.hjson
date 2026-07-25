@@ -10,7 +10,7 @@ armor: 20
 engineOffset: 16
 engineSize: 4
 hitSize: 27
-range: 234
+range: 150
 weapons: [
 {
     name: bravery-rotor-weapon
@@ -61,4 +61,61 @@ weapons: [
     }
    ]
   }
+  {
+    bullet: {
+  sprite: bullet
+  width: 5
+  height: 7
+  damage: 14
+  pierce: "true"
+  frontColor: 5251ad
+  backColor: 4031ad
+  trailColor: 5251ad
+  pierceCap: 2
+  trailLength: 5
+  speed: 5
+  lifetime: 30
+  armorMultiplier: 0.5
+}
+reload: 260
+shoot: {
+  shots: 75
+  shotDelay: 1
+}
+shootSound: shootAvert
+inaccuracy: 10
+rotate: true
+rotationLimit: 75
+y: 5
+x: 0
+mirror
+predictTarget: false
+shootCone: 25
+ejectEffect: casing1
+}
+{
+bullet: {
+  sprite: bullet
+  width: 5
+  height: 7
+  damage: 17
+  pierce: "true"
+  frontColor: 5251ad
+  backColor: 4031ad
+  trailColor: 5251ad
+  piceCap: 2
+  trailLength: 5
+  speed: 5.4
+  lifetime: 35
+  armorMultiplier: 0.65
+}
+reload: 150
+shootSound: shoot-bravery
+rotate: true
+rotationLimit: 75
+y: -8
+x: 9
+predictTarget: false
+shootCone: 25
+}
 ]
