@@ -1,3 +1,4 @@
 localizedName: Death
 description: The void calls. The answer is inevit -
 damage: 50000
+outline: false
