@@ -152,6 +152,7 @@ contentOrder: [
   flying-modifier
   spider-modifier
   tank-modifier
+  helicopter-modifier
   radiant-payload-enhancer
   defiant-payload-enhancer
   prismatic-payload-enhancer
