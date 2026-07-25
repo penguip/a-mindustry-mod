@@ -26,8 +26,8 @@ weapons: [
 {
     name: courage-rotor-weapon
     reload: 20
-    x: 6
-    y: -5
+    x: 0
+    y: 0
     shootX: 0
     shootY: 0
     recoil: 0
@@ -61,7 +61,9 @@ weapons: [
       }
     parts: [
    {
-     y: -4
+     x: 6
+     y: -5
+     mirror: true
      moveRot: -9180
         type: regionPart
         progress: reload
@@ -70,6 +72,8 @@ weapons: [
         layer: 116
     }
    ]
+  }
+  {
 bullet: {
   sprite: bullet
   width: 5
