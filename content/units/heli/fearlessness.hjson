@@ -1,0 +1,64 @@
+type: flying
+name: Fearlessness
+description: Fires barrages of missiles at enemy targets.
+speed: 2
+flying: true
+rotateSpeed: 3.79
+health: 9870
+outlineColor: 282C36
+armor: 14
+engineOffset: 12
+engineSize: 3
+hitSize: 20
+range: 189
+weapons: [
+{
+    name: fearlessness-rotor-weapon
+    reload: 20
+    x: 0
+    y: 0
+    shootX: 0
+    shootY: 0
+    recoil: 0
+    smokeEffect: none
+    shootSound: none
+    ejectEffect: none
+    alwaysShooting: true
+    controllable: false
+    aiControllable: false
+    autoTarget: false
+    predictTarget: false
+    useAttackRange: false
+    alternate: false
+    showStatSprite: false
+    display: false
+    top: true
+    rotate: false
+    bullet: {
+      splashDamage: 15
+      splashDamageRadius: 12
+      pierceBuilding: true
+      hitEffect: none
+      despawnEffect: none
+      smokeEffect: none
+      shootEffect: none
+      hittable: false
+      knockback: 0.5
+      lifetime: 1
+      damage: 30
+      }
+    parts: [
+   {
+     x: 10
+     y: -8
+     mirror: true
+     moveRot: -9180
+        type: regionPart
+        progress: reload
+        outline: false
+        suffix: -blur
+        layer: 116
+    }
+   ]
+  }
+]
