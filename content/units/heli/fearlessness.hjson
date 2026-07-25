@@ -77,17 +77,18 @@ weapons: [
   speed: 2.34
   lifetime: 100
 }
-reload: 130
+reload: 60
 shoot: {
   shots: 5
-  shotDelay: 20
+  shotDelay: 10
 }
 shootSound: shootMissileLong
 inaccuracy: 4
 rotate: true
 rotationLimit: 75
-y: -8
-x: 6
+shake: 3
+y: -9
+x: 7
 predictTarget: false
 shootCone: 25
 }
