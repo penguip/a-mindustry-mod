@@ -8,4 +8,5 @@ radioactivity: 0
 charge: 0
 research: yttrium
 color: ffffff
+cost: 0.85
 research: gadolinium
