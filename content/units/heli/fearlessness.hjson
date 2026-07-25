@@ -10,7 +10,7 @@ armor: 14
 engineOffset: 12
 engineSize: 3
 hitSize: 20
-range: 189
+range: 234
 weapons: [
 {
     name: fearlessness-rotor-weapon
@@ -71,6 +71,8 @@ weapons: [
   frontColor: 5251ad
   backColor: 4031ad
   trailColor: 5251ad
+  hitSound: explosion
+  hitEffect: flakExplosion
   trailLength: 5
   splashDamage: 17
   splashDamageRadius: 35
