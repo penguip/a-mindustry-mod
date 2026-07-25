@@ -26,6 +26,17 @@ plans: [
     ]
     time: 1200
   }
+  {
+    type: AssemblerUnitPlan
+    unit: fearlessness
+    requirements: [
+      beepdustry-actinium-wall/10
+      beepdustry-zirconium-wall-large/5
+      beepdustry-kiolua/5
+      beepdustry-fray/1
+    ]
+    time: 6000
+  }
 ]
 squareSprite: false
 consumes: {
