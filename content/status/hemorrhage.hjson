@@ -5,3 +5,4 @@ healthMultiplier: 0.80
 speedMultiplier: 0.85
 damageMultilpier: 0.75
 reloadMultiplier: 1.2
+outline: false
