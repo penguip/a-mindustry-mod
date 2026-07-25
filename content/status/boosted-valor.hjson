@@ -1,0 +1,6 @@
+localizedName: Boosted Valor
+description: This unit has been encouraged by a nearby Valor helicopter to keep fighting until its demise. All stats boosted slightly and slightly heals the unit.
+healthMultiplier: 1.2
+speedMultiplier: 1.2
+damageMultiplier: 1.2
+reloadMultiplier: 1.2
