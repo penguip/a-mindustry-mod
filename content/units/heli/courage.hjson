@@ -10,7 +10,7 @@ armor: 7
 engineOffset: 8
 engineSize: 3
 hitSize: 9
-range: 228.75
+range: 189
 weapons: [
 {
     name: courage-rotor-weapon
@@ -69,13 +69,16 @@ bullet: {
   height: 7
   damage: 17
   pierce: "true"
+  frontColor: 5251ad
+  backColor: 4031ad
+  trailColor: 5251ad
   pierceCap: 2
   trailLength: 5
   speed: 5.4
   lifetime: 35
   armorMultiplier: 0.65
 }
-reload: 90
+reload: 70
 shoot: {
   shots: 25
   shotDelay: 2
