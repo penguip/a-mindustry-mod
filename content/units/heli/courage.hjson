@@ -85,7 +85,7 @@ shoot: {
 }
 shootSound: shootAvert
 inaccuracy: 7.5
-predictTarget: false
+shootCone: 25
 ejectEffect: casing1
 }
 ]
