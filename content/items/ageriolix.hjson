@@ -7,4 +7,5 @@ charge: 0.5
 color: 7d83d6
 frames: 4
 frameTime: 15
+cost: 1.5
 research: alloy-of-sakura
