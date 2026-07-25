@@ -106,7 +106,7 @@ bullet: {
             pierceArmor: true
             speed: 5
             lifetime: 30
-            damage: 70
+            damage: 175
             width: 10
             height: 10
             trailInterval: 1
@@ -138,7 +138,7 @@ bullet: {
                 pierceArmor: true
                 speed: 5
                 lifetime: 30
-                damage: 90
+                damage: 200
                 width: 10
                 height: 10
                 trailInterval: 1
@@ -161,7 +161,7 @@ bullet: {
                 strokeFrom: 3
             }
 }
-reload: 150
+reload: 80
 shootSound: shoot-bravery
 rotate: true
 rotationLimit: 75
