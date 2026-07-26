@@ -42,4 +42,4 @@ abilities:[
   }
 ]
 outlineColor: 520500
-aiController: HugAI
+controller: HugAI
