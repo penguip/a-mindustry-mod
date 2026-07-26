@@ -1,6 +1,6 @@
 type: crawl
 name: Tissue
-description: Spews orbs of gastric acids and small teeth at enemy targets. Capable of self regeneration.
+description: Spews orbs of gastric acids and small teeth at enemy targets. Capable of self regeneration. Explodes into blood upon dying, and can heal from drinking blood.
 health: 1980
 speed: 0.58
 armor: 2
@@ -22,6 +22,18 @@ abilities:[
   {
     type: RegenAbility
     percentAmount: 0.07
+  }
+  {
+    type: LiquidExplodeAbility
+    liquid: beepdustry-blood
+    amount: 180
+    radScale: 2
+  }
+  {
+    type: LiquidRegenAbility
+    liquid: beepdustry-blood
+    regenPerSlurp: 3
+    slurpSpeed: 4
   }
 ]
 outlineColor: 520500
