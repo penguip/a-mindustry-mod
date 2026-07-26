@@ -20,7 +20,7 @@ plans: [
       item-flesh/75
       dormant-cyst/10
     ]
-    time: 5000
+    time: 300
   }
 ]
 consumes: {
