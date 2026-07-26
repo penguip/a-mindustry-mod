@@ -28,5 +28,5 @@ plans: [
   }
 ]
 consumes: {
-  liquid: blood/1
+  liquid: hemogen/1
 }
