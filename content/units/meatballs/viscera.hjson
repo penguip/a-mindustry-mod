@@ -1,0 +1,43 @@
+type: crawl
+name: Viscera
+description: Crushes blocks it runs over. Capable of self regeneration. Explodes into blood upon dying, and can heal from drinking blood.
+health: 13200
+speed: 0.8765
+armor: 2
+drawBody: false
+drawCell: false
+rotateToBuilding: false
+segments: 5
+targetAir: false
+segmentScl: 2
+groundLayer: 69.69
+segmentPhase: 5
+segmentMag: 0.5
+rotateSpeed: 5.4
+omniMovement: false
+hitSize: 19
+drag: 0.4
+range: 162
+itemCapacity: 20
+immunities: [
+  bloodied
+]
+abilities:[
+  {
+    type: RegenAbility
+    percentAmount: 0.05
+  }
+  {
+    type: LiquidExplodeAbility
+    liquid: beepdustry-blood
+    amount: 450
+    radScale: 4
+  }
+  {
+    type: LiquidRegenAbility
+    liquid: beepdustry-blood
+    regenPerSlurp: 8
+    slurpSpeed: 4
+  }
+]
+outlineColor: 520500
