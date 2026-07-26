@@ -159,7 +159,7 @@ ejectEffect: casing3
         strokeFrom: 0
         strokeTo: 10
       }
-      shootEffect: {
+      {
                 type: WaveEffect
                 colorFrom: 6271ad
                 colorTo: 4031ad
