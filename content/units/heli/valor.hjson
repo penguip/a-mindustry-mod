@@ -130,8 +130,8 @@ shootSound: shootSpectre
 inaccuracy: 5
 rotate: true
 rotationLimit: 75
-y: -16
-x: 9
+y: -17
+x: 13
 predictTarget: false
 shootCone: 25
 ejectEffect: casing3
@@ -160,6 +160,7 @@ ejectEffect: casing3
     type: LaserBulletType
     damage: 76
     length: 40
+    despawnSound: shootLancer
     width: 10
     colors: [
       4031ad
@@ -169,17 +170,18 @@ ejectEffect: casing3
     ]
   }
 }
-reload: 400
+reload: 200
 shoot: {
   shots: 2
   shotDelay: 45
-  firstShotDelay: 300
+  firstShotDelay: 100
 }
 chargeSound: chargeCorvus
 shootSound: shootSmite
 inaccuracy: 0
 shake: 5
 rotate: true
+soundPitchMin: 1
 rotationLimit: 75
 y: 10
 x: 0
