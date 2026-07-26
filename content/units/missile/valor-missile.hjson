@@ -4,7 +4,7 @@ flying: true
 speed: 2.75
 outlineColor: 282C36
 physics: false
-lifetime: 90
+lifetime: 270
 lowAltitude: true
 homingDelay: 30
 hitSize: 0.25
@@ -17,7 +17,7 @@ faceTarget: true
 targetAir: true
 targetUnderBlocks: false
 drawCell: false
-missileAccelTime: 60
+missileAccelTime: 30
 hidden: true
 engineColor: FFD37F
 engineSize: 1
