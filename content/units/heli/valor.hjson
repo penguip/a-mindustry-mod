@@ -145,8 +145,7 @@ ejectEffect: casing3
   pierce: true
   chargeEffect: {
   type: MultiEffect
-  effects: {
-      [
+  effects: [
       {
         type: ParticleEffect
         lenFrom: 10
@@ -155,7 +154,6 @@ ejectEffect: casing3
         cone: 360
       }
     ]
-  }
 }
   frontColor: 5251ad
   backColor: 4031ad
