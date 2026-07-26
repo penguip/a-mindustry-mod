@@ -57,7 +57,8 @@ weapons: [
     splashDamage: 80
     splashDamageRadius: 34
     puddleLiquid: neoplasm
-    puddleSize: 5
+    puddleRange: 12
+    puddles: 25
     puddleAmount: 15
     despawnSound: shootAtrax
     height: 15
