@@ -8,6 +8,7 @@ health: 36700
 outlineColor: 282C36
 armor: 28
 payloadCapacity: 256
+vulnerableWithPayloads: true
 engineOffset: 20
 engineSize: 6
 hitSize: 27
