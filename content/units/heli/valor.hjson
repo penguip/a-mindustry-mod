@@ -22,7 +22,7 @@ abilities: [
       sizeTo: 80
       strokeFrom: 11
       lifetime: 80
-      colorFrom: 
+      colorFrom: 4031ad
       colorTo: 
       }
     range: 80
