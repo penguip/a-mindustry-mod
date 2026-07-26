@@ -22,7 +22,7 @@ description:
     - Flux Engine
     - Impulse Piston
     - Actinide Treads
-    - Razor Rotor
+    - Sonic Cutter
     - Sophisticated Ligament
     - Gravity Suspender
 ''' 
@@ -60,6 +60,7 @@ filter: [
   flux-engine
   impulse-piston
   actinide-treads
+  sonic-cutter
 ]
 squareSprite: false
 conductivePower: true
