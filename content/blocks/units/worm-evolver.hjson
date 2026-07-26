@@ -10,7 +10,7 @@ requirements: [
   yttrium/400
   osmium/500
   silicon/350
-  flesh/150
+  item-flesh/150
   calcium/80
   dormant-cyst/120
 ]
