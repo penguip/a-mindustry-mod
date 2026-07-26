@@ -1,0 +1,64 @@
+type: flying
+name: Valor
+description: Fires large piercing bullets, fast-paced volleys of missiles, and a rupturing railgun beam at enemy targets. Capable of instilling great courage to nearby ally units, and can pick up small ground units.
+speed: 0.7654
+flying: true
+rotateSpeed: 1.25
+health: 36700
+outlineColor: 282C36
+armor: 28
+engineOffset: 20
+engineSize: 6
+hitSize: 27
+range: 150
+weapons: [
+{
+    name: valor-rotor-weapon
+    reload: 20
+    x: 0
+    y: 0
+    shootX: 0
+    shootY: 0
+    recoil: 0
+    smokeEffect: none
+    shootSound: none
+    ejectEffect: none
+    alwaysShooting: true
+    controllable: false
+    aiControllable: false
+    autoTarget: false
+    predictTarget: false
+    useAttackRange: false
+    alternate: false
+    showStatSprite: false
+    display: false
+    top: true
+    rotate: false
+    bullet: {
+      splashDamage: 60
+      splashDamageRadius: 36
+      pierceBuilding: true
+      hitEffect: none
+      despawnEffect: none
+      smokeEffect: none
+      shootEffect: none
+      hittable: false
+      knockback: 0.5
+      lifetime: 1
+      damage: 120
+      }
+    parts: [
+   {
+     x: 16
+     y: -18
+     mirror: true
+     moveRot: -9180
+        type: regionPart
+        progress: reload
+        outline: false
+        suffix: -blur
+        layer: 116
+    }
+   ]
+  }
+]
