@@ -50,7 +50,7 @@ weapons: [
     parts: [
    {
      x: 16
-     y: -18
+     y: -16
      mirror: true
      moveRot: -9180
         type: regionPart
