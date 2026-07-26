@@ -21,7 +21,7 @@ itemCapacity: 20
 abilities:[
   {
     type: RegenAbility
-    percentAmount: 0.07
+    percentAmount: 0.02
   }
   {
     type: LiquidExplodeAbility
