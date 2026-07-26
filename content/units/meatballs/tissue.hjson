@@ -68,19 +68,17 @@ weapons: [
       mirror: false
       shootSound: shootScatter
       bullet: {
-        type: LiquidBulletType
-        speed: 5.4
-        liquid: gastric-juice
-        lifetime: 30
-        damage: 20
-        width: 5
-        puddleSize: 40
-        collides: true
-        collidesTiles: true
-        splashDamageRadius: 40
-        splashDamage: 15
-        backColor: ao4eff
-        frontColor: d267ff
+        type: BasicBulletType
+    buildingDamageMultiplier: 0.25
+    damage: 8
+    length: 15
+    width: 5
+    speed: 5.4
+    lifetime: 30
+    frontColor: f9ecec
+    backColor: f1dbdb
+    pierce: true
+    pierceCap: 3
       }
     }
 ]
