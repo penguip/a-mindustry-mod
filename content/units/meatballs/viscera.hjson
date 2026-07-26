@@ -2,7 +2,7 @@ type: crawl
 name: Viscera
 description: Crushes blocks it runs over. Capable of self regeneration. Explodes into blood upon dying, and can heal from drinking blood.
 health: 13200
-speed: 0.8765
+speed: 1
 armor: 2
 drawBody: false
 drawCell: false
