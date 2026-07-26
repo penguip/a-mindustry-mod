@@ -146,7 +146,7 @@ ejectEffect: casing3
   chargeEffect: {
   type: MultiEffect
   effects: {
-      : [
+      [
       {
         type: ParticleEffect
         lenFrom: 10
