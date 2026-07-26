@@ -37,6 +37,18 @@ plans: [
     ]
     time: 4200
   }
+  {
+    type: AssemblerUnitPlan
+    unit: fearlessness
+    requirements: [
+      beepdustry-specialized-plastanium-wall/5
+      beepdustry-zirconium-wall-large/15
+      beepdustry-kiolua/10
+      beepdustry-berate/1
+      beepdustry-sonic-cutter/2
+    ]
+    time: 9300
+  }
 ]
 squareSprite: false
 consumes: {
