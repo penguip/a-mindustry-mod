@@ -51,7 +51,7 @@ plans: [
   }
   {
     type: AssemblerUnitPlan
-    unit: Valor
+    unit: valor
     requirements: [
       beepdustry-wall-of-sakura-large/6
       beepdustry-zirconium-wall-large/8
