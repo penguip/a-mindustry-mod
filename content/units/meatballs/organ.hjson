@@ -19,6 +19,9 @@ hitSize: 19
 drag: 0.4
 range: 162
 itemCapacity: 20
+immunities: [
+  bloodied
+]
 abilities:[
   {
     type: RegenAbility
