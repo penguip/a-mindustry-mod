@@ -1,6 +1,6 @@
 type: flying
 name: Valor
-description: Fires large piercing bullets, fast-paced volleys of missiles, and a rupturing railgun bolt at enemy targets. Capable of instilling great courage to nearby ally units, and can pick up small ground units.
+description: Fires large piercing bullets, fast-paced volleys of missiles, and a pair of rupturing railgun bolts at enemy targets. Capable of instilling great courage to nearby ally units, and can pick up small ground units.
 speed: 0.7654
 flying: true
 rotateSpeed: 1.25
@@ -158,6 +158,16 @@ ejectEffect: casing3
         sizeFrom: 3
         strokeFrom: 0
         strokeTo: 10
+      }
+      shootEffect: {
+                type: WaveEffect
+                colorFrom: 6271ad
+                colorTo: 4031ad
+                sizeFrom: 110
+                sizeTo: 0
+                lifetime: 20
+                strokeFrom: 7
+                startDelay: 80
       }
     ]
 }
