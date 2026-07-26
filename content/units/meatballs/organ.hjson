@@ -38,3 +38,31 @@ abilities:[
   }
 ]
 outlineColor: 520500
+weapons: [
+{
+      top: true
+      name: organ-mount
+      x:0
+      y:5
+      recoil: 0.4
+      outlineColor: 282C36
+      reload: 100
+      inaccuracy: 0
+      rotate: true
+      rotateSpeed: 2.45
+      mirror: false
+      shootSound: shootArtillery
+      bullet: {
+        type: BasicBulletType
+    damage: 8
+    length: 15
+    width: 5
+    speed: 5.4
+    lifetime: 30
+    frontColor: f9ecec
+    backColor: f1dbdb
+    pierce: true
+    pierceCap: 3
+      }
+    }
+]
