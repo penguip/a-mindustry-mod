@@ -39,7 +39,7 @@ plans: [
   }
   {
     type: AssemblerUnitPlan
-    unit: fearlessness
+    unit: bravery
     requirements: [
       beepdustry-specialized-plastanium-wall/5
       beepdustry-zirconium-wall-large/15
