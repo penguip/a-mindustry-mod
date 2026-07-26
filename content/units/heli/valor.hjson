@@ -10,7 +10,7 @@ armor: 28
 engineOffset: 20
 engineSize: 6
 hitSize: 27
-range: 150
+range: 330
 abilities: [
   {
     type: StatusFieldAbility
