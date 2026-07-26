@@ -61,6 +61,7 @@ filter: [
   impulse-piston
   actinide-treads
   sonic-cutter
+  sophisticated-ligament
 ]
 squareSprite: false
 conductivePower: true
