@@ -49,6 +49,19 @@ plans: [
     ]
     time: 9300
   }
+  {
+    type: AssemblerUnitPlan
+    unit: Valor
+    requirements: [
+      beepdustry-wall-of-sakura-large/6
+      beepdustry-zirconium-wall-large/8
+      beepdustry-chromatic-wall-blue/6
+      beepdustry-kiolua/20
+      beepdustry-spite/1
+      beepdustry-sonic-cutter/2
+    ]
+    time: 18600
+  }
 ]
 squareSprite: false
 consumes: {
