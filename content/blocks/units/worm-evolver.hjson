@@ -37,6 +37,19 @@ plans: [
     ]
     time: 2400
   }
+  {
+    type: AssemblerUnitPlan
+    unit: viscera
+    requirements: [
+      beepdustry-specialized-plastanium-wall/8
+      beepdustry-actinium-wall-large/4
+      beepdustry-cell/5
+      beepdustry-maw/4
+      beepdustry-skull/1
+      beepdustry-sophisticated-ligament/10
+    ]
+    time: 5400
+  }
 ]
 consumes: {
   liquid: hemogen/1
