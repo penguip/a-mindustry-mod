@@ -104,4 +104,34 @@ x: 2
 predictTarget: false
 shootCone: 361
 }
+{
+bullet: {
+  sprite: bullet
+  width: 16
+  height: 16
+  damage: 35
+  pierce: "true"
+  frontColor: 5251ad
+  backColor: 4031ad
+  trailColor: 5251ad
+  trailLength: 5
+  speed: 5.4
+  lifetime: 35
+  armorMultiplier: 0.65
+}
+reload: 30
+shoot: {
+  shots: 3
+  shotDelay: 5
+}
+shootSound: shootSpecter
+inaccuracy: 5
+rotate: true
+rotationLimit: 75
+y: -9
+predictTarget: false
+shootCone: 25
+ejectEffect: casing3
+}
+]
 ]
