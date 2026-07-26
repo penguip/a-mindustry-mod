@@ -4,7 +4,7 @@ flying: true
 speed: 2.75
 outlineColor: 282C36
 physics: false
-lifetime: 270
+lifetime: 120
 lowAltitude: true
 homingDelay: 30
 hitSize: 0.25
