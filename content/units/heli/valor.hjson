@@ -143,6 +143,20 @@ ejectEffect: casing3
   height: 10
   damage: 165
   pierce: true
+  chargeEffect: {
+  type: MultiEffect
+  effects: {
+      : [
+      {
+        type: ParticleEffect
+        lenFrom: 10
+        lifetime: 100
+        particles: 20
+        cone: 360
+      }
+    ]
+  }
+}
   frontColor: 5251ad
   backColor: 4031ad
   trailColor: 5251ad
