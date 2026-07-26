@@ -1,0 +1,40 @@
+type: crawl
+name: Organ
+description: Spews neoplasmic sacs that contain Cell units at enemy ground targets. Capable of self regeneration. Explodes into blood upon dying, and can heal from drinking blood.
+health: 1980
+speed: 0.9675
+armor: 2
+drawBody: false
+drawCell: false
+rotateToBuilding: false
+segments: 4
+targetAir: false
+segmentScl: 2
+groundLayer: 69.69
+segmentPhase: 5
+segmentMag: 0.5
+rotateSpeed: 5.4
+omniMovement: false
+hitSize: 19
+drag: 0.4
+range: 162
+itemCapacity: 20
+abilities:[
+  {
+    type: RegenAbility
+    percentAmount: 0.03
+  }
+  {
+    type: LiquidExplodeAbility
+    liquid: beepdustry-blood
+    amount: 180
+    radScale: 2
+  }
+  {
+    type: LiquidRegenAbility
+    liquid: beepdustry-blood
+    regenPerSlurp: 5
+    slurpSpeed: 4
+  }
+]
+outlineColor: 520500
