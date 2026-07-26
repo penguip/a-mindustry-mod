@@ -107,8 +107,8 @@ shootCone: 361
 {
 bullet: {
   sprite: bullet
-  width: 48
-  height: 48
+  width: 32
+  height: 32
   damage: 35
   pierce: "true"
   frontColor: 5251ad
