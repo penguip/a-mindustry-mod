@@ -1,0 +1,27 @@
+type: crawl
+name: Tissue
+description: Spews orbs of gastric acids and small teeth at enemy targets. Capable of self regeneration.
+health: 1980
+speed: 0.58
+armor: 2
+drawBody: false
+drawCell: false
+rotateToBuilding: false
+segments: 3
+segmentScl: 2
+groundLayer: 69.69
+segmentPhase: 5
+segmentMag: 0.5
+rotateSpeed: 5.4
+omniMovement: false
+hitSize: 14
+drag: 0.4
+range: 81
+itemCapacity: 20
+abilities:[
+  {
+    type: RegenAbility
+    percentAmount: 0.07
+  }
+]
+outlineColor: 520500
