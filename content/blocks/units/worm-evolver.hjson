@@ -26,6 +26,17 @@ plans: [
     ]
     time: 1200
   }
+  {
+    type: AssemblerUnitPlan
+    unit: organ
+    requirements: [
+      beepdustry-actinium-wall/6
+      beepdustry-contrinum-wall-large/4
+      beepdustry-cell/5
+      beepdustry-maw/1
+    ]
+    time: 2400
+  }
 ]
 consumes: {
   liquid: hemogen/1
