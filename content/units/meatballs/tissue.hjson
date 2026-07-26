@@ -81,7 +81,6 @@ weapons: [
       shootSound: shootScatter
       bullet: {
         type: BasicBulletType
-    buildingDamageMultiplier: 0.25
     damage: 8
     length: 15
     width: 5
