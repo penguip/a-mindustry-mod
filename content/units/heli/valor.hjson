@@ -150,6 +150,8 @@ ejectEffect: casing3
         type: ParticleEffect
         interp: reverse
         lifetime: 80
+        followParent: true
+        rotWithParent: true
         length: 100
         particles: 180
         cone: 360
@@ -165,6 +167,7 @@ ejectEffect: casing3
                 colorTo: 4031ad
                 sizeFrom: 110
                 sizeTo: 0
+                followParent: true
                 lifetime: 20
                 strokeFrom: 7
                 startDelay: 80
