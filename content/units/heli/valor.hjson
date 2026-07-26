@@ -148,10 +148,16 @@ ejectEffect: casing3
   effects: [
       {
         type: ParticleEffect
-        lenFrom: 10
-        lifetime: 100
-        particles: 20
+        interp: reverse
+        lifetime: 80
+        length: 100
+        particles: 180
         cone: 360
+        colorFrom: 4031ad
+        colorTo: 6271ad
+        sizeFrom: 3
+        strokeFrom: 0
+        strokeTo: 10
       }
     ]
 }
