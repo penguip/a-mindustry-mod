@@ -11,6 +11,7 @@ engineOffset: 20
 engineSize: 6
 hitSize: 27
 range: 330
+maxRange: 330
 abilities: [
   {
     type: StatusFieldAbility
@@ -107,8 +108,8 @@ shootCone: 361
 {
 bullet: {
   sprite: bullet
-  width: 16
-  height: 16
+  width: 20
+  height: 20
   damage: 35
   pierce: "true"
   frontColor: 5251ad
