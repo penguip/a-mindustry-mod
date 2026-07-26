@@ -10,6 +10,9 @@ rotateToBuilding: false
 segments: 2
 segmentScl: 2
 groundLayer: 69.69
+immunities: [
+  bloodied
+]
 segmentPhase: 5
 segmentMag: 0.5
 rotateSpeed: 5.4
