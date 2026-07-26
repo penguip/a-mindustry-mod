@@ -8,7 +8,7 @@ lifetime: 120
 lowAltitude: true
 homingDelay: 30
 hitSize: 0.25
-rotateSpeed: 1.23
+rotateSpeed: 3.85
 useUnitCap: false
 health: 180
 autoFindTarget: true
