@@ -93,6 +93,7 @@ shoot: {
   2,-1,90
   2,0,90
   2,1,90
+  ]
   shots: 3
   shotDelay: 5
 }
