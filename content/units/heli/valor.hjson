@@ -88,8 +88,13 @@ bullet: {
 }
 reload: 90
 shoot: {
+  type: shootBarrel
+  barrels: [
+  2,-1,90
+  2,0,90
+  2,1,90
   shots: 3
-  shotDelay: 10
+  shotDelay: 5
 }
 shootSound: shootMissileLarge
 inaccuracy: 0
