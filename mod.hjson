@@ -153,6 +153,7 @@ contentOrder: [
   spider-modifier
   tank-modifier
   helicopter-modifier
+  worm-evolver
   radiant-payload-enhancer
   defiant-payload-enhancer
   prismatic-payload-enhancer
