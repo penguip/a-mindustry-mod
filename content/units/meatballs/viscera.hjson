@@ -17,7 +17,8 @@ rotateSpeed: 5.4
 omniMovement: false
 hitSize: 19
 drag: 0.4
-range: 162
+range: 10
+crushDamage: 2.8333333333333
 itemCapacity: 20
 immunities: [
   bloodied
