@@ -1,7 +1,7 @@
 type: crawl
 name: Organ
 description: Spews neoplasmic sacs that contain Cell units at enemy ground targets. Capable of self regeneration. Explodes into blood upon dying, and can heal from drinking blood.
-health: 1980
+health: 7650
 speed: 0.9675
 armor: 2
 drawBody: false
@@ -53,16 +53,21 @@ weapons: [
       mirror: false
       shootSound: shootArtillery
       bullet: {
-        type: BasicBulletType
-    damage: 8
-    length: 15
-    width: 5
-    speed: 5.4
-    lifetime: 30
-    frontColor: f9ecec
-    backColor: f1dbdb
-    pierce: true
-    pierceCap: 3
+        type: ArtilleryBulletType
+    splashDamage: 80
+    splashDamageRadius: 34
+    puddleLiquid: neoplasm
+    puddleSize: 5
+    puddleAmount: 15
+    despawnUnit: cell
+    despawnSound: shootAtrax
+    height: 65
+    width: 15
+    speed: 1.2
+    lifetime: 140
+    frontColor: f98f4a
+    backColor: eo5438
+    trailColor: f98f4a
       }
     }
 ]
