@@ -1,0 +1,32 @@
+type: UnitAssembler
+size: 5
+localizedName: Worm Evolver
+description: Uses hemogen and inputted blocks to evolve and mutate Cell units in larger, more powerful creatures. Output tier may be increased by adding modules.
+health: 4000
+category: units
+droneType: redesign
+areaSize: 13
+requirements: [
+  yttrium/400
+  osmium/500
+  silicon/350
+  flesh/150
+  calcium/80
+  dormant-cyst/120
+]
+liquidCapacity: 120
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: tissue
+    requirements: [
+      beepdustry-contrinum-wall/4
+      beepdustry-cell/1
+      beepdustry-gut/1
+    ]
+    time: 1200
+  }
+]
+consumes: {
+  liquid: blood/1
+}
