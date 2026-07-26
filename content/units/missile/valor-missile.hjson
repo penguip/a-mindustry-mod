@@ -1,7 +1,7 @@
 type: missile
 template: MissileUnitType
 flying: true
-speed: 2.75
+speed: 3
 outlineColor: 282C36
 physics: false
 lifetime: 120
