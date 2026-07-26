@@ -136,4 +136,55 @@ predictTarget: false
 shootCone: 25
 ejectEffect: casing3
 }
+  {
+    bullet: {
+  sprite: large-orb
+  width: 10
+  height: 10
+  damage: 165
+  pierce: true
+  frontColor: 5251ad
+  backColor: 4031ad
+  trailColor: 5251ad
+  pierceCap: 2
+  trailLength: 5
+  speed: 4.5
+  status: radiation-decay
+  statusDuration: 180
+  lifetime: 73.333333333
+  intervalBullets: 8
+  intervalRandomSpread: 0
+  intervalSpread: 45
+  bulletInterval: 15
+  intervalBullet: {
+    type: LaserBulletType
+    damage: 76
+    length: 40
+    width: 10
+    colors: [
+      4031ad
+      5251ad
+      6271ad
+      ffffff
+    ]
+  }
+}
+reload: 400
+shoot: {
+  shots: 2
+  shotDelay: 45
+  firstShotDelay: 300
+}
+chargeSound: chargeCorvus
+shootSound: shootSmite
+inaccuracy: 0
+shake: 5
+rotate: true
+rotationLimit: 75
+y: 10
+x: 0
+mirror: false
+predictTarget: false
+shootCone: 25
+}
 ]
