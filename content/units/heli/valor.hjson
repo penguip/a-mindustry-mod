@@ -11,6 +11,26 @@ engineOffset: 20
 engineSize: 6
 hitSize: 27
 range: 150
+abilities: [
+  {
+    type: StatusFieldAbility
+    effect: beepdustry-boosted-valo
+    duration: 300
+    reload: 150
+    activeEffect: {
+      type: WaveEffect
+      sizeTo: 80
+      strokeFrom: 11
+      lifetime: 80
+      colorFrom: 
+      colorTo: 
+      }
+    range: 80
+  }
+]
+immunities: [
+  boosted-valor
+]
 weapons: [
 {
     name: valor-rotor-weapon
