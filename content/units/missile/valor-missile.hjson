@@ -23,6 +23,7 @@ engineColor: FFD37F
 engineSize: 1
 engineOffset: 5
 fogRadius: 6
+range: 10
 weapons: [
   {
     reload: 1
