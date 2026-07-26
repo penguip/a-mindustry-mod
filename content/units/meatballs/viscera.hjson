@@ -15,7 +15,7 @@ segmentPhase: 5
 segmentMag: 0.5
 rotateSpeed: 5.4
 omniMovement: false
-hitSize: 19
+hitSize: 24
 drag: 0.4
 range: 10
 crushDamage: 2.8333333333333
@@ -42,3 +42,4 @@ abilities:[
   }
 ]
 outlineColor: 520500
+aiController: HugAI
