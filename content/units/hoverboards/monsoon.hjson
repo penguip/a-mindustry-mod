@@ -51,3 +51,33 @@ parts: [
     color: b2736a
   }
 ]
+weapons: [
+  {
+    x: 0
+    y: 0
+    name: monsoon-weapon
+    reload: 15
+    rotate: true
+    mirror: false
+    shootSound: small-laser
+    shootSoundVolume: 0.3
+    shoot: {
+    type: ShootSpread
+    shots: 5
+    spread: 6
+    }
+    rotateSpeed: 2.5
+    bullet: {
+      type: LaserBoltBulletType
+      length: 10
+      damage: 18
+      pierce: false
+      width: 2
+      pierceBuilding: false
+      speed: 3.4
+      lifetime: 16
+      backColor: b2736a
+      status: shocked
+    }
+  }
+]
