@@ -101,6 +101,8 @@ bullet: {
   despawnShake: 5
   fragBullets: 1
   fragRandomSpread: 0
+  fragVelocityMin: 1
+  fragAngle: 90
   fragBullet: {
       type: BasicBulletType
   damage: 150
