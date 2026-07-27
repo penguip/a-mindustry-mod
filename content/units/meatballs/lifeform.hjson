@@ -119,4 +119,41 @@ weapons: [
     }
       }
     }
+        top: true
+      name: organ-mount
+      x:4
+      mirror: true
+      y:2
+      recoil: 0.4
+      outlineColor: 282C36
+      reload: 120
+      inaccuracy: 0
+      shake: 15
+      rotate: true
+      rotateSpeed: 2.8
+      shootSound: shootAfflict
+      bullet: {
+        type: ArtilleryBulletType
+    splashDamage: 80
+    splashDamageRadius: 34
+    puddleLiquid: neoplasm
+    puddleRange: 30
+    puddles: 40
+    puddleAmount: 50
+    despawnSound: explosionReactorNeoplasm
+    height: 30
+    despawnShake: 35
+    width: 30
+    speed: 1.5
+    lifetime: 200
+    frontColor: f98f4a
+    backColor: eo5438
+    trailColor: f98f4a
+    fragBullets: 3
+    fragBullet: {
+      spawnUnit: tissue
+      instantDisappear: true
+    }
+      }
+    }
 ]
