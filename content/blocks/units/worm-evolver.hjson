@@ -43,10 +43,25 @@ plans: [
     requirements: [
       beepdustry-specialized-plastanium-wall/8
       beepdustry-actinium-wall-large/4
-      beepdustry-cell/5
+      beepdustry-cell/10
       beepdustry-maw/4
       beepdustry-skull/1
       beepdustry-sophisticated-ligament/10
+    ]
+    time: 5400
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: lifeform
+    requirements: [
+      beepdustry-specialized-plastanium-wall-large/8
+      beepdustry-actinium-wall-large/4
+      beepdustry-chromatic-wall-red/2
+      beepdustry-cell/20
+      beepdustry-maw/8
+      beepdustry-skull/4
+      beepdustry-peril/1
+      beepdustry-sophisticated-ligament/12
     ]
     time: 5400
   }
