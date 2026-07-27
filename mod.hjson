@@ -154,6 +154,7 @@ contentOrder: [
   tank-modifier
   helicopter-modifier
   worm-evolver
+  hover-modifier
   radiant-payload-enhancer
   defiant-payload-enhancer
   prismatic-payload-enhancer
