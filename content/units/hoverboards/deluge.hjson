@@ -97,6 +97,7 @@ bullet: {
   despawnSound: shootArtillerySap
   hitColor: 7090ea
   delayFrags: true
+  fragOnHit: false
   status: wet
   statusDuration: 60
   despawnShake: 5
