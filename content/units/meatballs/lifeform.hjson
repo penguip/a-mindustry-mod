@@ -1,0 +1,44 @@
+type: crawl
+name: Lifeform
+description: Spits large fragmentary orbs of gastric juices and large teeth that explode on impact. Capable of self regeneration. Explodes into blood upon dying, and can heal from drinking blood. Occasionally rages, increasing its stats and instilling great fear in nearby enemy targets.
+health: 23400
+speed: 1.24
+armor: 2
+drawBody: false
+drawCell: false
+rotateToBuilding: false
+segments: 6
+targetAir: false
+segmentScl: 2
+groundLayer: 69.69
+segmentPhase: 5
+segmentMag: 0.5
+rotateSpeed: 5.4
+omniMovement: false
+hitSize: 30
+drag: 0.4
+range: 10
+crushDamage: 4.6666666666667
+itemCapacity: 20
+immunities: [
+  bloodied
+]
+abilities:[
+  {
+    type: RegenAbility
+    percentAmount: 0.07
+  }
+  {
+    type: LiquidExplodeAbility
+    liquid: beepdustry-blood
+    amount: 800
+    radScale: 6
+  }
+  {
+    type: LiquidRegenAbility
+    liquid: beepdustry-blood
+    regenPerSlurp: 20
+    slurpSpeed: 3
+  }
+]
+outlineColor: 520500
