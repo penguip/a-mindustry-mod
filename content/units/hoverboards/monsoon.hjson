@@ -77,7 +77,8 @@ weapons: [
       speed: 3.4
       lifetime: 20
       backColor: 7090ea
-      status: shocked
+      status: wet
+      statusDuration: 30
     }
   }
 ]
