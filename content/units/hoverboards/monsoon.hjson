@@ -23,7 +23,7 @@ useEngineElevation: false
 lowAltitude: false
 canDrown: false
 targetAir: false
-range: 54.4
+range: 68
 moveSound: loopExtract
 moveSoundVolume: 0.15
 moveSoundPitchMin: 0.5
@@ -75,8 +75,8 @@ weapons: [
       width: 2
       pierceBuilding: false
       speed: 3.4
-      lifetime: 16
-      backColor: b2736a
+      lifetime: 20
+      backColor: 7090ea
       status: shocked
     }
   }
