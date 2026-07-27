@@ -1,6 +1,6 @@
 type: mech
 localizedName: Deluge
-description: Creates an orb of aquatic energy that orbits around it, dealing damage to enemies hit. After a set amount of time, if it has not touched an enemy block or unit, the orb leaves its orbit and charges at the nearest enemy, exploding with great force on impact.
+description: Creates an orb of aquatic energy that orbits around it, dealing damage to enemies hit. After a set amount of time, the orb leaves its orbit and charges at the nearest enemy, exploding with great force on impact.
 hovering: true
 hoverable: true
 faceTarget: false
@@ -75,7 +75,7 @@ weapons: [
 {
 bullet: {
   type: BasicBulletType
-  damage: 45
+  damage: 234
   despawnHit: "true"
   drawSize: 160
   lifetime: 200
@@ -94,7 +94,7 @@ bullet: {
   trailRotation: "true"
   trailWidth: 4
   trailEffect: shootSmokeTitan
-  hitSound: shootArtillerySap
+  despawnSound: shootArtillerySap
   hitColor: 7090ea
   delayFrags: true
   status: wet
@@ -131,7 +131,7 @@ bullet: {
   splashDamageRadius: 65
   despawnShake: 12
   homingPower: 50
-  homingRange: 50
+  homingRange: 500
   }
 }
 mirror: "false"
