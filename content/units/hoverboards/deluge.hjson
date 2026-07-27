@@ -23,7 +23,8 @@ useEngineElevation: false
 lowAltitude: false
 canDrown: false
 targetAir: false
-range: 68
+range: 220
+maxRange: 220
 moveSound: loopExtract
 moveSoundVolume: 0.15
 moveSoundPitchMin: 0.5
@@ -88,7 +89,7 @@ bullet: {
   circleShooter: true
   circleShooterRadius: 20
   trailChance: -1
-  trailColor: 946d6c
+  trailColor: 7090ea
   trailInterval: 2.5
   trailLength: 8
   trailParam: 4
@@ -96,12 +97,47 @@ bullet: {
   trailWidth: 4
   trailEffect: shootSmokeTitan
   hitSound: shootArtillerySap
-  hitColor: 946d6c
+  hitColor: 7090ea
   status: wet
   statusDuration: 60
   despawnShake: 5
   fragBullets: 1
   fragRandomSpread: 0
+  fragBullet: {
+      type: BasicBulletType
+  damage: 150
+  despawnHit: "true"
+  drawSize: 160
+  lifetime: 40
+  lightRadius: 20
+  parts: []
+  pierce: "true"
+  range: 360
+  shieldDamageMultiplier: 4
+  recoil: 4
+  spawnBullets: []
+  speed: 5
+  circleShooter: true
+  circleShooterRadius: 20
+  trailChance: -1
+  trailColor: 7090ea
+  trailInterval: 2.5
+  trailLength: 8
+  trailParam: 4
+  trailRotation: "true"
+  trailWidth: 4
+  trailEffect: shootSmokeTitan
+  hitSound: explosionAfflict
+  hitEffect: explosionScathe
+  hitColor: 7090ea
+  status: wet
+  statusDuration: 180
+  splashDamage: 65
+  splashDamageRadius: 65
+  despawnShake: 12
+  homingPower: 50
+  homingRange: 50
+  }
 }
 mirror: "false"
 parts: []
