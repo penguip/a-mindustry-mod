@@ -26,6 +26,16 @@ plans: [
     ]
     time: 1200
   }
+  {
+    type: AssemblerUnitPlan
+    unit: deluge
+    requirements: [
+      beepdustry-actinium-wall-large/6
+      beepdustry-rain/5
+      beepdustry-photon/1
+    ]
+    time: 5400
+  }
 ]
 squareSprite: false
 consumes: {
