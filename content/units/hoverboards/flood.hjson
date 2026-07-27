@@ -1,3 +1,4 @@
+type: hover
 localizedName: Flood
 description: Durable compared to most 4th tier units. Equipped with an aqua energy field that shocks and wets the nearest few enemies. Capable of healing allied blocks and units. Floats over liquids.
 hovering: true
