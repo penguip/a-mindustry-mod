@@ -1,6 +1,6 @@
 type: crawl
 name: Lifeform
-description: Spits large fragmentary orbs of gastric juices, Tissue-containing neoplasmic sacs, and large teeth that explode on impact. Capable of self regeneration. Explodes into blood upon dying, and can heal from drinking blood. Occasionally rages, increasing its stats and instilling great fear in nearby enemy targets.
+description: Spits large fragmentary orbs of gastric juices, Tissue-containing neoplasmic sacs, and teeth that explode on impact. Capable of self regeneration. Explodes into blood upon dying, and can heal from drinking blood. Occasionally rages, increasing its stats and instilling great fear in nearby enemy targets.
 health: 23400
 speed: 1.24
 armor: 2
@@ -23,6 +23,10 @@ itemCapacity: 20
 immunities: [
   bloodied
   hemorrhage
+  boosted-valo
+  overcharged
+  overdrive
+  overclock
 ]
 abilities:[
   {
@@ -133,6 +137,80 @@ weapons: [
       rotate: true
       rotateSpeed: 2.8
       shootSound: shootAfflict
+      bullet: {
+type: BasicBulletType
+    splashDamage: 80
+    sprite: large-orb
+    splashDamageRadius: 34
+    height: 15
+    width: 15
+    damage: 123
+    speed: 2
+    despawnSound: explosionAfflict
+    status: corroded
+    statusDuration: 180
+    lifetime: 150
+    collidesAir: true
+    frontColor: 66b057
+    backColor: 36bo41
+    trailColor: 66b057
+    fragOnHit: true
+    fragVelocityMin: 2
+    fragVelocityMax: 2
+    fragBullets: 35
+    fragAngle: 0
+    bulletInterval: 2
+    intervalBullets: 3
+    fragBullet: {
+        type: LiquidBulletType
+        liquid: gastric-juice
+        despawnHit: true
+        hitSound: shootAtrax
+        status: corroded
+        statusDuration: 60
+        puddleSize: 20
+        despawnSound: shootAtrax
+        damage: 23
+        orbSize: 1
+        homingPower: 10
+        homingRange: 50
+        collidesAir: true
+        speed: 0.86
+        lifetime: 25
+      }
+    intervalBullet: {
+        type: LiquidBulletType
+        liquid: gastric-juice
+        despawnHit: true
+        hitSound: shootAtrax
+        status: corroded
+        statusDuration: 60
+        puddleSize: 20
+        despawnSound: shootAtrax
+        damage: 12
+        orbSize: 1
+        homingPower: 10
+        homingRange: 50
+        collidesAir: true
+        speed: 0.86
+        lifetime: 25
+      }
+    }
+  }
+  {
+        top: true
+      name: organ-mount
+      x:2
+      mirror: true
+      y:-4
+      recoil: 0.4
+      outlineColor: 282C36
+      reload: 120
+      inaccuracy: 0
+      shake: 5
+      rotate: true
+      rotateSpeed: 2.8
+      shootSound: shoot-cancerous
       bullet: {
 type: BasicBulletType
     splashDamage: 80
