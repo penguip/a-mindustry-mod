@@ -17,6 +17,7 @@ groundLayer: 60
 health: 2350
 armor: 7
 hitSize: 14
+engineOffset: 9
 itemCapacity: 0
 useEngineElevation: false
 lowAltitude: false
