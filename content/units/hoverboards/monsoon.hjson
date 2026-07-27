@@ -28,6 +28,9 @@ moveSound: loopExtract
 moveSoundVolume: 0.15
 moveSoundPitchMin: 0.5
 moveSoundPitchMax: 1.2
+immunities: [
+  wet
+]
 abilities: [
   {
     type: MoveEffectAbility
