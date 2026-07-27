@@ -1,0 +1,35 @@
+type: UnitAssembler
+size: 5
+localizedName: Hover Modifier
+description: Creates larger hover units by fusing together inputted blocks and Rain units via entropy. Output tier may be increased by adding modules. 
+health: 3800
+category: units
+droneType: redesign
+areaSize: 13
+requirements: [
+  yttrium/90
+  osmium/30
+  silicon/130
+  gadolinium/100
+  contrinum/45
+  iron/80
+]
+liquidCapacity: 120
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: monsoon
+    requirements: [
+      beepdustry-osmium-wall/8
+      beepdustry-rain/1
+      beepdustry-precipitation/1
+    ]
+    time: 1200
+  }
+]
+squareSprite: false
+consumes: {
+  power: 5
+  liquid: entropy/2
+}
+researchCostMultiplier: 0.5
