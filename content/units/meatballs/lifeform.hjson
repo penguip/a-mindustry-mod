@@ -42,3 +42,27 @@ abilities:[
   }
 ]
 outlineColor: 520500
+weapons: [
+  {
+    bullet: {
+      type: ExplosionBulletType 
+      status: beepdustry-terrified
+      splashDamageRadius: 100
+      damage: 0
+      statusDuration: 250
+      killShooter: "false"
+      despawnEffect: titanExplosionSmall
+      hitEffect: none
+      hitColor: 520500
+    }
+    alwaysShooting: "true"
+    controllable: "false"
+    shootSound: lifeform-roar
+    reload: 0
+    mirror: false
+    shoot: {
+      firstShotDelay: 1200
+    }
+    shake: 100
+  }
+]
