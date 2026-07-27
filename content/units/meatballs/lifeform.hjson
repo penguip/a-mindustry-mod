@@ -89,7 +89,7 @@ weapons: [
       y:8
       recoil: 0.4
       outlineColor: 282C36
-      reload: 240
+      reload: 400
       inaccuracy: 0
       shake: 15
       rotate: true
