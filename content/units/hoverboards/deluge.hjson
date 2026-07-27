@@ -82,11 +82,8 @@ bullet: {
   lightRadius: 20
   parts: []
   pierce: "true"
-  range: 360
-  shieldDamageMultiplier: 4
-  recoil: 4
   spawnBullets: []
-  speed: 1
+  speed: 3
   circleShooter: true
   circleShooterRadius: 20
   trailChance: -1
@@ -113,13 +110,8 @@ bullet: {
   lightRadius: 20
   parts: []
   pierce: "true"
-  range: 360
-  shieldDamageMultiplier: 4
-  recoil: 4
   spawnBullets: []
   speed: 5
-  circleShooter: true
-  circleShooterRadius: 20
   trailChance: -1
   trailColor: 7090ea
   trailInterval: 2.5
