@@ -44,7 +44,7 @@ abilities:[
   {
     type: StatusFieldAbility
     effect: beepdustry-enraged
-    duration: 180
+    duration: 600
     reload: 1200
     activeEffect: {
       type: WaveEffect
@@ -65,7 +65,7 @@ weapons: [
       status: beepdustry-terrified
       splashDamageRadius: 100
       damage: 0
-      statusDuration: 60
+      statusDuration: 450
       killShooter: "false"
       despawnEffect: titanExplosionSmall
       hitEffect: none
