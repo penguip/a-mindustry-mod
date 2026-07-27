@@ -94,7 +94,6 @@ weapons: [
       shake: 15
       rotate: true
       rotateSpeed: 2.45
-      mirror: false
       shootSound: shootArtillerySapBig
       bullet: {
         type: ArtilleryBulletType
