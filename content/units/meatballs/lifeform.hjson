@@ -54,7 +54,7 @@ abilities:[
       colorFrom: 520500
       colorTo: 922900
       }
-    range: 80
+    range: 1
   }
 ]
 outlineColor: 520500
@@ -74,7 +74,7 @@ weapons: [
     alwaysShooting: "true"
     controllable: "false"
     shootSound: lifeform-roar
-    reload: 0
+    reload: 1200
     mirror: false
     shoot: {
       firstShotDelay: 1200
