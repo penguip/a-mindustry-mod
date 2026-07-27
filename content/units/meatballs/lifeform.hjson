@@ -1,6 +1,6 @@
 type: crawl
 name: Lifeform
-description: Spits large fragmentary orbs of gastric juices and large teeth that explode on impact. Capable of self regeneration. Explodes into blood upon dying, and can heal from drinking blood. Occasionally rages, increasing its stats and instilling great fear in nearby enemy targets.
+description: Spits large fragmentary orbs of gastric juices, Tissue-containing neoplasmic sacs, and large teeth that explode on impact. Capable of self regeneration. Explodes into blood upon dying, and can heal from drinking blood. Occasionally rages, increasing its stats and instilling great fear in nearby enemy targets.
 health: 23400
 speed: 1.24
 armor: 2
@@ -17,7 +17,7 @@ rotateSpeed: 5.4
 omniMovement: false
 hitSize: 30
 drag: 0.4
-range: 10
+range: 300
 crushDamage: 4.6666666666667
 itemCapacity: 20
 immunities: [
@@ -81,4 +81,42 @@ weapons: [
     }
     shake: 100
   }
+  {
+      top: true
+      name: organ-mount
+      x:0
+      y:5
+      recoil: 0.4
+      outlineColor: 282C36
+      reload: 240
+      inaccuracy: 0
+      shake: 15
+      rotate: true
+      rotateSpeed: 2.45
+      mirror: false
+      shootSound: shootArtillerySapBig
+      bullet: {
+        type: ArtilleryBulletType
+    splashDamage: 80
+    splashDamageRadius: 34
+    puddleLiquid: neoplasm
+    puddleRange: 30
+    puddles: 40
+    puddleAmount: 50
+    despawnSound: explosionReactorNeoplasm
+    height: 30
+    despawnShake: 35
+    width: 30
+    speed: 1.5
+    lifetime: 200
+    frontColor: f98f4a
+    backColor: eo5438
+    trailColor: f98f4a
+    fragBullets: 3
+    fragBullet: {
+      spawnUnit: tissue
+      instantDisappear: true
+    }
+      }
+    }
 ]
