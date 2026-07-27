@@ -84,8 +84,9 @@ weapons: [
   {
       top: true
       name: organ-mount
-      x:0
-      y:5
+      x:6
+      mirror: true
+      y:8
       recoil: 0.4
       outlineColor: 282C36
       reload: 240
