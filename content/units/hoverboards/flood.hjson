@@ -1,0 +1,43 @@
+localizedName: Flood
+description: Durable compared to most 4th tier units. Equipped with an aqua energy field that shocks and wets the nearest few enemies.
+hovering: true
+hoverable: true
+faceTarget: false
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.075
+outlineColor: 26262f
+speed: 1
+rotateSpeed: 3
+accel: 0.1
+groundLayer: 60
+health: 16400
+armor: 19
+hitSize: 26
+engineOffset: 17
+engineSize: 4
+itemCapacity: 0
+useEngineElevation: false
+lowAltitude: false
+canDrown: false
+targetAir: false
+range: 220
+maxRange: 220
+moveSound: loopExtract
+moveSoundVolume: 0.15
+moveSoundPitchMin: 0.5
+moveSoundPitchMax: 1.2
+immunities: [
+  wet
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.10000000149011612
+    teamColor: "true"
+    y: -19
+  }
+]
