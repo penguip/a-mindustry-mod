@@ -27,6 +27,15 @@ moveSound: loopExtract
 moveSoundVolume: 0.15
 moveSoundPitchMin: 0.5
 moveSoundPitchMax: 1.2
+abilities: [
+  {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.10000000149011612
+    teamColor: "true"
+    y: -9
+  }
+]
 parts: [
   {
     type: HoverPart
