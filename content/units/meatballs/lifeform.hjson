@@ -22,6 +22,7 @@ crushDamage: 4.6666666666667
 itemCapacity: 20
 immunities: [
   bloodied
+  hemorrhage
 ]
 abilities:[
   {
@@ -40,6 +41,21 @@ abilities:[
     regenPerSlurp: 20
     slurpSpeed: 3
   }
+  {
+    type: StatusFieldAbility
+    effect: beepdustry-enraged
+    duration: 180
+    reload: 1200
+    activeEffect: {
+      type: WaveEffect
+      sizeTo: 80
+      strokeFrom: 11
+      lifetime: 80
+      colorFrom: 520500
+      colorTo: 922900
+      }
+    range: 80
+  }
 ]
 outlineColor: 520500
 weapons: [
@@ -49,7 +65,7 @@ weapons: [
       status: beepdustry-terrified
       splashDamageRadius: 100
       damage: 0
-      statusDuration: 250
+      statusDuration: 60
       killShooter: "false"
       despawnEffect: titanExplosionSmall
       hitEffect: none
