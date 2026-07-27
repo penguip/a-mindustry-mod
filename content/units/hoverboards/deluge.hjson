@@ -96,6 +96,7 @@ bullet: {
   trailEffect: shootSmokeTitan
   hitSound: shootArtillerySap
   hitColor: 7090ea
+  delayFrags: true
   status: wet
   statusDuration: 60
   despawnShake: 5
@@ -111,7 +112,6 @@ bullet: {
   lifetime: 40
   lightRadius: 20
   parts: []
-  pierce: "true"
   spawnBullets: []
   speed: 5
   trailChance: -1
