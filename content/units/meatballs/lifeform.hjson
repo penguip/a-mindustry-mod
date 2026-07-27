@@ -212,7 +212,6 @@ type: BasicBulletType
         barrels: 2
         spread: 4
       }
-      shake: 5
       rotate: true
       shootY: 4
       rotateSpeed: 2.8
@@ -228,9 +227,9 @@ type: BasicBulletType
        width: 3
        speed: 5
        lifetime: 60
-       backColor: dba40f
-       frontColor: dbbc42
-       trailColor: dbbc42
+       backColor: ao4eff
+       frontColor: d267ff
+       trailColor: d267ff
        trailLength: 11
        trailWidth: 1
        despawnHit: true
