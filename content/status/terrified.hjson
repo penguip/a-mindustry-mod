@@ -1,0 +1,5 @@
+localizedName: Terrified
+description: This unit has been shaken by the roar(?) of a nearby Lifeform worm. Disarms and stuns the unit.
+disarm: true
+speedMultiplier: 0
+outline: false
