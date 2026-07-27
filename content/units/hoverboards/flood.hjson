@@ -1,5 +1,5 @@
 localizedName: Flood
-description: Durable compared to most 4th tier units. Equipped with an aqua energy field that shocks and wets the nearest few enemies.
+description: Durable compared to most 4th tier units. Equipped with an aqua energy field that shocks and wets the nearest few enemies. Capable of healing allied blocks and units. Floats over liquids.
 hovering: true
 hoverable: true
 faceTarget: false
@@ -13,7 +13,7 @@ speed: 1
 rotateSpeed: 3
 accel: 0.1
 groundLayer: 60
-health: 16400
+health: 18760
 armor: 19
 hitSize: 26
 engineOffset: 17
@@ -23,8 +23,8 @@ useEngineElevation: false
 lowAltitude: false
 canDrown: false
 targetAir: false
-range: 220
-maxRange: 220
+range: 100
+maxRange: 100
 moveSound: loopExtract
 moveSoundVolume: 0.15
 moveSoundPitchMin: 0.5
@@ -71,6 +71,21 @@ abilities: [
     teamColor: "true"
     y: -11
     x: -11
+  }
+  {
+    type: EnergyFieldAbility
+    status: wet
+    damage: 65
+    maxTargets: 5
+    range: 100
+    statusDuration: 30
+    reload: 15
+    color: 7090ea
+    sectorRad: 0.07
+    sectors: 10
+    effectRadius: 2
+    rotateSpeed: 1
+    healPercent: 0.75
   }
 ]
 engines: [
