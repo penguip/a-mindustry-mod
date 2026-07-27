@@ -70,3 +70,45 @@ engines: [
     rotation: -90
   }
 ]
+weapons: [
+bullet: {
+  type: BasicBulletType
+  damage: 45
+  despawnHit: "true"
+  drawSize: 160
+  lifetime: 200
+  lightRadius: 20
+  parts: []
+  pierce: "true"
+  range: 360
+  shieldDamageMultiplier: 4
+  recoil: 4
+  spawnBullets: []
+  speed: 1
+  circleShooter: true
+  circleShooterRadius: 20
+  trailChance: -1
+  trailColor: 946d6c
+  trailInterval: 2.5
+  trailLength: 8
+  trailParam: 4
+  trailRotation: "true"
+  trailWidth: 4
+  trailEffect: shootSmokeTitan
+  hitSound: shootArtillerySap
+  hitColor: 946d6c
+  status: wet
+  statusDuration: 60
+  despawnShake: 5
+  fragBullets: 1
+  fragRandomSpread: 0
+}
+mirror: "false"
+parts: []
+recoilTime: 170
+reload: 275
+shake: 5
+x: 0
+y: -6
+shootSound: shootAfflict
+]
