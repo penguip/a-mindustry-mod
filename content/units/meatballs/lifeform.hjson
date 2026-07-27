@@ -119,6 +119,7 @@ weapons: [
     }
       }
     }
+   {
         top: true
       name: organ-mount
       x:4
@@ -128,32 +129,46 @@ weapons: [
       outlineColor: 282C36
       reload: 120
       inaccuracy: 0
-      shake: 15
+      shake: 5
       rotate: true
       rotateSpeed: 2.8
       shootSound: shootAfflict
       bullet: {
-        type: ArtilleryBulletType
+type: BasicBulletType
     splashDamage: 80
+    sprite: large-orb
     splashDamageRadius: 34
-    puddleLiquid: neoplasm
-    puddleRange: 30
-    puddles: 40
-    puddleAmount: 50
-    despawnSound: explosionReactorNeoplasm
-    height: 30
-    despawnShake: 35
-    width: 30
-    speed: 1.5
-    lifetime: 200
-    frontColor: f98f4a
-    backColor: eo5438
-    trailColor: f98f4a
-    fragBullets: 3
+    height: 15
+    width: 15
+    speed: 2
+    despawnSound: explosionAfflict
+    status: corroded
+    statusDuration: 180
+    lifetime: 150
+    collidesAir: true
+    frontColor: 66b057
+    backColor: 36bo41
+    trailColor: 66b057
+    fragOnHit: true
+    fragVelocityMin: 2
+    fragVelocityMax: 2
+    fragBullets: 35
+    fragAngle: 0
     fragBullet: {
-      spawnUnit: tissue
-      instantDisappear: true
-    }
+        type: LiquidBulletType
+        liquid: gastric-juice
+        despawnHit: true
+        hitSound: shootAtrax
+        status: corroded
+        statusDuration: 60
+        puddleSize: 60
+        despawnSound: shootAtrax
+        damage: 23
+        orbRadius: 1
+        collidesAir: true
+        speed: 0.86
+        lifetime: 25
       }
     }
+  }
 ]
