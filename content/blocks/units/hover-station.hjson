@@ -20,7 +20,7 @@ plans: [
       gadolinium/35
       oxide/45
     ]
-    time: 5000
+    time: 1050
   }
 ]
 consumes: {
