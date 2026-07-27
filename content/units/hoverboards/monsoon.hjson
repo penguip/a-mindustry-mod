@@ -40,9 +40,10 @@ parts: [
   {
     type: HoverPart
     x: 3
-    y: -1
+    y: 0
     mirror: true
-    radius: 4
+    radius: 7
+    circles: 3
     phase: 90
     stroke: 2
     layerOffset: -0.001
