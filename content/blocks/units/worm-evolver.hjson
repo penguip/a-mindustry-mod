@@ -63,7 +63,7 @@ plans: [
       beepdustry-peril/1
       beepdustry-sophisticated-ligament/12
     ]
-    time: 5400
+    time: 10800
   }
 ]
 consumes: {
