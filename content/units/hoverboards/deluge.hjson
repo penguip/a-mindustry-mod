@@ -72,6 +72,7 @@ engines: [
   }
 ]
 weapons: [
+{
 bullet: {
   type: BasicBulletType
   damage: 45
@@ -147,4 +148,5 @@ shake: 5
 x: 0
 y: -6
 shootSound: shootAfflict
+}
 ]
