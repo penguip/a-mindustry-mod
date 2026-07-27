@@ -205,70 +205,37 @@ type: BasicBulletType
       y:-4
       recoil: 0.4
       outlineColor: 282C36
-      reload: 120
+      reload: 4
       inaccuracy: 0
+      shoot: {
+        type: shootAlternate
+        barrels: 2
+        spread: 4
+      }
       shake: 5
       rotate: true
+      shootY: 4
       rotateSpeed: 2.8
       shootSound: shoot-cancerous
       bullet: {
-type: BasicBulletType
-    splashDamage: 80
-    sprite: large-orb
-    splashDamageRadius: 34
-    height: 15
-    width: 15
-    damage: 123
-    speed: 2
-    despawnSound: explosionAfflict
-    status: corroded
-    statusDuration: 180
-    lifetime: 150
-    collidesAir: true
-    frontColor: 66b057
-    backColor: 36bo41
-    trailColor: 66b057
-    fragOnHit: true
-    fragVelocityMin: 2
-    fragVelocityMax: 2
-    fragBullets: 35
-    fragAngle: 0
-    bulletInterval: 2
-    intervalBullets: 3
-    fragBullet: {
-        type: LiquidBulletType
-        liquid: gastric-juice
-        despawnHit: true
-        hitSound: shootAtrax
-        status: corroded
-        statusDuration: 60
-        puddleSize: 20
-        despawnSound: shootAtrax
-        damage: 23
-        orbSize: 1
-        homingPower: 10
-        homingRange: 50
-        collidesAir: true
-        speed: 0.86
-        lifetime: 25
-      }
-    intervalBullet: {
-        type: LiquidBulletType
-        liquid: gastric-juice
-        despawnHit: true
-        hitSound: shootAtrax
-        status: corroded
-        statusDuration: 60
-        puddleSize: 20
-        despawnSound: shootAtrax
-        damage: 12
-        orbSize: 1
-        homingPower: 10
-        homingRange: 50
-        collidesAir: true
-        speed: 0.86
-        lifetime: 25
-      }
+       type: BasicBulletType
+       length: 30
+       damage: 13
+       splashDamage: 23
+       splashDamageRadius: 35
+       pierce: true
+       pierceCap: 5
+       width: 3
+       speed: 5
+       lifetime: 60
+       backColor: dba40f
+       frontColor: dbbc42
+       trailColor: dbbc42
+       trailLength: 11
+       trailWidth: 1
+       despawnHit: true
+       hitEffect: flakExplosion
+       hitSound: explosion
     }
   }
 ]
