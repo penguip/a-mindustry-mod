@@ -140,6 +140,7 @@ type: BasicBulletType
     splashDamageRadius: 34
     height: 15
     width: 15
+    damage: 123
     speed: 2
     despawnSound: explosionAfflict
     status: corroded
@@ -154,6 +155,8 @@ type: BasicBulletType
     fragVelocityMax: 2
     fragBullets: 35
     fragAngle: 0
+    bulletInterval: 2
+    intervalBullets: 3
     fragBullet: {
         type: LiquidBulletType
         liquid: gastric-juice
@@ -161,10 +164,29 @@ type: BasicBulletType
         hitSound: shootAtrax
         status: corroded
         statusDuration: 60
-        puddleSize: 60
+        puddleSize: 20
         despawnSound: shootAtrax
         damage: 23
-        orbRadius: 1
+        orbSize: 1
+        homingPower: 10
+        homingRange: 50
+        collidesAir: true
+        speed: 0.86
+        lifetime: 25
+      }
+    intervalBullet: {
+        type: LiquidBulletType
+        liquid: gastric-juice
+        despawnHit: true
+        hitSound: shootAtrax
+        status: corroded
+        statusDuration: 60
+        puddleSize: 20
+        despawnSound: shootAtrax
+        damage: 12
+        orbSize: 1
+        homingPower: 10
+        homingRange: 50
         collidesAir: true
         speed: 0.86
         lifetime: 25
