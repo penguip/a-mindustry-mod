@@ -159,7 +159,7 @@ weapons: [
     bullet: {
       type: LaserBulletType
       length: 180
-      width: 6
+      width: 30
       sideLength: 0
       damage: 54
       status: wet
