@@ -18,3 +18,32 @@ immunities: [
   bloodied
   hemorrhage
 ]
+weapons: [
+  {
+    x: 2
+    y: 1
+    name: trout-weapon
+    reload: 15
+    rotate: true
+    mirror: true
+    shootSound: shootMissileShort
+    shootSoundVolume: 0.3
+    rotateSpeed: 2.5
+    bullet: {
+      type: MissileBulletType
+      height: 8
+      damage: 17
+      pierce: false
+      width: 8
+      pierceBuilding: false
+      speed: 2.3
+      lifetime: 64
+      backColor: bd3331
+      frontColor: bd5b47
+      trailColor: bd3331
+      splashDamage: 8
+      splashDamageRadius: 25
+      hitEffect: flakExplosion
+    }
+  }
+]
