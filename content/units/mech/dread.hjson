@@ -28,6 +28,9 @@ weapons: [
     shootSound: explosionReactor
     reload: 600
     shake: 25
+    x: 0
+    y: 0
+    mirror: false
   }
   {
     top: true
