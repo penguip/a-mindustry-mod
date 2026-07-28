@@ -4,7 +4,7 @@ description: Fires weak missiles at enemy targets.
 speed: 1.2
 health: 750
 armor: 2
-range: 90
+range: 147.2
 drag: 0.1
 accel: 0.8
 hitSize: 6
