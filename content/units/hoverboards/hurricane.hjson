@@ -177,7 +177,7 @@ weapons: [
     y: -12
     reload: 43
     shoot: {
-      shots: 100
+      shots: 25
       shotDelay: 60
     }
     name: hurricane-minigun
