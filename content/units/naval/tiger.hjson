@@ -44,5 +44,32 @@ weapons: [
   y: 0
   mirror: false
   }
+    {
+    x: 0
+    y: 1
+    name: tiger-weapon
+    reload: 15
+    rotate: true
+    mirror: true
+    shootSound: shootAtrax
+    shootSoundVolume: 0.8
+    rotateSpeed: 2.75
+    bullet: {
+      type: MissileBulletType
+      height: 8
+      damage: 17
+      pierce: false
+      width: 8
+      pierceBuilding: false
+      speed: 2.3
+      lifetime: 64
+      backColor: bd3331
+      frontColor: bd5b47
+      trailColor: bd3331
+      splashDamage: 8
+      splashDamageRadius: 25
+      hitEffect: flakExplosion
+    }
+  }
 ]
  
