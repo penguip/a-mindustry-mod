@@ -14,3 +14,7 @@ outlineColor: 0C0E29
 moveSoundVolume: 0.34
 moveSound: shipMove
 itemCapacity: 10
+immunities: [
+  bloodied
+  hemorrhage
+]
