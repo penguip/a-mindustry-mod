@@ -28,7 +28,7 @@ weapons: [
   hitSound: blockExplodeExplosive
   hitColor: 946d6c
   despawnEffect: scatheExplosion
-  incendAmount: 80
+  incendAmount: 160
   incendChance: 100
   status: burning
   collidesAir: false
