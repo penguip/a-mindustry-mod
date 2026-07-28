@@ -41,4 +41,62 @@ abilities: [
     teamColor: "true"
     y: -20
   }
+  {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.10000000149011612
+    teamColor: "true"
+    y: -20
+    x: 7.5
+  }
+  {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.10000000149011612
+    teamColor: "true"
+    y: -20
+    x: -7.5
+  }
+  {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.10000000149011612
+    teamColor: "true"
+    y: -20
+    x: 14
+  }
+  {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.10000000149011612
+    teamColor: "true"
+    y: -20
+    x: -14
+  }
+]
+engines: [
+  {
+    radius: 2
+    rotation: -90
+    x: 7.5
+    y: -20
+  }
+  {
+    radius: 2
+    rotation: -90
+    x: -7.5
+    y: -20
+  }
+  {
+    radius: 3
+    rotation: -90
+    x: 14
+    y: -20
+  }
+  {
+    radius: 3
+    rotation: -90
+    x: -14
+    y: -20
+  }
 ]
