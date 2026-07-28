@@ -1,0 +1,35 @@
+type: UnitAssembler
+size: 5
+localizedName: Naval Modifier
+description: Creates larger naval units by fusing together inputted blocks and Trout units via entropy. Output tier may be increased by adding modules. Placing the modifier facing a body of water, blood, or hemogen is advised to avoid wasting resources.
+health: 3700
+category: units
+droneType: redesign
+areaSize: 13
+requirements: [
+  yttrium/180
+  osmium/100
+  silicon/55
+  gadolinium/80
+  oxide/100
+  zirconium/35
+]
+liquidCapacity: 120
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: tiger
+    requirements: [
+      beepdustry-osmium-wall-large/4
+      beepdustry-trout/1
+      beepdustry-precipitation/1
+    ]
+    time: 1200
+  }
+]
+squareSprite: false
+consumes: {
+  power: 2
+  liquid: entropy/6
+}
+researchCostMultiplier: 0.5
