@@ -33,3 +33,11 @@ moveSoundPitchMax: 1.2
 immunities: [
   wet
 ]
+abilities: [
+  {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.10000000149011612
+    teamColor: "true"
+    y: -21
+  }
