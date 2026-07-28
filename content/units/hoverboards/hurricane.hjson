@@ -24,8 +24,8 @@ useEngineElevation: false
 lowAltitude: false
 canDrown: false
 targetAir: false
-range: 100
-maxRange: 100
+range: 190
+maxRange: 190
 moveSound: loopExtract
 moveSoundVolume: 0.15
 moveSoundPitchMin: 0.5
@@ -176,26 +176,28 @@ weapons: [
     x: 8
     y: -12
     reload: 120
+    shoot: {
+      shots: 100
+      shotDelay: 600
+    }
     name: hurricane-minigun
     rotate: true
     mirror: true
     shootSound: shootCyclone
     shootSoundVolume: 0.3
-    inaccuracy: 360
+    inaccuracy: 8
     rotateSpeed: 2.5
     bullet: {
       type: LaserBulletType
-      length: 180
-      width: 30
+      length: 190
+      width: 1
       sideLength: 0
-      damage: 54
+      pierce: false
+      damage: 14
       status: wet
       statusDuration: 50
       colors: [
-      363f9a,
-      486acd,
-      7090ea,
-      ffffff
+      7090ea
       ]
     }
   }
