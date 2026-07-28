@@ -175,10 +175,10 @@ weapons: [
   {
     x: 8
     y: -12
-    reload: 120
+    reload: 59
     shoot: {
       shots: 100
-      shotDelay: 600
+      shotDelay: 60
     }
     name: hurricane-minigun
     rotate: true
@@ -193,7 +193,7 @@ weapons: [
       width: 1
       sideLength: 0
       pierce: false
-      damage: 14
+      damage: 7
       status: wet
       statusDuration: 50
       colors: [
