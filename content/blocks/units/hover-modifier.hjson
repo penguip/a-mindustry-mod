@@ -48,6 +48,19 @@ plans: [
     ]
     time: 11400
   }
+  {
+    type: AssemblerUnitPlan
+    unit: hurricane
+    requirements: [
+      beepdustry-zirconium-wall-large/12
+      beepdustry-wall-of-sakura-large/8
+      beepdustry-chromatic-wall-yellow/8
+      beepdustry-rain/20
+      beepdustry-dissent/1
+      beepdustry-gravity-suspender/3
+    ]
+    time: 21000
+  }
 ]
 squareSprite: false
 consumes: {
