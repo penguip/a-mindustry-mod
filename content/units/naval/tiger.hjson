@@ -18,6 +18,7 @@ itemCapacity: 10
 immunities: [
   bloodied
   hemorrhage
+  burning
 ]
 weapons: [
   {
