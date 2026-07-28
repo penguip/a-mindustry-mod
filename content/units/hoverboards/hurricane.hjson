@@ -151,6 +151,7 @@ weapons: [
     rotate: true
     mirror: false
     shootSound: shootMalign
+    shootCone: 360
     shootSoundVolume: 0.3
     inaccuracy: 360
     rotateSpeed: 2.5
@@ -158,6 +159,8 @@ weapons: [
     bullet: {
       type: LaserBulletType
       length: 180
+      width: 6
+      sideLength: 0
       damage: 54
       status: wet
       statusDuration: 50
