@@ -100,3 +100,46 @@ engines: [
     y: -20
   }
 ]
+parts: [
+  {
+    type: ShapePart
+    radius: 6
+    hollow: "true"
+    sides: 5
+    layer: 110
+    rotateSpeed: 1
+    color: 7090ea
+  }
+  {
+    type: ShapePart
+    radius: 3
+    hollow: "true"
+    sides: 5
+    layer: 110
+    rotateSpeed: -1
+    color: 7090ea
+  }
+  {
+    type: HaloPart
+    shapes: 5
+    haloRadius: 25
+    tri: "true"
+    radius: 3
+    haloRotateSpeed: -1
+    triLength: 8
+    shapeRotation: 180
+    layer: 110
+    color: 7090ea
+  }
+  {
+    type: HaloPart
+    shapes: 5
+    haloRadius: 35
+    tri: "true"
+    haloRotateSpeed: 1
+    triLength: 8
+    shapeRotation: 180
+    layer: 110
+    color: 7090ea
+  }
+]
