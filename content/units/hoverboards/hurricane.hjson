@@ -175,7 +175,7 @@ weapons: [
   {
     x: 8
     y: -12
-    reload: 59
+    reload: 43
     shoot: {
       shots: 100
       shotDelay: 60
