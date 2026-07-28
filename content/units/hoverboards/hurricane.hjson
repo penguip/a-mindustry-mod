@@ -1,0 +1,35 @@
+type: hover
+localizedName: Hurricane
+description: Fires cluster aquatic laser charges at nearby enemy targets. Armed with accelerating aqua machine guns. Envelops itself in a durable shield when firing. Floats over liquids.
+hovering: true
+hoverable: true
+faceTarget: false
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.075
+outlineColor: 26262f
+speed: 0.8642
+rotateSpeed: 2.37
+accel: 0.1
+groundLayer: 60
+health: 35700
+armor: 25
+hitSize: 32
+engineOffset: 20
+engineSize: 5
+itemCapacity: 0
+useEngineElevation: false
+lowAltitude: false
+canDrown: false
+targetAir: false
+range: 100
+maxRange: 100
+moveSound: loopExtract
+moveSoundVolume: 0.15
+moveSoundPitchMin: 0.5
+moveSoundPitchMax: 1.2
+immunities: [
+  wet
+]
