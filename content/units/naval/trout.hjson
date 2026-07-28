@@ -27,7 +27,7 @@ weapons: [
     rotate: true
     mirror: true
     shootSound: shootMissileShort
-    shootSoundVolume: 0.3
+    shootSoundVolume: 0.8
     rotateSpeed: 2.5
     bullet: {
       type: MissileBulletType
