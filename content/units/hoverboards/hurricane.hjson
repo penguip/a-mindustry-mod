@@ -17,7 +17,7 @@ groundLayer: 60
 health: 35700
 armor: 25
 hitSize: 32
-engineOffset: 20
+engineOffset: 19
 engineSize: 3
 itemCapacity: 0
 useEngineElevation: false
@@ -39,6 +39,6 @@ abilities: [
     effect: missileTrailShort
     minVelocity: 0.10000000149011612
     teamColor: "true"
-    y: -21
+    y: -20
   }
 ]
