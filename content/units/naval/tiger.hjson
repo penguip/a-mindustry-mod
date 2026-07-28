@@ -50,7 +50,7 @@ weapons: [
     name: tiger-weapon
     reload: 15
     rotate: true
-    mirror: true
+    mirror: false
     shootSound: shootAtrax
     shootSoundVolume: 0.8
     rotateSpeed: 2.75
