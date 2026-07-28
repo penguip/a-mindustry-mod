@@ -73,6 +73,15 @@ abilities: [
     y: -20
     x: -14
   }
+  {
+    type: ShieldArcAbility
+    region: beepdustry-hurricane-shield
+    max: 7600
+    cooldown: 600
+    regen: 0.5
+    radius: 28
+    angle: 360
+  }
 ]
 engines: [
   {
