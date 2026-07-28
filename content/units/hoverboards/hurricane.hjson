@@ -1,6 +1,6 @@
 type: hover
 localizedName: Hurricane
-description: Fires a barrage of aquatic lasers at nearby enemy targets. Armed with accelerating aqua machine guns. Envelops itself in a durable shield when firing. Floats over liquids.
+description: Fires a barrage of aquatic lasers at enemy targets. Armed with accelerating aqua machine guns. Envelops itself in a durable shield when firing. Floats over liquids.
 hovering: true
 hoverable: true
 faceTarget: false
@@ -156,17 +156,17 @@ weapons: [
     rotateSpeed: 2.5
     shake: 3
     bullet: {
-      type: LaserBoltBulletType
-      length: 10
-      damage: 18
-      pierce: false
-      width: 2
-      pierceBuilding: false
-      speed: 3.4
-      lifetime: 20
-      backColor: 7090ea
+      type: LaserBulletType
+      length: 180
+      damage: 54
       status: wet
-      statusDuration: 30
+      statusDuration: 50
+      colors: [
+      363f9a,
+      486acd,
+      7090ea,
+      ffffff
+      ]
     }
   }
 ]
