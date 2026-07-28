@@ -36,6 +36,18 @@ plans: [
     ]
     time: 5400
   }
+  {
+    type: AssemblerUnitPlan
+    unit: flood
+    requirements: [
+      beepdustry-actinium-wall-large/10
+      beepdustry-specialized-plastanium-wall-large/8
+      beepdustry-rain/10
+      beepdustry-berate/1
+      beepdustry-gravity-suspender/3
+    ]
+    time: 11400
+  }
 ]
 squareSprite: false
 consumes: {
