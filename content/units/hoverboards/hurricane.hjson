@@ -172,4 +172,31 @@ weapons: [
       ]
     }
   }
+  {
+    x: 8
+    y: -12
+    reload: 120
+    name: hurricane-minigun
+    rotate: true
+    mirror: true
+    shootSound: shootCyclone
+    shootSoundVolume: 0.3
+    inaccuracy: 360
+    rotateSpeed: 2.5
+    bullet: {
+      type: LaserBulletType
+      length: 180
+      width: 30
+      sideLength: 0
+      damage: 54
+      status: wet
+      statusDuration: 50
+      colors: [
+      363f9a,
+      486acd,
+      7090ea,
+      ffffff
+      ]
+    }
+  }
 ]
