@@ -1,0 +1,16 @@
+type: naval
+localizedName: Trout
+description: Fires weak missiles at enemy targets.
+speed: 1.2
+health: 750
+armor: 2
+range: 90
+drag: 0.1
+accel: 0.8
+hitSize: 6
+rotateSpeed: 2.5
+trailLength: 15
+outlineColor: 0C0E29
+moveSoundVolume: 0.34
+moveSound: shipMove
+itemCapacity: 10
