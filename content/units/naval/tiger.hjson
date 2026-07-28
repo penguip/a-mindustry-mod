@@ -37,6 +37,11 @@ weapons: [
   killShooter: false
   }
   reload: 300
+  alwaysShooting: true
+  controllable: false
+  x: 0
+  y: 0
+  mirror: false
   }
 ]
  
