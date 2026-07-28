@@ -18,7 +18,7 @@ health: 35700
 armor: 25
 hitSize: 32
 engineOffset: 20
-engineSize: 5
+engineSize: 3
 itemCapacity: 0
 useEngineElevation: false
 lowAltitude: false
