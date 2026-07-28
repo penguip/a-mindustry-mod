@@ -1,0 +1,20 @@
+type: naval
+localizedName: Tiger
+description: Shoots orbs of oil at nearby enemy ground targets. Occasionally sets itself and the area around it on fire, including any oil on the ground or other nearby flammable fluids.
+speed: 1
+health: 3450
+armor: 2
+range: 147.2
+drag: 0.1
+accel: 0.8
+hitSize: 10
+rotateSpeed: 2.24
+trailLength: 19
+outlineColor: 0C0E29
+moveSoundVolume: 0.34
+moveSound: shipMove
+itemCapacity: 10
+immunities: [
+  bloodied
+  hemorrhage
+]
