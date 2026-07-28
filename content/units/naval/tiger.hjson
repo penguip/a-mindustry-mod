@@ -55,20 +55,17 @@ weapons: [
     shootSoundVolume: 0.8
     rotateSpeed: 2.75
     bullet: {
-      type: MissileBulletType
-      height: 8
-      damage: 17
-      pierce: false
-      width: 8
-      pierceBuilding: false
-      speed: 2.3
-      lifetime: 64
-      backColor: bd3331
-      frontColor: bd5b47
-      trailColor: bd3331
-      splashDamage: 8
-      splashDamageRadius: 25
-      hitEffect: flakExplosion
+      type: LiquidBulletType
+        liquid: oil
+        despawnHit: true
+        status: tarred
+        statusDuration: 60
+        puddleSize: 40
+        damage: 0
+        collidesAir: false
+        orbSize: 2
+        speed: 1
+        lifetime: 100
     }
   }
 ]
