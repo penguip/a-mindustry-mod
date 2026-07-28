@@ -1,0 +1,28 @@
+type: UnitFactory
+size: 2
+health: 800
+localizedName: Naval Station
+description: Builds Trout units. Output may be used directly, or moved into modifiers for advanced construction.
+configurable: true
+requirements: [
+  yttrium/30
+  osmium/25
+  silicon/60
+]
+category: units
+configurable: false
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: trout
+    requirements: [
+      yttrium/40
+      osmium/30
+      iron/30
+    ]
+    time: 960
+  }
+]
+consumes: {
+  power: 5
+}
