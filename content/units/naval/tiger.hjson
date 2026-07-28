@@ -33,8 +33,8 @@ weapons: [
   incendChance: 100
   status: burning
   collidesAir: false
-  statusDuration: 180
-  incendSpread: 100
+  statusDuration: 360
+  incendSpread: 120
   killShooter: false
   }
   reload: 300
@@ -60,12 +60,12 @@ weapons: [
         despawnHit: true
         status: tarred
         statusDuration: 60
-        puddleSize: 40
+        puddleSize: 80
         damage: 0
         collidesAir: false
-        orbSize: 2
-        speed: 1
-        lifetime: 100
+        orbSize: 4
+        speed: 5
+        lifetime: 20
     }
   }
 ]
