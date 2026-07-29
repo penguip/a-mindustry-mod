@@ -42,7 +42,7 @@ otherSide: 2
 parts: []
 recoil: 0.5
 recoilTime: 10
-aimChangeSpeed: 0.287
+aimChangeSpeed: 1
 rotate: "true"
 rotateSpeed: 1.34
 shootSound: beamLustre
