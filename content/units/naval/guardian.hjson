@@ -22,5 +22,7 @@ canBoost: true
 engineSize: 8
 engineOffset: 9
 stances: [
+  stop
+  patrol
   boost
 ]
