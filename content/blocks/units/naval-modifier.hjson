@@ -26,6 +26,17 @@ plans: [
     ]
     time: 1200
   }
+  {
+    type: AssemblerUnitPlan
+    unit: megalodon
+    requirements: [
+      beepdustry-actinium-wall/6
+      beepdustry-contrinum-wall-large/8
+      beepdustry-trout/5
+      beepdustry-phrase/1
+    ]
+    time: 4500
+  }
 ]
 squareSprite: false
 consumes: {
