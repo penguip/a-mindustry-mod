@@ -27,3 +27,28 @@ stances: [
   patrol
   boost
 ]
+weapons: [
+  {
+    x: 0
+    y: 0
+    name: collector-weapon
+    reload: 300
+    rotate: true
+    mirror: false
+    shootSound: shoot-spite
+    shootSoundVolume: 1
+    rotateSpeed: 2.75
+    shake: 25
+    bullet: {
+      type: ShrapnelBulletType
+      length: 120
+      damage: 76
+      width: 6
+      serrations: 10
+      serrationWidth: 8
+      serrationSpacing: 12
+      toColor: bd3331
+      pierceArmor: true
+    }
+  }
+]
