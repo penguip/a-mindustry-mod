@@ -11,7 +11,7 @@ hitSize: 10
 rotateSpeed: 2.24
 trailLength: 19
 targetAir: false
-outlineColor: 0C0E29
+outlineColor: 282C36
 moveSoundVolume: 0.34
 moveSound: shipMove
 itemCapacity: 10
