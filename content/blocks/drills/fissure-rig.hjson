@@ -9,7 +9,7 @@ hasPower: false
 tier: 3
 shake: 1
 itemCapacity: 30
-hasLiquids: false
+hasLiquids: true
 researchCostMultiplier: 0.5
 requirements: [
   yttrium/50
