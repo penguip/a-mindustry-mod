@@ -1,0 +1,21 @@
+type: naval
+localizedName: Guardian
+description: Concentrates and fires a continuous, single-target laser. Capable of disengaging its weapons to cross terrain.
+speed: 0.64
+health: 14500
+armor: 19
+range: 100
+drag: 0.1
+accel: 0.8
+hitSize: 26
+rotateSpeed: 1.65
+trailLength: 46
+outlineColor: 282C36
+moveSoundVolume: 0.34
+moveSound: shipMove
+itemCapacity: 10
+immunities: [
+  bloodied
+  hemorrhage
+]
+canBoost: true
