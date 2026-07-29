@@ -1,0 +1,13 @@
+type: Junction
+size: 3
+customShadow: true
+placeablePlayer: false
+localizedName: Sail Turbine
+description: A large turbine that units can focus all their battery power into powerful thrust. Used in producing Guardian and Collector.
+requirements: [
+  zirconium/85
+  actinium/45
+  plastanium/25
+]
+databaseTag: unitpart
+researchCostMultiplier: 1
