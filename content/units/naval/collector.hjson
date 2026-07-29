@@ -37,7 +37,7 @@ weapons: [
     mirror: true
     shootSound: shootMissileLong
     shootSoundVolume: 0.8
-    rotateSpeed: 2.5
+    rotateSpeed: 2.75
     shake: 5
     bullet: {
       type: MissileBulletType
@@ -53,7 +53,9 @@ weapons: [
       trailColor: bd3331
       trailChance: 0
       trailLength: 8
-      trailLength: 1
+      trailWidth: 1
+      weaveMag: 4
+      weaveScale: 4
       splashDamage: 8
       splashDamageRadius: 25
       hitEffect: flakExplosion
@@ -68,7 +70,7 @@ weapons: [
     mirror: false
     shootSound: shoot-spite
     shootSoundVolume: 1
-    rotateSpeed: 2.75
+    rotateSpeed: 1
     shake: 25
     bullet: {
       type: LaserBulletType
