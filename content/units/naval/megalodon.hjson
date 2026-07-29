@@ -43,7 +43,7 @@ weapons: [
       serrations: 10
       serrationWidth: 8
       serrationSpacing: 12
-      toColor: e2caca
+      toColor: bd3331
       pierceArmor: true
     }
   }
