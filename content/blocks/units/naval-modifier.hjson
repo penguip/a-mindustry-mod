@@ -37,6 +37,18 @@ plans: [
     ]
     time: 4500
   }
+  {
+    type: AssemblerUnitPlan
+    unit: guardian
+    requirements: [
+      beepdustry-silicon-wall-large/14
+      beepdustry-actinium-wall-large/8
+      beepdustry-trout/10
+      beepdustry-berate/1
+      beepdustry-sail-turbine/1
+    ]
+    time: 8700
+  }
 ]
 squareSprite: false
 consumes: {
