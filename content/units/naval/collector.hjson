@@ -79,8 +79,8 @@ fragBullet: {
     pierce: "true"
     pierceBuilding: "true"
     pierceCap: 1
-    range: 240
-    speed: 6
+    range: 300
+    speed: 7.5
     splashDamage: 96
     splashDamageRadius: 48
     trailColor: "#baa164ff"
