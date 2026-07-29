@@ -24,7 +24,7 @@ consumes: {
       water/2
     ]
     optional: true
-    boooster: true
+    booster: true
   }
 }
 liquidBoostIntensity: 1.8
