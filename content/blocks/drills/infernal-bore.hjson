@@ -18,7 +18,7 @@ consumes: {
       water/0.666666666667
     ]
     optional: true
-    boooster: true
+    booster: true
   }
 }
 category: production
