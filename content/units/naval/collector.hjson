@@ -4,7 +4,7 @@ description: Fires an extremely powerful rail laser at enermy targets. Armed wit
 speed: 0.34
 health: 36700
 armor: 30
-range: 240
+range: 300
 drag: 0.1
 accel: 0.8
 hitSize: 32
@@ -49,6 +49,7 @@ fragBullet: {
   despawnEffect: scatheExplosion
   despawnHit: "true"
   despawnShake: 12
+  hitColor: bd3331
   despawnSound: shootSmite
   fragBullet: {
     type: BasicBulletType
@@ -62,6 +63,7 @@ fragBullet: {
       despawnShake: 24
       despawnSound: explosion-spite
       hitEffect: flakExplosion
+      hitColor: bd3331
       hitShake: 24
       hitSound: explosion-spite
       killShooter: "false"
@@ -83,10 +85,10 @@ fragBullet: {
     speed: 7.5
     splashDamage: 96
     splashDamageRadius: 48
-    trailColor: "#baa164ff"
+    trailColor: bd3331
     trailLength: 24
     trailWidth: 8
-    backColor: "#baa164ff"
+    backColor: bd3331
     frontColor: "#ffffffff"
     height: 32
     width: 12
@@ -112,11 +114,11 @@ laserAbsorb: "false"
 lifetime: 150
 lightRadius: 20
 lightningType: damageLightning
-range: 240
+range: 300
 colors: [
-  "#baa164ff"
+  bd3331
   "#edc66cff"
-  "#ffffffff"
+  ffffff
 ]
 length: 300
 sideAngle: 45
