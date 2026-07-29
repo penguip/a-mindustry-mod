@@ -1,6 +1,6 @@
 type: naval
 localizedName: Megalodon
-description: Fires a spread of four AP blasts.
+description: Fires a spread of five AP blasts.
 speed: 0.86
 health: 7560
 armor: 14
@@ -18,3 +18,36 @@ immunities: [
   bloodied
   hemorrhage
 ]
+weapons: [
+{
+    x: 0
+    y: -1
+    name: megalodon-weapon
+    reload: 65
+    rotate: true
+    mirror: false
+    shootSound: shootFuse
+    shootSoundVolume: 1
+    rotateSpeed: 2.75
+    shake: 4
+    shoot: {
+      type: ShootSpread
+      shots: 5
+      spread: 15
+    }
+    bullet: {
+      type: LiquidBulletType
+        liquid: oil
+        despawnHit: true
+        status: tarred
+        statusDuration: 60
+        puddleSize: 80
+        damage: 0
+        collidesAir: false
+        orbSize: 4
+        speed: 5
+        lifetime: 20
+    }
+  }
+]
+ 
