@@ -53,6 +53,7 @@ filter: [
   sonic-cutter
   sophisticated-ligament
   gravity-suspender
+  sail-turbine
 ]
 squareSprite: false
 conductivePower: true
