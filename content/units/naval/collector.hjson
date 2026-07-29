@@ -29,6 +29,33 @@ stances: [
 ]
 weapons: [
   {
+    x: 9
+    y: -4
+    name: collector-missile-launcher
+    reload: 9
+    rotate: true
+    mirror: true
+    shootSound: shootMissileLong
+    shootSoundVolume: 0.8
+    rotateSpeed: 2.5
+    bullet: {
+      type: MissileBulletType
+      height: 8
+      damage: 54
+      pierce: false
+      width: 8
+      pierceBuilding: false
+      speed: 2.3
+      lifetime: 64
+      backColor: bd3331
+      frontColor: bd5b47
+      trailColor: bd3331
+      splashDamage: 8
+      splashDamageRadius: 25
+      hitEffect: flakExplosion
+    }
+  }
+  {
     x: 0
     y: 0
     name: collector-weapon
