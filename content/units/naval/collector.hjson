@@ -38,6 +38,7 @@ weapons: [
     shootSound: shootMissileLong
     shootSoundVolume: 0.8
     rotateSpeed: 2.5
+    shake: 5
     bullet: {
       type: MissileBulletType
       height: 8
@@ -45,11 +46,14 @@ weapons: [
       pierce: false
       width: 8
       pierceBuilding: false
-      speed: 2.3
+      speed: 4.6875
       lifetime: 64
       backColor: bd3331
       frontColor: bd5b47
       trailColor: bd3331
+      trailChance: 0
+      trailLength: 8
+      trailLength: 1
       splashDamage: 8
       splashDamageRadius: 25
       hitEffect: flakExplosion
