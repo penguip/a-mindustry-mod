@@ -1,0 +1,29 @@
+type: naval
+localizedName: Collector
+description: Fires an extremely powerful rail laser at enermy targets. Armed with rapid fire missile shooters. Capable of disengaging its weapons to cross terrain.
+speed: 0.34
+health: 36700
+armor: 30
+range: 240
+drag: 0.1
+accel: 0.8
+hitSize: 32
+rotateSpeed: 1.24
+trailLength: 80
+outlineColor: 282C36
+moveSoundVolume: 0.34
+moveSound: shipMove
+itemCapacity: 10
+immunities: [
+  bloodied
+  hemorrhage
+  burning
+]
+canBoost: true
+engineSize: 10
+engineOffset: 14
+stances: [
+  stop
+  patrol
+  boost
+]
