@@ -49,6 +49,19 @@ plans: [
     ]
     time: 8700
   }
+  {
+    type: AssemblerUnitPlan
+    unit: collector
+    requirements: [
+      beepdustry-actinium-wall-large/10
+      beepdustry-specialized-plastanium-wall-large/8
+      beepdustry-chromatic-wall-green/8
+      beepdustry-trout/20
+      beepdustry-sunder/1
+      beepdustry-sail-turbine/3
+    ]
+    time: 18000
+  }
 ]
 squareSprite: false
 consumes: {
