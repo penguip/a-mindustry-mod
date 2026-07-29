@@ -1,0 +1,31 @@
+type: BurstDrill
+name: Pyro Rig
+description: Creates a beam of infernum to drill ores in bursts, including actinium shale. Can be cooled with water.
+size: 3
+category: production
+hardnessDrillMultiplier: 50
+drillTime: 250
+hasPower: false
+tier: 4
+shake: 1
+itemCapacity: 30
+hasLiquids: false
+researchCostMultiplier: 0.5
+requirements: [
+  osmium/185
+  gadolinium/125
+  zirconium/85
+  actinium/50
+]
+consumes: {
+  liquid: infernum/2
+  liquids: {
+    liquids: [
+      water/0.5
+    ]
+    optional: true
+    boooster: true
+  }
+}
+liquidBoostIntensity: 1.2
+liquidCapacity: 15
