@@ -19,3 +19,8 @@ immunities: [
   hemorrhage
 ]
 canBoost: true
+engineSize: 8
+engineOffset: 9
+stances: [
+  boost
+]
