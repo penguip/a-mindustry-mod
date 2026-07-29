@@ -40,15 +40,90 @@ weapons: [
     rotateSpeed: 2.75
     shake: 25
     bullet: {
-      type: ShrapnelBulletType
-      length: 120
-      damage: 76
-      width: 6
-      serrations: 10
-      serrationWidth: 8
-      serrationSpacing: 12
-      toColor: bd3331
-      pierceArmor: true
+      type: LaserBulletType
+damage: 500
+despawnHit: "true"
+drawSize: 480
+fragBullet: {
+  type: ExplosionBulletType
+  despawnEffect: scatheExplosion
+  despawnHit: "true"
+  despawnShake: 12
+  despawnSound: shootSmite
+  fragBullet: {
+    type: BasicBulletType
+    damage: 90
+    despawnHit: "true"
+    drawSize: 288
+    fragBullet: {
+      type: ExplosionBulletType
+      despawnEffect: titanExplosion
+      despawnHit: "true"
+      despawnShake: 24
+      despawnSound: explosion-spite
+      hitEffect: flakExplosion
+      hitShake: 24
+      hitSound: explosion-spite
+      killShooter: "false"
+      lightRadius: 20
+      lightningType: damageLightning
+      range: 20
+      splashDamage: 120
+      splashDamageRadius: 64
+    }
+    fragBullets: 1
+    fragRandomSpread: 0
+    keepVelocity: "false"
+    lightRadius: 20
+    lightningType: damageLightning
+    pierce: "true"
+    pierceBuilding: "true"
+    pierceCap: 1
+    range: 240
+    speed: 6
+    splashDamage: 96
+    splashDamageRadius: 48
+    trailColor: "#baa164ff"
+    trailLength: 24
+    trailWidth: 8
+    backColor: "#baa164ff"
+    frontColor: "#ffffffff"
+    height: 32
+    width: 12
+  }
+  fragBullets: 1
+  fragRandomSpread: 0
+  fragVelocityMin: 1
+  hitEffect: flakExplosion
+  hitShake: 12
+  hitSound: shootSmite
+  killShooter: "false"
+  lifetime: 60
+  lightRadius: 20
+  lightningType: damageLightning
+  range: 20
+  splashDamage: 96
+  splashDamageRadius: 32
+}
+fragOnHit: "false"
+fragRandomSpread: 0
+fragVelocityMin: 1
+laserAbsorb: "false"
+lifetime: 150
+lightRadius: 20
+lightningType: damageLightning
+range: 240
+colors: [
+  "#baa164ff"
+  "#edc66cff"
+  "#ffffffff"
+]
+length: 300
+sideAngle: 45
+sideLength: 50
+sideWidth: 1.5
+width: 12
+fragBullets: 1
     }
   }
 ]
