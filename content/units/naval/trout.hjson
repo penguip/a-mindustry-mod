@@ -10,7 +10,7 @@ accel: 0.8
 hitSize: 6
 rotateSpeed: 2.5
 trailLength: 15
-outlineColor: 0C0E29
+outlineColor: 282C36
 moveSoundVolume: 0.34
 moveSound: shipMove
 itemCapacity: 10
