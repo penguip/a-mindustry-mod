@@ -49,7 +49,7 @@ fragBullet: {
   despawnEffect: scatheExplosion
   despawnHit: "true"
   despawnShake: 12
-  hitColor: bd8366
+  hitColor: bd3331
   despawnSound: shootSmite
   fragBullet: {
     type: BasicBulletType
@@ -63,7 +63,7 @@ fragBullet: {
       despawnShake: 24
       despawnSound: explosion-spite
       hitEffect: flakExplosion
-      hitColor: bd8366
+      hitColor: bd3331
       hitShake: 24
       hitSound: explosion-spite
       killShooter: "false"
@@ -87,7 +87,7 @@ fragBullet: {
     splashDamageRadius: 48
     trailColor: bd3331
     trailLength: 24
-    trailWidth: 8
+    trailWidth: 4
     backColor: bd3331
     frontColor: bd5b47
     height: 32
