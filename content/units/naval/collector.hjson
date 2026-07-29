@@ -89,7 +89,7 @@ fragBullet: {
     trailLength: 24
     trailWidth: 8
     backColor: bd3331
-    frontColor: "#ffffffff"
+    frontColor: bd5b47
     height: 32
     width: 12
   }
@@ -117,7 +117,7 @@ lightningType: damageLightning
 range: 300
 colors: [
   bd3331
-  "#edc66cff"
+  bd5b47
   ffffff
 ]
 length: 300
