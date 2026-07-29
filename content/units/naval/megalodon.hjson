@@ -1,0 +1,20 @@
+type: naval
+localizedName: Megalodon
+description: Fires a spread of four AP blasts.
+speed: 0.86
+health: 7560
+armor: 14
+range: 100
+drag: 0.1
+accel: 0.8
+hitSize: 17
+rotateSpeed: 2
+trailLength: 26
+outlineColor: 0C0E29
+moveSoundVolume: 0.34
+moveSound: shipMove
+itemCapacity: 10
+immunities: [
+  bloodied
+  hemorrhage
+]
