@@ -74,8 +74,8 @@ ammoTypes: {
     ]
   }
 }
-research: core-glitch
+research: core-glitc
 researchCost: [
-  yttrium/450
-  osmium/150
+  yttrium/80
+  osmium/40
 ]
