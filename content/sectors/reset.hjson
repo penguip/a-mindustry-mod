@@ -1,8 +1,8 @@
 planet: keisuris
 localizedName: Reset
-description: The conquest of Keisuris begins.
+description: "The conquest of Keisuris begins.
 A small sector filled with a lush meadow. The enemy has low but existent interest in this sector, and there are only simple resources.
-Gather osmium and yttrium. Move forward.
+Gather osmium and yttrium. Move forward."
 sector: 0
 research: core-glitc
 difficulty: 1
