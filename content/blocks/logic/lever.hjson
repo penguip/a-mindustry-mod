@@ -1,0 +1,10 @@
+type: SwitchBlock
+name: Lever
+description: Enables or disables terminals or the blocks they are controlling.
+size: 1
+category: logic
+requirements: [
+  yttrium/60
+  iron/20
+]
+researchCostMultiplier: 0.5
