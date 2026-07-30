@@ -1,0 +1,12 @@
+type: MemoryBlock
+name: Databank
+description: Stores data, instructions, and values from a terminal.
+memoryCapacity: 80
+category: logic
+requirements: [
+  osmium/60
+  silicon/30
+]
+squareSprite: false
+size: 1
+researchCostMultiplier: 0.5
