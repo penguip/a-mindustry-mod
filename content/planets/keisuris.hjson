@@ -120,6 +120,19 @@ campaignRuleDefaults.showSpawns: true
 campaignRuleDefaults.rtsAI: true
 coreDestroyClear: false
 
+rules: {
+ fog: true
+ staticFog: true
+ coreDestroyClear: true
+ onlyDepositCore: true
+}
+
+campaignRuleDefaults: {
+ fog: true
+ hideSpawns: false
+ rtsAI: true
+}
+
 launchCandidates: []
 itemWhitelist: [
   "yttrium",
