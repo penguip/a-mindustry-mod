@@ -7,7 +7,7 @@ speed: 10
 requirements: [
   yttrium/1
 ]
-research: core-glitch
+research: core-glitc
 researchCost: [
   yttrium/4
 ]
