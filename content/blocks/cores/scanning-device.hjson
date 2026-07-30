@@ -6,10 +6,10 @@ fogRadius: 35
 requirements: [
   yttrium/50
 ]
-research: glitch
+research: core-glitc
 hasPower: true
 consumes: {
  power: 0.25
 }
-name: Scanning Device
+localizedName: Scanning Device
 description: Uncovers a small area of fog around it, requires power.
