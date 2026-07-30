@@ -15,7 +15,7 @@ consumes: {
   liquid: radon/0.5
   liquids: {
     liquids: [
-      water/0.666666666667
+      cenessiodreon/0.0666666666667
     ]
     optional: true
     booster: true
