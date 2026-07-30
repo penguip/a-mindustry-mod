@@ -5,7 +5,6 @@ hasPower: true
 attribute: flesh
 category: production
 output: neoplasm-capsule
-research: yttrium-rig
 requirements: [
   osmium/130
   silicon/60
