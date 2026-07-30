@@ -8,7 +8,7 @@ category: defense
 requirements: [
   osmium/6
 ]
-research: glitch
+research: core-glitc
 researchCost: [
   osmium/6
 ]
