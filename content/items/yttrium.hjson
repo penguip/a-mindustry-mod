@@ -7,4 +7,5 @@ charge: 0
 color: 8fc6f2
 cost: 0.5
 research: core-glitc
+alwaysUnlocked: true
 hardness: 1
