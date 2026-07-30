@@ -1,0 +1,8 @@
+planet: keisuris
+localizedName: Reset
+description: The conquest of Keisuris begins.
+sector: 0
+research: core-glitc
+difficulty: 1
+alwaysUnlocked: true
+outline: false
