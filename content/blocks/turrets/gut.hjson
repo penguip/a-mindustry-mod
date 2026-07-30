@@ -41,7 +41,6 @@ ammoTypes: {
     lifetime: 20
   }
 }
-research: embargo
 researchCost: [
   dormant-cyst/350
   item-flesh/450
