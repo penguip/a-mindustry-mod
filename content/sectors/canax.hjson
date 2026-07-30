@@ -1,8 +1,7 @@
 planet: keisuris
 localizedName: Canax
-description: "The conquest of Keisuris begins.
-A small sector filled with a lush meadow. The enemy has low but existent interest in this sector, and there are only simple resources.
-Gather osmium and yttrium. Move forward."
+description: "The only way forward from Reset, this sector has deposits of germanium lining the walls with yttrium.
+Produce silicon and use it to create better defenses."
 sector: 95
 research: {
   parent: reset
