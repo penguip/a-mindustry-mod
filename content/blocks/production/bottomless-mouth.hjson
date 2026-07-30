@@ -14,7 +14,6 @@ requirements: [
   item-flesh/10
   calcium/40
 ]
-research: flesh-cutter
 researchCost: [
  item-flesh/35
  calcium/100
