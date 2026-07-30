@@ -21,13 +21,12 @@ outputLiquids: [
   blood/0.05743
 ]
 outputItems: [
-  item-flesh/5
+  item-flesh/15
 ]
 researchCost: [
   calcium/420
   silicon/590
 ]
-research: silicone-bore
 drawer: {
 	    type: DrawMulti
 	    drawers : [
