@@ -1,0 +1,19 @@
+planet: keisuris
+localizedName: Canax
+description: "The conquest of Keisuris begins.
+A small sector filled with a lush meadow. The enemy has low but existent interest in this sector, and there are only simple resources.
+Gather osmium and yttrium. Move forward."
+sector: 95
+research: {
+  parent: reset
+  objectives: [
+    {
+      type: SectorComplete
+      preset: reset
+    }
+  ]
+}
+difficulty: 1
+alwaysUnlocked: true
+outline: false
+captureWave: 20
