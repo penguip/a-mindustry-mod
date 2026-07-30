@@ -1,0 +1,31 @@
+localizedName: Ion Bore
+description: Uses a great amount of power to drill walls using a beam of excited radon ions, mining resources very fast. Can be cooled with cenessiodreon.
+type: beamDrill
+health: 1800
+range: 8
+tier: 5
+size: 4
+drillTime: 90
+ambientSound: drill
+optionalBoostIntensity: 2
+ambientSoundVolume: 0.08
+hasLiquids: true
+consumes: {
+  power: 5
+  liquid: radon/0.5
+  liquids: {
+    liquids: [
+      water/0.666666666667
+    ]
+    optional: true
+    booster: true
+  }
+}
+category: production
+requirements: [
+  silicon/230
+  oxide/160
+  contrinum/170
+  actinium/100
+  plastanium/65
+]
