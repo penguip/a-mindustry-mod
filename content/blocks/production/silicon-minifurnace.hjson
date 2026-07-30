@@ -28,3 +28,12 @@ researchCost: [
   yttrium/900
   osmium/450
 ]
+research: {
+  parent: core-glitc
+  objectives: [
+    {
+      type: OnSector
+      preset: canax
+    }
+  ]
+}
