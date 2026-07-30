@@ -6,7 +6,7 @@ requirements: [
   osmium/45
   oxide/60
 ]
-instructionsPerTick: 15
+instructionsPerTick: 6.6666666666667
 size: 1
 health: 350
 researchCostMultiplier: 0.5
