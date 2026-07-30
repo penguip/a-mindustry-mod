@@ -12,3 +12,4 @@ armor: 3
 researchCostMultiplier: 0.5
 insulated: true
 shownPlanets: [keisuris]
+research: silicon-wall
