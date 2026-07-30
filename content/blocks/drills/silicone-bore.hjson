@@ -19,3 +19,12 @@ requirements: [
   gadolinium/75
   osmium/90
 ]
+research: {
+  parent: etho-bore
+  objectives: [
+    {
+      type: SectorComplete
+      preset: canax
+    }
+  ]
+}
