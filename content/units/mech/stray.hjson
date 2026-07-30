@@ -31,9 +31,7 @@ weapons: [
         status: freezing
         statusDuration: 120
         height: 15
-        pierce: true
         hitEffect: none
-        pierceCap: 2
         despawnEffect: none
         collides: true
         collidesTiles: true
@@ -62,11 +60,6 @@ weapons: [
     mirror: true
     shootSound: ice-ray
     reload: 75
-    shoot: {
-       type: ShootPattern
-       shots: 4
-       shotDelay: 15
-    }
     bullet: {
        type: LaserBulletType
        status: freezing
