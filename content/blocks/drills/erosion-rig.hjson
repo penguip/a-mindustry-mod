@@ -1,0 +1,34 @@
+type: BurstDrill
+name: Erosion Rig
+description: Creates a beam of radon ions to drill ores in bursts at great speeds. Can be cooled with cenessiodreon.
+size: 4
+category: production
+hardnessDrillMultiplier: 50
+drillTime: 100
+hasPower: false
+tier: 5
+shake: 5
+itemCapacity: 30
+hasLiquids: true
+researchCostMultiplier: 0.5
+requirements: [
+  osmium/270
+  gadolinium/240
+  oxide/170
+  zirconium/120
+  actinium/130
+  plastanium/70
+]
+consumes: {
+  liquid: radon/0.5
+  power: 7
+  liquids: {
+    liquids: [
+      cenessiodreon/0.06666666666666667
+    ]
+    optional: true
+    booster: true
+  }
+}
+liquidBoostIntensity: 2.6
+liquidCapacity: 80
