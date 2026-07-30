@@ -7,4 +7,4 @@ requirements: [
   yttrium/3
   osmium/3
 ]
-researchCostMultiplier: 0.5
+research: logic-unit-overflow
