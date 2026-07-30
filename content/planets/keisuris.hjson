@@ -103,7 +103,6 @@ visible: true
 alwaysUnlocked: true
 updateLighting: false
 bloom: false
-
 clearSectorOnLose: true
 prebuildBase: false
 defaultCore: core-glitc
@@ -116,7 +115,7 @@ enemyBuildSpeedMultiplier: 0.7
 campaignRules.fog: true
 campaignRules.showSpawns: true
 campaignRules.rtsAI: true
-campaignRuleDefaults.fog: false
+campaignRuleDefaults.fog: true
 campaignRuleDefaults.showSpawns: true
 campaignRuleDefaults.rtsAI: true
 coreDestroyClear: false
