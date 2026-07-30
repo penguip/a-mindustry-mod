@@ -5,7 +5,7 @@ size: 2
 category: production
 research: etho-bore
 researchCost: [
-  yttrium/60
+  yttrium/10
 ]
 drillTime: 420
 liquidBoostIntensity: 1
