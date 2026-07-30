@@ -7,6 +7,9 @@ requirements: [
   yttrium/50
 ]
 research: core-glitc
+researchCost: [
+  yttrium/40
+]
 hasPower: true
 consumes: {
  power: 0.25
