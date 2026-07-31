@@ -1,0 +1,19 @@
+planet: keisuris
+localizedName: Precipice
+description: "A large basalt delta has formed in this lake due to tectonic activity.
+Extract infernum.
+Pump water for use as coolant.
+The enemy will attack from two sides. Be prepared."
+sector: 173
+research: {
+  parent: conscience
+  objectives: [
+    {
+      type: SectorComplete
+      preset: conscience
+    }
+  ]
+}
+difficulty: 2
+outline: false
+captureWave: 25
