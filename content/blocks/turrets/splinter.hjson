@@ -107,3 +107,12 @@ drawer: {
     			},
 		]
 	}
+research: {
+  parent: embargo
+  objectives: [
+    {
+      type: OnSector
+      preset: precipice
+    }
+  ]
+}
