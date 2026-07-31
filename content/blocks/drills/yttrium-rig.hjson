@@ -8,7 +8,7 @@ researchCost: [
   yttrium/10
 ]
 drillTime: 420
-liquidBoostIntensity: 1
+liquidBoostIntensity: 1.5
 tier: 1
 itemCapacity: 20
 researchCostMultiplier: 0.2
