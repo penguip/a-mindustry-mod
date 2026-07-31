@@ -51,3 +51,12 @@ drawer: {
                     }
 ]
 }
+research: {
+  parent: vein
+  objectives: [
+    {
+      type: OnSector
+      preset: precipice
+    }
+  ]
+}
