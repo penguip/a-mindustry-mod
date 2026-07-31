@@ -13,7 +13,7 @@ requirements: [
   osmium/70
   silicon/50
 ]
-craftTime: 120
+craftTime: 15
 outputItems: [
   dormant-cyst/1
 ]
@@ -52,7 +52,7 @@ drawer: {
 	            	  {
 	            	  type: DrawRegion
 	            	  suffix: "-rotator"
-	              	  rotateSpeed: 1
+	              	  rotateSpeed: 4
                       spinSprite: true
 	                },
                   {
