@@ -126,5 +126,7 @@ abilities: [
     particleColor: d267ffff
     particleSize: 2
     particles: 20
+    reload: 900
+    range: 350
   }
 ]
