@@ -8,7 +8,7 @@ health: 250
 category: crafting
 itemCapacity: 30
 requirements: [
-  item-flesh/120
+  item-flesh/40
   silicon/50
 ]
 craftTime: 120
@@ -25,6 +25,9 @@ consumes: {
   ]
 }
 research: silicon-minifurnace
-researchCostMultiplier: 0.5
+researchCost: [
+  item-flesh/80
+  silicon/20
+]
 ambientSound: smelter
 ambientSoundVolume: 0.6
