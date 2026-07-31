@@ -5,13 +5,20 @@ health: 450
 range: 5
 tier: 2
 size: 2
-optionalBoostIntensity: 1
+optionalBoostIntensity: 1.8
 drillTime: 176
 ambientSound: drill
 ambientSoundVolume: 0.08
 hasLiquids: true
 consumes: {
   power: 0.85
+  liquids: {
+    liquids: [
+      water/0.45
+    ]
+    optional: true
+    booster: true
+  }
 }
 category: production
 requirements: [
