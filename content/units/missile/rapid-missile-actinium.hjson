@@ -3,6 +3,7 @@ template: MissileUnitType
 flying: true
 speed: 3.4
 outlineColor: 282C36
+targetable: false
 physics: false
 lifetime: 65
 lowAltitude: true
@@ -34,7 +35,7 @@ weapons: [
     shake: 10
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 68
+      splashDamage: 34
       splashDamageRadius: 18
       buildingDamageMultiplier: 0.1
       ammoMultiplier: 1
