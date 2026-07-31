@@ -1,6 +1,6 @@
 type: Drill
 name: Yttrium Rig
-description: Mines low tier floor ores.
+description: Mines low tier floor ores. Can be cooled with water.
 size: 2
 category: production
 research: etho-bore
@@ -14,4 +14,13 @@ itemCapacity: 20
 researchCostMultiplier: 0.2
 requirements: [
   yttrium/20
+]
+consumes: [
+  liquids: {
+    liquids: [
+      water/0.2
+    ]
+    optional: true
+    booster: true
+  }
 ]
