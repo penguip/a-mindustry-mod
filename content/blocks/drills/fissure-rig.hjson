@@ -1,6 +1,6 @@
 type: BurstDrill
 name: Fissure Rig
-description: Using entropy as an energy source, creates a miniature fissure to mine resources, including destabilized zircon. In order to resist the rig itself exploding, iron is used for fortification. May optionally be cooled with water.
+description: Using entropy as an energy source, creates a miniature fissure to mine resources, including destabilized zircon. In order to resist the rig itself exploding, iron is used for fortification. Can be cooled with water.
 size: 2
 category: production
 hardnessDrillMultiplier: 50
