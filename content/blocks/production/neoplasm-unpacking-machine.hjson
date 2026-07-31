@@ -24,5 +24,7 @@ consumes: {
     neoplasm-capsule/1
   ]
 }
+research: silicon-minifurnace
+researchCostMultiplier: 0.5
 ambientSound: smelter
 ambientSoundVolume: 0.6
