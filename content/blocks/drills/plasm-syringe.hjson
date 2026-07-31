@@ -9,3 +9,5 @@ requirements: [
   osmium/130
   silicon/60
 ]
+research: flesh-cutter
+researchCostMultiplier: 0.5
