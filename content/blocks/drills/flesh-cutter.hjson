@@ -12,8 +12,8 @@ health: 650
 category: production
 itemCapacity: 30
 requirements: [
-  calcium/140
-  silicon/250
+  calcium/80
+  silicon/50
 ]
 craftTime: 240
 craftEffect: none
@@ -33,8 +33,8 @@ research: {
   ]
 }
 researchCost: [
-  calcium/420
-  silicon/590
+  calcium/300
+  silicon/160
 ]
 drawer: {
 	    type: DrawMulti
