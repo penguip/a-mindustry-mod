@@ -6,6 +6,7 @@ requirements: [
   item-flesh/2
 ]
 health: 65
+research: core-glitc
 junctionReplacement: spitter
 rotBridgeReplacement: blood-bridge
 underBullets: true
