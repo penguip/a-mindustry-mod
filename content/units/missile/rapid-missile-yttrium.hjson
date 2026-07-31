@@ -8,6 +8,7 @@ lifetime: 65
 lowAltitude: true
 homingDelay: 0
 hitSize: 0.25
+targetable: false
 rotateSpeed: 5
 useUnitCap: false
 health: 120
@@ -34,7 +35,7 @@ weapons: [
     shake: 10
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 29.4
+      splashDamage: 11
       splashDamageRadius: 12
       buildingDamageMultiplier: 0.1
       ammoMultiplier: 1
