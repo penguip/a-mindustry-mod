@@ -15,7 +15,7 @@ researchCostMultiplier: 0.2
 requirements: [
   yttrium/20
 ]
-consumes: [
+consumes: {
   liquids: {
     liquids: [
       water/0.2
@@ -23,4 +23,4 @@ consumes: [
     optional: true
     booster: true
   }
-]
+}
