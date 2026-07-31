@@ -12,3 +12,4 @@ requirements: [
   item-flesh/10
 ]
 researchCostMultiplier: 0.5
+research: vein
