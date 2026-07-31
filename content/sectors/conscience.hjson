@@ -1,0 +1,19 @@
+planet: keisuris
+localizedName: Conscience
+description: "A large tundra afflicted with an area of flesh.
+There lies a few new resources to gather.
+Obtain these resources.
+Fend off the enemy."
+sector: 35
+research: {
+  parent: canax
+  objectives: [
+    {
+      type: SectorComplete
+      preset: canax
+    }
+  ]
+}
+difficulty: 2
+outline: false
+captureWave: 10
