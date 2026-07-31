@@ -23,6 +23,15 @@ outputLiquids: [
 outputItems: [
   item-flesh/15
 ]
+research: {
+  parent: etho-bore
+  objectives: [
+    {
+      type: OnSector
+      preset: conscience
+    }
+  ]
+}
 researchCost: [
   calcium/420
   silicon/590
