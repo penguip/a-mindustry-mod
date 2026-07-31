@@ -35,11 +35,11 @@ weapons: [
     shake: 10
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 156
+      splashDamage: 28
       splashDamageRadius: 27
       buildingDamageMultiplier: 0.1
       status: chromatic-dissention
-      statusDuration: 0.5
+      statusDuration: 5
       ammoMultiplier: 1
     }
   }
