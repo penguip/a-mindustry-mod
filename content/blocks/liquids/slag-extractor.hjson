@@ -13,9 +13,9 @@ health: 650
 category: liquid
 itemCapacity: 30
 requirements: [
-  gadolinium/140
+  gadolinium/80
   silicon/85
-  yttrium/130
+  yttrium/110
 ]
 outputLiquids: [
   infernum/0.66666667
