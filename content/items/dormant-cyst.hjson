@@ -2,3 +2,4 @@ description: Remaining 'skin' from shredding neoplasm. Useful for creating flesh
 hidden: false
 shownPlanets: [keisuris]
 cost: 0.7
+research: item-flesh
