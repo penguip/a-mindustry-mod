@@ -5,10 +5,10 @@ size: 3
 category: liquid
 squareSprite: false
 requirements: [
-  oxide/60
-  osmium/45
-  silicon/25
-  contrinum/20
+  gadolinium/140
+  osmium/80
+  yttrium/120
+  silicon/20
 ]
 pumpAmount: 0.46
 consumes: {
