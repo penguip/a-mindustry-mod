@@ -6,7 +6,7 @@ attribute: flesh
 category: production
 output: neoplasm-capsule
 requirements: [
-  osmium/130
+  osmium/80
   silicon/60
 ]
 research: flesh-cutter
