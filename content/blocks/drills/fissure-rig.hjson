@@ -27,5 +27,5 @@ consumes: {
     booster: true
   }
 }
-liquidBoostIntensity: 1.2
+liquidBoostIntensity: 1.7
 liquidCapacity: 15
