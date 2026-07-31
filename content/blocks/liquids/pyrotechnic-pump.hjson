@@ -18,3 +18,12 @@ consumes: {
 }
 researchCostMultiplier: 0.5
   liquidCapacity: 800
+research: {
+  parent: vein
+  objectives: [
+    {
+      type: OnSector
+      preset: precipice
+    }
+  ]
+}
