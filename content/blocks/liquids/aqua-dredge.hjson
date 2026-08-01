@@ -1,12 +1,12 @@
 type: AttributeCrafter
 localizedName: Aqua Dredge
 description: Extracts water from aquifers. Works better on wet tiles.
-size: 3
+size: 2
 attribute: water
 baseEfficiency: 0
-minEfficiency: 0.2
+minEfficiency: 0
 maxBoost: 1
-boostScale: 0.33333333
+boostScale: 0.5
 liquidCapacity: 120
 hasLiquids: true
 health: 350
