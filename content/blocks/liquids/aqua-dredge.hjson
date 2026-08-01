@@ -1,0 +1,44 @@
+type: AttributeCrafter
+localizedName: Aqua Dredge
+description: Extracts water from aquifers. Works better on wet tiles.
+size: 3
+attribute: water
+baseEfficiency: 0
+minEfficiency: 0.2
+maxBoost: 1
+boostScale: 0.33333333
+liquidCapacity: 120
+hasLiquids: true
+health: 350
+category: liquid
+itemCapacity: 30
+requirements: [
+  gadolinium/100
+  silicon/45
+  oxide/65
+]
+outputLiquids: [
+  water/0.66666667
+]
+drawer: {
+	    type: DrawMulti
+	    drawers : [
+                    {
+                      type : DrawRegion
+                      suffix : "-bottom"
+                    },
+                    {
+                      type: DrawLiquidTile
+                      drawLiquid: water
+                      padding: 3
+                    },
+	            	{
+	            	  type : DrawBlurSpin
+	            	  suffix : "-rotator"
+	            	  rotateSpeed: 10
+	            	},
+                    {
+                      type: DrawDefault
+                    }
+]
+}
