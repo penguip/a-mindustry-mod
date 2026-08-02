@@ -15,8 +15,8 @@ plans: [
     type: FactoryUnitPlan
     unit: beep
     requirements: [
-      yttrium/60
-      osmium/50
+      yttrium/15
+      osmium/10
     ]
     time: 600
   }
