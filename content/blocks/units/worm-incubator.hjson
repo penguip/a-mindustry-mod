@@ -16,9 +16,9 @@ plans: [
     type: FactoryUnitPlan
     unit: cell
     requirements: [
-      calcium/35
-      item-flesh/75
-      dormant-cyst/10
+      calcium/10
+      item-flesh/20
+      dormant-cyst/5
     ]
     time: 300
   }
