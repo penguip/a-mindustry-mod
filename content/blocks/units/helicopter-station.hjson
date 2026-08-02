@@ -17,9 +17,9 @@ plans: [
     type: FactoryUnitPlan
     unit: kiolua
     requirements: [
-      oxide/10
-      osmium/35
-      gadolinium/60
+      oxide/5
+      osmium/15
+      gadolinium/10
     ]
     time: 1200
   }
