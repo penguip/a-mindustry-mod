@@ -16,9 +16,9 @@ plans: [
     type: FactoryUnitPlan
     unit: disappointment
     requirements: [
-      yttrium/70
-      osmium/120
-      gadolinium/35
+      yttrium/10
+      osmium/20
+      gadolinium/5
     ]
     time: 1200
   }
