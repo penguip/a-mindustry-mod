@@ -16,9 +16,9 @@ plans: [
     type: FactoryUnitPlan
     unit: trout
     requirements: [
-      yttrium/40
-      osmium/30
-      iron/30
+      yttrium/13
+      osmium/15
+      iron/6
     ]
     time: 960
   }
