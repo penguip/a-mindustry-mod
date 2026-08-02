@@ -16,9 +16,9 @@ plans: [
     type: FactoryUnitPlan
     unit: cold
     requirements: [
-      silicon/35
-      yttrium/75
-      oxide/10
+      silicon/15
+      yttrium/8
+      oxide/3
     ]
     time: 900
   }
