@@ -15,10 +15,10 @@ plans: [
     type: FactoryUnitPlan
     unit: rain
     requirements: [
-      silicon/70
-      osmium/50
-      gadolinium/35
-      oxide/45
+      silicon/20
+      osmium/15
+      gadolinium/10
+      oxide/12
     ]
     time: 1050
   }
