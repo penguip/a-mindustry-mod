@@ -14,7 +14,7 @@ craftTime: 60
 squareSprite: false
 craftEffect: none
 outputItems: [
-  oxide/3
+  oxide/8
 ]
 consumes: {
   items: [
