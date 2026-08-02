@@ -15,9 +15,9 @@ plans: [
     type: FactoryUnitPlan
     unit: butterfly
     requirements: [
-      yttrium/40
-      osmium/30
-      silicon/40
+      yttrium/10
+      osmium/7
+      silicon/5
     ]
     time: 750
   }
