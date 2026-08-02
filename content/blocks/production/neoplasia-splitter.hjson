@@ -1,6 +1,6 @@
 type: GenericCrafter
 size: 2
-liquidCapacity: 30
+liquidCapacity: 390
 hasLiquids: true
 localizedName: Neoplasia Splitter
 description: Rips neoplasm apart for the blood inside, outputting the remaining 'skin' as a byproduct(I swear this process is painless!).
@@ -18,7 +18,7 @@ outputItems: [
   dormant-cyst/1
 ]
 outputLiquids: [
-  blood/0.33333333333
+  blood/3
 ]
 consumes: {
   liquids: [
