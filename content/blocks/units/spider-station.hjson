@@ -26,3 +26,5 @@ plans: [
 consumes: {
   power: 4.75
 }
+research:  mech-station
+researchCostMultiplier: 0.1
