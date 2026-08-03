@@ -34,3 +34,12 @@ drawer: {
                     }
 			]
 }
+research: {
+  parent: silicon-minifurnace
+  objectives: [
+    {
+      type: OnSector
+      preset: observatory
+    }
+  ]
+}
