@@ -38,9 +38,9 @@ weapons: [{
   rotationLimit: 180
   bullet: {
     type: LaserBulletType
-    damage: 20
+    damage: 25
     buildingDamageMultiplier: 0.01
-    length: 45
+    length: 196
     width: 10
     lifetime: 30
     pierceBuildings: false
@@ -51,6 +51,6 @@ weapons: [{
     smokeEffect: hitLaserColor
   }
 }]
-range: 45
+range: 196
 research: glitch
 alwaysUnlocked: true
