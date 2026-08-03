@@ -29,3 +29,5 @@ consumes: {
   ]
   power: 3
 }
+research: mech-station
+researchCostMultiplier: 0
