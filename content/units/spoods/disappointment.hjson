@@ -61,3 +61,5 @@ weapons: [
     }
   }
   ]
+research: spider-station
+researchCostMultiplier: 0
