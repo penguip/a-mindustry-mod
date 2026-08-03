@@ -1,0 +1,23 @@
+planet: keisuris
+localizedName: Observatory
+description: "An area between the tundra and the basalt delta, this place was once used for resource production by Malis.
+A small enemy reconnaissance outpost is still present here.
+Venture into the use of entropy.
+Research oxide and unit Stations.
+Take down the base."
+sector: 165
+research: {
+  parent: precipice
+  objectives: [
+    {
+      type: SectorComplete
+      preset: precipice
+    }
+    {
+      type: Research
+      content: infernum
+    }
+  ]
+}
+difficulty: 2
+outline: false
