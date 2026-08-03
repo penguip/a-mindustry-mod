@@ -34,14 +34,14 @@ weapons: [
     ejectEffect: casing1
     inaccuracy: 10
     rotate: true
-    rotateSpeed: 2
+    rotateSpeed: 3.65
     shootSound: shootStell
     bullet: {
       type: BasicBulletType
       frontColor: dbbc42
       backColor: dba40f
       speed: 2.5
-      damage: 3
+      damage: 5
       lifetime: 59.4
       width: 5
       height: 5
@@ -50,3 +50,5 @@ weapons: [
       }
    }
 ]
+research: tank-station
+researchCostMultiplier: 0
