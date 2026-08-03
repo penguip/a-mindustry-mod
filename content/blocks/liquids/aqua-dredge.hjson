@@ -18,7 +18,7 @@ requirements: [
   oxide/65
 ]
 outputLiquids: [
-  water/0.33333333333
+  water/1.2
 ]
 drawer: {
 	    type: DrawMulti
@@ -41,4 +41,13 @@ drawer: {
                       type: DrawDefault
                     }
 ]
+}
+research: {
+  parent: vein
+  objectives: [
+    {
+      type: SectorComplete
+      preset: observatory
+    }
+  ]
 }
