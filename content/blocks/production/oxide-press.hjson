@@ -27,7 +27,4 @@ consumes: {
 }
 ambientSound: smelter
 ambientSoundVolume: 0.6
-researchCost: [
-  yttrium/900
-  osmium/450
-]
+research: disorder-genarator
