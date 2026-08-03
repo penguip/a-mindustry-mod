@@ -58,3 +58,5 @@ weapons: [
       }
     }
 ]
+research: worm-incubator
+researchCostMultiplier: 0
