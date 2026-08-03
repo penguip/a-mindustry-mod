@@ -11,12 +11,12 @@ requirements: [
 category: turret
 recoil: 3
 recoils: 2
-shootSound: shootFuse
+shootSound: shootAfflict
 outlineColor: 26262f
 targetAir: true
 targetGround: true
 rotateSpeed: 1.5
-reload: 60
+reload: 30
 range: 590.4
 shootY: 3
 shoot: {
@@ -47,8 +47,8 @@ ammoTypes: {
     fragBullet: {
       type: BasicBulletType
       buildingDamageMultiplier: 0.25
-      frontColor: ffcd66
-      backColor: e28654
+      frontColor: de7f61
+      backColor: de6b56
       damage: 10
       length: 10
       width: 5
@@ -66,11 +66,13 @@ ammoTypes: {
       fragBullet: {
         type: BasicBulletType
         buildingDamageMultiplier: 0.25
-        frontColor: ffcd66
-        backColor: e28654
+        frontColor: de7f61
+        backColor: de6b56
         damage: 3
         length: 5
         width: 5
+        homingPower: 0.2
+        homingRange: 28
         speed: 0.86
         lifetime: 25
       }
