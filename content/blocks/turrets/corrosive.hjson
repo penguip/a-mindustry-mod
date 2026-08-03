@@ -76,3 +76,12 @@ ammoTypes: {
     frontColor: e4ffd6
   },
 }
+research: {
+  parent: embargo
+  objectives: [
+    {
+      type: SectorComplete
+      preset: observatory
+    }
+  ]
+}
