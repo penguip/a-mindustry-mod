@@ -26,6 +26,15 @@ consumes: {
 }
 research: core-glitch
 recearchCost: [
-  yttrium/6
-  osmium/4
+  yttrium/60
+  osmium/40
 ]
+research: {
+  parent: core-glitc
+  objectives: [
+    {
+      type: OnSector
+      preset: observatory
+    }
+  ]
+}
