@@ -39,6 +39,8 @@ ammoTypes: {
     pierce: true
     pierceCap: 5
     lifetime: 20
+    frontColor: f9ecec
+    backColor: f1dbdb
   }
   contrinum: {
     type: BasicBulletType
