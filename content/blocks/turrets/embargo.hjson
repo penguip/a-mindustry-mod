@@ -83,7 +83,8 @@ ammoTypes: {
     length: 218
     width: 10
     ammoMultiplier: 4
-    colors: [856810,
+    colors: [
+    856810,
     857524,
     858035,
     ]
