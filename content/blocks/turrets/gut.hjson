@@ -3,7 +3,7 @@ size: 1
 health: 350
 outlineColor: 520500
 localizedName: Gut
-description: Using calcium, fires bony spikes that peirce ground targets. Starts firing slowly but eventually fires very fast.
+description: Fires small bullets that peirce ground targets. Starts firing slowly but eventually fires very fast.
 shootSound: shootCyclone
 requirements: [
   dormant-cyst/25
@@ -39,6 +39,19 @@ ammoTypes: {
     pierce: true
     pierceCap: 5
     lifetime: 20
+  }
+  contrinum: {
+    type: BasicBulletType
+    buildingDamageMultiplier: 0.25
+    damage: 37.8
+    speed: 10
+    pierce: true
+    pierceCap: 5
+    lifetime: 20
+    splashDamage: 15
+    splashDamageRadius: 24
+    despawnSound: explosion
+    despawnEffect: flakExplosion
   }
 }
 researchCost: [
