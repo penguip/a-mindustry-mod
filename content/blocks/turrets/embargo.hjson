@@ -2,7 +2,7 @@ type: ItemTurret
 size: 1
 health: 120
 localizedName: Embargo
-description: Superheats osmium and fires 3 lasers in rapid succession. Requires small amounts of power.
+description: Superheats materials and fires 3 lasers in rapid succession. Requires small amounts of power.
 shootSound: shootLancer
 requirements: [
   yttrium/100
@@ -58,6 +58,7 @@ drawer: {
 		]
 	}
 shootY: 1
+ammoPerShot: 5
 consumes: {
   power: 0.12
 }
@@ -72,6 +73,20 @@ ammoTypes: {
     B3FFC1,
     B9FFB1,
     ]
+  }
+  contrinum: {
+    type: LaserBulletType
+    buildingDamageMultiplier: 0.25
+    damage: 98
+    status: blasted
+    length: 218
+    width: 10
+    ammoMultiplier: 4
+    colors: [A3FFC8,
+    B3FFC1,
+    B9FFB1,
+    ]
+    rangeChange: 10
   }
 }
 research: core-glitc
