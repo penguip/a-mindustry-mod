@@ -5,8 +5,8 @@ localizedName: Embargo
 description: Superheats materials and fires 3 lasers in rapid succession. Requires small amounts of power.
 shootSound: shootLancer
 requirements: [
-  yttrium/100
-  osmium/75
+  yttrium/40
+  osmium/25
 ]
 category: turret
 coolant: {
@@ -69,9 +69,10 @@ ammoTypes: {
     damage: 65
     length: 208
     width: 10
-    colors: [A3FFC8,
-    B3FFC1,
-    B9FFB1,
+    colors: [
+    bd5e67,
+    d26666,
+    fb8665,
     ]
   }
   contrinum: {
@@ -82,9 +83,9 @@ ammoTypes: {
     length: 218
     width: 10
     ammoMultiplier: 4
-    colors: [A3FFC8,
-    B3FFC1,
-    B9FFB1,
+    colors: [856810,
+    857524,
+    858035,
     ]
     rangeChange: 10
   }
