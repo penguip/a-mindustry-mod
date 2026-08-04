@@ -54,6 +54,8 @@ ammoTypes: {
     splashDamageRadius: 24
     despawnSound: explosion
     despawnEffect: flakExplosion
+    backColor: bd5e67
+    frontColor: d26666
   }
 }
 researchCost: [
