@@ -1,6 +1,5 @@
 localizedName: Beacon
 healthMultiplier: 5
-speedMultiplier: 2.5
+speedMultiplier: 3.5
 damageMultiplier: 3
-reloadMultiplier: 3.5
 outline: false
