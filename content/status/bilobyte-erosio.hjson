@@ -1,0 +1,12 @@
+localizedName: Bilobyte Erosion
+description: An infection caused by bilobytes that slowly and semi-irrevocably erodes anything that catches it. The effect can be ended via water.
+damage: 1
+healthMultiplier: 0.9
+speedMultiplier: 0.9
+damageMultiplier: 0.9
+reloadMultiplier: 0.9
+outline: false
+permanent: true
+opposites: [
+  water
+]
