@@ -1,9 +1,9 @@
 type: mech
 name: Transient
 description: Bilobytes manifested into a tiny, mech-like creature.
-speed: 0.5432
+speed: 1
 flying: false
-outlineColor: 282C36
+outlineColor: af2709
 health: 1230
 hitSize: 11
 drawCell: false
