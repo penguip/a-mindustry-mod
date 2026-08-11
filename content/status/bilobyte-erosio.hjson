@@ -8,5 +8,5 @@ reloadMultiplier: 0.9
 outline: false
 permanent: true
 opposites: [
-  water
+  wet
 ]
