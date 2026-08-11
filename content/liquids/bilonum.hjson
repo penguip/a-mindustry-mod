@@ -1,0 +1,17 @@
+colorFrom: 4fc29d
+colorTo: a2c29f
+color: 70c28e
+localizedName: Bilonum
+description: A viscous, radioactive fluid present in profuse amounts near the habitat of bilobytes. It has a composition identical to ardegrix but has special factors that prevent it from spreading into blood, and special isotopes that can be stabilized and separated.
+flammability: 1.2
+temperature: 1
+heatCapacity: 0
+viscosity: 0.99
+explosiveness: 1.5
+boilPoint: 0.5
+status: bilobyte-erosio
+capPuddles: false
+blockReactive: false
+type: cellLiquid
+alwaysUnlocked: false
+shownPlanets: [keisuris]
