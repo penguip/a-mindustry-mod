@@ -6,3 +6,4 @@ flying: false
 outlineColor: 282C36
 health: 1230
 hitSize: 11
+drawCell: false
