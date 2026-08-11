@@ -11,25 +11,20 @@ weapons: [
     {
       top: true
       name: transient-weapon
-      x:-2
-      y: 2
+      x:-2.6
+      y: 0
       recoil: 1
       reload: 15
       mirror: false
-      shootSound: shootArtillerySmall
+      shootSound: shootSap
       bullet: {
-        type: ArtilleryBulletType
-        speed: 4
-        lifetime: 32
-        damage: 45
-        width: 5
-        height: 5
-        collides: true
-        collidesTiles: true
-        splashDamageRadius: 40
-        splashDamage: 15
-        backColor: ao4eff
-        frontColor: d267ff
+        type: SapBulletType
+        damage: 8
+        sapStrength: 0
+        shootEffect: none
+        smokeEffect: none
+        status: bilobyte-erosio
+        color: ed8d8a
       }
     }
 ]
