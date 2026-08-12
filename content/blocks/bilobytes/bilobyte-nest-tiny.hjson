@@ -1,0 +1,40 @@
+type: PowerTurret
+name: Tiny Bilobyte Nest
+description: A tiny nest that seems to produce flying anomalies. Avoiding or destroying it is advised.
+placeablePlayer: false
+consumes: {}
+buildVisibility: editorOnly
+controllable: false
+customShadow: true
+drawTeamOverlay: false
+reload: 1000
+health: 1100
+size: 1
+shootSound: bilobyte-create
+loopSound: bilobyte-idle
+rotateSpeed: 0
+drawer: {
+  type: DrawTurret
+  basePrefix: empty-
+}
+alwaysShooting: true
+recoil: 0
+inaccuracy: 360
+minRange: 24
+range: 32
+shake: 25
+shootX: 0
+shootY: 0
+shootType: {
+  damage: 0
+  width: 0
+  height: 0
+  lifetime: 60
+  spawnUnit: beepdustry-moth
+  despawnHit: true
+  hitSound: none
+  despawnSound: none
+}  
+outlineColor: 42413e
+squareSprite: false
+solid: false
