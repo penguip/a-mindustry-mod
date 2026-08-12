@@ -7,6 +7,9 @@ outlineColor: af2709
 health: 1230
 hitSize: 11
 drawCell: false
+immunities: [
+  bilobyte-erosio
+]
 weapons: [
     {
       top: true
