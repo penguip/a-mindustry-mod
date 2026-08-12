@@ -1,6 +1,6 @@
 type: flying
 name: Moth
-description: Fires a burst of weak bullets at enemies in a wide cone.
+description: Bilobytes manifested into a tiny, flying creature.
 speed: 2.8
 accel: 0.4
 flying: true
