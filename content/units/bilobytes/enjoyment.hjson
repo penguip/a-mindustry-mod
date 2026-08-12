@@ -63,7 +63,6 @@ bullet: {
     sizeFrom: 0
     sizeInterp: pow2Out
     sizeTo: 12
-    tex: beepdustry-sound-wave
   }
   trailInterval: 5
   trailLength: 24
