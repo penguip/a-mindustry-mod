@@ -1,0 +1,40 @@
+type: PowerTurret
+name: Tiny Bilobyte Cave
+description: A tiny cave that seems to produce mech-like anomalies. Avoiding or destroying it is advised.
+placeablePlayer: false
+consumes: {}
+buildVisibility: editorOnly
+controllable: false
+customShadow: true
+drawTeamOverlay: false
+reload: 900
+health: 1200
+size: 1
+shootSound: bilobyte-create
+loopSound: bilobyte-idle
+rotateSpeed: 0
+drawer: {
+  type: DrawTurret
+  basePrefix: empty-
+}
+alwaysShooting: true
+recoil: 0
+inaccuracy: 360
+minRange: 24
+range: 32
+shake: 25
+shootX: 0
+shootY: 0
+shootType: {
+  damage: 0
+  width: 0
+  height: 0
+  lifetime: 60
+  spawnUnit: beepdustry-transient
+  despawnHit: true
+  hitSound: none
+  despawnSound: none
+}  
+outlineColor: 42413e
+squareSprite: false
+solid: false
