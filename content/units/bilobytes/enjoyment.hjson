@@ -30,3 +30,56 @@ targetAir: false
 stepSound: walkerStepTiny
 stepSoundVolume: 0.3
 drawCell: false
+weapons: [
+  {
+    type: Weapon
+bullet: {
+  type: LiquidBulletType
+  damage: 25
+  despawnHit: "true"
+  despawnSound: shootRetusa
+  drawSize: 576
+  knockback: 1
+  layer: 99
+  lifetime: 15
+  lightRadius: 20
+  lightningType: damageLightning
+  pierce: "true"
+  pierceCap: 2
+  speed: 12
+  trailColor: ed8d8a
+  trailEffect: {
+    type: ParticleEffect
+    clip: 12
+    initialized: "true"
+    lifetime: 45
+    rotWithParent: "true"
+    colorTo: ed8d8a
+    interp: pow2Out
+    length: 0
+    particles: 1
+    randLength: "false"
+    region: beepdustry-sound-wave
+    sizeFrom: 0
+    sizeInterp: pow2Out
+    sizeTo: 12
+    tex: beepdustry-sound-wave
+  }
+  trailInterval: 5
+  trailLength: 24
+  trailRotation: "true"
+  trailWidth: 1
+  liquid: beepdustry-bilonum
+  orbSize: 2
+  puddleSize: 96
+}
+mirror: "false"
+name: beepdustry-
+recoil: 2
+recoilTime: 76
+reload: 76
+shootSound: shootDisperse
+shootSoundVolume: 1.1
+x: 0
+}
+]
