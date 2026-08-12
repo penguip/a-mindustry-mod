@@ -11,7 +11,7 @@ engineColor: ed8d8a
 hitSize: 7
 drawCell: false
 createWreck: false
-controller: SuicideAi
+controller: SuicideAI
 immunities: [
   bilobyte-erosio
 ]
