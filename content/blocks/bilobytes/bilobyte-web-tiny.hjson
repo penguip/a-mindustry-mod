@@ -7,7 +7,7 @@ buildVisibility: editorOnly
 controllable: false
 customShadow: true
 drawTeamOverlay: false
-reload: 900
+reload: 700
 health: 1200
 size: 1
 shootSound: bilobyte-create
