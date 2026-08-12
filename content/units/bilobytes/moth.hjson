@@ -6,6 +6,7 @@ accel: 0.4
 flying: true
 health: 800
 outlineColor: af2709
+engineColor: ed8d8a
 hitSize: 7
 drawCell: false
 createWreck: false
