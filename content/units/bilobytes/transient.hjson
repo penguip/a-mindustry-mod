@@ -7,6 +7,7 @@ outlineColor: af2709
 health: 1230
 hitSize: 11
 drawCell: false
+range: 100
 immunities: [
   bilobyte-erosio
 ]
