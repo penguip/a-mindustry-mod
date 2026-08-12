@@ -34,7 +34,7 @@ bullet: {
   range: 25
   rangeOverride: 25
   speed: 0
-  splashDamage: 187
+  splashDamage: 34
   splashDamageRadius: 80
   status: bilobyte-erosio
 }
