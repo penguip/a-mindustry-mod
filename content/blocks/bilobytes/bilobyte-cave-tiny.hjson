@@ -38,3 +38,4 @@ shootType: {
 outlineColor: 42413e
 squareSprite: false
 solid: false
+unitCapModifier: 1
