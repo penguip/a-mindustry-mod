@@ -3,6 +3,7 @@ name: Moth
 description: Bilobytes manifested into a tiny, flying creature.
 speed: 2.8
 accel: 0.4
+drag: 0.07
 flying: true
 health: 800
 outlineColor: af2709
