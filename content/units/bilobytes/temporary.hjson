@@ -1,0 +1,13 @@
+type: mech
+name: Temporary
+description: Bilobytes manifested into a small, mech-like creature.
+speed: 0.7865
+flying: false
+outlineColor: af2709
+health: 3450
+hitSize: 16
+drawCell: false
+range: 100
+immunities: [
+  bilobyte-erosio
+]
