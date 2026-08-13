@@ -29,6 +29,9 @@ alwaysShootWhenMoving: true
 targetAir: false
 stepSound: walkerStepTiny
 stepSoundVolume: 0.3
+immunities: [
+  bilobyte-erosio
+]
 drawCell: false
 weapons: [
   {
