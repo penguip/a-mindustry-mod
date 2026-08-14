@@ -68,6 +68,7 @@ bullet: {
   height: 7
   damage: 17
   pierce: "true"
+  pierceBuilding: true
   frontColor: 5251ad
   backColor: 4031ad
   trailColor: 5251ad
