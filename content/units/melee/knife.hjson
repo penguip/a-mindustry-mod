@@ -75,7 +75,7 @@ weapons: [
       type: ShootPattern
     }
     shootCone: 50
-    shootSound: melee-attack
+    shootSound: sword-attack
     top: "false"
   }
   {
