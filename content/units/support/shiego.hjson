@@ -7,3 +7,12 @@ health: 365
 outlineColor: 282C36
 hitSize: 5
 range: 230
+mineSpeed: 2
+mineTier: 1
+mineItems: [
+  yttrium
+  osmium
+  gadolinium
+]
+commands: [
+  move
