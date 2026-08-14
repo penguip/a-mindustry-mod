@@ -18,5 +18,6 @@ mineBeamOffset: 4
 engineOffset: 2
 commands: [
   move
+  enterPayload
   mine
 ]
