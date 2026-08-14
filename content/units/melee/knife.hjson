@@ -98,7 +98,7 @@ weapons: [
     display: "false"
     mirror: false
     x: 0
-    shootCone: 75
+    shootCone: 55
   }
 ]
 range: 25
