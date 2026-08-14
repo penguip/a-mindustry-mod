@@ -170,7 +170,7 @@ weapons: [
       length: 180
       width: 30
       sideLength: 0
-      damage: 54
+      damage: 187
       status: wet
       statusDuration: 50
       colors: [
@@ -203,6 +203,7 @@ weapons: [
       sideLength: 0
       armorMultiplier: 0.15
       pierce: false
+      pierceBuilding: false
       damage: 17
       status: wet
       statusDuration: 50
