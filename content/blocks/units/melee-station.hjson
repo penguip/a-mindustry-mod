@@ -1,0 +1,27 @@
+type: UnitFactory
+size: 2
+health: 450
+localizedName: Melee Station
+description: Builds Knife units. Output may be used directly, or moved into modifiers for advanced construction.
+configurable: true
+requirements: [
+  yttrium/120
+  osmium/100
+  silicon/65
+]
+category: units
+configurable: false
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: knife
+    requirements: [
+      yttrium/10
+      iron/5
+    ]
+    time: 800
+  }
+]
+consumes: {
+  power: 2
+}
