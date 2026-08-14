@@ -66,6 +66,7 @@ bullet: {
   lifetime: 36
   lightRadius: 20
   parts: []
+  pierceBuilding: true
   pierce: "true"
   pierceCap: 5
   range: 360
