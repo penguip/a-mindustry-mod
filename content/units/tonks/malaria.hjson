@@ -41,6 +41,7 @@ weapons: [
        length: 10
        damage: 68
        pierce: true
+       pierceBuilding: true
        pierceCap: 2
        width: 10
        speed: 2.56
