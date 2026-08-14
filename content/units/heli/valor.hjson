@@ -114,11 +114,13 @@ bullet: {
   height: 20
   damage: 35
   pierce: "true"
+  pierceBuilding: true
   frontColor: 5251ad
   backColor: 4031ad
   trailColor: 5251ad
   trailLength: 8
   trailWidth: 4
+  pierceCap: 2
   speed: 4.5
   lifetime: 73.333333333
   armorMultiplier: 0.65
@@ -145,6 +147,7 @@ ejectEffect: casing3
   height: 10
   damage: 165
   pierce: true
+  pierceBuilding: true
   chargeEffect: {
   type: MultiEffect
   effects: [
