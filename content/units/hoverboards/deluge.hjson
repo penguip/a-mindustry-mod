@@ -82,6 +82,7 @@ bullet: {
   lightRadius: 20
   parts: []
   pierce: "true"
+  pierceBuilding: true
   spawnBullets: []
   speed: 3
   circleShooter: true
