@@ -223,7 +223,8 @@ type: BasicBulletType
        splashDamage: 23
        splashDamageRadius: 35
        pierce: true
-       pierceCap: 5
+       pierceCap: 1
+       pierceBuilding: true
        width: 3
        speed: 5
        lifetime: 60
