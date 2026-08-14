@@ -46,11 +46,12 @@ weapons: [
     bullet: {
        type: BasicBulletType
        length: 30
-       damage: 54
+       damage: 32
        splashDamage: 25.7
        splashDamageRadius: 35
        pierce: true
-       pierceCap: 5
+       pierceBuilding: true
+       pierceCap: 2
        width: 3
        speed: 2.56
        lifetime: 80
