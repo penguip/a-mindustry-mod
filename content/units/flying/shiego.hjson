@@ -1,0 +1,10 @@
+type: flying
+name: Shiego
+description: Automatically mines osmium, yttrium, and germanium.
+speed: 2.675
+flying: true
+health: 365
+outlineColor: 282C36
+armor: 0
+hitSize: 5
+range: 230
