@@ -21,3 +21,5 @@ commands: [
   enterPayload
   mine
 ]
+mineWalls: true
+defaultCommand: mine
