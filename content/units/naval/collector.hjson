@@ -1,6 +1,6 @@
 type: naval
 localizedName: Collector
-description: Fires an extremely powerful rail laser at enermy targets. Armed with rapid fire missile shooters. Capable of disengaging its weapons to cross terrain.
+description: Fires an extremely powerful rail laser at enemy targets that pulls them in. Armed with rapid fire missile shooters that gradually drag enemy targets. Capable of disengaging its weapons to cross terrain.
 speed: 0.34
 health: 36700
 armor: 30
@@ -42,10 +42,11 @@ weapons: [
     bullet: {
       type: MissileBulletType
       height: 8
-      damage: 54
+      damage: 32
       pierce: false
       width: 8
       pierceBuilding: false
+      knockback: -4
       speed: 4.6875
       lifetime: 64
       backColor: bd3331
@@ -155,6 +156,7 @@ colors: [
   ffffff
 ]
 length: 300
+knockback: -100
 sideAngle: 45
 sideLength: 50
 sideWidth: 1.5
