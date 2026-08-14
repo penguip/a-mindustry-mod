@@ -7,7 +7,7 @@ outlineColor: 282C36
 health: 560
 armor: 3
 hitSize: 7
-weapons.+: [
+weapons: [
   {
     type: Weapon
     bullet: {
