@@ -91,8 +91,6 @@ weapons: [
     lifetime: 30
     frontColor: f9ecec
     backColor: f1dbdb
-    pierce: true
-    pierceCap: 3
       }
     }
 ]
