@@ -46,7 +46,7 @@ weapons: [
       pierce: false
       width: 8
       pierceBuilding: false
-      knockback: -80
+      knockback: -30
       speed: 4.6875
       lifetime: 64
       backColor: bd3331
@@ -156,7 +156,7 @@ colors: [
   ffffff
 ]
 length: 300
-knockback: -3000
+knockback: -1000
 sideAngle: 45
 sideLength: 50
 sideWidth: 1.5
