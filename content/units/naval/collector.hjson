@@ -156,7 +156,7 @@ colors: [
   ffffff
 ]
 length: 300
-knockback: -1000
+knockback: -100
 sideAngle: 45
 sideLength: 50
 sideWidth: 1.5
