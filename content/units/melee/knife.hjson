@@ -88,7 +88,7 @@ weapons: [
       recoil: 15
       instantDisappear: "true"
       damage: 0
-      range: 10
+      lifetime: 25
       despawnEffect: none
       hitEffect: none
       shootEffect: none
