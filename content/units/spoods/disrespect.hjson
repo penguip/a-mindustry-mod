@@ -98,8 +98,10 @@ weapons: [
        lifetime: 25
        height: 20
        pierce: true
+       pierceBuilding: true
+       pierceCap: 2
        width: 10
-       damage: 108
+       damage: 23
        backColor: a66cb0
        frontColor: a75ebo
     }
@@ -144,9 +146,10 @@ weapons: [
        lifetime: 25
        height: 20
        pierce: true
+       pierceBuilding: true
        pierceCap: 1
        width: 10
-       damage: 56
+       damage: 10
        backColor: a66cb0
        frontColor: a75ebo
     }
