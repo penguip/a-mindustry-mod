@@ -95,6 +95,7 @@ weapons: [
       lightningType: damageLightning
       parts: []
       pierce: "true"
+      pierceBuilding: true
       pierceCap: 5
       recoil: 6
       scaleLife: "true"
