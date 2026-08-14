@@ -1,0 +1,28 @@
+type: UnitFactory
+size: 2
+health: 450
+localizedName: Support Station
+description: Builds Shiego units. Output may be used directly, or moved into modifiers for advanced construction.
+configurable: false
+requirements: [
+  yttrium/80
+  osmium/60
+  silicon/35
+  oxide/15
+]
+category: units
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: shiego
+    requirements: [
+      yttrium/5
+      osmium/10
+      silicon/5
+    ]
+    time: 600
+  }
+]
+consumes: {
+  power: 3
+}
