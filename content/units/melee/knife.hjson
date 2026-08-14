@@ -81,7 +81,7 @@ weapons: [
   {
     reload: 50
     shoot: {
-      firstShotDelay: 5
+      firstShotDelay: 10
     }
     bullet: {
       type: BulletType
@@ -89,9 +89,13 @@ weapons: [
       instantDisappear: "true"
       damage: 0
       range: 24
+      despawnEffect: none
+      hitEffect: none
     }
     shootSound: explosionAfflict
     display: "false"
+    mirror: false
+    x: 0
     shootCone: 75
   }
 ]
