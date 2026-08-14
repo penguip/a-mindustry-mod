@@ -46,7 +46,7 @@ weapons: [
       pierce: false
       width: 8
       pierceBuilding: false
-      knockback: -4
+      knockback: -80
       speed: 4.6875
       lifetime: 64
       backColor: bd3331
@@ -75,7 +75,7 @@ weapons: [
     shake: 25
     bullet: {
       type: LaserBulletType
-damage: 500
+damage: 2100
 despawnHit: "true"
 drawSize: 480
 fragBullet: {
@@ -87,7 +87,7 @@ fragBullet: {
   despawnSound: shootSmite
   fragBullet: {
     type: BasicBulletType
-    damage: 90
+    damage: 1200
     despawnHit: "true"
     drawSize: 288
     fragBullet: {
@@ -104,7 +104,7 @@ fragBullet: {
       lightRadius: 20
       lightningType: damageLightning
       range: 20
-      splashDamage: 120
+      splashDamage: 650
       splashDamageRadius: 64
     }
     fragBullets: 1
@@ -156,7 +156,7 @@ colors: [
   ffffff
 ]
 length: 300
-knockback: -100
+knockback: -3000
 sideAngle: 45
 sideLength: 50
 sideWidth: 1.5
