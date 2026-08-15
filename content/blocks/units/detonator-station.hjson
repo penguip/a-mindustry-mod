@@ -1,0 +1,29 @@
+type: UnitFactory
+size: 2
+health: 450
+localizedName: Detonator Station
+description: Builds Grenade units. Output may be used directly, or moved into modifiers for advanced construction.
+configurable: false
+requirements: [
+  yttrium/80
+  osmium/115
+  silicon/80
+  iron/60
+]
+category: units
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: grenade
+    requirements: [
+      yttrium/15
+      contrinum/5
+    ]
+    time: 500
+  }
+]
+consumes: {
+  power: 1
+}
+research: mech-station
+researchCostMultiplier: 0.5
