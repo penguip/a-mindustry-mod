@@ -5,7 +5,7 @@ legCount: 4
 lockLegBase: true
 legExtension: -2
 legBaseOffset: 1
-legLength: 8
+legLength: 11
 legContinuousMove: true
 legMaxLength: 1.1
 legMinLength: 0.2
@@ -30,3 +30,299 @@ targetAir: false
 stepSound: walkerStepTiny
 stepSoundVolume: 0.3
 researchCostMultiplier: 0
+weapons: [
+  {
+    type: Weapon
+activeSound: none
+activeSoundVolume: 1
+aiControllable: true
+aimChangeSpeed: Infinity
+alternate: true
+alwaysContinuous: false
+alwaysShooting: false
+autoTarget: false
+baseRotation: 0
+bullet: {
+  type: ArtilleryBulletType
+  absorbable: true
+  accel: 0
+  ammoMultiplier: 2
+  angleOffset: 0
+  armorMultiplier: 1
+  blockArmorMultiplier: 1
+  buildingDamageMultiplier: 1
+  bulletInterval: 20
+  chargeEffect: none
+  circleShooter: false
+  circleShooterRadius: 13
+  circleShooterRadiusSmooth: 10
+  circleShooterRotateSpeed: 0.3
+  collideFloor: false
+  collideTerrain: false
+  collides: false
+  collidesAir: false
+  collidesGround: true
+  collidesTeam: false
+  collidesTiles: true
+  createChance: 1
+  damage: 30
+  delayFrags: false
+  despawnEffect: {
+    type: MultiEffect
+    baseRotation: 0
+    clip: 0
+    followParent: true
+    initialized: false
+    layer: 110
+    layerDuration: 0
+    lifetime: 50
+    rotWithParent: false
+    startDelay: 0
+    effects: [
+      hitSquaresColor
+    ]
+  }
+  despawnHit: true
+  despawnShake: 0
+  despawnSound: none
+  despawnUnitChance: 1
+  despawnUnitCount: 1
+  despawnUnitRadius: 0.1
+  displayAmmoMultiplier: true
+  drag: 0
+  drawSize: 162
+  extraRangeMargin: 0
+  faceOutwards: false
+  followAimSpeed: 0
+  fragAngle: 0
+  fragBullets: 9
+  fragLifeMax: 1
+  fragLifeMin: 1
+  fragOffsetMax: 7
+  fragOffsetMin: 1
+  fragOnAbsorb: true
+  fragOnDespawn: true
+  fragOnHit: true
+  fragRandomSpread: 360
+  fragSpread: 0
+  fragVelocityMax: 1
+  fragVelocityMin: 0.2
+  healAmount: 0
+  healColor: "#98ffa9ff"
+  healEffect: healBlockFull
+  healPercent: 0
+  healSound: blockHeal
+  healSoundVolume: 0.9
+  hitColor: "#8ca9e8ff"
+  hitEffect: {
+    type: MultiEffect
+    baseRotation: 0
+    clip: 0
+    followParent: true
+    initialized: false
+    layer: 110
+    layerDuration: 0
+    lifetime: 50
+    rotWithParent: false
+    startDelay: 0
+    effects: [
+      hitSquaresColor
+    ]
+  }
+  hitShake: 1
+  hitSize: 4
+  hitSound: explosionArtillery
+  hitSoundPitch: 1
+  hitSoundPitchRange: 0.1
+  hitSoundVolume: 1
+  hitUnder: false
+  hittable: true
+  homingDelay: -1
+  homingPower: 0
+  homingRange: 50
+  ignoreSpawnAngle: false
+  impact: false
+  inaccuracy: 0
+  incendAmount: 0
+  incendChance: 1
+  incendSpread: 8
+  instantDisappear: false
+  intervalAngle: 0
+  intervalBullets: 1
+  intervalDelay: -1
+  intervalRandomSpread: 360
+  intervalSpread: 0
+  keepVelocity: true
+  killShooter: false
+  knockback: 0.8
+  laserAbsorb: true
+  layer: 100
+  lifeScaleRandMax: 1
+  lifeScaleRandMin: 1
+  lifesteal: 0
+  lifetime: 46
+  lightColor: "#fbd367ff"
+  lightOpacity: 0.3
+  lightRadius: 20
+  lightning: 0
+  lightningAngle: 0
+  lightningColor: "#f3e979ff"
+  lightningCone: 360
+  lightningDamage: -1
+  lightningLength: 5
+  lightningLengthRand: 0
+  lightningType: damageLightningGround
+  makeFire: false
+  maxDamageFraction: -1
+  maxRange: -1
+  minRangeChange: 0
+  optimalLifeFract: 0
+  parts: []
+  pierce: false
+  pierceArmor: false
+  pierceBuilding: false
+  pierceCap: -1
+  pierceDamageFactor: 0
+  pierceFragCap: -1
+  puddleAmount: 5
+  puddleLiquid: water
+  puddleRange: 0
+  puddles: 0
+  randomAngleOffset: 0
+  range: 138
+  rangeChange: 0
+  rangeOverride: -1
+  recoil: 0
+  reflectable: true
+  reloadMultiplier: 1
+  removeAfterPierce: true
+  rotateSpeed: 0
+  scaleKeepVelocity: false
+  scaleLife: true
+  scaledSplashDamage: false
+  setDefaults: true
+  shieldDamageMultiplier: 1
+  shootEffect: {
+    type: MultiEffect
+    baseRotation: 0
+    clip: 0
+    followParent: true
+    initialized: false
+    layer: 110
+    layerDuration: 0
+    lifetime: 50
+    rotWithParent: false
+    startDelay: 0
+    effects: [
+      shootSmallColor
+    ]
+  }
+  shootSound: none
+  showStats: false
+  smokeEffect: shootSmallSmoke
+  spawnBulletRandomSpread: 0
+  spawnBullets: []
+  speed: 3
+  splashDamage: 30
+  splashDamagePierce: false
+  splashDamageRadius: 19
+  statLiquidConsumed: 0
+  status: none
+  statusDuration: 480
+  sticky: false
+  stickyExtraLifetime: 0
+  suppressColor: "#bf92f9ff"
+  suppressionDuration: 480
+  suppressionEffectChance: 50
+  suppressionRange: -1
+  targetBlocks: true
+  targetMissiles: true
+  trailChance: -1.0e-4
+  trailColor: dbdbdb
+  trailEffect: none
+  trailInterp: slope
+  trailInterval: 0
+  trailLength: 27
+  trailMinVelocity: 0
+  trailParam: 2
+  trailRotation: false
+  trailSinMag: 0
+  trailSinScl: 3
+  trailSpread: 0
+  trailWidth: 2.5
+  underwater: false
+  velocityScaleRandMax: 1
+  velocityScaleRandMin: 1
+  weaveMag: 0
+  weaveRandom: true
+  weaveScale: 1
+  backColor: dbdbdb
+  frontColor: "#ffffffff"
+  height: 9
+  rotationOffset: 0
+  shrinkInterp: slope
+  shrinkX: 0.6
+  shrinkY: 0.2
+  spin: 0
+  sprite: shell
+  width: 9
+  trailMult: 1
+  trailSize: 4
+}
+chargeSound: none
+continuous: false
+controllable: true
+cooldownTime: 42
+display: true
+ejectEffect: none
+extraVelocity: 0
+flipSprite: false
+heatColor: "#ab3400ff"
+ignoreRotation: false
+inaccuracy: 0
+initialShootSound: none
+layerOffset: 0
+linearWarmup: false
+minShootVelocity: -1
+minWarmup: 0
+mirror: false
+name: walk-weapon
+noAttack: false
+otherSide: -1
+parentizeEffects: false
+parts: []
+predictTarget: true
+recoil: 1.5
+recoilPow: 1.8
+recoilTime: 63
+recoils: -1
+reload: 30
+rotate: false
+rotateSpeed: 20
+rotationLimit: 361
+shadow: -1
+shake: 0
+shootCone: 5
+shootOnDeath: false
+shootSound: shootMerui
+shootSoundVolume: 1
+shootStatus: none
+shootStatusDuration: 300
+shootWarmupSpeed: 0.1
+shootX: 0
+shootY: 4
+showStatSprite: false
+smoothReloadSpeed: 0.15
+soundPitchMax: 1
+soundPitchMin: 0.8
+targetInterval: 40
+targetSwitchInterval: 70
+top: true
+useAttackRange: true
+velocityRnd: 0
+x: 0
+xRand: 0
+y: 0
+yRand: 0
+}
+]
