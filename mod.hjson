@@ -155,6 +155,7 @@ contentOrder: [
   naval-station
   support-station
   melee-station
+  detonator-station
   mech-modifier
   flying-modifier
   spider-modifier
