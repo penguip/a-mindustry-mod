@@ -65,7 +65,7 @@ bullet: {
   collidesTeam: false
   collidesTiles: true
   createChance: 1
-  damage: 30
+  damage: 6
   delayFrags: false
   despawnEffect: {
     type: MultiEffect
@@ -223,7 +223,7 @@ bullet: {
   spawnBulletRandomSpread: 0
   spawnBullets: []
   speed: 3
-  splashDamage: 30
+  splashDamage: 4
   splashDamagePierce: false
   splashDamageRadius: 19
   statLiquidConsumed: 0
