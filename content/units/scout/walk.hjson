@@ -215,6 +215,7 @@ bullet: {
     startDelay: 0
     effects: [
       shootSmallColor
+      color: dbdbdb
     ]
   }
   shootSound: none
