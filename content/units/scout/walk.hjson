@@ -286,7 +286,7 @@ linearWarmup: false
 minShootVelocity: -1
 minWarmup: 0
 mirror: false
-name: walk-weapon
+name: walk-weapo
 noAttack: false
 otherSide: -1
 parentizeEffects: false
