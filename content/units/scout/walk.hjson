@@ -1,5 +1,5 @@
 localizedName: Walk
-description: Fires guided artillery at enemy ground targets.
+description: Fires guided artillery at enemy ground targets. Can walk over most terrain.
 type: legs
 legCount: 4
 lockLegBase: true
