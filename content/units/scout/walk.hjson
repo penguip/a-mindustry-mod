@@ -327,3 +327,5 @@ y: 0
 yRand: 0
 }
 ]
+research: scout-station
+researchCostMultiplier: 0
