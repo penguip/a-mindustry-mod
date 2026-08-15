@@ -113,7 +113,7 @@ bullet: {
   healPercent: 0
   healSound: blockHeal
   healSoundVolume: 0.9
-  hitColor: "#8ca9e8ff"
+  hitColor: dbdbdb
   hitEffect: {
     type: MultiEffect
     baseRotation: 0
@@ -249,6 +249,7 @@ bullet: {
   trailSinMag: 0
   trailSinScl: 3
   trailSpread: 0
+  followAimSpeed: 4
   trailWidth: 2.5
   underwater: false
   velocityScaleRandMax: 1
