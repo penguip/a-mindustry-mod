@@ -156,6 +156,7 @@ contentOrder: [
   support-station
   melee-station
   detonator-station
+  scout-station
   mech-modifier
   flying-modifier
   spider-modifier
