@@ -1,0 +1,27 @@
+type: UnitFactory
+size: 2
+health: 450
+localizedName: Scout Station
+description: Builds Walk units. Output may be used directly, or moved into modifiers for advanced construction.
+configurable: false
+requirements: [
+  yttrium/10
+  osmium/15
+  silicon/10
+]
+category: units
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: walk
+    requirements: [
+      yttrium/3
+    ]
+    time: 300
+  }
+]
+consumes: {
+  power: 0.5
+}
+research: mech-station
+researchCostMultiplier: 0.5
