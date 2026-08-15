@@ -17,7 +17,7 @@ plans: [
     requirements: [
       yttrium/3
     ]
-    time: 300
+    time: 150
   }
 ]
 consumes: {
