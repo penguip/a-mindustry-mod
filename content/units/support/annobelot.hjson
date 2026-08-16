@@ -24,7 +24,6 @@ commands: [
   repair
 ]
 mineWalls: true
-name: Patch0
 weapons: [
       {
         type: Weapon
