@@ -1,0 +1,25 @@
+type: flying
+name: Annebelot
+description: Fires small darts the heal allied blocks on impact.
+speed: 2.2
+flying: true
+health: 1650
+outlineColor: 282C36
+hitSize: 12
+range: 230
+mineSpeed: 2.75
+mineTier: 2
+mineItems: [
+  yttrium
+  osmium
+  gadolinium
+  calcium
+]
+mineBeamOffset: 7
+engineOffset: 2
+commands: [
+  move
+  enterPayload
+  mine
+]
+mineWalls: true
