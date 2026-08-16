@@ -1,0 +1,10 @@
+localizedName: Ionic Conduit
+description: Moves battery power in a single direction if the other side has less power stored.
+type: PowerDiode
+health: 65
+requirements: [
+  01a-02-item-nickel/30
+  01a-05-item-aluminium/15
+  01a-07-item-clevorite/10
+]
+category: power
