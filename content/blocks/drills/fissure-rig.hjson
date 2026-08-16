@@ -29,3 +29,6 @@ consumes: {
 }
 liquidBoostIntensity: 1.7
 liquidCapacity: 15
+blockedItems: [
+  sand
+]
