@@ -166,6 +166,7 @@ contentOrder: [
   worm-evolver
   hover-modifier
   naval-modifier
+  support-modifier
   radiant-payload-enhancer
   defiant-payload-enhancer
   prismatic-payload-enhancer
