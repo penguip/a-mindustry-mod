@@ -9,6 +9,7 @@ description:
     - Berate
     - Skull
     - Trojan
+    - Sojourner
     - Specialized Plastanium Wall
     - Large Specialized Plastanium Wall
     - Wall of Sakura
@@ -42,6 +43,7 @@ filter: [
   berate
   skull
   trojan
+  sojourner
   specialized-plastanium-wall
   specialized-plastanium-wall-large
   wall-of-sakura
