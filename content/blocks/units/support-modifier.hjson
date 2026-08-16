@@ -1,0 +1,36 @@
+type: UnitAssembler
+size: 5
+localizedName: Support Modifier
+description: Creates larger support units by fusing together inputted blocks and Shiego units via entropy. Output tier may be increased by adding modules. 
+health: 3500
+category: units
+droneType: redesign
+areaSize: 13
+requirements: [
+  yttrium/200
+  osmium/80
+  silicon/50
+  gadolinium/140
+  oxide/90
+]
+liquidCapacity: 120
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: annobelot
+    requirements: [
+      beepdustry-osmium-wall/8
+      beepdustry-sheigo/1
+      beepdustry-splinter/1
+      beepdustry-etho-bore/1
+      beepdustry-yttrium-rig/1
+    ]
+    time: 1200
+  }
+]
+squareSprite: false
+consumes: {
+  power: 6
+  liquid: entropy/1
+}
+researchCostMultiplier: 0.5
