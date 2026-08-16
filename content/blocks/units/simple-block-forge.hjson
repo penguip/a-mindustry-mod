@@ -12,6 +12,10 @@ description:
     - Gut
     - Corrosive
     - Precipitation
+    - Etho Bore
+    - Yttrium Rig
+    - Silicone Bore
+    - Fissure Rig
     - Osmium Wall
     - Large Osmium
     - Silicon Wall
@@ -42,6 +46,10 @@ filter: [
   gut
   corrosive
   precipitation
+  etho-bore
+  yttrium-rig
+  silicone-bore
+  fissure-rig
   osmium-wall
   osmium-wall-large
   silicon-wall
