@@ -40,7 +40,7 @@ weapons: [
           height: 20
           width: 2
           collidesTeam: "true"
-          healPercent: 1.5
+          healPercent: 0.25
         }
         shoot: {
           type: ShootSpread
@@ -53,6 +53,7 @@ weapons: [
         alternate: "false"
         reload: 12
         shootCone: 361
+        baseRotation: 35
         y: -2
       }
 ]
