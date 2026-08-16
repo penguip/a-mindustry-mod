@@ -1,9 +1,9 @@
 type: flying
-name: Annebelot
-description: Fires small darts the heal allied blocks on impact.
+name: Annobelot
+description: Fires small darts in a circular radius that heal allied blocks on impact.
 speed: 2.2
 flying: true
-health: 1650
+health: 2450
 outlineColor: 282C36
 hitSize: 12
 range: 230
