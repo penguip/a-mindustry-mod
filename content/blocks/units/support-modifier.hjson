@@ -20,7 +20,7 @@ plans: [
     unit: annobelot
     requirements: [
       beepdustry-osmium-wall/8
-      beepdustry-sheigo/1
+      beepdustry-shiego/1
       beepdustry-splinter/1
       beepdustry-etho-bore/1
       beepdustry-yttrium-rig/1
