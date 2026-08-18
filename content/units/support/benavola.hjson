@@ -42,14 +42,16 @@ weapons: [
         type: LightningBulletType
         damage: 28.5
         lightRadius: 20
-        lightningColor: "#d8f18cff"
+        lightningColor: 7ae865
         lightningLength: 2
         lightningLengthRand: 4
         lightningType: damageLightning
+        collidesTeam: true
+        healPercent: 1
         range: 24
       }
       fragBullets: 2
-      hitColor: "#d8f18cff"
+      hitColor: 7ae865
       hitSize: 6
       lifetime: 54
       lightRadius: 30
@@ -59,11 +61,11 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect: shootSmokeTitan
       speed: 0.1
-      trailColor: "#d8f18cff"
+      trailColor: 7ae865
       trailLength: 10
       trailWidth: 3
-      backColor: "#d8f18cff"
-      frontColor: "#d8f18cff"
+      backColor: 7ae865
+      frontColor: 7ae865
       height: 15
       width: 10
       accel: 0.18
