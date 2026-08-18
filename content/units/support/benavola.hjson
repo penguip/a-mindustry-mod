@@ -1,0 +1,31 @@
+type: flying
+name: Benavola
+description: Fires an accelerating orb of lighting that heals structures on impact. Capable of rebuilding destroyed structures and assisting units in construction. Has enhanced mining capabilities, mining faster than Annobelot and mining destabilized zircon.
+speed: 2
+flying: true
+health: 9340
+outlineColor: 282C36
+hitSize: 12
+mineSpeed: 3.5
+buildSpeed: 1.2
+mineTier: 3
+mineItems: [
+  yttrium
+  osmium
+  gadolinium
+  calcium
+  unstable-zircon
+  ]
+mineBeamOffset: 7
+engineOffset: 2
+engineSize: 4
+commands: [
+  move
+  enterPayload
+  mine
+  repair
+  rebuild
+  assist
+]
+mineWalls: true
+defaultCommand: rebuild
