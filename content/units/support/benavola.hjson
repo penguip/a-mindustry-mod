@@ -29,3 +29,60 @@ commands: [
 ]
 mineWalls: true
 defaultCommand: rebuild
+weapons: [
+  {
+    type: Weapon
+    bullet: {
+      type: BasicBulletType
+      damage: 97
+      despawnHit: "true"
+      despawnSound: explosionArtilleryShock
+      drawSize: 120
+      fragBullet: {
+        type: LightningBulletType
+        damage: 28.5
+        lightRadius: 20
+        lightningColor: "#d8f18cff"
+        lightningLength: 2
+        lightningLengthRand: 4
+        lightningType: damageLightning
+        range: 24
+      }
+      fragBullets: 2
+      hitColor: "#d8f18cff"
+      hitSize: 6
+      lifetime: 54
+      lightRadius: 30
+      lightningType: damageLightning
+      pierce: "true"
+      range: 192
+      shootEffect: shootTitan
+      smokeEffect: shootSmokeTitan
+      speed: 0.1
+      trailColor: "#d8f18cff"
+      trailLength: 10
+      trailWidth: 3
+      backColor: "#d8f18cff"
+      frontColor: "#d8f18cff"
+      height: 15
+      width: 10
+      accel: 0.18
+      collidesTeam: "true"
+      healPercent: 15
+    }
+    minWarmup: 0.55
+    mirror: "false"
+    recoilTime: 91
+    reload: 91
+    shoot: {
+      type: ShootHelix
+      mag: 1
+      scl: 5
+    }
+    shootSound: explosionObviate
+    shootY: -1
+    shake: 10
+    x: 0
+    y: 1
+  }
+]
