@@ -58,7 +58,7 @@ weapons: [
       pierce: "true"
       shootEffect: shootTitan
       smokeEffect: shootSmokeTitan
-      speed: 0.1
+      speed: 4.96
       maxRange: 267.84
       trailColor: 7ae865
       trailLength: 10
@@ -67,7 +67,7 @@ weapons: [
       frontColor: 7ae865
       height: 15
       width: 10
-      accel: 0.18
+      accel: 0
       collidesTeam: "true"
       healPercent: 15
     }
