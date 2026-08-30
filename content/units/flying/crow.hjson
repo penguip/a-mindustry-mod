@@ -74,6 +74,8 @@ weapons: [
         backColor: 94431c
         trailColor: 94431c
         speed: 1.5
+        maxRange: 213.2
+        range: 213.2
         trailChance: 0
         trailLength: 20
         trailParam: 3
