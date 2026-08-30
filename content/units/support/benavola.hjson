@@ -74,6 +74,7 @@ weapons: [
     mirror: "false"
     recoilTime: 91
     reload: 91
+    range: 267.84
     shoot: {
       type: ShootHelix
       mag: 1
