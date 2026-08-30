@@ -59,7 +59,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect: shootSmokeTitan
       speed: 0.1
-      range: 267.84
+      maxRange: 267.84
       trailColor: 7ae865
       trailLength: 10
       trailWidth: 3
