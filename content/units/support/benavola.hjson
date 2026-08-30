@@ -48,7 +48,6 @@ weapons: [
         lightningType: damageLightning
         collidesTeam: true
         healPercent: 1
-        range: 24
       }
       fragBullets: 2
       hitColor: 7ae865
@@ -57,7 +56,6 @@ weapons: [
       lightRadius: 30
       lightningType: damageLightning
       pierce: "true"
-      range: 192
       shootEffect: shootTitan
       smokeEffect: shootSmokeTitan
       speed: 0.1
@@ -83,6 +81,7 @@ weapons: [
     }
     shootSound: explosionObviate
     shootY: -1
+    shootCone: 10
     shake: 10
     x: 0
     y: 1
