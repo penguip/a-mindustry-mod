@@ -1,6 +1,6 @@
 type: flying
 name: Benavola
-description: Fires an accelerating orb of lighting that heals structures on impact. Capable of rebuilding destroyed structures and assisting units in construction. Has enhanced mining capabilities, mining faster than Annobelot and mining destabilized zircon.
+description: Fires a pair of lighting orbs that heals structures on impact. Capable of rebuilding destroyed structures and assisting units in construction. Has enhanced mining capabilities, mining faster than Annobelot and mining destabilized zircon.
 speed: 2
 flying: true
 health: 9340
