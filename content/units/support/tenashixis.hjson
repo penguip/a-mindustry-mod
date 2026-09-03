@@ -32,7 +32,7 @@ commands: [
 mineWalls: true
 weapons: [
   {
-    reload: 600
+    reload: 1500
     shootSound: shootTank
     mirror: "false"
     x: 0
@@ -47,11 +47,12 @@ weapons: [
       frontColor: 7ae865
       backColor: 4ce874
       range: 250
+      despawnShake: 15
       despawnSound: explosion-tenashixis
       fragBullet: {
         type: BulletType
         speed: 0
-        lifetime: 300
+        lifetime: 900
         bulletInterval: 5
         hitEffect: none
         despawnEffect: none
@@ -93,7 +94,7 @@ weapons: [
                     strokeFrom: 3
                 }
               hitEffect: none
-              shake: 5
+              despawnShake: 5
               shrinkX: 0.7
               despawnSound: explosion-tenashixis-small
             }
