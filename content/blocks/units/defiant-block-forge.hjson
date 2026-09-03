@@ -60,4 +60,4 @@ filter: [
 squareSprite: false
 conductivePower: true
 researchCostMultiplier: 0.3
-maxBlockSize: 3
+maxBlockSize: 4
