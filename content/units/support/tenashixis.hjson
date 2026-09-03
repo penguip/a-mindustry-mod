@@ -32,7 +32,7 @@ commands: [
 mineWalls: true
 weapons: [
   {
-    reload: 1500
+    reload: 900
     shootSound: shootTank
     mirror: "false"
     x: 0
