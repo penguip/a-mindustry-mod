@@ -27,6 +27,18 @@ plans: [
     ]
     time: 1200
   }
+  {
+    type: AssemblerUnitPlan
+    unit: benavola
+    requirements: [
+      beepdustry-actinium-wall-large/4
+      beepdustry-shiego/5
+      beepdustry-phrase/1
+      beepdustry-silicone-bore/1
+      beepdustry-fissure-rig/1
+    ]
+    time: 3600
+  }
 ]
 squareSprite: false
 consumes: {
