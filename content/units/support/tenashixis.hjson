@@ -20,7 +20,7 @@ mineItems: [
   ]
 mineBeamOffset: 10
 engineOffset: 4
-engineSize: 10
+engineSize: 6
 commands: [
   move
   enterPayload
