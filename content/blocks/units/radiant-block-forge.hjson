@@ -17,6 +17,7 @@ description:
     - Actinium Wall
     - Large Actinium Wall
     - Force Well
+    - Monopolize
 ''' 
 size: 3
 category: units
@@ -45,6 +46,7 @@ filter: [
   actinium-wall
   actinium-wall-large
   force-well
+  monopolize
 ]
 squareSprite: false
 conductivePower: true
