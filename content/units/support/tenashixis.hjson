@@ -61,8 +61,8 @@ weapons: [
                     type: WaveEffect
                     colorFrom: 7ae865
                     colorTo: 27e8a6 
-                    sizeTo: 45
-                    sizeFrom: 30
+                    sizeTo: 55
+                    sizeFrom: 55
                     lifetime: 15
                     strokeFrom: 3
                 }
@@ -92,6 +92,7 @@ weapons: [
                     lifetime: 15
                     strokeFrom: 3
                 }
+              hitEffect: none
               shake: 5
               shrinkX: 0.7
               despawnSound: explosion-tenashixis-small
