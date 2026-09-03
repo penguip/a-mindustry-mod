@@ -30,3 +30,61 @@ commands: [
   assist
 ]
 mineWalls: true
+weapons: [
+  {
+    reload: 600
+    shootSound: shootTank
+    mirror: "false"
+    x: 0
+    bullet: {
+      sprite: shell
+      height: 18
+      width: 13
+      damage: 0
+      scaleLife: "true"
+      speed: 2
+      lifetime: 125
+      range: 250
+      despawnSound: explosion-tenashixis
+      fragBullet: {
+        type: BulletType
+        speed: 0
+        lifetime: 300
+        bulletInterval: 5
+        damage: 0
+        collides: "false"
+        collidesTiles: "false"
+        intervalBullet: {
+          type: BulletType
+          fragBullet: {
+            type: BulletType
+            fragBullet: {
+              type: BombBulletType
+              sprite: large-bomb
+              spin: 2
+              height: 30
+              width: 30
+              splashDamage: 120
+              splashDamageRadius: 35
+              speed: 0
+              shrinkX: 0.7
+              despawnSound: explosion-tenashixis-small
+            }
+            despawnSound: shootQuad
+            fragBullets: 1
+            lifetime: 20
+          }
+          collides: "false"
+          fragBullets: 1
+          createChance: 0.3
+          fragRandomSpread: 0
+          instantDisappear: "true"
+          fragVelocityMax: 2
+          fragLifeMin: 0.2
+          fragLifeMax: 1.5
+        }
+      }
+      fragBullets: 1
+    }
+  }
+]
