@@ -1,0 +1,32 @@
+type: flying
+name: Tenashixis
+description: Fires an orbital flare to call in anomalous meteors from the thermosphere, healing allies in the area. Has enhanced mining capabilities, mining faster than Benavola and mining actinium shale.
+speed: 1.64
+flying: true
+health: 19870
+armor: 7
+outlineColor: 282C36
+hitSize: 24
+mineSpeed: 4.25
+buildSpeed: 1.6
+mineTier: 4
+mineItems: [
+  yttrium
+  osmium
+  gadolinium
+  calcium
+  unstable-zircon
+  actinide-shale
+  ]
+mineBeamOffset: 10
+engineOffset: 4
+engineSize: 10
+commands: [
+  move
+  enterPayload
+  mine
+  repair
+  rebuild
+  assist
+]
+mineWalls: true
