@@ -44,6 +44,8 @@ weapons: [
       scaleLife: "true"
       speed: 2
       lifetime: 125
+      frontColor: 7ae865
+      backColor: 4ce874
       range: 250
       despawnSound: explosion-tenashixis
       fragBullet: {
@@ -51,6 +53,8 @@ weapons: [
         speed: 0
         lifetime: 300
         bulletInterval: 5
+        hitEffect: none
+        despawnEffect: none
         damage: 0
         collides: "false"
         collidesTiles: "false"
@@ -62,16 +66,21 @@ weapons: [
               type: BombBulletType
               sprite: large-bomb
               spin: 2
+              frontColor: 7ae865
+              backColor: 4ce874
               height: 30
               width: 30
               splashDamage: 120
               splashDamageRadius: 35
               speed: 0
+              shake: 5
               shrinkX: 0.7
               despawnSound: explosion-tenashixis-small
             }
             despawnSound: shootQuad
             fragBullets: 1
+            despawnEffect: none
+            hitEffect: none
             lifetime: 20
           }
           collides: "false"
@@ -80,6 +89,8 @@ weapons: [
           fragRandomSpread: 0
           instantDisappear: "true"
           fragVelocityMax: 2
+          hitEffect: none
+          despawnEffect: none
           fragLifeMin: 0.2
           fragLifeMax: 1.5
         }
