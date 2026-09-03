@@ -56,6 +56,16 @@ weapons: [
         hitEffect: none
         despawnEffect: none
         damage: 0
+        trailInterval: 1
+                trailEffect: {
+                    type: WaveEffect
+                    colorFrom: 7ae865
+                    colorTo: 27e8a6 
+                    sizeTo: 45
+                    sizeFrom: 30
+                    lifetime: 15
+                    strokeFrom: 3
+                }
         collides: "false"
         collidesTiles: "false"
         intervalBullet: {
@@ -73,18 +83,30 @@ weapons: [
               splashDamage: 120
               splashDamageRadius: 35
               speed: 0
+              despawnEffect: {
+                    type: WaveEffect
+                    colorFrom: 7ae865
+                    colorTo: 27e8a6 
+                    sizeTo: 8
+                    sizeFrom: 4
+                    lifetime: 15
+                    strokeFrom: 3
+                }
               shake: 5
               shrinkX: 0.7
               despawnSound: explosion-tenashixis-small
             }
             despawnSound: shootQuad
             fragBullets: 1
+            damage: 0
+            collides: false
             despawnEffect: none
             hitEffect: none
             lifetime: 20
           }
           collides: "false"
           fragBullets: 1
+          damage: 0
           createChance: 0.3
           fragRandomSpread: 0
           instantDisappear: "true"
