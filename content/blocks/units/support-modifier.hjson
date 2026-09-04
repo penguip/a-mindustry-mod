@@ -40,6 +40,21 @@ plans: [
     ]
     time: 3600
   }
+  {
+    type: AssemblerUnitPlan
+    unit: tenashixis
+    requirements: [
+      beepdustry-actinium-wall-large/8
+      beepdustry-specialized-plastanium-wall-large/4
+      beepdustry-shiego/10
+      beepdustry-berate/1
+      beepdustry-infernal-bore/1
+      beepdustry-pyro-rig/1
+      beepdustry-monopolize/2
+      beepdustry-tachyon-accelerator/2
+    ]
+    time: 7200
+  }
 ]
 squareSprite: false
 consumes: {
