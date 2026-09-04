@@ -6,7 +6,7 @@ unitType: sonata
 buildTime: 600
 consumes: {
   power: 8
-  liquid: cenessiodreon/0.5
+  liquid: radon/2
 }
 polyColor: cbd97f
 polyRadius: 9
