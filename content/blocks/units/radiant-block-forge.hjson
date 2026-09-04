@@ -12,6 +12,8 @@ description:
     - Exposure
     - Phrase
     - Fray
+    - Infernal Bore
+    - Pyro Rig
     - Zirconium Wall
     - Large Zirconium Wall
     - Actinium Wall
@@ -41,6 +43,8 @@ filter: [
   exposure
   phrase
   fray
+  infernal-bore
+  pyro-rig
   zirconium-wall
   zirconium-wall-large
   actinium-wall
