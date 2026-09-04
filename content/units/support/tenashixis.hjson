@@ -81,7 +81,7 @@ weapons: [
               backColor: 4ce874
               height: 30
               width: 30
-              repairPercent: 10
+              healPercent: 10
               splashDamage: 120
               splashDamageRadius: 35
               speed: 0
