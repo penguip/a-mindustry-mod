@@ -1,9 +1,10 @@
-type: flying
+type: payload
 name: Tenashixis
-description: Fires an orbital flare to call in anomalous meteors from the thermosphere, healing allies in the area. Has enhanced mining capabilities, mining faster than Benavola and mining actinium shale.
+description: Fires an orbital flare to call in anomalous meteors from the thermosphere, healing allies in the area. Has enhanced mining capabilities, mining faster than Benavola and mining actinium shale. Repairs nearby ally units. Can pick up small blocks and ground units.
 speed: 1.64
 flying: true
 health: 19870
+payloadCapacity: 256
 armor: 7
 outlineColor: 282C36
 hitSize: 24
@@ -85,6 +86,7 @@ weapons: [
               splashDamage: 120
               splashDamageRadius: 35
               speed: 0
+              collidesTeam: true
               despawnEffect: {
                     type: WaveEffect
                     colorFrom: 7ae865
@@ -108,6 +110,7 @@ weapons: [
             lifetime: 20
           }
           collides: "false"
+          collidesTeam: true
           fragBullets: 1
           damage: 0
           createChance: 0.3
@@ -122,5 +125,13 @@ weapons: [
       }
       fragBullets: 1
     }
+  }
+]
+abilities: [
+  {
+    type: RepairFieldAbility
+    range: 150
+    amount: 35
+    reload: 15
   }
 ]
