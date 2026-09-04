@@ -26,6 +26,7 @@ description:
     - Sophisticated Ligament
     - Gravity Suspender
     - Sail Turbine
+    - Tachyon Accelerator
 ''' 
 size: 3
 category: units
@@ -64,6 +65,7 @@ filter: [
   sonic-cutter
   sophisticated-ligament
   gravity-suspender
+  tachyon-accelerator
 ]
 squareSprite: false
 conductivePower: true
