@@ -47,7 +47,7 @@ weapons: [
     shake: 10
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 900
+      splashDamage: 450
       splashDamageRadius: 75
       buildingDamageMultiplier: 0.1
       ammoMultiplier: 1
@@ -70,7 +70,7 @@ weapons: [
          type: LightningBulletType
          lightningLength: 45
          lightningLengthRand: 5
-         damage: 50
+         damage: 10
          lightningColor: 80ffbd
          despawnSound: explosionArtilleryShock
         }
