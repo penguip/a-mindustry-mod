@@ -75,6 +75,29 @@ ammoTypes: {
     backColor: aob380
     frontColor: e4ffd6
   },
+  contrinum: {
+  type: BasicBulletType
+  buildingDamageMultiplier: 0.25
+  damage: 160
+  lifetime: 14
+  lightRadius: 20
+  lightningType: damageLightning
+  pierce: "true"
+  pierceCap: 5
+  range: 252
+  rangeChange: -148
+  reloadMultiplier: 1.8
+  speed: 18
+  status: blasted
+  backColor: "#9fb380ff"
+  frontColor: "#e4ffd6ff"
+  height: 20
+  width: 2.5
+  splashDamageRadius: 35
+  splashDamage: 29
+  hitEffect: explosion
+  hitSound: explosion
+}
 }
 research: {
   parent: embargo
