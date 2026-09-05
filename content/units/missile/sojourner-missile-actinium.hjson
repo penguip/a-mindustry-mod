@@ -47,7 +47,7 @@ weapons: [
     shake: 10
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 2800
+      splashDamage: 1300
       splashDamageRadius: 100
       status: radiation-decay
       statusDuration: 600
