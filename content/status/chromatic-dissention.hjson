@@ -1,6 +1,9 @@
 localizedName: Chromatic Dissention
-description: The unique radiation of ageriolix is taking its toll on this unit. Causes significant damage, decreases defense, and increases speed.
+description: The unique radiation of ageriolix is taking its toll on this unit. Causes significant damage, decreases defense, and increases speed. Reacts to energicon overcharge, making the conditions even more violent.
 healthMultiplier: 0.65
 speedMultiplier: 1.2
 damage: 6
 outline: false
+affinities: [
+  overcharged
+]
