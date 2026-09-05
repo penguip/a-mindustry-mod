@@ -56,9 +56,9 @@ weapons: [
     shake: 10
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 2000
+      splashDamage: 1750
       splashDamageRadius: 75
-      status: freezing
+      status: chromatic-dissention
       statusDuration: 600
       buildingDamageMultiplier: 0.1
       ammoMultiplier: 1
