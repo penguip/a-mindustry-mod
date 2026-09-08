@@ -33,6 +33,7 @@ commands: [
 mineWalls: true
 createWreck: false
 deathSound: explosionAfflict
+deathExplosionEffect: greenBomb
 abilities: [
  {
 type: ForceFieldAbility
@@ -41,5 +42,6 @@ chanceDeflect: 0.25
 cooldown: 6000
 max: 10000
 regen: 5
+sides: 100
 }
 ]
