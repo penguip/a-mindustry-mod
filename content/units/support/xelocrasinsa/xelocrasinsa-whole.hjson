@@ -45,4 +45,12 @@ max: 10000
 regen: 5
 sides: 100
 }
+  {
+    type: SpawnDeathAbility
+    unit: beepdustry-calluxus
+  }
+  {
+    type: SpawnDeathAbility
+    unit: beepdustry-xelocrasinsa--calluxus
+  }
 ]
