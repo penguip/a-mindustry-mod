@@ -32,6 +32,7 @@ commands: [
 ]
 mineWalls: true
 createWreck: false
+createScorch: false
 deathSound: explosionAfflict
 deathExplosionEffect: greenBomb
 abilities: [
