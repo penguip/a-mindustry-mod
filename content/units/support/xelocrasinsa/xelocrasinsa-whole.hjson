@@ -9,7 +9,7 @@ armor: 3
 outlineColor: 282C36
 hitSize: 30
 mineSpeed: 10
-buildSpeed: 3
+buildSpeed: 5
 mineTier: 5
 mineItems: [
   yttrium
@@ -33,3 +33,13 @@ commands: [
 mineWalls: true
 createWreck: false
 deathSound: explosionAfflict
+abilities: [
+ {
+type: ForceFieldAbility
+radius: 130
+chanceDeflect: 0.25
+cooldown: 6000
+max: 10000
+regen: 5
+}
+]
