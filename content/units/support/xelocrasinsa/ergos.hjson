@@ -17,7 +17,7 @@ weapons: [{
   outlineColor: 282C36
   y: -1
   x: 0
-  reload: 60
+  reload: 50
   shoot: {
   shots: 2
   shotDelay: 10
