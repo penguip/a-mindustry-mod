@@ -1,0 +1,44 @@
+type: flying
+name: Ergos
+description: Fires repairing, piercing bullets. A detatched component of Xelocrasinsa.
+speed: 2.675
+flying: true
+health: 6430
+outlineColor: 282C36
+hitSize: 5
+range: 50
+engineOffset: 2
+commands: [
+  move
+  enterPayload
+  repair
+]
+weapons: [{
+  outlineColor: 282C36
+  y: -1
+  x: 0
+  reload: 60
+  shoot: {
+  shots: 2
+  shotDelay: 5
+  }
+  shootSound: shootTank
+  mirror: false
+  bullet: {
+    type: BasicBulletType
+    damage: 35
+    healPercent: 2
+    height: 3
+    width: 3
+    pierce: true
+    pierceCap: 2
+    pierceBuildings: false
+    frontColor: 4ce874
+    backColor: 27e8a6
+    trailColor: 4ce874
+    trailLength: 25
+    trailWidth: 2
+    speed: 3
+    lifetime: 150
+  }
+}]
