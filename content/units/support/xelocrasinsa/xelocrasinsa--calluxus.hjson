@@ -45,4 +45,13 @@ max: 10000
 regen: 5
 sides: 100
 }
+{
+    type: SpawnDeathAbility
+    unit: beepdustry-ergos
+    amount: 2
+  }
+  {
+    type: SpawnDeathAbility
+    unit: beepdustry-xelocrasinsa--ergos
+  }
 ]
