@@ -4,7 +4,7 @@ description: Emits a durable force field around allies. Has enhanced mining capa
 speed: 0.6
 flying: true
 health: 6540
-payloadCapacity: 256
+payloadCapacity: 5184
 armor: 3
 outlineColor: 282C36
 hitSize: 30
