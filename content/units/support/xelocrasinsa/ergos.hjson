@@ -6,7 +6,7 @@ flying: true
 health: 6430
 outlineColor: 282C36
 hitSize: 5
-range: 50
+range: 60
 engineOffset: 2
 commands: [
   move
@@ -20,7 +20,7 @@ weapons: [{
   reload: 60
   shoot: {
   shots: 2
-  shotDelay: 5
+  shotDelay: 10
   }
   shootSound: shootTank
   mirror: false
@@ -39,6 +39,6 @@ weapons: [{
     trailLength: 25
     trailWidth: 2
     speed: 3
-    lifetime: 150
+    lifetime: 20
   }
 }]
