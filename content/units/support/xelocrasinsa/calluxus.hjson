@@ -13,3 +13,21 @@ commands: [
   enterPayload
   repair
 ]
+weapons: [{
+  outlineColor: 282C36
+  reload: 45
+  shootSound: shootLancer
+  mirror: false
+  bullet: {
+    type: LaserBulletType
+    damage: 135
+    length: 45
+    width: 10
+    pierceBuildings: false
+    colors: [
+      FFA56E
+      FFBC83
+    ]
+    smokeEffect: hitLaserColor
+  }
+}]
