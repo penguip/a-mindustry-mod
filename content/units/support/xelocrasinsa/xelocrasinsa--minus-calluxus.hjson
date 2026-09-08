@@ -1,0 +1,48 @@
+type: payload
+name: Xelocrasinsa(Minus Calluxus)
+description: Emits a durable force field around allies. Has enhanced mining capabilities, mining rapidly. Possesses multi-part sentience; every part is its own machine. When critical damage is reached, one or two parts will detach in a pulse of plasmatic energy that heals the remaining unit and reactivates the shield. Can pick up virtually all ground units and blocks in large amounts.
+speed: 0.6
+flying: true
+health: 6540
+payloadCapacity: 5184
+armor: 3
+outlineColor: 282C36
+hitSize: 30
+mineSpeed: 10
+buildSpeed: 5
+mineTier: 5
+mineItems: [
+  yttrium
+  osmium
+  gadolinium
+  calcium
+  unstable-zircon
+  actinide-shale
+  ]
+mineBeamOffset: 10
+engineOffset: 4
+engineSize: 6
+commands: [
+  move
+  enterPayload
+  mine
+  repair
+  rebuild
+  assist
+]
+mineWalls: true
+createWreck: false
+createScorch: false
+deathSound: explosionAfflict
+deathExplosionEffect: greenBomb
+abilities: [
+ {
+type: ForceFieldAbility
+radius: 130
+chanceDeflect: 0.25
+cooldown: 6000
+max: 10000
+regen: 5
+sides: 100
+}
+]
