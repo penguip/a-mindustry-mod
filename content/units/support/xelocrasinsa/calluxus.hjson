@@ -6,7 +6,7 @@ flying: true
 health: 6430
 outlineColor: 282C36
 hitSize: 5
-range: 230
+range: 45
 engineOffset: 2
 commands: [
   move
@@ -21,12 +21,14 @@ weapons: [{
   bullet: {
     type: LaserBulletType
     damage: 135
+    healPercent: 5
     length: 45
     width: 10
     pierceBuildings: false
     colors: [
-      FFA56E
-      FFBC83
+      27e8a6
+      4ce874
+      7ae865
     ]
     smokeEffect: hitLaserColor
   }
