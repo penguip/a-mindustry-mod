@@ -31,6 +31,8 @@ weapons: [
       frontColor: 4ce874
       backColor: 27e8a6
       trailColor: 4ce874
+      range: 230
+      maxRange: 230
     }
     reload: 15
     mirror: "false"
