@@ -13,3 +13,28 @@ commands: [
   enterPayload
   repair
 ]
+weapons: [
+  {
+    bullet: {
+      type: MissileBulletType
+      followAimSpeed: 1.8
+      homingPower: 0
+      homingRange: -1
+      accel: 0.04
+      speed: 0.3
+      collidesTeam: true
+      lifetime: 100
+      healPercent: 5
+      damage: 18.5
+      splashDamage: 18.5
+      splashDamageRadius: 50
+    }
+    reload: 15
+    mirror: "false"
+    alternate: "false"
+    x: 0
+    shootSound: shootMissileLong
+    baseRotation: -65
+    shootCone: 180
+  }
+]
