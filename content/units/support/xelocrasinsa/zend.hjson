@@ -28,6 +28,9 @@ weapons: [
       damage: 18.5
       splashDamage: 18.5
       splashDamageRadius: 50
+      frontColor: 4ce874
+      backColor: 27e8a6
+      trailColor: 4ce874
     }
     reload: 15
     mirror: "false"
