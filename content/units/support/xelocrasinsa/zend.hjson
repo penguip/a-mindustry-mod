@@ -6,7 +6,7 @@ flying: true
 health: 6430
 outlineColor: 282C36
 hitSize: 5
-range: 60
+range: 230
 engineOffset: 2
 commands: [
   move
