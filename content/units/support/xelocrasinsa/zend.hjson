@@ -7,7 +7,7 @@ health: 6430
 outlineColor: 282C36
 hitSize: 5
 range: 230
-engineOffset: 2
+engineOffset: 4
 commands: [
   move
   enterPayload
