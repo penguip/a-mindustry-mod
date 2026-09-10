@@ -1,6 +1,6 @@
 type: flying
 name: Raxon
-description: Fires a repairing cluster shell. A detatched component of Xelocrasinsa.
+description: Fires a repairing cluster bullet. A detatched component of Xelocrasinsa.
 speed: 2.675
 flying: true
 health: 6430
@@ -12,4 +12,78 @@ commands: [
   move
   enterPayload
   repair
+]
+weapons: [
+  {
+    reload: 250
+    bullet: {
+      sprite: large-orb
+      height: 10
+      width: 10
+      shrinkY: 0
+      fragVelocityMin: 1
+      fragRandomSpread: 0
+      fragSpread: 90
+      fragBullets: 4
+      lifetime: 80
+      speed: 1
+      collidesTeam: "true"
+      damage: 90
+      fragBullet: {
+        damage: 35
+        pierce: "true"
+        pierceBuilding: "true"
+        pierceCap: 1
+        speed: 3
+        lifetime: 10
+        type: BasicBulletType
+        sprite: large-orb
+        shrinkY: 0
+        height: 5
+        fragRandomSpread: 0
+        fragBullets: 2
+        fragBullet: {
+          damage: 35
+          pierce: "true"
+          pierceBuilding: "true"
+          pierceCap: 1
+          speed: 3
+          lifetime: 20
+          type: BasicBulletType
+          sprite: large-orb
+          shrinkY: 0
+          height: 5
+          hitSound: explosionDull
+          collidesTeam: "true"
+          healPercent: 1
+          trailInterval: 15
+          trailChance: 0.5
+          trailLength: 60
+          trailEffect: circleColorSpark
+        }
+        fragVelocityMin: 1
+        hitSound: explosionDull
+        fragSpread: 180
+        fragAngle: 90
+        collidesTeam: "true"
+        healAmount: 1
+        trailEffect: circleColorSpark
+        trailChance: 0.5
+        trailInterval: 15
+        trailLength: 60
+      }
+      fragAngle: 45
+      hitSound: explosionDull
+      trailEffect: circleColorSpark
+      trailChance: 0.5
+      trailLength: 60
+      trailInterval: 15
+      healPercent: 2.5
+      trailWidth: 4
+    }
+    mirror: "false"
+    alternate: "false"
+    x: 0
+    shootSound: shootArtillerySmall
+  }
 ]
