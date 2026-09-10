@@ -6,7 +6,7 @@ flying: true
 health: 6430
 outlineColor: 282C36
 hitSize: 5
-range: 80
+range: 150
 engineOffset: 4
 commands: [
   move
@@ -18,5 +18,19 @@ weapons: [
     x: 0
     shake: 5
     shootSound: shoot-peril
-    reload: 60
+    reload: 600
     bullet: {
+      type: LaserBulletType
+    buildingDamageMultiplier: 0
+    splashDamage: 0
+    splashDamageRadius: 0
+    damage: 250
+    length: 150
+    width: 3
+    colors: [
+    ff0000
+    ffffff
+    ]
+   }
+  }
+ ]
