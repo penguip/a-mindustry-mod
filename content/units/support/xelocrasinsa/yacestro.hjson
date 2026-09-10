@@ -6,7 +6,7 @@ flying: true
 health: 6430
 outlineColor: 282C36
 hitSize: 5
-range: 150
+range: 300
 engineOffset: 4
 commands: [
   move
@@ -21,11 +21,12 @@ weapons: [
     reload: 600
     bullet: {
       type: LaserBulletType
-    buildingDamageMultiplier: 0
+    collidesTeam: true
+    healPercent: 15
     splashDamage: 0
     splashDamageRadius: 0
     damage: 250
-    length: 150
+    length: 300
     width: 3
     colors: [
     27e8a6
