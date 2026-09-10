@@ -1,0 +1,15 @@
+type: flying
+name: Raxon
+description: Fires a repairing cluster shell. A detatched component of Xelocrasinsa.
+speed: 2.675
+flying: true
+health: 6430
+outlineColor: 282C36
+hitSize: 5
+range: 230
+engineOffset: 4
+commands: [
+  move
+  enterPayload
+  repair
+]
