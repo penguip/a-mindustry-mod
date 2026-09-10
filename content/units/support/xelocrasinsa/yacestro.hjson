@@ -13,3 +13,10 @@ commands: [
   enterPayload
   repair
 ]
+weapons: [
+  {
+    x: 0
+    shake: 5
+    shootSound: shoot-peril
+    reload: 60
+    bullet: {
