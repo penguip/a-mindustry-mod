@@ -6,7 +6,7 @@ flying: true
 health: 6430
 outlineColor: 282C36
 hitSize: 5
-range: 230
+range: 80
 engineOffset: 4
 commands: [
   move
@@ -25,6 +25,9 @@ weapons: [
       fragRandomSpread: 0
       fragSpread: 90
       fragBullets: 4
+      frontColor: 4ce874
+      backColor: 27e8a6
+      trailColor: 4ce874
       lifetime: 80
       speed: 1
       collidesTeam: "true"
@@ -42,6 +45,9 @@ weapons: [
         height: 5
         fragRandomSpread: 0
         fragBullets: 2
+        frontColor: 4ce874
+        backColor: 27e8a6
+        trailColor: 4ce874
         fragBullet: {
           damage: 35
           pierce: "true"
@@ -53,6 +59,9 @@ weapons: [
           sprite: large-orb
           shrinkY: 0
           height: 5
+          frontColor: 4ce874
+          backColor: 27e8a6
+          trailColor: 4ce874
           hitSound: explosionDull
           collidesTeam: "true"
           healPercent: 1
@@ -84,6 +93,6 @@ weapons: [
     mirror: "false"
     alternate: "false"
     x: 0
-    shootSound: shootArtillerySmall
+    shootSound: shoot-sharp
   }
 ]
