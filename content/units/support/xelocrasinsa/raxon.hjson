@@ -64,7 +64,7 @@ weapons: [
           trailColor: 4ce874
           hitSound: explosionDull
           collidesTeam: "true"
-          healPercent: 1
+          healPercent: 1.5
           trailInterval: 15
           trailChance: 0.5
           trailLength: 60
@@ -75,7 +75,7 @@ weapons: [
         fragSpread: 180
         fragAngle: 90
         collidesTeam: "true"
-        healAmount: 1
+        healPercent: 1
         trailEffect: circleColorSpark
         trailChance: 0.5
         trailInterval: 15
