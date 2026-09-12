@@ -19,10 +19,10 @@ bullet: {
   type: BulletType
   hitSound: explosionCleroi
             lightOpacity: 0.6
-            lightColor: 6271ad
+            lightColor: 7ae865
             lightRadius: 40
-            status: radiation-decay
-            statusDuration: 400
+            status: chromatic-dissention
+            statusDuration: 120
             pierce: true
             pierceArmor: true
             pierceBuilding: true
@@ -34,7 +34,7 @@ bullet: {
             trailInterval: 1
             trailEffect: {
                 type: WaveEffect
-                colorFrom: 6271ad
+                colorFrom: 7ae865
                 colorTo: 4031ad
                 sizeTo: 4
                 sizeFrom: 8
@@ -52,10 +52,10 @@ bullet: {
                 type: BulletType
                 hitSound: none
                 lightOpacity: 0.6
-                lightColor: 6271ad
+                lightColor: 7ae865
                 lightRadius: 40
-                status: radiation-decay
-                statusDuration: 400
+                status: chromatic-dissention
+                statusDuration: 120
                 pierce: true
                 pierceArmor: true
                 pierceBuilding: true
@@ -67,7 +67,7 @@ bullet: {
                 trailInterval: 1
                 trailEffect: {
                     type: WaveEffect
-                    colorFrom: 6271ad
+                    colorFrom: 7ae865
                     colorTo: 4031ad
                     sizeTo: 4
                     sizeFrom: 8
@@ -77,14 +77,14 @@ bullet: {
             }
             shootEffect: {
                 type: WaveEffect
-                colorFrom: 6271ad
+                colorFrom: 7ae865
                 colorTo: 4031ad
                 sizeTo: 6
                 lifetime: 30
                 strokeFrom: 3
             }
 }
-reload: 80
+reload: 40
 shootSound: shoot-bravery
 y: 0
 x: 0
