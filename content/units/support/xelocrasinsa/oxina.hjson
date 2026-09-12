@@ -6,10 +6,89 @@ flying: true
 health: 6430
 outlineColor: 282C36
 hitSize: 5
-range: 300
+range: 150
 engineOffset: 4
 commands: [
   move
   enterPayload
   repair
+]
+weapons: [
+  {
+bullet: {
+  type: BulletType
+  hitSound: explosionCleroi
+            lightOpacity: 0.6
+            lightColor: 6271ad
+            lightRadius: 40
+            status: radiation-decay
+            statusDuration: 400
+            pierce: true
+            pierceArmor: true
+            pierceBuilding: true
+            speed: 5
+            lifetime: 30
+            damage: 100
+            width: 10
+            height: 10
+            trailInterval: 1
+            trailEffect: {
+                type: WaveEffect
+                colorFrom: 6271ad
+                colorTo: 4031ad
+                sizeTo: 4
+                sizeFrom: 8
+                lifetime: 15
+                strokeFrom: 3
+            }
+            fragOnHit: false
+            fragVelocityMin: 1
+            fragVelocityMax: 1
+            fragBullets: 1
+            fragSpread: 0
+            fragRandomSpread: 0
+            fragAngle: 180
+            fragBullet: {
+                type: BulletType
+                hitSound: none
+                lightOpacity: 0.6
+                lightColor: 6271ad
+                lightRadius: 40
+                status: radiation-decay
+                statusDuration: 400
+                pierce: true
+                pierceArmor: true
+                pierceBuilding: true
+                speed: 5
+                lifetime: 30
+                damage: 65
+                width: 10
+                height: 10
+                trailInterval: 1
+                trailEffect: {
+                    type: WaveEffect
+                    colorFrom: 6271ad
+                    colorTo: 4031ad
+                    sizeTo: 4
+                    sizeFrom: 8
+                    lifetime: 15
+                    strokeFrom: 3
+                }
+            }
+            shootEffect: {
+                type: WaveEffect
+                colorFrom: 6271ad
+                colorTo: 4031ad
+                sizeTo: 6
+                lifetime: 30
+                strokeFrom: 3
+            }
+}
+reload: 80
+shootSound: shoot-bravery
+y: 0
+x: 0
+predictTarget: false
+shootCone: 25
+}
 ]
