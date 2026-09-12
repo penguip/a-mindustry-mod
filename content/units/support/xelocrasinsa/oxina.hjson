@@ -35,7 +35,7 @@ bullet: {
             trailEffect: {
                 type: WaveEffect
                 colorFrom: 7ae865
-                colorTo: 4031ad
+                colorTo: 27e8a6
                 sizeTo: 4
                 sizeFrom: 8
                 lifetime: 15
@@ -68,7 +68,7 @@ bullet: {
                 trailEffect: {
                     type: WaveEffect
                     colorFrom: 7ae865
-                    colorTo: 4031ad
+                    colorTo: 27e8a6
                     sizeTo: 4
                     sizeFrom: 8
                     lifetime: 15
@@ -78,7 +78,7 @@ bullet: {
             shootEffect: {
                 type: WaveEffect
                 colorFrom: 7ae865
-                colorTo: 4031ad
+                colorTo: 27e8a6
                 sizeTo: 6
                 lifetime: 30
                 strokeFrom: 3
