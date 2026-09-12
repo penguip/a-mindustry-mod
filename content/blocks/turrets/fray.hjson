@@ -222,8 +222,7 @@ ammoTypes: {
     backColor: 486acd
     pierce: true
     pierceCap: 4
-    despawnHit: true
-    despawnSound: explosionArtilleryShock
+    hitSound: explosionArtilleryShock
     fragBullets: 8
     fragBullet: {
       type: LightningBulletType
@@ -247,8 +246,7 @@ ammoTypes: {
     backColor: 486acd
     pierce: true
     pierceCap: 6
-    despawnHit: true
-    despawnSound: explosionDull
+    hitSound: explosionDull
     fragBullets: 6
     fragRandomSpread: 0
     fragSpread: 60
@@ -278,8 +276,7 @@ ammoTypes: {
     collidesGround: false
     frontColor: ff7ac8
     backColor: 486acd
-    despawnHit: true
-    despawnSound: explosionMissile
+    hitSound: explosionMissile
     despawnShake: 8
     despawnEffect: none
     hitEffect: none
