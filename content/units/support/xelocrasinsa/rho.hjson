@@ -1,13 +1,13 @@
 type: payload
 name: Rho
 description: The core component of Xelocrasinsa, now stripped of its protective parts activating an internal emergency defense system. It will now attack with the combined capabilities of all the pieces used to make it. Only this version is makeable.
-speed: 0.6
+speed: 1
 flying: true
 health: 36500
 payloadCapacity: 5184
 armor: 8
 outlineColor: 282C36
-hitSize: 20
+hitSize: 30
 mineSpeed: 10
 buildSpeed: 5
 mineTier: 5
@@ -42,3 +42,31 @@ regen: 5
 sides: 100
 }
 ]
+weapons: [{
+  outlineColor: 282C36
+  y: 1
+  x: 8
+  reload: 35
+  shoot: {
+  shots: 2
+  shotDelay: 10
+  }
+  shootSound: shootTank
+  bullet: {
+    type: BasicBulletType
+    damage: 20
+    healPercent: 2
+    height: 3
+    width: 3
+    pierce: true
+    pierceCap: 2
+    pierceBuildings: false
+    frontColor: 4ce874
+    backColor: 27e8a6
+    trailColor: 4ce874
+    trailLength: 25
+    trailWidth: 2
+    speed: 3
+    lifetime: 20
+  }
+}]
