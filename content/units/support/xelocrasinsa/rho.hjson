@@ -74,6 +74,7 @@ parts: [
   {
     type: HoverPart
     circles: 4
+    color: 7ae865
     radius: 23
     layer: 110
     sides: 8
@@ -82,7 +83,8 @@ parts: [
   {
     type: HoverPart
     circles: 1
-    radius: 140
+    color: 7ae865
+    radius: 160
     sides: 16
     stroke: 7
     layer: 110
