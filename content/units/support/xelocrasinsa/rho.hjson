@@ -1,0 +1,44 @@
+type: payload
+name: Rho
+description: The core component of Xelocrasinsa, now stripped of its protective parts activating an internal emergency defense system. It will now attack with the combined capabilities of all the pieces used to make it. Only this version is makeable.
+speed: 0.6
+flying: true
+health: 36500
+payloadCapacity: 5184
+armor: 8
+outlineColor: 282C36
+hitSize: 20
+mineSpeed: 10
+buildSpeed: 5
+mineTier: 5
+mineItems: [
+  yttrium
+  osmium
+  gadolinium
+  calcium
+  unstable-zircon
+  actinide-shale
+  ]
+mineBeamOffset: 10
+engineOffset: 4
+engineSize: 4
+commands: [
+  move
+  enterPayload
+  mine
+  repair
+  rebuild
+  assist
+]
+mineWalls: true
+abilities: [
+ {
+type: ForceFieldAbility
+radius: 130
+chanceDeflect: 0.25
+cooldown: 6000
+max: 10000
+regen: 5
+sides: 100
+}
+]
