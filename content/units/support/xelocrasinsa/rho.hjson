@@ -90,4 +90,14 @@ parts: [
     layer: 110
     minStroke: 0
   }
+  {
+    type: HoverPart
+    circles: 2
+    color: 7ae865
+    radius: 160
+    sides: 12
+    stroke: 4
+    layer: 110
+    minStroke: 0
+  }
 ]
