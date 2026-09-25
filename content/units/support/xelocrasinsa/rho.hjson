@@ -1,6 +1,6 @@
 type: payload
 name: Rho
-description: The core component of Xelocrasinsa, now stripped of its protective parts activating an internal emergency defense system. It will now attack with the combined capabilities of all the pieces used to make it. Only this version is makeable.
+description: The core component of Xelocrasinsa, now stripped of its protective parts, activating an internal emergency defense system. It will now attack with the combined capabilities of all the pieces used to make it, along with calling in a massive meteor for a giant explosion that fully heals anything caught inside. Only this version is makeable, yet it still retains the non-combat functionalities of Xelocrasinsa.
 speed: 1
 flying: true
 health: 36500
@@ -70,3 +70,22 @@ weapons: [{
     lifetime: 20
   }
 }]
+parts: [
+  {
+    type: HoverPart
+    circles: 4
+    radius: 23
+    layer: 110
+    sides: 8
+    minStroke: 0.01
+  }
+  {
+    type: HoverPart
+    circles: 1
+    radius: 140
+    sides: 16
+    stroke: 7
+    layer: 110
+    minStroke: 0
+  }
+]
