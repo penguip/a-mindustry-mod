@@ -111,6 +111,73 @@ bullet: {
 x: 0
 mirror: false
 }
+{
+type: Weapon
+bullet: {
+  type: RailBulletType
+  damage: 800
+  lightRadius: 20
+  lightningType: damageLightning
+  range: 25
+  recoil: -45
+  shootEffect: {
+    type: ParticleEffect
+    lifetime: 15
+    baseLength: 2
+    colorTo: "#bda556ff"
+    cone: -30
+    interp: circleOut
+    lenTo: 0
+    length: -30
+    line: true
+    particles: 4
+    sizeInterp: linear
+    strokeFrom: 1.5
+  }
+  smokeEffect: none
+  statusDuration: 80
+  trailRotation: true
+  length: 65
+  pierceEffect: {
+    type: ParticleEffect
+    lifetime: 30
+    colorTo: "#bda556ff"
+    cone: 70
+    interp: circleOut
+    lenFrom: 3
+    lenTo: 1
+    line: true
+    particles: 4
+    strokeFrom: 1.6
+  }
+  pointEffect: {
+    type: ParticleEffect
+    lifetime: 30
+    colorTo: "#bda556ff"
+    cone: 0
+    interp: circleOut
+    length: 0
+    offset: -90
+    particles: 1
+    sizeFrom: 4.5
+    sizeInterp: pow5Out
+  }
+  pointEffectSpace: 6
+  status: beepdustry-expose
+  collidesTeam: true
+  healPercent: 15
+}
+recoil: -5
+recoilTime: 100
+reload: 450
+rotationLimit: 20
+shootSound: sword-attack
+shootCone: 50
+top: false
+shootStatus: slow
+mirror: false
+x: 0
+}
 ]
 parts: [
   {
