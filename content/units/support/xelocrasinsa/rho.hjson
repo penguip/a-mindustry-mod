@@ -8,6 +8,8 @@ payloadCapacity: 5184
 armor: 8
 outlineColor: 282C36
 hitSize: 30
+accel: 0.04
+drag: 0.03
 mineSpeed: 10
 buildSpeed: 5
 mineTier: 5
@@ -54,7 +56,7 @@ weapons: [{
   shootSound: shootTank
   bullet: {
     type: BasicBulletType
-    damage: 20
+    damage: 55
     healPercent: 2
     height: 3
     width: 3
@@ -119,7 +121,7 @@ bullet: {
   lightRadius: 20
   lightningType: damageLightning
   range: 25
-  recoil: -45
+  recoil: -5
   shootEffect: {
     type: ParticleEffect
     lifetime: 15
