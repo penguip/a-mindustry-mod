@@ -8,7 +8,7 @@ payloadCapacity: 5184
 armor: 8
 outlineColor: 282C36
 hitSize: 30
-accel: 0.04
+accel: 0.06
 drag: 0.03
 mineSpeed: 10
 buildSpeed: 5
@@ -174,12 +174,11 @@ bullet: {
 }
 recoil: -5
 recoilTime: 100
-reload: 450
+reload: 600
 rotationLimit: 20
 shootSound: sword-attack
 shootCone: 50
 top: false
-shootStatus: slow
 mirror: false
 x: 0
 }
