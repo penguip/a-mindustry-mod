@@ -264,6 +264,7 @@ bullet: {
     lifetime: 600
     lightRadius: 20
     lightningType: damageLightningGround
+    hitColor: 7ae865
     speed: 0
     trailEffect: {
       type: WaveEffect
