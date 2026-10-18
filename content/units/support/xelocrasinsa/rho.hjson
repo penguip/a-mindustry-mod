@@ -282,7 +282,7 @@ bullet: {
     despawnHit: true
     despawnShake: 50
     healPercent: 100
-    splashDamage: 8200
+    splashDamage: 3500
     splashDamageRadius: 120
     backColor: "#4ce874ff"
     frontColor: "#7ae865ff"
