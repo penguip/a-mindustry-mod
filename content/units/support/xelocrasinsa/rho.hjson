@@ -228,6 +228,7 @@ bullet: {
           despawnShake: 5
           healPercent: 10
           hitEffect: none
+          despawnSound: explosion-tenashixis-small
           lightRadius: 20
           lightningType: damageLightningGround
           speed: 0
