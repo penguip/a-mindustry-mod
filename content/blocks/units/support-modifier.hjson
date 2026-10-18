@@ -1,11 +1,12 @@
 type: UnitAssembler
 size: 5
 localizedName: Support Modifier
-description: Creates larger support units by fusing together inputted blocks and Shiego units via entropy. Output tier may be increased by adding modules. 
+description: Creates larger support units by fusing together inputted blocks and Shiego units via entropy. Output tier may be increased by adding modules.
+details: The complicated recipes are compensated for by a larger area.
 health: 3500
 category: units
 droneType: redesign
-areaSize: 13
+areaSize: 27
 requirements: [
   yttrium/200
   osmium/80
@@ -52,6 +53,23 @@ plans: [
       beepdustry-pyro-rig/1
       beepdustry-monopolize/2
       beepdustry-tachyon-accelerator/2
+    ]
+    time: 7200
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: rho
+    requirements: [
+      beepdustry-actinium-wall-large/10
+      beepdustry-specialized-plastanium-wall-large/10
+      beepdustry-wall-of-sakura-large/12
+      beepdustry-shiego/20
+      beepdustry-dissent/1
+      beepdustry-ion-bore/1
+      beepdustry-erosion-rig/1
+      beepdustry-monopolize/4
+      beepdustry-tachyon-accelerator/8
+      beepdustry-force-well
     ]
     time: 7200
   }
