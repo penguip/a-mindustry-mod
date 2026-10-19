@@ -187,6 +187,7 @@ type: Weapon
 bullet: {
   type: BasicBulletType
   damage: 0
+  keepVelocity: false
   despawnHit: true
   despawnShake: 15
   fragBullet: {
