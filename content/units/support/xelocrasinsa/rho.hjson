@@ -308,12 +308,12 @@ bullet: {
   sprite: shell
   width: 13
   despawnSound: shootQuad
-  recoil: 7
+  recoil: 3
 }
 mirror: false
 name: beepdustry-
-recoilTime: 900
-reload: 1800
+recoilTime: 1800
+reload: 1548
 chargeSound: charge-crow
 shoot: {
   type: ShootPattern
