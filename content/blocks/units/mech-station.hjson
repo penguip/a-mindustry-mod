@@ -24,11 +24,6 @@ plans: [
 consumes: {
   power: 3.5
 }
-research: core-glitch
-recearchCost: [
-  yttrium/60
-  osmium/40
-]
 research: {
   parent: core-glitc
   objectives: [
