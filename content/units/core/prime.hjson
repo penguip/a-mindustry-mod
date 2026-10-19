@@ -197,5 +197,3 @@ weapons: [
 }
 ]
 range: 196
-research: glitch
-alwaysUnlocked: true
