@@ -33,9 +33,7 @@ weapons: [{
   shootSound: shootLancer
   inaccuracy: 5
   mirror: true
-  shootCone: 180
   useAttackRange: true
-  rotationLimit: 180
   bullet: {
     type: LaserBulletType
     damage: 25
@@ -52,5 +50,3 @@ weapons: [{
   }
 }]
 range: 196
-research: glitch
-alwaysUnlocked: true
