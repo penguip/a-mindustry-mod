@@ -1,6 +1,6 @@
 type: payload
 name: Xelocrasinsa(Minus Yacestro)
-description: Emits a durable force field around allies. Has enhanced mining capabilities, mining rapidly. Possesses multi-part sentience; every part is its own machine. When critical damage is reached, one or two parts will detach in a pulse of plasmatic energy that heals the remaining unit and reactivates the shield. Can pick up virtually all ground units and blocks in large amounts. [scarlet]With the power it unleashes if the final parts detach, it may be ideal to prepare...
+description: "Emits a durable force field around allies. Has enhanced mining capabilities, mining rapidly. Possesses multi-part sentience; every part is its own machine. When critical damage is reached, one or two parts will detach in a pulse of plasmatic energy that heals the remaining unit and reactivates the shield. Can pick up virtually all ground units and blocks in large amounts. [scarlet]With the power it unleashes if the final parts detach, it may not be entirely harmless..."
 speed: 0.6
 flying: true
 health: 6540
