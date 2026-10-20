@@ -4,7 +4,7 @@ description: Switches out one of its blades for a high damage, short range shotg
 speed: 0.7
 flying: false
 outlineColor: 282C36
-health: 1290
+health: 2380
 armor: 4
 hitSize: 12
 weapons: [
