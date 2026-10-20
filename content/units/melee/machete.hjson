@@ -1,0 +1,9 @@
+type: mech
+name: Machete
+description: Switches out one of its blades for a high damage, short range shotgun.
+speed: 0.7
+flying: false
+outlineColor: 282C36
+health: 1290
+armor: 4
+hitSize: 12
