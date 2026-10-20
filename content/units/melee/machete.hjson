@@ -80,3 +80,4 @@ weapons: [
     shootSound: sword-attack
     top: "false"
   }
+]
