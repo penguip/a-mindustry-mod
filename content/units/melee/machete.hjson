@@ -98,5 +98,21 @@ weapons: [
        backColor: bd5922
        frontColor: bda556
       }
+    shoot: {
+  type: ShootMulti
+  shots: 3
+  shotDelay: 15
+  source: {
+    type: ShootSpread
+    spread: 3.5
+    shots: 5
+  }
+  dest: [
+    {
+      shots: 3
+      shotDelay: 10
+    }
+  ]
+}
    }
 ]
