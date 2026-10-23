@@ -67,7 +67,7 @@ weapons: [
     name: machete-blade
     recoil: -5
     recoilTime: 50
-    reload: 80
+    reload: 115
     rotate: "true"
     rotateSpeed: 5
     rotationLimit: 20
@@ -94,7 +94,7 @@ weapons: [
        height: 10
        width: 2
        damage: 8
-       armorMultiplier: 1.5
+       armorMultiplier: 0.6
        backColor: bd5922
        frontColor: bda556
       }
@@ -102,10 +102,11 @@ weapons: [
   type: ShootMulti
   shots: 3
   shotDelay: 15
+  inaccuracy: 3.5
   source: {
     type: ShootSpread
-    spread: 3.5
-    shots: 5
+    spread: 6
+    shots: 7
   }
   dest: [
     {
