@@ -80,4 +80,23 @@ weapons: [
     shootSound: sword-attack
     top: "false"
   }
+  {
+    top: true
+    name: machete-rifle
+    mirror: false
+    shootSound: melee-shot
+    reload: 80
+    x: -6
+    bullet: {
+       type: BasicBulletType
+       speed: 7.5
+       lifetime: 7
+       height: 10
+       width: 2
+       damage: 8
+       armorMultiplier: 1.5
+       backColor: bd5922
+       frontColor: bda556
+      }
+   }
 ]
