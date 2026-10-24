@@ -1,7 +1,7 @@
 type: ContinuousLiquidTurret
 size: 3
 health: 2400
-localizedName: Sunder
+localizedName: Spite
 description: Starts a constant, armor piercing stream of flame.
 requirements: [
   gadolinium/500
