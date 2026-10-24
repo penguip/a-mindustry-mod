@@ -1,7 +1,7 @@
 type: ItemTurret
 size: 3
 health: 2400
-localizedName: Spite
+localizedName: Melancholy
 description: Accelerates items to extreme speeds, then launches them, dealing heavy damage and exploding violently on impact with enemies. Uses energicon as an energy source.
 requirements: [
   zirconium/700
