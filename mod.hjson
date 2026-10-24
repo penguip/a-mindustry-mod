@@ -168,6 +168,7 @@ contentOrder: [
   hover-modifier
   naval-modifier
   support-modifier
+  melee-modifier
   radiant-payload-enhancer
   defiant-payload-enhancer
   prismatic-payload-enhancer
