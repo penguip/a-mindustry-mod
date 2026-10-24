@@ -87,6 +87,7 @@ weapons: [
     shootSound: melee-shot
     reload: 80
     x: -6
+    inaccuracy: 3.5
     bullet: {
        type: BasicBulletType
        speed: 7.5
@@ -102,7 +103,6 @@ weapons: [
   type: ShootMulti
   shots: 3
   shotDelay: 15
-  inaccuracy: 3.5
   source: {
     type: ShootSpread
     spread: 6
