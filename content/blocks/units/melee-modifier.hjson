@@ -7,11 +7,11 @@ category: units
 droneType: redesign
 areaSize: 13
 requirements: [
-  yttrium/110
-  osmium/120
-  silicon/75
-  gadolinium/100
-  oxide/30
+  yttrium/230
+  osmium/100
+  silicon/100
+  gadolinium/90
+  iron/65
 ]
 liquidCapacity: 120
 plans: [
@@ -24,6 +24,17 @@ plans: [
       beepdustry-embargo/1
     ]
     time: 1200
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: zweihander
+    requirements: [
+      beepdustry-iron-wall-large/12
+      beepdustry-actinium-wall/6
+      beepdustry-knife/5
+      beepdustry-phrase/1
+    ]
+    time: 4800
   }
 ]
 squareSprite: false
