@@ -86,13 +86,13 @@ weapons: [
     name: zweihander-rifle
     mirror: false
     shootSound: melee-shot
-    reload: 7
+    reload: 6
     x: -10
     inaccuracy: 3.5
     bullet: {
        type: BasicBulletType
        speed: 7.5
-       lifetime: 45
+       lifetime: 15
        height: 10
        width: 2
        damage: 15
