@@ -81,4 +81,24 @@ weapons: [
     shootSound: sword-attack
     top: "false"
   }
+  {
+     top: true
+    name: zweihander-rifle
+    mirror: false
+    shootSound: melee-shot
+    reload: 7
+    x: -10
+    inaccuracy: 3.5
+    bullet: {
+       type: BasicBulletType
+       speed: 7.5
+       lifetime: 45
+       height: 10
+       width: 2
+       damage: 15
+       armorMultiplier: 0.5
+       backColor: bd5922
+       frontColor: bda556
+      }
+   }
 ]
