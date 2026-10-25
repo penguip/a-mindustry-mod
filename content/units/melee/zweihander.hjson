@@ -1,0 +1,9 @@
+type: mech
+name: Zweihander
+description: Shoots a barrage of peircing bullets. Cleaves through enemies with a large blade that does extra damage to buildings.
+speed: 0.654
+flying: false
+outlineColor: 282C36
+health: 9120
+armor: 10
+hitSize: 17
